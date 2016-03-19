@@ -1,0 +1,132 @@
+// font mixins used in site. this helps have one set of fonts
+// example: https://github.com/VoroninNick/millwood/blob/master/app/assets/stylesheets/_fonts.sass
+
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:400,300,300italic,400italic,500,500italic,700,700italic&subset=latin,cyrillic-ext,latin-ext,cyrillic)
+@import url(https://fonts.googleapis.com/css?family=Lora:400,400italic,700,700italic&subset=latin,latin-ext,cyrillic)
+
+$font-family-fira-sans: 'Fira Sans', sans-serif
+$font-family-lora: 'Lora', serif
+
+$body-font-family: $font-family-lora
+$header-font-family: $font-family-fira-sans
+
+
+$font-size-60: 60px
+$font-size-45: 45px
+$font-size-32: 32px
+$font-size-20: 20px
+$font-size-18: 18px
+
+
+
+// fonts families
+= body-font-family
+	font-family: $body-font-family
+= header-font-family
+	font-family: $header-font-family
+
+= fira-sans
+	font-family: $font-family-fira-sans
+= lora
+	font-family: $font-family-lora
+
+
+
+
+// font-weight
+= light
+	font-weight: 300
+= normal
+	font-weight: 400
+
+= font-weight-500
+	font-weight: 500
+
+= semi-bold
+	font-weight: 600
+= bold
+	font-weight: 700
+
+
+// font-sizes
+= font-60
+	font-size: $font-size-60
+= font-60-500
+	+font-60
+	+font-weight-500
+= font-45
+	font-size: $font-size-45
+= font-45-bold
+	+font-45
+	+bold
+= font-32
+	font-size: $font-size-32
+= font-20
+	font-size: $font-size-20
+= font-18
+	font-size: $font-size-18
+
+
+= header
+	+header-font-family
+	text-transform: uppercase
+	color: $pink-color
+
+
+
+= h1
+	+header
+
+
+= h2
+	+header
+	//+font-24
+
+= h3
+	+header
+	//+font-18
+
+= h4
+	+header
+
+= h5
+	+header
+
+= h6
+	+header
+
+
+
+
+
+
+
+
+
+= font-classes
+	h1, .h1
+		+h1
+
+	h2, .h2
+		+h2
+
+	h3, .h3
+		+h3
+
+	h4, .h4
+		+h4
+		font-weight: 500
+
+	h5, .h5
+		+h5
+
+	h6, .h6
+		+h6
+
+
+body
+	+body-font-family
+
++font-classes
+
+

@@ -47,3 +47,5 @@ end
 
 gem 'slim-rails'
 gem 'bower-rails'
+
+gem 'inline_svg'

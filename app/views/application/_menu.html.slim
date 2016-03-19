@@ -1,0 +1,32 @@
+.fullscreen-menu
+  .inner
+
+    #main-menu
+      ul
+        - main_menu_items.each_with_index do |item, index|
+          - str_index = (index + 1).to_s
+          - str_index = "0#{str_index}" if str_index.length == 1
+          li
+            a href="#"
+
+              .index
+                = str_index
+              .index-line
+              .title
+                = item[:title]
+              .title-line
+              .sub-label
+                = item[:sub_label]
+    #main-menu-footer
+      #main-menu-footer-phones
+        a.phone href="tel:+380504170728"
+          |+38 (050) 417 07 28
+        a.phone href="tel:+380322403350"
+          |+38 (032) 240 33 50
+      #main-menu-footer-icons
+
+      #main-menu-footer-locales
+        a.active href="#"
+          |eng
+        a href="#"
+          |ukr

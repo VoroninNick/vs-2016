@@ -1,0 +1,57 @@
+// colors used in site
+// example:
+//$light-brown-color: #d3b184
+//$brown-color: #9E7F5E
+//$green-color: #4c6e32
+//$light-green-color: lighten($green-color, 20)
+
+$dark-white-color: #ebeff0
+$light-gray-text-color: #91a3ad
+$pink-color: #eb0873
+$violet-color: #862a8f
+$black-color: #212121
+$blue-color: #00ade9
+
+
+$box-shadow-normal: 0 0 10px rgba(0, 0, 0, 0.6)
+$box-shadow-button: 0 0 5px rgba(0, 0, 0, 0.6)
+$box-shadow-popup: 0 0 15px rgba(0, 0, 0, 0.9)
+
+= box-shadow-normal
+	box-shadow: $box-shadow-normal
+
+= box-shadow-button
+	box-shadow: $box-shadow-button
+
+= box-shadow-popup
+	box-shadow: $box-shadow-popup
+
+@function content-padding-percent()
+	@return percentage(12/8 * 1/12)
+
+= content-padding
+	padding-left: content-padding-percent()
+
+	@media #{$small-only}
+		padding-left: 0
+
+// z-index
+
+$xs-only: "only screen and (max-width: 480px)"
+
+= xs-only
+	@media #{$xs-only}
+		@content
+
+$zindex-popup-overlay: 1000
+$zindex-popup: 1100
+$z-index-popups-navigation: 1200
+$zindex-header: 2000
+$z-index-footer: 100
+$z-index-sidebar-menu-button: 200
+$z-index-calculator-button: 200
+$zindex-main-menu: 2000
+
+
+
+$header-height: 120px

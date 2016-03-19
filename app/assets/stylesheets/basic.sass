@@ -1,0 +1,31 @@
+body
+	background: $black-color
+
+a
+	+transition-property(all)
+	+transition-duration(0.2s)
+
+	&:hover
+		color: $pink-color
+
+
+.blue-header
+	color: $blue-color
+
+.icon-link
+	text-decoration: none
+	margin-right: 95px
+	svg
+		margin-right: 15px
+		*
+			fill: $pink-color
+.icon-link-label
+	color: $light-gray-text-color
+	vertical-align: top
+	+transition(inherit)
+
+.icon-link
+	&:hover
+		.icon-link-label
+			color: $pink-color
+

@@ -1,0 +1,31 @@
+.btn
+
+	&.btn-hire-us
+		background: $dark-white-color
+		padding: 0 22px
+		height: 47px
+		line-height: 47px
+		color: $black-color
+		text-transform: lowercase
+		text-decoration: none
+		display: inline-block
+		position: relative
+		+font-20
+		+fira-sans
+
+
+		&:before, &:after
+			content: ""
+			width: 25%
+			display: block
+			background: $pink-color
+			height: 3px
+			position: absolute
+
+		&:before
+			top: 0
+			left: 0
+
+		&:after
+			bottom: 0
+			right: 0

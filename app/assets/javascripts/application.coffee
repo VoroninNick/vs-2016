@@ -4,7 +4,8 @@
 #= require jquery-ui/jquery-ui.min
 #= require jquery.scrolldelta
 #= require jquery.scrollend/dist/jquery.scrollend.min
+#= require components/header
 
-#= require jquery.drawsvg.min.js
+# require jquery.drawsvg.min.js
 
-#= require basic
+# require basic

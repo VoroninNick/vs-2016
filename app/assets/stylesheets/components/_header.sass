@@ -1,0 +1,60 @@
+#header
+	height: $header-height
+	//position: fixed
+	width: 100%
+
+
+#header-logo-compact
+	svg
+		width: 40px
+		height: 40px
+		*
+			fill: white
+
+#header-hire-us-button-wrap
+	position: absolute
+	top: 53px
+	right: 120px
+
+
+
+
+#header-logo
+	position: absolute
+	top: 53px
+	left: 73px
+
+#svg-logo-symbol
+	*
+		+transition-property(all)
+		+transition-duration(0.5s)
+#svg-logo-word-voronin, #svg-logo-word-studio
+	+transition-property(all)
+	+transition-duration(1s)
+
+
+#main-menu-button
+	position: absolute
+	right: 80px
+	top: 60px
+
+	.inner
+		+burger($color: white, $height: 3px)
+
+
+
+body.has-opened-menu
+	#main-menu-button
+		.inner
+			+burger-to-cross()
+	#header-hire-us-button-wrap
+		display: none
+
+body:not(.has-opened-menu)
+	#svg-logo-symbol
+		*
+			fill: $dark-white-color
+
+	#svg-logo-word-voronin, #svg-logo-word-studio
+		//display: none
+		opacity: 0
