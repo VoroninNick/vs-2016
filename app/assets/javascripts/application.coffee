@@ -9,3 +9,6 @@
 # require jquery.drawsvg.min.js
 
 # require basic
+#= require jquery.tubular.1.0
+
+#= require pages/home

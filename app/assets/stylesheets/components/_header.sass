@@ -1,7 +1,8 @@
 #header
 	height: $header-height
-	//position: fixed
+	position: fixed
 	width: 100%
+	z-index: $zindex-header
 
 
 #header-logo-compact
@@ -15,6 +16,7 @@
 	position: absolute
 	top: 53px
 	right: 120px
+
 
 
 
@@ -37,9 +39,15 @@
 	position: absolute
 	right: 80px
 	top: 60px
+	cursor: pointer
 
 	.inner
 		+burger($color: white, $height: 3px)
+
+	&:hover
+		.inner
+			&, &:before, &:after
+				background-color: $pink-color
 
 
 
