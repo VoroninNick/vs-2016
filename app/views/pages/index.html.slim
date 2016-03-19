@@ -1,5 +1,5 @@
 .full-page-container
-  #welcome-page-section.page-section
+  #welcome-page-section.section.page-section
     #welcome-block
       .inner
         .blue-header
@@ -14,3 +14,17 @@
           = inline_svg("svg/portfolio.svg")
           span.icon-link-label
             |View portfolio
+  #home-portfolio-section.section.page-section
+    .slide.home-portfolio-slide
+      h1
+        |Slide 1
+    .slide.home-portfolio-slide
+      |Slide 2
+    .slide.home-portfolio-slide
+      |Slide 3
+
+  #home-services-section.section.page-section
+    - 8.times do
+      .service
+  #footer.section.fp-auto-height
+    .inner

@@ -36,3 +36,25 @@
 
 	.blue-header
 		+font-32
+
+#home-portfolio-section
+	background: red
+#home-services-section
+	background: green
+
+
+.home-portfolio-slide
+	text-align: center
+	color: $dark-white-color
+	+font-60-500
+
+#home-services-section
+	.service
+		width: percentage(1/3)
+		height: percentage(1/3)
+		display: block
+		float: left
+		&:nth-child(2n+1)
+			background: skyblue
+		&:nth-child(2n+2)
+			background: lightgreen
