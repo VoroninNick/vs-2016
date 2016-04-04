@@ -7,7 +7,7 @@ html
 
     = csrf_meta_tags
 
-  body
+  body data-controller=controller_name data-action=action_name controller-action="#{controller_name}__#{action_name}"
     = render "header"
     = render "menu"
     = yield

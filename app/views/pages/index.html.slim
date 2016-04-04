@@ -1,5 +1,5 @@
 .full-page-container
-  #welcome-page-section.section.page-section
+  #welcome-page-section.section.page-section tubular="#{@enable_tubular}" tubular-video-id="o1prvOC1_90"
     #welcome-block
       .inner
         .blue-header
@@ -24,7 +24,25 @@
       |Slide 3
 
   #home-services-section.section.page-section
-    - 8.times do
-      .service
+    .services-intro
+      .title
+        = t("pages.home.services.title")
+      p.description
+        = t("pages.home.services.description")
+    - @services.each do |service|
+      - service_icon_path = "#{service.icon.path.gsub(Rails.root.to_s + "/", "")}"
+      - service_icon_path = service.icon.path
+      /- service_icon_path = "svg/expertise/logo_and_ci.svg"
+      a.service href=""
+        .service-bg-image
+        .service-name-and-description
+          .service-name
+            = service.name
+          .service-description
+            = service.description
+        .svg-icon.service-icon
+          /= inline_svg(service_icon_path)
+          = embedded_svg_from_absolute_path(service_icon_path)
+
   #footer.section.fp-auto-height
     .inner

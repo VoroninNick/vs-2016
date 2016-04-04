@@ -9,4 +9,14 @@ module ApplicationHelper
         { title: "where", sub_label: "contacts" }
     ]
   end
+
+  def inline_svg(path, transform_params={})
+    if !File.exists?(path)
+      path = Rails.root.join("app/assets/images").join(path)
+    end
+    if !File.exists?(path)
+      return "not_found"
+    end
+    InlineSvg::TransformPipeline.generate_html_from(path, transform_params).html_safe
+  end
 end

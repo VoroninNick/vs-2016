@@ -1,6 +1,9 @@
 $('document').ready ()->
-  options = { videoId: 'a69zhkp3TkI', start: 3 };
-  $('#welcome-page-section').tubular(options);
+
+  $welcome_page_section = $('#welcome-page-section')
+  if $welcome_page_section.attr("tubular") == 'true'
+    options = { videoId: $welcome_page_section.attr("tubular-video-id"), start: 3 }
+    $welcome_page_section.tubular(options);
   # f-UGhWj1xww cool sepia hd
   # 49SKbS7Xwf4 beautiful barn sepia
   # cdrHWbBQ-Nc Oil Pump

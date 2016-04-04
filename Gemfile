@@ -49,3 +49,16 @@ gem 'slim-rails'
 gem 'bower-rails'
 
 gem 'inline_svg'
+
+gem 'globalize'
+
+gem 'protected_attributes'
+
+gem 'paperclip', '3.5.3'
+gem 'rails_admin'
+gem 'cms', github: "pkorenev/cms"
+gem 'rails_admin_globalize_field', github: "VoroninNick/rails_admin_globalize_field", branch: "pasha"
+gem 'rails_admin_nestable'
+
+gem 'thin'
+gem 'quiet_assets'
