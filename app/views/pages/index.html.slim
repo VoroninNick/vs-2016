@@ -15,13 +15,10 @@
           span.icon-link-label
             |View portfolio
   #home-portfolio-section.section.page-section
-    .slide.home-portfolio-slide
-      h1
-        |Slide 1
-    .slide.home-portfolio-slide
-      |Slide 2
-    .slide.home-portfolio-slide
-      |Slide 3
+    - 3.times do |i|
+      .slide.home-portfolio-slide style="background-image: url(#{asset_path("portfolio_home_banners/#{i+1}.jpg")})"
+    
+   
 
   #home-services-section.section.page-section
     .services-intro
