@@ -1,0 +1,141 @@
+.page-banner
+	position: relative
+	height: 80vh
+	width: 100%
+	overflow: hidden
+
+
+.page-banner-description-block
+	position: absolute
+	top: 50%
+	left: 50%
+	+transform( translate(-50%, -50%))
+	display: block
+	width: 800px
+	height: 80px
+
+	.inner
+		position: relative
+
+
+	.rect
+		height: 80px
+		border: 5px solid $violet-color
+		
+	.title
+		font-size: 56px
+		color: $dark-white-color
+		font-weight: 700
+		text-transform: uppercase
+		letter-spacing: 4px
+		top: -15px
+		left: -30px
+		position: absolute
+
+	.number
+		color: $blue-color
+		+header-font-family
+		position: absolute
+		+font-60
+		bottom: -17px
+		right: 30px
+	.subtitle
+		color: $light-gray-text-color
+		position: absolute
+		right: 0
+		bottom: -50px
+		transform: translateX(50%)
+		+font-18
+
+.page-banner-bg
+	background-size: cover
+	height: 100%
+	position: absolute
+	width: 100%
+
+	+grayscale
+
+	&:after
+		+overlay(0.85)
+
+.scroll-down
+	color: $light-gray-text-color
+	position: absolute
+	display:  block
+	bottom: 40px
+	left: 50%
+	+transform(translateX(-50%))
+
+
+
+.services
+	.service
+		height: 75vh
+		width: 100%
+		position: relative
+
+	.number
+		position: absolute
+		z-index: 0
+		font-size: 400px
+		bottom: 0
+		right: 0
+		line-height: 1
+		color: #D3D3D3
+
+	.service-image
+		width: 50%
+		height: 100%
+		float: right
+		background-size: cover
+		background-repeat: no-repeat
+
+	.service-info
+		background: $dark-white-color
+		width: 50%
+		height: 100%
+		position: relative
+		overflow: hidden
+		float: left
+
+		.inner
+			z-index: 1
+			position: absolute
+			top: 50%
+			+transform(translateY(-50%))
+			padding: 100px 100px 100px 140px
+
+		.service-icon
+			display: block
+			svg
+				width: 120px
+				height: 80px
+				*
+					opacity: 1
+					fill: $pink-color
+
+
+		.service-name
+			color: $pink-color
+			+font-45
+			+font-weight-500
+			line-height: 1
+			+fira-sans
+			text-transform: uppercase
+			margin: 15px 0 20px 0
+
+		.item-links
+			margin-top: 70px
+
+
+			.icon-link-label
+				color: $pink-color
+
+
+	.service
+		&:nth-child(2n+2)
+			.service-image
+				float: left
+			.service-info
+				float: right
+				background: none

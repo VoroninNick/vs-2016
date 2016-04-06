@@ -48,8 +48,11 @@ RailsAdmin.config do |config|
   config.model_translation Service do
     field :locale, :hidden
     field :name
+    field :descriptive_name
     field :url_fragment
     field :description
+    field :long_description
+
     field :content
   end
 end

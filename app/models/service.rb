@@ -2,12 +2,12 @@ class Service < ActiveRecord::Base
   attr_accessible *attribute_names
 
   def self.initialize_globalize
-    translates :name, :url_fragment, :description, :content
+    translates :name, :descriptive_name, :url_fragment, :description, :long_description, :content
     accepts_nested_attributes_for :translations
     attr_accessible :translations, :translations_attributes
 
     Translation.class_eval do
-      self.table_name = :product_translations
+      self.table_name = :service_translations
       attr_accessible *attribute_names
       belongs_to :service, class_name: "Service"
 
@@ -41,10 +41,33 @@ class Service < ActiveRecord::Base
 
   has_attached_file :icon
   has_attached_file :home_bg, styles: { xxl: "840x420#" }
-  has_attached_file :list_image
+  has_attached_file :list_image, styles: { xxl: "1024x850#" }
 
   [:icon, :home_bg, :list_image].each do |attachment_name|
     attr_accessible attachment_name
     allow_delete_attachment attachment_name
+  end
+
+
+  def descriptive_name(locale = I18n.locale)
+    t = self.translations_by_locale[locale]
+
+    v = t.descriptive_name
+    if v.blank?
+      v = t.name
+    end
+
+    return v
+  end
+
+  def long_description(locale = I18n.locale)
+    t = self.translations_by_locale[locale]
+
+    v = t.long_description
+    if v.blank?
+      v = t.description
+    end
+
+    return v
   end
 end

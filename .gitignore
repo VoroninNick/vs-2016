@@ -23,3 +23,6 @@
 /tmp
 /log
 /.idea
+
+/db/schema.rb
+/Gemfile.lock

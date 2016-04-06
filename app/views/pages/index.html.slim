@@ -30,7 +30,6 @@
       p.description
         = t("pages.home.services.description")
     - @services.each do |service|
-      - service_icon_path = "#{service.icon.path.gsub(Rails.root.to_s + "/", "")}"
       - service_icon_path = service.icon.path
       /- service_icon_path = "svg/expertise/logo_and_ci.svg"
       a.service href=""

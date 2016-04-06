@@ -57,6 +57,7 @@ gem 'protected_attributes'
 gem 'paperclip', '3.5.3'
 gem 'rails_admin'
 gem 'cms', github: "pkorenev/cms"
+gem "attachable", github: "voroninnick/attachable"
 gem 'rails_admin_globalize_field', github: "VoroninNick/rails_admin_globalize_field", branch: "pasha"
 gem 'rails_admin_nestable'
 

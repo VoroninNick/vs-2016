@@ -1,0 +1,46 @@
+.page-banner
+  .page-banner-bg style="background-image: url(#{asset_path('banners/services.jpg')})"
+  .page-banner-description-block
+    .inner
+      .title
+        |Expertise
+      .number
+        |08
+      .subtitle
+        |fields of expertise
+      .rect
+
+  .scroll-down
+    |view all
+
+
+
+.services
+  - @services.each_with_index do |service, index|
+    - service_url = service.try(:url)
+    - service_icon_path = service.icon.path
+    - service_number = (index + 1).to_s
+    - if service_number.length < 2
+      - service_number = "0#{service_number}"
+    .service
+      a.service-image style="background-image: url(#{service.list_image.url(:xxl)})" href=service_url
+
+      .service-info
+        .inner
+          a.svg-icon.service-icon href=service_url
+            = embedded_svg_from_absolute_path(service_icon_path)
+          a.service-name href=service_url
+            = service.descriptive_name
+          .service-description
+            = service.long_description
+          .item-links
+            a.icon-link.play-link href=service_url
+              = inline_svg("svg/play.svg")
+              span.icon-link-label
+                |read more
+            a.icon-link.play-link href=""
+              = inline_svg("svg/portfolio.svg")
+              span.icon-link-label
+                |view cases
+        .number
+          = service_number
