@@ -39,6 +39,7 @@
 		+font-60
 		bottom: -17px
 		right: 30px
+
 	.subtitle
 		color: $light-gray-text-color
 		position: absolute
@@ -69,6 +70,8 @@
 
 
 .services
+	color: $dark-text-color
+
 	.service
 		height: 75vh
 		width: 100%
@@ -79,9 +82,10 @@
 		z-index: 0
 		font-size: 400px
 		bottom: 0
-		right: 0
+		right: 40px
 		line-height: 1
 		color: #D3D3D3
+		opacity: 0.4
 
 	.service-image
 		width: 50%
@@ -123,6 +127,8 @@
 			+fira-sans
 			text-transform: uppercase
 			margin: 15px 0 20px 0
+			//padding-bottom: 25px
+			display: block
 
 		.item-links
 			margin-top: 70px
@@ -133,7 +139,11 @@
 
 
 	.service
+		&:nth-child(2n+1)
+			.number
+
 		&:nth-child(2n+2)
+			color: $light-text-color
 			.service-image
 				float: left
 			.service-info

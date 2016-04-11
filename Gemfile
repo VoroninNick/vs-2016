@@ -54,7 +54,7 @@ gem 'globalize'
 
 gem 'protected_attributes'
 
-gem 'paperclip', '3.5.3'
+gem 'paperclip', '~> 4.2'
 gem 'rails_admin'
 gem 'cms', github: "pkorenev/cms"
 gem "attachable", github: "voroninnick/attachable"
@@ -63,3 +63,5 @@ gem 'rails_admin_nestable'
 
 gem 'thin'
 gem 'quiet_assets'
+
+gem 'ckeditor'

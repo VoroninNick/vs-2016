@@ -24,5 +24,7 @@ module Dev
     config.active_record.raise_in_transactional_callbacks = true
 
     I18n.available_locales = [:en, :uk, :ru]
+
+    Rails.application.config.assets.precompile += %w(ckeditor/filebrowser/images/*)
   end
 end

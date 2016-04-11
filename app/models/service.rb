@@ -70,4 +70,13 @@ class Service < ActiveRecord::Base
 
     return v
   end
+
+  def url(locale = I18n.locale)
+    v = self.translations_by_locale[locale].url_fragment
+    if !v.start_with?("/")
+      v = "/#{v}"
+    end
+
+    "/#{locale}/services#{v}"
+  end
 end

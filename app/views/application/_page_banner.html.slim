@@ -1,0 +1,15 @@
+- if @page_banner
+  .page-banner
+    .page-banner-bg style="background-image: url(#{asset_path(@page_banner[:bg_image])})"
+    .page-banner-description-block
+      .inner
+        .title
+          = @page_banner[:title]
+        .number
+          = @page_banner[:number]
+        .subtitle
+          = @page_banner[:number_description]
+        .rect
+
+    .scroll-down
+      = @page_banner[:scroll_down_title]

@@ -10,6 +10,7 @@ html
 
   body data-controller=controller_name data-action=action_name controller-action="#{controller_name}__#{action_name}"
     = render "header"
+    = render "page_banner"
     = render "menu"
     = yield
     = javascript_include_tag "application", 'data-turbolinks-track' => true

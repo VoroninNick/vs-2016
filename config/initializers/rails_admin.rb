@@ -53,6 +53,6 @@ RailsAdmin.config do |config|
     field :description
     field :long_description
 
-    field :content
+    field :content, :ck_editor
   end
 end
