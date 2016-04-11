@@ -65,3 +65,5 @@ gem 'thin'
 gem 'quiet_assets'
 
 gem 'ckeditor'
+
+gem 'enumerize'
