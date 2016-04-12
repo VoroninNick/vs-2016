@@ -81,11 +81,11 @@
 		position: absolute
 		z-index: 0
 		font-size: 400px
-		bottom: 0
-		right: 40px
+		bottom: -50px
+		right: -8px
 		line-height: 1
 		color: #D3D3D3
-		opacity: 0.4
+		opacity: 0.2
 
 	.service-image
 		width: 50%
@@ -99,15 +99,24 @@
 		width: 50%
 		height: 100%
 		position: relative
-		overflow: hidden
+		//overflow: hidden
 		float: left
 
+		&:after
+			content: ""
+			display: block
+			position: absolute
+			top: 15%
+			width: 0
+			height: 0
+			border-style: solid
 		.inner
 			z-index: 1
 			position: absolute
-			top: 50%
-			+transform(translateY(-50%))
+			top: 25%
+			//+transform(translateY(-50%))
 			padding: 100px 100px 100px 140px
+			padding: 0px 100px 100px 140px
 
 		.service-icon
 			display: block
@@ -141,6 +150,13 @@
 	.service
 		&:nth-child(2n+1)
 			.number
+			
+			.service-info
+				&:after
+					left: 100%
+					border-width: 16px 0 16px 16px
+					border-color: transparent transparent transparent $dark-white-color
+		
 
 		&:nth-child(2n+2)
 			color: $light-text-color
@@ -149,3 +165,11 @@
 			.service-info
 				float: right
 				background: none
+
+				&:after
+					right: 100%
+					border-width: 16px 16px 16px 0
+					border-color: transparent $black-color transparent transparent
+
+					.number
+						opacity: 0.1
