@@ -1,0 +1,69 @@
+.page-banner
+	position: relative
+	height: 80vh
+	width: 100%
+	overflow: hidden
+
+
+.page-banner-description-block
+	position: absolute
+	top: 50%
+	left: 50%
+	+transform( translate(-50%, -50%))
+	display: block
+	width: 800px
+	height: 80px
+
+	.inner
+		position: relative
+
+
+	.rect
+		height: 80px
+		border: 5px solid $violet-color
+
+	.title
+		+header-font-family
+		font-size: 56px
+		color: $dark-white-color
+		font-weight: 700
+		text-transform: uppercase
+		letter-spacing: 4px
+		top: -15px
+		left: -30px
+		position: absolute
+
+	.number
+		color: $blue-color
+		+header-font-family
+		position: absolute
+		+font-60
+		bottom: -17px
+		right: 30px
+
+	.subtitle
+		color: $light-gray-text-color
+		position: absolute
+		right: 0
+		bottom: -50px
+		transform: translateX(50%)
+		+font-18
+
+.page-banner-bg
+	background-size: cover
+	height: 100%
+	position: absolute
+	width: 100%
+
+	+grayscale
+
+	&:after
+		+overlay(0.85)
+
+.scroll-down
+	color: $light-gray-text-color
+	position: absolute
+	display:  block
+	bottom: 40px
+	left: 50%
+	+transform(translateX(-50%))
