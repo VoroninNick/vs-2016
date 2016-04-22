@@ -29,25 +29,37 @@
 		font-weight: 700
 		text-transform: uppercase
 		letter-spacing: 4px
-		top: -15px
-		left: -30px
+		top: -40px
+		left: -50px
 		position: absolute
 
-	.number
+	.numbers
 		color: $blue-color
 		+header-font-family
 		position: absolute
-		+font-60
-		bottom: -17px
+
+		//bottom: -17px
+		top: 100%
+		margin-top: -20px
 		right: 30px
 
-	.subtitle
-		color: $light-gray-text-color
-		position: absolute
-		right: 0
-		bottom: -50px
-		transform: translateX(50%)
-		+font-18
+		.number-with-subtitle
+			position: relative
+			float: left
+			margin-left: 55px
+
+			.number
+				line-height: 45px
+				+font-60
+
+		.subtitle
+			color: $light-gray-text-color
+			position: relative
+			right: 0
+			//bottom: -50px
+			transform: translateX(50%)
+			+light
+
 
 .page-banner-bg
 	background-size: cover

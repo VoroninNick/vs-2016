@@ -35,7 +35,7 @@ RailsAdmin.config do |config|
     # history_show
   end
 
-  config.include_models Service
+  config.include_models Service, Article, Cms::Tag
 
   config.model Service do
     field :published
@@ -54,5 +54,30 @@ RailsAdmin.config do |config|
     field :long_description
 
     field :content, :ck_editor
+  end
+
+  config.model Article do
+    field :published
+    field :translations, :globalize_tabs
+    field :avatar
+    field :release_date
+    field :tags
+  end
+
+  config.model_translation Article do
+    field :locale, :hidden
+    field :name
+    field :url_fragment
+    field :content, :ck_editor
+  end
+
+  config.model Cms::Tag do
+    field :translations, :globalize_tabs
+  end
+
+  config.model_translation Cms::Tag do
+    field :locale, :hidden
+    field :name
+    field :url_fragment
   end
 end

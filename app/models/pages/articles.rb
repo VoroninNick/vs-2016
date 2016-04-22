@@ -1,5 +1,5 @@
 module Pages
-  class Services < Page
+  class Articles < Page
 
   end
 end

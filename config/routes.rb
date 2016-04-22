@@ -1,12 +1,17 @@
 Rails.application.routes.draw do
+  devise_for :users
   mount Ckeditor::Engine => '/ckeditor'
   mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
 
   scope ":locale", locale: /#{I18n.available_locales.join("|")}/ do
-    scope :services, controller: "services" do
-      root action: "index", as: :services
-      get ":id", action: :show, as: "service"
-    end
+    # scope :services, controller: "services" do
+    #   root action: "index", as: :services
+    #   get ":id", action: :show, as: "service"
+    # end
+
+    resources :services, only: [:index, :show]
+
+    resources :articles, only: [:index, :show]
   end
 
   controller :pages do

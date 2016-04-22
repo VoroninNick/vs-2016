@@ -1,0 +1,26 @@
+.articles-index
+  .row
+    .columns.large-12.tags
+      .title
+        |Tags:
+      ul
+        - @tags.each do |tag|
+          li
+            a data-tag-key=tag.url_fragment
+              = tag.name
+    .columns.large-12.tags tag-group="authors"
+      .title
+        |Tags:
+      ul
+        - @authors.each do |tag|
+          li
+            a data-tag-key=tag.url_fragment
+              = tag.name
+    .columns.large-12.articles
+      - @articles.each do |article|
+        .article
+          .release_date
+            .day
+              = article.release_date.day
+            .month
+              = article.release_date.month

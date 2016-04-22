@@ -4,7 +4,7 @@ module ApplicationHelper
         { title: "who", sub_label: "about the studio" },
         { title: "how", sub_label: "portfolio" },
         { title: "what", sub_label: "our services", url: Pages.services.url },
-        { title: "when", sub_label: "publications" },
+        { title: "when", sub_label: "publications", url: Pages.articles.url },
         { title: "life", sub_label: "studio life" },
         { title: "where", sub_label: "contacts" }
     ]

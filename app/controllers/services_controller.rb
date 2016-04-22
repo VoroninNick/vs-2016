@@ -7,8 +7,9 @@ class ServicesController < ApplicationController
     @page_banner = {
         bg_image: 'banners/services.jpg',
         title: "Expertise",
-        number: "08",
-        number_description: "fields of expertise",
+        numbers: [
+          { number: "08", number_description: "fields of expertise"}
+        ],
         scroll_down_title: "view all"
     }
 
@@ -19,8 +20,9 @@ class ServicesController < ApplicationController
       @page_banner = {
           bg_image: 'banners/services.jpg',
           title: @service.name,
-          number: "08",
-          number_description: "cases",
+          numbers: [
+              {number: "08", number_description: "cases"}
+          ],
           scroll_down_title: "read more"
       }
     end

@@ -1,4 +1,4 @@
-class Service < ActiveRecord::Base
+class Article < ActiveRecord::Base
   attr_accessible *attribute_names
 
   def self.initialize_globalize
@@ -9,7 +9,7 @@ class Service < ActiveRecord::Base
     resource_association_name = resource_class.name.split("::").last.underscore.to_sym
 
     Translation.class_eval do
-      self.table_name = :service_translations
+      self.table_name = :"#{resource_association_name}_translations"
       attr_accessible *attribute_names
       belongs_to resource_association_name, class_name: resource_class
 
@@ -37,49 +37,29 @@ class Service < ActiveRecord::Base
   end
 
   scope :published, -> { where(published: 't') }
-  scope :sort_by_sorting_position, -> { order("sorting_position asc") }
 
-  # attachents
+  has_attached_file :avatar, styles: { list_image: "530x330#", small_image: "100x100#" }
 
-  has_attached_file :icon
-  has_attached_file :home_bg, styles: { xxl: "840x420#" }
-  has_attached_file :list_image, styles: { xxl: "1024x850#" }
-
-  [:icon, :home_bg, :list_image].each do |attachment_name|
+  [:avatar].each do |attachment_name|
     attr_accessible attachment_name
     allow_delete_attachment attachment_name
     do_not_validate_attachment_file_type attachment_name
   end
 
+  has_tags
 
-  def descriptive_name(locale = I18n.locale)
-    t = self.translations_by_locale[locale]
 
-    v = t.descriptive_name
-    if v.blank?
-      v = t.name
+
+  def initialize_release_date
+    if self.published
+      if self.release_date.blank?
+        self.release_date = Date.today
+      end
+    else
+      self.release_date = nil
     end
-
-    return v
   end
 
-  def long_description(locale = I18n.locale)
-    t = self.translations_by_locale[locale]
+  before_validation :initialize_release_date
 
-    v = t.long_description
-    if v.blank?
-      v = t.description
-    end
-
-    return v
-  end
-
-  def url(locale = I18n.locale)
-    v = self.translations_by_locale[locale].url_fragment
-    if !v.start_with?("/")
-      v = "/#{v}"
-    end
-
-    "/#{locale}/services#{v}"
-  end
 end

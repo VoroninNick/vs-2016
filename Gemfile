@@ -67,3 +67,5 @@ gem 'quiet_assets'
 gem 'ckeditor'
 
 gem 'enumerize'
+
+gem 'devise'

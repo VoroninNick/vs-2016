@@ -5,10 +5,14 @@
       .inner
         .title
           = @page_banner[:title]
-        .number
-          = @page_banner[:number]
-        .subtitle
-          = @page_banner[:number_description]
+        - if @page_banner[:numbers].try(:any?)
+          .numbers
+            - @page_banner[:numbers].each do |num|
+              .number-with-subtitle
+                .number
+                  = num[:number]
+                .subtitle
+                  = num[:number_description]
         .rect
 
     .scroll-down
