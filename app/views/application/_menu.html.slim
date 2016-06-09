@@ -1,4 +1,8 @@
 .fullscreen-menu
+  .top-border
+  .bottom-border
+  .left-border
+  .right-border
   .inner
 
     #main-menu
@@ -13,7 +17,8 @@
                 = str_index
               .index-line
               .title
-                = item[:title]
+                .text
+                  = item[:title]
               .title-line
               .sub-label
                 = item[:sub_label]

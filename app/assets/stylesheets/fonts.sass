@@ -13,7 +13,9 @@ $header-font-family: $font-family-fira-sans
 
 $font-size-60: 60px
 $font-size-45: 45px
+$font-size-36: 36px
 $font-size-32: 32px
+$font-size-23: 23px
 $font-size-20: 20px
 $font-size-18: 18px
 
@@ -48,6 +50,9 @@ $font-size-18: 18px
 	font-weight: 700
 = italic
 	font-style: italic
+= font-style-normal
+	font-style: normal
+
 
 // font-sizes
 = font-60
@@ -60,8 +65,19 @@ $font-size-18: 18px
 = font-45-bold
 	+font-45
 	+bold
+= font-36
+	font-size: $font-size-36
+= font-36-bold
+	+font-36
+	+bold
 = font-32
 	font-size: $font-size-32
+= font-32-bold
+	+font-32
+	+bold
+= font-23
+	font-size: $font-size-23
+
 = font-20
 	font-size: $font-size-20
 = font-20-italic
@@ -93,6 +109,8 @@ $font-size-18: 18px
 
 = h4
 	+header
+	+font-18
+	+font-weight-500
 
 = h5
 	+header
@@ -109,6 +127,9 @@ $font-size-18: 18px
 
 
 = font-classes
+	.header
+		+header
+
 	h1, .h1
 		+h1
 
@@ -128,10 +149,49 @@ $font-size-18: 18px
 	h6, .h6
 		+h6
 
+	.font-32-bold
+		+font-32-bold
+
+	.font-36-bold
+		+font-36-bold
+
+
+
 
 body
 	+body-font-family
 
 +font-classes
+
+// snippet mixins
+
+= xlarge-number
+	position: absolute
+	z-index: 0
+	font-size: 400px
+	bottom: -50px
+	right: -8px
+	line-height: 1
+	color: #D3D3D3
+	opacity: 0.2
+
+= large-number
+	font-size: 180px
+	line-height: 1
+	color: $pink-color
+	+italic
+
+
+
+// color classes
+
+.pink
+	color: $pink-color
+.white
+	color: $dark-white-color
+
+= link-hover
+	color: $pink-color
+
 
 

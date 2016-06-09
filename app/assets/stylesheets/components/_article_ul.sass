@@ -1,0 +1,24 @@
+= article-ul
+	list-style: none
+	padding: 0
+
+	> li
+		position: relative
+		padding: 0 0 0 15px
+
+		&:before
+			left: 0
+			content: "●"
+			color: $pink-color
+			position: absolute
+			display: inline-block
+			font-weight: 400
+
+
+
+.article-ul
+	+article-ul
+
+.article-content
+	ul
+		+article-ul

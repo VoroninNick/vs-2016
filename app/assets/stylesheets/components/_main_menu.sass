@@ -1,25 +1,68 @@
-
+$menu-bg-color: $black-color
 .fullscreen-menu
-	background: $black-color
+	background: $menu-bg-color
 	//height: calc(100vh - #{$header-height})
-	height: 100vh
+	//height: 100vh
+	min-height: 100vh
+	height: auto
 	padding: 16px
 	display: none
 	//position: relative
-	position: absolute
+	//position: absolute
+	position: relative
 	width: 100%
 	z-index: $zindex-fullscreen-menu
 
 
+	// all borders
+	.top-border, .bottom-border
+		background: $menu-bg-color
+		//position: absolute
+		position: fixed
+		z-index: 1
+
+		&:after
+			content: ""
+			display: block
+			position: absolute
+			background: $violet-color
+
+	// horizontal borders
+	.top-border, .bottom-border
+		height: 18px
+		width: 100%
+		left: 0
+
+		&:after
+			left: 16px
+			right: 16px
+			height: 2px
+
+
+	.top-border
+		top: 0
+
+		&:after
+			top: 16px
+
+	.bottom-border
+		bottom: 0
+
+		&:after
+			bottom: 16px
 
 	.inner
 		position: relative
-		border: 1px solid $violet-color
+		border-left: 2px solid $violet-color
+		border-right: 2px solid $violet-color
 		//z-index: 1
+		padding-top: 102px
 
 		height: 100%
 		+flexbox
 		+flex-direction(column)
+
+
 
 
 
@@ -53,12 +96,12 @@
 			color: $pink-color
 
 #main-menu
-	//+flex(1)
+	+flex(1)
 	text-align: center
 	//position: relative
-	position: fixed
-	width: 100vw
-	height: 100vh
+	position: relative
+	width: calc(100vw - 33px)
+	min-height: 100vh
 	left: 0
 	top: 0
 
@@ -87,22 +130,34 @@
 				z-index: 1
 				color: $dark-white-color
 				text-transform: uppercase
-				position: absolute
+				//position: absolute
+				position: relative
+				display: inline-block
 				top: 22px
 				left: 36px
+				//left: 0
+
 				+transition-duration(0.2s)
 				+transition-property(all)
-			.title-line
-				display: block
-				position: absolute
-				background: $dark-white-color
-				content: ""
-				top: 50px
-				height: 10px
-				width: 0
-				left: 36px
-				+transition-duration(0.2s)
-				+transition-property(all)
+
+				&:before
+					content: ""
+					display: block
+					position: absolute
+					background: $dark-white-color
+					top: 28px
+					height: 10px
+					//width: 0
+					width: auto
+					//left: 36px
+					left: 0
+					right: 100%
+					+transition-duration(0.2s)
+					+transition-property(all)
+
+				.text
+					//z-index: 1
+					position: relative
 			.sub-label
 				color: $light-gray-text-color
 				font-style: italic
@@ -135,15 +190,20 @@
 			&:hover
 				.title
 					color: $pink-color
-					left: 74px
+					padding-left: 38px
+
+					&:before
+						//width: 210px
+						right: -38px
+
 				.sub-label
 					left: 74px
 					color: $dark-white-color
 				.index
 					color: $dark-white-color
-				.title-line
 
-					width: 210px
+
+
 				.index-line
 					display: block
 
@@ -166,6 +226,8 @@
 
 
 body.has-opened-menu
+	overflow: auto !important
+
 	//&:before
 		content: ""
 		border: 1px solid $violet-color
@@ -179,3 +241,8 @@ body.has-opened-menu
 
 	.fullscreen-menu
 		display: block
+
+	#page-wrap
+		overflow: hidden
+		//height: 100%
+		height: 0

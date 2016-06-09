@@ -1,7 +1,31 @@
 #footer
-	background: $pink-color
+	background: $black-color
+	overflow: hidden
 
-	.inner
-		display: block
-		position: relative
-		height: 200px
+#main-footer-row
+	margin-top: 75px
+	margin-bottom: 100px
+	color: white
+
+
+	.footer-item
+		+grid-column(3)
+		.header
+			+h4
+
+		+small-down
+			width: percentage(1/3)
+	a
+		color: inherit
+
+
+#sub-footer-row
+	color: $light-gray-text-color
+	border-top: 1px solid $light-gray-text-color
+	padding: 10px 0 0 0
+
+	#sub-footer-copyright
+		+grid-column(6)
+		float: right
+
+

@@ -1,5 +1,9 @@
 class Article < ActiveRecord::Base
   attr_accessible *attribute_names
+  has_cache
+
+  has_and_belongs_to_many :authors, join_table: :author_articles, class_name: User, association_foreign_key: :author_id
+  attr_accessible :authors, :author_ids
 
   def self.initialize_globalize
     translates :name, :descriptive_name, :url_fragment, :description, :long_description, :content
@@ -63,3 +67,4 @@ class Article < ActiveRecord::Base
   before_validation :initialize_release_date
 
 end
+

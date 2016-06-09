@@ -40,6 +40,11 @@ $box-shadow-popup: 0 0 15px rgba(0, 0, 0, 0.9)
 
 // z-index
 
+$notebook-down: "only screen and (max-width: 1366px)"
+= notebook-down
+	@media #{$notebook-down}
+		@content
+
 $xs-only: "only screen and (max-width: 480px)"
 
 = xs-only

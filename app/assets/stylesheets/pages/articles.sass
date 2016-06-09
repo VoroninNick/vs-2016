@@ -1,6 +1,78 @@
+
 .articles-index
-	.tags
+	margin: 50px 0 0 0
+
+
+
+.articles
+
+
+	.article
+		position: relative
+		display: inline-block
+		float: left
+		padding: 0 15px
+		width: percentage(1/3)
+
+		.article-inner
+			position: relative
+			padding: 0 15px
+
+			.reset
+				position: relative
+
+			&:before
+				content: ""
+				position: absolute
+				display: block
+				top: 100px
+				bottom: 0
+				left: 0
+				width: 100%
+				background: $dark-white-color
+
+
+
+		.article-image-wrap
+			padding: 15px 0
+
+
+
+		.article-image
+			display: block
+			background-size: cover
+			background-repeat: no-repeat
+
+			img
+				opacity: 0
+				max-width: 100%
+
+		.article-details
+			padding: 0 0 15px 0
+
+
+
 		.title
-			color: white
-			text-transform: uppercase
-			font-weight: 600
+			+font-20
+			+bold
+			line-height: 1.2
+			color: $black-color
+
+			&:hover
+				+link-hover
+
+		.article-title-and-tags-and-authors
+			padding-left: 110px
+			min-height: 90px
+
+		.article-tags, .authors
+			color: $dark-text-color
+			+italic
+
+			a
+				color: inherit
+				&:hover
+					+link-hover
+
+		.authors
+			text-align: right

@@ -1,0 +1,63 @@
+.team-member-blocks
+
+.team-member-block
+	+grid-column(4, 0)
+	position: relative
+	float: left !important
+	overflow: hidden
+
+	.info-block
+		position: absolute
+		bottom: -100px
+		padding: 0 0 0 50px
+		width: 100%
+		+transition(0.5s bottom)
+
+		.name
+			+font-32-bold
+			text-transform: uppercase
+			color: white
+			+fira-sans
+		.role
+			+font-18
+			+light
+			+italic
+			color: white
+			+fira-sans
+
+
+		.few-words-block
+
+			//top: 23px
+			padding: 40px 50px 0 0
+			position: relative
+			.rect
+				border: 2px solid $violet-color
+				position: absolute
+				left: 0
+				right: 30px
+				height: 50px
+
+				&:before
+					+font-32-bold
+					+fira-sans
+					content: "&"
+					position: relative
+					left: 30px
+					top: -15px
+					color: white
+
+			.text
+				margin: 32px 0 0 0
+				text-align: right
+				+font-32
+				+semi-bold
+				color: white
+				//+fira-sans
+				position: relative
+				z-index: 1
+
+
+	&:hover
+		.info-block
+			bottom: 0

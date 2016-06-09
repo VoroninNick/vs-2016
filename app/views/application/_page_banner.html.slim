@@ -10,7 +10,9 @@
             - @page_banner[:numbers].each do |num|
               .number-with-subtitle
                 .number
-                  = num[:number]
+                  - number = num[:number]
+                  - number = "0#{number}" if number.to_s.length < 2
+                  = number
                 .subtitle
                   = num[:number_description]
         .rect

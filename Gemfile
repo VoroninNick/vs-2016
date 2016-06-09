@@ -56,12 +56,23 @@ gem 'protected_attributes'
 
 gem 'paperclip', '~> 4.2'
 gem 'rails_admin'
-gem 'cms', github: "pkorenev/cms"
-gem "attachable", github: "voroninnick/attachable"
-gem 'rails_admin_globalize_field', github: "VoroninNick/rails_admin_globalize_field", branch: "pasha"
+
+local = ENV["LOCAL"] || __FILE__.start_with?("/media/data/pasha")
+
+if local
+  gem 'cms', path: "/media/data/pasha/gems/cms"
+  gem 'attachable', path: "/media/data/pasha/gems/attachable"
+  gem 'rails_admin_globalize_field', path: "/media/data/pasha/gems/rails_admin_globalize_field"
+else
+  gem 'cms', github: "pkorenev/cms"
+  gem 'attachable', github: "VoroninNick/attachable"
+  gem 'rails_admin_globalize_field', github: "VoroninNick/rails_admin_globalize_field", branch: "pasha"
+end
+
 gem 'rails_admin_nestable'
 
-gem 'thin'
+#gem 'thin'
+gem 'puma'
 gem 'quiet_assets'
 
 gem 'ckeditor'
@@ -69,3 +80,5 @@ gem 'ckeditor'
 gem 'enumerize'
 
 gem 'devise'
+
+gem 'acts-as-taggable-on'

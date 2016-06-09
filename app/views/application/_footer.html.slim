@@ -1,0 +1,33 @@
+footer#footer
+  #main-footer-row.row
+    #footer-logo.footer-item
+      = inline_svg "svg/logo.svg"
+    .footer-item
+      .header
+        |Address
+      p
+        |Lukiyanovycha Str. 11
+        br
+        |Lviv, Ukraine, 79000
+
+    .footer-item
+      .header
+        |Phone
+      p
+        - footer_phones.each do |phone|
+          a href=phone_url(phone)
+            = phone
+    .footer-item
+      .header
+        |Email
+      p
+        - footer_emails.each do |email|
+          a href=email_url(email)
+            = email
+  #sub-footer-row.row
+    #sub-footer-copyright
+      |&copy;2006 &mdash; #{Date.today.year} Voronin Design Studio. All rights reserved.
+    #sub-footer-social
+      - footer_social_links.each do |social|
+        a.social-link href=social[:url]
+          = inline_svg social[:icon]

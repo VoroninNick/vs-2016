@@ -1,0 +1,23 @@
+- if @page_banner
+  .page-banner.article-banner
+    .page-banner-bg style="background-image: url(#{asset_path(@page_banner[:bg_image])})"
+    .page-banner-description-block.auto-height
+      .inner
+        .release_date.color-light
+          .day
+            = @article.release_date.day
+          .month
+            = month_name(@article.release_date)
+        .title
+          = @article.name
+
+
+        = render "authors", authors: @article.authors
+        = render "tags", tags: @article.tags
+
+
+
+
+
+    .scroll-down
+      |read

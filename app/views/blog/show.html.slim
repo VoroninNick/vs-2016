@@ -1,0 +1,38 @@
+.container
+  .row
+    .col-xs-12.col-sm-3.right
+      .article-info
+        .article-info__authors
+          - @article.authors.each do |a|
+            .article-info__author
+              - if a.avatar.exists?(:small)
+                .article-info__author__avatar
+                  = image_tag a.avatar.url(:small)
+              .article-info__author__name
+                = a.name
+
+
+        .article-info__date
+          = @article.article_date
+        a.share_button href="#"
+          |Share
+    .col-lg-9.article-content
+      = raw @article.content
+
+    = sharing_panel(@article.article_date)
+
+- if @related_articles.try(&:any?)
+  .read-also-section
+    .container
+      .row
+        .col-lg-12.text-center.blog-read-also-header
+          span.with_black_arrows
+            |Read also
+        - @related_articles.each do |article|
+          = render "article_item", item: article
+
+
+
+
+= sharing_popup
+

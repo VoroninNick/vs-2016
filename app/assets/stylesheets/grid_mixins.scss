@@ -1,0 +1,57 @@
+$xl: 1600px;
+
+@mixin xl {
+  @media (min-width: $xl) {
+    @content
+  }
+}
+
+@mixin large-down{
+  @media (max-width: 1599px) {
+    @content
+  }
+}
+
+@mixin grid-row(
+  $columns: null,
+  $behavior: null,
+  $width: $grid-row-width,
+  $cf: true,
+  $gutter: $grid-column-gutter
+) {
+  $behavior: -zf-get-options($behavior, nest collapse);
+  $margin: auto;
+
+  @if map-get($behavior, nest) {
+    @include grid-row-nest($gutter);
+
+    @if map-get($behavior, collapse) {
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+  @else {
+    max-width: $width;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @if $cf {
+    @include clearfix;
+  }
+
+  @if $columns != null {
+    @include grid-context($columns) {
+      @content;
+    }
+  }
+
+  @if not map-get($behavior, nest) {
+    @include xl{
+      max-width: none;
+      margin-left: 4rem;
+      margin-right: 4rem;
+    }
+  }
+
+}

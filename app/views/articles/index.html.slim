@@ -1,26 +1,40 @@
 .articles-index
   .row
-    .columns.large-12.tags
-      .title
-        |Tags:
-      ul
-        - @tags.each do |tag|
-          li
-            a data-tag-key=tag.url_fragment
-              = tag.name
-    .columns.large-12.tags tag-group="authors"
-      .title
-        |Tags:
-      ul
-        - @authors.each do |tag|
-          li
-            a data-tag-key=tag.url_fragment
-              = tag.name
+    = render "tags", tags: @tags
+    = render "authors", authors: @authors
+
     .columns.large-12.articles
       - @articles.each do |article|
         .article
-          .release_date
-            .day
-              = article.release_date.day
-            .month
-              = article.release_date.month
+          .article-inner
+            .reset
+              .article-image-wrap
+                a.article-image style="background-image: url('#{article.avatar.url(:list_image)}')" href=article.url
+                  img src=article.avatar.url(:list_image)
+              .article-details
+                .release_date
+                  .day
+                    = article.release_date.day
+                  .month
+                    = month_name(article.release_date)
+                .article-title-and-tags-and-authors
+                  a.title href=article.url
+                    = article.name
+                  .article-tags
+                    - article.tags.each_with_index do |tag, index|
+
+
+                      a href="#"
+                        = tag.name
+                      - if index < article.tags.count - 1
+                        span.separator
+                          |,&nbsp;
+                  .authors
+                    |by &nbsp;
+                    - article.authors.each_with_index do |author, index|
+                      a.author href="#"
+                        = author.name
+                      - if index < article.authors.count - 1
+                        span.separator
+                          |,&nbsp;
+

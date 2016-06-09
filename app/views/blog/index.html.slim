@@ -1,0 +1,46 @@
+.container.blog-index-container
+  - if @total_articles > 1 || true
+    .row
+      .col-lg-8.filter
+        - if @tags.try(&:many?)
+          .tags.tag-list
+            span.tags-title
+              |Tags
+            ul
+              li.all.checked
+                a href=(false ? blog_path : "#" )
+                  |All
+              - @tags.each do |t|
+                li
+                  a href=(false ? article_tags_path(t.name.parameterize) : '#') data-tag-id=t.id
+                    = t.name
+
+
+        - if @authors.try(&:many?)
+          .tags.authors
+            span.authors-title
+              |Authors
+            ul
+              li.all.checked
+                a href=blog_path
+                  |All
+              - @authors.each do |a|
+                li
+                  a href=article_tags_path(a[:name].parameterize) data-author-id=a[:id]
+                    = a[:name]
+
+      .col-lg-4.sorting
+        .sorting-properties.author-names
+          = select_tag(:sorting_property, raw(BlogArticle.sorting_properties.map{|prop| content_tag(:option, prop.to_s.humanize, value: prop.to_s) }.join))
+        .sorting-directions
+          .sorting-direction.desc.checked
+            = inline_svg "cc-bottom-arrow.svg"
+          .sorting-direction.asc
+            = inline_svg "cc-top-arrow.svg"
+
+
+  - if @total_articles > 0
+    .articles data-total-count=@total_articles data-total-pages-count=@total_pages_count
+      = render "articles_collection", items: @articles
+    .articles-preloader.hide
+      = image_tag "preloader.gif"

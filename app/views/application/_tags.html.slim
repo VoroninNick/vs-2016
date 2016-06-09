@@ -1,0 +1,8 @@
+.columns.large-12.tags
+  .label
+    |Tags:
+  ul
+    - tags.each do |tag|
+      li.tag
+        a data-tag-key=tag.url_fragment
+          = tag.name

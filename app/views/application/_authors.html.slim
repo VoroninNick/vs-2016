@@ -1,0 +1,8 @@
+.columns.large-12.tags tag-group="authors"
+  .label
+    |Authors:
+  ul
+    - authors.each do |author|
+      li.tag
+        a data-tag-key=author.id
+          = author.name

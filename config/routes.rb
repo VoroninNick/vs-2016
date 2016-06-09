@@ -3,6 +3,9 @@ Rails.application.routes.draw do
   mount Ckeditor::Engine => '/ckeditor'
   mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
 
+
+  root as: "root_without_locale", to: "application#root_without_locale"
+
   scope ":locale", locale: /#{I18n.available_locales.join("|")}/ do
     # scope :services, controller: "services" do
     #   root action: "index", as: :services
@@ -12,11 +15,39 @@ Rails.application.routes.draw do
     resources :services, only: [:index, :show]
 
     resources :articles, only: [:index, :show]
+
+    scope "blog", controller: "blog" do
+      get "", action: "index", as: :blog
+      get ":id", action: "show", as: "blog_article"
+      get "/tags/:tags", action: "index", as: :article_tags
+    end
+
+    controller :pages do
+
+      root action: "index"
+
+      get "test", action: "test"
+
+
+    end
   end
 
-  controller :pages do
-    root action: "index"
+  locales = Cms.config.provided_locales
 
-    get "test", action: "test"
+  Cms::Page.all.each do |p|
+    if !p.class.try(:disabled?)
+      controller_name = "pages"
+
+      locales.each do |locale|
+        route_name = "#{locale}_#{p.page_key}"
+        url = p.url(locale)
+        #url = p.default_url if url.blank?
+        #url = "/#{url}" if url.start_with?("/")
+
+        get url , controller: controller_name, action: p.page_key, as: route_name, defaults: {locale: locale, page_id: p.id}
+      end
+    end
   end
+
+  match "*args", via: [:get, :post, :update, :delete, :create, :put], to: "application#render_not_found"
 end

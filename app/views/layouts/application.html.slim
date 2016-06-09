@@ -1,7 +1,8 @@
 doctype html
 html
   head
-    title My App
+    meta http-equiv="Content-Type" content="text/html; charset=utf-8"
+    = seo_tags
     meta name="viewport" content="width=device-width, initial-scale=1.0"
     link href='https://code.cdn.mozilla.net/fonts/fira.css' rel='stylesheet' type='text/css'
     = stylesheet_link_tag    "application", media: 'all', 'data-turbolinks-track' => true
@@ -10,7 +11,16 @@ html
 
   body data-controller=controller_name data-action=action_name controller-action="#{controller_name}__#{action_name}"
     = render "header"
-    = render "page_banner"
     = render "menu"
-    = yield
-    = javascript_include_tag "application", 'data-turbolinks-track' => true
+
+
+    #page-wrap
+      = render (@page_banner_template || "page_banner")
+      - if content_for?(:devise_layout)
+        = content_for(:devise_layout)
+      - else
+        = yield
+
+      - if @footer != false
+        = render "footer"
+    = javascript_include_tag "application", 'data-turbolinks-track' => true, 'data-turbolinks-eval' => false

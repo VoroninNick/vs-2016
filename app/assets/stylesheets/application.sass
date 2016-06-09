@@ -4,6 +4,7 @@
 @import "sass-flex-mixin/_flexbox"
 @import "detailed_css3_mixins"
 @import "mixins"
+@import "scrollbar-mixin"
 
 
 
@@ -15,10 +16,15 @@
 @import "application_foundation_settings"
 
 @import "config"
+@import "grid_mixins"
+
+@import "breakpoints"
 @import "fonts"
 
+@import "bxslider-4/dist/jquery.bxslider.min"
 
 
++foundation-global-styles
 +foundation-grid
 //+foundation-everything
 
@@ -33,8 +39,8 @@
 
 
 
-@import "normalize-scss/_normalize"
-@import "normalize_extension"
+//@import "normalize-scss/_normalize"
+//@import "normalize_extension"
 
 @import "fullpage.js/dist/jquery.fullpage.css"
 @import "components/full_page_custom_scroll"
@@ -45,16 +51,28 @@
 //@import "selectize/dist/css/selectize.default"
 //@import "selectize.custom"
 
-@import "reset"
+//@import "reset"
 
 @import "typography"
+@import "components/social"
 @import "components/button"
 @import "components/main_menu"
 @import "components/header"
 @import "components/jquery.tubular"
 @import "components/bxslider.custom"
+@import "components/home_footer"
 @import "components/footer"
 @import "components/page_banner"
+@import "components/scroll_style"
+@import "components/release_date"
+@import "components/tag_list"
+@import "components/article_banner"
+@import "components/article_ul"
+@import "components/article_blockquote"
+@import "components/indents"
+@import "components/slider"
+@import "components/team_members"
+@import "components/horizontal_container"
 
 //@import "lightgallery.custom"
 
@@ -72,7 +90,10 @@
 @import "pages/home"
 @import "pages/services"
 @import "pages/articles"
+@import "pages/about_us"
 
 //@import "pages/about_us"
 //@import "pages/contacts"
 //@import "pages/services"
+
+@import "devise"
