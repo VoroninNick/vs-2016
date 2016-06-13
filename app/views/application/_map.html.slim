@@ -1,26 +1,25 @@
 - if defined?(office) && office
-  .map-wrapper.office-map-wrapper data-center=office.map[:center] data-marker=office.map[:marker_location]
-    .marker data-location=office.map[:marker_location]
+  .map-wrapper.office-map-wrapper data-center=office[:map][:center] data-marker=office[:map][:location]
+    .marker data-location=office[:map][:location]
       .marker-icon.svg-icon.svg-icon-location
     .info-window
       .info-window-header
         .logo
-          = inline_svg("svg/Logo.svg")
-        .title
-          = raw t("components.maps.marker.info-window.header.title")
+          = inline_svg("svg/logo.svg")
+
       .info-window-content
         .group
           .group-label
             = t("components.maps.marker.info-window.work_phones")
           .group-content
-            - office.work_phones.each do |phone|
+            - office[:phones].each do |phone|
               a.phone href=phone_url(phone)
                 = phone
         .group
           .group-label
             = t("components.maps.marker.info-window.address")
           .group-content
-            = office.address
+            = office[:address]
 
 
     .map-container

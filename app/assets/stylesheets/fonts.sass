@@ -103,6 +103,15 @@ $font-size-12: 12px
 	color: $pink-color
 
 
+= large-header
+	+header
+	text-align: center
+	+bold
+	position: relative
+	font-size: 100px
+	top: -90px
+	margin-top: -90px
+
 
 = h1
 	+header
@@ -138,6 +147,9 @@ $font-size-12: 12px
 = font-classes
 	.header
 		+header
+
+	.large-header
+		+large-header
 
 	h1, .h1
 		+h1

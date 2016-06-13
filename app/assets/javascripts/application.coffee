@@ -1,6 +1,8 @@
 #= require jquery/dist/jquery.min.js
 #= require jquery_ujs
 #= require global
+#= require images.js.erb
+#= require append_images
 #= require clickout
 #= require fullpage.js/vendors/jquery.easings.min
 #= require fullpage.js/vendors/jquery.slimscroll.min

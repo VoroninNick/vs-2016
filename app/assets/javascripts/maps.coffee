@@ -1,5 +1,14 @@
 init_google_map = ->
+
   $map_wrapper = $(this)
+
+  initialized_map = $map_wrapper.hasClass("initialized")
+
+  if initialized_map
+    return
+
+  $map_wrapper.addClass("initialized")
+
   HOME_MAPTYPE_ID = 'plit_style'
   map = undefined
 
@@ -82,13 +91,56 @@ init_google_map = ->
 
 
 $document.on 'ready page:load', ->
-  $(".map-wrapper").each ->
+  $(".map-wrapper:visible").each ->
 
     init_google_map.call(this)
 
 open_marker = ()->
-  $(this).addClass("opened")
-  $(this).closest(".map-wrapper").children().filter(".info-window").addClass("opened")
+  $marker = $(this)
+  $info_window = $marker.closest(".map-wrapper").children().filter(".info-window")
+  $marker.addClass("opened")
+
+  $info_window.addClass("opened")
+
+  marker_offset = $marker.offset()
+  info_window_offset = $info_window.offset()
+
+  info_window_height = $info_window.height()
+
+  info_window_half_width = $info_window.width() / 2
+  info_window_half_height = info_window_height / 2
+
+  info_window_indent = 20
+
+  y_diff = marker_offset.top - info_window_offset.top - info_window_height - info_window_indent
+  x_diff = marker_offset.left - info_window_offset.left - info_window_half_width + $marker.width() / 2
+
+
+  x_diff_str = x_diff
+  if x_diff < 0
+    x_diff_str = "-=#{x_diff * -1}"
+  else if x_diff_str > 0
+    x_diff_str = "+=#{x_diff}"
+
+  y_diff_str = y_diff
+  if x_diff < 0
+    y_diff_str = "-=#{y_diff * -1}"
+  else if y_diff_str > 0
+    y_diff_str = "+=#{y_diff}"
+
+  props = {}
+
+  if x_diff_str
+    props.marginLeft = x_diff_str
+
+  if y_diff_str
+    props.marginTop = y_diff_str
+
+  $info_window.css(props)
+
+
+
+
 close_marker = ()->
   $(this).removeClass("opened")
   $(this).closest(".map-wrapper").children().filter(".info-window").removeClass("opened")
@@ -103,10 +155,38 @@ $document.on "click", ".marker-icon", ()->
   $marker = $(this).closest(".marker")
   toggle_marker.apply($marker)
 
+
+
+
 $.clickOut(".info-window",
   ()->
     $marker = $(this).closest(".map-wrapper").find(".marker")
     close_marker.apply($marker)
   {except: ".marker .marker-icon"}
 )
+
+
+$document.on "click", ".multiple-maps-container .map-links .map-link:not(.active)", ()->
+  $container = $(this).closest(".multiple-maps-container")
+  $container.find(".maps > .map-wrapper")
+
+  tab_index = $(this).index()
+  $tabs = $(".maps > .tab-content")
+  $tab = $tabs.filter(":eq(#{tab_index})")
+
+  $tab_headers = $(this).closest(".map-links").find("> .map-link")
+  $tab_header = $(this)
+
+  $tab_headers.removeClass("active")
+  $tab_header.addClass("active")
+  $tabs.removeClass("active")
+  $tab.addClass("active")
+
+
+
+  $active_map = $tab.find(".map-wrapper")
+  init_google_map.call($active_map)
+
+
+
 

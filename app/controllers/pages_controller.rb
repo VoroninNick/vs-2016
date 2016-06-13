@@ -64,7 +64,10 @@ class PagesController < ApplicationController
                      {email: "office-usa@voroninstudio.eu", description: "office"}
             ],
             address: "350 Fifth Avenue, New York",
-            map: {location: "40.748571, -73.985645"}
+            map: {
+                center: "40.748571, -73.985645",
+                location: "40.748571, -73.985645"
+            }
         }
     ]
 

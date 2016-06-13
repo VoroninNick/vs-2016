@@ -1,10 +1,12 @@
 - if !defined?(offices)
   - offices = @offices
-- offices.each_with_index do |office, office_index|
+.multiple-maps-container
   .map-links
-    a.map-link href="#map-#{office_index + 1}"
-      = office[:country]
-.maps
-  - offices.each_with_index do |office, office_index|
-    = render "map", office: office
+    - offices.each_with_index do |office, office_index|
+      a.map-link href="#map-#{office_index + 1}" class=("active" if office_index == 0)
+        = office[:country]
+  .maps
+    - offices.each_with_index do |office, office_index|
+      .tab-content class=("active" if office_index == 0)
+        = render "map", office: office
 
