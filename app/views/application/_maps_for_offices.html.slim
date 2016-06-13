@@ -1,0 +1,10 @@
+- if !defined?(offices)
+  - offices = @offices
+- offices.each_with_index do |office, office_index|
+  .map-links
+    a.map-link href="#map-#{office_index + 1}"
+      = office[:country]
+.maps
+  - offices.each_with_index do |office, office_index|
+    = render "map", office: office
+

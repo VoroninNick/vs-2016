@@ -20,6 +20,10 @@ module ApplicationHelper
   #   InlineSvg::TransformPipeline.generate_html_from(path, transform_params).html_safe
   # end
 
+  def contacts_main_phones
+    footer_phones
+  end
+
   def footer_phones
     ["+38 (050) 417 07 28"]
   end
@@ -35,4 +39,11 @@ module ApplicationHelper
   def footer_social_links
     social_links[0..1]
   end
+
+  def formatted_phone_number(phone)
+    phone.gsub(/\(/, "<span class='bracket bracket-open'>(</span>").gsub(/\)/, "<span class='bracket bracket-close'>)</span>").html_safe
+    #parts = phone.split(/[\(\)]/)
+
+  end
 end
+

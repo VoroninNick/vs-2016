@@ -1,2 +1,66 @@
-h1
-  |Contacts
+.top-inner-indent
+  .row
+    .columns.xxxlarge-10.xxxlarge-centered
+      .row
+        .columns
+          .line-header
+            .header
+              |Contacts
+      .row
+        - @offices.each do |office|
+          .columns.large-6.office.white
+            .header.font-36-bold
+              = office[:country]
+
+            .small-header.blue
+              |call us
+            - office[:phones].each do |phone|
+              a.phone-number.light-phone-colored href=phone_url(phone)
+                = formatted_phone_number(phone)
+
+
+
+            .small-header.blue
+              |write us
+            .emails-with-description
+              - office[:emails].each do |email|
+                .email-block
+                  a.email href=email_url(email[:email])
+                    = email[:email]
+
+                  .description
+                    = email[:description]
+
+
+
+
+            .small-header.blue
+              |meet us
+            .address
+              = office[:address]
+              span.pink
+                |, #{office[:country]}
+
+      .row
+        .columns
+          .line-separator.small-bottom-indent
+
+.row
+  .columns.xxxlarge-10.xxxlarge-centered
+    .row
+      .columns.text-center
+        .small-header.blue
+          |follow us
+
+        .social-links
+          - social_links.each do |social|
+            a.social-link href=social[:url]
+              = inline_svg social[:icon]
+
+
+
+/.row
+  .columns.xxxlarge-10.xxxlarge-centered
+    .row
+      .columns
+        = render "maps_for_offices"

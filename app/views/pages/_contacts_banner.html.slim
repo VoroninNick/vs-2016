@@ -1,0 +1,16 @@
+- if @page_banner
+  .page-banner.contacts-banner
+    .page-banner-bg style="background-image: url(#{asset_path(@page_banner[:bg_image])})"
+    .page-banner-description-block
+      .inner
+        .title
+          = @page_banner[:title]
+        .numbers
+          - footer_phones.each do |phone|
+            a.phone-number href=phone_url(phone)
+              = phone
+        .rect
+
+    .scroll-down
+      = @page_banner[:scroll_down_title]
+

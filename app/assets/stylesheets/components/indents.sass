@@ -1,8 +1,39 @@
-.vertical-indent
-	margin-top: 125px
-	margin-bottom: 125px
+= top-inner-indent($indent: 125)
+	padding-top: rem-calc($indent)
 
+= bottom-inner-indent($indent: 125)
+	padding-bottom: rem-calc($indent)
+
+= top-indent($indent: 125)
+	margin-top: rem-calc(125)
+
+= bottom-indent($indent: 125)
+	margin-bottom: rem-calc($indent)
+
+.vertical-indent
+	+top-indent
+	+bottom-indent
+
+.top-indent
+	+top-indent
+
+.bottom-indent
+	+bottom-indent
+
+.small-top-indent
+	+top-indent(45)
+
+.small-bottom-indent
+	+bottom-indent(45)
+
+.top-inner-indent
+	+top-inner-indent
+
+.bottom-inner-indent
+	+bottom-inner-indent
 
 .vertical-inner-indent
-	padding-top: 125px
-	padding-bottom: 125px
+	+top-inner-indent
+	+bottom-inner-indent
+
+

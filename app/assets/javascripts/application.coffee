@@ -1,6 +1,7 @@
 #= require jquery/dist/jquery.min.js
 #= require jquery_ujs
 #= require global
+#= require clickout
 #= require fullpage.js/vendors/jquery.easings.min
 #= require fullpage.js/vendors/jquery.slimscroll.min
 #= require fullpage.js/dist/jquery.fullpage.min.js
@@ -8,6 +9,7 @@
 #= require jquery.scrolldelta
 #= require jquery.scrollend/dist/jquery.scrollend.min
 # require jquery.nicescroll/jquery.nicescroll.min
+# require components/phone_number
 # require components/init_nicescroll
 #= require components/header
 
@@ -23,3 +25,6 @@
 #= require pages/home
 #= require articles
 #= require pages/about
+
+#= require vendor/richmarker
+#= require maps

@@ -33,6 +33,41 @@ class PagesController < ApplicationController
   end
 
   def contacts
+    @page_banner_template = "contacts_banner"
+    @page_banner = {
+        bg_image: 'banners/services.jpg',
+        title: "Contacts",
+        numbers: [
+
+        ],
+        scroll_down_title: "more information"
+    }
+
+    @offices = [
+        {country: "Ukraine",
+         phones: ["+38 (050) 417 07 28", "+38 (032) 240 33 50"],
+         emails: [{email: "nick@voroninstudio.eu", description: "financial and art questions"},
+                  {email: "office@voroninstudio.eu", description: "office"},
+                  {email: "support@voroninstudio.eu", description: "technical support questions"}],
+         address: "Lukianovycha Str. 11, Lviv",
+         map: {
+             center: "49.833188, 24.020121",
+             location: "49.833188, 24.020121"
+         },
+
+
+        },
+        {
+            country: "USA",
+            phones: ["+1 (471) 254 1111"],
+            emails: [{email: "tomson@voroninstudio.eu", description: "financial and art questions"},
+                     {email: "office-usa@voroninstudio.eu", description: "office"}
+            ],
+            address: "350 Fifth Avenue, New York",
+            map: {location: "40.748571, -73.985645"}
+        }
+    ]
+
 
   end
 
