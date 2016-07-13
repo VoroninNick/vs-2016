@@ -6,6 +6,10 @@ class PagesController < ApplicationController
     @enable_tubular = !File.exists?("/media/data/pasha")
     @footer = false
 
+    #@featured_projects = [Project.first]
+
+    set_project_banners
+
     set_page_metadata("home")
   end
 
@@ -71,11 +75,28 @@ class PagesController < ApplicationController
         }
     ]
 
+    @hire_us_form = HireUsRequest.new
+
 
   end
 
   private
   def set_page_instance(key = action_name)
     set_page_metadata(key)
+  end
+
+  def set_project_banners
+    @projects = [Project.first]
+    @project_banners = @projects.map do |p|
+      project_translation = p.translations_by_locale[I18n.locale]
+
+      {
+          title: project_translation.banner_title,
+          title_sup: project_translation.banner_title_sup,
+          short_description: project_translation.short_description,
+          image_url: p.item_top_banner_image.url,
+          service_icons: p.services.map {|s| s.icon.path  }
+      }
+    end
   end
 end

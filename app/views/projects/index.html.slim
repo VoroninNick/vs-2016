@@ -1,0 +1,22 @@
+.light-bg.medium-inner-top-indent.small-inner-bottom-indent.project-tags
+  .row
+    a.tag class=("checked" if !@category) href=projects_path
+      .icon
+        = embedded_svg_from_assets("svg/expertise/all.svg")
+      .name
+        |All
+
+    - @services.each do |service|
+      - service_icon_path = service.icon.path
+      a.tag href=project_or_category_path(id: service.translations_by_locale[I18n.locale].url_fragment) class=("checked" if @category.try(:id) == service.id)
+        .icon
+          = embedded_svg_from_absolute_path(service_icon_path)
+        .name
+          = service.name
+
+
+.projects.large-bottom-indent.top-inner-indent
+  .row
+    - @projects.each do |project|
+      /.columns.large-3
+      = render "project", project: project, avatar_style: :projects_list

@@ -2,7 +2,7 @@ module ApplicationHelper
   def main_menu_items
     menu_items = [
         { title: "who", sub_label: "about the studio", url: Pages.about_us.url },
-        { title: "how", sub_label: "portfolio" },
+        { title: "how", sub_label: "portfolio", url: projects_path },
         { title: "what", sub_label: "our services", url: Pages.services.url },
         { title: "when", sub_label: "publications", url: Pages.articles.url },
         { title: "life", sub_label: "studio life" },

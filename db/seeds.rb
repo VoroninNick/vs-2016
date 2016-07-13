@@ -5,3 +5,19 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+require 'load_data'
+#require_relative "../lib/load_data.rb"
+
+def load_projects
+  service_ids = Service.pluck :id
+  Project.load_data(service_ids: service_ids)
+end
+
+load_projects
+
+Technology.send :extend, LoadData::ClassMethods
+Technology.load_data
+
+
+

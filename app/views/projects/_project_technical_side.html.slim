@@ -1,0 +1,29 @@
+#technical-side.project-section.project-ux-and-strategy-section style="background-image: url('#{asset_path("projects/10g-force/technical-side-bg.jpg")}'); background-size: cover;"
+  .row.bottom-inner-indent
+
+    .columns.large-5.large-push-1.top-indent
+      .h2.with-line
+        |Technical side of the project
+      = raw @project.technical_side_of_project
+    .columns.large-6
+      img src=asset_path("projects/10g-force/keyboard.png")
+
+
+  .project-technologies
+    .row
+      .columns.large-8.large-centered
+        .row
+          - @project.technologies.each do |technology|
+            .columns.large-3
+              a.technology href=technology.site_url rel="nofollow"
+                .icon
+                  = embedded_svg_from_absolute_path(technology.icon.path)
+                .name
+                  = technology.name
+
+  .project-seo-strategy.large-inner-vertical-indent
+    .row
+      .columns.large-10.large-centered
+        .h2.with-line
+          |Seo strategy
+        = raw @project.seo_strategy

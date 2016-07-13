@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+
   devise_for :users
   mount Ckeditor::Engine => '/ckeditor'
   mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
@@ -7,6 +8,8 @@ Rails.application.routes.draw do
   root as: "root_without_locale", to: "application#root_without_locale"
 
   scope ":locale", locale: /#{I18n.available_locales.join("|")}/ do
+    post "hire-us-request", to: "forms#hire_us_request", as: :hire_us_request
+    post "join-us-request", to: "forms#join_us_request", as: :join_us_request
     # scope :services, controller: "services" do
     #   root action: "index", as: :services
     #   get ":id", action: :show, as: "service"
@@ -15,6 +18,12 @@ Rails.application.routes.draw do
     resources :services, only: [:index, :show]
 
     resources :articles, only: [:index, :show]
+
+    scope :projects, controller: "projects" do
+      root action: :index, as: :projects
+      get ":id", action: "show", as: :project_or_category
+
+    end
 
     scope "blog", controller: "blog" do
       get "", action: "index", as: :blog

@@ -1,0 +1,53 @@
+form.ajax-submit.hire-us-form action=hire_us_request_path method="post" show-preloader=""
+  .content
+    .inputs
+      .row
+        .columns.large-6
+          = input(@hire_us_form, :name, required: true)
+          = input(@hire_us_form, :organization_name)
+          = input(@hire_us_form, :phone, required: true)
+          = input(@hire_us_form, :email, required: true)
+        .columns.large-6
+          .input.select
+            = placeholder(@hire_us_form, :budget_range)
+            select id=input_tag_id(@hire_us_form, :budget_range) name=input_tag_name(@hire_us_form, :budget_range)
+              option value=""
+                = t("forms.hire_us_request.budget_range")
+              - @hire_us_form.class.budget_range.values.each do |value|
+                option value=value
+                  = t("enumerize.#{@hire_us_form.class.name.underscore}.budget_range.#{value}", raise: true) rescue value
+          /= input(@hire_us_form, :budget_range, type: :select)
+          = input(@hire_us_form, :description, type: :text)
+
+
+
+
+        /.columns.large-6
+          .input.select
+            label.placeholder for="consultation_category_input"
+              |Категорія товару
+
+
+            /select id="consultation_category_input" name="consultation[category]"
+              option value="" Виберіть категорію
+
+              = render "catalog_categories_select_options"
+          .input.text#form-comment-input
+            label.placeholder for="consultation_comment_input"
+              |Коментар
+            textarea id="consultation_comment_input" name="consultation[comment]"
+
+
+    .actions.text-right
+      .row
+        .columns.large-12
+          button.btn type="submit"
+            span
+              = t("forms.actions.hire-us")
+
+  .success-message
+    .title
+      span.with_white_arrows
+        | You have successfully sent your message
+    p
+      | Our manager will contact you as soon as possible

@@ -1,0 +1,18 @@
+- banner = @project_banner
+- if banner
+  .project-banner.xlarge-inner-top-indent.xlarge-inner-bottom-indent style=("background-image: url('#{banner[:bg_image_url]}'); background-size: cover;" if banner[:bg_image_url].present?)
+    .row
+      .columns.xxxlarge-10.xxxlarge-centered
+        .row
+          .columns.large-6
+            .project-description-block
+              .title
+                = banner[:title]
+                - if banner[:title_sup].present?
+                  sup
+                    = banner[:title_sup]
+              .description
+                = banner[:short_description]
+          .columns.large-6
+            .image
+              img src=banner[:image_url]

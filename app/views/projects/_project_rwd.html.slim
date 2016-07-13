@@ -1,0 +1,45 @@
+#responsive-web-design.project-section.project-ux-and-strategy-section
+  .project-large-section-title.align-top-minus-half
+    |Web
+
+  .row.bottom-inner-indent
+    .columns.large-12.left.project-section-content-column.medium-inner-top-indent
+      .section-descriptive-title.primary-color
+        |Responsive web design
+  .desktop-slider
+    img src=asset_path("projects/10g-force/4.jpg")
+
+
+  .row
+    .columns.large-5.large-push-2.top-indent
+      .h2.with-line
+        |Responsive web design
+      = raw @project.responsive_web_design
+    .columns.large-4
+      img src=asset_path("projects/10g-force/5.png")
+
+
+
+  .full-width-image-slider.bxslider.project-bxslider
+    - slider_images = ["projects/10g-force/6.jpg", "projects/10g-force/1.jpg", "projects/10g-force/3.jpg"]
+    ul
+      - slider_images.each do |image_path|
+        img src=asset_path(image_path)
+    .custom-pager
+      - slider_images.each_with_index do |image, i|
+        a.page data-slide-index=i class=("active" if i == 0)
+
+  .project-used-icons.text-center.small-inner-bottom-indent
+    .icons-header.dark.font-23.small-inner-vertical-indent
+      |Icons
+    .row
+      .columns.large-10.large-centered
+        .row
+          .columns.large-4
+            img src=asset_path("projects/10g-force/icons-1.png")
+
+          .columns.large-4
+            img src=asset_path("projects/10g-force/icons-2.png")
+
+          .columns.large-4
+            img src=asset_path("projects/10g-force/icons-3.png")

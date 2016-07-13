@@ -7,6 +7,7 @@
 @import "scrollbar-mixin"
 
 
+@import "animate.css/animate.min"
 
 
 @import "foundation-sites/scss/foundation"
@@ -23,9 +24,14 @@
 
 @import "bxslider-4/dist/jquery.bxslider.min"
 
+@import "theming_mixins"
+
 
 +foundation-global-styles
 +foundation-grid
+
+@import "grid_extensions"
+
 //+foundation-everything
 
 // import css for plugins.
@@ -42,8 +48,9 @@
 //@import "normalize-scss/_normalize"
 //@import "normalize_extension"
 
-@import "fullpage.js/dist/jquery.fullpage.css"
-@import "components/full_page_custom_scroll"
+//@import "fullpage.js/dist/jquery.fullpage.css"
+//@import "components/full_page_custom_scroll"
+@import "components/my_full_page"
 
 @import "basic"
 
@@ -62,6 +69,7 @@
 @import "components/bxslider.custom"
 @import "components/home_footer"
 @import "components/footer"
+@import "components/projects_popup_button"
 @import "components/page_banner"
 @import "components/scroll_style"
 @import "components/release_date"
@@ -78,6 +86,20 @@
 @import "components/line_separator"
 @import "components/map"
 @import "components/tabs"
+@import "components/forms"
+@import "nice_select_config"
+@import "jquery-nice-select/scss/nice-select"
+@import "jquery-nice-select.custom"
+@import "components/popup"
+@import "components/projects_popup"
+@import "components/project"
+@import "components/project_banner"
+@import "components/project_bottom_banner"
+@import "components/project_navigation"
+
+@import "home_portfolio_slides"
+
+
 //@import "lightgallery.custom"
 
 
@@ -96,9 +118,13 @@
 @import "pages/articles"
 @import "pages/about_us"
 @import "pages/contacts"
+@import "pages/projects"
+@import "pages/project_page"
 
 //@import "pages/about_us"
 //@import "pages/contacts"
 //@import "pages/services"
+
+@import "themes/10g-force"
 
 @import "devise"

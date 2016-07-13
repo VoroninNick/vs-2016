@@ -1,0 +1,130 @@
+.project-content
+	font-size: 14px
+
+	.project-section
+		position: relative
+	.project-case-section
+		padding-bottom: 350px
+
+
+	.with-line
+		position: relative
+
+		&:before
+			content: ""
+			display: block
+			left: -25px
+			background: white
+			height: 30px
+			top: 3px
+			width: 1px
+			position: absolute
+
+
+	.project-large-section
+		position: relative
+
+	.project-large-section-title
+		+header-font-family
+		+body-font-family
+		font-size: 500px
+		color: gray
+		text-transform: uppercase
+		opacity: 0.3
+		letter-spacing: 30px
+		position: absolute
+		+semi-bold
+		top: 50px
+		line-height: 1
+		width: 100%
+		text-align: center
+		+user-select(none)
+		cursor: default
+
+		&.align-top-minus-half
+			top: -250px
+
+	.section-descriptive-title
+		letter-spacing: 6px
+		text-align: center
+		text-transform: uppercase
+		+font-45-bold
+		+header-font-family
+
+
+	.full-width-image img, img.full-width-image
+		width: 100%
+
+
+	.project-bxslider
+		position: relative
+		.bx-wrapper
+			background: none
+			border: none
+			box-shadow: none
+			margin: 0
+		.bx-viewport
+			height: auto !important
+
+			> ul
+				margin: 0
+
+		.bx-pager
+			a
+				width: 6px
+				height: 6px
+				border-radius: 50%
+				background: $dark-white-color
+				&.active
+					background: rgb(89, 200, 230)
+
+		.custom-pager
+			position: absolute
+			text-align: center
+			width: 100%
+			bottom: 30px
+
+			.page
+				vertical-align: top
+				display: inline-block
+				width: 8px
+				height: 8px
+				background: $dark-white-color
+				border-radius: 50%
+				top: 3px
+				left: 3px
+				position: relative
+				margin-left: 30px
+				cursor: pointer
+
+
+
+				&.active
+					top: 0
+					left: 0
+					background: rgb(89, 200, 230)
+					width: 14px
+					height: 14px
+					cursor: default
+
+
+		.bx-prev, .bx-next
+			border: 2px solid $light-gray-text-color
+
+
+
+	.project-technologies
+		text-align: center
+
+		.icon
+			height: 120px
+
+		svg
+			width: 120px
+			height: 120px
+
+		.name
+			color: $dark-white-color
+			text-transform: uppercase
+			+font-18
+			+header-font-family

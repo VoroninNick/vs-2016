@@ -2,11 +2,12 @@
 	background: $black-color
 	overflow: hidden
 
-#main-footer-row
-	margin-top: 75px
-	margin-bottom: 100px
-	color: white
 
+
+#main-footer-row
+	color: white
+	max-width: 1200px
+	margin: 75px auto 100px auto
 
 	.footer-item
 		+grid-column(3)
@@ -22,10 +23,24 @@
 #sub-footer-row
 	color: $light-gray-text-color
 	border-top: 1px solid $light-gray-text-color
-	padding: 10px 0 0 0
+	padding: 10px 0 24px 0
+	margin-left: auto
+	margin-right: auto
+	max-width: 1200px
 
 	#sub-footer-copyright
-		+grid-column(6)
+		+grid-column(6, 0)
+		//float: right
+
+	#sub-footer-social
 		float: right
 
+		.social-link
+			&:last-child
+				margin-right: 0
 
+
+
+body[controller-action='projects__index']
+	#footer
+		border-top: 1px solid rgba($dark-white-color, 0.1)

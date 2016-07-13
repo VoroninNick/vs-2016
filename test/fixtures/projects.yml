@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  code_name: MyString
+  avatar: 
+  name: MyString
+  customer_name: MyString
+  published: false
+  sorting_position: 1
+
+two:
+  code_name: MyString
+  avatar: 
+  name: MyString
+  customer_name: MyString
+  published: false
+  sorting_position: 1

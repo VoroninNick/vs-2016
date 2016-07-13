@@ -1,0 +1,76 @@
+//$block-width: unquote("#{(99.2/6)}vw")
+$block-width: percentage(1/6)
+
+.projects-popup
+	background: $body-bg-color
+
+	.block
+		display: block
+		position: relative
+		width: $block-width
+
+		//display: inline-block
+		float: left
+
+		//height: 0
+		//padding-top: 100%
+		height: $block-width
+
+		&.active
+			border: 5px solid white
+
+	.portfolio-link-block
+
+
+		.portfolio-link
+			+transform(translate(-50%, 0))
+			position: absolute
+			top: 50px
+			left: 50%
+
+			svg
+				width: 80px
+				height: 80px
+
+			.image-wrap
+				//width: 60px
+				//overflow: hidden
+				//margin: 0 auto
+
+		.close-button-and-text
+			top: 180px
+			position: relative
+			text-align: center
+			cursor: pointer
+		.close-button
+			display: inline-block
+			width: 30px
+			height: 30px
+			//background: $dark-white-color
+			position: relative
+			//border-radius: 50%
+			//padding: 10px 0px 0px 4px
+			//.inner
+				+burger($width: 20px, $color: $black-color, $height: 2px)
+				+burger-to-cross()
+
+		.close-button-and-text
+			&:hover
+				.close-button
+					//background: $pink-color
+
+				svg
+					*
+						fill: $pink-color
+
+				.close-text
+					color: $pink-color
+
+
+
+
+	body.has-opened-projects-popup &
+		display: block
+
+
+

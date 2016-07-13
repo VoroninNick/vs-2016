@@ -1,0 +1,36 @@
+#project-case.project-section.project-case-section
+  .row.large-inner-top-indent.project-large-section
+    /.project-case
+    .project-large-section-title
+      |Case
+
+    .columns.xxxlarge-8.xxxlarge-push-2.left.project-section-content-column
+      .row
+        .columns.large-7
+          .h2.with-line
+            |Project case
+          = raw @project.project_case
+        .columns.large-2
+          .project-details
+            .h2.with-line
+              |Client
+            p
+              = @project.customer_name
+
+            .h2.with-line
+              |Deliverables
+            p
+              - @project.services.each do |service|
+                = service.name
+                br
+            - if @project.released_on.present?
+              .h2.with-line
+                |Year
+              p
+                = @project.released_on.year
+
+            - if @project.awards.present?
+              .h2.with-line
+                |Awards
+              p
+                = @project.awards

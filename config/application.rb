@@ -26,5 +26,6 @@ module Dev
     I18n.available_locales = [:en, :uk, :ru]
 
     Rails.application.config.assets.precompile += %w(ckeditor/filebrowser/images/*)
+    Rails.application.config.assets.precompile += %w(mailer.css)
   end
 end

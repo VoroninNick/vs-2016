@@ -1,5 +1,6 @@
 #header
-	height: $header-height
+	//height: $header-height
+	height: 0
 	position: fixed
 	width: 100%
 	z-index: $zindex-header
@@ -60,7 +61,7 @@ body.has-opened-menu
 
 body:not(.has-opened-menu)
 	#header-logo
-		#svg-logo-symbol
+		#svg-logo-symbol:not(:hover)
 			*
 				fill: $dark-white-color
 

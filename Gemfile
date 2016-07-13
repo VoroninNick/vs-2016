@@ -82,3 +82,13 @@ gem 'enumerize'
 gem 'devise'
 
 gem 'acts-as-taggable-on'
+
+gem 'inky-rails', github: "pkorenev/inky-rails", branch: "slim-handler"
+
+gem 'roadie-rails'
+
+gem 'russian'
+
+#gem 'ukrainian'
+
+gem 'i18n'

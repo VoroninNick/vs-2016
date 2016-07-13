@@ -66,8 +66,24 @@
         = render "maps_for_offices"
 
 
-.light-bg
+.light-bg.large-inner-bottom-indent
   .large-header.dark-bg
     |Work with us
 
-  .content
+  .row
+    .columns.xxxlarge-10.xxxlarge-centered
+      .row
+        .columns
+          .tabs
+            .row.tab-headers
+              a.columns.large-6.tab-header.active href="#hire-us"
+                = t("forms.actions.hire-us")
+              a.columns.large-6.tab-header href="#join-us"
+                = t("forms.actions.join-us")
+            .tab-contents
+              #hire-us.tab-content.active
+                = render "hire_us_form"
+
+              #join-us.tab-content
+                h1
+                  |join us

@@ -1,0 +1,51 @@
+= theme($primary-color: red, $secondary-color: blue, $third-color: green, $body-color: white, $technology-color: $primary-color, $project-bottom-banner-title-color: $primary-color, $button-lines-color: $primary-color)
+	color: $body-color
+
+
+	.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, .header, .title
+		color: $primary-color
+		+font-weight-500
+
+	.project-banner
+		.project-description-block
+			.title
+				color: $primary-color
+
+			sup
+				color: $secondary-color
+
+	.primary-color
+		color: $primary-color
+	.secondary-color
+		color: $secondary-color
+	.third-color
+		color: $third-color
+
+	.with-line
+		&.primary-color
+			&:before
+				background: $primary-color
+		&.secondary-color
+			&:before
+				background: $secondary-color
+		&.third-color
+			&:before
+				background: $third-color
+
+
+
+	.btn
+		&:before, &:after
+			background: $button-lines-color
+
+	.project-technologies
+		svg
+			.technology-svg-logo
+				&, *
+					fill: $technology-color
+
+
+	.project-bottom-banner
+		.title
+			color: $project-bottom-banner-title-color
+

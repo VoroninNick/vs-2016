@@ -1,7 +1,7 @@
 asset "fullpage.js"
 asset "jquery-ui"
 asset "jquery.scrollend"
-
+asset "jquery-mousewheel"
 
 
 
@@ -22,3 +22,12 @@ asset "lightgallery", '1.2.14'
 #asset "bxslider"
 asset "bxslider-4"
 asset "jquery.nicescroll"
+
+
+asset "foundation-emails"
+
+asset "jquery-nice-select"
+
+asset "textillate"
+
+asset "jquery_appear"

@@ -1,31 +1,78 @@
++keyframes(button-animation-over)
+	0%
+		width: 25%
+	0%, 50%
+		height: 3px
+	25%
+		width: 100%
+	100%
+		height: 50%
+
++keyframes(button-animation-out)
+	0%
+		height: 50%
+	0%, 75%
+		width: 100%
+	50%, 100%
+		height: 3px
+	100%
+		width: 25%
+
+
+
 .btn
 
-	&.btn-hire-us
-		background: $dark-white-color
-		padding: 0 22px
-		height: 47px
-		line-height: 47px
-		color: $black-color
-		text-transform: lowercase
-		text-decoration: none
-		display: inline-block
+	padding: 0 22px
+	height: 47px
+	line-height: 47px
+	color: $black-color
+	text-transform: lowercase
+	text-decoration: none
+	display: inline-block
+	position: relative
+	+font-20
+	+fira-sans
+
+	span
 		position: relative
-		+font-20
-		+fira-sans
+		z-index: 1
 
 
+	&:before, &:after
+		content: ""
+		width: 25%
+		display: block
+		background: $pink-color
+		height: 3px
+		position: absolute
+
+	&:before
+		top: 0
+		left: 0
+
+	&:after
+		bottom: 0
+		right: 0
+
+	&.light
+		background: $dark-white-color
+
+	&, &.dark
+		background: $black-color
+		color: $dark-white-color
+
+
+	&.btn-hire-us
+
+	&:hover
 		&:before, &:after
-			content: ""
+			width: 100%
+			height: 50%
+			+animation-name(button-animation-over)
+			+animation-duration(0.8s)
+	&.out
+		&:before, &:after
 			width: 25%
-			display: block
-			background: $pink-color
 			height: 3px
-			position: absolute
-
-		&:before
-			top: 0
-			left: 0
-
-		&:after
-			bottom: 0
-			right: 0
+			+animation-name(button-animation-out)
+			+animation-duration(0.8s)

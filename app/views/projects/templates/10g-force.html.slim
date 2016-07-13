@@ -1,0 +1,17 @@
+.project-navigation
+  - project_navigation_sections = [{title: "Project case", id: "project-case"}, {title: "Logo & Ci", id: "project-logo"}, {title: "UX & Strategy", id: "ux-and-strategy"}, {title: "Responsive web design", id: "responsive-web-design"}, {title: "Technical side of project", id: "technical-side"}]
+
+  .inner
+    - project_navigation_sections.each_with_index do |section, index|
+      a.project-navigation-link href="##{section[:id]}" class=("active" if index == 0)
+        .title
+          = section[:title]
+
+.project-content
+  = render "project_banner"
+  = render "project_case"
+  = render "project_logo"
+  = render "project_ux_and_strategy"
+  = render "project_rwd"
+  = render "project_technical_side"
+  = render "project_bottom_banner"

@@ -1,0 +1,73 @@
+.project
+	display: block
+	position: relative
+	width: $block-width
+
+	//display: inline-block
+	float: left
+
+	//height: 0
+	//padding-top: 100%
+	//height: $block-width
+
+	.description-block
+		padding: 4rem 0 0 0
+		opacity: 0
+		background: $pink-color
+		top: 0
+		bottom: 0
+		left: 0
+		right: 0
+		position: absolute
+		color: white
+		text-align: center
+
+
+		.project-number
+			bottom: 0
+			right: 0
+			width: 180px
+			height: 180px
+			position: absolute
+			+large-number($color: rgba($dark-white-color, 0.3))
+			display: inline-block
+
+		.name
+			+bold
+			text-transform: uppercase
+			+font-20
+			+fira-sans
+
+		.separator
+			background: white
+			width: 40px
+			height: 1px
+			display: inline-block
+
+		.project-related-services
+			display: inline-block
+
+			.icon
+				display: inline-block
+				margin-right: 20px
+
+				svg
+					width: 30px
+					height: 30px
+
+					*
+						opacity: 1
+						fill: white
+
+				&:last-child
+					margin-right: 0
+
+
+	&:hover
+		.description-block
+			position: absolute
+			top: 0
+			left: 0
+			bottom: 0
+			right: 0
+			opacity: 1

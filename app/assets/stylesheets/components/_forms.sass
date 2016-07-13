@@ -1,0 +1,191 @@
+
+
+.inputs
+	padding: 45px 0 0 0
+.input
+	height: 50px
+	margin-bottom: 22px
+
+
+
+	input[type=text], input[type=number], input[type=tel], textarea
+		outline: none
+		width: 100%
+		color: $input-text-color
+		+transition-duration(0.2s)
+		+transition-property(all)
+
+
+
+	input
+		&[type=text], &[type=number], &[type=tel]
+			background: none
+
+			border: none
+			border-bottom: 1px solid $input-border-color
+
+			&:focus
+				border-bottom-color: $input-border-color
+
+	.placeholder
+		color: $input-placeholder-color
+		position: relative
+		top: 17px
+		+transition-duration(0.2s)
+		+transition-property(all)
+
+
+
+	&.required
+		.placeholder
+			&:after
+				color: $input-placeholder-required-mark-color
+				content: "*"
+				padding-left: 4px
+				+font-12
+				vertical-align: super
+
+
+	&.focus, &.not-empty, &.select
+		&:not(.text)
+			.placeholder
+				+font-12
+				top: 0
+
+	&.text
+		.placeholder
+			top: 0
+
+
+
+	&.without-star
+		.placeholder
+			&:after
+				display: none
+
+	textarea
+		background: none
+		border: 1px solid $input-border-color
+		height: 147px
+		box-sizing: border-box
+
+		&:focus
+			border-color: $focus-input-border-color
+
+	&.text
+		.placeholder
+			height: 47px
+			display: block
+			line-height: 62px
+
+	&.radio-group
+		+clearfix
+		height: auto
+		color: #999
+
+
+		> label
+			float: left
+			width: 50%
+		.radio-buttons
+			float: left
+			width: 50%
+
+			.radio-button
+				.text
+
+				input
+					display: none
+
+
+
+.radio-button
+	padding-left: 30px
+	position: relative
+	display: block
+	cursor: pointer
+
+	.text
+	input:checked ~ .text
+		color: $radio-text-color
+
+.radio-button-icon
+	width: 16px
+	height: 16px
+	box-sizing: border-box
+
+	display: block
+	border-radius: 50%
+	border: 2px solid $radio-icon-border-color
+	position: absolute
+	left: 0
+	top: 3px
+
+	input:checked + &
+		border-color: $checked-radio-icon-border-color
+
+		&:before
+			content: ""
+			display: block
+			position: relative
+			width: 8px
+			height: 8px
+			background: $checked-radio-icon-mark-color
+			top: 2px
+			left: 2px
+			border-radius: 50%
+
+
+
+
+
+.field
+	.label
+		color: $input-placeholder-color
+		position: relative
+		//top: 17px
+		top: 0
+		font-size: 12px
+	.value, .unit
+		color: white
+		display: inline
+
+
+
+#form-comment-input
+	height: 191px
+	.placeholder
+		top: 0
+
+.actions
+	//+grid-row
+	padding: 23px 0 35px 0
+
+
+.success-message
+	display: none
+
+
+//.contact-form
+	background: white
+	+box-shadow-normal
+
+	.header
+		height: 60px
+		background: $gray-color
+		line-height: 60px
+		text-transform: uppercase
+		+ubuntu
+		+font-22
+		color: white
+		text-align: center
+
+//.form-content
+	padding: 0 70px
+
+//@media #{$medium-only}
+	.form-content
+		padding: 0 30px
+//@media #{$small-only}
+	.form-content
+		padding: 0 15px

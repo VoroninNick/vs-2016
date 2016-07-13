@@ -1,6 +1,9 @@
 class Service < ActiveRecord::Base
   attr_accessible *attribute_names
 
+  has_and_belongs_to_many :projects
+  attr_accessible  :projects, :project_ids
+
   def self.initialize_globalize
     translates :name, :descriptive_name, :url_fragment, :description, :long_description, :content
     accepts_nested_attributes_for :translations
@@ -36,8 +39,15 @@ class Service < ActiveRecord::Base
     self.initialize_globalize
   end
 
+
+
   scope :published, -> { where(published: 't') }
   scope :sort_by_sorting_position, -> { order("sorting_position asc") }
+
+  has_cache
+  has_seo_tags
+  has_sitemap_record
+
 
   # attachents
 

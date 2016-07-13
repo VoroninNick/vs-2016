@@ -15,8 +15,10 @@ class ApplicationController < ActionController::Base
   extend Cms::Helpers::PagesHelper::ClassMethods
   include Cms::Helpers::MetaDataHelper
   include Cms::Helpers::NavigationHelper
+  include FormsHelper
 
   before_action :set_locale, unless: :admin_panel?
+  before_action :set_popup_projects
 
   def root_without_locale
     redirect_to root_path(locale: I18n.locale)
@@ -38,5 +40,9 @@ class ApplicationController < ActionController::Base
     admin = params[:controller].to_s.starts_with?("rails_admin")
 
     return admin
+  end
+
+  def set_popup_projects
+    @popup_projects = Project.published
   end
 end

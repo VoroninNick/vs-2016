@@ -99,10 +99,10 @@ $document.on "mousedown", (e)->
 #    if $elems.length > 0
 #      alert("test 1")
     $untargeted_excepted_elements = except_elements(e.target, s)
-    if $elems.length > 0
+    #if $elems.length > 0
 
-      console.log "s: ", s, "e: ", e, "$elems:", $elems
-      console.log "elems count: ", $elems.length
+      #console.log "s: ", s, "e: ", e, "$elems:", $elems
+      #console.log "elems count: ", $elems.length
 
     $untargeted_elems = $elems.filter(
       (index, item)->

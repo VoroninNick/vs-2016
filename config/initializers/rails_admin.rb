@@ -35,11 +35,45 @@ RailsAdmin.config do |config|
     # history_show
 
     nestable do
-      only [AboutSlide, AboutSlide]
+      only [AboutSlide, AboutSlide, Project, Technology]
     end
   end
 
-  config.include_models Service, Article, Cms::Tag, User, AboutSlide, Member
+  config.include_models Technology
+
+  config.include_models HireUsRequest, JoinUsRequest, FormConfigs::HireUsRequest, FormConfigs::JoinUsRequest
+
+  config.model HireUsRequest do
+    field :name
+    field :organization_name
+    field :phone
+    field :email
+    field :budget_range
+    field :created_at
+    field :locale
+    field :referer
+    field :session_id
+  end
+
+  config.model JoinUsRequest do
+    field :name
+    field :organization_name
+    field :phone
+    field :email
+    field :budget_range
+    field :description
+    field :locale
+    field :referer
+    field :session_id
+  end
+
+  [FormConfigs::HireUsRequest, FormConfigs::JoinUsRequest].each do |m|
+    config.model m do
+      field :email_receivers, :text
+    end
+  end
+
+  config.include_models Service, Article, Cms::Tag, User, AboutSlide, Member, Project
 
   config.model User do
     field :email
@@ -60,6 +94,7 @@ RailsAdmin.config do |config|
     field :icon, :paperclip
     field :home_bg
     field :list_image
+    field :projects
   end
 
   config.model_translation Service do
@@ -123,4 +158,62 @@ RailsAdmin.config do |config|
       field :few_words_about
     end
   end
+
+  config.model Project do
+    nestable_list({position_field: :sorting_position})
+    field :published
+    field :released_on
+    field :translations, :globalize_tabs
+    #field :project_technologies
+    field :services
+    field :technologies
+    group :avatars do
+      field :avatar do
+        help "used in projects list page and popup"
+      end
+      field :thumb do
+        help "used in prev/next navigation between projects above footer in project page"
+      end
+    end
+
+    group :item_top_banner_image do
+      field :item_top_banner_bg_image
+      field :item_top_banner_image
+    end
+
+    group :item_bottom_banner_image do
+      field :item_bottom_banner_bg_image
+      field :item_bottom_banner_image
+    end
+  end
+
+  config.model_translation Project do
+    field :locale, :hidden
+    field :name
+    field :url_fragment
+    field :customer_name
+    field :site_url
+    field :short_name
+    field :banner_title
+    field :banner_title_sup
+    field :short_description
+    field :awards
+    field :project_case, :ck_editor
+    field :logo_and_ci, :ck_editor
+    field :ux_and_strategy, :ck_editor
+    field :responsive_web_design, :ck_editor
+    field :technical_side_of_project, :ck_editor
+    field :seo_strategy, :ck_editor
+  end
+
+  config.model Technology do
+    nestable_list({position_field: :sorting_position})
+
+    field :name
+    field :site_url
+    field :icon
+    field :projects
+  end
+
+
 end

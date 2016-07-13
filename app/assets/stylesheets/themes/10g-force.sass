@@ -1,0 +1,62 @@
+body.theme-10g-force
+	$theme-10g-force-yellow-color: rgb(255, 170, 44)
+	$theme-10g-force-red-yellow-color: rgb(239, 80, 35)
+	$theme-10g-force-sky-blue-color: rgb(89, 200, 230)
+	$theme-10g-force-blue-color: rgb(44, 171, 225)
+	//+theme($blue-color)
+	//+theme(#00c6f2)
+	//+theme(rgb(89, 200, 230), #FFA500)
+	+theme($theme-10g-force-sky-blue-color, $theme-10g-force-yellow-color, $theme-10g-force-red-yellow-color,$technology-color: $theme-10g-force-yellow-color,$project-bottom-banner-title-color: $theme-10g-force-red-yellow-color,$button-lines-color: $theme-10g-force-red-yellow-color)
+
+	.yellow-bg
+		background: $theme-10g-force-yellow-color
+
+	.red-yellow-bg
+		background: $theme-10g-force-red-yellow-color
+
+	.sky-blue-bg
+		background: $theme-10g-force-sky-blue-color
+
+	.blue-bg
+		background: $theme-10g-force-blue-color
+
+
+
+
+
+	.logo-column
+		svg
+			width: 600px
+			max-width: 100%
+			height: 400px
+
+
+
+
+	.logo-color
+		.circle
+			display: inline-block
+			width: 60px
+			height: 60px
+			border-radius: 50%
+
+
+	.mono-colored-logos
+		.logo
+			background: white
+			padding-top: 75px
+			padding-bottom: 75px
+			svg
+				width: 160px
+				height: 100px
+
+			&:nth-child(1n+4)
+				background: #212121
+
+
+	.project-used-icons
+		background: asset_url("projects/10g-force/icons-bg.jpg")
+
+
+	.project-bottom-banner
+		background-color: white

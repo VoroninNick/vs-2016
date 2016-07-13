@@ -10,7 +10,7 @@ $font-family-lora: 'Lora', serif
 $body-font-family: $font-family-lora
 $header-font-family: $font-family-fira-sans
 
-
+$font-size-90: 90px
 $font-size-60: 60px
 $font-size-45: 45px
 $font-size-36: 36px
@@ -57,6 +57,8 @@ $font-size-12: 12px
 
 
 // font-sizes
+= font-90
+	font-size: $font-size-90
 = font-60
 	font-size: $font-size-60
 = font-60-500
@@ -176,6 +178,9 @@ $font-size-12: 12px
 	.font-36-bold
 		+font-36-bold
 
+	.font-23
+		+font-23
+
 
 
 
@@ -196,16 +201,21 @@ body
 	color: #D3D3D3
 	opacity: 0.2
 
-= large-number
+= large-number($color: $pink-color)
 	font-size: 180px
 	line-height: 1
-	color: $pink-color
+	color: $color
 	+italic
 
 
 
-// color classes
+// font classes
+.italic
+	+italic
 
+// color classes
+.dark
+	color: #212121
 .pink
 	color: $pink-color
 .white

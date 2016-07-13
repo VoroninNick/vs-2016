@@ -1,4 +1,4 @@
-$(".bxslider").bxSlider({
+$(".about-bxslider").bxSlider({
   auto: true
   pager: false
   controls: true

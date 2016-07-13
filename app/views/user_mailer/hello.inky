@@ -1,0 +1,33 @@
+/! Emails use the XHTML Strict doctype
+doctype Strict
+html xmlns="http://www.w3.org/1999/xhtml"
+  head
+    /! The character set should be utf-8
+    meta content=("text/html; charset=utf-8") http-equiv="Content-Type"
+    /! Enables media queries
+    meta content="width=device-width" name="viewport"
+    /! Link to the email's CSS, which will be inlined into the email
+    = stylesheet_link_tag "mailer"
+
+body
+
+
+  container
+    row
+      columns large="4"
+        center
+          img src="http:placehold.it125x200"
+      columns large="8"
+        h1 Do Something Radical With This App.
+        button.large href="#"  Sign Up
+
+  container
+    row
+      columns large="3"
+        |1
+      columns large="3"
+        |2
+      columns large="3"
+        |3
+      columns large="3"
+        |4

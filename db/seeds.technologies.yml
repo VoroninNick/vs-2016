@@ -1,0 +1,15 @@
+technologies:
+  -
+    name: "Zurb Foundation"
+    site_url: "http://foundation.zurb.com/"
+
+  -
+    name: "CSS 3"
+    site_url: "https://www.w3.org/TR/2001/WD-css3-roadmap-20010523/"
+
+  -
+    name: "html 5"
+    site_url: "https://www.w3.org/TR/html5/"
+  -
+    name: "Ruby on Rails"
+    site_url: "http://rubyonrails.org/"

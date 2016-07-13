@@ -1,0 +1,83 @@
+projects:
+  -
+    code_name: 10g-force
+    short_name: "10g-force.com"
+    site_url: "10g-force.com"
+    translations:
+      ru:
+        name: "Дизайн веб-сервиса для тестирования"
+        customer_name: "10G Force"
+        short_description: "Более 1500 сертифицированных тестеров готовы немедленно приступить к тестированию ваш кусок программного обеспечения"
+        banner_title: "10g Force"
+        banner_title_sup: ".com"
+      uk:
+        name: "Дизайн веб-сервісу для тестування"
+        customer_name: "10G Force"
+        short_description: "Більше 1500 сертифікованих тестерів готові негайно приступити до тестування ваш шматок програмного забезпечення"
+        banner_title: "10g Force"
+        banner_title_sup: ".com"
+      en:
+        name: "Design for testing web-service"
+        customer_name: "10G Force"
+        short_description: "More than 1500 certified testers are ready to instantly start testing your piece of software"
+        banner_title: "10g Force"
+        banner_title_sup: ".com"
+
+
+  -
+    code_name: plit
+    short_name: "Plit.ua"
+    site_url: "plit.ua"
+    translations:
+      ru:
+        name: "Дизайн інтернет-магазину &laquo;Пліт&raquo;"
+        customer_name: "Пліт"
+        short_description: "Интернет-магазин дверей и фурнитури"
+        banner_title: "Плит"
+        banner_title_sup: ".ua"
+      uk:
+        name: "Дизайн интернет-магазина &laquo;Плит&raquo;"
+        customer_name: "Плит"
+        short_description: "Інтернет-магазин дверей та фурнітури"
+      en:
+        name: "Design for web-market \"Plit\""
+        customer_name: "Plit"
+        short_description: "A web service for modern metalworking enterprise with hight culture of manufacture"
+        banner_title: "Plit"
+        banner_title_sup: ".ua"
+
+
+
+  -
+    code_name: arazzinni
+    short_name: arazzinni
+    translations:
+      ru:
+        name: "Дизайн інтернет-магазину &laquo;arazzinni&raquo;"
+        customer_name: "arazzinni"
+        short_description: "Интернет-магазин дверей и фурнитури"
+      uk:
+        name: "Дизайн интернет-магазина &laquo;arazzinni&raquo;"
+        customer_name: "arazzinni"
+        short_description: "Інтернет-магазин дверей та фурнітури"
+      en:
+        name: "Design for web-market \"arazzinni\""
+        customer_name: "arazzinni"
+        short_description: "A web e-commerce doors & furniture catalogue"
+
+
+  -
+    code_name: valko
+    translations:
+      ru:
+        name: "Брендинг и сайт для Валько"
+        customer_name: "Валько"
+      uk:
+        name: "Брендинг и сайт для Валько"
+        customer_name: "Валько"
+      en:
+        name: "Branding and site for Valko"
+        customer_name: "Valko"
+
+
+

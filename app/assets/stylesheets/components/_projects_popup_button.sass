@@ -1,0 +1,22 @@
+#projects-popup-button
+	position: fixed
+	z-index: $zindex-projects-popup-button
+	right: 80px
+	bottom: 60px
+	cursor: pointer
+
+	svg
+		width: 40px
+		height: 40px
+
+		*
+			+transition-duration(0.2s)
+			+transition-property(fill)
+			//fill: $dark-white-color
+
+	&:hover
+		svg
+			circle
+				fill: $pink-color
+			*
+				//fill: $pink-color

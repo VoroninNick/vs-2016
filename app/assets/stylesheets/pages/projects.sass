@@ -1,0 +1,31 @@
+.projects
+	.project
+		width: percentage(1/4)
+
+.project-tags
+
+	.tag
+		+grid-column($gutter: 0)
+		width: percentage(1/9)
+		text-align: center
+		text-transform: uppercase
+		+fira-sans
+		+font-weight-500
+		color: rgba($black-color, 0.5)
+
+		.icon
+			height: 95px
+
+
+		svg
+			*
+				fill: rgba($black-color, 0.5)
+				opacity: 1
+
+		&.checked
+			svg
+				*
+					fill: $pink-color
+
+			color: $pink-color
+

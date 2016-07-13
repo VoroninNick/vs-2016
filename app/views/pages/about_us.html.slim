@@ -11,7 +11,7 @@
     .row
       .columns.xxxlarge-6.intro-column
         .image-container
-          = inline_svg "svg/expertise/graphic_design.svg"
+          = inline_svg "svg/vs-about-icon-design.svg"
 
         .header.font-36-bold
           |Design studio
@@ -21,7 +21,7 @@
 
       .columns.xxxlarge-6.intro-column
         .image-container
-          = inline_svg "svg/expertise/graphic_design.svg"
+          = inline_svg "svg/vs-about-icon-goal.svg"
 
         .header.font-36-bold
           |Design studio
@@ -30,7 +30,7 @@
 
 
 .slider
-  ul.bxslider
+  ul.bxslider.about-bxslider
     - @slides.each do |slide|
       .slide style="background-image: url('#{slide.image.url(:slide)}')"
         img src=slide.image.url(:slide)
@@ -65,7 +65,7 @@
 
       .footer
         .icon
-          = inline_svg "svg/expertise/graphic_design.svg"
+          = inline_svg "svg/vs-about-icon-research.svg"
         .name
           |Research
 
@@ -80,7 +80,7 @@
 
       .footer
         .icon
-          = inline_svg "svg/expertise/graphic_design.svg"
+          = inline_svg "svg/vs-about-icon-planning.svg"
         .name
           |Planning
 
@@ -94,7 +94,7 @@
 
       .footer
         .icon
-          = inline_svg "svg/expertise/graphic_design.svg"
+          = inline_svg "svg/vs-about-icon-execution.svg"
         .name
           |Research
 
