@@ -9,10 +9,12 @@
 		position: relative
 
 	.project-navigation-link
+		clear: left
+		float: left
 		display: block
 		position: relative
 
-		&:before
+		&:after
 			content: ""
 			width: 50px
 			+transition-duration(0.5s)
@@ -27,14 +29,15 @@
 			+transition-delay(0.1s)
 			+transition-duration(0.5s)
 			+transition-property(all)
+			//display: inline-block
 
 		&:hover
-			&:before
+			&:after
 				width: 100%
 			.title
 				opacity: 0.6
 		&.active
-			&:before
+			&:after
 				width: 100%
 				background: #fff
 			.title
@@ -46,8 +49,8 @@
 			.title
 				color: #212121
 
-			&:before
+			&:after
 				background: rgba(#212121, 0.6)
 			&.active
-				&:before
+				&:after
 					background: rgba(#212121, 1)

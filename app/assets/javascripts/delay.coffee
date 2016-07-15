@@ -10,7 +10,7 @@ window.delay = (key, callback, timeout = 1000, call_right_now = false, run_callb
     if allow_call
       last_calls[key] = current_time
       callback()
-  if !run_callbacks_later
+  if run_callbacks_later
     delays[key] = setTimeout(callback, timeout)
 
 

@@ -46,5 +46,5 @@ $document.on "mousewheel", (e)->
 
     500
     true
-    true
+    false
   )

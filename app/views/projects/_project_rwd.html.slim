@@ -10,13 +10,15 @@
     img src=asset_path("projects/10g-force/4.jpg")
 
 
+
   .row
     .columns.large-5.large-push-2.top-indent
       .h2.with-line
         |Responsive web design
       = raw @project.responsive_web_design
     .columns.large-4
-      img src=asset_path("projects/10g-force/5.png")
+      img src=asset_path("projects/10g-force/web.png")
+
 
 
 
@@ -29,7 +31,7 @@
       - slider_images.each_with_index do |image, i|
         a.page data-slide-index=i class=("active" if i == 0)
 
-  .project-used-icons.text-center.small-inner-bottom-indent
+  .project-used-icons.text-center.small-inner-bottom-indent data-navigation-color="dark"
     .icons-header.dark.font-23.small-inner-vertical-indent
       |Icons
     .row

@@ -48,3 +48,4 @@
 #= require maps
 
 #= require components/project-navigation
+#= require page_navigation
