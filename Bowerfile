@@ -24,7 +24,7 @@ asset "bxslider-4"
 asset "jquery.nicescroll"
 
 
-asset "foundation-emails"
+asset "foundation-emails", "2.2.1"
 
 asset "jquery-nice-select"
 
