@@ -1,0 +1,12 @@
+body.theme-valko{
+  $colors: (
+          primary: blue,
+          brown: #876036,
+          black: #212121
+  );
+
+  color: map_get($colors, primary);
+  //@include theme()
+}
+
+

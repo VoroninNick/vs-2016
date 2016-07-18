@@ -1,2 +1,9 @@
-h1 Projects#show
-p Find me in app/views/projects/show.html.slim
+= render "project_navigation"
+.project-content
+  = render "project_banner"
+  = render "project_case" if @project.project_case.present?
+  = render "project_logo" if @project.logo_and_ci.present?
+  = render "project_ux_and_strategy" if @project.ux_and_strategy.present?
+  = render "project_rwd"  if @project.responsive_web_design.present?
+  = render "project_technical_side" if @project.technical_side_of_project.present?
+  = render "project_bottom_banner"

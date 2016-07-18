@@ -18,7 +18,12 @@ class ProjectsController < ApplicationController
     if @project
       set_page_metadata(@project)
       @theme = @project.code_name
-      render "projects/templates/#{@project.code_name}"
+      theme_template_path = "projects/templates/#{@project.code_name}"
+      if template_exists?(theme_template_path)
+        render theme_template_path
+      else
+        render "show"
+      end
     else
       set_category
       if @category

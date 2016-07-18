@@ -1,0 +1,17 @@
+$theme-defaults: (
+  primary-color: red,
+  secondary-color: blue,
+  third-color: green,
+  body-color: white,
+  technology-color: "$primary-color",
+  project-bottom-banner-title-color: "$primary-color",
+  button-lines-color: "$primary-color"
+);
+
+.primary-color{
+  color: map_get($theme-defaults, primary-color)
+}
+
+.technology{
+  color: map_get($theme-defaults, technology-color)
+}
