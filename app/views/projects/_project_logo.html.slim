@@ -1,4 +1,6 @@
-#project-logo.project-section.project-logo-section.light-bg data-navigation-color="dark"
+- section_bg = (bg_img = @project.logo_and_ci_bg_image).exists? ? bg_img.url : nil
+
+#project-logo.project-section.project-logo-section.light-bg data-navigation-color="dark" class=("section-with-bg-image" if section_bg) style=("background-image: url('#{section_bg}');" if section_bg)
   .project-large-section-title.align-top-minus-half
     |Logo
   .row.medium-inner-top-indent.project-large-section
@@ -46,5 +48,4 @@
           = embedded_svg_from_assets("projects/10g-force/svg/logo-#{i+1}.svg")
 
 
-  .full-width-image
-    img src=asset_path("projects/10g-force/1.jpg")
+  = render "project_images", images: @project.logo_and_ci_images

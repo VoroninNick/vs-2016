@@ -73,7 +73,19 @@ RailsAdmin.config do |config|
     end
   end
 
-  config.include_models Service, Article, Cms::Tag, User, AboutSlide, Member, Project
+  config.include_models Service, Article, Cms::Tag, Attachable::Asset, User, AboutSlide, Member, Project
+
+  config.model Attachable::Asset do
+    edit do
+      field :data
+      field :translations, :globalize_tabs
+    end
+  end
+
+  config.model_translation Attachable::Asset do
+    field :locale, :hidden
+    field :data_alt
+  end
 
   config.model User do
     field :email
@@ -185,6 +197,20 @@ RailsAdmin.config do |config|
       field :item_bottom_banner_bg_image
       field :item_bottom_banner_image
     end
+
+    group :project_content_images do
+      field :logo_and_ci_bg_image
+      field :logo_and_ci_images
+      field :ux_bg_image
+      field :ux_images
+      field :rwd_bg_image
+      field :rwd_images
+      field :technical_side_of_project_bg_image
+    end
+
+    group :site_preview_images do
+      field :rwd_desktop_images
+    end
   end
 
   config.model_translation Project do
@@ -204,6 +230,7 @@ RailsAdmin.config do |config|
     field :responsive_web_design, :ck_editor
     field :technical_side_of_project, :ck_editor
     field :seo_strategy, :ck_editor
+
   end
 
   config.model Technology do

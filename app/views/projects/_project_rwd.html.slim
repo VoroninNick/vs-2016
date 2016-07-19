@@ -7,29 +7,36 @@
       .section-descriptive-title.primary-color
         |Responsive web design
   .desktop-slider
-    img src=asset_path("projects/10g-force/4.jpg")
+    .slider-outer
+      .screen-image
+        img src=asset_path("screen.png")
+      .slider-inner
+        .slider-images.screen-images-bxslider-wrap
+          .screen-images-bxslider
+            - @project.rwd_desktop_images.each do |image|
+              img src=image.url(:slide)
+    .custom-pager
+      - @project.rwd_desktop_images.each_with_index do |image, i|
+        a.page data-slide-index=i class=("active" if i == 0)
+    .custom-controls
+      .prev
+      .next
 
 
 
-  .row
+
+  /.row
     .columns.large-5.large-push-2.top-indent
       .h2.with-line
         |Responsive web design
       = raw @project.responsive_web_design
     .columns.large-4
       img src=asset_path("projects/10g-force/web.png")
+  .fade-in
+    = raw @project.responsive_web_design
 
 
-
-
-  .full-width-image-slider.bxslider.project-bxslider
-    - slider_images = ["projects/10g-force/6.jpg", "projects/10g-force/1.jpg", "projects/10g-force/3.jpg"]
-    ul
-      - slider_images.each do |image_path|
-        img src=asset_path(image_path)
-    .custom-pager
-      - slider_images.each_with_index do |image, i|
-        a.page data-slide-index=i class=("active" if i == 0)
+  = render "project_images", images: @project.rwd_images
 
   .project-used-icons.text-center.small-inner-bottom-indent data-navigation-color="dark"
     .icons-header.dark.font-23.small-inner-vertical-indent

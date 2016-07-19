@@ -19,6 +19,27 @@ class ProjectsController < ApplicationController
       set_page_metadata(@project)
       @theme = @project.code_name
       theme_template_path = "projects/templates/#{@project.code_name}"
+      next_project = @project.id
+      ids = @popup_projects.map(&:id)
+      current_index = ids.index(@project.id)
+      prev_index = current_index - 1
+      next_index = current_index + 1
+      if prev_index < 0
+        prev_index = ids.count - 1
+      end
+
+      if next_index >= ids.count
+        next_index = 0
+      end
+
+      prev_id = ids[prev_index]
+      next_id = ids[next_index]
+
+      prev_item = Project.find(prev_id)
+      next_item = Project.find(next_id)
+
+
+      @prev, @next = [prev_item, next_item].map{|item| {image: item.thumb.exists?(:thumb) ? item.thumb.url(:thumb) : item.avatar.url(:thumb), title: item.short_name, url: item.url } }
       if template_exists?(theme_template_path)
         render theme_template_path
       else

@@ -1,11 +1,13 @@
-- banner = {bg_image_url: @project.item_bottom_banner_bg_image.url, image_url: @project.item_bottom_banner_image.url}
+- banner = {bg_image_url: @project.item_bottom_banner_bg_image.url, image_url: @project.item_bottom_banner_image.exists? ? @project.item_bottom_banner_image.url : nil}
 
 .project-bottom-banner style="background-image: url('#{banner[:bg_image_url]}')"
   .row
     .columns.large-10.large-centered
       .row
+
         .columns.large-6
-          img src=banner[:image_url]
+          - if banner[:image_url]
+            img src=banner[:image_url]
         .columns.large-6
           .project-description-block
             .title

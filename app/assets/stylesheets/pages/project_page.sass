@@ -1,11 +1,33 @@
 .project-content
 	font-size: 14px
 
+	.fade-in
+		opacity: 0
+		+transition-property(all)
+		+transition-duration(2s)
+
+		&.visible
+			opacity: 1
+
 	.project-section
 		position: relative
+
+		&.section-with-bg-image
+			background-size: cover
+
 	.project-case-section
 		margin-top: -300px
 		padding-bottom: 350px
+
+		.project-section-content-column
+			opacity: 0
+
+			+transition-delay(0s)
+			+transition-duration(2s)
+			+transition-property(opacity)
+
+			&.visible
+				opacity: 1
 
 
 	.with-line
@@ -29,7 +51,7 @@
 		+header-font-family
 		+body-font-family
 		font-size: 500px
-		color: gray
+		color: rgba(128, 128, 128, 0.4)
 		text-transform: uppercase
 		opacity: 0.3
 		letter-spacing: 30px
@@ -41,9 +63,15 @@
 		text-align: center
 		+user-select(none)
 		cursor: default
+		+transform(translateY(300px))
+		+transition-duration(1s)
+		+transition-property(all)
+
+		&.visible
+			+transform(translateY(0))
 
 		&.align-top-minus-half
-			top: -250px
+			top: -180px
 
 	.section-descriptive-title
 		letter-spacing: 6px
@@ -79,11 +107,13 @@
 				&.active
 					background: rgb(89, 200, 230)
 
+	.project-bxslider, .desktop-slider
 		.custom-pager
 			position: absolute
 			text-align: center
 			width: 100%
 			bottom: 30px
+
 
 			.page
 				vertical-align: top
@@ -98,8 +128,6 @@
 				margin-left: 30px
 				cursor: pointer
 
-
-
 				&.active
 					top: 0
 					left: 0
@@ -110,7 +138,15 @@
 
 
 		.bx-prev, .bx-next
-			border: 2px solid $light-gray-text-color
+			border: 1px solid $light-gray-text-color
+			background-position: 9px
+			background-repeat: no-repeat
+			background-size: 10px
+
+		.bx-prev
+			background-image: image-url("svg/arrow-left.svg")
+		.bx-next
+			background-image: image-url("svg/arrow-right.svg")
 
 
 

@@ -1,0 +1,54 @@
+.desktop-slider
+	$slider-height: 500px
+
+	height: 1000px
+	position: relative
+	overflow: hidden
+	.slider-outer
+		max-width: 1160px
+		margin: 0 auto
+		position: relative
+	.screen-image
+
+		width: 100%
+		position: absolute
+		img
+			z-index: 1
+			margin: 0 auto
+			display: block
+			position: relative
+			width: 100%
+			max-width: 1160px
+
+		&:before
+			position: absolute
+			top: 162px
+			bottom: 140px
+			left: 0
+			right: 0
+			content: ""
+
+
+	.slider-inner
+		padding: 95px 120px 294px 144px
+		.screen-images-bxslider-wrap
+			height: $slider-height
+
+	.screen-images-bxslider
+		height: $slider-height
+
+	.screen-images-bxslider-wrap
+		.bx-wrapper
+			border: none
+			box-shadow: none
+
+		.bx-viewport
+			height: auto !important
+
+
+	.custom-controls
+		.bx-prev
+			left: 20px
+
+		.bx-next
+			right: 20px

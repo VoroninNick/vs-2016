@@ -1,5 +1,6 @@
-#technical-side.project-section.project-ux-and-strategy-section style="background-image: url('#{asset_path("projects/10g-force/technical-side-bg.jpg")}'); background-size: cover;"
-  .row.bottom-inner-indent
+- section_bg = (bg_img = @project.technical_side_of_project_bg_image).exists? ? bg_img.url : nil
+#technical-side.project-section.project-ux-and-strategy-section class=("section-with-bg-image" if section_bg) style=("background-image: url('#{section_bg}');" if section_bg)
+  /.row.bottom-inner-indent
 
     .columns.large-5.large-push-1.top-indent
       .h2.with-line
@@ -7,9 +8,11 @@
       = raw @project.technical_side_of_project
     .columns.large-6
       img src=asset_path("projects/10g-force/keyboard.png")
+  .fade-in
+    = raw @project.technical_side_of_project
 
 
-  .project-technologies
+  .project-technologies.fade-in
     .row
       .columns.large-8.large-centered
         .row
@@ -21,7 +24,7 @@
                 .name
                   = technology.name
 
-  .project-seo-strategy.large-inner-vertical-indent
+  .project-seo-strategy.large-inner-vertical-indent.fade-in
     .row
       .columns.large-10.large-centered
         .h2.with-line
