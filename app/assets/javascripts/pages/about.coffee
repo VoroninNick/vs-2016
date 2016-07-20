@@ -4,6 +4,8 @@ $(".about-bxslider").bxSlider({
   controls: true
   prevSelector: ".custom-controls .prev"
   nextSelector: ".custom-controls .next"
+  prevText: ""
+  nextText: ""
   onSlideBefore: ($slideElement, oldIndex, newIndex)->
     $controls = $(this).closest(".slider").find(".custom-controls")
     $controls.find(".current-number").text(newIndex + 1)

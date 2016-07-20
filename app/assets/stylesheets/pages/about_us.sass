@@ -5,7 +5,7 @@
 		max-width: 100%
 		display: inline-block
 
-		*
+		//*
 			fill: $pink-color
 
 
@@ -28,13 +28,14 @@
 		margin-top: 50px
 
 	.principle
-
+		padding-top: 100px
+		padding-bottom: 65px
 		float: left
 		clear: left
 		position: relative
 		.number
 			left: 0
-			top: 0
+			top: 100px
 			width: 180px
 			height: 180px
 			position: absolute
@@ -45,6 +46,9 @@
 			min-height: 180px
 			+italic
 			display: inline-block
+
+			.inner
+
 
 		.footer
 			position: relative
@@ -94,6 +98,9 @@
 			display: block
 			width: 160px
 			height: 160px
+
+			*
+				fill: $light-gray-text-color
 
 		&:hover
 			svg
