@@ -73,6 +73,9 @@ function page_navigation(container_selector){
     $window.on("scroll", function(){
         var $appeared_elements = $("[data-navigation-color]").filter(":appeared")
         var container_offset = $container.offset()
+        if(!container_offset){
+            return
+        }
         var container_top = container_offset.top
         var container_bottom = container_top + $container.height()
         var $appeared_element = $appeared_elements.first()

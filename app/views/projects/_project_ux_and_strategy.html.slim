@@ -1,18 +1,19 @@
 - section_bg = (bg_img = @project.ux_bg_image).exists? ? bg_img.url : nil
-#ux-and-strategy.project-section.project-ux-and-strategy-section data-navigation-color="dark" class=("section-with-bg-image" if section_bg) style=("background-image: url('#{section_bg}');" if section_bg)
+#ux-and-strategy.project-section.project-ux-and-strategy-section data-navigation-color="dark"
   .project-large-section-title.align-top-minus-half
     |UX
-  .row.bottom-inner-indent
-    .columns.large-12.left.project-section-content-column.medium-inner-top-indent
-      = raw "<div class='section-descriptive-title primary-color'>UX & Strategy</div>"
+  div class=("section-bg-image" if section_bg) style=("background-image: url('#{section_bg}');" if section_bg)
+    .row.bottom-inner-indent
+      .columns.large-12.left.project-section-content-column.sublarge-inner-top-indent
+        = raw "<div class='section-descriptive-title primary-color'>UX & Strategy</div>"
 
-    /.columns.large-6.large-push-2.top-indent
-      .h2.with-line
-        |UX & Strategy
+      /.columns.large-6.large-push-2.top-indent
+        .h2.with-line
+          |UX & Strategy
+        = raw @project.ux_and_strategy
+      /.columns.large-3
+        img src=asset_path("projects/10g-force/ux-mockup.png")
+
       = raw @project.ux_and_strategy
-    /.columns.large-3
-      img src=asset_path("projects/10g-force/ux-mockup.png")
-
-    = raw @project.ux_and_strategy
 
   = render "project_images", images: @project.ux_images

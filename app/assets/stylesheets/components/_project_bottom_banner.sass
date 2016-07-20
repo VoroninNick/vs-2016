@@ -1,5 +1,9 @@
 .project-bottom-banner
 	height: 1000px
+	background-repeat: no-repeat
+	background-size: cover
+
+
 	.project-description-block
 		max-width: 550px
 		position: relative
@@ -23,9 +27,16 @@
 
 	.social-link
 		background: #212121
+		+transition-duration(0.5s)
+		+transition-property(all)
 		svg
 			path
 				fill: white
+
+
+		&:hover
+			background: $pink-color
+
 
 	.actions
 		+top-inner-indent(45)

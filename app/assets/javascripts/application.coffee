@@ -1,9 +1,14 @@
 #= require console_history
 #= require jquery/dist/jquery.min.js
 #= require jquery_ujs
+#= require turbolinks
 #= require global
 #= require images.js.erb
 #= require append_images
+#= require modernizr.revealer
+#= require classie
+#= require components/revealer
+#= require components/init_revealer
 #= require clickout
 #= require delay
 #= require letteringjs/jquery.lettering

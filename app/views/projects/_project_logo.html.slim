@@ -1,9 +1,9 @@
 - section_bg = (bg_img = @project.logo_and_ci_bg_image).exists? ? bg_img.url : nil
 
-#project-logo.project-section.project-logo-section.light-bg data-navigation-color="dark" class=("section-with-bg-image" if section_bg) style=("background-image: url('#{section_bg}');" if section_bg)
+#project-logo.project-section.project-logo-section.light-bg data-navigation-color="dark" class=("section-bg-image" if section_bg) style=("background-image: url('#{section_bg}');" if section_bg)
   .project-large-section-title.align-top-minus-half
     |Logo
-  .row.medium-inner-top-indent.project-large-section
+  .row.sublarge-inner-top-indent.project-large-section
     .columns.large-10.large-centered
       .row
         .columns.large-12.left.project-section-content-column

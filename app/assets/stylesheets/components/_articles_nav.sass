@@ -1,0 +1,59 @@
+.articles-nav
+	+clearfix
+
+	.label-and-title
+		padding: 20px 0 0 0
+
+
+
+
+
+	.prev, .next
+		width: 50%
+		height: 100px
+		position: relative
+
+		.title
+			color: white
+			+font-20
+			+semi-bold
+			+header-font-family
+		.label
+			color: $light-gray-text-color
+
+		.arrow
+			width: 30px
+			height: 30px
+			position: absolute
+			background-size: 14px
+			background-position: 8px
+			background-repeat: no-repeat
+			top: 35px
+
+	.prev
+		float: left
+		.arrow
+			left: 130px
+			background-image: asset_url("svg/arrow-left.svg")
+
+		.label-and-title
+			float: left
+			margin-left: 80px
+		.image
+			float: left
+	.next
+		float: right
+		.arrow
+			right: 130px
+			background-image: asset_url("svg/arrow-right.svg")
+		.label-and-title
+			margin-right: 80px
+			float: right
+		.image
+			float: right
+
+
+
+	.prev
+		border-right: 1px solid white
+	border-bottom: 1px solid white

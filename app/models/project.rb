@@ -8,7 +8,7 @@ class Project < ActiveRecord::Base
   attr_accessible :technologies, :technology_ids
 
   def self.initialize_globalize
-    translates :name, :customer_name, :url_fragment, :site_url, :awards, :project_case, :logo_and_ci, :ux_and_strategy, :responsive_web_design, :technical_side_of_project, :seo_strategy
+    translates :short_name, :name, :customer_name, :url_fragment, :site_url, :awards, :project_case, :logo_and_ci, :ux_and_strategy, :responsive_web_design, :technical_side_of_project, :seo_strategy
     accepts_nested_attributes_for :translations
     attr_accessible :translations, :translations_attributes
     resource_class = self
@@ -128,5 +128,34 @@ class Project < ActiveRecord::Base
 
       item.save
     end
+  end
+
+  def short_name(locale = I18n.locale)
+    v = ""
+    [:short_name].each do |k|
+      if v.blank?
+        v = self.translations_by_locale[locale].try(k)
+      else
+        break
+      end
+    end
+
+    [:site_url].each do |k|
+      if v.blank?
+        v = self.translations_by_locale[locale].try(k).try(:capitalize)
+      else
+        break
+      end
+    end
+
+    [:short_name, :site_url, :customer_name].each do |k|
+      if v.blank?
+        v = self.translations_by_locale[locale].try(k)
+      else
+        break
+      end
+    end
+
+    v
   end
 end

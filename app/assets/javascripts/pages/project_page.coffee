@@ -60,7 +60,7 @@ show_headers = ()->
     $headers.each ()->
       $header = $(this)
       header_offset = $header.offset()
-      console.log "header_offset: ", header_offset
+      #console.log "header_offset: ", header_offset
 
       header_top = header_offset && header_offset.top || false
       handler = element[2] || false
@@ -76,3 +76,9 @@ show_headers = ()->
 $window.on "scroll", show_headers
 
 show_headers()
+
+
+$(".desktop-slider").appear()
+
+$(".desktop-slider").on "appear", ()->
+  $(this).addClass("animate-bg")

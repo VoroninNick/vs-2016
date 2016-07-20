@@ -1,3 +1,8 @@
++keyframes(animate-desktop-slider-bg)
+	0%
+		height: 100px
+	100%
+		height: 600px
 .desktop-slider
 	$slider-height: 500px
 
@@ -22,15 +27,23 @@
 
 		&:before
 			position: absolute
-			top: 162px
+			height: 600px
 			bottom: 140px
 			left: 0
 			right: 0
 			content: ""
 
 
+	&.animate-bg
+		.screen-image
+			&:before
+				+animation-name(animate-desktop-slider-bg)
+				+animation-duration(3s)
+				+animation-timing-function(ease-in)
+
+
 	.slider-inner
-		padding: 95px 120px 294px 144px
+		padding: 95px 120px 294px 140px
 		.screen-images-bxslider-wrap
 			height: $slider-height
 

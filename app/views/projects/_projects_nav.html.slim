@@ -1,4 +1,13 @@
-/.projects-nav
-  .prev
-    .image
-      img src=@prev[:image]
+.articles-nav.projects-nav
+  - [:prev, :next].each do |k|
+    - item = instance_variable_get("@#{k}")
+
+    a href=item[:url] class=k
+      .image
+        img src=item[:image]
+      .arrow
+      .label-and-title
+        .label
+          |previous
+        .title
+          = item[:title]

@@ -1,12 +1,13 @@
+- section_bg = (bg_img = @project.rwd_bg_image).exists? ? bg_img.url : nil
 #responsive-web-design.project-section.project-ux-and-strategy-section
   .project-large-section-title.align-top-minus-half
     |Web
 
   .row.bottom-inner-indent
-    .columns.large-12.left.project-section-content-column.medium-inner-top-indent
-      .section-descriptive-title.primary-color
-        |Responsive web design
-  .desktop-slider
+    .columns.large-12.left.project-section-content-column.sublarge-inner-top-indent
+      = raw "<div class='section-descriptive-title primary-color'>Responsive web design</div>"
+
+  .desktop-slider data-appear-top-offset="100"
     .slider-outer
       .screen-image
         img src=asset_path("screen.png")
@@ -32,7 +33,9 @@
       = raw @project.responsive_web_design
     .columns.large-4
       img src=asset_path("projects/10g-force/web.png")
-  .fade-in
+
+
+  .fade-in.sublarge-inner-bottom-indent class=("section-bg-image" if section_bg) style=("background-image: url('#{section_bg}');" if section_bg)
     = raw @project.responsive_web_design
 
 
