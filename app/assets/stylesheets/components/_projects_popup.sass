@@ -1,39 +1,145 @@
 //$block-width: unquote("#{(99.2/6)}vw")
 $block-width: percentage(1/6)
+$projects-popup-bg: $light-gray-text-color
+$projects-popup-bg: $body-bg-color
 
-+keyframes(show-popup-from-circle)
+$circle-1-bg: $pink-color
+$circle-2-bg: $violet-color
+$circle-3-bg: $blue-color
+
+$circle-in-duration: 2s
+
+
+
+
++keyframes(show-popup-from-circle-1)
 	0%
+		opacity: 0.5
 		width: 40px
 		height: 40px
 		right: 80px
 		bottom: 67px
+	35%, 90%
+		opacity: 1
+		bottom: -37.5vmax
+		right: -37.5vmax
+		width: 100vmax
+		height: 100vmax
+
+
 	100%
+		opacity: 0
+
+
+
++keyframes(show-popup-from-circle-2)
+	0%, 30%
+		width: 40px
+		height: 40px
+		right: 80px
+		bottom: 67px
+	70%, 90%
+		bottom: -37.5vmax
+		right: -37.5vmax
+		width: 125vmax
+		height: 125vmax
+	0%, 50%
+		opacity: 1
+	100%
+		opacity: 0
+
++keyframes(show-popup-from-circle-3)
+	0%, 30%
+		width: 40px
+		height: 40px
+		right: 80px
+		bottom: 67px
+	70%
+		bottom: -37.5vmax
+		right: -37.5vmax
+		width: 125vmax
+		height: 125vmax
+	90%
+		bottom: -50vmax
+		right: -50vmax
+		width: 200vmax
+		height: 200vmax
+	0%, 50%
+		opacity: 1
+	100%
+		opacity: 0
+
+
++keyframes(close-popup-to-circle)
+	0%
 		bottom: -50vmax
 		right: -50vmax
 		width: 200vmax
 		height: 200vmax
 
+	100%
+		width: 40px
+		height: 40px
+		right: 80px
+		bottom: 67px
+
++keyframes(show-project-item-from-circle)
+	0%
+		opacity: 0
+		//border-radius: 50%
+	100%
+		opacity: 1
+		//border-radius: 0
+
 .projects-popup
+
 	//background: $body-bg-color
 	//background: $light-gray-text-color
 	background: none
+	+transition-property(none)
 
-	&:before
+
+	.circle1, .circle2, .circle3
 		position: absolute
 		bottom: 67px
 		right: 80px
 		content: ""
-		background: $light-gray-text-color
+		background: $projects-popup-bg
 		border-radius: 50%
 		width: 40px
 		height: 40px
 
+	&.show
+		display: block
+
+
+
 
 	body.has-opened-projects-popup &
+
+
+		.circle1
+			background: $circle-1-bg
+			z-index: 3
+			+animation-duration($circle-in-duration)
+			+animation-name(show-popup-from-circle-1)
+			+animation-timing-function(ease-in)
+		.circle2
+			background: $circle-2-bg
+			z-index: 2
+			+animation-duration($circle-in-duration)
+			+animation-name(show-popup-from-circle-2)
+			+animation-timing-function(ease-in)
+		.circle3
+			background: $circle-3-bg
+			z-index: 1
+			+animation-duration($circle-in-duration)
+			+animation-name(show-popup-from-circle-3)
+			+animation-timing-function(ease-in)
+	&.play-closing-animation
 		&:before
 			+animation-duration(1s)
-			+animation-name(show-popup-from-circle)
-			+animation-timing-function(ease-in)
+			+animation-name(close-popup-to-circle)
 
 
 
@@ -45,6 +151,22 @@ $block-width: percentage(1/6)
 
 	.projects-popup-content
 		opacity: 0
+
+
+
+	&.ready
+		background: $projects-popup-bg
+		.projects-popup-content
+
+			opacity: 1
+
+		.project
+			+animation-name(show-project-item-from-circle)
+			+animation-duration(0.5s)
+			overflow: hidden
+			display: none
+			&.show
+				display: block
 
 	.block
 		display: block
