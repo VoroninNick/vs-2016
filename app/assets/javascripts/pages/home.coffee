@@ -63,3 +63,8 @@ $document.on "mouseenter", ".service", (e)->
 #
 #    return true
 #})
+
+
+$(".home-slider").bxSlider(
+  auto: true
+)

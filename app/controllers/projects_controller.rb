@@ -93,7 +93,7 @@ class ProjectsController < ApplicationController
         title: project_translation.banner_title,
         title_sup: project_translation.banner_title_sup,
         short_description: project_translation.short_description,
-        image_url: @project.item_top_banner_image.url
+        image_url: @project.item_top_banner_image.url,
     }
 
     @project_banner[:bg_image_url] = @project.item_top_banner_bg_image.url if @project.item_top_banner_bg_image.exists?

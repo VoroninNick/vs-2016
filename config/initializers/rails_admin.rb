@@ -198,6 +198,11 @@ RailsAdmin.config do |config|
       field :item_bottom_banner_image
     end
 
+    group :item_home_banner do
+      field :home_banner_image
+      field :show_swing_on_home_banner
+    end
+
     group :project_content_images do
       field :logo_and_ci_bg_image
       field :logo_and_ci_images

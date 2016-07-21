@@ -18,7 +18,11 @@
   #home-portfolio-section.section.page-section
     /- 3.times do |i|
       .slide.home-portfolio-slide style="background-image: url(#{asset_path("portfolio_home_banners/#{i+1}.jpg")})"
-    = render "projects/main_banners/ten_g_force", banner: @project_banners.first
+    .home-slider-wrap
+      .home-slider
+        = render "projects/main_banner", banner: @project_banners.first
+        = render "projects/main_banner", banner: @project_banners.second
+        = render "projects/main_banner", banner: @project_banners.third
 
 
 

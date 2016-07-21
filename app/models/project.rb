@@ -54,6 +54,8 @@ class Project < ActiveRecord::Base
 
   # attachents
 
+  has_attached_file :home_banner_image, styles: {thumb: "400x400>"}
+
   has_attached_file :avatar, styles: { popup: "350x350#", projects_list: "480x480#", thumb: "100x100#" }
   has_attached_file :thumb, styles: { thumb: "100x100#" }
   has_attached_file :item_top_banner_bg_image, styles: {large: "1920x980", thumb: "400x400>"}
@@ -70,7 +72,7 @@ class Project < ActiveRecord::Base
   has_attached_file :rwd_bg_image, styles: {thumb: "400x400>"}
   has_attached_file :technical_side_of_project_bg_image, styles: {thumb: "400x400>"}
 
-  [:avatar, :item_top_banner_bg_image, :item_top_banner_image, :vs_banner, :thumb, :item_bottom_banner_bg_image, :item_bottom_banner_image,
+  [:avatar, :item_top_banner_bg_image, :item_top_banner_image, :vs_banner, :thumb, :item_bottom_banner_bg_image, :item_bottom_banner_image, :home_banner_image,
    :logo_and_ci_bg_image, :ux_bg_image, :rwd_bg_image, :technical_side_of_project_bg_image].each do |attachment_name|
     attr_accessible attachment_name
     allow_delete_attachment attachment_name

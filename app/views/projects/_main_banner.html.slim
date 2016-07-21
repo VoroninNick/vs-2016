@@ -1,0 +1,18 @@
+- if defined?(banner) && banner.present?
+  .slide.project-banner.home-portfolio-slide class="home-portfolio-slide-#{banner[:key]}"
+    - if banner[:swing]
+      = embedded_svg_from_assets "svg/vs-banner-bg-wing.svg"
+    img.hero src=banner[:image_url]
+    .project-description-block
+      .service-icons
+        - banner[:service_icons].each do |icon|
+          .service-icon
+            = embedded_svg_from_absolute_path(icon)
+
+      .title
+        = banner[:title]
+        - if banner[:title_sup].present?
+          sup
+            = banner[:title_sup]
+      .description
+        = banner[:short_description]

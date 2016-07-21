@@ -1,5 +1,9 @@
 $radok-red-orange-color: #ff5a2a
-.home-portfolio-slide-10g-force
+$plit-green-color: #01ae42
+$plit-gray-color: #303e49
+$arazzinni-brown-color: #876036
+$arazzinni-black-color: #212121
+.home-portfolio-slide
 	.wing
 		position: absolute
 		fill: $radok-red-orange-color
@@ -39,3 +43,38 @@ $radok-red-orange-color: #ff5a2a
 				*
 					opacity: 1
 					fill: $radok-red-orange-color
+
+
+.home-portfolio-slide-plit
+	background: $plit-gray-color
+
+	.project-description-block
+		.service-icon
+			svg
+				*
+					fill: $plit-green-color
+
+
+		.title
+			sup
+				color: $plit-green-color
+
+.home-portfolio-slide-arazzinni
+	background: white
+	.project-description-block
+		.service-icon
+			svg
+				*
+					fill: $arazzinni-brown-color
+
+
+		.title
+			color: $arazzinni-black-color
+			sup
+				color: $arazzinni-brown-color
+
+
+.home-portfolio-slide-plit, .home-portfolio-slide-arazzinni
+	.hero
+		left: 0
+		top: 0

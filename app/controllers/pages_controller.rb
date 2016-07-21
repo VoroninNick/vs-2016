@@ -86,16 +86,21 @@ class PagesController < ApplicationController
   end
 
   def set_project_banners
-    @projects = [Project.first]
+    @projects = [Project.first, Project.second, Project.third]
     @project_banners = @projects.map do |p|
       project_translation = p.translations_by_locale[I18n.locale]
+      image_url = nil
+      image_url = p.home_banner_image.url if p.home_banner_image.exists?
+      image_url = p.item_top_banner_image.url if image_url.blank? &&  p.item_top_banner_image.exists?
 
       {
           title: project_translation.banner_title,
           title_sup: project_translation.banner_title_sup,
           short_description: project_translation.short_description,
-          image_url: p.item_top_banner_image.url,
-          service_icons: p.services.map {|s| s.icon.path  }
+          image_url: image_url,
+          service_icons: p.services.map {|s| s.icon.path  },
+          key: p.code_name,
+          swing: p.show_swing_on_home_banner
       }
     end
   end

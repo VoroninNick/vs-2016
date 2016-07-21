@@ -34,7 +34,7 @@ class Member < ActiveRecord::Base
     self.initialize_globalize
   end
 
-  has_attached_file :image, styles: { about_image: "500x600#", thumb: "100x120#" }
+  has_attached_file :image, styles: { about_image: "520x624#", thumb: "100x120#" }
   [:image].each do |attachment_name|
     attr_accessible attachment_name
     allow_delete_attachment attachment_name
