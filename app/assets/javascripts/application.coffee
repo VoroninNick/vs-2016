@@ -48,6 +48,7 @@
 #= require pages/home
 #= require articles
 #= require pages/about
+#= require pages/services
 #= require pages/project_page
 #= require vendor/richmarker
 #= require maps

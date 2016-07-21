@@ -1,11 +1,13 @@
 .articles-nav.projects-nav
   - [:prev, :next].each do |k|
     - item = instance_variable_get("@#{k}")
+    - arrow_direction = k == :prev ? "left" : "right"
 
     a href=item[:url] class=k
       .image
         img src=item[:image]
       .arrow
+        = embedded_svg_from_assets "svg/arrow-#{arrow_direction}.svg"
       .label-and-title
         .label
           |previous

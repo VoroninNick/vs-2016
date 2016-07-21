@@ -6,22 +6,24 @@
   .inner
 
     #main-menu
-      ul
-        - main_menu_items.each_with_index do |item, index|
-          - str_index = (index + 1).to_s
-          - str_index = "0#{str_index}" if str_index.length == 1
-          li
-            a href=(item[:url] || "#")
+      .menu-list
+        - main_menu_items.in_groups_of(3).each_with_index do |group, group_index|
+          .menu-list-part class="ul-#{group_index + 1}"
+            - group.each_with_index do |item, index|
+              - str_index = (group_index * 3 + index + 1).to_s
+              - str_index = "0#{str_index}" if str_index.length == 1
+              li
+                a href=(item[:url] || "#")
 
-              .index
-                = str_index
-              .index-line
-              .title
-                .text
-                  = item[:title]
-              .title-line
-              .sub-label
-                = item[:sub_label]
+                  .index
+                    = str_index
+                  .index-line
+                  .title
+                    .text
+                      = item[:title]
+                  .title-line
+                  .sub-label
+                    = item[:sub_label]
     #main-menu-footer
       #main-menu-footer-phones
         a.phone href="tel:+380504170728"

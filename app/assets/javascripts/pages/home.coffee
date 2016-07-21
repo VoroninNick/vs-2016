@@ -18,7 +18,7 @@ $('document').ready ()->
     }
   })
 
-$document.on "mouseenter", ".service", (e)->
+$document.on "mouseenter", "#home-services-section .service", (e)->
   console.log e.type
   $service = $(this)
   $service_description = $service.find(".service-description")

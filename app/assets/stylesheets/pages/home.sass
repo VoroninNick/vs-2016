@@ -32,7 +32,7 @@ body[controller-action="pages__index"]
 
 	.inner
 		position: relative
-		padding: 30px
+		padding: 25px
 
 	.white-header
 		+header-font-family
@@ -49,10 +49,15 @@ body[controller-action="pages__index"]
 	.blue-header
 		+font-32
 
-	@media #{breakpoint(small only)}
+	@media #{breakpoint(medium down)}
 		.white-header
 			+font-36
 			margin-top: 8px
+
+	@media #{breakpoint(small only)}
+		padding: 0 50px
+
+
 
 		.text-wrap
 			height: 330px
@@ -217,7 +222,8 @@ body[controller-action="pages__index"]
 			.service-name
 
 
-	@media #{breakpoint(small only)}
+
+	@media #{breakpoint(medium down)}
 		+clearfix
 
 		.service, .services-intro

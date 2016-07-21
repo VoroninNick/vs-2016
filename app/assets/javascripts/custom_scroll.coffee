@@ -1,4 +1,4 @@
-full_page_breakpoint = 641
+full_page_breakpoint = 1025
 
 $document.on "ready", ()->
   $(".full-page-container .page-section").first().addClass("active")

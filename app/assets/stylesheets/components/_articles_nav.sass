@@ -12,6 +12,8 @@
 		width: 50%
 		height: 100px
 		position: relative
+		+transition-duration(0.5s)
+		+transition-property(background)
 
 		.title
 			color: white
@@ -20,21 +22,40 @@
 			+header-font-family
 		.label
 			color: $light-gray-text-color
+			+transition-property(color)
+			+transition-duration(0.5s)
 
 		.arrow
 			width: 30px
 			height: 30px
 			position: absolute
-			background-size: 14px
-			background-position: 8px
-			background-repeat: no-repeat
 			top: 35px
+
+			svg
+				width: 14px
+				height: 14px
+				top: 8px
+				left: 8px
+				position: relative
+
+				path
+					+transition-duration(0.5s)
+					+transition-property(all)
+
+		&:hover
+			background: $pink-color
+
+			.label
+				color: white
+
+			svg
+				path
+					fill: white
 
 	.prev
 		float: left
 		.arrow
 			left: 130px
-			background-image: asset_url("svg/arrow-left.svg")
 
 		.label-and-title
 			float: left
@@ -45,7 +66,6 @@
 		float: right
 		.arrow
 			right: 130px
-			background-image: asset_url("svg/arrow-right.svg")
 		.label-and-title
 			margin-right: 80px
 			float: right

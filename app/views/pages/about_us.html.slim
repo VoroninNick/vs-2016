@@ -108,7 +108,14 @@
                     = member.few_words_about
 
           .join-us-block
-            = embedded_svg_from_assets("svg/logo-compact.svg")
+            .inner
+              = embedded_svg_from_assets("svg/logo-compact.svg")
+              .info-block
+                .title
+                  |join the team
+                a.btn.white-lines href="#"
+                  span
+                    |join us
 
 
 
