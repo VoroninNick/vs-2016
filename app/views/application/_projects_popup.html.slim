@@ -16,6 +16,12 @@
         .close-text.italic.white
           |close
 
+    - 3.times do
+      - @popup_projects.each do |project|
+        = render "project", project: project, avatar_style: :popup, active: @project.try(:id) == project.id
 
-    - @popup_projects.each do |project|
-      = render "project", project: project, avatar_style: :popup, active: @project.try(:id) == project.id
+    .more-projects-soon.projects-popup-content-block
+      img src=asset_path("vs-feather-tini.png")
+      .text
+        |more projects coming soon...
+

@@ -160,7 +160,7 @@ $circle-in-duration: 2s
 
 			opacity: 1
 
-		.project
+		.project, .more-projects-soon
 			+animation-name(show-project-item-from-circle)
 			+animation-duration(0.5s)
 			overflow: hidden
@@ -231,7 +231,22 @@ $circle-in-duration: 2s
 					color: $pink-color
 
 
+	.more-projects-soon
+		width: percentage(1/6)
+		height: percentage(1/6)
+		float: left
+		color: $light-gray-text-color
+		+italic
+		+font-23
+		text-align: center
+		position: relative
 
+		.text
+			position: absolute
+			top: 30%
+			width: 150px
+			left: 50%
+			+transform(translateX(-50%))
 
 	body.has-opened-projects-popup &
 		display: block

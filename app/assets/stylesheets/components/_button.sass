@@ -28,6 +28,7 @@
 	color: $black-color
 	text-transform: lowercase
 	text-decoration: none
+	text-align: center
 	display: inline-block
 	position: relative
 	+font-20
@@ -62,6 +63,12 @@
 		color: $dark-white-color
 
 
+	&.white-lines
+		&:before, &:after
+			background: $dark-white-color
+
+
+
 	&.btn-hire-us
 
 	&:hover
@@ -70,6 +77,10 @@
 			height: 50%
 			+animation-name(button-animation-over)
 			+animation-duration(0.8s)
+
+	&.white-lines
+		&:hover
+			color: $pink-color
 	&.out
 		&:before, &:after
 			width: 25%

@@ -1,13 +1,14 @@
+popup_in_duration = 2000
 $document.on "click", "#projects-popup-button", ()->
   $projects_popup = $(".projects-popup")
-  $projects_popup.find(".project").each (index)->
+  $projects_popup.find(".project, .more-projects-soon").each (index)->
     $project = $(this)
     transition_delay_str = "#{1000 + index * 100}ms"
     
     setTimeout(
       ()->
         $project.addClass("show")
-      2000 + index * 200
+      popup_in_duration + index * 200
     )
   $projects_popup.addClass("show")
   $projects_popup.addClass("animate-open")
@@ -15,7 +16,7 @@ $document.on "click", "#projects-popup-button", ()->
   setTimeout(
     ()->
       $projects_popup.addClass("ready")
-    1000
+    popup_in_duration
   )
   #addClass("opened")
 

@@ -10,6 +10,8 @@
 	//padding-top: 100%
 	//height: $block-width
 
+
+
 	.description-block
 		padding: 4rem 0 0 0
 		opacity: 0
@@ -21,6 +23,8 @@
 		position: absolute
 		color: white
 		text-align: center
+		+transition-property(all)
+		+transition-duration(0.5s)
 
 
 		.project-number
@@ -37,6 +41,7 @@
 			text-transform: uppercase
 			+font-20
 			+fira-sans
+			padding: 0 15px
 
 		.separator
 			background: white
@@ -46,6 +51,7 @@
 
 		.project-related-services
 			display: inline-block
+			padding: 0 0 10px 0
 
 			.icon
 				display: inline-block
