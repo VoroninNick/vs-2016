@@ -53,7 +53,7 @@ class Service < ActiveRecord::Base
 
   has_attached_file :icon
   has_attached_file :home_bg, styles: { xxl: "840x420#" }
-  has_attached_file :list_image, styles: { xxl: "1024x850#" }
+  has_attached_file :list_image, styles: { xxl: "1024x850#", home_xxl: "840x420#" }
 
   [:icon, :home_bg, :list_image].each do |attachment_name|
     attr_accessible attachment_name

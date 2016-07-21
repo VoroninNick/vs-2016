@@ -35,8 +35,12 @@
     - @services.each do |service|
       - service_icon_path = service.icon.path
       /- service_icon_path = "svg/expertise/logo_and_ci.svg"
+
+      - service_bg_image = service.home_bg.url(:xxl) if service.home_bg.exists?(:xxl)
+      - service_bg_image = service.list_image.url(:home_xxl) if service_bg_image.blank? && service.list_image.exists?(:home_xxl)
+
       a.service href=""
-        .service-bg-image style="background-image:url(#{service.home_bg.url(:xxl)})"
+        .service-bg-image style=("background-image:url(#{service_bg_image})" if service_bg_image.present?)
         .service-name-and-description
           .service-name
             |#{service.name}
