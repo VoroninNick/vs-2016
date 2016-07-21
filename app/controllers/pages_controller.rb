@@ -34,6 +34,10 @@ class PagesController < ApplicationController
     end.take(40)
 
     @slides = AboutSlide.published.sort_by_sorting_position
+
+    @principles = [{name: "Research", description: "<p>Logos and branding are so important.</p>" * 3, icon_path: "svg/vs-about-icon-research.svg"},
+                   {name: "Planning", description: "Logos and branding are so important. In a big part of the world. "*5, icon_path: "svg/vs-about-icon-planning.svg"},
+                   {name: "Execution", description: "Logos and branding are so important. In a big part of the world", icon_path: "svg/vs-about-icon-execution.svg"}]
   end
 
   def contacts

@@ -68,3 +68,4 @@ $document.on "mouseenter", ".service", (e)->
 $(".home-slider").bxSlider(
   auto: true
 )
+

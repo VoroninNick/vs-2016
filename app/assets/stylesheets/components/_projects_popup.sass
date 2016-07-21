@@ -1,8 +1,50 @@
 //$block-width: unquote("#{(99.2/6)}vw")
 $block-width: percentage(1/6)
 
++keyframes(show-popup-from-circle)
+	0%
+		width: 40px
+		height: 40px
+		right: 80px
+		bottom: 67px
+	100%
+		bottom: -50vmax
+		right: -50vmax
+		width: 200vmax
+		height: 200vmax
+
 .projects-popup
-	background: $body-bg-color
+	//background: $body-bg-color
+	//background: $light-gray-text-color
+	background: none
+
+	&:before
+		position: absolute
+		bottom: 67px
+		right: 80px
+		content: ""
+		background: $light-gray-text-color
+		border-radius: 50%
+		width: 40px
+		height: 40px
+
+
+	body.has-opened-projects-popup &
+		&:before
+			+animation-duration(1s)
+			+animation-name(show-popup-from-circle)
+			+animation-timing-function(ease-in)
+
+
+
+
+
+	&.popup.fullscreen-popup
+
+
+
+	.projects-popup-content
+		opacity: 0
 
 	.block
 		display: block

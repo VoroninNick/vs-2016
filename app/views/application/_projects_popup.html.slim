@@ -1,17 +1,18 @@
 .popup.fullscreen-popup.projects-popup
-  .block.portfolio-link-block
-    .portfolio-link
-      .image-wrap
-        = inline_svg("svg/logo-symbol-colored.svg")
-      .text.italic.white
-        |all projects
+  .projects-popup-content
+    .block.portfolio-link-block
+      .portfolio-link
+        .image-wrap
+          = inline_svg("svg/logo-symbol-colored.svg")
+        .text.italic.white
+          |all projects
 
-    .close-button-and-text
-      .close-button
-        = embedded_svg_from_assets "svg/vs-projects-popup-close-icon.svg"
-      .close-text.italic.white
-        |close
+      .close-button-and-text
+        .close-button
+          = embedded_svg_from_assets "svg/vs-projects-popup-close-icon.svg"
+        .close-text.italic.white
+          |close
 
 
-  - @popup_projects.each do |project|
-    = render "project", project: project, avatar_style: :popup, active: @project.try(:id) == project.id
+    - @popup_projects.each do |project|
+      = render "project", project: project, avatar_style: :popup, active: @project.try(:id) == project.id

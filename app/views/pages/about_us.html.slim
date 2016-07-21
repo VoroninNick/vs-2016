@@ -61,51 +61,24 @@
         |Logos and branding are so important. In a big part of the world, people cannot read French or English — but are great in remembering signs
 
   .row
-    .columns.xxxlarge-6.xxxlarge-offset-1.principle
-      .number
-        |01
-      .description
-        .inner
-          |Logos and branding are so important. In a big part of the world, people cannot read French or English — but are great in remembering signs. Logos and branding are so important. In a big part of the world, people cannot read French or English
+    - @principles.each_with_index do |principle, index|
+      .columns.xxxlarge-6.principle class="xxxlarge-offset-#{index + 1}"
+        .number-and-description
+          .number
+            = "0" + (index + 1).to_s
+          .description
+            .inner
+              = raw principle[:description]
 
-      .footer
-        .icon
-          = inline_svg "svg/vs-about-icon-research.svg"
-        .name
-          |Research
+        .footer
+          .icon
+            = inline_svg principle[:icon_path]
+          .name
+            = principle[:name]
 
-        .line
+          .line
 
 
-    .columns.xxxlarge-6.xxxlarge-offset-2.principle
-      .number
-        |02
-      .description
-        .inner
-          |Logos and branding are so important. In a big part of the world, people cannot read French or English — but are great in remembering signs. Logos and branding are so important. In a big part of the world, people cannot read French or English
-
-      .footer
-        .icon
-          = inline_svg "svg/vs-about-icon-planning.svg"
-        .name
-          |Planning
-
-        .line
-
-    .columns.xxxlarge-6.xxxlarge-offset-3.principle
-      .number
-        |03
-      .description
-        .inner
-          |Logos and branding are so important. In a big part of the world
-
-      .footer
-        .icon
-          = inline_svg "svg/vs-about-icon-execution.svg"
-        .name
-          |Research
-
-        .line
 
 #team.dark-bg.vertical-inner-indent
   .row
@@ -115,10 +88,9 @@
           .header.font-36-bold
             |Team
           p.white
-            |Logos and branding are so important. In a big part of the world, people cannot read French or English — but are great in remembering signs. Logos and branding are so important. In a big part of the world, people cannot read French or English — but are great in remembering signs.Logos and branding are so important. In a big part of the world, people cannot read French or English — but are great in remembering signs. Logos and branding are so important. In a big part of the world, people cannot read French or English — but are great in remembering signs. Logos and branding are so important. In a big part of the world, people cannot read French or English — but are great in remembering signs
+            |Logos and branding are so important. In a big part of the world, people cannot read French or English — but are great in remembering signs. Logos and branding are so important.
 
-          p.white
-            |Logos and branding are so important. In a big part of the world, people cannot read French or English — but are great in remembering signs. Logos and branding are so important. In a big part of the world, people cannot read French or English — but are great in remembering signs.Logos and branding are so important. In a big part of the world, people cannot read French or English — but are great in remembering signs. Logos and branding are so important. In a big part of the world, people cannot read French or English — but are great in remembering signs. Logos and branding are so important. In a big part of the world, people cannot read French or English — but are great in remembering signs
+
 
         .columns.xxxlarge-12.team-member-blocks
           - @team_members.each do |member|
@@ -148,10 +120,10 @@
           .header.font-36-bold
             |We are trusted
           p
-            |Logos and branding are so important. In a big part of the world, people cannot read French or English — but are great in remembering signs. Logos and branding are so important. In a big part of the world, people cannot read French or English — but are great in remembering signs.Logos and branding are so important. In a big part of the world, people cannot read French or English — but are great in remembering signs. Logos and branding are so important. In a big part of the world, people cannot read French or English — but are great in remembering signs. Logos and branding are so important. In a big part of the world, people cannot read French or English — but are great in remembering signs
+            |Logos and branding are so important. In a big part of the world
 
           p
-            |Logos and branding are so important. In a big part of the world, people cannot read French or English — but are great in remembering signs. Logos and branding are so important. In a big part of the world, people cannot read French or English — but are great in remembering signs.Logos and branding are so important. In a big part of the world, people cannot read French or English — but are great in remembering signs. Logos and branding are so important. In a big part of the world, people cannot read French or English — but are great in remembering signs. Logos and branding are so important. In a big part of the world, people cannot read French or English — but are great in remembering signs
+            |Logos and branding are so important. In a big part of the world, people cannot read French or English — but are great in remembering signs.
 
         .columns.horizontal-container
 

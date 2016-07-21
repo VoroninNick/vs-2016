@@ -9,11 +9,18 @@
 			fill: $pink-color
 
 
+	.intro-column
+		.header
+			margin: 20px 0 0 0
+
+
 
 	+breakpoint(small only)
 		.intro-column
 			&:not(:first-child)
 				margin-top: 160px
+
+
 
 
 .image-container
@@ -28,22 +35,28 @@
 		margin-top: 50px
 
 	.principle
-		padding-top: 100px
-		padding-bottom: 65px
+		padding-top: 80px
+		padding-bottom: 0
 		float: left
 		clear: left
 		position: relative
+
+		.number-and-description
+			+flexbox
+			+flex-direction
 		.number
 			left: 0
-			top: 100px
+			//top: 100px
 			width: 180px
 			height: 180px
-			position: absolute
+			position: relative
 			+large-number
 			display: inline-block
+			+align-self(center)
 		.description
-			padding-left: 250px
-			min-height: 180px
+			+align-self(center)
+			padding-left: 70px
+			//min-height: 180px
 			+italic
 			display: inline-block
 
@@ -52,6 +65,8 @@
 
 		.footer
 			position: relative
+			height: 32px
+			margin-top: 45px
 
 			.icon
 				float: left

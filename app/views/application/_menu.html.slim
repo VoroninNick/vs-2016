@@ -28,7 +28,11 @@
           |+38 (050) 417 07 28
         a.phone href="tel:+380322403350"
           |+38 (032) 240 33 50
-      #main-menu-footer-icons
+      #main-menu-footer-icons.social-links
+        - social_links.each do |social|
+          a.social-link.transparent href=social[:url]
+            = inline_svg social[:icon]
+
 
       #main-menu-footer-locales
         a.active href="#"

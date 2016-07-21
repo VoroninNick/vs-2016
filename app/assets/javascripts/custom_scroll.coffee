@@ -35,11 +35,17 @@ $document.on "mousewheel", (e)->
 
   delay("scroll",
     ()->
-
+      slider = $(".home-slider").data("bxSlider")
+      slides_count = 3
       #alert("test")
       down = e.deltaY < 0
       #console.log(e.deltaX, e.deltaY, e.deltaFactor);
-      if down
+
+      console.log "e: ", e
+      active_section_index = $(".page-section.active").index()
+      if active_section_index == 1 && down && slider.getCurrentSlide() < slides_count - 1
+        slider.goToNextSlide()
+      else if down
         scroll("down")
       else
         scroll("up")

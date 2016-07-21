@@ -5,6 +5,8 @@
 	vertical-align: top
 	margin: 0 5px
 	background: rgb(144, 164, 174)
+	+transition-duration(0.5s)
+	+transition-property(all)
 
 	svg
 		width: 24px
@@ -15,5 +17,36 @@
 
 		path
 			fill: $black-color
+			+transition-duration(0.5s)
+			+transition-property(all)
+
+	&:hover
+		background: $pink-color
+		svg
+			path
+				fill: white
+
+	&.dark
+		background: #212121
+
+		&:hover
+			background: $pink-color
 
 
+		svg
+			path
+				fill: white
+
+
+	&.transparent
+		background: none
+		svg
+			path
+				fill: $light-gray-text-color
+
+
+
+		&:hover
+			svg
+				path
+					fill: $pink-color

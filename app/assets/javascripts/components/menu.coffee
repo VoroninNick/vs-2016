@@ -89,6 +89,7 @@ window.open_menu = (menu_key = 'menu', abstract_css_class = "")->
   store_scroll_top()
   $("body").addClass("#{abstract_css_class} has-opened-#{menu_key}")
   $("body").scrollTop(0)
+  
 
 window.close_menu = (menu_key = 'menu', abstract_css_class = "")->
   $("body").removeClass("#{abstract_css_class} has-opened-#{menu_key}")
