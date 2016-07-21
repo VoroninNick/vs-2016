@@ -1,0 +1,26 @@
+- if @page_banner
+  .page-banner
+    .page-banner-bg style="background-image: url(#{asset_path(@page_banner[:bg_image])})"
+    .page-banner-description-block
+      .inner
+        .title
+          = @page_banner[:title]
+        - if @page_banner[:numbers].try(:any?)
+          .numbers
+            - @page_banner[:numbers].each do |num|
+              .number-with-subtitle
+                .number
+                  - number = num[:number]
+                  - number = "0#{number}" if number.to_s.length < 2
+                  = number
+                .subtitle
+                  = num[:number_description]
+        .rect
+        a.icon-link.play-link href=""
+          .icon
+            = inline_svg("svg/play.svg")
+          span.icon-link-label
+            |Play
+
+    .scroll-down
+      = @page_banner[:scroll_down_title]

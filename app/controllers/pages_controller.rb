@@ -14,6 +14,7 @@ class PagesController < ApplicationController
   end
 
   def about_us
+    @page_banner_template = "about_us_banner"
     @page_banner = {
         bg_image: 'banners/services.jpg',
         title: "About",
