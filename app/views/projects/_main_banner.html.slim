@@ -2,7 +2,6 @@
   .slide.project-banner.home-portfolio-slide class="home-portfolio-slide-#{banner[:key]}"
     - if banner[:swing]
       = embedded_svg_from_assets "svg/vs-banner-bg-wing.svg"
-    img.hero src=banner[:image_url]
     .project-description-block
       .service-icons
         - banner[:service_icons].each do |icon|
@@ -16,3 +15,4 @@
             = banner[:title_sup]
       .description
         = banner[:short_description]
+    img.hero src=banner[:image_url]

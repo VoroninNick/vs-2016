@@ -1,3 +1,5 @@
+full_page_breakpoint = 641
+
 $document.on "ready", ()->
   $(".full-page-container .page-section").first().addClass("active")
 
@@ -26,7 +28,7 @@ scroll = (direction = "down")->
 
 
 $document.on "mousewheel", (e)->
-  if $(".full-page-container").length == 0
+  if $(".full-page-container").length == 0 || window.innerWidth < full_page_breakpoint
     return true
   e.preventDefault()
 

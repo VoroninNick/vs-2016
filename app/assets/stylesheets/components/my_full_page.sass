@@ -5,6 +5,7 @@
 		max-height: 100vh
 		+transition-property(max-height)
 		+transition-duration(0.5s)
+		height: 100vh
 
 		&:not(.active)
 			max-height: 0
@@ -16,3 +17,16 @@
 				position: fixed
 				bottom: 0
 				width: 100%
+
+	@media #{breakpoint(small only)}
+		.page-section
+			overflow: visible
+			height: auto
+
+			&, &:not(.active)
+				max-height: none
+
+			&.fp-auto-height
+				&.active
+					position: relative
+					bottom: auto
