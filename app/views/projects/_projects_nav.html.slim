@@ -2,7 +2,7 @@
   - [:prev, :next].each do |k|
     - item = instance_variable_get("@#{k}")
     - arrow_direction = k == :prev ? "left" : "right"
-
+    - label = t("components.articles-navigation.#{k}")
     a href=item[:url] class=k
       .image
         img src=item[:image]
@@ -10,6 +10,6 @@
         = embedded_svg_from_assets "svg/arrow-#{arrow_direction}.svg"
       .label-and-title
         .label
-          |previous
+          = label
         .title
           = item[:title]

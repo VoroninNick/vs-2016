@@ -1,6 +1,7 @@
 - if defined?(images) || defined?(image)
   - images = image if !defined?(images)
-  - if images.try(:count).try{|count| count > 1}
+  - images_count = images.try(:count) || 0
+  - if images_count > 1
     .full-width-image-slider.bxslider.project-bxslider
       - slider_images = images
       ul
@@ -9,7 +10,7 @@
       .custom-pager
         - slider_images.each_with_index do |image, i|
           a.page data-slide-index=i class=("active" if i == 0)
-  - else
+  - elsif images_count == 1
     - image = images.try(:first) || images
     .full-width-image
       img src=image.url

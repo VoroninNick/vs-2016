@@ -7,3 +7,6 @@ en:
             title: "Production and Trade Company &laquo;Plit&raquo;"
           work_phones: "Work phones:"
           address: "Address:"
+    articles-navigation:
+      prev: previous
+      next: next

@@ -79,27 +79,28 @@ class ProjectsController < ApplicationController
     @project_banner[:bg_image_url] = @project.item_top_banner_bg_image.url if @project.item_top_banner_bg_image.exists?
   end
 
-  def set_navigation_links
-    next_project = @project.id
-    ids = @popup_projects.map(&:id)
-    current_index = ids.index(@project.id)
-    prev_index = current_index - 1
-    next_index = current_index + 1
-    if prev_index < 0
-      prev_index = ids.count - 1
-    end
+  def set_navigation_links(project = @project)
+    collection = @popup_projects
+    # next_project = project.id
+    # ids = @popup_projects.map(&:id)
+    # current_index = ids.index(project.id)
+    # prev_index = current_index - 1
+    # next_index = current_index + 1
+    # if prev_index < 0
+    #   prev_index = ids.count - 1
+    # end
+    #
+    # if next_index >= ids.count
+    #   next_index = 0
+    # end
+    #
+    # prev_id = ids[prev_index]
+    # next_id = ids[next_index]
+    #
+    # prev_item = Project.find(prev_id)
+    # next_item = Project.find(next_id)
 
-    if next_index >= ids.count
-      next_index = 0
-    end
 
-    prev_id = ids[prev_index]
-    next_id = ids[next_index]
-
-    prev_item = Project.find(prev_id)
-    next_item = Project.find(next_id)
-
-
-    #@prev, @next = [prev_item, next_item].map{|item| {image: item.thumb.exists?(:thumb) ? item.thumb.url(:thumb) : item.avatar.url(:thumb), title: item.short_name, url: item.url } }
+    @prev, @next = [project.prev(collection), project.next(collection)].map{|item| {image: item.thumb.exists?(:thumb) ? item.thumb.url(:thumb) : item.avatar.url(:thumb), title: item.short_name, url: item.url } }
   end
 end
