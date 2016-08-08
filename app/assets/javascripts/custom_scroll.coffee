@@ -26,6 +26,30 @@ scroll = (direction = "down")->
   #if $next_section.hasClass("fp-auto-height")
   #  $next_section("")
 
+$home_slider = $('.slider-container')
+
+currentIndex = 0
+slides = $home_slider.find('.home-portfolio-slide')
+slidesQnt = slides.length
+
+wing = $('.slider .wing')
+sliderbg = $('.slider .slider-bg')
+
+slideSlides = ->
+  slide = $home_slider.find(".home-portfolio-slide").eq(currentIndex)
+  slides.removeClass('visible')
+  slide_key = slide.attr("data-banner-key")
+  $home_slider.attr("active-slide", slide_key)
+  slide.addClass('visible')
+
+
+setSlide = (index = 0)->
+  slide = $home_slider.find(".home-portfolio-slide").removeClass('visible').eq(index)
+  slide_key = slide.attr("data-banner-key")
+  $home_slider.attr("active-slide", slide_key)  
+  slide.addClass('visible')
+  currentIndex = index
+
 
 $document.on "mousewheel", (e)->
   if $(".full-page-container").length == 0 || window.innerWidth < full_page_breakpoint
@@ -35,16 +59,25 @@ $document.on "mousewheel", (e)->
 
   delay("scroll",
     ()->
-      slider = $(".home-slider").data("bxSlider")
-      slides_count = 3
-      #alert("test")
       down = e.deltaY < 0
       #console.log(e.deltaX, e.deltaY, e.deltaFactor);
 
       console.log "e: ", e
       active_section_index = $(".page-section.active").index()
-      if active_section_index == 1 && down && slider.getCurrentSlide() < slides_count - 1
-        slider.goToNextSlide()
+      if !(active_section_index == 0 && down)
+        $home_slider.find(".home-portfolio-slide").removeClass('visible')
+      if active_section_index == 2 && !down
+        setSlide(2)
+      if active_section_index == 0 && down
+        setSlide()
+      if active_section_index == 1 && down
+        if currentIndex < slidesQnt - 1
+          currentIndex += 1
+          slideSlides()
+        else if down
+          scroll("down")
+        else
+          scroll("up")    
       else if down
         scroll("down")
       else

@@ -29,41 +29,50 @@ body[controller-action="pages__index"]
 		position: absolute
 		display: block
 		content: ""
+		@media #{$small-only}
+			left: 25px
+			width: 250px
+			height: 250px
 
 	.inner
 		position: relative
 		padding: 25px
+		@media #{$small-only}
+			padding-left: 25px
 
 	.white-header
 		+header-font-family
 		+font-60-500
 
 		color: $dark-white-color
-		line-height: 1.333333
+		line-height: 72px
 		margin-top: 15px
 		margin-bottom: 40px
 
-
+	.icon-link
+		margin-bottom: 10px
 
 
 	.blue-header
-		+font-32
+		+font-36
+		+italic
 
 	@media #{breakpoint(medium down)}
 		.white-header
-			+font-36
+			+font-23
 			margin-top: 8px
+			line-height: 40px
 
 	@media #{breakpoint(small only)}
-		padding: 0 50px
-
-
+		// padding: 0 50px
+		padding-top: 50px
 
 		.text-wrap
-			height: 330px
+			height: 250px
+			padding-left: 30px
 
 		.blue-header
-			+font-23
+			+font-21
 
 #home-portfolio-section
 	background: $black-color
@@ -112,10 +121,14 @@ body[controller-action="pages__index"]
 
 
 	.service-name, .services-intro .title
-		+font-45-bold
+		+font-36-bold
 		line-height: 1
 		+header-font-family
 		text-transform: uppercase
+		letter-spacing: 5px
+
+		@media #{$small-only}
+			+font-32-bold
 
 	.services-intro
 		padding: 70px

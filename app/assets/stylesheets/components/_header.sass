@@ -26,6 +26,11 @@
 	position: absolute
 	top: 53px
 	left: 73px
+	@media #{$small-only}
+		top: 5px
+		left: 25px
+		svg
+			width: 120px
 
 #svg-logo-symbol
 	*
@@ -49,8 +54,9 @@
 		.inner
 			&, &:before, &:after
 				background-color: $pink-color
-
-
+	@media #{$small-only}
+		top: 30px
+		right: 25px
 
 body.has-opened-menu
 	#main-menu-button

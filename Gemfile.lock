@@ -1,4 +1,12 @@
 GIT
+  remote: git://github.com/VoroninNick/attachable.git
+  revision: f1cee3df4fb7c90941f2040ab29dd132571765b1
+  specs:
+    attachable (0.0.1)
+      paperclip
+      rails (>= 4)
+
+GIT
   remote: git://github.com/VoroninNick/rails_admin_globalize_field.git
   revision: 915ff3cdcc01248cda835cc6264bedd40d3f7859
   branch: pasha
@@ -10,18 +18,24 @@ GIT
 
 GIT
   remote: git://github.com/pkorenev/cms.git
-  revision: 6ab7318d07c43ff12c666d9782aa855e79f9f520
+  revision: 6150b0f7ecfde59e645d52a5bba956520830b671
   specs:
     cms (0.1.2)
       paperclip
 
 GIT
-  remote: git://github.com/voroninnick/attachable.git
-  revision: f1cee3df4fb7c90941f2040ab29dd132571765b1
+  remote: git://github.com/pkorenev/inky-rails.git
+  revision: bd2df8d8875b738d79d0e2859427b827f7a4aa47
+  branch: slim-handler
   specs:
-    attachable (0.0.1)
-      paperclip
-      rails (>= 4)
+    inky-rails (1.0.1)
+
+GIT
+  remote: git://github.com/turbolinks/turbolinks-classic.git
+  revision: 37a7c296232d20a61bd1946f600da7f2009189db
+  specs:
+    turbolinks (3.0.0)
+      coffee-rails
 
 GEM
   remote: https://rubygems.org/
@@ -61,8 +75,13 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
+    acts-as-taggable-on (3.5.0)
+      activerecord (>= 3.2, < 5)
+    addressable (2.4.0)
     arel (6.0.3)
     bcrypt (3.1.10)
+    bcrypt (3.1.10-x64-mingw32)
+    bcrypt-ruby (3.1.1.rc1)
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
     bower-rails (0.10.0)
@@ -83,7 +102,8 @@ GEM
       execjs
     coffee-script-source (1.10.0)
     concurrent-ruby (1.0.1)
-    daemons (1.2.3)
+    css_parser (1.3.7)
+      addressable
     debug_inspector (0.0.2)
     devise (3.5.6)
       bcrypt (~> 3.0)
@@ -95,7 +115,6 @@ GEM
     enumerize (1.1.1)
       activesupport (>= 3.2)
     erubis (2.7.0)
-    eventmachine (1.0.8)
     execjs (2.6.0)
     font-awesome-rails (4.5.0.1)
       railties (>= 3.2, < 5.1)
@@ -139,13 +158,15 @@ GEM
       nokogiri (>= 1.5.9)
     mail (2.6.3)
       mime-types (>= 1.16, < 3)
-    mime-types (2.99.1)
+    mime-types (2.99.2)
     mimemagic (0.3.0)
     mini_portile2 (2.0.0)
-    minitest (5.8.4)
+    minitest (5.9.0)
     multi_json (1.11.2)
     nested_form (0.3.2)
     nokogiri (1.6.7.2)
+      mini_portile2 (~> 2.0.0.rc2)
+    nokogiri (1.6.7.2-x64-mingw32)
       mini_portile2 (~> 2.0.0.rc2)
     orm_adapter (0.5.0)
     paperclip (4.3.6)
@@ -156,6 +177,7 @@ GEM
       mimemagic (= 0.3.0)
     protected_attributes (1.1.3)
       activemodel (>= 4.0.1, < 5.0)
+    puma (3.4.0)
     quiet_assets (1.1.0)
       railties (>= 3.1, < 5.0)
     rack (1.6.4)
@@ -213,8 +235,16 @@ GEM
     remotipart (1.2.1)
     responders (2.1.1)
       railties (>= 4.2.0, < 5.1)
+    roadie (3.1.1)
+      css_parser (~> 1.3.4)
+      nokogiri (>= 1.5.0, < 1.7.0)
+    roadie-rails (1.1.1)
+      railties (>= 3.0, < 5.1)
+      roadie (~> 3.1)
     ruby_parser (3.8.1)
       sexp_processor (~> 4.1)
+    russian (0.6.0)
+      i18n (>= 0.5.0)
     safe_yaml (1.0.4)
     sass (3.4.21)
     sass-rails (5.0.4)
@@ -245,18 +275,15 @@ GEM
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
     sqlite3 (1.3.11)
+    sqlite3 (1.3.11-x64-mingw32)
     temple (0.7.6)
-    thin (1.6.4)
-      daemons (~> 1.0, >= 1.0.9)
-      eventmachine (~> 1.0, >= 1.0.4)
-      rack (~> 1.0)
     thor (0.19.1)
     thread_safe (0.3.5)
     tilt (2.0.2)
-    turbolinks (2.5.3)
-      coffee-rails
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
+    tzinfo-data (1.2016.4)
+      tzinfo (>= 1.0.0)
     uglifier (2.7.2)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
@@ -270,9 +297,12 @@ GEM
 
 PLATFORMS
   ruby
+  x64-mingw32
 
 DEPENDENCIES
+  acts-as-taggable-on
   attachable!
+  bcrypt-ruby (= 3.1.1.rc1)
   bower-rails
   byebug
   ckeditor
@@ -281,25 +311,30 @@ DEPENDENCIES
   devise
   enumerize
   globalize
+  i18n
+  inky-rails!
   inline_svg
   jbuilder (~> 2.0)
   jquery-rails
   paperclip (~> 4.2)
   protected_attributes
+  puma
   quiet_assets
   rails (= 4.2.4)
   rails_admin
   rails_admin_globalize_field!
   rails_admin_nestable
+  roadie-rails
+  russian
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
   slim-rails
   spring
   sqlite3
-  thin
-  turbolinks
+  turbolinks!
+  tzinfo-data
   uglifier (>= 1.3.0)
   web-console (~> 2.0)
 
 BUNDLED WITH
-   1.10.6
+   1.11.2
