@@ -15,6 +15,19 @@ $menu-bg-color: $black-color
 
 
 	// all borders
+	.frame
+		position: absolute
+		top: 18px
+		left: 18px
+		right: 18px
+		bottom: 18px
+		border: 2px solid $violet-color
+		@media #{$small-only}
+			top: 10px
+			left: 10px
+			right: 10px
+			bottom: 10px
+
 	.top-border, .bottom-border
 		background: $menu-bg-color
 		//position: absolute
@@ -53,8 +66,8 @@ $menu-bg-color: $black-color
 
 	.inner
 		position: relative
-		border-left: 2px solid $violet-color
-		border-right: 2px solid $violet-color
+		// border-left: 2px solid $violet-color
+		// border-right: 2px solid $violet-color
 		overflow: hidden
 		//z-index: 1
 		//padding-top: 102px
@@ -82,6 +95,8 @@ $menu-bg-color: $black-color
 
 #main-menu-footer-icons
 	float: left
+	@media #{$small-only}
+		width: 100%
 
 #main-menu-footer-phones
 	.phone
@@ -116,6 +131,9 @@ $menu-bg-color: $black-color
 	min-height: calc(100vh - 32px)
 	left: 0
 	top: 0
+	@media #{$small-only}
+		margin-top: 50px
+		min-height: initial
 
 	//width: 300px
 	//height: 600px
@@ -136,6 +154,10 @@ $menu-bg-color: $black-color
 		position: relative
 		height: 100px
 		line-height: 1
+		@media #{$small-only}
+			height: 70px
+		@media only screen and (max-width: 320px)
+			height: 50px
 		.title
 			+header-font-family
 			+font-45-bold
@@ -148,9 +170,12 @@ $menu-bg-color: $black-color
 			top: 22px
 			left: 36px
 			//left: 0
-
+		
 			+transition-duration(0.2s)
 			+transition-property(all)
+			
+			@media #{$small-only}
+				+font-25-bold
 
 			&:before
 				content: ""
@@ -178,6 +203,11 @@ $menu-bg-color: $black-color
 			left: 36px
 			+transition-duration(0.1s)
 			+transition-property(all)
+			@media #{$small-only}
+				top: 45px
+				font-size: 12px
+			@media only screen and (max-width: 320px)
+				display: none
 
 		.index
 			position: absolute
@@ -289,6 +319,10 @@ body.has-opened-menu
 		padding: 70px 15px 70px 15px
 		position: relative
 		+clearfix
+		@media #{$small-only}
+			// padding: 10px 15px 10px 15px
+			position: absolute
+			bottom: 30px
 
 	#main-menu-footer-phones
 		display: none
@@ -296,7 +330,7 @@ body.has-opened-menu
 		margin-top: 18px
 	.fullscreen-menu
 		.inner
-			padding-top: 170px
+			// padding-top: 170px
 	#main-menu
 		.menu-list
 			max-width: 250px

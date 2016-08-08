@@ -7,12 +7,20 @@
 	background: rgb(144, 164, 174)
 	+transition-duration(0.5s)
 	+transition-property(all)
+	@media #{$small-only}
+		// width: 28px
+		// height: 28px
+		margin: 0
+		width: 15%
 
 	svg
 		width: 24px
 		position: relative
 		top: 8px
 		left: 8px
+		@media #{$small-only}
+			top: 5px
+			left: 8px
 
 
 		path
