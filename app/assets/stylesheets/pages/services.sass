@@ -9,7 +9,8 @@
 		width: 100%
 		position: relative
 		overflow: hidden
-		//opacity: 0
+		@media #{$medium-only}
+			height: 100vh
 
 		&.visible
 			opacity: 1
@@ -27,10 +28,9 @@
 		width: 50%
 		height: 100%
 		float: right
-
-
-
-
+		@media #{$medium-only}
+			width: 100%
+			height: 50%
 		.image
 			width: 100%
 			height: 100%
@@ -39,20 +39,20 @@
 			+grayscale
 			+transition-duration(0.5s)
 			+transition-property(all)
-
 		&:hover, &.hover
 			.image
 				+transform(scale(1.1))
 				+disable-grayscale
-
 
 	.service-info
 		background: $dark-white-color
 		width: 50%
 		height: 100%
 		position: relative
-		//overflow: hidden
 		float: left
+		@media #{$medium-only}
+			width: 100%
+			height: 50%
 
 		&:after
 			content: ""

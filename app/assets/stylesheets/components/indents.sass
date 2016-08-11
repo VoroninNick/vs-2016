@@ -1,14 +1,26 @@
-= top-inner-indent($indent: 125)
+= top-inner-indent($indent: 125, $small_indent: 50)
 	padding-top: rem-calc($indent)
 
-= bottom-inner-indent($indent: 125)
+	@media #{$small-only}
+		padding-top: rem-calc($small_indent)
+
+= bottom-inner-indent($indent: 125, $small_indent: 50)
 	padding-bottom: rem-calc($indent)
 
-= top-indent($indent: 125)
+	@media #{$small-only}
+		padding-bottom: rem-calc($small_indent)
+
+= top-indent($indent: 125, $small_indent: 50)
 	margin-top: rem-calc(125)
 
-= bottom-indent($indent: 125)
+	@media #{$small-only}
+		margin-top: rem-calc($small_indent)
+
+= bottom-indent($indent: 125, $small_indent: 50)
 	margin-bottom: rem-calc($indent)
+
+	@media #{$small-only}
+		margin-bottom: rem-calc($small_indent)
 
 .vertical-indent
 	+top-indent
@@ -64,6 +76,8 @@
 .large-inner-vertical-indent
 	+top-inner-indent(200)
 	+bottom-inner-indent(200)
+.large-top-indent
+	+top-indent(200)
 .large-bottom-indent
 	+bottom-indent(200)
 .large-inner-top-indent

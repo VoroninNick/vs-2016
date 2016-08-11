@@ -11,7 +11,9 @@
 		height: 60px
 		background: none
 		right: 100px
-
+		@media #{$small-only}
+			bottom: -5px
+			right: 10px
 
 		.numbers
 			color: white
@@ -91,6 +93,9 @@
 
 		img
 			opacity: 0
+			@media #{$small-only}
+				height: 250px
+
 
 
 

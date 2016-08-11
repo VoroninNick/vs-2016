@@ -18,12 +18,16 @@
 	svg
 		width: 500px
 		height: 500px
-		right: -86px
+		right: -50px
 		position: absolute
-		top: -70px
+		top: -90px
 
 		*
 			fill: $black-color
+		@media #{$small-only}
+			width: 300px
+			right: -50px
+			top: -120px
 
 	.info-block
 		position: absolute
@@ -32,16 +36,24 @@
 		padding: 0 0 20px 50px
 		width: 100%
 		+transition(0.5s bottom)
+		@media #{$small-only}
+			padding: 0 0 10px 20px
 
 		.title
 			+font-32-bold
 			text-transform: uppercase
 			color: white
 			+fira-sans
+			@media #{$small-only}
+				+font-25-bold
 
 	@media #{breakpoint(small only)}
+		// width: 50%
+		// padding-top: 60%
+		width: 100%
+		padding-top: 100%
+	@media #{$medium-only}
 		width: 50%
-		padding-top: 60%
 
 .team-member-block
 	+grid-column(4, 0)
@@ -55,18 +67,25 @@
 		padding: 0 0 20px 50px
 		width: 100%
 		+transition(0.5s bottom)
-
+		@media #{$small-only}
+			padding: 0 0 10px 20px
 		.name
 			+font-32-bold
 			text-transform: uppercase
 			color: white
 			+fira-sans
+
+			@media #{$small-only}
+				+font-25-bold
+
 		.role
 			+font-18
 			+light
 			+italic
 			color: white
 			+fira-sans
+			@media #{$small-only}
+				font-size: 16px
 
 
 		.few-words-block
@@ -89,6 +108,9 @@
 					left: 30px
 					top: -15px
 					color: white
+					@media #{$small-only}
+						font-size: 80px
+						font-weight: bold
 
 			.text
 				margin: 32px 0 0 0
@@ -99,6 +121,9 @@
 				//+fira-sans
 				position: relative
 				z-index: 1
+				@media #{$small-only}
+					font-size: 28px
+					font-weight: bold
 
 
 	&:hover
@@ -108,4 +133,6 @@
 
 
 	@media #{breakpoint(small only)}
+		width: 100%
+	@media #{$medium-only}
 		width: 50%

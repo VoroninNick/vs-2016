@@ -7,7 +7,7 @@ $circle-1-bg: $pink-color
 $circle-2-bg: $violet-color
 $circle-3-bg: $blue-color
 
-$circle-in-duration: 2s
+$circle-in-duration: 1s
 
 
 
@@ -25,20 +25,16 @@ $circle-in-duration: 2s
 		right: -37.5vmax
 		width: 100vmax
 		height: 100vmax
-
-
 	100%
 		opacity: 0
 
-
-
 +keyframes(show-popup-from-circle-2)
-	0%, 30%
+	0%, 45%
 		width: 40px
 		height: 40px
 		right: 80px
 		bottom: 67px
-	70%, 90%
+	45%, 90%
 		bottom: -37.5vmax
 		right: -37.5vmax
 		width: 125vmax
@@ -49,17 +45,12 @@ $circle-in-duration: 2s
 		opacity: 0
 
 +keyframes(show-popup-from-circle-3)
-	0%, 30%
+	0%, 45%
 		width: 40px
 		height: 40px
 		right: 80px
 		bottom: 67px
-	70%
-		bottom: -37.5vmax
-		right: -37.5vmax
-		width: 125vmax
-		height: 125vmax
-	90%
+	50%, 90%
 		bottom: -50vmax
 		right: -50vmax
 		width: 200vmax
@@ -86,15 +77,10 @@ $circle-in-duration: 2s
 +keyframes(show-project-item-from-circle)
 	0%
 		opacity: 0
-		//border-radius: 50%
 	100%
 		opacity: 1
-		//border-radius: 0
 
 .projects-popup
-
-	//background: $body-bg-color
-	//background: $light-gray-text-color
 	background: none
 	+transition-property(none)
 
@@ -112,12 +98,7 @@ $circle-in-duration: 2s
 	&.show
 		display: block
 
-
-
-
 	body.has-opened-projects-popup &
-
-
 		.circle1
 			background: $circle-1-bg
 			z-index: 3
@@ -172,12 +153,7 @@ $circle-in-duration: 2s
 		display: block
 		position: relative
 		width: $block-width
-
-		//display: inline-block
 		float: left
-
-		//height: 0
-		//padding-top: 100%
 		height: $block-width
 
 		&.active
@@ -197,9 +173,6 @@ $circle-in-duration: 2s
 				height: 80px
 
 			.image-wrap
-				//width: 60px
-				//overflow: hidden
-				//margin: 0 auto
 
 		.close-button-and-text
 			top: 180px
@@ -210,10 +183,7 @@ $circle-in-duration: 2s
 			display: inline-block
 			width: 30px
 			height: 30px
-			//background: $dark-white-color
 			position: relative
-			//border-radius: 50%
-			//padding: 10px 0px 0px 4px
 			//.inner
 				+burger($width: 20px, $color: $black-color, $height: 2px)
 				+burger-to-cross()
@@ -221,7 +191,6 @@ $circle-in-duration: 2s
 		.close-button-and-text
 			&:hover
 				.close-button
-					//background: $pink-color
 
 				svg
 					*

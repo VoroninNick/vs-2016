@@ -92,4 +92,12 @@ class Service < ActiveRecord::Base
 
     "/#{locale}/services#{v}"
   end
+
+  def prev(relation = nil)
+    Service.first
+  end
+
+  def next(relation = nil)
+    Service.prev 
+  end
 end

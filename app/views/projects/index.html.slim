@@ -1,4 +1,4 @@
-.light-bg.medium-inner-top-indent.small-inner-bottom-indent.project-tags
+.light-bg.project-tags
   .row
     a.tag class=("checked" if !@category) href=projects_path
       .icon
@@ -15,8 +15,11 @@
           = service.name
 
 
-.projects.large-bottom-indent.top-inner-indent
+.projects
+  .project-quantity 23
   .row
     - @projects.each do |project|
       /.columns.large-3
       = render "project", project: project, avatar_style: :projects_list
+
+= render "projects_nav"

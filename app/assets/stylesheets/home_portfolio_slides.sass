@@ -55,11 +55,19 @@ $arazzinni-gray-color: #414141
 					*
 						opacity: 1
 						fill: $radok-red-orange-color
+		// .hero
+		// 	top: 100px
+		// 	left: 100px
+		// 	+translate(0,50%)
 		&.visible
 			.project-description-block
 				+transition(1s)
 				opacity: 1
 				+translate(0,0)
+			// .hero
+			// 	+transition(1s)
+			// 	opacity: 1
+			// 	+translate(0,0)
 
 		@media #{breakpoint(small only)}
 			height: 100vh
@@ -127,7 +135,7 @@ $arazzinni-gray-color: #414141
 			.hero
 				top: 100px
 				left: 100px
-				+translate(-50%,0)
+				// +translate(-50%,0)
 			&.visible
 				.hero
 					+transition(1s)
@@ -154,7 +162,7 @@ $arazzinni-gray-color: #414141
 			.hero
 				top: 0
 				left: 0
-				+translate(-50%,0)
+				// +translate(0,50%)
 			&.visible
 				.hero
 					+transition(1s)

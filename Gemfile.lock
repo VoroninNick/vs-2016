@@ -18,7 +18,7 @@ GIT
 
 GIT
   remote: git://github.com/pkorenev/cms.git
-  revision: 6150b0f7ecfde59e645d52a5bba956520830b671
+  revision: b83974b05a9b81776ff29fa509247bae6fed955b
   specs:
     cms (0.1.2)
       paperclip
@@ -169,7 +169,7 @@ GEM
     nokogiri (1.6.7.2-x64-mingw32)
       mini_portile2 (~> 2.0.0.rc2)
     orm_adapter (0.5.0)
-    paperclip (4.3.6)
+    paperclip (4.3.7)
       activemodel (>= 3.2.0)
       activesupport (>= 3.2.0)
       cocaine (~> 0.5.5)

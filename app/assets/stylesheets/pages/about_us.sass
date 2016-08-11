@@ -6,14 +6,21 @@
 			width: 60px
 			height: 60px
 			display: inline-block
+			@media #{$small-only}
+				width: 40px
+				height: 40px
 
 			svg
 				width: 30px
 				height: 30px
-
 				position: relative
 				top: 15px
 				left: 19px
+				@media #{$small-only}
+					width: 15px
+					height: 15px
+					top: 10px
+					left: 15px
 
 		.icon-link-label
 			line-height: 60px
@@ -21,6 +28,9 @@
 			+italic
 			color: $dark-white-color
 			margin-left: 15px
+			@media #{$small-only}
+				font-size: 1em
+				margin-left: 5px
 
 .intro-row
 	svg
@@ -28,10 +38,11 @@
 		height: auto
 		max-width: 100%
 		display: inline-block
-
+		
 		//*
 			fill: $pink-color
-
+		@media #{$small-only}
+			width: 200px
 
 	.intro-column
 		.header
@@ -42,7 +53,8 @@
 	+breakpoint(small only)
 		.intro-column
 			&:not(:first-child)
-				margin-top: 160px
+				// margin-top: 160px
+				margin-top: 100px
 
 
 
@@ -64,10 +76,13 @@
 		float: left
 		clear: left
 		position: relative
+		@media #{$small-only}
+			padding-top: 0
 
 		.number-and-description
 			+flexbox
 			+flex-direction
+			position: relative
 		.number
 			left: 0
 			//top: 100px
@@ -126,12 +141,14 @@
 	@media #{breakpoint(small only)}
 		.principle
 			.number
-				font-size: 90px
-				width: 90px
-				height: 90px
+				font-size: 60px
+				width: 60px
+				height: 60px
+				position: absolute
+				top: 0
 
 			.description
-				padding-left: 30px
+				padding-left: 90px
 
 #clients
 	.logo
@@ -140,11 +157,18 @@
 		width: 200px
 		height: 200px
 		padding: 20px
+		@media #{$small-only}
+			width: 120px
+			height: 120px
+			padding: 0
 
 		svg
 			display: block
 			width: 160px
 			height: 160px
+			@media #{$small-only}
+				width: 120px
+				height: 120px
 
 			*
 				fill: $light-gray-text-color

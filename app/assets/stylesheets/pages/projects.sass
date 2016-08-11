@@ -1,31 +1,111 @@
 .projects
+	overflow: hidden
+	position: relative
+	padding: 12rem 0
+	@media #{$small-only}
+		padding: 7rem 1rem
+	.project-quantity
+		position: absolute
+		left: 50%
+		+translate(-50%,0)
+		top: 20px
+		color: #fff
+		opacity: 0.25
+		font-size: 6rem
+		line-height: 5rem
+		@media #{$medium-up}
+			font-size: 9rem
+			line-height: 7rem
+			top: 100px
 	.project
-		width: percentage(1/4)
+		@media #{$small-only}
+			width: percentage(1)
+		@media #{$medium-only}
+			width: percentage(1/2)
+		@media #{$large-up}
+			width: percentage(1/4)
 
 .project-tags
-
+	position: relative
+	z-index: 1
+	@media #{$medium-up}
+		padding: 5rem 0
 	.tag
 		+grid-column($gutter: 0)
-		width: percentage(1/9)
-		text-align: center
+		// width: percentage(1/9)
+		// text-align: center
 		text-transform: uppercase
 		+fira-sans
 		+font-weight-500
 		color: rgba($black-color, 0.5)
+		border-bottom: 1px solid rgba(0,0,0,0.1)
+		padding: 10px 20px
+		position: relative
+		&:first-child
+			@media #{$small-only}
+				background-color: $pink-color
+				svg
+					fill: #fff
+				.name
+					color: #fff
+				&:before
+					content: url(#{asset_path('svg/arrow-down.svg')})
+					position: absolute
+					top: 20px
+					right: 20px
+					width: 24px
+					height: 24px
+					+transition(0.25s)
+				&.opened
+					&:before
+						+rotate(180deg)
 
+		@media #{$small-only}
+			&:not(:first-child)
+				display: none
+				&.visible
+					display: block
+		@media #{$large-up}
+			width: percentage(1/9)
+			text-align: center
+			padding: 0
+			border-bottom: none
 		.icon
-			height: 95px
-
-
+			display: inline-block
+			@media #{$large-up}
+				display: block
+				height: 80px
+		.name
+			display: inline-block
+			vertical-align: top
+			@media #{$small-only}
+				line-height: 40px
+				padding-left: 10px
+			@media #{$medium-only}
+				line-height: 60px
+				padding-left: 20px
+			@media #{$large-up}
+				display: block
 		svg
+			@media #{$small-only}
+				width: 40px
+				height: 40px
+			@media #{$medium-only}
+				width: 60px
+				height: 60px
 			*
 				fill: rgba($black-color, 0.5)
 				opacity: 1
 
 		&.checked
-			svg
-				*
-					fill: $pink-color
+			@media #{$small-only}
+				svg
+					*
+						fill: #fff
+			@media #{$large-up}
+				svg
+					*
+						fill: $pink-color
 
-			color: $pink-color
+				color: $pink-color
 

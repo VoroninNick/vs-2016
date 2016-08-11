@@ -1,8 +1,3 @@
-window.breakpoints = {
-  small: [0, 640]
-  mobile_sidebar: [0, 768]
-}
-
 ###
 init_menu_active_links = ()->
   $main_menu = $("#main-menu")

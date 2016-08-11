@@ -82,3 +82,10 @@ $(".desktop-slider").appear()
 
 $(".desktop-slider").on "appear", ()->
   $(this).addClass("animate-bg")
+
+
+if is_small()
+  $('.project-tags .tag').first().on 'click', ()->
+    event.preventDefault()
+    $(this).toggleClass('opened')
+    $('.project-tags .tag').toggleClass('visible')

@@ -29,6 +29,7 @@ $document.on "click", ".projects-popup .close-button-and-text", ()->
   $projects_popup.removeClass("ready")
   $projects_popup.addClass("play-closing-animation")
   close_menu("projects-popup")
+  $projects_popup.find(".project, .more-projects-soon").removeClass("show")
 
   setTimeout(
     ()->

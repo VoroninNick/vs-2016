@@ -6,6 +6,7 @@ class ProjectsController < ApplicationController
     set_projects_banner
     set_page_metadata("projects")
     @projects = @popup_projects
+    set_navigation_links(Project.first)
 
   end
 

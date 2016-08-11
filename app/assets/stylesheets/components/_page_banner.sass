@@ -3,6 +3,8 @@
 	height: 80vh
 	width: 100%
 	overflow: hidden
+	@media #{$small-only}
+		height: 100vh
 
 
 .page-banner-description-block
@@ -11,12 +13,22 @@
 	left: 50%
 	+transform( translate(-50%, -50%))
 	display: block
-	width: 800px
+	width: 80%
 	height: 80px
+	@media #{$small-only}
+		top: 35%
+	@media #{$large-up}
+		width: 800px
 
 	.inner
 		position: relative
-
+		.icon-link
+			margin-top: 30px
+			@media #{$small-only}
+				position: absolute
+				right: 0
+				top: 110px
+				margin: 0
 
 	.rect
 		height: 80px
@@ -24,42 +36,55 @@
 
 	.title
 		+header-font-family
-		font-size: 56px
+		font-size: 36px
 		color: $dark-white-color
 		font-weight: 700
 		text-transform: uppercase
 		letter-spacing: 4px
-		top: -40px
-		left: -50px
+		top: -20px
+		left: -20px
 		position: absolute
+		@media #{$medium-up}
+			font-size: 56px
+			top: -40px
+			left: -50px
 
 	.numbers
 		color: $blue-color
 		+header-font-family
 		position: absolute
-
-		//bottom: -17px
 		top: 100%
 		margin-top: -20px
 		right: 30px
+		@media #{$small-only}
+			right: initial
+			left: 0
+			margin-top: 30px
 
 		.number-with-subtitle
 			position: relative
 			float: left
-			margin-left: 55px
+			margin-left: 50px
+			@media #{$small-only}
+				float: none
+				margin-left: 0
 
 			.number
 				line-height: 45px
 				+font-60
+				@media #{$small-only}
+					+font-25
+					line-height: 25px
 
 		.subtitle
 			color: $light-gray-text-color
 			position: relative
-			//right: 0
 			left: 35px
-			//bottom: -50px
-			//transform: translateX(50%)
 			+light
+			@media #{$small-only}
+				font-size: 12px
+				left: 15px
+				top: -5px
 
 
 	&.auto-height

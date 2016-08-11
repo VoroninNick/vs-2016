@@ -28,6 +28,7 @@ scroll = (direction = "down")->
 
 $home_slider = $('.slider-container')
 
+
 currentIndex = 0
 slides = $home_slider.find('.home-portfolio-slide')
 slidesQnt = slides.length
@@ -35,12 +36,6 @@ slidesQnt = slides.length
 wing = $('.slider .wing')
 sliderbg = $('.slider .slider-bg')
 
-slideSlides = ->
-  slide = $home_slider.find(".home-portfolio-slide").eq(currentIndex)
-  slides.removeClass('visible')
-  slide_key = slide.attr("data-banner-key")
-  $home_slider.attr("active-slide", slide_key)
-  slide.addClass('visible')
 
 
 setSlide = (index = 0)->
@@ -49,6 +44,14 @@ setSlide = (index = 0)->
   $home_slider.attr("active-slide", slide_key)  
   slide.addClass('visible')
   currentIndex = index
+
+slideSlides = ->
+  slides.removeClass('visible')
+  slide = $home_slider.find(".home-portfolio-slide").eq(currentIndex)
+  slide_key = slide.attr("data-banner-key")
+  $home_slider.attr("active-slide", slide_key)
+  slide.addClass('visible')
+
 
 
 $document.on "mousewheel", (e)->
@@ -64,12 +67,12 @@ $document.on "mousewheel", (e)->
 
       console.log "e: ", e
       active_section_index = $(".page-section.active").index()
-      if !(active_section_index == 0 && down)
-        $home_slider.find(".home-portfolio-slide").removeClass('visible')
-      if active_section_index == 2 && !down
-        setSlide(2)
+      # if !(active_section_index == 0 && down)
+      #   slides.removeClass('visible')
+
       if active_section_index == 0 && down
         setSlide()
+
       if active_section_index == 1 && down
         if currentIndex < slidesQnt - 1
           currentIndex += 1
@@ -82,6 +85,9 @@ $document.on "mousewheel", (e)->
         scroll("down")
       else
         scroll("up")
+
+      if active_section_index == 2 && !down
+        setSlide(2)
 
       console.log "down: ", down
 
