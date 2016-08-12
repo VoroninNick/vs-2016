@@ -5,18 +5,22 @@
 	color: $dark-text-color
 
 	.service
-		height: 75vh
+		height: 100vh
 		width: 100%
 		position: relative
 		overflow: hidden
-		@media #{$medium-only}
-			height: 100vh
+		@media #{$large-up}
+			height: 75vh
 
 		&.visible
 			opacity: 1
 
 	.number
 		+xlarge-number
+		@media #{$small-only}
+			font-size: 150px
+			right: 0
+			bottom: 0
 
 	.service
 		&:nth-child(2n+0)
@@ -25,12 +29,12 @@
 
 	.service-image
 		overflow: hidden
-		width: 50%
-		height: 100%
-		float: right
-		@media #{$medium-only}
-			width: 100%
-			height: 50%
+		width: 100%
+		height: 50%
+		float: left
+		@media #{$large-up}
+			width: 50%
+			height: 100%
 		.image
 			width: 100%
 			height: 100%
@@ -46,13 +50,17 @@
 
 	.service-info
 		background: $dark-white-color
-		width: 50%
-		height: 100%
+		width: 100%
+		height: 50%
 		position: relative
-		float: left
+		float: right
+		@media #{$small-only}
+			padding: 20px
 		@media #{$medium-only}
-			width: 100%
-			height: 50%
+			padding: 30px
+		@media #{$large-up}
+			width: 50%
+			height: 100%
 
 		&:after
 			content: ""
@@ -64,17 +72,27 @@
 			border-style: solid
 		.inner
 			z-index: 1
-			position: absolute
-			top: 15%
-			//+transform(translateY(-50%))
-			padding: 100px 100px 100px 140px
-			padding: 0px 100px 100px 140px
+			@media #{$large-up}
+				width: 90%
+				position: absolute
+				// top: 15%
+				// padding: 100px 100px 100px 140px
+				// padding: 0px 100px 100px 140px
+				top: 50%
+				left: 50%
+				+translate(-50%,-50%)
+			@media #{$xxlarge-up}
+				height: 600px
+
 
 		.service-icon
 			display: block
 			svg
 				width: 120px
 				height: 80px
+				@media #{$small-only}
+					width: 60px
+					height: 40px
 				*
 					opacity: 1
 					fill: $pink-color
@@ -88,14 +106,21 @@
 			+fira-sans
 			text-transform: uppercase
 			margin: 15px 0 20px 0
-			//padding-bottom: 25px
 			display: block
 			opacity: 0
+			@media #{$small-only}
+				+font-25
 
 			&.visible
 				opacity: 1
 		.item-links
-			margin-top: 70px
+			position: absolute
+			@media #{$small-only}
+				bottom: 20px
+			@media #{$medium-only}
+				bottom: 30px
+			@media #{$large-up}
+				margin-top: 50px
 
 
 			.icon-link-label
@@ -106,9 +131,16 @@
 			+transition-duration(1s)
 			+transition-property(opacity)
 			+transition-delay(1s)
+			position: relative
+			z-index: 1
 
 			&.visible
 				opacity: 1
+			@media only screen and (max-width: 320px)
+				display: none
+			@media #{$small-only}
+				height: 6rem
+				overflow: auto
 
 
 	.service

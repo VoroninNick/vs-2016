@@ -23,9 +23,14 @@
 			margin: 0 auto
 			margin-bottom: 30px
 		@media #{$medium-only}
-			+grid-column(6)
+			+grid-column(4)
 		@media #{$large-up}
 			+grid-column(3)
+		&:first-child
+			@media #{$medium-only}
+				width: 100%
+				margin-bottom: 30px
+				text-align: center
 	
 		// +small-down
 		// 	width: percentage(1/3)
