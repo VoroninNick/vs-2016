@@ -50,6 +50,7 @@
 #= require pages/about
 #= require pages/services
 #= require pages/project_page
+#= require pages/publications
 #= require vendor/richmarker
 #= require maps
 

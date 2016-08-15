@@ -1,11 +1,51 @@
 .tags
+	.arrow-down
+		@media #{$medium-up}
+			display: none
+	@media #{$small-only}
+		position: relative
+		background-color: $dark-white-color
+		.arrow-down
+			// content: url(#{asset_path('svg/arrow-down.svg')})
+			position: absolute
+			top: 10px
+			right: 10px
+			width: 24px
+			height: 24px
+			+transition(0.25s)
+			svg
+				fill: $light-gray-text-color
 	.label
 		color: white
 		text-transform: uppercase
 		font-weight: 600
 		display: inline-block
+		@media #{$small-only}
+			display: block
+			padding: 10px 0
+			color: #000
+		@media #{$medium-only}
+			width: 30%
+			vertical-align: top
 	ul
 		display: inline-block
+		@media #{$small-only}
+			position: absolute
+			margin: 0
+			padding: 0
+			left: 0
+			bottom: 0
+			+translate(0,100%)
+			width: 100%
+			background-color: $dark-white-color
+			z-index: 1
+			display: none
+		@media #{$medium-only}
+			width: 65%
+			margin: 0
+			padding: 0
+			li
+				display: block
 	.tag
 		cursor: pointer
 		color: rgba(#fff, 0.6)
@@ -13,6 +53,16 @@
 		display: inline-block
 		padding: 0 15px
 		font-style: italic
+		@media #{$small-only}
+			display: block
+			font-size: 14px
+			font-style: initial
+			text-transform: uppercase
+			color: $light-gray-text-color
+			padding: 10px
+			font-weight: bold
+			&:nth-child(even)
+				// background-color: $light-gray-text-color
 
 		a
 			color: inherit
@@ -21,3 +71,14 @@
 			color: #fff
 			border: 2px solid $pink-color
 			padding-right: 40px
+
+	&.opened
+		background-color: $pink-color
+		.arrow-down
+			+rotate(180deg)
+			svg
+				fill: #fff
+		.label
+			color: #fff
+		ul
+			display: block
