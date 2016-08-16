@@ -33,11 +33,15 @@ $arazzinni-gray-color: #414141
 			opacity: 0
 		.project-description-block
 			position: absolute
-			right: 250px
+			right: 0
 			width: 430px
 			top: 200px
 			opacity: 0
 			+translate(50%,0)
+			@media #{$xlarge-only}
+				right: 100px
+			@media #{$xxlarge-up}
+				right: 300px
 			.title
 				color: white
 				+font-60
@@ -109,8 +113,12 @@ $arazzinni-gray-color: #414141
 						color: $radok-red-orange-color
 			.hero
 				top: 100px
-				left: 100px
+				left: -200px
 				+translate(0,50%)
+				@media #{$xlarge-only}
+					left: -100px
+				@media #{$xxlarge-up}
+					left: 100px
 			&.visible
 				.hero
 					+transition(1s)
@@ -133,9 +141,14 @@ $arazzinni-gray-color: #414141
 					sup
 						color: $plit-green-color
 			.hero
-				top: 100px
-				left: 100px
+				top: 120px
+				left: -100px
 				// +translate(-50%,0)
+				@media #{$xlarge-only}
+					top: 0
+				@media #{$xxlarge-up}
+					top: -100px
+					left: 0
 			&.visible
 				.hero
 					+transition(1s)
@@ -160,9 +173,15 @@ $arazzinni-gray-color: #414141
 				.description
 					color: $arazzinni-gray-color
 			.hero
-				top: 0
-				left: 0
+				top: 100px
+				left: -200px
 				// +translate(0,50%)
+				@media #{$xlarge-only}
+					top: 50px
+					left: -250px
+				@media #{$xxlarge-up}
+					top: 50px
+					left: -100px
 			&.visible
 				.hero
 					+transition(1s)

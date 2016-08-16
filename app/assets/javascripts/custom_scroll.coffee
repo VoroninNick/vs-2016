@@ -1,6 +1,6 @@
 full_page_breakpoint = 1025
 
-$document.on "ready", ()->
+$document.on "ready page:load", ->
   $(".full-page-container .page-section").first().addClass("active")
 
 scroll = (direction = "down")->
@@ -26,24 +26,13 @@ scroll = (direction = "down")->
   #if $next_section.hasClass("fp-auto-height")
   #  $next_section("")
 
-$home_slider = $('.slider-container')
-
-
-currentIndex = 0
-slides = $home_slider.find('.home-portfolio-slide')
-slidesQnt = slides.length
-
-wing = $('.slider .wing')
-sliderbg = $('.slider .slider-bg')
-
-
 
 setSlide = (index = 0)->
   slide = $home_slider.find(".home-portfolio-slide").removeClass('visible').eq(index)
   slide_key = slide.attr("data-banner-key")
   $home_slider.attr("active-slide", slide_key)  
   slide.addClass('visible')
-  currentIndex = index
+  window.currentIndex = index
 
 slideSlides = ->
   slides.removeClass('visible')
@@ -52,6 +41,21 @@ slideSlides = ->
   $home_slider.attr("active-slide", slide_key)
   slide.addClass('visible')
 
+init = ()->
+  window.$home_slider = $('.slider-container')
+
+  window.currentIndex = 0
+  window.slides = $home_slider.find('.home-portfolio-slide')
+  window.slidesQnt = slides.length
+
+  window.wing = $('.slider .wing')
+  window.sliderbg = $('.slider .slider-bg')
+
+init()
+
+$document.on "page:load", init
+  
+  
 
 
 $document.on "mousewheel", (e)->

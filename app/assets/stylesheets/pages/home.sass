@@ -13,6 +13,8 @@ body[controller-action="pages__index"]
 #welcome-page-section
 	@media #{breakpoint(small only)}
 		min-height: 100vh
+	@media #{$medium-only}
+		min-height: 75vh
 
 #welcome-block
 	width: 850px
@@ -37,42 +39,45 @@ body[controller-action="pages__index"]
 	.inner
 		position: relative
 		padding: 25px
-		@media #{$small-only}
-			padding-left: 25px
 
 	.white-header
 		+header-font-family
 		+font-60-500
-
 		color: $dark-white-color
 		line-height: 72px
 		margin-top: 15px
-		margin-bottom: 40px
+		margin-bottom: 70px
 
 	.icon-link
 		margin-bottom: 10px
+		margin-right: 50px
+		@media #{$small-only}
+			display: block
+			span
+				font-size: 16px
 
 
 	.blue-header
 		+font-36
 		+italic
 
-	@media #{breakpoint(medium down)}
+	@media #{$small-only}
+		padding-top: 50px
 		.white-header
 			+font-23
 			margin-top: 8px
 			line-height: 40px
-
-	@media #{breakpoint(small only)}
-		// padding: 0 50px
-		padding-top: 50px
-
 		.text-wrap
 			height: 250px
 			padding-left: 30px
-
 		.blue-header
 			+font-21
+
+	@media #{$medium-only}
+		width: 560px
+		.white-header
+			+font-36
+			line-height: 50px
 
 #home-portfolio-section
 	background: $black-color
@@ -128,10 +133,12 @@ body[controller-action="pages__index"]
 		letter-spacing: 5px
 
 		@media #{$small-only}
-			+font-32-bold
+			+font-25-bold
 
 	.services-intro
-		padding: 70px
+		padding: 50px
+		@media #{$small-only}
+			padding: 30px
 
 
 		.title
@@ -139,9 +146,13 @@ body[controller-action="pages__index"]
 		.description
 			color: $light-gray-text-color
 			+font-20-italic
-
 			line-height: 1.5
 			max-width: 470px
+
+			@media #{$small-only}
+				font-size: 18px
+				line-height: 1.2
+
 
 
 
@@ -175,8 +186,8 @@ body[controller-action="pages__index"]
 		width: 150px
 		height: 150px
 		position: absolute
-		top: 31px
-		left: 31px
+		top: 30px
+		left: 30px
 		display: block
 		border: 4px solid $violet-color
 		background: none
@@ -216,9 +227,16 @@ body[controller-action="pages__index"]
 			&:after
 				+overlay
 
+		.service-description
+			display: none
+			@media #{$large-up}
+				display: block
+
 		&:hover
 			.service-name-and-description
 				left: 215px
+				@media #{$small-only}
+					opacity: 0
 			.service-description
 				opacity: 1
 			.service-icon
@@ -242,6 +260,8 @@ body[controller-action="pages__index"]
 		.service, .services-intro
 			width: 100%
 			height: 360px
+			@media #{$small-only}
+				height: 260px
 
 
 body.fp-viewing-3 .service,  body.fp-viewing-3 .services-intro 

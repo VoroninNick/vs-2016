@@ -1,5 +1,5 @@
 
-$('document').ready ()->
+$document.on "ready page:load", ->
 
   $welcome_page_section = $('#welcome-page-section')
   if $welcome_page_section.attr("tubular") == 'true'
