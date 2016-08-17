@@ -1,6 +1,7 @@
 .light-bg.project-tags
   .row
     a.tag class=("checked" if !@category) href=projects_path
+      .arrow-down = inline_svg "svg/arrow-down.svg"
       .icon
         = embedded_svg_from_assets("svg/expertise/all.svg")
       .name

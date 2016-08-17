@@ -1,10 +1,13 @@
 full_page_breakpoint = 1025
 
+
+
 $document.on "ready page:load", ->
   $(".full-page-container .page-section").first().addClass("active")
 
 scroll = (direction = "down")->
   $active_section = $(".full-page-container .page-section.active")
+
 
 
   if direction == "down"
@@ -25,6 +28,7 @@ scroll = (direction = "down")->
 
   #if $next_section.hasClass("fp-auto-height")
   #  $next_section("")
+
 
 
 setSlide = (index = 0)->
