@@ -10,8 +10,6 @@
     - if service_number.length < 2
       - service_number = "0#{service_number}"
     .service
-      a.service-image href=service_url
-        .image style="background-image: url(#{service.list_image.url(:xxl)})"
       .service-info
         .inner
           a.svg-icon.service-icon href=service_url
@@ -31,3 +29,5 @@
                 |view cases
         .number
           = service_number
+      a.service-image href=service_url
+        .image style="background-image: url(#{service.list_image.url(:xxl)})"

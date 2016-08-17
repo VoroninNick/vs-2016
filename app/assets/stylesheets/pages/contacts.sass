@@ -2,16 +2,26 @@
 	.phone-number
 		color: inherit
 		+font-60
+		@media #{$small-only}
+			+font-32
+		@media only screen and (max-width: 320px)
+			+font-25
 
 
 	.page-banner-description-block
 		.numbers
 			margin-top: -40px
+			@media #{$small-only}
+				margin-top: -15px
+				left: initial
+				right: 10px
 
 
 .emails-with-description
 	+font-20
-
+	.email-block
+		@media #{$small-only}
+			margin: 10px 0
 	.email
 		display: inline-block
 		color: inherit
@@ -29,7 +39,6 @@
 
 .office
 	padding-top: 80px
-	padding-bottom: 150px
 
 	.small-header
 		margin-top: 50px

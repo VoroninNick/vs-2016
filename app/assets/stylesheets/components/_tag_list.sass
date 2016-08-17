@@ -50,11 +50,9 @@
 		cursor: pointer
 		color: rgba(#fff, 0.6)
 		list-style: none
-		display: inline-block
 		padding: 0 15px
 		font-style: italic
 		@media #{$small-only}
-			display: block
 			font-size: 14px
 			font-style: initial
 			text-transform: uppercase
@@ -63,6 +61,8 @@
 			font-weight: bold
 			&:nth-child(even)
 				// background-color: $light-gray-text-color
+		@media #{$large-up}
+			display: inline-block
 
 		a
 			color: inherit

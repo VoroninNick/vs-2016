@@ -1,8 +1,10 @@
 .light-phone-colored
-	color: inherit
-	display: block
-	+font-32-bold
-	line-height: 60px
+  color: inherit
+  display: block
+  +font-32-bold
+  line-height: 60px
+  @media #{$small-only}
+    +font-25-bold
 
-	.bracket
-		color: $pink-color
+  .bracket
+    color: $pink-color
