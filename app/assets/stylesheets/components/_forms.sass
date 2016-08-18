@@ -5,6 +5,7 @@
 .input
 	height: 50px
 	margin-bottom: 22px
+	position: relative
 
 
 
@@ -29,8 +30,8 @@
 
 	.placeholder
 		color: $input-placeholder-color
-		position: relative
-		top: 17px
+		position: absolute
+		top: -5px
 		+transition-duration(0.2s)
 		+transition-property(all)
 
@@ -50,7 +51,7 @@
 		&:not(.text)
 			.placeholder
 				+font-12
-				top: 0
+				top: -20px
 
 	&.text
 		.placeholder

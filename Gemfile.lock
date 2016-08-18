@@ -18,7 +18,7 @@ GIT
 
 GIT
   remote: git://github.com/pkorenev/cms.git
-  revision: b83974b05a9b81776ff29fa509247bae6fed955b
+  revision: 75593366f74704320015448a17aed12f3ee1438d
   specs:
     cms (0.1.2)
       paperclip

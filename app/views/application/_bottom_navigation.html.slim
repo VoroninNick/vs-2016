@@ -1,0 +1,19 @@
+.articles-nav.projects-nav
+  - [:prev, :next].each do |k|
+    - item = Service.first
+    - if item
+      - service_icon_path = item.icon.path
+      - arrow_direction = k == :prev ? "left" : "right"
+      - label = t("components.articles-navigation.#{k}")
+      a href=item.url class=k
+        .image
+          img src=item.list_image.url(:thumb)
+        .article-svg
+          = embedded_svg_from_absolute_path(service_icon_path)
+        .arrow
+          = embedded_svg_from_assets "svg/arrow-#{arrow_direction}.svg"
+        .label-and-title
+          .label
+            = label
+          .title
+            = item.name

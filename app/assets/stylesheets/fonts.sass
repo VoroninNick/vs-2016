@@ -121,6 +121,11 @@ $font-size-12: 12px
 	font-size: 100px
 	top: -90px
 	margin-top: -90px
+	@media #{$small-only}
+		margin-top: 0
+		font-size: 45px
+		top: -25px
+
 
 
 = h1
@@ -129,7 +134,7 @@ $font-size-12: 12px
 
 = h2
 	+header
-	//+font-24
+	line-height: 24px
 
 = h3
 	+header
