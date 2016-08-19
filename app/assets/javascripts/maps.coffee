@@ -16,10 +16,10 @@ init_google_map = ->
   homeStyleProperties = [ {
     featureType: 'all'
     stylers: [
-      { 'saturation': -29 }
-      { 'lightness': 5 }
-      { 'gamma': 0.88 },
-      {hue: '#3bff00'}
+      { 'saturation': -90 }
+      { 'lightness': -10 }
+      { 'gamma': 0.9 }
+      { 'hue': '#003bff'}
     ]
   } ]
   styledMapOptions = name: 'plit style'
@@ -34,7 +34,7 @@ init_google_map = ->
 
   mapCenter = new (google.maps.LatLng)(marker.lat, marker.lng)
   map = new (google.maps.Map)(map_container,
-    scrollwheel: true
+    scrollwheel: false
     zoom: 16
     center: mapCenter
     mapTypeId: HOME_MAPTYPE_ID)
@@ -65,8 +65,6 @@ init_google_map = ->
     data_markers = $.parseJSON(data_markers_str)
     first_marker = data_markers[0]
 
-    #var div = document.createElement('DIV');
-    #div.innerHTML = '<div class="my-other-marker">I am flat marker!</div>';
     console.log 'hello'
     i = 0
     while i < data_markers.length

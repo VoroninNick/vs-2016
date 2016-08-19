@@ -55,7 +55,7 @@
 
 	&.text
 		.placeholder
-			top: 0
+			top: -46px
 
 
 
@@ -67,7 +67,7 @@
 	textarea
 		background: none
 		border: 1px solid $input-border-color
-		height: 147px
+		height: 168px
 		box-sizing: border-box
 
 		&:focus
@@ -161,6 +161,9 @@
 .actions
 	//+grid-row
 	padding: 23px 0 35px 0
+	margin-top: 100px
+	@media #{$large-up}
+		margin-top: initial
 
 
 .success-message
