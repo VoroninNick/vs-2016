@@ -135,7 +135,7 @@
         .columns.horizontal-container
 
           - @logos.in_groups_of((@logos.count / 2).ceil, false) do |group|
-            .row.horizontal-row.clearfix style="width: #{200 * group.count}px"
+            .horizontal-row.clearfix style="width: #{200 * group.count}px"
               - group.each do |logo|
                 a.logo href="#" rel="nofollow"
                   = inline_svg logo

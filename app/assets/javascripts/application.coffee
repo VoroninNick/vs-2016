@@ -19,6 +19,7 @@
 #= require jquery-ui/jquery-ui.min
 #= require jquery-mousewheel/jquery.mousewheel.min
 #= require jquery.scrolldelta
+#= require jquery-easing
 #= require jquery.scrollend/dist/jquery.scrollend.min
 #= require jquery_appear/jquery.appear
 #= require custom_scroll
@@ -29,7 +30,7 @@
 # require components/init_nicescroll
 #= require jquery-nice-select/js/jquery.nice-select
 
-# require components/header
+#= require components/header
 #= require components/menu
 #= require forms
 #= require components/tabs

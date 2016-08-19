@@ -151,12 +151,10 @@ $menu-bg-color: $black-color
 			z-index: 1
 			color: $dark-white-color
 			text-transform: uppercase
-			//position: absolute
 			position: relative
 			display: inline-block
 			top: 22px
 			left: 36px
-			//left: 0
 		
 			+transition-duration(0.2s)
 			+transition-property(all)
@@ -171,16 +169,15 @@ $menu-bg-color: $black-color
 				background: $dark-white-color
 				top: 28px
 				height: 10px
-				//width: 0
 				width: auto
-				//left: 36px
 				left: 0
 				right: 100%
 				+transition-duration(0.2s)
 				+transition-property(all)
+				@media #{$small-only}
+					top: 12px
 
 			.text
-				//z-index: 1
 				position: relative
 		.sub-label
 			color: $light-gray-text-color

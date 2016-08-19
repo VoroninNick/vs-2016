@@ -1,76 +1,80 @@
 #header
-	//height: $header-height
-	height: 0
-	position: fixed
-	width: 100%
-	z-index: $zindex-header
-
+  position: fixed
+  width: 100%
+  height: 100px
+  z-index: $zindex-header
+  +transition-property(all)
+  +transition-duration(1s)
+  +translate(0,-100%)
+  
+  &.scrolled, &.visible
+    +translate(0,0)
+    position: fixed
+  &.visible
+    position: absolute
 
 #header-logo-compact
-	svg
-		width: 40px
-		height: 40px
-		*
-			fill: white
+  svg
+    width: 40px
+    height: 40px
+    *
+      fill: white
 
 #header-hire-us-button-wrap
-	position: absolute
-	top: 53px
-	right: 120px
-
-
-
-
+  position: absolute
+  top: 53px
+  right: 120px
 
 #header-logo
-	position: absolute
-	top: 30px
-	left: 60px
-	@media #{$small-only}
-		top: 5px
-		left: 25px
-		svg
-			width: 120px
+  position: absolute
+  top: 30px
+  left: 60px
+  width: 140px
+  @media #{$small-only}
+    top: 5px
+    left: 25px
+    svg
+      width: 120px
 
 #svg-logo-symbol
-	*
-		+transition-property(all)
-		+transition-duration(0.5s)
+  *
+    +transition-property(all)
+    +transition-duration(0.5s)
 #svg-logo-word-voronin, #svg-logo-word-studio
-	+transition-property(all)
-	+transition-duration(1s)
+  +transition-property(all)
+  +transition-duration(1s)
 
 
 #main-menu-button
-	position: absolute
-	right: 60px
-	top: 50px
-	cursor: pointer
+  position: absolute
+  right: 60px
+  top: 50px
+  cursor: pointer
 
-	.inner
-		+burger($color: white, $height: 3px)
+  .inner
+    +burger($color: white, $height: 2px)
 
-	&:hover
-		.inner
-			&, &:before, &:after
-				background-color: $pink-color
-	@media #{$small-only}
-		top: 30px
-		right: 25px
+  &:hover
+    .inner
+      &, &:before, &:after
+        background-color: $pink-color
+  @media #{$small-only}
+    top: 30px
+    right: 25px
 
 body.has-opened-menu
-	#main-menu-button
-		.inner
-			+burger-to-cross()
-	#header-hire-us-button-wrap
-		display: none
+  #main-menu-button
+    .inner
+      +burger-to-cross()
+  #header-hire-us-button-wrap
+    display: none
 
 body:not(.has-opened-menu)
-	#header-logo
-		#svg-logo-symbol:not(:hover)
-			*
-				fill: $dark-white-color
+  #header-logo
+    #svg-logo-symbol:not(:hover)
+      *
+        fill: $dark-white-color
 
-		#svg-logo-word-voronin, #svg-logo-word-studio
-			//display: none
-			opacity: 0
+    #svg-logo-word-voronin, #svg-logo-word-studio
+      //display: none
+      opacity: 0
