@@ -1,14 +1,10 @@
 $menu-bg-color: $black-color
 .fullscreen-menu
 	background: $menu-bg-color
-	//height: calc(100vh - #{$header-height})
-	//height: 100vh
 	min-height: 100vh
 	height: auto
 	padding: 16px
 	display: none
-	//position: relative
-	//position: absolute
 	position: absolute
 	width: 100%
 	z-index: $zindex-fullscreen-menu
@@ -30,7 +26,6 @@ $menu-bg-color: $black-color
 
 	.top-border, .bottom-border
 		background: $menu-bg-color
-		//position: absolute
 		position: fixed
 		z-index: 1
 
@@ -66,28 +61,12 @@ $menu-bg-color: $black-color
 
 	.inner
 		position: relative
-		// border-left: 2px solid $violet-color
-		// border-right: 2px solid $violet-color
 		overflow: hidden
-		//z-index: 1
-		//padding-top: 102px
-		//padding-top: 102px
-
 		min-height: calc(100vh - 32px)
-		//height: 100%
-
-		//+flexbox
-		//+flex-direction(column)
-
-
-
-
-
 
 #main-menu-footer
 	height: 150px
 	padding: 0 73px
-	//position: relative
 	position: absolute
 	width: 100%
 	bottom: 0
@@ -96,7 +75,8 @@ $menu-bg-color: $black-color
 #main-menu-footer-icons
 	float: left
 	@media #{$small-only}
-		width: 100%
+		// width: 100%
+		display: none
 
 #main-menu-footer-phones
 	.phone
@@ -108,6 +88,10 @@ $menu-bg-color: $black-color
 
 #main-menu-footer-locales
 	float: right
+	@media #{$small-only}
+		position: absolute
+		right: 10px
+		bottom: 0
 	a
 		margin: 0 8px
 		color: $dark-white-color
@@ -125,18 +109,19 @@ $menu-bg-color: $black-color
 	z-index: 1
 	+flex(1)
 	text-align: center
-	//position: relative
 	position: relative
 	width: calc(100vw - 33px)
 	min-height: calc(100vh - 32px)
 	left: 0
 	top: 0
 	@media #{$small-only}
-		margin-top: 50px
-		min-height: initial
-
-	//width: 300px
-	//height: 600px
+		display: -webkit-flex
+		display: -moz-flex
+		display: -ms-flex
+		display: -o-flex
+		display: flex
+		flex-direction: column
+		justify-content: center
 	.menu-list
 		padding: 0
 		display: block
@@ -155,7 +140,9 @@ $menu-bg-color: $black-color
 		height: 100px
 		line-height: 1
 		@media #{$small-only}
-			height: 50px
+			height: 60px
+			width: 130px
+			margin: 0 auto
 		@media only screen and (max-width: 320px)
 			height: 45px
 		.title
