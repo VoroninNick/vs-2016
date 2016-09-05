@@ -2,16 +2,20 @@
   .columns.xxxlarge-6.xxxlarge-centered.vertical-indent
     blockquote.article-blockquote.color-light
       |Logos and branding are so important. In a big part of the world, people cannot read French or English — but are great in remembering signs
+      .top-border
+      .bottom-border
+      .left-border
+      .right-border
       cite
         |Nick Voronin
 
 
-.row.intro-row.top-indent.large-bottom-indent
+.row.intro-row
   .columns.xxxlarge-10.xxxlarge-centered
     .row
-      .columns.xxxlarge-6.intro-column
+      .columns.xxxlarge-6.intro-column.top-indent.bottom-indent
         .image-container
-          = inline_svg "svg/vs-about-icon-design.svg"
+          .image-svg = inline_svg "svg/vs-about-icon-design.svg"
 
         .header.font-36-bold
           |Design studio
@@ -19,9 +23,9 @@
           |Logos and branding are so important. In a big part of the world, people cannot read French or English — but are great in remembering signs. Logos and branding are so important. In a big part of the world, people cannot read French or English — but are great in remembering signs.Logos and branding are so important. In a big part of the world, people cannot read French or English — but are great in remembering signs. Logos and branding are so important. In a big part of the world, people cannot read French or English — but are great in remembering signs. Logos and branding are so important. In a big part of the world, people cannot read French or English — but are great in remembering signs
 
 
-      .columns.xxxlarge-6.intro-column
+      .columns.xxxlarge-6.intro-column.top-indent.bottom-indent
         .image-container
-          = inline_svg "svg/vs-about-icon-goal.svg"
+          .image-svg = inline_svg "svg/vs-about-icon-goal.svg"
 
         .header.font-36-bold
           |Design studio
@@ -59,8 +63,12 @@
     .columns.right.xxxlarge-6.xxxlarge-pull-1.blockquote-column
       blockquote.article-blockquote
         |Logos and branding are so important. In a big part of the world, people cannot read French or English — but are great in remembering signs
+        .top-border
+        .bottom-border
+        .left-border
+        .right-border
 
-  .row
+  .row.principles
     - @principles.each_with_index do |principle, index|
       .columns.xxxlarge-6.principle class="xxxlarge-offset-#{index + 1}"
         .number-and-description

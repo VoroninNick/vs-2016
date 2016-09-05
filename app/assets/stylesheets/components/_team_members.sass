@@ -60,6 +60,10 @@
 	position: relative
 	float: left !important
 	overflow: hidden
+	opacity: 0
+	+transition(0.5s)
+	&.visible
+		opacity: 1
 
 	.info-block
 		position: absolute

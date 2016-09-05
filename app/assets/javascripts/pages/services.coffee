@@ -24,14 +24,3 @@ $document.on "ready page:load", ->
 
   $services.on "mouseleave", ".read-more-link, .service-name", ()->
     $(this).closest(".service").find(".service-image").removeClass("hover")
-
-
-
-
-  #
-  #
-  #  $service = $(this)
-  #  if !$service.hasClass("visible")
-  #
-  #    $service.find("")
-  #    #$(this).addClass("visible")

@@ -33,16 +33,22 @@
 				margin-left: 5px
 
 .intro-row
-	svg
-		width: 360px
-		height: auto
-		max-width: 100%
-		display: inline-block
-		
-		//*
-			fill: $pink-color
-		@media #{$small-only}
-			width: 200px
+	.image-svg
+		svg
+			width: 360px
+			+scale(0)
+			height: auto
+			+transition(1s)
+			max-width: 100%
+			display: inline-block
+			
+			//*
+				fill: $pink-color
+			@media #{$small-only}
+				width: 200px
+		&.visible
+			svg
+				+scale(1)
 
 	.intro-column
 		.header
@@ -61,7 +67,7 @@
 
 .image-container
 	text-align: center
-
+	height: 370px
 
 
 
@@ -76,9 +82,15 @@
 		float: left
 		clear: left
 		position: relative
+		opacity: 0
+		+translate(-25%,0)
+		+transition(2s)
+		+animation-timing-function(ease-in-out)
 		@media #{$small-only}
 			padding-top: 0
-
+		&.visible
+			opacity: 1
+			+translate(0,0)
 		.number-and-description
 			+flexbox
 			+flex-direction
