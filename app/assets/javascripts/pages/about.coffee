@@ -18,11 +18,8 @@ $document.on "ready page:load", ->
   $principles.find('.principle').appear()
   $principles.on "appear", ".principle", ()->
     $(this).addClass("visible")
+    $(this).find('.line').addClass('animate')
 
-  # $team = $(".team-member-blocks")
-  # $team.find('.team-member-block').appear()
-  # $team.on "appear", ".team-member-block", ()->
-  #   $(this).addClass("visible")
 
   $team = $(".team-member-blocks")
   $team.appear()
@@ -37,20 +34,13 @@ $document.on "ready page:load", ->
         index * 300
       )
 
-
-
-
-
-
-
-
-
-
-
   $(".about-bxslider").bxSlider({
     auto: true
     pager: false
     controls: true
+    mode: 'fade'
+    speed: 3000
+    pause: 8000
     prevSelector: ".custom-controls .prev"
     nextSelector: ".custom-controls .next"
     prevText: ""

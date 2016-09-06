@@ -23,10 +23,13 @@
 #= require jquery.scrollend/dist/jquery.scrollend.min
 #= require jquery_appear/jquery.appear
 #= require custom_scroll
+#= require waypoints/lib/jquery.waypoints.min
+#= require jquery.counterup.min
 
 
 # require jquery.nicescroll/jquery.nicescroll.min
 # require components/phone_number
+#= require components/counter
 # require components/init_nicescroll
 #= require jquery-nice-select/js/jquery.nice-select
 

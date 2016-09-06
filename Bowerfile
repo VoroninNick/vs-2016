@@ -31,3 +31,5 @@ asset "jquery-nice-select"
 asset "textillate"
 
 asset "jquery_appear"
+
+asset "waypoints"
