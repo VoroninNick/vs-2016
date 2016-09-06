@@ -17,6 +17,11 @@
 			font-size: 9rem
 			line-height: 7rem
 			top: 100px
+	.number
+		opacity: 0
+		+transition(0.25s)
+		&.visible
+			opacity: 0.25
 	.project
 		@media #{$small-only}
 			width: percentage(1)

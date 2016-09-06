@@ -49,9 +49,12 @@
 # require fullpage/jquery.fullpage.js
 #= require layout
 
+#= require components/textillate
+
 #= require pages/home
 #= require articles
 #= require pages/about
+#= require pages/portfolio
 #= require pages/services
 #= require pages/project_page
 #= require pages/publications

@@ -17,10 +17,9 @@
 
 
 .projects
-  .project-quantity 23
-  .row
+  .project-quantity.counter.number 23
+  .row.portfolio-projects
     - @projects.each do |project|
-      /.columns.large-3
       = render "project", project: project, avatar_style: :projects_list
 
 = render "projects_nav"

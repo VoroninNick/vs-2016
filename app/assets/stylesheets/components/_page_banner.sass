@@ -33,6 +33,8 @@
 				left: initial
 				right: 10px
 				margin-right: 0
+			@media #{$large-up}
+				display: none
 
 	.rect
 		height: 80px
@@ -48,10 +50,14 @@
 		top: -20px
 		left: -20px
 		position: absolute
+		opacity: 0
+		+transition(0.25s)
 		@media #{$medium-up}
 			font-size: 56px
 			top: -40px
 			left: -50px
+		&.visible
+			opacity: 1
 
 	.numbers
 		color: $blue-color
@@ -76,9 +82,13 @@
 			.number
 				line-height: 45px
 				+font-60
+				opacity: 0
+				+transition(0.25s)
 				@media #{$small-only}
 					+font-25
 					line-height: 25px
+				&.visible
+					opacity: 1
 
 		.subtitle
 			color: $light-gray-text-color

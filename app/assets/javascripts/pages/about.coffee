@@ -26,7 +26,6 @@ $document.on "ready page:load", ->
   $team.on "appear", ()->
     $team.find(".team-member-block, .join-us-block").each (index)->
       $project = $(this)
-      # transition_delay_str = "#{1000 + index * 100}ms"
       
       setTimeout(
         ()->

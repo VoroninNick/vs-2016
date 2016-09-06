@@ -2,15 +2,11 @@
 	display: block
 	position: relative
 	width: $block-width
-
-	//display: inline-block
 	float: left
-
-	//height: 0
-	//padding-top: 100%
-	//height: $block-width
-
-
+	opacity: 0
+	+transition(0.5s)
+	&.visible
+		opacity: 1
 
 	.description-block
 		padding: 4rem 0 0 0
@@ -24,7 +20,7 @@
 		color: white
 		text-align: center
 		+transition-property(all)
-		+transition-duration(0.5s)
+		+transition-duration(1s)
 
 
 		.project-number
