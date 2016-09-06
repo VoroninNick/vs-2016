@@ -6,6 +6,10 @@
 	padding-top: 40%
 	position: relative
 	overflow: hidden
+	opacity: 0
+	+transition(0.5s)
+	&.visible
+		opacity: 1
 
 	.inner
 		position: absolute
@@ -48,8 +52,6 @@
 				+font-25-bold
 
 	@media #{breakpoint(small only)}
-		// width: 50%
-		// padding-top: 60%
 		width: 100%
 		padding-top: 100%
 	@media #{$medium-only}

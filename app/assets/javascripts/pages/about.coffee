@@ -19,10 +19,33 @@ $document.on "ready page:load", ->
   $principles.on "appear", ".principle", ()->
     $(this).addClass("visible")
 
+  # $team = $(".team-member-blocks")
+  # $team.find('.team-member-block').appear()
+  # $team.on "appear", ".team-member-block", ()->
+  #   $(this).addClass("visible")
+
   $team = $(".team-member-blocks")
-  $team.find('.team-member-block').appear()
-  $team.on "appear", ".team-member-block", ()->
-    $(this).addClass("visible")
+  $team.appear()
+  $team.on "appear", ()->
+    $team.find(".team-member-block, .join-us-block").each (index)->
+      $project = $(this)
+      # transition_delay_str = "#{1000 + index * 100}ms"
+      
+      setTimeout(
+        ()->
+          $project.addClass("visible")
+        index * 300
+      )
+
+
+
+
+
+
+
+
+
+
 
   $(".about-bxslider").bxSlider({
     auto: true
@@ -36,3 +59,5 @@ $document.on "ready page:load", ->
       $controls = $(this).closest(".slider").find(".custom-controls")
       $controls.find(".current-number").text(newIndex + 1)
   })
+
+
