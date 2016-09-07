@@ -3,8 +3,7 @@
     .page-banner-bg style="background-image: url(#{asset_path(@page_banner[:bg_image])})"
     .page-banner-description-block
       .inner
-        .title
-          = @page_banner[:title]
+        == "<div class='title'>#{@page_banner[:title]}</div>"
         .numbers
           - footer_phones.each do |phone|
             a.phone-number href=phone_url(phone)

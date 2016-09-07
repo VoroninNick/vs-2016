@@ -6,39 +6,40 @@
           .header
             |Contacts
     .row
-      - @offices.each do |office|
-        .columns.large-6.office.white
-          .header.font-36-bold
-            = office[:country]
+      - @offices.each_with_index do |office, index|
+        .columns.large-6.office.white class="animate-#{index + 1}"
+          == "<div class='header font-36-bold'>#{office[:country]}</div>"
 
-          .small-header.blue
-            |call us
-          - office[:phones].each do |phone|
-            a.phone-number.light-phone-colored href=phone_url(phone)
-              = formatted_phone_number(phone)
+          .contact-info-container
 
-
-
-          .small-header.blue
-            |write us
-          .emails-with-description
-            - office[:emails].each do |email|
-              .email-block
-                a.email href=email_url(email[:email])
-                  = email[:email]
-
-                .description
-                  = email[:description]
+            .small-header.blue
+              |call us
+            - office[:phones].each do |phone|
+              a.phone-number.light-phone-colored href=phone_url(phone)
+                = formatted_phone_number(phone)
 
 
 
+            .small-header.blue
+              |write us
+            .emails-with-description
+              - office[:emails].each do |email|
+                .email-block
+                  a.email href=email_url(email[:email])
+                    = email[:email]
 
-          .small-header.blue
-            |meet us
-          .address
-            = office[:address]
-            span.pink
-              |, #{office[:country]}
+                  .description
+                    = email[:description]
+
+
+
+
+            .small-header.blue
+              |meet us
+            .address
+              = office[:address]
+              span.pink
+                |, #{office[:country]}
 
     .row
       .columns
@@ -47,7 +48,7 @@
 .row.medium-bottom-indent
   .columns.xxxlarge-10.xxxlarge-centered
     .row
-      .columns.text-center
+      .columns.text-center.contacts-social
         .small-header.blue
           |follow us
 

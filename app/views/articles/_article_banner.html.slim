@@ -8,9 +8,7 @@
             = @article.release_date.day
           .month
             = month_name(@article.release_date)
-        .title
-          = @article.name
-
+        == "<div class='title'>#{@article.name}</div>"
 
         = render "authors", authors: @article.authors
         = render "tags", tags: @article.tags

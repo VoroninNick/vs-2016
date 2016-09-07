@@ -1,13 +1,15 @@
+.projects
+	.project
+		display: block
+		position: relative
+		width: $block-width
+		float: left
+		opacity: 0
+		+transition(0.5s)
+		&.visible
+			opacity: 1
+			
 .project
-	display: block
-	position: relative
-	width: $block-width
-	float: left
-	opacity: 0
-	+transition(0.5s)
-	&.visible
-		opacity: 1
-
 	.description-block
 		padding: 4rem 0 0 0
 		opacity: 0

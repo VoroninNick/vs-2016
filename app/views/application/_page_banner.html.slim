@@ -3,8 +3,7 @@
     .page-banner-bg style="background-image: url(#{asset_path(@page_banner[:bg_image])})"
     .page-banner-description-block
       .inner
-        .title
-          = @page_banner[:title]
+        == "<div class='title'>#{@page_banner[:title]}</div>"
         - if @page_banner[:numbers].try(:any?)
           .numbers
             - @page_banner[:numbers].each do |num|

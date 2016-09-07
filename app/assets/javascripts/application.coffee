@@ -38,6 +38,7 @@
 #= require forms
 #= require components/tabs
 #= require components/button
+#= require components/blockquote
 
 # require jquery.drawsvg.min.js
 
@@ -58,6 +59,7 @@
 #= require pages/services
 #= require pages/project_page
 #= require pages/publications
+#= require pages/contacts
 #= require vendor/richmarker
 #= require maps
 

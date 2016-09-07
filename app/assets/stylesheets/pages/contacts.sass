@@ -42,6 +42,12 @@
 .office
 	padding-top: 80px
 
+	.header
+		opacity: 0
+		+transition(0.7s)
+		&.visible
+			opacity: 1
+
 	.small-header
 		margin-top: 50px
 
@@ -51,3 +57,22 @@
 
 .social-links
 	margin: 10px 0 0 0
+
+.contact-info-container
+	opacity: 0
+	+transition(1s)
+	+transition-delay(0.7s)
+	&.visible
+		opacity: 1
+
+.animate-2
+	.contact-info-container
+		+transition-delay(1.75s)
+	.header
+		+transition-delay(1.25s)
+
+.contacts-social
+	opacity: 0
+	+transition(0.7s)
+	&.visible
+		opacity: 1

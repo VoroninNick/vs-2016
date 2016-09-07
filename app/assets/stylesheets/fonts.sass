@@ -119,10 +119,14 @@ $font-size-12: 12px
 	font-size: 100px
 	top: -90px
 	margin-top: -90px
+	opacity: 0
+	+transition(0.7s)
 	@media #{$small-only}
 		margin-top: 0
 		font-size: 45px
 		top: -25px
+	&.visible
+		opacity: 1
 
 
 
