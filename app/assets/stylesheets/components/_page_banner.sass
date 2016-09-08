@@ -104,12 +104,21 @@
 
 	&.auto-height
 		height: auto
+		@media #{$small-only}
+			margin-top: 70px
 
 		.title
 			position: relative
 			top: auto
 			left: auto
 			margin: 20px 0
+			@media #{$small-only}
+				font-size: 18px
+				line-height: 24px
+			@media #{$medium-only}
+				font-size: 40px
+				line-height: 50px
+
 
 .page-banner-bg
 	background-size: cover

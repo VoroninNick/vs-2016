@@ -1,4 +1,10 @@
 .light-bg
   .article-content.service-content
     = raw @article.content
+  .article-social-container
+    .line
+    .social-links
+      - footer_social_links.each do |social|
+        a.social-link href=social[:url]
+          = inline_svg social[:icon]
 = render "bottom_navigation"
