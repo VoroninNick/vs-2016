@@ -5,7 +5,7 @@ class Service < ActiveRecord::Base
   attr_accessible  :projects, :project_ids
 
   def self.initialize_globalize
-    translates :name, :descriptive_name, :url_fragment, :description, :long_description, :content
+    translates :name, :descriptive_name, :url_fragment, :description, :long_description, :content, :portfolio_filter_name
     accepts_nested_attributes_for :translations
     attr_accessible :translations, :translations_attributes
     resource_class = self

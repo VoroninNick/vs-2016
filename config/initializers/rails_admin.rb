@@ -113,6 +113,7 @@ RailsAdmin.config do |config|
     field :locale, :hidden
     field :name
     field :descriptive_name
+    field :portfolio_filter_name
     field :url_fragment
     field :description
     field :long_description
