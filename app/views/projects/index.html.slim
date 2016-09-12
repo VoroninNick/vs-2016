@@ -13,7 +13,9 @@
         .icon
           = embedded_svg_from_absolute_path(service_icon_path)
         .name
-          = service.name
+          - service_name = service.portfolio_filter_name
+          - service_name = service.name if service_name.blank?
+          = service_name
 
 
 .projects
@@ -22,4 +24,4 @@
     - @projects.each do |project|
       = render "project", project: project, avatar_style: :projects_list
 
-= render "projects_nav"
+//= render "projects_nav"

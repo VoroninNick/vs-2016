@@ -11,7 +11,7 @@
 			
 .project
 	.description-block
-		padding: 4rem 0 0 0
+		// padding: 4rem 0 0 0
 		opacity: 0
 		background: $pink-color
 		top: 0
@@ -21,18 +21,28 @@
 		position: absolute
 		color: white
 		text-align: center
+		overflow: hidden
 		+transition-property(all)
 		+transition-duration(1s)
-
+		
+		.inner
+			position: absolute
+			width: 80%
+			height: 60%
+			top: 50%
+			left: 50%
+			+translate(-50%,-50%)
 
 		.project-number
-			bottom: 0
-			right: 0
+			bottom: -40px
+			right: 40px
 			width: 180px
 			height: 180px
 			position: absolute
-			+large-number($color: rgba($dark-white-color, 0.3))
+			+large-number($color: rgba($dark-white-color, 0.15))
+			font-size: 250px
 			display: inline-block
+			back
 
 		.name
 			+bold
@@ -40,12 +50,16 @@
 			+font-20
 			+fira-sans
 			padding: 0 15px
+			line-height: 1.31rem
+			letter-spacing: 2px
 
 		.separator
 			background: white
 			width: 40px
 			height: 1px
 			display: inline-block
+			position: relative
+			top: -3px
 
 		.project-related-services
 			display: inline-block

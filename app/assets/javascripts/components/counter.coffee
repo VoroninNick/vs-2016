@@ -5,4 +5,7 @@ $document.on "ready page:load", ->
     $('.counter').counterUp(
       time: 500
     )
-  ), 200
+  ), 2500
+  setTimeout (->
+    $('.number-with-subtitle .subtitle').addClass('visible')
+  ), 3000

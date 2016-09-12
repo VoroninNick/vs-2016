@@ -5,16 +5,17 @@
 a.block.project href=project.url class=("active" if active)
   img src=project.avatar.url(avatar_style)
   .description-block
-    - if project.services.any?
-      .project-related-services
-        - project.services.each do |service|
-          - service_icon_path = service.icon.path
-          .icon
-            = embedded_svg_from_absolute_path(service_icon_path)
-    .project-number
-      = project.id
-    .name
-      = raw project.name
-    .separator
-    .customer-name.italic
-      = raw project.customer_name
+    .inner
+      - if project.services.any?
+        .project-related-services
+          - project.services.each do |service|
+            - service_icon_path = service.icon.path
+            .icon
+              = embedded_svg_from_absolute_path(service_icon_path)
+      .project-number
+        = project.id
+      .name
+        = raw project.name
+      .separator
+      .customer-name.italic
+        = raw project.customer_name

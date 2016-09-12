@@ -18,7 +18,7 @@
 
 
 .emails-with-description
-	+font-20
+	+font-21
 	.email-block
 		@media #{$small-only}
 			margin: 10px 0
@@ -76,3 +76,11 @@
 	+transition(0.7s)
 	&.visible
 		opacity: 1
+
+.tabs
+	+translate(0,50%)
+	opacity: 0
+	transition: all 1000ms cubic-bezier(0.165, 0.84, 0.44, 1)
+	&.visible
+		opacity: 1
+		+translate(0,0)

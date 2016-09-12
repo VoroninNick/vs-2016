@@ -29,6 +29,13 @@ $document.on "ready page:load", ->
         }
       })
 
+  $phone = $('.numbers')
+
+  setTimeout (->
+    if !$phone.hasClass("visible")
+      $phone.addClass("visible")
+  ), 2500
+
   $contact_info_container = $(".contact-info-container")
   $contact_info_container.appear()
 
@@ -40,5 +47,12 @@ $document.on "ready page:load", ->
   $contact_social.appear()
 
   $contact_social.on "appear", ()->
+    $element = $(this)
+    $element.addClass('visible')
+
+  $tabs = $(".tabs")
+  $tabs.appear()
+
+  $tabs.on "appear", ()->
     $element = $(this)
     $element.addClass('visible')

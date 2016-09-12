@@ -29,12 +29,12 @@
                       - if index < article.tags.count - 1
                         span.separator
                           |,&nbsp;
-                  .authors
-                    |by &nbsp;
-                    - article.authors.each_with_index do |author, index|
-                      a.author href="#"
-                        = author.name
-                      - if index < article.authors.count - 1
-                        span.separator
-                          |,&nbsp;
+              .authors
+                |by &nbsp;
+                - article.authors.each_with_index do |author, index|
+                  a.author href="#"
+                    = author.name
+                  - if index < article.authors.count - 1
+                    span.separator
+                      |,&nbsp;
 

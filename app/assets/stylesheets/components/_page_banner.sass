@@ -38,7 +38,43 @@
 
 	.rect
 		height: 80px
-		border: 5px solid $violet-color
+		position: relative
+		overflow: hidden
+		// border: 5px solid $violet-color
+
+		.top-border, .bottom-border, .left-border, .right-border
+			content: ''
+			position: absolute
+			background: $violet-color
+		.top-border, .bottom-border
+			width: 0
+			height: 5px
+			+transition(0.75s)
+			+transition-delay(0.75s)
+			+animation-timing-function(ease-in-out)
+			&.visible
+				width: 100%
+		.top-border
+			top: 0
+			left: 0
+		.bottom-border
+			bottom: 0
+			right: 0
+		.left-border, .right-border
+			height: 0
+			width: 5px
+			+transition(0.75s)
+			+transition-delay(1.25s)
+			+animation-timing-function(ease-in-out)
+			&.visible
+				height: 100%
+		.left-border
+			bottom: 0
+			left: 0
+		.right-border
+			top: 0
+			right: 0
+
 
 	.title
 		+header-font-family
@@ -51,7 +87,9 @@
 		left: -20px
 		position: absolute
 		opacity: 0
+		z-index: 1
 		+transition(0.25s)
+		// +transition-delay(0.5s)
 		line-height: 70px
 		@media #{$medium-up}
 			font-size: 56px
@@ -67,6 +105,9 @@
 		top: 100%
 		margin-top: -15px
 		right: 30px
+		z-index: 1
+		opacity: 0
+		+transition(0.5s)
 		@media #{$small-only}
 			right: initial
 			left: 0
@@ -95,12 +136,17 @@
 			color: $light-gray-text-color
 			position: relative
 			left: 35px
+			opacity: 0
+			+transition(0.5s)
 			+light
 			@media #{$small-only}
 				font-size: 12px
 				left: 15px
 				top: -5px
-
+			&.visible
+				opacity: 1
+		&.visible
+			opacity: 1
 
 	&.auto-height
 		height: auto
@@ -112,6 +158,7 @@
 			top: auto
 			left: auto
 			margin: 20px 0
+			text-transform: none
 			@media #{$small-only}
 				font-size: 18px
 				line-height: 24px
