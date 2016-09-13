@@ -12,6 +12,7 @@ $header-font-family: $font-family-fira-sans
 
 $font-size-90: 90px
 $font-size-60: 60px
+$font-size-48: 48px
 $font-size-45: 45px
 $font-size-36: 36px
 $font-size-32: 32px
@@ -64,6 +65,11 @@ $font-size-12: 12px
 = font-60-500
 	+font-60
 	+font-weight-500
+= font-48
+	font-size: $font-size-48
+= font-48-bold
+	+font-48
+	+bold
 = font-45
 	font-size: $font-size-45
 = font-45-bold
@@ -233,6 +239,7 @@ body
 // color classes
 .dark
 	color: #212121
+	line-height: 1.3125rem
 .pink
 	color: $pink-color
 .white
