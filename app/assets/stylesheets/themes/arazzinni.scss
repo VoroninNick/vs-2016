@@ -6,7 +6,7 @@ body.theme-arazzinni{
   );
 
   color: map_get($colors, primary);
-  //@include theme()
+  @include theme()
 }
 
 

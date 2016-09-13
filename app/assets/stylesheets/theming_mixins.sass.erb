@@ -1,0 +1,73 @@
+
+//= theme($primary-color: red, $secondary-color: blue, $third-color: green, $body-bg: #212121, $body-color: white, $technology-color: $primary-color, $project-bottom-banner-title-color: $primary-color, $button-lines-color: $primary-color, $desktop-slider-background-color: $primary-color)
+= theme(<%= Project.project_css_mixin_options_string %>)
+  color: $body_color
+  background: $body_bg
+
+
+  .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, .header, .title
+    color: $primary_color
+    +font-weight-500
+
+  .project-banner
+    .project-description-block
+      .title
+        color: $primary_color
+
+      sup
+        color: $secondary_color
+
+  .primary-color
+    color: $primary_color
+  .secondary-color
+    color: $secondary_color
+  .third-color
+    color: $third_color
+
+  .with-line
+    &.primary-color
+      &:before
+        background: $primary_color
+    &.secondary-color
+      &:before
+        background: $secondary_color
+    &.third-color
+      &:before
+        background: $third_color
+
+  .project-content
+    .project-large-section-title
+      color: $project_large_section_title_color
+
+
+  .btn
+    &:before, &:after
+      background: $button_lines_color
+
+<% Project::PROJECT_PARTS.each do |k, v| %>
+  <%= v %>
+    background-color: $<%= k %>_bg_color
+    color: $<%= k %>_text_color
+    .h2
+      color: $<%= k %>_header_color
+<% end %>
+
+
+
+  .project-technologies
+    svg
+      .technology-svg-logo
+        &, *
+          fill: $technology_color
+
+
+  .project-bottom-banner
+    .title
+      color: $project_bottom_banner_title_color
+
+  .desktop-slider
+    .screen-image
+      &:before
+        background: $desktop_slider_background_color
+
+

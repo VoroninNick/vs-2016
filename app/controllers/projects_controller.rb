@@ -19,7 +19,7 @@ class ProjectsController < ApplicationController
     if @project
       set_page_metadata(@project)
       @theme = @project.code_name
-      theme_template_path = "projects/templates/#{@project.code_name}"
+      theme_template_path = "projects/templates/#{@theme}"
       set_navigation_links(@project)
       if template_exists?(theme_template_path)
         render theme_template_path
@@ -104,4 +104,16 @@ class ProjectsController < ApplicationController
 
     @prev, @next = [project.prev(collection), project.next(collection)].map{|item| {image: item.thumb.exists?(:thumb) ? item.thumb.url(:thumb) : item.avatar.url(:thumb), title: item.short_name, url: item.url } }
   end
+
+  helper_method :template_exists?
+
+  def render_partial(name, project_field = false )
+    if template_exists?("projects/#{@theme}/_#{name}")
+      return (render_to_string partial: "projects/#{@theme}/#{name}")
+    elsif project_field == false || project_field.present?
+      return (render_to_string partial: name)
+    end
+  end
+
+  helper_method :render_partial
 end

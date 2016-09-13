@@ -1,5 +1,6 @@
 class Project < ActiveRecord::Base
   attr_accessible *attribute_names
+  PROJECT_PARTS = {case: "#project-case", ux: "#ux-and-strategy", rwd: "#responsive-web-design", seo: ".project-seo-strategy", tech: "#technical-side"}
 
   has_and_belongs_to_many :services
   attr_accessible :services, :service_ids
@@ -7,45 +8,9 @@ class Project < ActiveRecord::Base
   has_and_belongs_to_many :technologies
   attr_accessible :technologies, :technology_ids
 
-  def self.initialize_globalize
-    translates :short_name, :name, :customer_name, :url_fragment, :site_url, :awards, :project_case, :logo_and_ci, :ux_and_strategy, :responsive_web_design, :technical_side_of_project, :seo_strategy
-    accepts_nested_attributes_for :translations
-    attr_accessible :translations, :translations_attributes
-    resource_class = self
-    resource_association_name = resource_class.name.split("::").last.underscore.to_sym
+  globalize :short_name, :name, :customer_name, :url_fragment, :site_url, :awards, :project_case, :logo_and_ci, :ux_and_strategy, :responsive_web_design, :technical_side_of_project, :seo_strategy
 
-    Translation.class_eval do
-      self.table_name = :project_translations
-      attr_accessible *attribute_names
-      belongs_to resource_association_name, class_name: resource_class
-
-      #validates_presence_of :name, if: proc{ self.locale.to_s == 'uk' }
-
-        before_save :initialize_url_fragment
-      def initialize_url_fragment
-        if self.respond_to?(:url_fragment) && self.respond_to?(:url_fragment=)
-
-          if self.name.blank?
-            self.url_fragment = ""
-          elsif self.url_fragment.blank?
-            with_locale = self.locale
-            with_locale = :ru if self.locale.to_sym == :uk
-            I18n.with_locale(with_locale) do
-              self.url_fragment = self.name.parameterize
-            end rescue nil
-            #self.url_fragment = self.name.parameterize
-          end
-
-        end
-      end
-    end
-  end
-
-  if self.table_exists?
-    self.initialize_globalize
-  end
-
-  scope :published, -> { where(published: 't') }
+  boolean_scope :published
   scope :sort_by_sorting_position, -> { order("sorting_position asc") }
 
   has_cache
@@ -86,8 +51,119 @@ class Project < ActiveRecord::Base
 
 
 
+  def self.sass_option(name, default = nil, rails_admin_field_type = :string)
+    opts = class_variable_get(:@@_sass_options) rescue []
+    opts << {name: name, default: default, rails_admin_field_type: rails_admin_field_type}
+    class_variable_set(:@@_sass_options, opts)
+    field name
+  end
+
+  def self.sass_options
+    class_variable_get(:@@_sass_options) rescue []
+  end
+
+  def sass_options
+    opt_names = self.class.sass_options.map{|opt| opt[:name] }
+    Hash[opt_names.map {|opt_name| val = self.send(opt_name); [opt_name, val] }.keep_if{|k, v| !v.blank? }]
+  end
+
+  sass_option :body_bg, "#212121"
+  sass_option :primary_color, "red"
+  sass_option :secondary_color, "blue"
+  sass_option :third_color, "green"
+  sass_option :body_color, "white"
+  sass_option :text_header_color, "@primary_color"
+  sass_option :project_large_section_title_color, "rgba(128, 128, 128, 0.12)"
+  sass_option :button_lines_color, "@primary_color"
+  sass_option :social_link_hover_bg_color, "@primary_color"
+
+  #sass_option :project_case_section_bg_color, "none"
+  #sass_option :project_case_header_color, "@text_header_color"
+  #sass_option :project_case_text_color, "@body_color"
+  sass_option :desktop_slider_background_color, "@primary_color"
+
+  #sass_option :ux_and_strategy_section_bg_color, "none"
+  #sass_option :ux_and_strategy_header_color, "@text_header_color"
+  #sass_option :ux_and_strategy_text_color, "@body_color"
 
 
+
+
+
+
+  #sass_option :seo_strategy_text_color, "@body_color"
+  #sass_option :technical_side_of_project_text_color, "@body_color"
+  sass_option :technology_color, "@primary_color"
+  sass_option :project_bottom_banner_title_color, "@primary_color"
+
+  PROJECT_PARTS.each do |k, v|
+    sass_option "#{k}_text_color".to_sym, "@body_color"
+    sass_option "#{k}_header_color".to_sym, "@text_header_color"
+    sass_option "#{k}_bg_color".to_sym, "inherit"
+  end
+
+  def self.project_css_mixin_options_string
+    opts = sass_options
+    opts.map{|opt|
+      k = "$#{opt[:name].to_s}"
+      has_default = opt.has_key?(:default) && opt[:default].present?
+      if has_default
+        default = opt[:default].gsub(/\A\@/, "$")
+
+        "#{k}: #{default}"
+      else
+        k
+      end
+
+
+    }.join(", ")
+  end
+
+  def project_css
+    #indent = "\t"
+    indent = "  "
+    opts = sass_options
+    if opts.blank?
+      return ""
+    end
+    files = ["font_mixins.sass"]
+    preloaded_sass = ""
+    files.each do |f|
+      preloaded_sass += File.read(Rails.root.join("app/assets/stylesheets/#{f}").to_s) + "\n"
+    end
+
+    ["theming_mixins.sass.erb"].each do |f|
+      preloaded_sass += ERB.new(File.read(Rails.root.join("app/assets/stylesheets/#{f}").to_s) + "\n").result
+    end
+
+    if indent == "  "
+      preloaded_sass = preloaded_sass.gsub("\t", "  ")
+    end
+
+    #mixin_src =
+
+    opts_str = opts.map{|k, v|
+      if v.start_with?("@")
+        v = opts[v.gsub(/\A\@/, "").to_sym]
+      end
+      "$#{k}: #{v}"
+    }.join(", ")
+    body_str = "body.theme-#{code_name}\n#{indent}"
+    code = "#{body_str}+theme(#{opts_str})"
+    sass_code = "#{preloaded_sass}\n#{code}"
+    puts "SASS code:"
+    puts sass_code
+    Sass.compile(sass_code, syntax: :sass)
+  end
+
+  def project_style
+    css = project_css
+    if css.blank?
+      return ""
+    end
+    str = project_css.gsub("\n", "").gsub(/[ ]{0,}\{[ ]{0,}/, "{").gsub(": ", ":").gsub(/[ ]{0,}\}[ ]{0,}/, "}").gsub(";}", "}").gsub(/[ ]{0,},[ ]{0,}/, ",")
+    "<style>#{str}</style>".html_safe
+  end
 
   def url(locale = I18n.locale)
     v = self.translations_by_locale[locale].url_fragment
