@@ -8,17 +8,34 @@
 		max-width: 550px
 		position: relative
 		top: 200px
-	.title
-		color: white
-		+font-45-bold
-		text-transform: uppercase
-		+header-font-family
+		.title
+			font-weight: bold
+			line-height: 2.5rem
+			color: white
+			+font-45-bold
+			text-transform: uppercase
+			+header-font-family
+	// .title
+	// 	color: white
+	// 	+font-45-bold
+	// 	text-transform: uppercase
+	// 	+header-font-family
+
+	.banner-image-container
+		position: relative
+		height: 100vh
+		img
+			position: absolute
+			right: 0
+			width: 150%
+			max-width: 800px
 
 	.description
 		color: #212121
 		+font-23
 		+italic
-
+		margin: 30px 0 40px
+ 
 	.or-share
 		color: $light-gray-text-color
 		margin: 0 30px
@@ -28,8 +45,5 @@
 	.social-link
 
 
-
-
-
 	.actions
-		+top-inner-indent(45)
+		padding: 0
