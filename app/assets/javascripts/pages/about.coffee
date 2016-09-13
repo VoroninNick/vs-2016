@@ -38,7 +38,7 @@ $document.on "ready page:load", ->
     pager: false
     controls: true
     mode: 'fade'
-    speed: 3000
+    speed: 1000
     pause: 8000
     prevSelector: ".custom-controls .prev"
     nextSelector: ".custom-controls .next"

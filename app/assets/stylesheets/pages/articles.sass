@@ -31,6 +31,7 @@
 
 			.reset
 				position: relative
+				height: 500px
 
 			&:before
 				content: ""
@@ -43,7 +44,7 @@
 				height: 320px
 				background: $dark-white-color
 				@media #{$large-up}
-					height: 380px
+					height: 420px
 
 
 
@@ -67,10 +68,11 @@
 
 
 		.title
-			+font-20
+			+font-21
 			+bold
 			line-height: 1.2
 			color: $black-color
+			+fira-sans
 
 			&:hover
 				+link-hover
@@ -88,6 +90,7 @@
 		.article-tags, .authors
 			color: $dark-text-color
 			+italic
+			margin-top: 5px
 
 			a
 				color: inherit
@@ -96,3 +99,6 @@
 
 		.authors
 			text-align: right
+			position: absolute
+			right: 0
+			bottom: 0

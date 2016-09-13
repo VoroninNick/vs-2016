@@ -1,7 +1,3 @@
-
-
-
-
 .services
   - @services.each_with_index do |service, index|
     - service_url = service.try(:url)
@@ -9,25 +5,51 @@
     - service_number = (index + 1).to_s
     - if service_number.length < 2
       - service_number = "0#{service_number}"
-    .service
-      .service-info
-        .inner
-          a.svg-icon.service-icon href=service_url
-            = embedded_svg_from_absolute_path(service_icon_path)
-          a.service-name data-appear-top-offset="200" href=service_url
-            = service.descriptive_name
-          .service-description
-            = service.long_description
-          .item-links
-            a.icon-link.play-link.read-more-link href=service_url
-              = inline_svg("svg/play.svg")
-              span.icon-link-label
-                |read more
-            a.icon-link.play-link href=project_or_category_path(id: service.translations_by_locale[I18n.locale].url_fragment)
-              = inline_svg("svg/portfolio.svg")
-              span.icon-link-label
-                |view cases
-        .number
-          = service_number
-      a.service-image href=service_url
-        .image style="background-image: url(#{service.list_image.url(:xxl)})"
+    - odd = index % 2 == 1
+    - even = !odd
+    - if even
+      .service
+        .service-info.go-left
+          .inner
+            a.svg-icon.service-icon href=service_url
+              = embedded_svg_from_absolute_path(service_icon_path)
+            a.service-name data-appear-top-offset="200" href=service_url
+              = service.descriptive_name
+            .service-description
+              = service.long_description
+            .item-links
+              a.icon-link.play-link.read-more-link href=service_url
+                = inline_svg("svg/play.svg")
+                span.icon-link-label
+                  |read more
+              a.icon-link.play-link href=project_or_category_path(id: service.translations_by_locale[I18n.locale].url_fragment)
+                = inline_svg("svg/portfolio.svg")
+                span.icon-link-label
+                  |view cases
+          .number
+            = service_number
+        a.service-image.go-right href=service_url
+          .image style="background-image: url(#{service.list_image.url(:xxl)})"
+    - else
+      .service
+        .service-info
+          .inner
+            a.svg-icon.service-icon href=service_url
+              = embedded_svg_from_absolute_path(service_icon_path)
+            a.service-name data-appear-top-offset="200" href=service_url
+              = service.descriptive_name
+            .service-description
+              = service.long_description
+            .item-links
+              a.icon-link.play-link.read-more-link href=service_url
+                = inline_svg("svg/play.svg")
+                span.icon-link-label
+                  |read more
+              a.icon-link.play-link href=project_or_category_path(id: service.translations_by_locale[I18n.locale].url_fragment)
+                = inline_svg("svg/portfolio.svg")
+                span.icon-link-label
+                  |view cases
+          .number
+            = service_number
+        a.service-image href=service_url
+          .image style="background-image: url(#{service.list_image.url(:xxl)})"

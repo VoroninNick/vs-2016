@@ -1,7 +1,8 @@
 - if defined?(office) && office
   .map-wrapper.office-map-wrapper data-center=office[:map][:center] data-marker=office[:map][:location]
     .marker data-location=office[:map][:location]
-      .marker-icon.svg-icon.svg-icon-location
+      /.marker-icon.svg-icon.svg-icon-location
+      img.marker-icon src=asset_path('map-marker.png')
     .info-window
       .info-window-header
         .logo

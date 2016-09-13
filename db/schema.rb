@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160721090945) do
+ActiveRecord::Schema.define(version: 20160909094328) do
 
   create_table "about_slides", force: :cascade do |t|
     t.integer  "sorting_position"
@@ -359,16 +359,17 @@ ActiveRecord::Schema.define(version: 20160721090945) do
   end
 
   create_table "service_translations", force: :cascade do |t|
-    t.integer  "service_id",       null: false
-    t.string   "locale",           null: false
-    t.datetime "created_at",       null: false
-    t.datetime "updated_at",       null: false
+    t.integer  "service_id",            null: false
+    t.string   "locale",                null: false
+    t.datetime "created_at",            null: false
+    t.datetime "updated_at",            null: false
     t.string   "name"
     t.string   "url_fragment"
     t.text     "description"
     t.text     "content"
     t.string   "descriptive_name"
     t.text     "long_description"
+    t.string   "portfolio_filter_name"
   end
 
   add_index "service_translations", ["locale"], name: "index_service_translations_on_locale"
@@ -397,6 +398,7 @@ ActiveRecord::Schema.define(version: 20160721090945) do
     t.datetime "updated_at",              null: false
     t.string   "descriptive_name"
     t.text     "long_description"
+    t.string   "portfolio_filter_name"
   end
 
   create_table "technologies", force: :cascade do |t|

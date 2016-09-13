@@ -9,7 +9,7 @@ init_google_map = ->
 
   $map_wrapper.addClass("initialized")
 
-  HOME_MAPTYPE_ID = 'plit_style'
+  HOME_MAPTYPE_ID = 'VS_style'
   map = undefined
 
   marker = undefined
@@ -22,7 +22,7 @@ init_google_map = ->
       { 'hue': '#003bff'}
     ]
   } ]
-  styledMapOptions = name: 'plit style'
+  styledMapOptions = name: 'VS style'
   customMapType = new (google.maps.StyledMapType)(homeStyleProperties, styledMapOptions)
 
   data_markers_str = $map_wrapper.attr('data-markers')
@@ -152,7 +152,6 @@ toggle_marker = ()->
 $document.on "click", ".marker-icon", ()->
   $marker = $(this).closest(".marker")
   toggle_marker.apply($marker)
-
 
 
 

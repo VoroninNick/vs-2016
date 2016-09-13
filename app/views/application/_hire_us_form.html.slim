@@ -3,10 +3,18 @@ form.ajax-submit.hire-us-form action=hire_us_request_path method="post" show-pre
     .inputs
       .row
         .columns.large-6
-          = input(@hire_us_form, :name, required: true)
-          = input(@hire_us_form, :organization_name)
-          = input(@hire_us_form, :phone, required: true)
-          = input(@hire_us_form, :email, required: true)
+          .input-container
+            = input(@hire_us_form, :name, required: true)
+            span.bar
+          .input-container
+            = input(@hire_us_form, :organization_name)
+            span.bar
+          .input-container
+            = input(@hire_us_form, :phone, required: true)
+            span.bar
+          .input-container
+            = input(@hire_us_form, :email, required: true)
+            span.bar
         .columns.large-6
           .input.select
             = placeholder(@hire_us_form, :budget_range)
