@@ -20,6 +20,19 @@ class ApplicationController < ActionController::Base
   before_action :set_locale, unless: :admin_panel?
   before_action :set_popup_projects
 
+  # if Rails.env.development?
+  #   before_action :reload_translations
+  # end
+
+  if Rails.env.development?
+    before_action do
+      if admin_panel?
+
+        RailsAdminDynamicConfig.configure_rails_admin(false)
+      end
+    end
+  end
+
   def root_without_locale
     redirect_to root_path(locale: I18n.locale)
   end

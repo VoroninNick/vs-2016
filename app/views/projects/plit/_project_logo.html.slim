@@ -1,0 +1,47 @@
+- section_bg = (bg_img = @project.logo_and_ci_bg_image).exists? ? bg_img.url : nil
+
+#project-logo.project-section.project-logo-section.light-bg data-navigation-color="dark" class=("section-bg-image" if section_bg) style=("background-image: url('#{section_bg}');" if section_bg)
+  .project-large-section-title.align-top-minus-half
+    |Logo
+  .row.sublarge-inner-top-indent.project-large-section
+    .columns.large-10.large-centered
+      .row
+        .columns.large-12.left.project-section-content-column
+          .section-descriptive-title.dark
+            |Logotype
+
+        .columns.large-7.logo-column
+          img src=asset_path("projects/10g-force/logo-case.png")
+        .columns.large-5.medium-inner-top-indent
+          .h2.with-line.third-color
+            |Logo colors
+          p.dark
+            |More formally design has been defined as follows. The design process is understood in terms of a discrete sequence of stages.
+
+          .row.dark.text-center.small-inner-top-indent
+
+            .columns.large-3.logo-color
+              .circle.yellow-bg
+              .description
+                |Panton 137C
+
+            .columns.large-3.logo-color
+              .circle.red-yellow-bg
+              .description
+                |Panton 1655C
+
+            .columns.large-3.logo-color
+              .circle.sky-blue-bg
+              .description
+                |Panton 305C
+
+            .columns.large-3.logo-color
+              .circle.blue-bg
+              .description
+                |Panton Process Cyan C
+
+
+
+
+
+  = render "project_images", images: @project.logo_and_ci_images
