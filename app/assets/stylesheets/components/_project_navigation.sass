@@ -5,6 +5,9 @@
 	+transform(translateY(-50%))
 	z-index: $zindex-project-navigation
 
+	@media #{$small-only}
+		display: none
+
 	> .inner
 		position: relative
 
@@ -29,7 +32,6 @@
 			+transition-delay(0.1s)
 			+transition-duration(0.5s)
 			+transition-property(all)
-			//display: inline-block
 
 		&:hover
 			&:after

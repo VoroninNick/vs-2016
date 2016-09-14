@@ -86,5 +86,17 @@
 	+bottom-inner-indent(200)
 .xlarge-inner-top-indent
 	+top-inner-indent(270)
+	@media #{$small-only}
+		+top-inner-indent(70)
+	@media #{$medium-only}
+		+top-inner-indent(170)
+	@media #{$large-only}
+		+top-inner-indent(200)
 .xlarge-inner-bottom-indent
 	+bottom-inner-indent(270)
+	@media #{$small-only}
+		+bottom-inner-indent(70)
+	@media #{$medium-only}
+		+bottom-inner-indent(170)
+	@media #{$large-only}
+		+bottom-inner-indent(200)

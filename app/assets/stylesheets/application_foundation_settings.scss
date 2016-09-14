@@ -81,6 +81,9 @@ $breakpoints: (
 );
 $breakpoint-classes: (small medium large xlarge xxxlarge);
 
+$touch: "screen and (max-width: 1024px)" !default;
+$landscape: "#{$touch} and (orientation: landscape)" !default;
+
 // 3. The Grid
 // -----------
 

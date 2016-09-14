@@ -6,7 +6,7 @@ body.theme-10g-force
 	//+theme($blue-color)
 	//+theme(#00c6f2)
 	//+theme(rgb(89, 200, 230), #FFA500)
-	//+theme($theme-10g-force-sky-blue-color, $theme-10g-force-yellow-color, $theme-10g-force-red-yellow-color,$technology-color: $theme-10g-force-yellow-color,$project-bottom-banner-title-color: $theme-10g-force-red-yellow-color,$button-lines-color: $theme-10g-force-red-yellow-color, $desktop-slider-background-color: $theme-10g-force-red-yellow-color)
+	+theme($theme-10g-force-sky-blue-color, $theme-10g-force-yellow-color, $theme-10g-force-red-yellow-color,$technology-color: $theme-10g-force-yellow-color,$project-bottom-banner-title-color: $theme-10g-force-red-yellow-color,$button-lines-color: $theme-10g-force-red-yellow-color, $desktop-slider-background-color: $theme-10g-force-red-yellow-color)
 
 	.yellow-bg
 		background: $theme-10g-force-yellow-color
@@ -35,10 +35,15 @@ body.theme-10g-force
 			right: 0
 			top: 50%
 			+translate(0,-50%)
+		@media #{$small-only}
+			height: 200px
+			img
+				right: -50px
 
 
 
 	.logo-color
+		margin-bottom: 20px
 		.circle
 			display: inline-block
 			width: 60px
@@ -54,6 +59,9 @@ body.theme-10g-force
 			padding-top: 75px
 			padding-bottom: 75px
 			svg
+			@media #{$small-only}
+				padding-top: 25px
+				padding-bottom: 25px
 
 
 			&:nth-child(1n)
@@ -66,14 +74,17 @@ body.theme-10g-force
 				padding-top: 100px
 				padding-bottom: 100px
 				svg
-					width: 160px
+					width: 150px
 					height: 100px
+				@media #{$small-only}
+					padding-top: 25px
+					padding-bottom: 25px
 
 
 	.project-used-icons
 		background: asset_url("projects/10g-force/icons-bg.jpg")
 		img
-			max-width: 320px
+			max-width: 300px
 
 
 	.project-bottom-banner

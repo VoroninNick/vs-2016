@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160909094328) do
+ActiveRecord::Schema.define(version: 20160913095241) do
 
   create_table "about_slides", force: :cascade do |t|
     t.integer  "sorting_position"
@@ -319,6 +319,7 @@ ActiveRecord::Schema.define(version: 20160909094328) do
     t.integer  "home_banner_image_file_size"
     t.datetime "home_banner_image_updated_at"
     t.boolean  "show_swing_on_home_banner"
+    t.text     "json_data"
   end
 
   create_table "projects_services", force: :cascade do |t|
@@ -399,6 +400,16 @@ ActiveRecord::Schema.define(version: 20160909094328) do
     t.string   "descriptive_name"
     t.text     "long_description"
     t.string   "portfolio_filter_name"
+  end
+
+  create_table "sitemap_elements", force: :cascade do |t|
+    t.string   "page_type"
+    t.integer  "page_id"
+    t.boolean  "display_on_sitemap"
+    t.string   "changefreq"
+    t.float    "priority"
+    t.datetime "created_at",         null: false
+    t.datetime "updated_at",         null: false
   end
 
   create_table "technologies", force: :cascade do |t|
