@@ -56,12 +56,16 @@ body.theme-10g-force
 	.mono-colored-logos
 		.logo
 			background: white
-			padding-top: 75px
-			padding-bottom: 75px
 			svg
 			@media #{$small-only}
 				padding-top: 25px
 				padding-bottom: 25px
+			@media #{$medium-up}
+				padding-top: 35px
+				padding-bottom: 35px
+			@media #{$xlarge-up}
+				padding-top: 75px
+				padding-bottom: 75px
 
 
 			&:nth-child(1n)
@@ -71,14 +75,18 @@ body.theme-10g-force
 
 			&:nth-child(1n+4)
 				background: #212121
-				padding-top: 100px
-				padding-bottom: 100px
 				svg
 					width: 150px
 					height: 100px
 				@media #{$small-only}
 					padding-top: 25px
 					padding-bottom: 25px
+				@media #{$medium-up}
+					padding-top: 35px
+					padding-bottom: 35px
+				@media #{$xlarge-up}
+					padding-top: 100px
+					padding-bottom: 100px
 
 
 	.project-used-icons
@@ -91,4 +99,5 @@ body.theme-10g-force
 		background-color: white
 
 		img
-			+transform(scale(1.2))
+			@media #{$large-up}
+				+transform(scale(1.2))

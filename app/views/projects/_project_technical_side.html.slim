@@ -17,7 +17,7 @@
       .columns.large-8.large-centered
         .row
           - @project.technologies.each do |technology|
-            .columns.large-3
+            .columns.large-3.medium-6.small-6
               a.technology href=technology.site_url rel="nofollow"
                 .icon
                   = embedded_svg_from_absolute_path(technology.icon.path)

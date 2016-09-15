@@ -27,10 +27,14 @@
 
 	.description
 		color: $light-gray-text-color
-		max-width: 550px
+		// max-width: 550px
 		margin-top: 20px
+		text-align: center
 		+font-23
 		+italic
+		@media #{$large-up}
+			max-width: 550px
+			text-align: initial
 
 	@media #{$landscape}
 		padding-left: 3rem

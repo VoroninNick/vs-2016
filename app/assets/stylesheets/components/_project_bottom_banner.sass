@@ -1,13 +1,23 @@
 .project-bottom-banner
-	height: 1000px
 	background-repeat: no-repeat
 	background-size: cover
 	overflow: hidden
+	@media #{$large-up}
+		height: 1000px
 
 	.project-description-block
-		max-width: 550px
+		// max-width: 550px
 		position: relative
-		top: 200px
+		margin-top: 100px
+		text-align: center
+		@media #{$landscape}
+			margin-top: 200px
+			max-width: 550px
+			text-align: initial
+		@media #{$large-up}
+			margin-top: 200px
+			max-width: 550px
+			text-align: initial
 		.title
 			font-weight: bold
 			line-height: 2.5rem
@@ -19,26 +29,40 @@
 	.banner-image-container
 		position: relative
 		height: 100vh
+		@media #{$small-only}
+			height: 70vh
 		img
 			position: absolute
 			right: 0
 			width: 150%
 			max-width: 800px
+			@media #{$small-only}
+				width: 100%
+				+scale(1.2)
 
 	.description
 		color: #212121
 		+font-23
 		+italic
 		margin: 30px 0 40px
+		@media #{$small-only}
+			font-size: 18px
+			margin: 20px 0 30px
  
 	.or-share
 		color: $light-gray-text-color
 		margin: 0 30px
 		+italic
+		@media #{$small-only}
+			display: block
+			margin: 5px 0
 
 
 	.social-link
-
+		width: 40px
+		margin: 0 5px
 
 	.actions
 		padding: 0
+		@media #{$small-only}
+			margin-top: 0

@@ -5,10 +5,7 @@
     .columns.large-10.large-centered
       .row
 
-        .columns.large-6.banner-image-container
-          - if banner[:image_url]
-            img src=banner[:image_url]
-        .columns.large-6
+        .columns.large-6.go-right
           .project-description-block
             .title
               |Thanks for watching!
@@ -25,3 +22,7 @@
               - footer_social_links.each do |social|
                 a.social-link.dark href=social[:url]
                   = inline_svg social[:icon]
+
+        .columns.large-6.banner-image-container.go-left
+          - if banner[:image_url]
+            img src=banner[:image_url]

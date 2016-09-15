@@ -79,7 +79,9 @@
 .large-top-indent
 	+top-indent(200)
 .large-bottom-indent
-	+bottom-indent(200)
+	+bottom-indent(100)
+	@media #{$xlarge-up}
+		+bottom-indent(200)
 .large-inner-top-indent
 	+top-inner-indent(200)
 .large-inner-bottom-indent

@@ -1,4 +1,7 @@
 .project-content
+	
+	.h2
+		letter-spacing: 1px
 
 	.fade-in
 		opacity: 0
@@ -82,11 +85,12 @@
 			font-size: 60px
 			top: -30px
 		@media #{$medium-only}
-			font-size: 200px
+			font-size: 150px
+			top: -70px
 		@media #{$large-up}
 			font-size: 280px
-		@media #{$xxlarge-up}
-			font-size: 500px
+		@media #{$xlarge-up}
+			font-size: 400px
 
 	.section-descriptive-title
 		letter-spacing: 5px
@@ -130,7 +134,9 @@
 			position: absolute
 			text-align: center
 			width: 100%
-			bottom: 30px
+			bottom: -50px
+			@media #{$small-only}
+				bottom: -40px
 
 
 			.page
@@ -202,3 +208,8 @@
 			+font-18
 			+header-font-family
 			padding-top: 16px
+	.full-width-image-slider
+		.custom-pager
+			bottom: 50px
+			@media #{$small-only}
+				bottom: 10px
