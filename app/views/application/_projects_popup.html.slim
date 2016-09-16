@@ -16,7 +16,7 @@
         .close-text.italic.white
           |close
 
-    - 3.times do
+    - 2.times do
       - @popup_projects.each do |project|
         = render "project", project: project, avatar_style: :popup, active: @project.try(:id) == project.id
 

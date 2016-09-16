@@ -42,6 +42,7 @@ class ProjectsController < ApplicationController
 
   def set_services
     @services = Service.published.sort_by_sorting_position
+    @service = @services.first
   end
 
   def set_projects_banner
