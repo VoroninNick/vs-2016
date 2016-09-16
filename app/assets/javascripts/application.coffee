@@ -25,7 +25,7 @@
 #= require custom_scroll
 #= require waypoints/lib/jquery.waypoints.min
 #= require jquery.counterup.min
-
+#= require jquery.event.swipe/js/jquery.event.swipe
 
 # require jquery.nicescroll/jquery.nicescroll.min
 # require components/phone_number
