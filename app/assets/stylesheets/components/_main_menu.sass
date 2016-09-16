@@ -299,14 +299,16 @@ body.has-opened-menu
 
 @media #{breakpoint(small only)}
 	#main-menu-footer
-		height: 80px
-		padding: 70px 15px 70px 15px
-		position: relative
+		//height: 80px
+		height: 20px
+		//padding: 70px 15px 70px 15px
+		padding: 0 15px
+		//position: relative
 		+clearfix
-		@media #{$small-only}
-			// padding: 10px 15px 10px 15px
-			position: absolute
-			bottom: 10px
+
+		// padding: 10px 15px 10px 15px
+		position: absolute
+		bottom: 10px
 
 	#main-menu-footer-phones
 		display: none
