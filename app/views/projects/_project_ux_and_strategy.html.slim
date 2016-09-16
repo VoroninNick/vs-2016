@@ -7,13 +7,6 @@
       .columns.large-12.left.project-section-content-column.sublarge-inner-top-indent
         = raw "<div class='section-descriptive-title primary-color'>UX & Strategy</div>"
 
-      /.columns.large-6.large-push-2.top-indent
-        .h2.with-line
-          |UX & Strategy
-        = raw @project.ux_and_strategy
-      /.columns.large-3
-        img src=asset_path("projects/10g-force/ux-mockup.png")
-
       = raw @project.ux_and_strategy
 
   = render "project_images", images: @project.ux_images

@@ -55,7 +55,7 @@ $document.on "ready page:load", ->
   show_headers = ()->
     scroll_top = $window.scrollTop()
     screen_bottom = scroll_top + window.innerHeight
-    elements = [[".project-content .project-large-section-title:not(.visible)", 0], [".project-content .fade-in:not(.visible)", -300],
+    elements = [[".project-content .project-large-section-title:not(.visible)", 0], [".project-content .fade-in:not(.visible)", -300], [".project-content .scale:not(.visible)", 0], [".project-content .show-it:not(.visible)", 0],
       [".project-section .section-descriptive-title:not(.visible)", 0, animate_header], "" ]
     for element in elements
       $headers = $(element[0])
@@ -91,3 +91,15 @@ $document.on "ready page:load", ->
       event.preventDefault()
       $(this).toggleClass('opened')
       $('.project-tags .tag').toggleClass('visible')
+
+  $technology_container = $(".project-technologies")
+  $technology_container.appear()
+  $technology_container.on "appear", ()->
+    $technology_container.find(".technology-block").each (index)->
+      $block = $(this)
+      
+      setTimeout(
+        ()->
+          $block.addClass("visible")
+        index * 300
+      )

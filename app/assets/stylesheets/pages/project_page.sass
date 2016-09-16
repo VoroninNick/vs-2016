@@ -6,8 +6,24 @@
 	.fade-in
 		opacity: 0
 		+transition-property(all)
-		+transition-duration(2s)
+		+transition-duration(1s)
+		+translate(0,25%)
 
+		&.visible
+			opacity: 1
+			+translate(0,0)
+
+	.scale
+		+scale(0)
+		+transition-delay(1s)
+		+transition-duration(1s)
+		&.visible
+			+scale(1)
+
+	.show-it
+		opacity: 0
+		+transition-delay(1s)
+		+transition-duration(1s)
 		&.visible
 			opacity: 1
 
@@ -31,13 +47,13 @@
 
 		.project-section-content-column
 			opacity: 0
-
-			+transition-delay(0s)
-			+transition-duration(2s)
-			+transition-property(opacity)
+			+translate(0,25%)
+			+transition-duration(1s)
+			// +transition-property(opacity)
 
 			&.visible
 				opacity: 1
+				+translate(0,0)
 
 
 	.with-line
@@ -208,6 +224,11 @@
 			+font-18
 			+header-font-family
 			padding-top: 16px
+		.technology-block
+			opacity: 0
+			+transition-duration(1s)
+			&.visible
+				opacity: 1
 	.full-width-image-slider
 		.custom-pager
 			bottom: 50px
