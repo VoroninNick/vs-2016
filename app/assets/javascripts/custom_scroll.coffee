@@ -63,6 +63,7 @@ $document.on "page:load", init
 
 
 $document.on "mousewheel swipe swipedown", (e)->
+  alert("e: #{e.type}")
   if $(".full-page-container").length == 0 || window.innerWidth < full_page_breakpoint
     return true
   e.preventDefault()
