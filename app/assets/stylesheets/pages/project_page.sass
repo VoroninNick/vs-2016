@@ -1,7 +1,8 @@
 .project-content
 	
 	.h2
-		letter-spacing: 1px
+		letter-spacing: 2px
+		font-weight: bold
 
 	.fade-in
 		opacity: 0
@@ -90,6 +91,7 @@
 		+transform(translateY(300px))
 		+transition-duration(1s)
 		+transition-property(all)
+		z-index: 1
 
 		&.visible
 			+transform(translateY(0))
@@ -107,6 +109,7 @@
 			font-size: 280px
 		@media #{$xlarge-up}
 			font-size: 400px
+			top: -200px
 
 	.section-descriptive-title
 		letter-spacing: 5px
@@ -235,3 +238,19 @@
 			bottom: 50px
 			@media #{$small-only}
 				bottom: 10px
+
+
+	.section-bg-image
+		position: relative
+	.ux-and-strategy-image-container
+		position: absolute
+		width: 50%
+		height: 100%
+		right: 0
+		overflow: hidden
+		img
+			position: absolute
+			right: 0
+			width: 70%
+			top: 50%
+			+translate(0,-50%)
