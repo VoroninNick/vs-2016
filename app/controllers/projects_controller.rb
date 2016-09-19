@@ -50,7 +50,7 @@ class ProjectsController < ApplicationController
     days_last_added = 31
 
     @page_banner = {
-        bg_image: 'banners/services.jpg',
+        bg_image: 'banners/inner-page-main-banners-v1-portfolio.jpg',
         title: "Portfolio",
         numbers: [
             {number: @popup_projects.count, number_description: "projects"},

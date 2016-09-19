@@ -77,6 +77,8 @@ class Project < ActiveRecord::Base
   sass_option :button_lines_color, "@primary_color"
   sass_option :social_link_hover_bg_color, "@primary_color"
 
+
+  sass_option :top_banner_description_color, "@primary_color"
   #sass_option :project_case_section_bg_color, "none"
   #sass_option :project_case_header_color, "@text_header_color"
   #sass_option :project_case_text_color, "@body_color"
