@@ -96,7 +96,12 @@ class Project < ActiveRecord::Base
   #sass_option :seo_strategy_text_color, "@body_color"
   #sass_option :technical_side_of_project_text_color, "@body_color"
   sass_option :technology_color, "@primary_color"
+  sass_option :technology_name_color, "@primary_color"
+  sass_option :technology_svg_orbit_color, "@primary_color"
+
   sass_option :project_bottom_banner_title_color, "@primary_color"
+  sass_option :project_bottom_banner_description_color, "@primary_color"
+  sass_option :project_bottom_banner_buttons_color, "@primary_color"
 
   PROJECT_PARTS.each do |k, v|
     sass_option "#{k}_text_color".to_sym, "@body_color"

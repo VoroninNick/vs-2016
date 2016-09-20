@@ -50,7 +50,6 @@
 			opacity: 0
 			+translate(0,25%)
 			+transition-duration(1s)
-			// +transition-property(opacity)
 
 			&.visible
 				opacity: 1
@@ -73,6 +72,10 @@
 
 	.project-large-section
 		position: relative
+		@media #{$small-only}
+			padding-bottom: 150px
+		@media #{$medium-only}
+			padding-bottom: 250px
 
 	.project-large-section-title
 		+header-font-family
@@ -221,13 +224,16 @@
 		svg
 			width: 120px
 			height: 120px
-
+			*
+				opacity: 1 !important
 		.name
-			color: $dark-white-color
 			text-transform: uppercase
 			+font-18
 			+header-font-family
 			padding-top: 16px
+			font-weight: bold
+			letter-spacing: 2px
+
 		.technology-block
 			opacity: 0
 			+transition-duration(1s)
@@ -242,6 +248,7 @@
 
 	.section-bg-image
 		position: relative
+
 	.ux-and-strategy-image-container
 		position: absolute
 		width: 50%
@@ -251,6 +258,17 @@
 		img
 			position: absolute
 			right: 0
-			width: 70%
+			width: 80%
 			top: 50%
 			+translate(0,-50%)
+		@media #{$medium-only}
+			width: 60%
+			img
+				bottom: 0
+				width: 100%
+				top: initial
+				+translate(0,0)
+		@media #{$landscape}
+			width: 60%
+			img
+				right: -10%

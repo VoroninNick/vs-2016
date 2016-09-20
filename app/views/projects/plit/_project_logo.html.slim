@@ -4,16 +4,14 @@
   .project-large-section-title.align-top-minus-half
     |Logo
   .row.sublarge-inner-top-indent.project-large-section
-    .img-container
-      img src=asset_path("projects/plit/Plit-cardsprev-v1.jpg")
     .columns.large-10.large-centered
       .row
-        .columns.large-12.left.project-section-content-column
+        .columns.large-12.project-section-content-column
           = raw "<div class='section-descriptive-title dark'>Logotype & corporate identity</div>"
 
-        .columns.large-5.logo-column.medium-inner-top-indent
+        .columns.medium-8.medium-centered.large-6.xlarge-5.logo-column.medium-inner-top-indent
           img src=asset_path("projects/plit/Plit-logo-1.jpg")
-        .columns.large-5.large-push-2.medium-inner-top-indent.images-container
+        .columns.large-6.xlarge-5.medium-inner-top-indent.images-container
           .h2.with-line.third-color
             |Logo modernization
           p.dark
@@ -24,20 +22,20 @@
           p.dark
             |The most unusual thing aesthetically about the band is that it doesn’t greet you with a bright glowing screen.
           img src=asset_path("projects/plit/Plit-logo-3.jpg")
-
-        .row
-          .columns.large-6.medium-inner-top-indent
-            .h2.with-line.third-color
-              |Typography
-            p.dark
-              |Corporate font - a font used in all media corporate identity, which is a text component. Font together with other elements of corporate identity helps to create the image and brand image.
-        .row
-          .columns.large-6.medium-inner-top-indent
-            img src=asset_path("projects/plit/Plit-typography-1.png")
-          .columns.large-6.desktop-indent
-            img src=asset_path("projects/plit/Plit-typography-2.png")
-        .row  
-          .columns.large-6.desktop-indent.end
-            img src=asset_path("projects/plit/Plit-typography-3.png")
-
+      .row
+        .columns.large-6.medium-inner-top-indent
+          .h2.with-line.third-color
+            |Typography
+          p.dark
+            |Corporate font - a font used in all media corporate identity, which is a text component. Font together with other elements of corporate identity helps to create the image and brand image.
+      .row
+        .columns.large-6.medium-inner-top-indent
+          img src=asset_path("projects/plit/Plit-typography-1.png")
+        .columns.large-6.desktop-indent
+          img src=asset_path("projects/plit/Plit-typography-2.png")
+      .row  
+        .columns.large-6.desktop-indent.end
+          img src=asset_path("projects/plit/Plit-typography-3.png")
+    .img-container
+      img src=asset_path("projects/plit/Plit-cardsprev-v1.jpg")
   = render "project_images", images: @project.logo_and_ci_images
