@@ -75,6 +75,7 @@
 
 
 #principles
+	overflow: hidden
 	.blockquote-column
 		margin-top: 50px
 
@@ -175,6 +176,8 @@
 		width: 200px
 		height: 200px
 		padding: 20px
+		&:first-child
+			clear: left
 		@media #{$small-only}
 			width: 120px
 			height: 120px

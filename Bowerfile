@@ -26,3 +26,5 @@ asset "textillate"
 asset "jquery_appear"
 
 asset "waypoints"
+
+asset "jquery.event.swipe"
