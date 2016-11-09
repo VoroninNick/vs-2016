@@ -1,5 +1,4 @@
 $document.on "ready page:load", ->
-
   setTimeout (->
     $('.number').addClass('visible')
     $('.counter').counterUp(

@@ -1,8 +1,24 @@
 body[controller-action="pages__index"]
 	#tubular-container
-		+grayscale
+		+grayscale(90%)
+		opacity: 0
 	#tubular-shield
-		background: rgba(0, 0, 0, 0.6)
+		opacity: 0
+		background: rgba(0, 0, 0, 0.85)
+
+		&:after
+			content: ""
+			background: rgba(8, 152, 219, 0.05)
+			display: block
+			position: absolute
+			top: 0
+			left: 0
+			right: 0
+			bottom: 0
+
+	&.video-loaded
+		#tubular-container, #tubular-shield
+			opacity: 1
 
 .full-page-container
 	//background: rgba(0, 0, 0, 0.85)

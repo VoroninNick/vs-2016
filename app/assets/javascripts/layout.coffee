@@ -1,4 +1,4 @@
-popup_in_duration = 2000
+popup_in_duration = 600
 $document.on "click", "#projects-popup-button", ()->
   $projects_popup = $(".projects-popup")
   $projects_popup.find(".project, .more-projects-soon").each (index)->
@@ -31,8 +31,10 @@ $document.on "click", ".projects-popup .close-button-and-text", ()->
   close_menu("projects-popup")
   $projects_popup.find(".project, .more-projects-soon").removeClass("show")
 
+  $projects_popup.addClass("hide")
   setTimeout(
     ()->
       $projects_popup.removeClass("show")
+      $projects_popup.removeClass("hide")
     1000
   )

@@ -25,7 +25,7 @@ $circle-in-duration: 1s
 		right: -37.5vmax
 		width: 100vmax
 		height: 100vmax
-	100%
+	91%, 100%
 		opacity: 0
 
 +keyframes(show-popup-from-circle-2)
@@ -41,7 +41,7 @@ $circle-in-duration: 1s
 		height: 125vmax
 	0%, 50%
 		opacity: 1
-	100%
+	91%, 100%
 		opacity: 0
 
 +keyframes(show-popup-from-circle-3)
@@ -57,7 +57,7 @@ $circle-in-duration: 1s
 		height: 200vmax
 	0%, 50%
 		opacity: 1
-	100%
+	91%, 100%
 		opacity: 0
 
 
@@ -94,6 +94,10 @@ $circle-in-duration: 1s
 		border-radius: 50%
 		width: 40px
 		height: 40px
+
+	&.ready
+		.circle1, .circle2, .circle3
+			opacity: 0
 
 	&.show
 		display: block
@@ -133,10 +137,13 @@ $circle-in-duration: 1s
 	.projects-popup-content
 		opacity: 0
 
-
+	&.show
+		background: $projects-popup-bg
+	&.show.hide
+		background: none
 
 	&.ready
-		background: $projects-popup-bg
+
 		.projects-popup-content
 
 			opacity: 1
