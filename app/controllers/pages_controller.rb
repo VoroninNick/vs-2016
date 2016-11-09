@@ -16,7 +16,7 @@ class PagesController < ApplicationController
   def about_us
     @page_banner_template = "about_us_banner"
     @page_banner = {
-        bg_image: 'banners/services.jpg',
+        bg_image: 'banners/inner-page-main-banners-v1-about-us.jpg',
         title: "About",
         numbers: [
             {number: 10, number_description: "years of experience"},
@@ -44,7 +44,7 @@ class PagesController < ApplicationController
   def contacts
     @page_banner_template = "contacts_banner"
     @page_banner = {
-        bg_image: 'banners/services.jpg',
+        bg_image: 'banners/inner-page-main-banners-v1-contacts.jpg',
         title: "Contacts",
         numbers: [
 

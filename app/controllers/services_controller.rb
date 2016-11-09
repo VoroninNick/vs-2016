@@ -5,7 +5,7 @@ class ServicesController < ApplicationController
     @services = Service.published.sort_by_sorting_position
 
     @page_banner = {
-        bg_image: 'banners/services.jpg',
+        bg_image: 'banners/inner-page-main-banners-v1-expertise.jpg',
         title: "Expertise",
         numbers: [
           { number: "08", number_description: "fields of expertise"}
@@ -18,7 +18,7 @@ class ServicesController < ApplicationController
   def show
     if @service
       @page_banner = {
-          bg_image: 'banners/services.jpg',
+          bg_image: 'banners/inner-page-main-banners-v1-expertise.jpg',
           title: @service.name,
           numbers: [
               {number: "08", number_description: "cases"}

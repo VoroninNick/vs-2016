@@ -3,10 +3,6 @@ asset "jquery-ui"
 asset "jquery.scrollend"
 asset "jquery-mousewheel"
 
-
-
-
-
 asset "foundation-sites", '6.1.2'
 
 asset "sass-css3-mixins", github: 'matthieua/sass-css3-mixins', ref: '6bb5603'
@@ -14,15 +10,12 @@ asset "sass-flex-mixin", github: 'mastastealth/sass-flex-mixin', ref: 'b6a30f6'
 
 asset "sass-burger", github: 'jorenvanhee/sass-burger', ref: '4e449f7'
 
-
-
 asset "normalize-scss", '3.0.3'
 asset "lightgallery", '1.2.14'
 #asset "selectize", '0.12.1'
 #asset "bxslider"
 asset "bxslider-4"
 asset "jquery.nicescroll"
-
 
 asset "foundation-emails", "2.2.1"
 

@@ -23,9 +23,6 @@
       .prev
       .next
 
-
-
-
   /.row
     .columns.large-5.large-push-2.top-indent
       .h2.with-line
@@ -35,23 +32,8 @@
       img src=asset_path("projects/10g-force/web.png")
 
 
-  .fade-in.sublarge-inner-bottom-indent class=("section-bg-image" if section_bg) style=("background-image: url('#{section_bg}');" if section_bg)
+  .sublarge-inner-bottom-indent class=("section-bg-image" if section_bg) style=("background-image: url('#{section_bg}');" if section_bg)
     = raw @project.responsive_web_design
 
 
   = render "project_images", images: @project.rwd_images
-
-  .project-used-icons.text-center.small-inner-bottom-indent data-navigation-color="dark"
-    .icons-header.dark.font-23.small-inner-vertical-indent
-      |Icons
-    .row
-      .columns.large-10.large-centered
-        .row
-          .columns.large-4
-            img src=asset_path("projects/10g-force/icons-1.png")
-
-          .columns.large-4
-            img src=asset_path("projects/10g-force/icons-2.png")
-
-          .columns.large-4
-            img src=asset_path("projects/10g-force/icons-3.png")

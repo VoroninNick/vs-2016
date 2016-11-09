@@ -16,6 +16,9 @@
       sup
         color: $secondary_color
 
+      .description
+        color: $top_banner_description_color
+
   .primary-color
     color: $primary_color
   .secondary-color
@@ -58,11 +61,21 @@
       .technology-svg-logo
         &, *
           fill: $technology_color
+      .technology-svg-orbit
+        *
+          fill: $technology_svg_orbit_color
+    .name
+      color: $technology_name_color
 
 
   .project-bottom-banner
     .title
       color: $project_bottom_banner_title_color
+    .description
+      color: $project_bottom_banner_description_color
+    .actions
+      .dark
+        background: $project_bottom_banner_buttons_color
 
   .desktop-slider
     .screen-image

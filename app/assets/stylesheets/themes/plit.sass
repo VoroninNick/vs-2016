@@ -1,0 +1,41 @@
+body.theme-plit
+  .white-bg
+    background-color: #fff
+  .desktop-indent
+    @media #{$large-up}
+      padding-top: 210px
+  .images-container
+    img
+      margin: 50px 0
+  .img-container
+    position: absolute
+    left: 0
+    right: 0
+    bottom: 0
+    height: 1000px
+    overflow: hidden
+    img
+      position: absolute
+      right: 0
+      bottom: -15%
+      width: 50%
+      @media #{$small-only}
+        width: 70%
+      @media #{$medium-only}
+        width: 80%
+
+  .project-bottom-banner
+    background-color: white
+    .banner-image-container
+      img
+        position: absolute
+        right: -30%
+        bottom: 0
+        width: 200%
+        max-width: 1200px
+
+        @media #{$small-only}
+          width: 100%
+          +scale(1.2)
+        @media #{$landscape}
+          right: -50%
