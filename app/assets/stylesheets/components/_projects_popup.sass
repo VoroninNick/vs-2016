@@ -8,7 +8,7 @@ $circle-2-bg: $violet-color
 $circle-3-bg: $blue-color
 
 $circle-in-duration: 1s
-
+//$circle-in-duration: 5s
 
 
 
@@ -19,13 +19,15 @@ $circle-in-duration: 1s
 		height: 40px
 		right: 80px
 		bottom: 67px
-	35%, 90%
+	35%, 50%
 		opacity: 1
+	35%, 90%, 100%
+
 		bottom: -37.5vmax
 		right: -37.5vmax
 		width: 100vmax
 		height: 100vmax
-	91%, 100%
+	100%
 		opacity: 0
 
 +keyframes(show-popup-from-circle-2)
@@ -34,14 +36,14 @@ $circle-in-duration: 1s
 		height: 40px
 		right: 80px
 		bottom: 67px
-	45%, 90%
+	45%, 90%, 100%
 		bottom: -37.5vmax
 		right: -37.5vmax
 		width: 125vmax
 		height: 125vmax
 	0%, 50%
 		opacity: 1
-	91%, 100%
+	100%
 		opacity: 0
 
 +keyframes(show-popup-from-circle-3)
@@ -50,14 +52,14 @@ $circle-in-duration: 1s
 		height: 40px
 		right: 80px
 		bottom: 67px
-	50%, 90%
+	50%, 90%, 100%
 		bottom: -50vmax
 		right: -50vmax
 		width: 200vmax
 		height: 200vmax
 	0%, 50%
 		opacity: 1
-	91%, 100%
+	100%
 		opacity: 0
 
 
@@ -80,9 +82,25 @@ $circle-in-duration: 1s
 	100%
 		opacity: 1
 
+body.has-opened-projects-popup
+	overflow: hidden
+	width: 100%
+	height: 100%
+
 .projects-popup
 	background: none
-	+transition-property(none)
+	//+transition-property(none)
+	overflow-x: hidden
+	+transition-duration(5s)
+	+transition-property(opacity)
+
+	.circles-wrap
+		overflow: hidden
+		width: 100%
+		height: 100%
+		position: absolute
+		top: 0
+		left: 0
 
 
 	.circle1, .circle2, .circle3
@@ -136,16 +154,19 @@ $circle-in-duration: 1s
 
 	.projects-popup-content
 		opacity: 0
+		+transition-property(opacity)
+		+transition-duration(0.5s)
 
 	&.show
 		background: $projects-popup-bg
 	&.show.hide
-		background: none
+		//background: none
+		opacity: 0
+
 
 	&.ready
 
 		.projects-popup-content
-
 			opacity: 1
 
 		.project, .more-projects-soon
@@ -153,8 +174,20 @@ $circle-in-duration: 1s
 			+animation-duration(0.5s)
 			overflow: hidden
 			display: none
+			//display: block
+			//opacity: 0
+			//+transition-property(opacity)
+			//+transition-duration(0.5s)
 			&.show
 				display: block
+				opacity: 1
+
+	&.ready
+
+	&.hide
+		.projects-popup-content
+			opacity: 0
+
 
 	.block
 		display: block
@@ -229,23 +262,23 @@ $circle-in-duration: 1s
 
 
 	@media #{breakpoint(xxlarge down)}
-		.block
+		.block, .more-projects-soon
 			width: 20%
 			height: 20%
 
 
 	@media #{breakpoint(large down)}
-		.block
+		.block, .more-projects-soon
 			width: 25%
 			height: 25%
 
 	@media #{breakpoint(medium down)}
-		.block
+		.block, .more-projects-soon
 			width: percentage(1/3)
 			height: percentage(1/3)
 
 	@media #{breakpoint(small only)}
-		.block
+		.block, .more-projects-soon
 			width: 50%
 			height: 50%
 
