@@ -83,14 +83,19 @@ $circle-in-duration: 1s
 		opacity: 1
 
 body.has-opened-projects-popup
-	overflow: hidden
+	overflow-x: hidden
 	width: 100%
 	height: 100%
+
+	#page-wrap
+		overflow: hidden
+		max-height: 100vh
 
 .projects-popup
 	background: none
 	//+transition-property(none)
 	overflow-x: hidden
+	max-height: none
 	+transition-duration(5s)
 	+transition-property(opacity)
 
