@@ -38,5 +38,5 @@ $document.on "click", ".projects-popup .close-button-and-text", ()->
     ()->
       $projects_popup.removeClass("show")
       $projects_popup.removeClass("hide")
-    1500
+    500
   )
