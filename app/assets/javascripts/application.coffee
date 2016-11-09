@@ -7,8 +7,8 @@
 #= require append_images
 #= require modernizr.revealer
 #= require classie
-# require components/revealer
-# require components/init_revealer
+#= require components/revealer
+#= require components/init_revealer
 #= require clickout
 #= require delay
 #= require letteringjs/jquery.lettering

@@ -5,7 +5,7 @@ module ApplicationHelper
         { title: "how", sub_label: "portfolio", url: projects_path },
         { title: "what", sub_label: "our services", url: Pages.services.url },
         { title: "when", sub_label: "publications", url: Pages.articles.url },
-        { title: "life", sub_label: "studio life" },
+        { title: "life", sub_label: "studio life" , url: Pages.studio_life.url},
         { title: "where", sub_label: "contacts", url: Pages.contacts.url }
     ]
   end

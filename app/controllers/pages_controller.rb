@@ -85,6 +85,10 @@ class PagesController < ApplicationController
 
   end
 
+  def studio_life
+
+  end
+
   private
   def set_page_instance(key = action_name)
     set_page_metadata(key)

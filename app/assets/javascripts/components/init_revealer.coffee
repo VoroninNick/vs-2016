@@ -18,6 +18,7 @@ revealerOpts = {
 }
 
 default_slide_duration = 300
+#default_slide_duration = 1000
 
 window.show_slide = (number, percent)->
   $(".reveal-#{number}").remove()
