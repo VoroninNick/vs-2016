@@ -11,7 +11,7 @@ $circle-3-bg: $blue-color
 $circle-in-duration: 1s
 //$circle-in-duration: 5s
 
-
+$circle-in-duration: 10s
 
 
 
@@ -50,12 +50,12 @@ $circle-in-duration: 1s
 		opacity: 0
 
 +keyframes(show-popup-from-circle-3)
-	0%, 45%
+	0%
 		width: 40px
 		height: 40px
 		right: 80px
 		bottom: 67px
-	50%, 90%, 100%
+	65%, 100%
 		bottom: -50vmax
 		right: -50vmax
 		width: 200vmax
@@ -112,7 +112,8 @@ body.has-opened-projects-popup
 
 
 	.circle1, .circle2, .circle3
-		position: absolute
+		//position: absolute
+		position: fixed
 		bottom: 67px
 		//right: 80px
 		right: 106px
@@ -319,6 +320,8 @@ body.has-opened-projects-popup
 		.portfolio-link-block
 			.close-button-and-text
 				top: 0
+			.portfolio-link-and-button
+				top: 50px
 
 			&.block
 				padding-top: 50%
@@ -326,4 +329,9 @@ body.has-opened-projects-popup
 			.portfolio-link
 				top: 0
 
+				svg
+					width: 40px
+					height: 40px
+					position: relative
+					left: 20px
 
