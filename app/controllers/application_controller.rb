@@ -17,6 +17,10 @@ class ApplicationController < ActionController::Base
   include Cms::Helpers::NavigationHelper
   include FormsHelper
 
+  before_action do
+    #sleep(3)
+  end
+
   before_action :set_locale, unless: :admin_panel?
   before_action :set_popup_projects
 

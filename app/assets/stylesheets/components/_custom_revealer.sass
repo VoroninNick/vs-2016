@@ -19,22 +19,51 @@
 	position: fixed
 	bottom: 0
 	height: 0
-	+transition-property(all)
-	+transition-duration(300ms)
+	+transition-property("opacity, bottom")
+	+transition-duration(0.3s)
+	opacity: 1
 
 	&.animated
 		//height: 100%
 		+animation-name(animate-up)
-		+animation-duration(300ms)
+		+animation-duration(0.3s)
+
+	&.finished
+		height: 100%
+
+		&.hide
+			opacity: 0
+
+
 
 	&.animate-hide-up
 		+animation-name(animate-hide-up)
-		+animation-duration(300ms)
+		+animation-duration(0.3s)
 
 .reveal-1
 
 	background: $pink-color
 	z-index: 10000
+
+.load-progress-indicator
+	color: $dark-white-color
+	+bold
+	+font-60
+	letter-spacing: 4px
+	position: absolute
+	+transform(translate(-50%, -50%))
+	top: 50%
+	left: 50%
+.load-progress-logo-wrap
+	position: absolute
+	+transform(translate(-50%, -50%))
+	top: 50%
+	left: 50%
+
+	svg
+		width: 100px
+		height: 100px
+
 
 .reveal-2
 	background: $violet-color
