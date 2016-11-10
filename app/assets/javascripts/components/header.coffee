@@ -8,6 +8,8 @@ $document.on "ready page:load", ->
   header_selector = "#header"
   banner_selector = ""
 
+  auto_close = false
+
   setClosingTimeout = ()->
 
     $top_nav = $(this)
@@ -48,13 +50,14 @@ $document.on "ready page:load", ->
       delta = e
 
     $("body").attr("header_timeout")
-    #console.log "delta: ", delta
-    if scroll_top > banner_height && delta < 0 && !$("body").hasClass("navigation_move")
+
+    console.log "delta: ", delta
+    if (!banner_selector.length || scroll_top > banner_height) && delta < 0 && !$("body").hasClass("navigation_move")
       $top_nav.addClass(scrolled_class)
       if window.top_nav_timeout
         clearTimeout(window.top_nav_timeout)
-
-      setClosingTimeout.apply($top_nav)
+      if auto_close
+        setClosingTimeout.apply($top_nav)
     else
       $top_nav.removeClass(scrolled_class)
 
@@ -82,7 +85,8 @@ $document.on "ready page:load", ->
     $target = $(e.relatedTarget)
     if $target.closest(".navigationleft").length == 0 && $target.closest(".header-logo").length == 0
       window.top_nav_locked = false
-      setClosingTimeout.apply($(header_selector))
+      if auto_close
+        setClosingTimeout.apply($(header_selector))
 
   $(window).on "scrolldelta", handle_scroll
 
