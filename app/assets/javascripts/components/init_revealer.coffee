@@ -17,6 +17,10 @@ revealerOpts = {
 
 }
 
+classes = {
+  preloader_without_scroll: "preloader-without-scroll"
+}
+
 default_slide_duration = 300
 #default_slide_duration = 1000
 
@@ -188,6 +192,12 @@ hide_slide = ()->
     150
   )
 
+  setTimeout(
+    ()->
+      $("body").removeClass(classes.preloader_without_scroll)
+    450
+  )
+
 
 $document.on "page:load", (e)->
   #alert("#{e.type}")
@@ -200,11 +210,12 @@ $document.on "page:load", (e)->
   #$(".reveal-1").addClass("hide")
   #start_revealer()
   show_slide(1, 100, $new_body, "finished")
+  $("body").addClass(classes.preloader_without_scroll)
   add_logo_to_reveal()
   hide_slide()
   console.log("reveal: " + $(".reveal-1").length)
   #$(".reveal-1").fadeOut(500)
-  $(".reveal-1")
+  #$(".reveal-1")
 #  $(".reveal-1").addClass("hide")
 #  setTimeout(
 #    ()->
