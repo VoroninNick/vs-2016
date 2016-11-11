@@ -18,7 +18,7 @@ class ApplicationController < ActionController::Base
   include FormsHelper
 
   before_action do
-    sleep(4)
+    #sleep(4)
   end
 
   before_action :set_locale, unless: :admin_panel?

@@ -65,7 +65,7 @@ $document.on "mouseenter", "#home-services-section .service", (e)->
 #})
 
 
-$(".home-slider").bxSlider(
-  #auto: true
-)
+#$(".home-slider").bxSlider(
+#  #auto: true
+#)
 

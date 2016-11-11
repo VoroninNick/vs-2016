@@ -50,7 +50,7 @@ handle_scroll = (e)->
 
   $("body").attr("header_timeout")
 
-  console.log "delta: ", delta
+  #console.log "delta: ", delta
   if (!banner_selector.length || scroll_top > banner_height) && delta < 0 && !$("body").hasClass("navigation_move")
     $top_nav.addClass(scrolled_class)
     if window.top_nav_timeout

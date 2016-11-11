@@ -16,16 +16,18 @@
 # require fullpage.js/vendors/jquery.easings.min
 # require fullpage.js/vendors/jquery.slimscroll.min
 # require fullpage.js/dist/jquery.fullpage.min.js
-#= require jquery-ui/jquery-ui.min
+# require jquery-ui/jquery-ui.min
+#= require jquery-ui/ui/jquery.ui.core
 #= require jquery-mousewheel/jquery.mousewheel.min
 #= require jquery.scrolldelta
 #= require jquery-easing
 #= require jquery.scrollend/dist/jquery.scrollend.min
 #= require jquery_appear/jquery.appear
-#= require custom_scroll
 #= require waypoints/lib/jquery.waypoints.min
 #= require jquery.counterup.min
+#= require jquery.event.move/js/jquery.event.move
 #= require jquery.event.swipe/js/jquery.event.swipe
+#= require custom_scroll
 
 # require jquery.nicescroll/jquery.nicescroll.min
 # require components/phone_number

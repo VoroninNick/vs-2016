@@ -23,10 +23,31 @@
 			overflow: visible
 			height: auto
 
-			&, &:not(.active)
+			&.small-one-screen
+				overflow: hidden
+				height: 100vh
+
+			&:not(.active)
 				max-height: none
+
+			//&#home-services-section
+				&:not(.active)
+					max-height: 0
+
+					& + .page-section:not(.active)
+						display: none
+
+			&.small-one-screen
+				max-height: 0
+
+				&.active
+					max-height: 100vh
 
 			&.fp-auto-height
 				&.active
 					position: relative
 					bottom: auto
+
+
+		#home-services-section
+			max-height: none

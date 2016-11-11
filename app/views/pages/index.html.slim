@@ -1,5 +1,5 @@
 .full-page-container
-  #welcome-page-section.section.page-section.active tubular="#{@enable_tubular}" tubular-video-id="o1prvOC1_90"
+  #welcome-page-section.section.page-section.small-one-screen.active tubular="#{@enable_tubular}" tubular-video-id="o1prvOC1_90"
     #welcome-block
       .inner
         .text-wrap
@@ -25,7 +25,7 @@
   /       = render "projects/main_banner", banner: @project_banners.second
   /       = render "projects/main_banner", banner: @project_banners.third
 
-  #home-portfolio-section.section.page-section
+  #home-portfolio-section.section.page-section.small-one-screen
     /= render "projects/main_banner", banner: @project_banners.first
     /= render "projects/main_banner", banner: @project_banners.second
     /= render "projects/main_banner", banner: @project_banners.third

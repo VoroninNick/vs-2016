@@ -28,3 +28,7 @@ asset "jquery_appear"
 asset "waypoints"
 
 asset "jquery.event.swipe"
+
+asset "jquery.event.move"
+
+asset "jquery-mobile"
