@@ -84,7 +84,7 @@ $document.on "mousewheel move", (e)->
   prevent_default_scroll = window.innerWidth >= large_breakpoint || (down && active_section_one_screen) || (!down && active_section_index > 0 && !(active_section_index == 2 && scroll_top > 0 ))
   #console.log "prevent_default_scroll: ", prevent_default_scroll
   if prevent_default_scroll
-    #e.preventDefault()
+    e.preventDefault()
     1
 
 
