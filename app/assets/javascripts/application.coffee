@@ -17,7 +17,7 @@
 # require fullpage.js/vendors/jquery.slimscroll.min
 # require fullpage.js/dist/jquery.fullpage.min.js
 # require jquery-ui/jquery-ui.min
-#= require jquery-ui/ui/jquery.ui.core
+#= require jquery-ui/jquery-ui.min
 #= require jquery-mousewheel/jquery.mousewheel.min
 #= require jquery.scrolldelta
 #= require jquery-easing

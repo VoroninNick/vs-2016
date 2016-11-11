@@ -1,6 +1,6 @@
 asset "jquery", "1.11.3"
 asset "fullpage.js"
-asset "jquery-ui"
+asset "jquery-ui", "1.11.4"
 asset "jquery.scrollend"
 asset "jquery-mousewheel"
 
