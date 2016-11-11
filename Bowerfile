@@ -1,3 +1,4 @@
+asset "jquery", "1.11.3"
 asset "fullpage.js"
 asset "jquery-ui"
 asset "jquery.scrollend"
