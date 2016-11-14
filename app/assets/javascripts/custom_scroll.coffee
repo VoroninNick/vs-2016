@@ -46,12 +46,12 @@ setSlide = (index = 0)->
   slide.addClass('visible')
   window.currentIndex = index
 
-slideSlides = ->
+slideSlides = (direction = "next")->
   slides.removeClass('visible')
-  slide = $home_slider.find(".home-portfolio-slide").eq(currentIndex)
-  slide_key = slide.attr("data-banner-key")
+  $slide = $home_slider.find(".home-portfolio-slide").eq(currentIndex)
+  slide_key = $slide.attr("data-banner-key")
   $home_slider.attr("active-slide", slide_key)
-  slide.addClass('visible')
+  $slide.addClass('visible')
 
 init = ()->
   window.$home_slider = $('.slider-container')
@@ -71,12 +71,16 @@ $document.on "page:load", init
 $(".page-section").on "move", (e)->
   #console.log "#{e.type}: ", arguments
 
-$document.on "mousewheel move", (e)->
-  #console.log "#{e.type}: "
+scroll_handler = (e, direction)->
+  console.log "#{e.type}: "
   if $(".full-page-container").length == 0 || (full_page_breakpoint || window.innerWidth < full_page_breakpoint)
     return true
 
-  down = e.deltaY < 0
+  handler_this = this
+  handler_args = arguments
+
+
+  down = e.deltaY < 0 || direction == "up"
   $active_section = $(".page-section.active")
   active_section_index = $active_section.index()
   active_section_one_screen = $active_section.hasClass("small-one-screen")
@@ -85,11 +89,13 @@ $document.on "mousewheel move", (e)->
   #console.log "prevent_default_scroll: ", prevent_default_scroll
   if prevent_default_scroll
     e.preventDefault()
-    1
+    defaultPrevented = true
+  else
+    defaultPrevented = false
 
 
-  if window.innerWidth < large_breakpoint && active_section_index == 2 && down
-    return true
+  #if window.innerWidth < large_breakpoint && active_section_index == 2 && down
+  #  return true
 
   delay("scroll",
     ()->
@@ -106,34 +112,69 @@ $document.on "mousewheel move", (e)->
         setSlide()
 
       not_last_slide = currentIndex < slidesQnt - 1
-
+      console.log "hello"
       if active_section_index == 1 && down
         if not_last_slide
           currentIndex += 1
           slideSlides()
-          e.preventDefault()
+          defaultPrevented = true
         else if down
           scroll("down")
         else
-          scroll("up")    
+          scroll("up")
       else if down
-        #
         if window.innerWidth >= large_breakpoint || (active_section_index <= 0)
           scroll("down")
       else
-        if window.innerWidth >= large_breakpoint
+        current_slide_index = $(".home-portfolio-slide.visible").index()
+        if active_section_index == 1 && current_slide_index > 0 && !down
+          slide_index = current_slide_index - 1
+          setSlide(slide_index)
+        else if active_section_index == 1 && current_slide_index == 0 && !down
+          scroll("up")
+          if window.innerWidth < large_breakpoint
+            defaultPrevented = true
+
+        else if window.innerWidth >= large_breakpoint
           scroll("up")
         else if currentIndex == 2 && scroll_top == 0
           scroll("up")
-          e.preventDefault()
+          defaultPrevented = true
+        #else if currentIndex == 1 && !down
+
+
 
 
       if active_section_index == 2 && !down
         setSlide(2)
 
-      console.log "down: ", down
+      if defaultPrevented
+        e.preventDefault()
 
+      e.defaultPrevented = defaultPrevented
+      $(this).data({ "allowPageScroll": false })
+      allowPageScroll = if !defaultPrevented then "vertical" else false
+      $("body").swipe('option', 'allowPageScroll', allowPageScroll)
+
+
+
+      #console.log "down: ", down
+      console.debug "this: ", handler_this, "; arguments: ", handler_args
+      console.debug "active_section_index: ", active_section_index, "; not_last_slide: ", not_last_slide, "; down: ", down, "; scroll_top: ", scroll_top, "; currentIndex: ", currentIndex
+      console.debug "defaultPrevented: ", defaultPrevented
     500
     true
     false
   )
+
+$document.on "mousewheel", scroll_handler
+
+
+
+$document.on "ready", ()->
+  $body = $("body")
+  if !$body.hasClass("initialized-swipe")
+    $body.addClass("initialized-swipe")
+    $body.swipe(
+      swipe: scroll_handler
+    )

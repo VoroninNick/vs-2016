@@ -33,3 +33,5 @@ asset "jquery.event.swipe"
 asset "jquery.event.move"
 
 asset "jquery-mobile"
+
+asset "jquery-touchswipe"

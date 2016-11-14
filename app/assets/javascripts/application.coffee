@@ -25,8 +25,9 @@
 #= require jquery_appear/jquery.appear
 #= require waypoints/lib/jquery.waypoints.min
 #= require jquery.counterup.min
-#= require jquery.event.move/js/jquery.event.move
-#= require jquery.event.swipe/js/jquery.event.swipe
+# require jquery.event.move/js/jquery.event.move
+# require jquery.event.swipe/js/jquery.event.swipe
+#= require jquery-touchswipe/jquery.touchSwipe.min
 #= require custom_scroll
 
 # require jquery.nicescroll/jquery.nicescroll.min
