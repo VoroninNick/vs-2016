@@ -3,7 +3,8 @@ class PagesController < ApplicationController
 
   def index
     @services = Service.published.sort_by_sorting_position
-    @enable_tubular = !File.exists?("/media/data/pasha")
+    #@enable_tubular = !File.exists?("/media/data/pasha")
+    @enable_tubular = request.host != "localhost"
     @footer = false
 
     #@featured_projects = [Project.first]
