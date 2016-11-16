@@ -1,4 +1,7 @@
 function onYouTubeIframeAPIReady(){
+    if (!window.YT){
+        return
+    }
     var callback_this = this, callback_args = arguments
     $(".youtube-video").each(function(){
         init_youtube_player.call(this, callback_this, callback_args)
