@@ -26,7 +26,7 @@ function home_onYouTubeIframeAPIReady(){
 
 function home_onPlayerStateChange(event){
     var state = event.data
-    console.log("onPlayerStateChange: state: ", state)
+    console.log("home_onPlayerStateChange: state: ", state)
     var state_str = youtube_player_states[state]
 
     $home_player_wrap.attr("data-state", state_str)
