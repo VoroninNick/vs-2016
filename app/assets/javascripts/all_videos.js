@@ -10,6 +10,12 @@ function onYouTubeIframeAPIReady(){
 
 function init_youtube_player(callback_this, callback_args){
     var $iframe = $(this)
+    if ($iframe.hasClass("ready-api")){
+        return
+    }
+
+    $iframe.addClass("ready-api")
+
     var iframe_id = $iframe.attr("id")
     var map = {
         "home-youtube-video-bg": "home",
@@ -19,7 +25,9 @@ function init_youtube_player(callback_this, callback_args){
     var key;
     //key = iframe_id.replace("-", "_")
     key = map[iframe_id]
+
     window[key + "_" + "onYouTubeIframeAPIReady"].apply(callback_this, callback_args)
 }
 
+onYouTubeIframeAPIReady()
 $document.on("page:load", onYouTubeIframeAPIReady)
