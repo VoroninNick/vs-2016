@@ -1,6 +1,9 @@
 var home_player, $home_player, home_player_id = "home-youtube-video-bg", $home_player_wrap;
+window.youtube_player_states = {"-1": "unstarted", "0": "ended", "1": "playing", "2": "paused", "3": "buffering", "5": "video_cued"}
+
 
 function home_onYouTubeIframeAPIReady(){
+    console.log("home_onYouTubeIframeAPIReady")
     $home_player = $("#" + home_player_id)
     $home_player_wrap = $home_player.parent()
     var w = window.innerWidth
@@ -20,7 +23,6 @@ function home_onYouTubeIframeAPIReady(){
     )
 }
 
-window.youtube_player_states = {"-1": "unstarted", "0": "ended", "1": "playing", "2": "paused", "3": "buffering", "5": "video_cued"}
 
 function home_onPlayerStateChange(event){
     var state = event.data
