@@ -1,5 +1,8 @@
+= youtube_video_popup(@full_video_key, "home-full-video", {controls: 1, showinfo: 1, autoplay: 0})
 .full-page-container
   #welcome-page-section.section.page-section.small-one-screen.active tubular="#{@enable_tubular}" tubular-video-id="o1prvOC1_90"
+    = youtube_video_iframe_block(@short_video_key, "home-youtube-video-bg")
+
     #welcome-block
       .inner
         .text-wrap
@@ -8,11 +11,11 @@
           = raw "<div class='white-header'>We create logos, corporate identity, websites, labels and packaging</div>"
 
 
-        a.icon-link.play-link href=""
+        .icon-link.play-link
           = inline_svg("svg/play.svg")
           span.icon-link-label
             |Watch video
-        a.icon-link.play-link href=""
+        a.icon-link href=projects_path
           = inline_svg("svg/portfolio.svg")
           span.icon-link-label
             |View portfolio

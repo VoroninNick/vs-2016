@@ -1,4 +1,12 @@
-$document.on "ready page:load", ->  
+$document.on "click", "[controller-action='pages__about_us'] .page-banner", ()->
+  $("body").addClass("has-opened-video-popup")
+  about_play()
+
+$document.on "click", "#about-video-popup-close-button", ()->
+  $("body").removeClass("has-opened-video-popup")
+  about_stop()
+
+$document.on "ready page:load", ->
   
   $image_container = $('.image-container')
   $image_container.find('.image-svg').appear()

@@ -45,5 +45,71 @@ module ApplicationHelper
     #parts = phone.split(/[\(\)]/)
 
   end
+
+  def youtube_video_iframe(video_key, iframe_id, options = {}, html_safe = true)
+    defaults = {
+        controls: 0,
+        showinfo: 0,
+        modestbranding: 1,
+        wmode: "transparent",
+        enablejsapi: 1,
+        widgetid: 1,
+        autoplay: 1,
+        autohide: 1,
+        loop: 1,
+        version: 3,
+        playlist: video_key
+    }
+    options = defaults.merge(options)
+    iframe_url_options = options
+
+    iframe_url_options_str = iframe_url_options.map{|k, v| "#{k}=#{v}" }.join("&")
+    iframe_url = "https://www.youtube.com/embed/#{video_key}?#{iframe_url_options_str}"
+    iframe_html_attributes = {
+        id: iframe_id,
+        frameborder: 0,
+        allowfullscreen: 1,
+        title: "YouTube video player",
+        width:  2048, # 1280
+        height: 1200, # 720
+        src: iframe_url,
+        class: "youtube-video"
+    }
+
+    iframe_html_attributes_str = iframe_html_attributes.map{|k, v| "#{k}='#{v}'" }.join(" ")
+    str = "<iframe #{iframe_html_attributes_str}></iframe>"
+    if html_safe
+      str.html_safe
+    else
+      str
+    end
+  end
+
+  def youtube_video_iframe_block(video_key, iframe_id, options = {}, html_safe = true)
+    iframe = youtube_video_iframe(video_key, iframe_id, options, false)
+    wrap_id = "#{iframe_id}-wrap"
+    overlay_id = "#{iframe_id}-overlay"
+    wrap_class = "youtube-video-wrap"
+    overlay_class = "youtube-video-overlay"
+    str = "<div class='#{wrap_class}' id='#{wrap_id}'>#{iframe}<div class='#{overlay_class}' id='#{overlay_id}'></div></div>"
+    if html_safe
+      str.html_safe
+    else
+      str
+    end
+  end
+
+  def youtube_video_popup(video_key, iframe_id, options = {}, html_safe = true)
+    block = youtube_video_iframe_block(video_key, iframe_id, options, false)
+    popup_id = "#{iframe_id}-popup"
+    popup_close_button_id = "#{iframe_id}-popup-close-button"
+    popup_close_button = "<div class='youtube-video-popup-close-button' id='#{popup_close_button_id}'>#{embedded_svg_from_assets("svg/vs-projects-popup-close-icon")}</div>"
+    str = "<div class='youtube-video-popup' id='#{popup_id}'>#{block}#{popup_close_button}</div>"
+    if html_safe
+      str.html_safe
+    else
+      str
+    end
+  end
 end
 

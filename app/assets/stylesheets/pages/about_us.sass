@@ -1,202 +1,242 @@
+.youtube-video-popup
+  display: none
+  z-index: 999999
+  position: fixed
+  top: 0
+  left: 0
+
+  iframe
+    width: 100vw
+    height: 100vh
+
+.youtube-video-popup-close-button
+  position: absolute
+  top: 30px
+  right: 30px
+  cursor: pointer
+
+  svg
+    width: 30px
+    height: 30px
+
+    path
+      +transition-duration(0.3s)
+      +transition-property(fill)
+
+  &:hover
+    svg
+      path
+        fill: $pink-color
+
+
+
+
+
+body.has-opened-video-popup
+  overflow: hidden
+
+  .youtube-video-popup
+    display: block
+
 .page-banner
-	[data-action="about_us"] &
-		cursor: asset_url("play-button.png"), auto
-	.play-link
-		.icon
-			background: $dark-white-color
-			border-radius: 50%
-			width: 60px
-			height: 60px
-			display: inline-block
-			@media #{$small-only}
-				width: 40px
-				height: 40px
+  [data-action="about_us"] &
+    cursor: asset_url("play-button.png"), auto
+  .play-link
+    .icon
+      background: $dark-white-color
+      border-radius: 50%
+      width: 60px
+      height: 60px
+      display: inline-block
+      @media #{$small-only}
+        width: 40px
+        height: 40px
 
-			svg
-				width: 30px
-				height: 30px
-				position: relative
-				top: 15px
-				left: 19px
-				@media #{$small-only}
-					width: 15px
-					height: 15px
-					top: 10px
-					left: 15px
+      svg
+        width: 30px
+        height: 30px
+        position: relative
+        top: 15px
+        left: 19px
+        @media #{$small-only}
+          width: 15px
+          height: 15px
+          top: 10px
+          left: 15px
 
-		.icon-link-label
-			line-height: 60px
-			+font-23
-			+italic
-			color: $dark-white-color
-			margin-left: 15px
-			@media #{$small-only}
-				font-size: 1em
-				margin-left: 5px
+    .icon-link-label
+      line-height: 60px
+      +font-23
+      +italic
+      color: $dark-white-color
+      margin-left: 15px
+      @media #{$small-only}
+        font-size: 1em
+        margin-left: 5px
 
 .intro-row
-	.image-svg
-		svg
-			width: 360px
-			+scale(0)
-			height: auto
-			+transition(1s)
-			max-width: 100%
-			display: inline-block
-			
-			//*
-				fill: $pink-color
-			@media #{$small-only}
-				width: 200px
-		&.visible
-			svg
-				+scale(1)
+  .image-svg
+    svg
+      width: 360px
+      +scale(0)
+      height: auto
+      +transition(1s)
+      max-width: 100%
+      display: inline-block
 
-	.intro-column
-		.header
-			margin: 20px 0 0 0
+      //*
+          fill: $pink-color
+      @media #{$small-only}
+        width: 200px
+    &.visible
+      svg
+        +scale(1)
+
+  .intro-column
+    .header
+      margin: 20px 0 0 0
 
 
 
-	+breakpoint(small only)
-		.intro-column
-			&:not(:first-child)
-				// margin-top: 160px
-				margin-top: 100px
+  +breakpoint(small only)
+    .intro-column
+      &:not(:first-child)
+        // margin-top: 160px
+        margin-top: 100px
 
 
 
 
 .image-container
-	text-align: center
-	height: 370px
+  text-align: center
+  height: 370px
 
 
 
 
 #principles
-	overflow: hidden
-	.blockquote-column
-		margin-top: 50px
+  overflow: hidden
+  .blockquote-column
+    margin-top: 50px
 
-	.principle
-		padding-top: 80px
-		padding-bottom: 0
-		float: left
-		clear: left
-		position: relative
-		opacity: 0
-		+translate(-25%,0)
-		+transition(2s)
-		+animation-timing-function(ease-in-out)
-		@media #{$small-only}
-			padding-top: 0
-		&.visible
-			opacity: 1
-			+translate(0,0)
-		.number-and-description
-			+flexbox
-			+flex-direction
-			position: relative
-		.number
-			left: 0
-			//top: 100px
-			width: 180px
-			height: 180px
-			position: relative
-			+large-number
-			display: inline-block
-			+align-self(center)
-		.description
-			+align-self(center)
-			padding-left: 70px
-			//min-height: 180px
-			+italic
-			display: inline-block
+  .principle
+    padding-top: 80px
+    padding-bottom: 0
+    float: left
+    clear: left
+    position: relative
+    opacity: 0
+    +translate(-25%,0)
+    +transition(2s)
+    +animation-timing-function(ease-in-out)
+    @media #{$small-only}
+      padding-top: 0
+    &.visible
+      opacity: 1
+      +translate(0,0)
+    .number-and-description
+      +flexbox
+      +flex-direction
+      position: relative
+    .number
+      left: 0
+      //top: 100px
+      width: 180px
+      height: 180px
+      position: relative
+      +large-number
+      display: inline-block
+      +align-self(center)
+    .description
+      +align-self(center)
+      padding-left: 70px
+      //min-height: 180px
+      +italic
+      display: inline-block
 
-		.footer
-			position: relative
-			height: 32px
-			margin-top: 45px
+    .footer
+      position: relative
+      height: 32px
+      margin-top: 45px
 
-			.icon
-				float: left
-				display: inline-block
-				width: 30px
-				height: 30px
-				margin: 0 25px 0 0
+      .icon
+        float: left
+        display: inline-block
+        width: 30px
+        height: 30px
+        margin: 0 25px 0 0
 
-				svg
-					max-width: 100%
-					max-height: 100%
-			.name
-				float: left
-				display: inline-block
-				text-transform: uppercase
-				vertical-align: top
-				z-index: 1
-				position: relative
-				+font-23
-				line-height: 30px
-				+normal
-				+fira-sans
-			.line
-				position: absolute
-				left: 55px
-				right: 0
-				top: 16px
-				height: 10px
-				background: white
-				width: 0
-				transition: all 1600ms cubic-bezier(0.23, 1, 0.32, 1)
-				transition-delay: 1s
-				&.animate
-					width: 100%
+        svg
+          max-width: 100%
+          max-height: 100%
+      .name
+        float: left
+        display: inline-block
+        text-transform: uppercase
+        vertical-align: top
+        z-index: 1
+        position: relative
+        +font-23
+        line-height: 30px
+        +normal
+        +fira-sans
+      .line
+        position: absolute
+        left: 55px
+        right: 0
+        top: 16px
+        height: 10px
+        background: white
+        width: 0
+        transition: all 1600ms cubic-bezier(0.23, 1, 0.32, 1)
+        transition-delay: 1s
+        &.animate
+          width: 100%
 
 
-	@media #{breakpoint(small only)}
-		.principle
-			.number
-				font-size: 60px
-				width: 60px
-				height: 60px
-				position: absolute
-				top: 0
+  @media #{breakpoint(small only)}
+    .principle
+      .number
+        font-size: 60px
+        width: 60px
+        height: 60px
+        position: absolute
+        top: 0
 
-			.description
-				padding-left: 90px
+      .description
+        padding-left: 90px
 
 .team-member-blocks
-	margin: 70px 0
+  margin: 70px 0
 
 #clients
-	.logo
-		display: block
-		float: left
-		width: 200px
-		height: 200px
-		padding: 20px
-		&:first-child
-			clear: left
-		@media #{$small-only}
-			width: 120px
-			height: 120px
-			padding: 0
+  .logo
+    display: block
+    float: left
+    width: 200px
+    height: 200px
+    padding: 20px
+    &:first-child
+      clear: left
+    @media #{$small-only}
+      width: 120px
+      height: 120px
+      padding: 0
 
-		svg
-			display: block
-			width: 160px
-			height: 160px
-			*
-				+transition(0.7s)
-			@media #{$small-only}
-				width: 120px
-				height: 120px
+    svg
+      display: block
+      width: 160px
+      height: 160px
+      *
+        +transition(0.7s)
+      @media #{$small-only}
+        width: 120px
+        height: 120px
 
-			*
-				fill: $light-gray-text-color
+      *
+        fill: $light-gray-text-color
 
-		&:hover
-			svg
-				*
-					fill: $pink-color
+    &:hover
+      svg
+        *
+          fill: $pink-color

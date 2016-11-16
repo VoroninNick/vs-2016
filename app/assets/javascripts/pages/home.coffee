@@ -69,3 +69,11 @@ $document.on "mouseenter", "#home-services-section .service", (e)->
 #  #auto: true
 #)
 
+$document.on "click", "#welcome-block .play-link", ()->
+  $("body").addClass("has-opened-video-popup")
+  home_full_play()
+
+
+$document.on "click", "#home-full-video-popup-close-button", ()->
+  $("body").removeClass("has-opened-video-popup")
+  home_full_stop()

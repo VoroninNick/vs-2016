@@ -3,6 +3,9 @@ Rails.application.routes.draw do
   devise_for :users
   mount Ckeditor::Engine => '/ckeditor'
   mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
+  scope "test", controller: "test" do
+    get "video_iframe"
+  end
 
 
   root as: "root_without_locale", to: "application#root_without_locale"

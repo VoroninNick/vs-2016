@@ -9,12 +9,17 @@ class PagesController < ApplicationController
 
     #@featured_projects = [Project.first]
 
+    @short_video_key = "o1prvOC1_90"
+    @full_video_key = "DbTt45aSX0U"
+
     set_project_banners
 
     set_page_metadata("home")
   end
 
   def about_us
+    @video_key = "DbTt45aSX0U"
+    #@video_key = "CguR68fwyyA"
     @page_banner_template = "about_us_banner"
     @page_banner = {
         bg_image: 'banners/inner-page-main-banners-v1-about-us.jpg',

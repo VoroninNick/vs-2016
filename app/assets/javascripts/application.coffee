@@ -1,4 +1,5 @@
 #= require console_history
+#= require functions
 #= require jquery/dist/jquery.min.js
 #= require jquery_ujs
 #= require turbolinks
@@ -69,3 +70,7 @@
 
 #= require components/project-navigation
 #= require page_navigation
+#= require home_video
+#= require home_full_video
+#= require about_video_popup
+#= require all_videos
