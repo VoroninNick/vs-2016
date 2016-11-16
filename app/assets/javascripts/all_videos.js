@@ -29,5 +29,5 @@ function init_youtube_player(callback_this, callback_args){
     window[key + "_" + "onYouTubeIframeAPIReady"].apply(callback_this, callback_args)
 }
 
-onYouTubeIframeAPIReady()
-$document.on("page:load", onYouTubeIframeAPIReady)
+
+$document.on("ready page:load", onYouTubeIframeAPIReady)
