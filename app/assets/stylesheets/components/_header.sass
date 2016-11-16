@@ -19,7 +19,8 @@
     position: absolute
 
   &.scrolled
-    background: $black-color
+    &.scroll-larger-than-header-height
+      background: $black-color
     #header-logo
       svg
         width: 130px
@@ -40,14 +41,21 @@
 
 #header-logo
   position: absolute
-  top: 30px
+  top: 36px
   left: 60px
   width: 140px
+
+  svg
+    width: 108px
+    height: 36px
+
   @media #{$small-only}
-    top: 5px
+    //top: 5px
+    top: 18px
     left: 25px
     svg
-      width: 120px
+      //width: 120px
+
 
 #svg-logo-symbol
   *
@@ -97,3 +105,24 @@ body:not(.has-opened-menu)
 body[controller-action="pages__index"]
   #header
     background: none !important
+
+body
+  &[controller-action="pages__index"]
+    &[data-full-page-section="1"], &[data-full-page-section="2"], &[data-full-page-section="3"]
+      #header-logo
+        display: none
+    &.has-opened-menu
+      #header-logo
+        display: block
+
+    &[data-full-page-section="1"]
+      &[home-active-slide="arazzinni"]
+        #main-menu-button
+          .inner
+            &, &:before, &:after
+              background-color: #876036
+
+          &:hover
+            .inner
+              &, &:before, &:after
+                background-color: $pink-color

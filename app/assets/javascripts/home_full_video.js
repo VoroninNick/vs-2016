@@ -1,7 +1,7 @@
 var home_full_player, $home_full_player, home_full_player_id = "home-full-video", $home_full_player_wrap;
 
 function home_full_onYouTubeIframeAPIReady(){
-    console.log("home_full_onYouTubeIframeAPIReady")
+    //console.log("home_full_onYouTubeIframeAPIReady")
     $home_full_player = $("#" + home_full_player_id)
     $home_full_player_wrap = $home_full_player.parent()
     var w = window.innerWidth
@@ -33,7 +33,7 @@ window.youtube_player_states = {"-1": "unstarted", "0": "ended", "1": "playing",
 
 function home_full_onPlayerStateChange(event){
     var state = event.data
-    console.log("home_full_onPlayerStateChange: state: ", state)
+    //console.log("home_full_onPlayerStateChange: state: ", state)
     var state_str = youtube_player_states[state]
 
     $home_full_player_wrap.attr("data-state", state_str)

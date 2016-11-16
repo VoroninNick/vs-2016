@@ -1,7 +1,7 @@
-$document.on "mouseenter mouseout", ".btn *", (e)->
+$document.on "mouseenter mouseout", ".btn *, .icon-btn *", (e)->
   e.stopImmediatePropagation()
 
-$document.on "mouseenter", ".btn", (e)->
+$document.on "mouseenter", ".btn, .icon-btn", (e)->
   e.stopPropagation()
 
   $button = $(this)
@@ -20,7 +20,7 @@ $document.on "mouseenter", ".btn", (e)->
 
 
 
-$document.on "mouseleave", ".btn", (e)->
+$document.on "mouseleave", ".btn, .icon-btn", (e)->
   e.stopPropagation()
   $button = $(this)
 

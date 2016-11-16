@@ -6,188 +6,237 @@ $arazzinni-black-color: #212121
 $arazzinni-gray-color: #414141
 
 #home-portfolio-section
-	height: 100vh
+  height: 100vh
+
+.home-slider-navigation
+  left: auto
+  right: 25px
+  padding: 30px
+  position: absolute
+  z-index: 3
+
+  .navigation-list-item
+    cursor: pointer
+
+    .title
+      opacity: 0.3
+      +font-18
+      width: 50px !important
+      text-align: right
+
+
+    &.active
+      cursor: default
+      .title
+        opacity: 1
+
+        text-align: left
+        left: -5px
+
+
+    &:after
+      width: 50px !important
 
 .slider-container
-	position: relative
-	height: 100%
-	width: 100%
-	overflow: hidden
+  position: relative
+  height: 100%
+  width: 100%
+  overflow: hidden
 
-	@media #{breakpoint(small only)}
-		height: 100vh
+  @media #{breakpoint(small only)}
+    height: 100vh
 
-	.slider-bg
-		height: 100%
-		width: 100%
-		position: absolute
-		+transition(0.5s)
-	.wing
-		position: absolute
-		left: -25px
-		top: -200px
-		width: 1200px
-		+transition(1s)
-	.home-slides
-	.home-portfolio-slide
-		position: absolute
-		top: 0
-		left: 0
-		width: 100%
-		height: 100%
-		.hero
-			position: absolute
-			opacity: 0
-		.project-description-block
-			position: absolute
-			right: 0
-			width: 430px
-			top: 200px
-			opacity: 0
-			+translate(50%,0)
-			@media #{$xlarge-only}
-				right: 100px
-			@media #{$xxlarge-up}
-				right: 300px
-			.title
-				color: white
-				+font-60
-				sup
-					color: $radok-red-orange-color
-			.description
-				color: white
-			.service-icons
-			.service-icon
-				display: inline-block
-				margin-right: 20px
-				svg
-					width: 40px
-					height: 40px
-					*
-						opacity: 1
-						fill: $radok-red-orange-color
-		// .hero
-		// 	top: 100px
-		// 	left: 100px
-		// 	+translate(0,50%)
-		&.visible
-			.project-description-block
-				+transition(1s)
-				opacity: 1
-				+translate(0,0)
-			// .hero
-			// 	+transition(1s)
-			// 	opacity: 1
-			// 	+translate(0,0)
+  .slider-bg
+    height: 100%
+    width: 100%
+    position: absolute
+    +transition(0.5s)
+  .wing
+    position: absolute
+    left: -25px
+    top: -200px
+    width: 1200px
+    +transition(1s)
+  .home-slides
+  .home-portfolio-slide
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    .hero
+      position: absolute
+      opacity: 0
+    .project-description-block
+      z-index: 1
+      position: absolute
+      right: 0
+      width: 430px
+      top: 200px
+      opacity: 0
+      +translate(50%,0)
+      @media #{$xlarge-only}
+        right: 100px
+      @media #{$xxlarge-up}
+        right: 300px
+      .title
+        color: white
+        +font-60
+        padding: 24px 10px 10px 0
+        sup
+          color: $radok-red-orange-color
+      .description
+        color: white
+      .service-icons
+      .service-icon
+        display: inline-block
+        margin-right: 20px
+        svg
+          width: 40px
+          height: 40px
+          *
+            opacity: 1
+            fill: $radok-red-orange-color
+    // .hero
+    // 	top: 100px
+    // 	left: 100px
+    // 	+translate(0,50%)
+    &.visible
+      z-index: 2
+      .project-description-block
+        +transition(1s)
+        opacity: 1
+        +translate(0,0)
+    // .hero
+    // 	+transition(1s)
+    // 	opacity: 1
+    // 	+translate(0,0)
 
-		@media #{breakpoint(small only)}
-			height: 100vh
-			overflow: hidden
-			.project-description-block
-				position: relative
-				right: auto
-				top: auto
-				width: 100%
-				margin: 140px 0 0 0
-				text-align: center
-				z-index: 2
+    @media #{breakpoint(small only)}
+      height: 100vh
+      overflow: hidden
+      .project-description-block
+        position: relative
+        right: auto
+        top: auto
+        width: 100%
+        margin: 140px 0 0 0
+        text-align: center
+        z-index: 2
 
-			.hero
-				position: absolute
-				width: 200%
-				max-width: none
-				top: 20%
-				left: -50%
+      .hero
+        position: absolute
+        width: 200%
+        max-width: none
+        top: 20%
+        left: -50%
 
-			.service-icons
-				display: none
+      .service-icons
+        display: none
 
-
-.slider-container
-	&[active-slide="10g-force"]
-		.slider-bg
-			background: $black-color
-		.wing
-			fill: $radok-red-orange-color
-		.home-portfolio-slide
-			.project-description-block
-				.service-icon
-					svg
-						*
-							fill: $radok-red-orange-color
-				.title
-					sup
-						color: $radok-red-orange-color
-			.hero
-				top: 100px
-				left: -200px
-				+translate(0,50%)
-				@media #{$xlarge-only}
-					left: -100px
-				@media #{$xxlarge-up}
-					left: 100px
-			&.visible
-				.hero
-					+transition(1s)
-					opacity: 1
-					+translate(0,0)
 
 .slider-container
-	&[active-slide="plit"]
-		.slider-bg
-			background: $plit-gray-color
-		.wing
-			fill: $plit-green-color
-		.home-portfolio-slide
-			.project-description-block
-				.service-icon
-					svg
-						*
-							fill: $plit-green-color
-				.title
-					sup
-						color: $plit-green-color
-			.hero
-				bottom: 0
-				left: -100px
-				// +translate(-50%,0)
-				@media #{$xxlarge-up}
-					left: 0
-			&.visible
-				.hero
-					+transition(1s)
-					opacity: 1
-					+translate(0,0)
+  &[active-slide="10g-force"]
+    .slider-bg
+      background: $black-color
+    .wing
+      fill: $radok-red-orange-color
+    .home-portfolio-slide
+      .project-description-block
+        .service-icon
+          svg
+            *
+              fill: $radok-red-orange-color
 
-	&[active-slide="arazzinni"]
-		.slider-bg
-			background: white
-		.wing
-			fill: $arazzinni-brown-color
-		.home-portfolio-slide
-			.project-description-block
-				.service-icon
-					svg
-						*
-							fill: $arazzinni-brown-color
-				.title
-					color: $arazzinni-black-color
-					sup
-						color: $arazzinni-brown-color
-				.description
-					color: $arazzinni-gray-color
-			.hero
-				top: 100px
-				left: -200px
-				// +translate(0,50%)
-				@media #{$xlarge-only}
-					top: 50px
-					left: -250px
-				@media #{$xxlarge-up}
-					top: 50px
-					left: -100px
-			&.visible
-				.hero
-					+transition(1s)
-					opacity: 1
-					+translate(0,0)
+          &:hover
+            svg
+              *
+                fill: #59c8e6
+        .title
+          sup
+            color: $radok-red-orange-color
+          &:hover
+            &
+              color: #59c8e6
+            sup
+              color: #ffaa2c
+      .hero
+        top: 100px
+        left: -200px
+        +translate(0,50%)
+        @media #{$xlarge-only}
+          left: -100px
+        @media #{$xxlarge-up}
+          left: 100px
+      &.visible
+        .hero
+          +transition(1s)
+          opacity: 1
+          +translate(0,0)
+
+.slider-container
+  &[active-slide="plit"]
+    .slider-bg
+      background: $plit-gray-color
+    .wing
+      fill: $plit-green-color
+    .home-portfolio-slide
+      .project-description-block
+        .service-icon
+          svg
+            *
+              fill: $plit-green-color
+        .title
+          sup
+            color: $plit-green-color
+      .hero
+        bottom: 0
+        left: -100px
+        // +translate(-50%,0)
+        @media #{$xxlarge-up}
+          left: 0
+      &.visible
+        .hero
+          +transition(1s)
+          opacity: 1
+          +translate(0,0)
+
+  &[active-slide="arazzinni"]
+    .slider-bg
+      background: white
+    .wing
+      fill: $arazzinni-brown-color
+    .navigation-list
+      .navigation-list-item
+        .title
+          color: $arazzinni-brown-color
+        &:after
+          background: rgba($arazzinni-brown-color, 0.6)
+    .home-portfolio-slide
+
+      .project-description-block
+        .service-icon
+          svg
+            *
+              fill: $arazzinni-brown-color
+        .title
+          color: $arazzinni-black-color
+          sup
+            color: $arazzinni-brown-color
+        .description
+          color: $arazzinni-gray-color
+      .hero
+        top: 100px
+        left: -200px
+        // +translate(0,50%)
+        @media #{$xlarge-only}
+          top: 50px
+          left: -250px
+        @media #{$xxlarge-up}
+          top: 50px
+          left: -100px
+      &.visible
+        .hero
+          +transition(1s)
+          opacity: 1
+          +translate(0,0)

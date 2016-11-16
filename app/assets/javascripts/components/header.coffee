@@ -78,21 +78,24 @@ handle_scroll = (e)->
       $banner_title.css("transform", "translateY(#{future_translate}px)")
 
 
-$document.on "ready page:load", ->
-  $("body").on "mouseover", "#{header_selector}.scrolled, div.top-nav.scrolled *", ()->
-    window.top_nav_locked = true
+#
 
-  $("body").on "mouseout", "#{header_selector}.scrolled", (e)->
-    $target = $(e.relatedTarget)
-    if $target.closest(".navigationleft").length == 0 && $target.closest(".header-logo").length == 0
-      window.top_nav_locked = false
-      if auto_close
-        setClosingTimeout.apply($(header_selector))
+$document.on "mouseover", "#{header_selector}.scrolled, div.top-nav.scrolled *", ()->
+  window.top_nav_locked = true
+
+$document.on "mouseout", "#{header_selector}.scrolled", (e)->
+  $target = $(e.relatedTarget)
+  if $target.closest(".navigationleft").length == 0 && $target.closest(".header-logo").length == 0
+    window.top_nav_locked = false
+    if auto_close
+      setClosingTimeout.apply($(header_selector))
 
 $(window).on "scrolldelta", handle_scroll
 
 handle_scroll(0)
 
+$document.on "page:load", ->
+  handle_scroll(0)
 
 use_custom_scroll_speed = false
 

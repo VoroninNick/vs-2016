@@ -1,137 +1,137 @@
 body.theme-10g-force
-	$theme-10g-force-yellow-color: rgb(255, 170, 44)
-	$theme-10g-force-red-yellow-color: rgb(239, 80, 35)
-	$theme-10g-force-sky-blue-color: rgb(89, 200, 230)
-	$theme-10g-force-blue-color: rgb(44, 171, 225)
-	//+theme($blue-color)
-	//+theme(#00c6f2)
-	//+theme(rgb(89, 200, 230), #FFA500)
-	+theme($theme-10g-force-sky-blue-color, $theme-10g-force-yellow-color, $theme-10g-force-red-yellow-color,$technology-color: $theme-10g-force-yellow-color,$project-bottom-banner-title-color: $theme-10g-force-red-yellow-color,$button-lines-color: $theme-10g-force-red-yellow-color, $desktop-slider-background-color: $theme-10g-force-red-yellow-color)
+  $theme-10g-force-yellow-color: rgb(255, 170, 44)
+  $theme-10g-force-red-yellow-color: rgb(239, 80, 35)
+  $theme-10g-force-sky-blue-color: rgb(89, 200, 230)
+  $theme-10g-force-blue-color: rgb(44, 171, 225)
+  //+theme($blue-color)
+  //+theme(#00c6f2)
+  //+theme(rgb(89, 200, 230), #FFA500)
+  +theme($theme-10g-force-sky-blue-color, $theme-10g-force-yellow-color, $theme-10g-force-red-yellow-color,$technology-color: $theme-10g-force-yellow-color,$project-bottom-banner-title-color: $theme-10g-force-red-yellow-color,$button-lines-color: $theme-10g-force-red-yellow-color, $desktop-slider-background-color: $theme-10g-force-red-yellow-color)
 
-	.yellow-bg
-		background: $theme-10g-force-yellow-color
+  .yellow-bg
+    background: $theme-10g-force-yellow-color
 
-	.red-yellow-bg
-		background: $theme-10g-force-red-yellow-color
+  .red-yellow-bg
+    background: $theme-10g-force-red-yellow-color
 
-	.sky-blue-bg
-		background: $theme-10g-force-sky-blue-color
+  .sky-blue-bg
+    background: $theme-10g-force-sky-blue-color
 
-	.blue-bg
-		background: $theme-10g-force-blue-color
+  .blue-bg
+    background: $theme-10g-force-blue-color
 
-	.logo-column
-		position: relative
-		height: 500px
-		img
-			position: absolute
-			width: 150%
-			max-width: 1000px
-			max-width: none
-			right: 0
-			top: 50%
-			+translate(0,-50%)
-		@media #{$small-only}
-			height: 200px
-			img
-				right: -50px
+  .logo-column
+    position: relative
+    height: 500px
+    img
+      position: absolute
+      width: 150%
+      max-width: 1000px
+      max-width: none
+      right: 0
+      top: 50%
+      +translate(0,-50%)
+    @media #{$small-only}
+      height: 200px
+      img
+        right: -50px
 
-	.logo-color
-		margin-bottom: 20px
-		.circle
-			display: inline-block
-			width: 60px
-			height: 60px
-			border-radius: 50%
-		.description
-			font-style: italic
-			line-height: 1.125rem
-			margin-top: 10px
+  .logo-color
+    margin-bottom: 20px
+    .circle
+      display: inline-block
+      width: 60px
+      height: 60px
+      border-radius: 50%
+    .description
+      font-style: italic
+      line-height: 1.125rem
+      margin-top: 10px
 
-	.mono-colored-logos
-		.logo
-			background: white
-			svg
-			@media #{$small-only}
-				padding-top: 25px
-				padding-bottom: 25px
-			@media #{$medium-up}
-				padding-top: 35px
-				padding-bottom: 35px
-			@media #{$xlarge-up}
-				padding-top: 75px
-				padding-bottom: 75px
-
-
-			&:nth-child(1n)
-				svg
-					width: 100px
-					height: 150px
-
-			&:nth-child(1n+4)
-				background: #212121
-				svg
-					width: 150px
-					height: 100px
-				@media #{$small-only}
-					padding-top: 25px
-					padding-bottom: 25px
-				@media #{$medium-up}
-					padding-top: 35px
-					padding-bottom: 35px
-				@media #{$xlarge-up}
-					padding-top: 100px
-					padding-bottom: 100px
+  .mono-colored-logos
+    .logo
+      background: white
+      svg
+      @media #{$small-only}
+        padding-top: 25px
+        padding-bottom: 25px
+      @media #{$medium-up}
+        padding-top: 35px
+        padding-bottom: 35px
+      @media #{$xlarge-up}
+        padding-top: 75px
+        padding-bottom: 75px
 
 
-	.project-used-icons
-		background: asset_url("projects/10g-force/icons-bg.jpg")
-		img
-			max-width: 300px
+      &:nth-child(1n)
+        svg
+          width: 100px
+          height: 150px
+
+      &:nth-child(1n+4)
+        background: #212121
+        svg
+          width: 150px
+          height: 100px
+        @media #{$small-only}
+          padding-top: 25px
+          padding-bottom: 25px
+        @media #{$medium-up}
+          padding-top: 35px
+          padding-bottom: 35px
+        @media #{$xlarge-up}
+          padding-top: 100px
+          padding-bottom: 100px
 
 
-	.project-bottom-banner
-		background-color: white
-		.banner-image-container
-			img
-				position: absolute
-				right: 0
-				width: 150%
-				max-width: 800px
+  .project-used-icons
+    background: asset_url("projects/10g-force/icons-bg.jpg")
+    img
+      max-width: 300px
 
-				animation: animationFrames linear 30s
-				animation-iteration-count: infinite
-				-webkit-animation: animationFrames linear 30s
-				-webkit-animation-iteration-count: infinite
-				-moz-animation: animationFrames linear 30s
-				-moz-animation-iteration-count: infinite
-				-o-animation: animationFrames linear 30s
-				-o-animation-iteration-count: infinite
-				-ms-animation: animationFrames linear 30s
-				-ms-animation-iteration-count: infinite
 
-				@media #{$small-only}
-					width: 100%
-					+scale(1.2)
+  .project-bottom-banner
+    background-color: white
+    .banner-image-container
+      img
+        position: absolute
+        right: 0
+        width: 150%
+        max-width: 800px
+
+        animation: animationFrames linear 30s
+        animation-iteration-count: infinite
+        -webkit-animation: animationFrames linear 30s
+        -webkit-animation-iteration-count: infinite
+        -moz-animation: animationFrames linear 30s
+        -moz-animation-iteration-count: infinite
+        -o-animation: animationFrames linear 30s
+        -o-animation-iteration-count: infinite
+        -ms-animation: animationFrames linear 30s
+        -ms-animation-iteration-count: infinite
+
+        @media #{$small-only}
+          width: 100%
+          +scale(1.2)
 
 @keyframes animationFrames
-	0%
-		-webkit-transform: rotate(0deg) translateX(50px) rotate(0deg) scale(1)
-	10%
-		-webkit-transform: rotate(41deg) translateX(48px) rotate(-40deg) scale(1.03)
-	30%
-		-webkit-transform: rotate(82deg) translateX(42px) rotate(-80deg) scale(1.05)
-	40%
-		-webkit-transform: rotate(121deg) translateX(39px) rotate(-120deg) scale(1.07)
-	50%
-		-webkit-transform: rotate(158deg) translateX(43px) rotate(-160deg) scale(1.05)
-	60%
-		-webkit-transform: rotate(196deg) translateX(48px) rotate(-200deg) scale(1.01)
-	70%
-		-webkit-transform: rotate(239deg) translateX(52px) rotate(-240deg) scale(0.99)
-	80%
-		-webkit-transform: rotate(282deg) translateX(54px) rotate(-280deg) scale(0.97)
-	90%
-		-webkit-transform: rotate(321deg) translateX(52px) rotate(-320deg) scale(0.98)
-	100%
-		-webkit-transform: rotate(360deg) translateX(50px) rotate(-360deg) scale(1)
+  0%
+    -webkit-transform: rotate(0deg) translateX(50px) rotate(0deg) scale(1)
+  10%
+    -webkit-transform: rotate(41deg) translateX(48px) rotate(-40deg) scale(1.03)
+  30%
+    -webkit-transform: rotate(82deg) translateX(42px) rotate(-80deg) scale(1.05)
+  40%
+    -webkit-transform: rotate(121deg) translateX(39px) rotate(-120deg) scale(1.07)
+  50%
+    -webkit-transform: rotate(158deg) translateX(43px) rotate(-160deg) scale(1.05)
+  60%
+    -webkit-transform: rotate(196deg) translateX(48px) rotate(-200deg) scale(1.01)
+  70%
+    -webkit-transform: rotate(239deg) translateX(52px) rotate(-240deg) scale(0.99)
+  80%
+    -webkit-transform: rotate(282deg) translateX(54px) rotate(-280deg) scale(0.97)
+  90%
+    -webkit-transform: rotate(321deg) translateX(52px) rotate(-320deg) scale(0.98)
+  100%
+    -webkit-transform: rotate(360deg) translateX(50px) rotate(-360deg) scale(1)

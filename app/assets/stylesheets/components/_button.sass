@@ -1,89 +1,142 @@
 +keyframes(button-animation-over)
-	0%
-		width: 25%
-	0%, 50%
-		height: 3px
-	25%
-		width: 100%
-	100%
-		height: 50%
+  0%
+    width: 25%
+  0%, 50%
+    height: 3px
+  25%
+    width: 100%
+  100%
+    height: 50%
+
++keyframes(button-animation-vertical-over)
+  0%, 50%
+    height: 0
+  100%
+    height: 50%
 
 +keyframes(button-animation-out)
-	0%
-		height: 50%
-	0%, 75%
-		width: 100%
-	50%, 100%
-		height: 3px
-	100%
-		width: 25%
+  0%
+    height: 50%
+  0%, 75%
+    width: 100%
+  50%, 100%
+    height: 3px
+  100%
+    width: 25%
 
++keyframes(button-animation-vertical-out)
+  0%, 50%
+    height: 50%
+  100%
+    height: 0
+
+
+
+= button-content
+  position: relative
+  z-index: 1
+
+= button-lines($line-width: 25%, $line-color: $pink-color, $start-line-height: 3px, $button-animation-name: button-animation-over, $button-animation-duration: 0.8s)
+  &:before, &:after
+    content: ""
+    width: $line-width
+    display: block
+    background: $line-color
+    height: $start-line-height
+    position: absolute
+
+  &:before
+    top: 0
+    left: 0
+
+  &:after
+    bottom: 0
+    right: 0
+
+  &:hover
+    &:before, &:after
+      width: 100%
+      height: 50%
+      +animation-name($button-animation-name)
+      +animation-duration($button-animation-duration)
+
+
+= lines-button-out($line-width: 25%, $line-height: 3px, $button-animation-name: button-animation-out, $button-animation-duration: 0.8s)
+  &:before, &:after
+    width: $line-width
+    height: $line-height
+    +animation-name($button-animation-name)
+    +animation-duration($button-animation-duration)
+
+= white-lines-button
+  &:before, &:after
+    background: $dark-white-color
+
+= white-lines-button-hover
+  &:hover
+    color: $pink-color
 
 
 .btn
 
-	padding: 0 22px
-	height: 47px
-	line-height: 47px
-	color: $black-color
-	text-transform: lowercase
-	text-decoration: none
-	text-align: center
-	display: inline-block
-	position: relative
-	+font-20
-	+fira-sans
+  padding: 0 22px
+  height: 47px
+  line-height: 47px
+  color: $black-color
+  text-transform: lowercase
+  text-decoration: none
+  text-align: center
+  display: inline-block
+  position: relative
+  +font-20
+  +fira-sans
 
-	span
-		position: relative
-		z-index: 1
-
-
-	&:before, &:after
-		content: ""
-		width: 25%
-		display: block
-		background: $pink-color
-		height: 3px
-		position: absolute
-
-	&:before
-		top: 0
-		left: 0
-
-	&:after
-		bottom: 0
-		right: 0
-
-	&.light
-		background: $dark-white-color
-
-	&, &.dark
-		background: $black-color
-		color: $dark-white-color
+  span
+    +button-content
 
 
-	&.white-lines
-		&:before, &:after
-			background: $dark-white-color
+  +button-lines
+
+  &.light
+    background: $dark-white-color
+
+  &, &.dark
+    background: $black-color
+    color: $dark-white-color
+
+
+  &.white-lines
+    +white-lines-button
 
 
 
-	&.btn-hire-us
+  &.btn-hire-us
 
-	&:hover
-		&:before, &:after
-			width: 100%
-			height: 50%
-			+animation-name(button-animation-over)
-			+animation-duration(0.8s)
 
-	&.white-lines
-		&:hover
-			color: $pink-color
-	&.out
-		&:before, &:after
-			width: 25%
-			height: 3px
-			+animation-name(button-animation-out)
-			+animation-duration(0.8s)
+
+  &.white-lines
+    +white-lines-button-hover
+  &.out
+    +lines-button-out
+
+.icon-btn
+  +button-lines($line-width: 100%, $start-line-height: 0, $button-animation-name: button-animation-vertical-over, $button-animation-duration: 0.8s)
+  //+white-lines-button
+  //+white-lines-button-hover
+
+  svg
+    +button-content
+    position: absolute
+
+    path
+      +transition-property(fill)
+      +transition-duration(0.4s)
+
+  &:hover
+    svg
+      path
+        fill: white
+
+
+  &.out
+    +lines-button-out(100%, 0, $button-animation-name: button-animation-vertical-out, $button-animation-duration: 0.8s)

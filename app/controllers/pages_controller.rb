@@ -114,9 +114,10 @@ class PagesController < ApplicationController
           title_sup: project_translation.banner_title_sup,
           short_description: project_translation.short_description,
           image_url: image_url,
-          service_icons: p.services.map {|s| s.icon.path  },
+          service_icons: p.services.map {|s| {icon_path: s.icon.path, service_url: s.url }  },
           key: p.code_name,
-          swing: p.show_swing_on_home_banner
+          swing: p.show_swing_on_home_banner,
+          project_url: p.url
       }
     end
   end

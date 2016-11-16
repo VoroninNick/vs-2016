@@ -27,7 +27,7 @@ footer#footer
   #sub-footer-row.row
     #sub-footer-social
       - footer_social_links.each do |social|
-        a.social-link href=social[:url]
+        a.social-link.icon-btn href=social[:url]
           = inline_svg social[:icon]
     #sub-footer-copyright
       |&copy;2006 &mdash; #{Date.today.year} Voronin Design Studio. All rights reserved.

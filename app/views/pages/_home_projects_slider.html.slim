@@ -3,6 +3,14 @@
   .slider-bg
   .wing
     = embedded_svg_from_assets "svg/vs-banner-bg-wing.svg"
+  .navigation-list.home-slider-navigation
+    .inner
+      - @project_banners.each_with_index do |banner, index|
+        .navigation-list-item data-slide-index=index
+          .title
+            = "0#{index + 1}"
+
+
 
   .home-slides
     - @project_banners.each_with_index do |banner, index|
@@ -10,10 +18,11 @@
         .project-description-block
           .service-icons
             - banner[:service_icons].each do |icon|
-              .service-icon
-                = embedded_svg_from_absolute_path(icon)
+              a.service-icon href=icon[:service_url]
+                = embedded_svg_from_absolute_path(icon[:icon_path])
 
-          .title
+
+          a.title href=banner[:project_url]
             = banner[:title]
             - if banner[:title_sup].present?
               sup
@@ -22,3 +31,4 @@
             = banner[:short_description]
 
         img.hero src=banner[:image_url]
+

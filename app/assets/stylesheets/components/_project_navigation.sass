@@ -1,70 +1,70 @@
-.project-navigation
-	position: fixed
-	top: 50%
-	left: 0
-	+transform(translateY(-50%))
-	z-index: $zindex-project-navigation
+.navigation-list
+  position: fixed
+  top: 50%
+  left: 0
+  +transform(translateY(-50%))
+  z-index: $zindex-project-navigation
 
-	@media #{$small-only}
-		display: none
-	@media #{$medium-only}
-		display: none
-	@media #{$landscape}
-		display: none
-
-
-	> .inner
-		position: relative
-
-	.project-navigation-link
-		clear: left
-		float: left
-		display: block
-		position: relative
-		+fira-sans
-		font-size: 14px
-		letter-spacing: 1px
-		padding: 5px 0
-
-		&:after
-			content: ""
-			width: 50px
-			+transition-duration(0.5s)
-			+transition-property(all)
-			background: rgba(#fff, 0.6)
-			position: absolute
-			height: 2px
-			bottom: 0
-		.title
-			opacity: 0
-			color: #fff
-			+transition-delay(0.1s)
-			+transition-duration(0.5s)
-			+transition-property(all)
-			font-weight: 300
-			position: relative
-			top: 3px
-
-		&:hover
-			&:after
-				width: 100%
-			.title
-				opacity: 0.6
-		&.active
-			&:after
-				width: 100%
-				background: #fff
-			.title
-				opacity: 1
+  @media #{$small-only}
+    display: none
+  @media #{$medium-only}
+    display: none
+  @media #{$landscape}
+    display: none
 
 
-	&.dark
-		.project-navigation-link
-			.title
-				color: #212121
+  > .inner
+    position: relative
 
-			&:after
-				background: rgba(#212121, 0.6)
-			&.active
-				&:after
-					background: rgba(#212121, 1)
+  .navigation-list-item
+    clear: left
+    float: left
+    display: block
+    position: relative
+    +fira-sans
+    font-size: 14px
+    letter-spacing: 1px
+    padding: 5px 0
+
+    &:after
+      content: ""
+      width: 50px
+      +transition-duration(0.5s)
+      +transition-property(all)
+      background: rgba(#fff, 0.6)
+      position: absolute
+      height: 2px
+      bottom: 0
+    .title
+      opacity: 0
+      color: #fff
+      +transition-delay(0.1s)
+      +transition-duration(0.5s)
+      +transition-property(all)
+      font-weight: 300
+      position: relative
+      top: 3px
+
+    &:hover
+      &:after
+        width: 100%
+      .title
+        opacity: 0.6
+    &.active
+      &:after
+        width: 100%
+        background: #fff
+      .title
+        opacity: 1
+
+
+  &.dark
+    .project-navigation-link
+      .title
+        color: #212121
+
+      &:after
+        background: rgba(#212121, 0.6)
+      &.active
+        &:after
+          background: rgba(#212121, 1)

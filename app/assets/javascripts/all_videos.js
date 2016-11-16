@@ -1,5 +1,5 @@
 function onYouTubeIframeAPIReady(){
-    console.log("onYouTubeIframeAPIReady")
+    //console.log("onYouTubeIframeAPIReady")
     if (!window.YT || !YT.Player){
         console.log("onYouTubeIframeAPIReady: return")
         return

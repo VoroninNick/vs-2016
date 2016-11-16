@@ -6,6 +6,7 @@ large_breakpoint = 1025
 
 
 $document.on "ready page:load", ->
+  $("body").attr("data-full-page-section", 0)
   $(".full-page-container .page-section").first().addClass("active")
 
 scroll = (direction = "down")->
@@ -30,6 +31,7 @@ scroll = (direction = "down")->
     $next_section.addClass("active")
 
   next_section_index = $next_section.index()
+  $("body").attr("data-full-page-section", next_section_index)
 
   if next_section_index == 1 && direction == "up" && window.innerWidth < large_breakpoint
     $window.scrollTop(0)
@@ -37,13 +39,19 @@ scroll = (direction = "down")->
   #if $next_section.hasClass("fp-auto-height")
   #  $next_section("")
 
-
+setHomeSliderNavigationListItem = (index = 0)->
+  $home_slider_navigation_items = $(".home-slider-navigation .navigation-list-item")
+  $home_slider_navigation_items.filter(".active").removeClass("active")
+  $home_slider_navigation_items.filter("[data-slide-index='#{index}']").addClass("active")
 
 setSlide = (index = 0)->
   slide = $home_slider.find(".home-portfolio-slide").removeClass('visible').eq(index)
   slide_key = slide.attr("data-banner-key")
+
   $home_slider.attr("active-slide", slide_key)
+  $("body").attr("home-active-slide", slide_key)
   slide.addClass('visible')
+  setHomeSliderNavigationListItem(index)
   window.currentIndex = index
 
 slideSlides = (direction = "next")->
@@ -51,7 +59,12 @@ slideSlides = (direction = "next")->
   $slide = $home_slider.find(".home-portfolio-slide").eq(currentIndex)
   slide_key = $slide.attr("data-banner-key")
   $home_slider.attr("active-slide", slide_key)
+  $("body").attr("home-active-slide", slide_key)
   $slide.addClass('visible')
+  slide_index = $slide.index()
+  setHomeSliderNavigationListItem(slide_index)
+
+
 
 init = ()->
   window.$home_slider = $('.slider-container')
@@ -178,3 +191,8 @@ $document.on "ready", ()->
     $body.swipe(
       swipe: scroll_handler
     )
+
+
+$document.on "click", ".home-slider-navigation .navigation-list-item:not(.active)", ()->
+  index = $(this).attr("data-slide-index")
+  setSlide(index)

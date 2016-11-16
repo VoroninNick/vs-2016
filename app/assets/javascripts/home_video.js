@@ -3,7 +3,7 @@ window.youtube_player_states = {"-1": "unstarted", "0": "ended", "1": "playing",
 
 
 function home_onYouTubeIframeAPIReady(){
-    console.log("home_onYouTubeIframeAPIReady")
+    //console.log("home_onYouTubeIframeAPIReady")
     $home_player = $("#" + home_player_id)
     $home_player_wrap = $home_player.parent()
     var w = window.innerWidth
@@ -26,7 +26,7 @@ function home_onYouTubeIframeAPIReady(){
 
 function home_onPlayerStateChange(event){
     var state = event.data
-    console.log("home_onPlayerStateChange: state: ", state)
+    //console.log("home_onPlayerStateChange: state: ", state)
     var state_str = youtube_player_states[state]
 
     $home_player_wrap.attr("data-state", state_str)
@@ -37,6 +37,6 @@ function home_onError(){
 }
 
 function home_onPlayerReady(){
-    console.log("home_onPlayerReady")
+    //console.log("home_onPlayerReady")
     home_onPlayerStateChange({data: "1"})
 }
