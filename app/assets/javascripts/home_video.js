@@ -37,5 +37,6 @@ function home_onError(){
 }
 
 function home_onPlayerReady(){
-
+    console.log("home_onPlayerReady")
+    home_onPlayerStateChange({data: "1"})
 }
