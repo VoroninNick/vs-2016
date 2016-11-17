@@ -20,7 +20,11 @@ Rails.application.routes.draw do
 
     resources :services, only: [:index, :show]
 
-    resources :articles, only: [:index, :show]
+    scope :articles, controller: :articles do
+      root as: :articles, action: :index
+      get "filters/:filters", as: :articles_filters, action: :index_with_filters
+      get ":id", as: :article, action: :root
+    end
 
     scope :projects, controller: "projects" do
       root action: :index, as: :projects
@@ -48,6 +52,10 @@ Rails.application.routes.draw do
       scope :projects, controller: "projects" do
         root action: :index, as: :ajax_projects
         get ":id", action: "show", as: :ajax_project_or_category
+      end
+
+      scope :articles, controller: :articles do
+        get "filters/*filters", as: :ajax_articles_filters, action: :index_with_filters
       end
     end
   end

@@ -3,8 +3,7 @@ class ArticlesController < ApplicationController
   before_action :initialize_article, only: :show
 
   def index
-
-    @tags = Cms::Tag.all
+    @tags = Cms::Tag.all.joins(:articles).where(articles: { published: "t" })
     @authors = User.authors
 
 
@@ -19,6 +18,26 @@ class ArticlesController < ApplicationController
         ],
         scroll_down_title: "view all"
     }
+
+
+  end
+
+  def index_with_filters
+
+    filters = Hash[params[:filters].split("___").map{|param| k,v = param.split("__"); [k.to_sym, v] }]
+
+    tags = filters[:tags].present? ? filters[:tags].split(",") : []
+    authors = filters[:authors].present? ? filters[:authors].split(",") : []
+    @filtered_articles = @articles
+    if tags.present?
+      @filtered_articles = @filtered_articles.joins(:tags).where(cms_tags: { id: tags })
+    end
+
+    if authors.present?
+      @filtered_articles = @filtered_articles.joins(:authors).where(users: { id: authors })
+    end
+
+    render template: "articles/_articles.html", locals: {articles: @filtered_articles}, layout: false
   end
 
   def show
@@ -38,6 +57,7 @@ class ArticlesController < ApplicationController
   private
   def initialize_articles
     @articles = Article.published
+    params[:tags]
   end
 
   def initialize_article
