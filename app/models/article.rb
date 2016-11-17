@@ -40,15 +40,9 @@ class Article < ActiveRecord::Base
     self.initialize_globalize
   end
 
-  scope :published, -> { where(published: 't') }
+  boolean_scope :published
 
-  has_attached_file :avatar, styles: { list_image: "530x330#", small_image: "100x100#" }
-
-  [:avatar].each do |attachment_name|
-    attr_accessible attachment_name
-    allow_delete_attachment attachment_name
-    do_not_validate_attachment_file_type attachment_name
-  end
+  image :avatar, styles: { list_image: "530x330#", small_image: "100x100#" }
 
   has_tags
 

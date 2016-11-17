@@ -10,4 +10,4 @@
   = render_partial "project_rwd", @project.responsive_web_design
   = render_partial "project_technical_side", @project.technical_side_of_project
   = render_partial "project_bottom_banner"
-  = render_partial "bottom_navigation"
+  = render_partial "bottom_navigation", false, locals: {prev_item: @project.prev(@projects), next_item: @project.next(@projects)}

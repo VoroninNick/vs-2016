@@ -16,6 +16,7 @@ class Project < ActiveRecord::Base
   has_cache
   has_seo_tags
   has_sitemap_record
+  has_navigation
 
   # attachents
 
@@ -72,6 +73,7 @@ class Project < ActiveRecord::Base
   sass_option :secondary_color, "blue"
   sass_option :third_color, "green"
   sass_option :body_color, "white"
+  sass_option :link_hover_color, "@primary_color"
   sass_option :text_header_color, "@primary_color"
   sass_option :project_large_section_title_color, "rgba(128, 128, 128, 0.12)"
   sass_option :button_lines_color, "@primary_color"

@@ -1,4 +1,6 @@
 .project-content
+  .projects-nav
+    display: block
 
   .h2
     letter-spacing: 2px
@@ -50,10 +52,17 @@
       opacity: 0
       +translate(0,25%)
       +transition-duration(1s)
+      z-index: 2
 
       &.visible
         opacity: 1
         +translate(0,0)
+
+
+  .project-details
+    a
+      cursor: pointer
+      color: inherit
 
 
   .with-line
@@ -78,6 +87,7 @@
       padding-bottom: 250px
 
   .project-large-section-title
+    overflow: hidden
     +header-font-family
     +body-font-family
     color: rgba(128, 128, 128, 0.12)

@@ -1,8 +1,9 @@
 class ArticlesController < ApplicationController
+  before_action :initialize_articles
   before_action :initialize_article, only: :show
 
   def index
-    @articles = Article.published
+
     @tags = Cms::Tag.all
     @authors = User.authors
 
@@ -35,8 +36,12 @@ class ArticlesController < ApplicationController
   end
 
   private
+  def initialize_articles
+    @articles = Article.published
+  end
+
   def initialize_article
-    @article = Article.published.joins(:translations).where(article_translations: { url_fragment: params[:id], locale: params[:locale] } ).first
+    @article = @articles.joins(:translations).where(article_translations: { url_fragment: params[:id], locale: params[:locale] } ).first
     if @article.nil?
       render_not_found
     end

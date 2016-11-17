@@ -20,7 +20,8 @@
               |Deliverables
             p
               - @project.services.each do |service|
-                = service.name
+                a href=service.url
+                  = service.name
                 br
             - if @project.released_on.present?
               .h2.with-line

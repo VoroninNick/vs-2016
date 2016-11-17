@@ -47,6 +47,7 @@ class Service < ActiveRecord::Base
   has_cache
   has_seo_tags
   has_sitemap_record
+  has_navigation
 
 
   # attachents
@@ -93,11 +94,11 @@ class Service < ActiveRecord::Base
     "/#{locale}/services#{v}"
   end
 
-  def prev(relation = nil)
-    Service.first
-  end
-
-  def next(relation = nil)
-    Service.prev 
-  end
+  # def prev(relation = nil)
+  #   Service.first
+  # end
+  #
+  # def next(relation = nil)
+  #   Service.prev
+  # end
 end

@@ -20,5 +20,10 @@
 
 = render "projects"
 
+
 //= render "projects_nav"
-= render "bottom_navigation"
+- prev_item = @category.nil? ? @services.last : @category.prev(@services)
+- next_item = @category.nil? ? @services.first : @category.next(@services)
+- prev_url = project_or_category_path(id: prev_item.url_fragment)
+- next_url = project_or_category_path(id: next_item.url_fragment)
+= render "bottom_navigation", prev_item: prev_item, next_item: next_item, prev_url: prev_url, next_url: next_url

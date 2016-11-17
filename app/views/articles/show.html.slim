@@ -7,4 +7,4 @@
       - footer_social_links.each do |social|
         a.social-link href=social[:url]
           = inline_svg social[:icon]
-= render "bottom_navigation"
+= render "bottom_navigation", prev_item: @article.prev(@articles), next_item: @article.next(@articles)

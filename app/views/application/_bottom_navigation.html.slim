@@ -1,7 +1,10 @@
 .articles-nav.projects-nav
-  - [:prev, :next].each do |k|
-    - item = @service || @project
+  - {prev: prev_item, next: next_item}.each do |k, v|
+    - item = v
     - if item
+      /- item_url = respond_to?("#{k}_url".to_sym) ? send("#{k}_url") : item.url
+      /- item_url = item.url if item_url.blank?
+      - item_url = (k == :prev ? prev_url : next_url) rescue item.url
       - service_icon_path = item.respond_to?(:icon) ? item.icon.path : nil
       - arrow_direction = k == :prev ? "left" : "right"
       - label = t("components.articles-navigation.#{k}")
@@ -9,11 +12,13 @@
         - image_url = item.list_image.url(:thumb)
       - elsif item.is_a?(Project)
         - image_url = item.thumb.url(:thumb)
+      - elsif item.is_a?(Article)
+        - image_url = item.avatar.url(:small_image)
 
       - item_name = item.try(:short_name)
       - item_name = item.name if item_name.blank?
 
-      a href=item.url class=k
+      a href=item_url class=k
         - if image_url
           .image
             img src=image_url

@@ -1,11 +1,12 @@
 class ProjectsController < ApplicationController
+  before_action
   before_action :set_project, only: [:show]
 
   def index
     set_services
     set_projects_banner
     set_page_metadata("projects")
-    @projects = @popup_projects
+    initialize_projects
     set_navigation_links(Project.first)
     if ajax?
       render "_projects.html", layout: false
@@ -24,6 +25,7 @@ class ProjectsController < ApplicationController
       @theme = @project.code_name
       theme_template_path = "projects/templates/#{@theme}"
       set_navigation_links(@project)
+      initialize_projects
       if template_exists?(theme_template_path)
         render theme_template_path
       else
@@ -67,6 +69,10 @@ class ProjectsController < ApplicationController
         ],
         scroll_down_title: "view all"
     }
+  end
+
+  def initialize_projects
+    @projects = @popup_projects
   end
 
   def set_category
@@ -116,12 +122,17 @@ class ProjectsController < ApplicationController
 
   helper_method :template_exists?
 
-  def render_partial(name, project_field = false )
+  def render_partial(name, project_field = false, options = {} )
+
     if template_exists?("projects/#{@theme}/_#{name}")
-      return (render_to_string partial: "projects/#{@theme}/#{name}")
+      options = {partial: "projects/#{@theme}/#{name}"}.merge(options)
     elsif project_field == false || project_field.present?
-      return (render_to_string partial: name)
+      options = {partial: name}.merge(options)
+    else
+      return ""
     end
+
+    render_to_string(options)
   end
 
   helper_method :render_partial

@@ -1,8 +1,14 @@
 .light-bg
   .article-content.service-content
     = raw @service.content
-  .related-projects-title
-    = inline_svg "svg/two-triangles.svg"
-    p related projects
+  - if @related_projects.any?
+    .related-projects-section
+      .related-projects-title
+        = inline_svg "svg/two-triangles.svg"
+        p related projects
+      .related-projects.projects
+        .row.portfolio-projects
+          - @related_projects.each do |project|
+            = render "project", project: project, avatar_style: :projects_list
 
-= render "bottom_navigation", item: @service
+= render "bottom_navigation", prev_item: @service.prev(@services), next_item: @service.next(@services)
