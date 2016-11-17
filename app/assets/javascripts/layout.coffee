@@ -26,7 +26,7 @@ $document.on "click", "#projects-popup-button", ()->
     
 
 
-$document.on "click", ".projects-popup .close-button-and-text", ()->
+$document.on "click", ".projects-popup .close-button-and-text, #projects-popup-button-close", ()->
   $projects_popup = $(".projects-popup")
   $projects_popup.removeClass("ready")
   $projects_popup.addClass("play-closing-animation")

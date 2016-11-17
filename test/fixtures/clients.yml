@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  published: false
+  name: MyString
+  short_description: MyText
+  avatar: 
+  url: MyString
+  avatar_file_name_fallback: MyString
+  avatar_alt: MyString
+  no_follow_link: false
+
+two:
+  published: false
+  name: MyString
+  short_description: MyText
+  avatar: 
+  url: MyString
+  avatar_file_name_fallback: MyString
+  avatar_alt: MyString
+  no_follow_link: false

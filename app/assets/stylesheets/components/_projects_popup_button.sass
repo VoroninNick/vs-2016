@@ -1,26 +1,47 @@
+#projects-popup-button, #projects-popup-button-close
+  position: fixed
+  z-index: $zindex-projects-popup-button
+  right: 60px
+  bottom: 60px
+  cursor: pointer
+
+  @media #{$small-only}
+    right: 15px
+    bottom: 10px
+
+  svg
+    width: 40px
+    height: 40px
+
+    *
+      +transition-duration(0.2s)
+      +transition-property(fill)
+    circle
+      fill: none
+
+//#projects-popup-button
+  &:hover
+    svg
+      circle
+        fill: $pink-color
+
+
+#projects-popup-button-close
+  display: none
+  z-index: $z-index-projects-popup-button-close
+
+  svg
+    border-radius: 50%
+    background: $black-color
+
+  body.has-opened-projects-popup &
+    display: block
+
 #projects-popup-button
-	position: fixed
-	z-index: $zindex-projects-popup-button
-	right: 60px
-	bottom: 60px
-	cursor: pointer
-	
-	@media #{$small-only}
-		right: 15px
-		bottom: 10px
+  background: $black-color
 
-	svg
-		width: 40px
-		height: 40px
-
-		*
-			+transition-duration(0.2s)
-			+transition-property(fill)
-			//fill: $dark-white-color
-
-	&:hover
-		svg
-			circle
-				fill: $pink-color
-			*
-				//fill: $pink-color
+#projects-popup-button, #projects-popup-button-close
+  height: 40px
+  width: 40px
+  border-radius: 50%
+  overflow: hidden

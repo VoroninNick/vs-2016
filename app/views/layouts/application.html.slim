@@ -13,8 +13,10 @@ html
     = render "header"
     = render "menu"
     = render "projects_popup"
-    #projects-popup-button
+    #projects-popup-button.icon-btn.popup-icon-btn.allow-propagation
       = embedded_svg_from_assets "svg/vs-projects-popup-icon.svg"
+    #projects-popup-button-close.icon-btn.popup-icon-btn.allow-propagation
+      = embedded_svg_from_assets "svg/vs-projects-popup-close-icon.svg"
 
 
     #page-wrap

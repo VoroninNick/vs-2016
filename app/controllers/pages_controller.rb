@@ -34,12 +34,10 @@ class PagesController < ApplicationController
     }
 
     @team_members = Member.all
-    @logos = Dir[Rails.root.join("app/assets/images/trust_companies/*/original/*.svg")]
-                 .map do |path|
-      s = path.to_s
-      base_path = Rails.root.join("app/assets/images/").to_s
-      s[base_path.length, s.length]
-    end.take(40)
+
+    #load_logos_from_assets
+
+    @clients = Client.published
 
     @slides = AboutSlide.published.sort_by_sorting_position
 
@@ -47,6 +45,8 @@ class PagesController < ApplicationController
                    {name: "Planning", description: "Logos and branding are so important. In a big part of the world. "*5, icon_path: "svg/vs-about-icon-planning.svg"},
                    {name: "Execution", description: "Logos and branding are so important. In a big part of the world", icon_path: "svg/vs-about-icon-execution.svg"}]
   end
+
+
 
   def contacts
     @page_banner_template = "contacts_banner"
@@ -120,5 +120,14 @@ class PagesController < ApplicationController
           project_url: p.url
       }
     end
+  end
+
+  def load_logos_from_assets
+    @logos = Dir[Rails.root.join("app/assets/images/trust_companies/*/original/*.svg")]
+                 .map do |path|
+      s = path.to_s
+      base_path = Rails.root.join("app/assets/images/").to_s
+      s[base_path.length, s.length]
+    end.take(40)
   end
 end

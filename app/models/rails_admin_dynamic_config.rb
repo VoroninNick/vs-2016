@@ -280,6 +280,23 @@ module RailsAdminDynamicConfig
           field :icon
           field :projects
         end
+
+        config.include_models Client
+        config.model Client do
+          field :published
+          field :name
+          #field :short_description
+          field :avatar
+          field :no_follow_link
+        end
+
+        config.model_translation Client do
+          field :locale, :hidden
+          field :name
+          field :short_description
+          field :url
+          field :avatar_alt
+        end
       end
     end
   end

@@ -9,8 +9,8 @@ $document.on "ready page:load", ->
       pager: true
       pagerCustom: $pager
       controls: true
-      #prevSelector: ".custom-controls .prev"
-      #nextSelector: ".custom-controls .next"
+      prevSelector: $wrap.find(".custom-controls .prev")
+      nextSelector: $wrap.find(".custom-controls .next")
       onSlideBefore: ($slideElement, oldIndex, newIndex)->
         #$controls = $(this).closest(".slider").find(".custom-controls")
         #$controls.find(".current-number").text(newIndex + 1)
@@ -28,8 +28,8 @@ $document.on "ready page:load", ->
       auto: true
       pager: true
       pagerCustom: $pager
-      prevSelector: ".desktop-slider:eq(#{index}) .custom-controls .prev"
-      nextSelector: ".desktop-slider:eq(#{index}) .custom-controls .next"
+      prevSelector: $wrap.find(".custom-controls .prev")
+      nextSelector: $wrap.find(".custom-controls .next")
       #adaptiveHeight: true
       controls: true
       onSlideBefore: ($slideElement, oldIndex, newIndex)->

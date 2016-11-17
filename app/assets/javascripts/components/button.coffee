@@ -1,9 +1,9 @@
-$document.on "mouseenter mouseout", ".btn *, .icon-btn *", (e)->
+$document.on "mouseenter mouseout", ".btn *, .icon-btn:not(.allow-propagation) *", (e)->
   e.stopImmediatePropagation()
 
 $document.on "mouseenter", ".btn, .icon-btn", (e)->
   e.stopPropagation()
-
+  #alert(e.type)
   $button = $(this)
   #$button.removeClass('out').addClass('over')
   current_time = Date.now()
@@ -21,6 +21,7 @@ $document.on "mouseenter", ".btn, .icon-btn", (e)->
 
 
 $document.on "mouseleave", ".btn, .icon-btn", (e)->
+  #alert(e.type)
   e.stopPropagation()
   $button = $(this)
 

@@ -20,8 +20,8 @@
       - @project.rwd_desktop_images.each_with_index do |image, i|
         a.page data-slide-index=i class=("active" if i == 0)
     .custom-controls
-      .prev
-      .next
+      .prev.icon-btn.allow-propagation
+      .next.icon-btn.allow-propagation
 
   /.row
     .columns.large-5.large-push-2.top-indent

@@ -15,323 +15,331 @@ $circle-in-duration: 1s
 
 
 
-+keyframes(show-popup-from-circle-1)
-	0%
-		opacity: 0.5
-		width: 40px
-		height: 40px
-		right: 80px
-		bottom: 67px
-	35%, 50%
-		opacity: 1
-	35%, 90%, 100%
+//+keyframes(show-popup-from-circle-1)
+  0%
+    opacity: 0.5
+    width: 40px
+    height: 40px
+    right: 80px
+    bottom: 67px
+  35%, 50%
+    opacity: 1
+  35%, 90%, 100%
 
-		bottom: -37.5vmax
-		right: -37.5vmax
-		width: 100vmax
-		height: 100vmax
-	100%
-		opacity: 0
+    bottom: -37.5vmax
+    right: -37.5vmax
+    width: 100vmax
+    height: 100vmax
+  100%
+    opacity: 0
 
-+keyframes(show-popup-from-circle-2)
-	0%, 45%
-		width: 40px
-		height: 40px
-		right: 80px
-		bottom: 67px
-	45%, 90%, 100%
-		bottom: -37.5vmax
-		right: -37.5vmax
-		width: 125vmax
-		height: 125vmax
-	0%, 50%
-		opacity: 1
-	100%
-		opacity: 0
+//+keyframes(show-popup-from-circle-2)
+  0%, 45%
+    width: 40px
+    height: 40px
+    right: 80px
+    bottom: 67px
+  45%, 90%, 100%
+    bottom: -37.5vmax
+    right: -37.5vmax
+    width: 125vmax
+    height: 125vmax
+  0%, 50%
+    opacity: 1
+  100%
+    opacity: 0
 
-+keyframes(show-popup-from-circle-3)
-	0%
-		width: 40px
-		height: 40px
-		right: 80px
-		bottom: 67px
-	65%, 100%
-		bottom: -50vmax
-		right: -50vmax
-		width: 200vmax
-		height: 200vmax
-	0%, 50%
-		opacity: 1
-	100%
-		opacity: 0
+//+keyframes(show-popup-from-circle-3)
+  0%
+    width: 40px
+    height: 40px
+    right: 80px
+    bottom: 67px
+  65%, 100%
+    bottom: -50vmax
+    right: -50vmax
+    width: 200vmax
+    height: 200vmax
+  0%, 50%
+    opacity: 1
+  100%
+    opacity: 0
 
 
-+keyframes(close-popup-to-circle)
-	0%
-		bottom: -50vmax
-		right: -50vmax
-		width: 200vmax
-		height: 200vmax
+//+keyframes(close-popup-to-circle)
+  0%
+    bottom: -50vmax
+    right: -50vmax
+    width: 200vmax
+    height: 200vmax
 
-	100%
-		width: 40px
-		height: 40px
-		right: 80px
-		bottom: 67px
+  100%
+    width: 40px
+    height: 40px
+    right: 80px
+    bottom: 67px
 
-+keyframes(show-project-item-from-circle)
-	0%
-		opacity: 0
-	100%
-		opacity: 1
+//+keyframes(show-project-item-from-circle)
+  0%
+    opacity: 0
+  100%
+    opacity: 1
 
 body.has-opened-projects-popup
-	overflow-x: hidden
-	width: 100%
-	height: 100%
+  overflow-x: hidden
+  width: 100%
+  height: 100%
 
-	#page-wrap
-		overflow: hidden
-		max-height: 100vh
+  #page-wrap
+    overflow: hidden
+    max-height: 100vh
 
 .projects-popup
-	background: none
-	//+transition-property(none)
-	overflow-x: hidden
-	max-height: none
-	+transition-duration(5s)
-	+transition-property(opacity)
+  background: none
+  //+transition-property(none)
+  overflow-x: hidden
+  max-height: none
+  +transition-duration(5s)
+  +transition-property(opacity)
 
-	.circles-wrap
-		overflow: hidden
-		width: 100%
-		height: 100%
-		position: absolute
-		top: 0
-		left: 0
-
-
-	.circle1, .circle2, .circle3
-		//position: absolute
-		position: fixed
-		bottom: 67px
-		//right: 80px
-		right: 106px
-		content: ""
-		background: $projects-popup-bg
-		border-radius: 50%
-		width: 40px
-		height: 40px
-
-	&.ready
-		.circle1, .circle2, .circle3
-			opacity: 0
-
-	&.show
-		display: block
-
-	body.has-opened-projects-popup &
-		.circle1
-			background: $circle-1-bg
-			z-index: 3
-			+animation-duration($circle-in-duration)
-			+animation-name(show-popup-from-circle-1)
-			+animation-timing-function(ease-in)
-		.circle2
-			background: $circle-2-bg
-			z-index: 2
-			+animation-duration($circle-in-duration)
-			+animation-name(show-popup-from-circle-2)
-			+animation-timing-function(ease-in)
-		.circle3
-			background: $circle-3-bg
-			z-index: 1
-			+animation-duration($circle-in-duration)
-			+animation-name(show-popup-from-circle-3)
-			+animation-timing-function(ease-in)
-	&.play-closing-animation
-		&:before
-			+animation-duration(1s)
-			+animation-name(close-popup-to-circle)
+  .circles-wrap
+    overflow: hidden
+    width: 100%
+    height: 100%
+    position: absolute
+    top: 0
+    left: 0
 
 
+  .circle1, .circle2, .circle3
+    //position: absolute
+    position: fixed
+    //bottom: 67px
+    bottom: 60px
 
+    //right: 80px
+    //right: 106px
+    right: 60px
+    content: ""
+    background: $projects-popup-bg
+    border-radius: 50%
+    width: 40px
+    height: 40px
 
+    +small-down
+      right: 15px
+      bottom: 10px
+      //bottom: 17px
 
-	&.popup.fullscreen-popup
+  &.ready
+    .circle1, .circle2, .circle3
+      opacity: 0
 
+  &.show
+    display: block
 
-
-	.projects-popup-content
-		opacity: 0
-		+transition-property(opacity)
-		+transition-duration(0.5s)
-
-	&.show
-		background: $projects-popup-bg
-	&.show.hide
-		background: none
-		opacity: 1
-
-
-	&.ready
-
-		.projects-popup-content
-			opacity: 1
-
-		.project, .more-projects-soon
-			+animation-name(show-project-item-from-circle)
-			+animation-duration(0.5s)
-			overflow: hidden
-			display: none
-			//display: block
-			//opacity: 0
-			//+transition-property(opacity)
-			//+transition-duration(0.5s)
-			&.show
-				display: block
-				opacity: 1
-
-	&.ready
-
-	&.hide
-		.projects-popup-content
-			opacity: 0
-
-
-	.block
-		display: block
-		position: relative
-		width: $block-width
-		float: left
-		height: $block-width
-
-		&.active
-			border: 5px solid white
-
-	.portfolio-link-block
-		.portfolio-link-and-button
-			position: absolute
-			top: 0
-			+transform(translate(-50%, 0))
-
-			left: 50%
-
-		.inner
-			position: relative
-		&.block
-			height: 0
-			//padding-top: 50%
-			padding-top: $block-width
-
-
-		.portfolio-link
-			//+transform(translate(-50%, 0))
-			//position: absolute
-			top: 50px
-			position: relative
-			//left: 50%
-
-			svg
-				width: 80px
-				height: 80px
-
-			.image-wrap
-
-		.close-button-and-text
-			//top: 180px
-			top: 100px
-			position: relative
-			text-align: center
-			cursor: pointer
-		.close-button
-			display: inline-block
-			width: 30px
-			height: 30px
-			position: relative
-			//.inner
-				+burger($width: 20px, $color: $black-color, $height: 2px)
-				+burger-to-cross()
-
-		.close-button-and-text
-			&:hover
-				.close-button
-
-				svg
-					*
-						fill: $pink-color
-
-				.close-text
-					color: $pink-color
-
-
-	.more-projects-soon
-		width: percentage(1/6)
-		height: percentage(1/6)
-		float: left
-		color: $light-gray-text-color
-		+italic
-		+font-23
-		text-align: center
-		position: relative
-
-		.text
-			position: absolute
-			top: 30%
-			width: 150px
-			left: 50%
-			+transform(translateX(-50%))
-
-	body.has-opened-projects-popup &
-		display: block
-
-
-	@media #{breakpoint(xxlarge down)}
-		.block, .more-projects-soon
-			width: 20%
-			height: 20%
-
-		.portfolio-link-block.block
-			padding-top: 20%
+  body.has-opened-projects-popup &
+    .circle1
+      background: $circle-1-bg
+      z-index: 3
+      +animation-duration($circle-in-duration)
+      +animation-name(show-popup-from-circle-1)
+      +animation-timing-function(ease-in)
+    .circle2
+      background: $circle-2-bg
+      z-index: 2
+      +animation-duration($circle-in-duration)
+      +animation-name(show-popup-from-circle-2)
+      +animation-timing-function(ease-in)
+    .circle3
+      background: $circle-3-bg
+      z-index: 1
+      +animation-duration($circle-in-duration)
+      +animation-name(show-popup-from-circle-3)
+      +animation-timing-function(ease-in)
+  &.play-closing-animation
+    &:before
+      +animation-duration(1s)
+      +animation-name(close-popup-to-circle)
 
 
 
 
-	@media #{breakpoint(large down)}
-		.block, .more-projects-soon
-			width: 25%
-			height: 25%
 
-		.portfolio-link-block.block
-			padding-top: 25%
+  &.popup.fullscreen-popup
 
-	@media #{breakpoint(medium down)}
-		.block, .more-projects-soon
-			width: percentage(1/3)
-			height: percentage(1/3)
-		.portfolio-link-block.block
-			padding-top: percentage(1/3)
 
-	@media #{breakpoint(small only)}
-		.block, .more-projects-soon
-			width: 50%
-			height: 50%
 
-		.portfolio-link-block
-			.close-button-and-text
-				top: 0
-			.portfolio-link-and-button
-				top: 50px
+  .projects-popup-content
+    opacity: 0
+    +transition-property(opacity)
+    +transition-duration(0.5s)
 
-			&.block
-				padding-top: 50%
+  &.show
+    background: $projects-popup-bg
+  &.show.hide
+    background: none
+    opacity: 1
 
-			.portfolio-link
-				top: 0
 
-				svg
-					width: 40px
-					height: 40px
-					position: relative
-					left: 20px
+  &.ready
+
+    .projects-popup-content
+      opacity: 1
+
+    .project, .more-projects-soon
+      +animation-name(show-project-item-from-circle)
+      +animation-duration(0.5s)
+      overflow: hidden
+      display: none
+      //display: block
+      //opacity: 0
+      //+transition-property(opacity)
+      //+transition-duration(0.5s)
+      &.show
+        display: block
+        opacity: 1
+
+  &.ready
+
+  &.hide
+    .projects-popup-content
+      opacity: 0
+
+
+  .block
+    display: block
+    position: relative
+    width: $block-width
+    float: left
+    height: $block-width
+
+    &.active
+      border: 5px solid white
+
+  .portfolio-link-block
+    .portfolio-link-and-button
+      position: absolute
+      top: 0
+      +transform(translate(-50%, 0))
+
+      left: 50%
+
+    .inner
+      position: relative
+    &.block
+      height: 0
+      //padding-top: 50%
+      padding-top: $block-width
+
+
+    .portfolio-link
+      //+transform(translate(-50%, 0))
+      //position: absolute
+      top: 50px
+      position: relative
+      //left: 50%
+
+      svg
+        width: 80px
+        height: 80px
+
+      .image-wrap
+
+    .close-button-and-text
+      //top: 180px
+      top: 100px
+      position: relative
+      text-align: center
+      cursor: pointer
+    .close-button
+      display: inline-block
+      width: 30px
+      height: 30px
+      position: relative
+    //.inner
+        +burger($width: 20px, $color: $black-color, $height: 2px)
+        +burger-to-cross()
+
+    .close-button-and-text
+      &:hover
+        .close-button
+
+        svg
+          *
+            fill: $pink-color
+
+        .close-text
+          color: $pink-color
+
+
+  .more-projects-soon
+    width: percentage(1/6)
+    height: percentage(1/6)
+    float: left
+    color: $light-gray-text-color
+    +italic
+    +font-23
+    text-align: center
+    position: relative
+
+    .text
+      position: absolute
+      top: 30%
+      width: 150px
+      left: 50%
+      +transform(translateX(-50%))
+
+  body.has-opened-projects-popup &
+    display: block
+
+
+  @media #{breakpoint(xxlarge down)}
+    .block, .more-projects-soon
+      width: 20%
+      height: 20%
+
+    .portfolio-link-block.block
+      padding-top: 20%
+
+
+
+
+  @media #{breakpoint(large down)}
+    .block, .more-projects-soon
+      width: 25%
+      height: 25%
+
+    .portfolio-link-block.block
+      padding-top: 25%
+
+  @media #{breakpoint(medium down)}
+    .block, .more-projects-soon
+      width: percentage(1/3)
+      height: percentage(1/3)
+    .portfolio-link-block.block
+      padding-top: percentage(1/3)
+
+  @media #{breakpoint(small only)}
+    .block, .more-projects-soon
+      width: 50%
+      height: 50%
+
+    .portfolio-link-block
+      .close-button-and-text
+        top: 0
+      .portfolio-link-and-button
+        top: 50px
+
+      &.block
+        padding-top: 50%
+
+      .portfolio-link
+        top: 0
+
+        svg
+          width: 40px
+          height: 40px
+          position: relative
+          left: 20px
 

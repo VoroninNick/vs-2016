@@ -53,8 +53,8 @@
       .total-slides-count
         = @slides.count
     .navigation-buttons
-      .prev
-      .next
+      .prev.icon-btn
+      .next.icon-btn
 
 .light-bg.vertical-inner-indent#principles
   .row
@@ -148,10 +148,15 @@
 
         .columns.horizontal-container
 
-          - @logos.in_groups_of((@logos.count / 2).ceil, false) do |group|
+          - @clients.in_groups_of((@clients.count / 2).ceil, false) do |group|
             .horizontal-row.clearfix style="width: #{200 * group.count}px"
-              - group.each do |logo|
-                a.logo href="#" rel="nofollow"
-                  = inline_svg logo
+              - group.each do |client|
+                - url = client.url
+                - if url.present?
+                  a.logo href=url rel="nofollow" title=(client.avatar_alt if client.avatar_alt.present?)
+                    = embedded_svg_from_absolute_path client.avatar.path
+                - else
+                  .logo
+                    = embedded_svg_from_absolute_path client.avatar.path
 
 

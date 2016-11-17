@@ -10,6 +10,9 @@
       .custom-pager
         - slider_images.each_with_index do |image, i|
           a.page data-slide-index=i class=("active" if i == 0)
+      .custom-controls
+        .prev.icon-btn.allow-propagation
+        .next.icon-btn.allow-propagation
   - elsif images_count == 1
     - image = images.try(:first) || images
     .full-width-image
