@@ -152,7 +152,7 @@
             .horizontal-row.clearfix style="width: #{200 * group.count}px"
               - group.each do |client|
                 - url = client.url.try{|s| s.gsub(/\s/, "")}
-                - if url.present? && url.scan(/(http(s)\:)\/\//).any?
+                - if url.present? && url.scan(/([http|https]\:)?\/\//).any?
                   a.logo href=url rel="nofollow" title=(client.avatar_alt if client.avatar_alt.present?)
                     = embedded_svg_from_absolute_path client.avatar.path
                 - else
