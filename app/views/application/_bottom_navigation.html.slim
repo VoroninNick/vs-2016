@@ -5,7 +5,7 @@
       /- item_url = respond_to?("#{k}_url".to_sym) ? send("#{k}_url") : item.url
       /- item_url = item.url if item_url.blank?
       - item_url = (k == :prev ? prev_url : next_url) rescue item.url
-      - service_icon_path = item.respond_to?(:icon) ? item.icon.path : nil
+      - service_icon_path = item.respond_to?(:icon) ? item.icon.path : item[:icon_path]
       - arrow_direction = k == :prev ? "left" : "right"
       - label = t("components.articles-navigation.#{k}")
       - if item.is_a?(Service)
@@ -16,7 +16,7 @@
         - image_url = item.avatar.url(:small_image)
 
       - item_name = item.try(:short_name)
-      - item_name = item.name if item_name.blank?
+      - item_name = item.try(:name) || item[:name] if item_name.blank?
 
       a href=item_url class=k
         - if image_url

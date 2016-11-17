@@ -22,8 +22,12 @@
 
 
 //= render "projects_nav"
-- prev_item = @category.nil? ? @services.last : @category.prev(@services)
-- next_item = @category.nil? ? @services.first : @category.next(@services)
-- prev_url = project_or_category_path(id: prev_item.url_fragment)
-- next_url = project_or_category_path(id: next_item.url_fragment)
+- item_index = @category.nil? ? -1 : @category.index_of(@projects)
+- tab_all = { name: "All", icon_path: Rails.root.join("app/assets/images/", "svg/expertise/all.svg") }
+- tab_all_url = projects_path
+- prev_item = @category.nil? ? @services.last : @category.first?(@services) ? tab_all : @category.prev(@services)
+- next_item = @category.nil? ? @services.first : @category.last?(@services) ? tab_all : @category.next(@services)
+
+- prev_url =  prev_item.is_a?(Hash) ? tab_all_url : project_or_category_path(id: prev_item.url_fragment)
+- next_url = next_item.is_a?(Hash) ? tab_all_url : project_or_category_path(id: next_item.url_fragment)
 = render "bottom_navigation", prev_item: prev_item, next_item: next_item, prev_url: prev_url, next_url: next_url
