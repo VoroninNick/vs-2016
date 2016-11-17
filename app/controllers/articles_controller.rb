@@ -37,6 +37,10 @@ class ArticlesController < ApplicationController
       @filtered_articles = @filtered_articles.joins(:authors).where(users: { id: authors })
     end
 
+    if authors.present? || tags.present?
+      @filtered_articles = @filtered_articles.uniq
+    end
+
     render template: "articles/_articles.html", locals: {articles: @filtered_articles}, layout: false
   end
 
