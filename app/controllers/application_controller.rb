@@ -28,6 +28,10 @@ class ApplicationController < ActionController::Base
   #   before_action :reload_translations
   # end
 
+  def ajax?
+    params[:ajax] || request.path.start_with?("/ajax/")
+  end
+
   if Rails.env.development?
     before_action do
       if admin_panel?

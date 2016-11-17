@@ -7,6 +7,9 @@ class ProjectsController < ApplicationController
     set_page_metadata("projects")
     @projects = @popup_projects
     set_navigation_links(Project.first)
+    if ajax?
+      render "_projects.html", layout: false
+    end
 
   end
 
@@ -33,7 +36,12 @@ class ProjectsController < ApplicationController
         set_projects_banner
         set_page_metadata(@category)
         @projects = @category.projects.published
-        render "index"
+        if ajax?
+          render "_projects.html", layout: false
+        else
+          render "index"
+        end
+
       else
         render_not_found
       end

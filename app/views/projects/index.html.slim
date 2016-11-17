@@ -9,7 +9,7 @@
 
     - @services.each do |service|
       - service_icon_path = service.icon.path
-      a.tag href=project_or_category_path(id: service.translations_by_locale[I18n.locale].url_fragment) class=("checked" if @category.try(:id) == service.id)
+      a.tag data-turbolinks="false" data-no-turbolink="" href=project_or_category_path(id: service.translations_by_locale[I18n.locale].url_fragment) class=("checked" if @category.try(:id) == service.id)
         .icon
           = embedded_svg_from_absolute_path(service_icon_path)
         .name
@@ -18,11 +18,7 @@
           = service_name
 
 
-.projects
-  .project-quantity.counter.number 23
-  .row.portfolio-projects
-    - @projects.each do |project|
-      = render "project", project: project, avatar_style: :projects_list
+= render "projects"
 
 //= render "projects_nav"
 = render "bottom_navigation"

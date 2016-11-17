@@ -25,7 +25,6 @@ Rails.application.routes.draw do
     scope :projects, controller: "projects" do
       root action: :index, as: :projects
       get ":id", action: "show", as: :project_or_category
-
     end
 
     scope "blog", controller: "blog" do
@@ -43,6 +42,20 @@ Rails.application.routes.draw do
 
     end
   end
+
+  scope "ajax", defaults: { ajax: true } do
+    scope ":locale", locale: /#{I18n.available_locales.join("|")}/ do
+      scope :projects, controller: "projects" do
+        root action: :index, as: :ajax_projects
+        get ":id", action: "show", as: :ajax_project_or_category
+      end
+    end
+  end
+
+
+
+
+
 
   locales = Cms.config.provided_locales
 
