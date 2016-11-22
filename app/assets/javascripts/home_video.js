@@ -25,6 +25,7 @@ function home_onYouTubeIframeAPIReady(){
 
 
 function home_onPlayerStateChange(event){
+    console.log("home_onPlayerStateChange")
     var state = event.data
     //console.log("home_onPlayerStateChange: state: ", state)
     var state_str = youtube_player_states[state]
@@ -37,6 +38,6 @@ function home_onError(){
 }
 
 function home_onPlayerReady(){
-    //console.log("home_onPlayerReady")
-    home_onPlayerStateChange({data: "1"})
+    console.log("home_onPlayerReady")
+    //home_onPlayerStateChange({data: "1"})
 }
