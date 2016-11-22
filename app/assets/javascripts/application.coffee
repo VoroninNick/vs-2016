@@ -1,5 +1,6 @@
 #= require console_history
 #= require functions
+#= require coffee_functions
 #= require jquery/dist/jquery.min.js
 #= require jquery_ujs
 #= require turbolinks

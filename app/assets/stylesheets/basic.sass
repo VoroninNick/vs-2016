@@ -1,57 +1,58 @@
 .clearfix
-  +clearfix
+	+clearfix
 
 body
-  background: $body-bg-color
-  +body-font-family
+	background: $body-bg-color
+	+body-font-family
 
 
 a
-  cursor: pointer
-  text-decoration: none
-  +transition-property(all)
-  +transition-duration(0.2s)
+	cursor: pointer
+	text-decoration: none
+	+transition-property(all)
+	+transition-duration(0.2s)
 
-  &:hover
-    color: $pink-color
+	&:hover
+		color: $pink-color
 
 label
-  cursor: inherit
-  +user-select(none)
+	cursor: inherit
+	+user-select(none)
 
 .blue-header
-  color: $blue-color
+	color: $blue-color
 
 .icon-link
-  cursor: pointer
-  text-decoration: none
-  margin-right: 95px
-  display: inline-block
+	cursor: pointer
+	text-decoration: none
+	margin-right: 95px
+	display: inline-block
 
-  svg
-    margin-right: 15px
-    *
-      fill: $pink-color
+	svg
+		margin-right: 15px
+		*
+			fill: $pink-color
 .icon-link-label
-  color: $light-gray-text-color
-  vertical-align: top
-  line-height: 21px
-  +transition(inherit)
-  +fira-sans
-  font-size: 1rem
+	//color: $light-gray-text-color
+	color: white
+		vertical-align: top
+		line-height: 21px
+		+transition(inherit)
+		+fira-sans
+		font-size: 1rem
 .icon-link
-  &:hover
-    .icon-link-label
-      color: $pink-color
+	&:hover
+		.icon-link-label
+			color: $pink-color
 
 .light-bg
-  background: $dark-white-color
+	background: $dark-white-color
 
 .text-center
-  text-align: center
+	text-align: center
 
 .text-right
-  text-align: right
+	text-align: right
 
 .left
-  float: left !important
+	float: left !important
