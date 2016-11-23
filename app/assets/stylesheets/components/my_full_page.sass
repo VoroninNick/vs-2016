@@ -1,53 +1,55 @@
 .full-page-container
-	.page-section
-		overflow: hidden
-		position: relative
-		max-height: 100vh
-		+transition-property(max-height)
-		+transition-duration(0.5s)
-		height: 100vh
+  .page-section
+    overflow: hidden
+    position: relative
+    max-height: 100vh
+    +transition-property(max-height)
+    +transition-duration(0.5s)
+    height: 100vh
+    +transform(translateZ(0))
+    opacity: 0.99
 
-		&:not(.active)
-			max-height: 0
+    &:not(.active)
+      max-height: 0
 
-		&.fp-auto-height
-			height: auto
+    &.fp-auto-height
+      height: auto
 
-			&.active
-				position: fixed
-				bottom: 0
-				width: 100%
+      &.active
+        position: fixed
+        bottom: 0
+        width: 100%
 
-	@media #{breakpoint(medium down)}
-		.page-section
-			overflow: visible
-			height: auto
+  @media #{breakpoint(medium down)}
+    .page-section
+      overflow: visible
+      height: auto
 
-			&.small-one-screen
-				overflow: hidden
-				height: 100vh
+      &.small-one-screen
+        overflow: hidden
+        height: 100vh
 
-			&:not(.active)
-				max-height: none
+      &:not(.active)
+        max-height: none
 
-			//&#home-services-section
-				&:not(.active)
-					max-height: 0
+      //&#home-services-section
+        &:not(.active)
+          max-height: 0
 
-					& + .page-section:not(.active)
-						display: none
+          & + .page-section:not(.active)
+            display: none
 
-			&.small-one-screen
-				max-height: 0
+      &.small-one-screen
+        max-height: 0
 
-				&.active
-					max-height: 100vh
+        &.active
+          max-height: 100vh
 
-			&.fp-auto-height
-				&.active
-					position: relative
-					bottom: auto
+      &.fp-auto-height
+        &.active
+          position: relative
+          bottom: auto
 
 
-		#home-services-section
-			max-height: none
+    #home-services-section
+      max-height: none
