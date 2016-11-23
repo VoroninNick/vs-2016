@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160913095241) do
+ActiveRecord::Schema.define(version: 20161117123710) do
 
   create_table "about_slides", force: :cascade do |t|
     t.integer  "sorting_position"
@@ -114,6 +114,37 @@ ActiveRecord::Schema.define(version: 20160913095241) do
 
   add_index "ckeditor_assets", ["assetable_type", "assetable_id"], name: "idx_ckeditor_assetable"
   add_index "ckeditor_assets", ["assetable_type", "type", "assetable_id"], name: "idx_ckeditor_assetable_type"
+
+  create_table "client_translations", force: :cascade do |t|
+    t.integer  "client_id",         null: false
+    t.string   "locale",            null: false
+    t.datetime "created_at",        null: false
+    t.datetime "updated_at",        null: false
+    t.string   "name"
+    t.text     "short_description"
+    t.string   "url"
+    t.string   "avatar_alt"
+    t.boolean  "published"
+  end
+
+  add_index "client_translations", ["client_id"], name: "index_client_translations_on_client_id"
+  add_index "client_translations", ["locale"], name: "index_client_translations_on_locale"
+
+  create_table "clients", force: :cascade do |t|
+    t.boolean  "published"
+    t.string   "name"
+    t.text     "short_description"
+    t.string   "avatar_file_name"
+    t.string   "avatar_content_type"
+    t.integer  "avatar_file_size"
+    t.datetime "avatar_updated_at"
+    t.string   "url"
+    t.string   "avatar_file_name_fallback"
+    t.string   "avatar_alt"
+    t.boolean  "no_follow_link"
+    t.datetime "created_at",                null: false
+    t.datetime "updated_at",                null: false
+  end
 
   create_table "cms_tag_translations", force: :cascade do |t|
     t.integer  "cms_tag_id",   null: false
