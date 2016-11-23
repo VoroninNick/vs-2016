@@ -127,6 +127,12 @@ body
               &, &:before, &:after
                 background-color: $pink-color
 
+  &[data-full-page-section="2"]
+    &:not(.has-opened-menu)
+      #header
+        height: 0
+        overflow: visible
+
 body.has-opened-menu
 
   #main-menu-button
