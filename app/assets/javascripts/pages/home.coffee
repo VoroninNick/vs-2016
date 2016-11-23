@@ -18,6 +18,7 @@ $document.on "ready page:load", ->
     }
   })
 
+###
 $document.on "mouseenter", "#home-services-section .service", (e)->
   console.log e.type
   $service = $(this)
@@ -33,7 +34,7 @@ $document.on "mouseenter", "#home-services-section .service", (e)->
     })
   else
     $service_description.textillate("start")
-
+###
 
 
 
