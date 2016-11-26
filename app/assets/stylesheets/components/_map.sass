@@ -1,98 +1,98 @@
 
 
 .map-container
-	float: left
-	clear: left
-	width: 100%
-	height: 650px
+  float: left
+  clear: left
+  width: 100%
+  height: 650px
 
 .marker
-	.marker-icon
-		cursor: pointer
-		svg
-			display: block
-			width: 50px
-			height: 50px
+  .marker-icon
+    cursor: pointer
+    svg
+      display: block
+      width: 50px
+      height: 50px
 
 .map-wrapper
-	position: relative
-	float: left
-	width: 100%
-	margin: 10px 0 0 0
+  position: relative
+  float: left
+  width: 100%
+  margin: 10px 0 0 0
 
-	.info-window
-		display: none
-		width: 250px
-		background: white
-		+box-shadow-normal
-		top: 50%
-		position: absolute
-		padding: 0
-		+transform(translate(-50%, -100%))
-		left: 50%
-		z-index: 1
-
-
-		.info-window-header
-			background: $black-color
-			height: 65px
-			position: relative
-
-			//&:after
-				display: block
-				position: absolute
-				height: 1px
-				background: $input-border-color
-				width: 100%
-				content: ""
-				top: 50px
-			.logo
-				float: left
-				margin: 0 10px 0 0
-				svg
-					width: 150px
-					margin: 0 0 0 50px
-			.title
-				float: left
-				font-size: 13px
-				width: 150px
-
-		.info-window-content
-			padding: 4px 25px 25px 25px
-			.group
-				margin-top: 15px
-			.group-label
-				color: $pink-color
-				+font-12
-				margin-bottom: 5px
-
-			.group-content
-				+font-14
+  .info-window
+    display: none
+    width: 250px
+    background: white
+    +box-shadow-normal
+    top: 50%
+    position: absolute
+    padding: 0
+    +transform(translate(-50%, -100%))
+    left: 50%
+    z-index: 1
 
 
+    .info-window-header
+      background: $black-color
+      height: 65px
+      position: relative
 
-			.phone
-				color: inherit
-				font: inherit
-				display: block
+      //&:after
+          display: block
+          position: absolute
+          height: 1px
+          background: $input-border-color
+          width: 100%
+          content: ""
+          top: 50px
+      .logo
+        float: left
+        margin: 0 10px 0 0
+        svg
+          width: 150px
+          margin: 0 0 0 50px
+      .title
+        float: left
+        font-size: 13px
+        width: 150px
+
+    .info-window-content
+      padding: 4px 25px 25px 25px
+      .group
+        margin-top: 15px
+      .group-label
+        color: $pink-color
+        +font-12
+        margin-bottom: 5px
+
+      .group-content
+        +font-14
 
 
 
-		&.opened
-			display: block
+      .phone
+        color: inherit
+        font: inherit
+        display: block
+
+
+
+    &.opened
+      display: block
 
 
 .map-wrapper
-	&.hidden
-		display: none
+  &.hidden
+    display: none
 
 
 .map-link
-	+italic
-	+font-23
-	color: white
-	margin-right: 15px
-	&.active
-		color: $dark-text-color
-		cursor: default
+  +italic
+  +font-23
+  color: white
+  margin-right: 15px
+  &.active
+    color: $dark-text-color
+    cursor: default
 

@@ -1,327 +1,327 @@
 $menu-bg-color: $black-color
 .fullscreen-menu
-	background: $menu-bg-color
-	min-height: 100vh
-	height: auto
-	padding: 16px
-	display: none
-	position: absolute
-	width: 100%
-	z-index: $zindex-fullscreen-menu
+  background: $menu-bg-color
+  min-height: 100vh
+  height: auto
+  padding: 16px
+  display: none
+  position: absolute
+  width: 100%
+  z-index: $zindex-fullscreen-menu
 
 
-	// all borders
-	.frame
-		position: absolute
-		top: 18px
-		left: 18px
-		right: 18px
-		bottom: 18px
-		border: 2px solid $violet-color
-		@media #{$small-only}
-			top: 10px
-			left: 10px
-			right: 10px
-			bottom: 10px
+  // all borders
+  .frame
+    position: absolute
+    top: 18px
+    left: 18px
+    right: 18px
+    bottom: 18px
+    border: 2px solid $violet-color
+    @media #{$small-only}
+      top: 10px
+      left: 10px
+      right: 10px
+      bottom: 10px
 
-	.top-border, .bottom-border
-		background: $menu-bg-color
-		position: fixed
-		z-index: 1
+  .top-border, .bottom-border
+    background: $menu-bg-color
+    position: fixed
+    z-index: 1
 
-		&:after
-			content: ""
-			display: block
-			position: absolute
-			background: $violet-color
+    &:after
+      content: ""
+      display: block
+      position: absolute
+      background: $violet-color
 
-	// horizontal borders
-	.top-border, .bottom-border
-		height: 18px
-		width: 100%
-		left: 0
+  // horizontal borders
+  .top-border, .bottom-border
+    height: 18px
+    width: 100%
+    left: 0
 
-		&:after
-			left: 16px
-			right: 16px
-			height: 2px
+    &:after
+      left: 16px
+      right: 16px
+      height: 2px
 
 
-	.top-border
-		top: 0
+  .top-border
+    top: 0
 
-		&:after
-			top: 16px
+    &:after
+      top: 16px
 
-	.bottom-border
-		bottom: 0
+  .bottom-border
+    bottom: 0
 
-		&:after
-			bottom: 16px
+    &:after
+      bottom: 16px
 
-	.inner
-		position: relative
-		overflow: hidden
-		min-height: calc(100vh - 32px)
+  .inner
+    position: relative
+    overflow: hidden
+    min-height: calc(100vh - 32px)
 
 #main-menu-footer
-	height: 150px
-	padding: 0 73px
-	position: absolute
-	width: 100%
-	bottom: 0
-	z-index: 1
+  height: 150px
+  padding: 0 73px
+  position: absolute
+  width: 100%
+  bottom: 0
+  z-index: 1
 
 #main-menu-footer-icons
-	float: left
-	@media #{$small-only}
-		// width: 100%
-		display: none
+  float: left
+  @media #{$small-only}
+    // width: 100%
+    display: none
 
 #main-menu-footer-phones
-	.phone
-		color: $dark-white-color
-		text-decoration: none
-		display: block
-		+font-weight-500
-		+fira-sans
+  .phone
+    color: $dark-white-color
+    text-decoration: none
+    display: block
+    +font-weight-500
+    +fira-sans
 
 #main-menu-footer-locales
-	float: right
-	@media #{$small-only}
-		position: absolute
-		right: 10px
-		bottom: 0
-	a
-		margin: 0 8px
-		color: $dark-white-color
-		text-decoration: none
+  float: right
+  @media #{$small-only}
+    position: absolute
+    right: 10px
+    bottom: 0
+  a
+    margin: 0 8px
+    color: $dark-white-color
+    text-decoration: none
 
 
-		&.active
-			color: $light-gray-text-color
-			cursor: default
+    &.active
+      color: $light-gray-text-color
+      cursor: default
 
-		&:not(.active):hover
-			color: $pink-color
+    &:not(.active):hover
+      color: $pink-color
 
 #main-menu
-	z-index: 1
-	+flex(1)
-	text-align: center
-	position: relative
-	width: calc(100vw - 33px)
-	min-height: calc(100vh - 32px)
-	left: 0
-	top: 0
-	@media #{$small-only}
-		display: -webkit-flex
-		display: -moz-flex
-		display: -ms-flex
-		display: -o-flex
-		display: flex
-		flex-direction: column
-		justify-content: center
-	.menu-list
-		padding: 0
-		display: block
-		text-align: left
-		margin: 0
-		list-style: none
-		position: absolute
-		+transform(translate(-50%, -50%))
-		top: 50%
-		left: 50%
+  z-index: 1
+  +flex(1)
+  text-align: center
+  position: relative
+  width: calc(100vw - 33px)
+  min-height: calc(100vh - 32px)
+  left: 0
+  top: 0
+  @media #{$small-only}
+    display: -webkit-flex
+    display: -moz-flex
+    display: -ms-flex
+    display: -o-flex
+    display: flex
+    flex-direction: column
+    justify-content: center
+  .menu-list
+    padding: 0
+    display: block
+    text-align: left
+    margin: 0
+    list-style: none
+    position: absolute
+    +transform(translate(-50%, -50%))
+    top: 50%
+    left: 50%
 
-	li
-		+user-select(none)
-		width: 250px
-		position: relative
-		height: 100px
-		line-height: 1
-		@media #{$small-only}
-			height: 60px
-			width: 130px
-			margin: 0 auto
-		@media only screen and (max-width: 320px)
-			height: 45px
-		.title
-			+header-font-family
-			+font-45-bold
-			z-index: 1
-			color: $dark-white-color
-			text-transform: uppercase
-			position: relative
-			display: inline-block
-			top: 22px
-			left: 36px
-		
-			+transition-duration(0.2s)
-			+transition-property(all)
-			
-			@media #{$small-only}
-				+font-25-bold
+  li
+    +user-select(none)
+    width: 250px
+    position: relative
+    height: 100px
+    line-height: 1
+    @media #{$small-only}
+      height: 60px
+      width: 130px
+      margin: 0 auto
+    @media only screen and (max-width: 320px)
+      height: 45px
+    .title
+      +header-font-family
+      +font-45-bold
+      z-index: 1
+      color: $dark-white-color
+      text-transform: uppercase
+      position: relative
+      display: inline-block
+      top: 22px
+      left: 36px
 
-			&:before
-				content: ""
-				display: block
-				position: absolute
-				background: $dark-white-color
-				top: 28px
-				height: 10px
-				width: auto
-				left: 0
-				right: 100%
-				+transition-duration(0.2s)
-				+transition-property(all)
-				@media #{$small-only}
-					top: 12px
+      +transition-duration(0.2s)
+      +transition-property(all)
 
-			.text
-				position: relative
-		.sub-label
-			color: $light-gray-text-color
-			font-style: italic
-			position: absolute
-			top: 62px
-			left: 36px
-			+transition-duration(0.1s)
-			+transition-property(all)
-			@media #{$small-only}
-				top: 45px
-				font-size: 12px
-			@media only screen and (max-width: 320px)
-				display: none
+      @media #{$small-only}
+        +font-25-bold
 
-		.index
-			position: absolute
-			top: 27px
-			font-style: italic
-			color: $light-gray-text-color
-			z-index: 1
-			+transition-duration(0.1s)
-			+transition-property("left")
+      &:before
+        content: ""
+        display: block
+        position: absolute
+        background: $dark-white-color
+        top: 28px
+        height: 10px
+        width: auto
+        left: 0
+        right: 100%
+        +transition-duration(0.2s)
+        +transition-property(all)
+        @media #{$small-only}
+          top: 12px
 
-		.index-line
-			top: 33px
-			display: block
-			position: absolute
-			content: ""
-			width: 60px
-			height: 1px
-			left: 0
-			background: $violet-color
+      .text
+        position: relative
+    .sub-label
+      color: $light-gray-text-color
+      font-style: italic
+      position: absolute
+      top: 62px
+      left: 36px
+      +transition-duration(0.1s)
+      +transition-property(all)
+      @media #{$small-only}
+        top: 45px
+        font-size: 12px
+      @media only screen and (max-width: 320px)
+        display: none
 
+    .index
+      position: absolute
+      top: 27px
+      font-style: italic
+      color: $light-gray-text-color
+      z-index: 1
+      +transition-duration(0.1s)
+      +transition-property("left")
 
-		&:hover
-			.title
-				color: $pink-color
-				padding-left: 38px
-
-				&:before
-					//width: 210px
-					right: -38px
-
-			.sub-label
-				left: 74px
-				color: $dark-white-color
-			.index
-				color: $dark-white-color
+    .index-line
+      top: 33px
+      display: block
+      position: absolute
+      content: ""
+      width: 60px
+      height: 1px
+      left: 0
+      background: $violet-color
 
 
+    &:hover
+      .title
+        color: $pink-color
+        padding-left: 38px
 
-			.index-line
-				display: block
+        &:before
+          //width: 210px
+          right: -38px
 
-	&.with-flexbox
-		.menu-list
-			//top: auto
-			height: 100%
-			position: relative
-			width: 100%
-			+transform(none)
-			left: auto
-			top: auto
-			+flexbox
-			+flex-direction(column)
-			+justify-content(space-around)
-			+align-items(center)
+      .sub-label
+        left: 74px
+        color: $dark-white-color
+      .index
+        color: $dark-white-color
+
+
+
+      .index-line
+        display: block
+
+  &.with-flexbox
+    .menu-list
+      //top: auto
+      height: 100%
+      position: relative
+      width: 100%
+      +transform(none)
+      left: auto
+      top: auto
+      +flexbox
+      +flex-direction(column)
+      +justify-content(space-around)
+      +align-items(center)
 
 
 
 
 
 body.has-opened-menu
-	overflow-y: auto !important
-	overflow-x: hidden !important
+  overflow-y: auto !important
+  overflow-x: hidden !important
 
-	//&:before
-		content: ""
-		border: 1px solid $violet-color
-		position: absolute
-		display: block
-		top: 30px
-		left: 30px
-		bottom: 30px
-		right: 30px
-		//z-index: 2
+  //&:before
+      content: ""
+      border: 1px solid $violet-color
+      position: absolute
+      display: block
+      top: 30px
+      left: 30px
+      bottom: 30px
+      right: 30px
+      //z-index: 2
 
-	.fullscreen-menu
-		display: block
+  .fullscreen-menu
+    display: block
 
-	#page-wrap
-		overflow-y: visible
-		overflow-x: hidden
-		//overflow: hidden
-		//height: 100%
-		//height: 0
-		height: calc(100vh - 75px)
+  #page-wrap
+    overflow-y: visible
+    overflow-x: hidden
+    //overflow: hidden
+    //height: 100%
+    //height: 0
+    height: calc(100vh - 75px)
 
 
 @media (max-width: 1024px) and (min-width: 641px) and (max-height: 960px)
-	#main-menu
-		text-align: center
-	.menu-list
-		+clearfix
-		width: 100%
-		max-width: 500px
-		display: inline-block
-	.menu-list-part
-		width: 50%
-		float: left
-		text-align: center
+  #main-menu
+    text-align: center
+  .menu-list
+    +clearfix
+    width: 100%
+    max-width: 500px
+    display: inline-block
+  .menu-list-part
+    width: 50%
+    float: left
+    text-align: center
 
-		li
-			text-align: left
-			margin: 0 auto
-			display: block
+    li
+      text-align: left
+      margin: 0 auto
+      display: block
 
 
 @media #{breakpoint(small only)}
-	#main-menu-footer
-		//height: 80px
-		height: 20px
-		//padding: 70px 15px 70px 15px
-		padding: 0 15px
-		//position: relative
-		+clearfix
+  #main-menu-footer
+    //height: 80px
+    height: 20px
+    //padding: 70px 15px 70px 15px
+    padding: 0 15px
+    //position: relative
+    +clearfix
 
-		// padding: 10px 15px 10px 15px
-		position: absolute
-		bottom: 10px
+    // padding: 10px 15px 10px 15px
+    position: absolute
+    bottom: 10px
 
-	#main-menu-footer-phones
-		display: none
-	#main-menu-footer-locales
-		// margin-top: 18px
-	.fullscreen-menu
-		.inner
-			// padding-top: 170px
-	#main-menu
-		.menu-list
-			max-width: 250px
-			position: relative
-			margin: 0 auto
-			top: 0
-			left: 0
-			+transform(none)
+  #main-menu-footer-phones
+    display: none
+  #main-menu-footer-locales
+  // margin-top: 18px
+  .fullscreen-menu
+    .inner
+  // padding-top: 170px
+  #main-menu
+    .menu-list
+      max-width: 250px
+      position: relative
+      margin: 0 auto
+      top: 0
+      left: 0
+      +transform(none)

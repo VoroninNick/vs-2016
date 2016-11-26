@@ -1,113 +1,113 @@
 .tags
-	.arrow-down
-		@media #{$medium-up}
-			display: none
-	@media #{$small-only}
-		position: relative
-		background-color: $dark-white-color
-		.arrow-down
-			// content: url(#{asset_path('svg/arrow-down.svg')})
-			position: absolute
-			top: 10px
-			right: 10px
-			width: 24px
-			height: 24px
-			+transition(0.25s)
-			svg
-				fill: $light-gray-text-color
-	.label
-		color: white
-		text-transform: uppercase
-		font-weight: 600
-		display: inline-block
-		@media #{$small-only}
-			display: block
-			padding: 10px 0
-			color: #000
-		@media #{$medium-only}
-			width: 30%
-			vertical-align: top
-	ul
-		display: inline-block
-		@media #{$small-only}
-			position: absolute
-			margin: 0
-			padding: 0
-			left: 0
-			bottom: 0
-			+translate(0,100%)
-			width: 100%
-			background-color: $dark-white-color
-			z-index: 1
-			display: none
-		@media #{$medium-only}
-			width: 65%
-			margin: 0
-			padding: 0
-			li
-				display: block
-	.tag
-		cursor: pointer
-		color: rgba(#fff, 0.6)
-		list-style: none
-		font-style: italic
-		position: relative
-		+transition(0.25s)
-		@media #{$small-only}
-			font-size: 14px
-			font-style: initial
-			text-transform: uppercase
-			color: $light-gray-text-color
-			padding: 10px
-			font-weight: bold
-		@media #{$large-up}
-			display: inline-block
+  .arrow-down
+    @media #{$medium-up}
+      display: none
+  @media #{$small-only}
+    position: relative
+    background-color: $dark-white-color
+    .arrow-down
+      // content: url(#{asset_path('svg/arrow-down.svg')})
+      position: absolute
+      top: 10px
+      right: 10px
+      width: 24px
+      height: 24px
+      +transition(0.25s)
+      svg
+        fill: $light-gray-text-color
+  .label
+    color: white
+    text-transform: uppercase
+    font-weight: 600
+    display: inline-block
+    @media #{$small-only}
+      display: block
+      padding: 10px 0
+      color: #000
+    @media #{$medium-only}
+      width: 30%
+      vertical-align: top
+  ul
+    display: inline-block
+    @media #{$small-only}
+      position: absolute
+      margin: 0
+      padding: 0
+      left: 0
+      bottom: 0
+      +translate(0,100%)
+      width: 100%
+      background-color: $dark-white-color
+      z-index: 1
+      display: none
+    @media #{$medium-only}
+      width: 65%
+      margin: 0
+      padding: 0
+      li
+        display: block
+  .tag
+    cursor: pointer
+    color: rgba(#fff, 0.6)
+    list-style: none
+    font-style: italic
+    position: relative
+    +transition(0.25s)
+    @media #{$small-only}
+      font-size: 14px
+      font-style: initial
+      text-transform: uppercase
+      color: $light-gray-text-color
+      padding: 10px
+      font-weight: bold
+    @media #{$large-up}
+      display: inline-block
 
-		a
-			color: inherit
-			position: relative
-			padding: 5px 10px
-			+transition(0.5s)
-			&:before
-				content: ''
-				position: absolute
-				width: 100%
-				height: 100%
-				left: 0
-				top: 0
-				border: 2px solid $pink-color
-				opacity: 0
-				+transition(0.5s)
+    a
+      color: inherit
+      position: relative
+      padding: 5px 10px
+      +transition(0.5s)
+      &:before
+        content: ''
+        position: absolute
+        width: 100%
+        height: 100%
+        left: 0
+        top: 0
+        border: 2px solid $pink-color
+        opacity: 0
+        +transition(0.5s)
 
-		&.checked
-			color: #fff
-			a
-				padding: 5px 40px 5px 10px
-				&:before
-					opacity: 1
-			&:before, &:after
-				content: ''
-				position: absolute
-				height: 1px
-				width: 16px
-				background: $light-gray-text-color
-				right: 5px
-				top: 11px
-			&:before
-				+rotate(45deg)
-			&:after
-				+rotate(-45deg)
+    &.checked
+      color: #fff
+      a
+        padding: 5px 40px 5px 10px
+        &:before
+          opacity: 1
+      &:before, &:after
+        content: ''
+        position: absolute
+        height: 1px
+        width: 16px
+        background: $light-gray-text-color
+        right: 5px
+        top: 11px
+      &:before
+        +rotate(45deg)
+      &:after
+        +rotate(-45deg)
 
-		&:hover
-			color: rgba(#fff, 1)
+    &:hover
+      color: rgba(#fff, 1)
 
-	&.opened
-		background-color: $pink-color
-		.arrow-down
-			+rotate(180deg)
-			svg
-				fill: #fff
-		.label
-			color: #fff
-		ul
-			display: block
+  &.opened
+    background-color: $pink-color
+    .arrow-down
+      +rotate(180deg)
+      svg
+        fill: #fff
+    .label
+      color: #fff
+    ul
+      display: block

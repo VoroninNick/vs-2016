@@ -1,114 +1,114 @@
 .articles-nav, .projects-nav
-	border-top: 1px solid rgba($light-gray-text-color, 1)
+  border-top: 1px solid rgba($light-gray-text-color, 1)
 
 .articles-nav
-	+clearfix
+  +clearfix
 
-	.label-and-title
-		padding: 20px 0 0 0
+  .label-and-title
+    padding: 20px 0 0 0
 
-	.image
-		@media #{$small-only}
-			display: none
+  .image
+    @media #{$small-only}
+      display: none
 
-	.article-svg
-		@media #{$small-only}
-			display: none
+  .article-svg
+    @media #{$small-only}
+      display: none
 
 
-	.prev, .next
-		width: 50%
-		height: 100px
-		position: relative
-		+transition-duration(0.5s)
-		+transition-property(background)
-		background-color: $dark-white-color
+  .prev, .next
+    width: 50%
+    height: 100px
+    position: relative
+    +transition-duration(0.5s)
+    +transition-property(background)
+    background-color: $dark-white-color
 
-		.title
-			color: $black-color
-			+font-20
-			+semi-bold
-			+header-font-family
-			+transition-duration(0.5s)
-			@media #{$small-only}
-				font-size: 18px
-		.label
-			color: $light-gray-text-color
-			+transition-property(color)
-			+transition-duration(0.5s)
-			font-style: italic
-		.article-svg
-			position: absolute
-			top: 30px
-			width: 40px
-			height: 40px
-			svg
-				width: 40px
-				height: 40px
-				fill: $black-color
-				path
-					+transition(0.5s)
-		.arrow
-			width: 30px
-			height: 30px
-			position: absolute
-			top: 35px
+    .title
+      color: $black-color
+      +font-20
+      +semi-bold
+      +header-font-family
+      +transition-duration(0.5s)
+      @media #{$small-only}
+        font-size: 18px
+    .label
+      color: $light-gray-text-color
+      +transition-property(color)
+      +transition-duration(0.5s)
+      font-style: italic
+    .article-svg
+      position: absolute
+      top: 30px
+      width: 40px
+      height: 40px
+      svg
+        width: 40px
+        height: 40px
+        fill: $black-color
+        path
+          +transition(0.5s)
+    .arrow
+      width: 30px
+      height: 30px
+      position: absolute
+      top: 35px
 
-			svg
-				width: 14px
-				height: 14px
-				top: 8px
-				left: 8px
-				position: relative
-				*
-					fill: $black-color
+      svg
+        width: 14px
+        height: 14px
+        top: 8px
+        left: 8px
+        position: relative
+        *
+          fill: $black-color
 
-				path
-					+transition-duration(0.5s)
-					+transition-property(all)
+        path
+          +transition-duration(0.5s)
+          +transition-property(all)
 
-		&:hover
-			background: $pink-color
+    &:hover
+      background: $pink-color
 
-			.label
-				color: white
+      .label
+        color: white
 
-			.title
-				color: #fff
+      .title
+        color: #fff
 
-			svg
-				path
-					fill: white
-	.prev
-		float: left
-		.arrow
-			left: 120px
-			@media #{$small-only}
-				left: 5px
-		.article-svg
-			left: 280px
-		.label-and-title
-			float: left
-			margin-left: 70px
-			@media #{$small-only}
-				margin-left: 40px
-		.image
-			float: left
-	.next
-		float: right
-		.arrow
-			right: 120px
-			@media #{$small-only}
-				right: 5px
-		.article-svg
-			right: 280px
-		.label-and-title
-			margin-right: 70px
-			@media #{$small-only}
-				margin-right: 40px
-			float: right
-		.image
-			float: right
+      svg
+        path
+          fill: white
+  .prev
+    float: left
+    .arrow
+      left: 120px
+      @media #{$small-only}
+        left: 5px
+    .article-svg
+      left: 280px
+    .label-and-title
+      float: left
+      margin-left: 70px
+      @media #{$small-only}
+        margin-left: 40px
+    .image
+      float: left
+  .next
+    float: right
+    .arrow
+      right: 120px
+      @media #{$small-only}
+        right: 5px
+    .article-svg
+      right: 280px
+    .label-and-title
+      margin-right: 70px
+      @media #{$small-only}
+        margin-right: 40px
+      float: right
+    .image
+      float: right
 
-	.prev
-		border-right: 1px solid rgba($light-gray-text-color, 1)
+  .prev
+    border-right: 1px solid rgba($light-gray-text-color, 1)

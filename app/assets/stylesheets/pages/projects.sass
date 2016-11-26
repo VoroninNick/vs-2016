@@ -1,138 +1,138 @@
 .projects
-	overflow: hidden
-	position: relative
-	padding: 12rem 0
-	@media #{$small-only}
-		padding: 7rem 1rem
-	.project-quantity
-		position: absolute
-		left: 50%
-		+translate(-50%,0)
-		top: 45px
-		color: #fff
-		opacity: 0.25
-		font-size: 6rem
-		line-height: 5rem
-		@media #{$medium-up}
-			font-size: 9rem
-			line-height: 7rem
-			top: 100px
-	.number
-		opacity: 0
-		+transition(0.25s)
-		&.visible
-			opacity: 0.25
-	.project
-		@media #{$small-only}
-			width: percentage(1)
-		@media #{$medium-only}
-			width: percentage(1/2)
-		@media #{$large-up}
-			width: percentage(1/4)
+  overflow: hidden
+  position: relative
+  padding: 12rem 0
+  @media #{$small-only}
+    padding: 7rem 1rem
+  .project-quantity
+    position: absolute
+    left: 50%
+    +translate(-50%,0)
+    top: 45px
+    color: #fff
+    opacity: 0.25
+    font-size: 6rem
+    line-height: 5rem
+    @media #{$medium-up}
+      font-size: 9rem
+      line-height: 7rem
+      top: 100px
+  .number
+    opacity: 0
+    +transition(0.25s)
+    &.visible
+      opacity: 0.25
+  .project
+    @media #{$small-only}
+      width: percentage(1)
+    @media #{$medium-only}
+      width: percentage(1/2)
+    @media #{$large-up}
+      width: percentage(1/4)
 
 .project-tags
-	position: relative
-	z-index: 1
-	@media #{$large-up}
-		padding: 5rem 0
-	.tag
-		+grid-column($gutter: 0)
-		text-transform: uppercase
-		+fira-sans
-		+font-weight-500
-		color: rgba($black-color, 0.5)
-		border-bottom: 1px solid rgba(0,0,0,0.1)
-		padding: 10px 20px
-		position: relative
+  position: relative
+  z-index: 1
+  @media #{$large-up}
+    padding: 5rem 0
+  .tag
+    +grid-column($gutter: 0)
+    text-transform: uppercase
+    +fira-sans
+    +font-weight-500
+    color: rgba($black-color, 0.5)
+    border-bottom: 1px solid rgba(0,0,0,0.1)
+    padding: 10px 20px
+    position: relative
 
-		@media #{$small-only}
-			&:not(:first-child)
-				display: none
-				&.visible
-					display: block
-		@media #{$large-up}
-			width: percentage(1/9)
-			text-align: center
-			padding: 0
-			border-bottom: none
-		.icon
-			display: inline-block
-			position: relative
-			top: 4px
-			svg
-				@media #{$small-only}
-					width: 40px
-					height: 40px
-				@media #{$medium-only}
-					width: 60px
-					height: 60px
-				*
-					fill: rgba($black-color, 0.5)
-					opacity: 1
-			@media #{$large-up}
-				display: block
-				height: 80px
-		&:hover
-			svg
-				*
-					fill: $pink-color
-			.name
-				color: $pink-color
+    @media #{$small-only}
+      &:not(:first-child)
+        display: none
+        &.visible
+          display: block
+    @media #{$large-up}
+      width: percentage(1/9)
+      text-align: center
+      padding: 0
+      border-bottom: none
+    .icon
+      display: inline-block
+      position: relative
+      top: 4px
+      svg
+        @media #{$small-only}
+          width: 40px
+          height: 40px
+        @media #{$medium-only}
+          width: 60px
+          height: 60px
+        *
+          fill: rgba($black-color, 0.5)
+          opacity: 1
+      @media #{$large-up}
+        display: block
+        height: 80px
+    &:hover
+      svg
+        *
+          fill: $pink-color
+      .name
+        color: $pink-color
 
-		.name
-			display: inline-block
-			vertical-align: top
-			font-weight: bold
-			font-size: 1.125rem
-			line-height: 1.31rem
-			@media #{$small-only}
-				line-height: 40px
-				padding-left: 10px
-			@media #{$medium-only}
-				line-height: 60px
-				padding-left: 20px
-			@media #{$large-up}
-				display: block
+    .name
+      display: inline-block
+      vertical-align: top
+      font-weight: bold
+      font-size: 1.125rem
+      line-height: 1.31rem
+      @media #{$small-only}
+        line-height: 40px
+        padding-left: 10px
+      @media #{$medium-only}
+        line-height: 60px
+        padding-left: 20px
+      @media #{$large-up}
+        display: block
 
-		&.checked
-			@media #{$small-only}
-				.icon
-					svg
-						*
-							fill: #fff
-			@media #{$large-up}
-				.icon
-					svg
-						*
-							fill: $pink-color
+    &.checked
+      @media #{$small-only}
+        .icon
+          svg
+            *
+              fill: #fff
+      @media #{$large-up}
+        .icon
+          svg
+            *
+              fill: $pink-color
 
-				color: $pink-color
-		&:first-child
-			.arrow-down
-				@media #{$medium-up}
-					display: none
-			@media #{$small-only}
-				background-color: $pink-color
-				svg
-					fill: #fff
-				.name
-					color: #fff
-				.arrow-down
-					position: absolute
-					top: 20px
-					right: 20px
-					width: 24px
-					height: 24px
-					+transition(0.25s)
-					svg
-						width: 24px
-						height: 24px
-						fill: #fff
-				&.opened
-					.arrow-down
-						+rotate(180deg)
+        color: $pink-color
+    &:first-child
+      .arrow-down
+        @media #{$medium-up}
+          display: none
+      @media #{$small-only}
+        background-color: $pink-color
+        svg
+          fill: #fff
+        .name
+          color: #fff
+        .arrow-down
+          position: absolute
+          top: 20px
+          right: 20px
+          width: 24px
+          height: 24px
+          +transition(0.25s)
+          svg
+            width: 24px
+            height: 24px
+            fill: #fff
+        &.opened
+          .arrow-down
+            +rotate(180deg)
 
 [data-controller="projects"]
-	.projects-nav
-		@media #{$large-up}
-			display: none
+  .projects-nav
+    @media #{$large-up}
+      display: none

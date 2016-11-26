@@ -1,28 +1,28 @@
 .page-section
-	height: 100vh !important
-	overflow: hidden
-	display: block !important
-	+transition-duration(1s)
-	+transition-property(height)
+  height: 100vh !important
+  overflow: hidden
+  display: block !important
+  +transition-duration(1s)
+  +transition-property(height)
 
 .fp-tableCell
-	display: block !important
-	height: 100vh !important
-	position: relativ
+  display: block !important
+  height: 100vh !important
+  position: relativ
 
 .full-page-container
-	+transform("none !important")
+  +transform("none !important")
 
 .fp-slides
-	+transform(translateY(50%))
+  +transform(translateY(50%))
 
 body
-	&[class*="fp-viewing-1"], &.fp-viewing-2, &.fp-viewing-3
-		.page-section:nth-child(1)
-			height: 0 !important
-	&.fp-viewing-2, &.fp-viewing-3
-		.page-section:nth-child(2)
-			height: 0 !important
-	&.fp-viewing-3
-		.page-section:nth-child(3)
-			height: calc(100vh - 200px) !important
+  &[class*="fp-viewing-1"], &.fp-viewing-2, &.fp-viewing-3
+    .page-section:nth-child(1)
+      height: 0 !important
+  &.fp-viewing-2, &.fp-viewing-3
+    .page-section:nth-child(2)
+      height: 0 !important
+  &.fp-viewing-3
+    .page-section:nth-child(3)
+      height: calc(100vh - 200px) !important

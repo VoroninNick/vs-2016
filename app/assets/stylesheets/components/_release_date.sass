@@ -1,33 +1,33 @@
 .release_date
-	color: $violet-color
-	width: 90px
-	height: 90px
-	border: 6px solid $violet-color
-	text-align: center
-	padding-top: 6px
-	position: absolute
-	@media #{$small-only}
-		width: 70px
-		height: 70px
-		border: 3px solid $violet-color
-	.day
-		+font-45-bold
-		line-height: 1
-		@media #{$small-only}
-			+font-32-bold
-	.month
-		+font-18
-		+light
-		line-height: 1
-		position: relative
-		top: -4px
-		@media #{$small-only}
-			font-size: 16px
+  color: $violet-color
+  width: 90px
+  height: 90px
+  border: 6px solid $violet-color
+  text-align: center
+  padding-top: 6px
+  position: absolute
+  @media #{$small-only}
+    width: 70px
+    height: 70px
+    border: 3px solid $violet-color
+  .day
+    +font-45-bold
+    line-height: 1
+    @media #{$small-only}
+      +font-32-bold
+  .month
+    +font-18
+    +light
+    line-height: 1
+    position: relative
+    top: -4px
+    @media #{$small-only}
+      font-size: 16px
 
 
-	&.color-light
-		.day, .month
-			color: $dark-white-color
+  &.color-light
+    .day, .month
+      color: $dark-white-color
 
-	.page-banner .auto-height &
-		position: relative
+  .page-banner .auto-height &
+    position: relative

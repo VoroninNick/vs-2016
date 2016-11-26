@@ -1,184 +1,184 @@
 .page-banner
-	position: relative
-	height: 80vh
-	width: 100%
-	overflow: hidden
-	@media #{$small-only}
-		height: 100vh
+  position: relative
+  height: 80vh
+  width: 100%
+  overflow: hidden
+  @media #{$small-only}
+    height: 100vh
 
 
 .page-banner-description-block
-	position: absolute
-	top: 50%
-	left: 50%
-	+transform( translate(-50%, -50%))
-	display: block
-	width: 80%
-	height: 80px
-	@media #{$small-only}
-		top: 35%
-	@media #{$large-up}
-		width: 800px
+  position: absolute
+  top: 50%
+  left: 50%
+  +transform( translate(-50%, -50%))
+  display: block
+  width: 80%
+  height: 80px
+  @media #{$small-only}
+    top: 35%
+  @media #{$large-up}
+    width: 800px
 
-	.inner
-		position: relative
-		.icon-link
-			position: absolute
-			top: -30px
-			left: 170px
-			span
-				display: none
-			@media #{$small-only}
-				top: 60px
-				left: initial
-				right: 10px
-				margin-right: 0
-			@media #{$large-up}
-				display: none
+  .inner
+    position: relative
+    .icon-link
+      position: absolute
+      top: -30px
+      left: 170px
+      span
+        display: none
+      @media #{$small-only}
+        top: 60px
+        left: initial
+        right: 10px
+        margin-right: 0
+      @media #{$large-up}
+        display: none
 
-	.rect
-		height: 80px
-		position: relative
-		overflow: hidden
-		// border: 5px solid $violet-color
+  .rect
+    height: 80px
+    position: relative
+    overflow: hidden
+    // border: 5px solid $violet-color
 
-		.top-border, .bottom-border, .left-border, .right-border
-			content: ''
-			position: absolute
-			background: $violet-color
-		.top-border, .bottom-border
-			width: 0
-			height: 5px
-			+transition(0.75s)
-			+transition-delay(0.75s)
-			+animation-timing-function(ease-in-out)
-			&.visible
-				width: 100%
-		.top-border
-			top: 0
-			left: 0
-		.bottom-border
-			bottom: 0
-			right: 0
-		.left-border, .right-border
-			height: 0
-			width: 5px
-			+transition(0.75s)
-			+transition-delay(1.25s)
-			+animation-timing-function(ease-in-out)
-			&.visible
-				height: 100%
-		.left-border
-			bottom: 0
-			left: 0
-		.right-border
-			top: 0
-			right: 0
+    .top-border, .bottom-border, .left-border, .right-border
+      content: ''
+      position: absolute
+      background: $violet-color
+    .top-border, .bottom-border
+      width: 0
+      height: 5px
+      +transition(0.75s)
+      +transition-delay(0.75s)
+      +animation-timing-function(ease-in-out)
+      &.visible
+        width: 100%
+    .top-border
+      top: 0
+      left: 0
+    .bottom-border
+      bottom: 0
+      right: 0
+    .left-border, .right-border
+      height: 0
+      width: 5px
+      +transition(0.75s)
+      +transition-delay(1.25s)
+      +animation-timing-function(ease-in-out)
+      &.visible
+        height: 100%
+    .left-border
+      bottom: 0
+      left: 0
+    .right-border
+      top: 0
+      right: 0
 
 
-	.title
-		+header-font-family
-		font-size: 36px
-		color: $dark-white-color
-		font-weight: 700
-		text-transform: uppercase
-		letter-spacing: 4px
-		top: -30px
-		left: -20px
-		position: absolute
-		opacity: 0
-		z-index: 1
-		+transition(0.25s)
-		// +transition-delay(0.5s)
-		line-height: 70px
-		@media #{$medium-up}
-			font-size: 56px
-			top: -30px
-			left: -50px
-		&.visible
-			opacity: 1
+  .title
+    +header-font-family
+    font-size: 36px
+    color: $dark-white-color
+    font-weight: 700
+    text-transform: uppercase
+    letter-spacing: 4px
+    top: -30px
+    left: -20px
+    position: absolute
+    opacity: 0
+    z-index: 1
+    +transition(0.25s)
+    // +transition-delay(0.5s)
+    line-height: 70px
+    @media #{$medium-up}
+      font-size: 56px
+      top: -30px
+      left: -50px
+    &.visible
+      opacity: 1
 
-	.numbers
-		color: $blue-color
-		+header-font-family
-		position: absolute
-		top: 100%
-		margin-top: -15px
-		right: 30px
-		z-index: 1
-		opacity: 0
-		+transition(0.5s)
-		@media #{$small-only}
-			right: initial
-			left: 0
-			margin-top: 30px
+  .numbers
+    color: $blue-color
+    +header-font-family
+    position: absolute
+    top: 100%
+    margin-top: -15px
+    right: 30px
+    z-index: 1
+    opacity: 0
+    +transition(0.5s)
+    @media #{$small-only}
+      right: initial
+      left: 0
+      margin-top: 30px
 
-		.number-with-subtitle
-			position: relative
-			float: left
-			margin-left: 50px
-			@media #{$small-only}
-				float: none
-				margin-left: 0
+    .number-with-subtitle
+      position: relative
+      float: left
+      margin-left: 50px
+      @media #{$small-only}
+        float: none
+        margin-left: 0
 
-			.number
-				line-height: 45px
-				+font-60
-				opacity: 0
-				+transition(0.25s)
-				@media #{$small-only}
-					+font-25
-					line-height: 25px
-				&.visible
-					opacity: 1
+      .number
+        line-height: 45px
+        +font-60
+        opacity: 0
+        +transition(0.25s)
+        @media #{$small-only}
+          +font-25
+          line-height: 25px
+        &.visible
+          opacity: 1
 
-		.subtitle
-			color: $light-gray-text-color
-			position: relative
-			left: 35px
-			opacity: 0
-			+transition(0.5s)
-			+light
-			@media #{$small-only}
-				font-size: 12px
-				left: 15px
-				top: -5px
-			&.visible
-				opacity: 1
-		&.visible
-			opacity: 1
+    .subtitle
+      color: $light-gray-text-color
+      position: relative
+      left: 35px
+      opacity: 0
+      +transition(0.5s)
+      +light
+      @media #{$small-only}
+        font-size: 12px
+        left: 15px
+        top: -5px
+      &.visible
+        opacity: 1
+    &.visible
+      opacity: 1
 
-	&.auto-height
-		height: auto
-		@media #{$small-only}
-			margin-top: 70px
+  &.auto-height
+    height: auto
+    @media #{$small-only}
+      margin-top: 70px
 
-		.title
-			position: relative
-			top: auto
-			left: auto
-			margin: 20px 0
-			text-transform: none
-			@media #{$small-only}
-				font-size: 18px
-				line-height: 24px
-			@media #{$medium-only}
-				font-size: 40px
-				line-height: 50px
+    .title
+      position: relative
+      top: auto
+      left: auto
+      margin: 20px 0
+      text-transform: none
+      @media #{$small-only}
+        font-size: 18px
+        line-height: 24px
+      @media #{$medium-only}
+        font-size: 40px
+        line-height: 50px
 
 
 .page-banner-bg
-	background-size: cover
-	height: 100%
-	position: absolute
-	width: 100%
+  background-size: cover
+  height: 100%
+  position: absolute
+  width: 100%
 
 .scroll-down
-	color: $light-gray-text-color
-	position: absolute
-	display:  block
-	bottom: 40px
-	left: 50%
-	+transform(translateX(-50%))
-	@media #{$medium-up}
-		display: none
+  color: $light-gray-text-color
+  position: absolute
+  display:  block
+  bottom: 40px
+  left: 50%
+  +transform(translateX(-50%))
+  @media #{$medium-up}
+    display: none

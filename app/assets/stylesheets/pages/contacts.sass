@@ -1,86 +1,86 @@
 .contacts-banner
-	.phone-number
-		color: inherit
-		+font-60
-		@media #{$small-only}
-			+font-32
-		@media only screen and (max-width: 320px)
-			+font-25
+  .phone-number
+    color: inherit
+    +font-60
+    @media #{$small-only}
+      +font-32
+    @media only screen and (max-width: 320px)
+      +font-25
 
 
-	.page-banner-description-block
-		.numbers
-			margin-top: -40px
-			@media #{$small-only}
-				margin-top: -15px
-				left: initial
-				right: 10px
+  .page-banner-description-block
+    .numbers
+      margin-top: -40px
+      @media #{$small-only}
+        margin-top: -15px
+        left: initial
+        right: 10px
 
 
 .emails-with-description
-	+font-21
-	.email-block
-		@media #{$small-only}
-			margin: 10px 0
-	.email
-		display: inline-block
-		color: inherit
+  +font-21
+  .email-block
+    @media #{$small-only}
+      margin: 10px 0
+  .email
+    display: inline-block
+    color: inherit
 
 
-		&:hover
-			+link-hover
+    &:hover
+      +link-hover
 
-	.description
-		+italic
-		display: inline-block
-		color: $pink-color
-		&:before
-			content: "\2014"
-		@media #{$small-only}
-			font-size: 16px
+  .description
+    +italic
+    display: inline-block
+    color: $pink-color
+    &:before
+      content: "\2014"
+    @media #{$small-only}
+      font-size: 16px
 
 .office
-	padding-top: 80px
+  padding-top: 80px
 
-	.header
-		opacity: 0
-		+transition(0.7s)
-		&.visible
-			opacity: 1
+  .header
+    opacity: 0
+    +transition(0.7s)
+    &.visible
+      opacity: 1
 
-	.small-header
-		margin-top: 50px
+  .small-header
+    margin-top: 50px
 
-	.address
-		+font-20
+  .address
+    +font-20
 
 
 .social-links
-	margin: 10px 0 0 0
+  margin: 10px 0 0 0
 
 .contact-info-container
-	opacity: 0
-	+transition(1s)
-	+transition-delay(0.7s)
-	&.visible
-		opacity: 1
+  opacity: 0
+  +transition(1s)
+  +transition-delay(0.7s)
+  &.visible
+    opacity: 1
 
 .animate-2
-	.contact-info-container
-		+transition-delay(1.75s)
-	.header
-		+transition-delay(1.25s)
+  .contact-info-container
+    +transition-delay(1.75s)
+  .header
+    +transition-delay(1.25s)
 
 .contacts-social
-	opacity: 0
-	+transition(0.7s)
-	&.visible
-		opacity: 1
+  opacity: 0
+  +transition(0.7s)
+  &.visible
+    opacity: 1
 
 .tabs
-	+translate(0,50%)
-	opacity: 0
-	transition: all 1000ms cubic-bezier(0.165, 0.84, 0.44, 1)
-	&.visible
-		opacity: 1
-		+translate(0,0)
+  +translate(0,50%)
+  opacity: 0
+  transition: all 1000ms cubic-bezier(0.165, 0.84, 0.44, 1)
+  &.visible
+    opacity: 1
+    +translate(0,0)
