@@ -49,7 +49,7 @@
 # require jquery.drawsvg.min.js
 
 # require basic
-#= require jquery.tubular.1.0
+# require jquery.tubular.1.0
 
 # require bxslider/jquery.bxSlider.min
 #= require bxslider-4/dist/jquery.bxslider.min.js

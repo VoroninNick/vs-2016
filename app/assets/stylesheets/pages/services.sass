@@ -91,9 +91,9 @@
         @media #{$small-only}
           width: 60px
           height: 40px
-        *
-          opacity: 1
-          fill: $pink-color
+      #{$service-svg-part-selector}
+        opacity: 1
+        fill: $pink-color
       &.visible
         opacity: 1
 
@@ -176,6 +176,9 @@
 
           .number
             opacity: 0.1
+.related-projects-title-p
+  margin-top: 5px
+  margin-bottom: 0
 .related-projects-title
   position: relative
   text-align: center
@@ -187,9 +190,7 @@
   margin: 50px auto 0
   padding-bottom: 50px
 
-  p
-    margin-top: 5px
-    margin-bottom: 0
+
   @media #{$large-up}
     width: 960px
   &:before, &:after

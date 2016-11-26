@@ -21,18 +21,11 @@
   &.scrolled
     &.scroll-larger-than-header-height
       background: $black-color
-    #header-logo
-      svg
-        width: 130px
+
+    .logo-svg
+      width: 130px
   body.has-opened-menu &
     background: none
-
-#header-logo-compact
-  svg
-    width: 40px
-    height: 40px
-    *
-      fill: white
 
 #header-hire-us-button-wrap
   position: absolute
@@ -58,7 +51,7 @@
 
 
 #svg-logo-symbol
-  *
+  path
     +transition-property(all)
     +transition-duration(0.5s)
 #svg-logo-word-voronin, #svg-logo-word-studio
@@ -93,7 +86,7 @@ body.has-opened-menu
 body:not(.has-opened-menu)
   #header-logo
     #svg-logo-symbol:not(:hover)
-      *
+      path
         fill: $dark-white-color
 
     #svg-logo-word-voronin, #svg-logo-word-studio

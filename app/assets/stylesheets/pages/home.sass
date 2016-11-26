@@ -82,10 +82,11 @@ body[controller-action="pages__index"]
   .icon-link
     margin-bottom: 10px
     margin-right: 50px
-    @media #{$small-only}
+  @media #{$small-only}
+    .icon-link
       display: block
-      span
-        font-size: 16px
+    .icon-link-label
+      font-size: 16px
 
 
   .blue-header
@@ -238,9 +239,9 @@ body[controller-action="pages__index"]
       +transition-duration(0.5s)
       +transition-property(all)
       +transition-timing-function(ease-in-out)
-      *
-        fill: white
-        opacity: 1
+    #{$service-svg-part-selector}
+      fill: white
+      opacity: 1
 
 
   .service

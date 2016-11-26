@@ -2,8 +2,8 @@
   .arrow-down = inline_svg "svg/arrow-down.svg"
   .label
     |Authors:
-  ul
+  ul.tags-ul
     - authors.each do |author|
-      li.tag
-        a data-tag-key=author.id
+      li.tag.tag-li
+        a.tag-a data-tag-key=author.id
           = author.name

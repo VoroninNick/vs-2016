@@ -1,4 +1,4 @@
-
+@import "_selectors"
 //= theme($primary-color: red, $secondary-color: blue, $third-color: green, $body-bg: #212121, $body-color: white, $technology-color: $primary-color, $project-bottom-banner-title-color: $primary-color, $button-lines-color: $primary-color, $desktop-slider-background-color: $primary-color)
 = theme(<%= Project.project_css_mixin_options_string %>)
   color: $body_color
@@ -39,11 +39,12 @@
       &:before
         background: $third_color
 
+  .project-details-a
+    &:hover
+      color: $link_hover_color
+
   .project-content
-    .project-details
-      a
-        &:hover
-          color: $link_hover_color
+
     .project-large-section-title
       color: $project_large_section_title_color
 
@@ -65,10 +66,10 @@
   .project-technologies
     svg
       .technology-svg-logo
-        &, *
+        &, #{$svg-part-selector}
           fill: $technology_color
       .technology-svg-orbit
-        *
+        #{$svg-part-selector}
           fill: $technology_svg_orbit_color
     .name
       color: $technology_name_color

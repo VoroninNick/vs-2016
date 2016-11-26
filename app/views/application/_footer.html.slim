@@ -15,14 +15,14 @@ footer#footer
         |Phone
       p
         - footer_phones.each do |phone|
-          a href=phone_url(phone)
+          a.main-footer-a href=phone_url(phone)
             = phone
     .footer-item
       .header
         |Email
       p
         - footer_emails.each do |email|
-          a href=email_url(email)
+          a.main-footer-a href=email_url(email)
             = email
   #sub-footer-row.row
     #sub-footer-social

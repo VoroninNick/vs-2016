@@ -1,0 +1,59 @@
+/*
+Error: File to import not found or unreadable: theming_mixins.
+       Load paths:
+         /media/data/projects/vs-2016/vendor/assets/bower_components
+         /home/pasha/.rvm/gems/ruby-2.3.0/gems/nprogress-rails-0.1.6.7/app/assets/stylesheets
+        on line 27 of app/assets/stylesheets/application.sass
+
+22: 
+23: @import "fonts"
+24: 
+25: @import "bxslider-4/dist/jquery.bxslider.min.css"
+26: 
+27: @import "theming_mixins"
+28: 
+29: +foundation-global-styles
+30: 
+31: +foundation-grid
+32: 
+
+Backtrace:
+app/assets/stylesheets/application.sass:27
+/home/pasha/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/import_node.rb:67:in `rescue in import'
+/home/pasha/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/import_node.rb:45:in `import'
+/home/pasha/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/import_node.rb:28:in `imported_file'
+/home/pasha/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/import_node.rb:37:in `css_import?'
+/home/pasha/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:313:in `visit_import'
+/home/pasha/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+/home/pasha/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/home/pasha/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
+/home/pasha/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
+/home/pasha/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
+/home/pasha/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/home/pasha/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/home/pasha/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `map'
+/home/pasha/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/home/pasha/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:169:in `block in visit_children'
+/home/pasha/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+/home/pasha/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:168:in `visit_children'
+/home/pasha/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/home/pasha/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:188:in `visit_root'
+/home/pasha/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+/home/pasha/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:159:in `visit'
+/home/pasha/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/home/pasha/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/root_node.rb:36:in `css_tree'
+/home/pasha/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/home/pasha/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+/home/pasha/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:298:in `render_with_sourcemap'
+/home/pasha/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:391:in `run'
+/home/pasha/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/home/pasha/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/exec/base.rb:52:in `parse'
+/home/pasha/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/exec/base.rb:19:in `parse!'
+/home/pasha/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/bin/sass:13:in `<top (required)>'
+/home/pasha/.rvm/gems/ruby-2.3.0/bin/sass:23:in `load'
+/home/pasha/.rvm/gems/ruby-2.3.0/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: theming_mixins.\A        Load paths:\A          /media/data/projects/vs-2016/vendor/assets/bower_components\A          /home/pasha/.rvm/gems/ruby-2.3.0/gems/nprogress-rails-0.1.6.7/app/assets/stylesheets\A         on line 27 of app/assets/stylesheets/application.sass\A \A 22: \A 23: @import \"fonts\"\A 24: \A 25: @import \"bxslider-4/dist/jquery.bxslider.min.css\"\A 26: \A 27: @import \"theming_mixins\"\A 28: \A 29: +foundation-global-styles\A 30: \A 31: +foundation-grid\A 32: "; }

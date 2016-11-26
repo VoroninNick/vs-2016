@@ -2,9 +2,14 @@
 $document.on "ready page:load", ->
 
   $welcome_page_section = $('#welcome-page-section')
+
+  ###
+  # init home video tubular
   if $welcome_page_section.attr("tubular") == 'true'
     options = { videoId: $welcome_page_section.attr("tubular-video-id"), start: 3 }
     $welcome_page_section.tubular(options);
+  ###
+
   # f-UGhWj1xww cool sepia hd
   # 49SKbS7Xwf4 beautiful barn sepia
   # cdrHWbBQ-Nc Oil Pump

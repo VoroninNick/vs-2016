@@ -28,10 +28,10 @@
     // 	left: 8px
 
 
-    path
-      fill: $black-color
-      +transition-duration(0.5s)
-      +transition-property(all)
+  path
+    fill: $black-color
+    +transition-duration(0.5s)
+    +transition-property(all)
 
   //&:hover
     background: $pink-color
@@ -46,20 +46,18 @@
       background: $pink-color
 
 
-    svg
-      path
-        fill: white
+    path
+      fill: white
 
 
   &.transparent
     background: none
-    svg
-      path
-        fill: $light-gray-text-color
+
+    path
+      fill: $light-gray-text-color
 
 
 
     &:hover
-      svg
-        path
-          fill: $pink-color
+      path
+        fill: $pink-color

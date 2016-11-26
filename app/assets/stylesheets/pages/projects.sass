@@ -66,16 +66,17 @@
         @media #{$medium-only}
           width: 60px
           height: 60px
-        *
-          fill: rgba($black-color, 0.5)
-          opacity: 1
+      #{$service-svg-part-selector}
+        fill: rgba($black-color, 0.5)
+        opacity: 1
+        +transition-duration(0.3s)
+        +transition-property(fill)
       @media #{$large-up}
         display: block
         height: 80px
     &:hover
-      svg
-        *
-          fill: $pink-color
+      #{$service-svg-part-selector}
+        fill: $pink-color
       .name
         color: $pink-color
 
@@ -85,6 +86,8 @@
       font-weight: bold
       font-size: 1.125rem
       line-height: 1.31rem
+      +transition-duration(0.3s)
+      +transition-property(color)
       @media #{$small-only}
         line-height: 40px
         padding-left: 10px
@@ -97,14 +100,12 @@
     &.checked
       @media #{$small-only}
         .icon
-          svg
-            *
-              fill: #fff
+          #{$service-svg-part-selector}
+            fill: #fff
       @media #{$large-up}
         .icon
-          svg
-            *
-              fill: $pink-color
+          #{$service-svg-part-selector}
+            fill: $pink-color
 
         color: $pink-color
     &:first-child

@@ -1,3 +1,7 @@
+.project-details-a
+  cursor: pointer
+  color: inherit
+
 .project-content
   .projects-nav
     display: block
@@ -59,10 +63,7 @@
         +translate(0,0)
 
 
-  .project-details
-    a
-      cursor: pointer
-      color: inherit
+
 
 
   .with-line
@@ -261,8 +262,8 @@
     svg
       width: 120px
       height: 120px
-      *
-        opacity: 1 !important
+    #{$svg-part-selector}
+      opacity: 1 !important
     .name
       text-transform: uppercase
       +font-18

@@ -20,7 +20,7 @@
               |Deliverables
             p
               - @project.services.each do |service|
-                a href=service.url
+                a.project-details-a href=service.url
                   = service.name
                 br
             - if @project.released_on.present?

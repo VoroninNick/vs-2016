@@ -19,14 +19,13 @@
     width: 30px
     height: 30px
 
-    path
-      +transition-duration(0.3s)
-      +transition-property(fill)
+  path
+    +transition-duration(0.3s)
+    +transition-property(fill)
 
   &:hover
-    svg
-      path
-        fill: $pink-color
+    path
+      fill: $pink-color
 
 
 
@@ -227,16 +226,15 @@ body.has-opened-video-popup
       display: block
       width: 160px
       height: 160px
-      *
-        +transition(0.7s)
+
       @media #{$small-only}
         width: 120px
         height: 120px
 
-      *
-        fill: $light-gray-text-color
+    #{$client-svg-part-selector}
+      +transition(0.7s)
+      fill: $light-gray-text-color
 
     &:hover
-      svg
-        *
-          fill: $pink-color
+      #{$client-svg-part-selector}
+        fill: $pink-color

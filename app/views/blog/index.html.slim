@@ -6,13 +6,13 @@
           .tags.tag-list
             span.tags-title
               |Tags
-            ul
-              li.all.checked
-                a href=(false ? blog_path : "#" )
+            ul.tags-ul
+              li.all.checked.tag-li
+                a.tag-a href=(false ? blog_path : "#" )
                   |All
               - @tags.each do |t|
-                li
-                  a href=(false ? article_tags_path(t.name.parameterize) : '#') data-tag-id=t.id
+                li.tag-li
+                  a.tag-a href=(false ? article_tags_path(t.name.parameterize) : '#') data-tag-id=t.id
                     = t.name
 
 
@@ -20,13 +20,13 @@
           .tags.authors
             span.authors-title
               |Authors
-            ul
+            ul.tags-ul
               li.all.checked
-                a href=blog_path
+                a.tag-a href=blog_path
                   |All
               - @authors.each do |a|
                 li
-                  a href=article_tags_path(a[:name].parameterize) data-author-id=a[:id]
+                  a.tag-a href=article_tags_path(a[:name].parameterize) data-author-id=a[:id]
                     = a[:name]
 
       .col-lg-4.sorting

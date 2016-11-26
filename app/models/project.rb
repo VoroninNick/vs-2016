@@ -165,7 +165,8 @@ class Project < ActiveRecord::Base
     sass_code = "#{preloaded_sass}\n#{code}"
     puts "SASS code:"
     puts sass_code
-    Sass.compile(sass_code, syntax: :sass)
+
+    Sass.compile(sass_code, syntax: :sass, load_paths: [Rails.root.join("app/assets/stylesheets")])
   end
 
   def project_style

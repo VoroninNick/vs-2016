@@ -92,18 +92,19 @@ $menu-bg-color: $black-color
     position: absolute
     right: 10px
     bottom: 0
-  a
-    margin: 0 8px
-    color: $dark-white-color
-    text-decoration: none
+
+.main-menu-footer-locale
+  margin: 0 8px
+  color: $dark-white-color
+  text-decoration: none
 
 
-    &.active
-      color: $light-gray-text-color
-      cursor: default
+  &.active
+    color: $light-gray-text-color
+    cursor: default
 
-    &:not(.active):hover
-      color: $pink-color
+  &:not(.active):hover
+    color: $pink-color
 
 #main-menu
   z-index: 1
@@ -133,119 +134,119 @@ $menu-bg-color: $black-color
     top: 50%
     left: 50%
 
-  li
-    +user-select(none)
-    width: 250px
+.main-menu-li
+  +user-select(none)
+  width: 250px
+  position: relative
+  height: 100px
+  line-height: 1
+  @media #{$small-only}
+    height: 60px
+    width: 130px
+    margin: 0 auto
+  @media only screen and (max-width: 320px)
+    height: 45px
+  .title
+    +header-font-family
+    +font-45-bold
+    z-index: 1
+    color: $dark-white-color
+    text-transform: uppercase
     position: relative
-    height: 100px
-    line-height: 1
+    display: inline-block
+    top: 22px
+    left: 36px
+
+    +transition-duration(0.2s)
+    +transition-property(all)
+
     @media #{$small-only}
-      height: 60px
-      width: 130px
-      margin: 0 auto
-    @media only screen and (max-width: 320px)
-      height: 45px
-    .title
-      +header-font-family
-      +font-45-bold
-      z-index: 1
-      color: $dark-white-color
-      text-transform: uppercase
-      position: relative
-      display: inline-block
-      top: 22px
-      left: 36px
+      +font-25-bold
 
-      +transition-duration(0.2s)
-      +transition-property(all)
-
-      @media #{$small-only}
-        +font-25-bold
-
-      &:before
-        content: ""
-        display: block
-        position: absolute
-        background: $dark-white-color
-        top: 28px
-        height: 10px
-        width: auto
-        left: 0
-        right: 100%
-        +transition-duration(0.2s)
-        +transition-property(all)
-        @media #{$small-only}
-          top: 12px
-
-      .text
-        position: relative
-    .sub-label
-      color: $light-gray-text-color
-      font-style: italic
-      position: absolute
-      top: 62px
-      left: 36px
-      +transition-duration(0.1s)
-      +transition-property(all)
-      @media #{$small-only}
-        top: 45px
-        font-size: 12px
-      @media only screen and (max-width: 320px)
-        display: none
-
-    .index
-      position: absolute
-      top: 27px
-      font-style: italic
-      color: $light-gray-text-color
-      z-index: 1
-      +transition-duration(0.1s)
-      +transition-property("left")
-
-    .index-line
-      top: 33px
+    &:before
+      content: ""
       display: block
       position: absolute
-      content: ""
-      width: 60px
-      height: 1px
+      background: $dark-white-color
+      top: 28px
+      height: 10px
+      width: auto
       left: 0
-      background: $violet-color
+      right: 100%
+      +transition-duration(0.2s)
+      +transition-property(all)
+      @media #{$small-only}
+        top: 12px
 
-
-    &:hover
-      .title
-        color: $pink-color
-        padding-left: 38px
-
-        &:before
-          //width: 210px
-          right: -38px
-
-      .sub-label
-        left: 74px
-        color: $dark-white-color
-      .index
-        color: $dark-white-color
-
-
-
-      .index-line
-        display: block
-
-  &.with-flexbox
-    .menu-list
-      //top: auto
-      height: 100%
+    .text
       position: relative
-      width: 100%
-      +transform(none)
-      left: auto
-      top: auto
-      +flexbox
-      +flex-direction(column)
-      +justify-content(space-around)
-      +align-items(center)
+  .sub-label
+    color: $light-gray-text-color
+    font-style: italic
+    position: absolute
+    top: 62px
+    left: 36px
+    +transition-duration(0.1s)
+    +transition-property(all)
+    @media #{$small-only}
+      top: 45px
+      font-size: 12px
+    @media only screen and (max-width: 320px)
+      display: none
+
+  .index
+    position: absolute
+    top: 27px
+    font-style: italic
+    color: $light-gray-text-color
+    z-index: 1
+    +transition-duration(0.1s)
+    +transition-property("left")
+
+  .index-line
+    top: 33px
+    display: block
+    position: absolute
+    content: ""
+    width: 60px
+    height: 1px
+    left: 0
+    background: $violet-color
+
+
+  &:hover
+    .title
+      color: $pink-color
+      padding-left: 38px
+
+      &:before
+        //width: 210px
+        right: -38px
+
+    .sub-label
+      left: 74px
+      color: $dark-white-color
+    .index
+      color: $dark-white-color
+
+
+
+    .index-line
+      display: block
+
+#main-menu.with-flexbox
+  .menu-list
+    //top: auto
+    height: 100%
+    position: relative
+    width: 100%
+    +transform(none)
+    left: auto
+    top: auto
+    +flexbox
+    +flex-direction(column)
+    +justify-content(space-around)
+    +align-items(center)
 
 
 
@@ -291,10 +292,10 @@ body.has-opened-menu
     float: left
     text-align: center
 
-    li
-      text-align: left
-      margin: 0 auto
-      display: block
+  .main-menu-li
+    text-align: left
+    margin: 0 auto
+    display: block
 
 
 @media #{breakpoint(small only)}

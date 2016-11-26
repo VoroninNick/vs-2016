@@ -2,8 +2,8 @@
   .label
     |Tags:
   .arrow-down = inline_svg "svg/arrow-down.svg"
-  ul
+  ul.tags-ul
     - tags.each do |tag|
-      li.tag
-        a data-tag-key=tag.id
+      li.tag.tag-li
+        a.tag-a data-tag-key=tag.id
           = tag.name
