@@ -4,7 +4,7 @@ class ServicesController < ApplicationController
   before_action :initialize_page_banner
   def index
 
-
+    set_page_metadata("services")
     @page_banner = {
         bg_image: 'banners/inner-page-main-banners-v1-expertise.jpg',
         title: "Expertise",
@@ -18,6 +18,7 @@ class ServicesController < ApplicationController
 
   def show
     if @service
+      set_page_metadata(@service)
       @page_banner = {
           bg_image: 'banners/inner-page-main-banners-v1-expertise.jpg',
           title: @service.name,

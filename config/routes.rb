@@ -23,7 +23,7 @@ Rails.application.routes.draw do
     scope :articles, controller: :articles do
       root as: :articles, action: :index
       get "filters/:filters", as: :articles_filters, action: :index_with_filters
-      get ":id", as: :article, action: :root
+      get ":id", as: :article, action: :show
     end
 
     scope :projects, controller: "projects" do

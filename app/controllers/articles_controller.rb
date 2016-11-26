@@ -5,6 +5,7 @@ class ArticlesController < ApplicationController
   def index
     @tags = Cms::Tag.all.joins(:articles).where(articles: { published: "t" })
     @authors = User.authors
+    set_page_metadata("articles")
 
 
 
@@ -46,6 +47,7 @@ class ArticlesController < ApplicationController
 
   def show
     if @article
+      set_page_metadata(@article)
       @page_banner_template = "article_banner"
       @page_banner = {
           bg_image: 'banners/inner-page-main-banners-v1-publications.jpg',
