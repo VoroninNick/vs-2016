@@ -132,7 +132,3 @@ $document.on "click", "#main-menu .category-header", (e)->
     init_menu_footer()
 
 ###
-
-
-
-

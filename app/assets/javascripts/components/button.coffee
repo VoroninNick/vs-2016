@@ -13,7 +13,7 @@ $document.on "mouseenter", ".btn, .icon-btn", (e)->
   $button.data("last_mouse_in", current_time)
   delay("button_mouse",
     ()->
-      $button.removeClass('out').addClass('over')
+      $button.changeClasses('over', 'out')  # removeClass('out').addClass('over')
     800
     true
   )
@@ -39,7 +39,9 @@ $document.on "mouseleave", ".btn, .icon-btn", (e)->
     if time_diff >= 300
       delay("button_mouse"
         ()->
-          $button.removeClass('over').addClass('out')
+          #$button.removeClass('over').addClass('out')
+          $button.changeClasses('out', 'over') # removeClass('over').addClass('out')
+
         800
         true
       )

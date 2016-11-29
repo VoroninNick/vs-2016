@@ -40,9 +40,9 @@ handle_keyup = ()->
     revalidate = true
 
   if value.length
-    $input_wrap.addClass("not-empty").removeClass("empty")
+    $input_wrap.changeClasses("not-empty", "empty") # addClass("not-empty").removeClass("empty")
   else
-    $input_wrap.addClass("empty").removeClass("not-empty")
+    $input_wrap.changeClasses("empty", "not-empty") # addClass("empty").removeClass("not-empty")
 
   $input_wrap.validate()
 
@@ -140,7 +140,7 @@ $("body").on "submit", "form.ajax-submit", (event)->
 #    )
 
     success_handler = ()->
-      $form.removeClass("sending").addClass("sent-successfully")
+      $form.changeClasses("sent-successfully", "sending") # removeClass("sending").addClass("sent-successfully")
       $preloader.addClass("hide")
 
     $(this).ajaxSubmit({
@@ -159,10 +159,10 @@ initialize_inputs_when_autocomplete = ()->
     val = $input.val()
     if val && val.length && !$input.attr("value")
       #alert("hi: #{val}")
-      $input_wrap.addClass("not-empty").removeClass("empty")
-      $input_wrap.addClass("autofilled")
+      $input_wrap.changeClasses("not-empty autofilled", "empty") # addClass("not-empty").removeClass("empty")
+      #$input_wrap.addClass("autofilled")
     else
-      $input_wrap.addClass("empty").removeClass("not-empty")
+      $input_wrap.changeClasses("empty", "not-empty") # addClass("empty").removeClass("not-empty")
     #console.log "#{val}", $input.get(0)
     #handle_keyup.apply(this)
 

@@ -1,7 +1,34 @@
 $.fn.changeClasses = function(add_classes, remove_classes){
-    var classes = this.get(0).classList.toString().split(" ")
-    var diff = false
-    var new_classes = []
+    var any_changed = false
+    $(this).each(function(index, element){
+        if (typeof add_classes == 'string'){
+            add_classes = add_classes.split(" ")
+        }
+
+        if (typeof remove_classes == 'string'){
+            remove_classes = remove_classes.split(" ")
+        }
+
+        var classes_str = element.classList.toString()
+        var classes = classes_str.split(" ")
+        var diff = false
+        var new_classes = []
+        var new_class_str = classes.concat(add_classes).getUnique().filter(function(c){ return !remove_classes.includes(c) }).join(" ")
+
+        console.log("new_class_str:", new_class_str, "; original_class_str:", classes_str)
+        var changed = new_class_str != classes_str
+        if (changed){
+            $(element).attr("class", new_class_str)
+        }
+
+        if (changed){
+            any_changed = true
+        }
+    })
+
+    return any_changed
+
+
 
     var classes_to_remove = []
     var classes_to_add = []

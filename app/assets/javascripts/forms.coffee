@@ -14,9 +14,10 @@ $document.on "keyup", ".input.string, .input.text, .input.phone", (e)->
   val = $target_input.val()
   console.log val
   if val.length > 0
-    $input_wrap.removeClass("empty").addClass("not-empty")
+    $input_wrap.changeClasses("not-empty", "empty") # $input_wrap.changeClasses("not-empty", "empty") #
+
   else
-    $input_wrap.removeClass("not-empty").addClass("empty")
+    $input_wrap.changeClasses("empty", "not-empty") # $input_wrap.removeClass("not-empty").addClass("empty")
 
   $(this).trigger("after_keyup", e)
 
