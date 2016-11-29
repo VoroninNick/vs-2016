@@ -19,7 +19,7 @@
   position: fixed
   bottom: 0
   height: 0
-  +transition-property("opacity, bottom")
+  +transition-property("opacity, -webkit-transform, -o-transform, -ms-transform, -moz-transform, transform")
   +transition-duration(0.3s)
   opacity: 1
 
@@ -33,6 +33,8 @@
 
     &.hide
       opacity: 0
+  &.animation-end
+    +translate3d(0,-100vh,0)
 
 
 

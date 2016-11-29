@@ -36,7 +36,6 @@ $document.on "click", ".projects-popup .close-button-and-text, #projects-popup-b
   $projects_popup.addClass("hide")
   setTimeout(
     ()->
-      $projects_popup.removeClass("show")
-      $projects_popup.removeClass("hide")
+      $projects_popup.removeClass("show hide")
     500
   )

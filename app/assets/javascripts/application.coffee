@@ -3,6 +3,7 @@
 #= require coffee_functions
 #= require jquery/dist/jquery.min.js
 #= require jquery_ujs
+#= require jquery_functions
 #= require turbolinks
 #= require global
 #= require images.js.erb

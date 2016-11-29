@@ -188,7 +188,7 @@ reveal = (direction)->
 hide_slide = ()->
   setTimeout(
     ()->
-      $(".reveal-1").css("bottom", "100%")
+      $(".reveal-1").addClass("animation-end")
     150
   )
 
