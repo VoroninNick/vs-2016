@@ -19,7 +19,7 @@ $document.on "ready page:load", ->
   $welcome_page_section.find(".white-header").textillate({
     in: {
       effect: "fadeIn"
-      delay: 35
+      delay: 35 # 35
     }
   })
 

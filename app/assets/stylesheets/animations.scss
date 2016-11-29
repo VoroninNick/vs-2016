@@ -1,0 +1,19 @@
+@include keyframes(fadeIn) {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+
+.animated {
+  @include animation-duration(1s);
+  @include animation-fill-mode(both)
+}
+
+.fadeIn {
+  @include animation-name(fadeIn);
+}

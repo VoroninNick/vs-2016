@@ -77,11 +77,13 @@ $arazzinni-gray-color: #414141
     width: 430px
     top: 200px
     opacity: 0
-    +translate(50%,0)
+    +translate3d(50%,0)
     @media #{$xlarge-only}
-      right: 100px
+      //right: 100px
+      +translate3d(-100px)
     @media #{$xxlarge-up}
-      right: 300px
+      //right: 300px
+      +translate3d(-300px)
     .title
       color: white
       +font-60
@@ -109,7 +111,7 @@ $arazzinni-gray-color: #414141
     .project-description-block
       +transition(1s)
       opacity: 1
-      +translate(0,0)
+      +translate3d(0,0)
   // .hero
   // 	+transition(1s)
   // 	opacity: 1
@@ -164,7 +166,7 @@ $arazzinni-gray-color: #414141
       .hero
         top: 100px
         left: -200px
-        +translate(0,50%)
+        +translate3d(0,50%)
         @media #{$xlarge-only}
           left: -100px
         @media #{$xxlarge-up}
@@ -173,34 +175,74 @@ $arazzinni-gray-color: #414141
         .hero
           +transition(1s)
           opacity: 1
-          +translate(0,0)
+          +translate3d(0,0)
 
 .slider-container
+  .home-portfolio-slide-plit
+    .project-description-block
+      .service-icon
+        #{$svg-part-selector}
+          fill: $plit-green-color
+      .title
+        sup
+          color: $plit-green-color
+
+    .hero
+      bottom: 0
+      +translate3d(-100px)
+      max-height: 100%
+      +transition(1s)
+      // +translate(-50%,0)
+      @media #{$xxlarge-up}
+        //+translate3d(-100px)
+
+
+    &.visible
+      .hero
+        opacity: 1
+        +translate3d(0,0)
+
+
+
   &[active-slide="plit"]
     .slider-bg
       background: $plit-gray-color
     .wing
       fill: $plit-green-color
-    .home-portfolio-slide
-      .project-description-block
-        .service-icon
-          #{$svg-part-selector}
-            fill: $plit-green-color
-        .title
-          sup
-            color: $plit-green-color
+
+
+  .home-portfolio-slide-arazzinni
+    .project-description-block
+      .service-icon
+        #{$svg-part-selector}
+          fill: $arazzinni-brown-color
+      .title
+        color: $arazzinni-black-color
+        sup
+          color: $arazzinni-brown-color
+      .description
+        color: $arazzinni-gray-color
+
+
+    .hero
+      top: 100px
+      left: -100px
+
+      max-height: 100%
+      +transition(1s)
+      // +translate(0,50%)
+      @media #{$xlarge-only}
+        top: 50px
+        left: -150px
+      @media #{$xxlarge-up}
+        top: 50px
+        left: 0
+    &.visible
       .hero
-        bottom: 0
-        left: -100px
-        max-height: 100%
-        // +translate(-50%,0)
-        @media #{$xxlarge-up}
-          left: 0
-      &.visible
-        .hero
-          +transition(1s)
-          opacity: 1
-          +translate(0,0)
+        opacity: 1
+        +translate3d(-100px,0)
+
+
 
   &[active-slide="arazzinni"]
     .slider-bg
@@ -213,31 +255,6 @@ $arazzinni-gray-color: #414141
           color: $arazzinni-brown-color
         &:after
           background: rgba($arazzinni-brown-color, 0.6)
-    .home-portfolio-slide
 
-      .project-description-block
-        .service-icon
-          #{$svg-part-selector}
-            fill: $arazzinni-brown-color
-        .title
-          color: $arazzinni-black-color
-          sup
-            color: $arazzinni-brown-color
-        .description
-          color: $arazzinni-gray-color
-      .hero
-        top: 100px
-        left: -200px
-        max-height: 100%
-        // +translate(0,50%)
-        @media #{$xlarge-only}
-          top: 50px
-          left: -250px
-        @media #{$xxlarge-up}
-          top: 50px
-          left: -100px
-      &.visible
-        .hero
-          +transition(1s)
-          opacity: 1
-          +translate(0,0)
+
+

@@ -14,7 +14,6 @@
 // - Transitions
 // - User Select
 
-
 // Animations
 @mixin animation($animation) {
   -webkit-animation: $animation;
@@ -137,9 +136,9 @@
   -o-transform: translate($x, $y);
   transform: translate($x, $y);
 }
-@mixin translate3d($x, $y, $z) {
-  -webkit-transform: translate3d($x, $y, $z);
-  transform: translate3d($x, $y, $z);
+@mixin translate3d($x: 0, $y: 0, $z: 0) {
+  $v: translateX($x) translateY($y) translateZ($z);
+  @include transform($v);
 }
 @mixin rotate($degrees) {
   -webkit-transform: rotate($degrees);
