@@ -77,13 +77,7 @@ $arazzinni-gray-color: #414141
     width: 430px
     top: 200px
     opacity: 0
-    +translate3d(50%,0)
-    @media #{$xlarge-only}
-      //right: 100px
-      +translate3d(-100px)
-    @media #{$xxlarge-up}
-      //right: 300px
-      +translate3d(-300px)
+    +translate3d(0)
     .title
       color: white
       +font-60
@@ -111,7 +105,16 @@ $arazzinni-gray-color: #414141
     .project-description-block
       +transition(1s)
       opacity: 1
-      +translate3d(0,0)
+      //+translate3d(0,0)
+
+      +translate3d(50%,0)
+      @media #{$xlarge-only}
+        //right: 100px
+        +translate3d(-100px)
+      @media #{$xxlarge-up}
+        //right: 300px
+        +translate3d(-300px)
+
   // .hero
   // 	+transition(1s)
   // 	opacity: 1

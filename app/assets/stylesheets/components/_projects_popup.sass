@@ -15,51 +15,49 @@ $circle-in-duration: 1s
 
 
 
-//+keyframes(show-popup-from-circle-1)
++keyframes(show-popup-from-circle-1)
   0%
     opacity: 0.5
-    width: 40px
-    height: 40px
-    right: 80px
-    bottom: 67px
+    //+scale(0.01)
+    //+transform(translateX)
+    //+transform-props(-80px, -67px, 0, 0.01)
+    +transform-props(3vmax, 3vmax, 0, 1)
   35%, 50%
     opacity: 1
   35%, 90%, 100%
+    //+scale(1)
+    //+transform-props(37.5vmax, 37.5vmax, 0, 1)
+    +transform-props(-37.5vmax, -37.5vmax, 0, 1)
+    //+transform-props(-37vmax)
 
-    bottom: -37.5vmax
-    right: -37.5vmax
-    width: 100vmax
-    height: 100vmax
   100%
     opacity: 0
 
-//+keyframes(show-popup-from-circle-2)
++keyframes(show-popup-from-circle-2)
   0%, 45%
-    width: 40px
-    height: 40px
-    right: 80px
-    bottom: 67px
+    //+scale(0.01)
+    //+transform-props(-80px, -67px, 0, 0.01)
+    +transform-props(103vmax, 103vmax, 0, 1)
   45%, 90%, 100%
-    bottom: -37.5vmax
-    right: -37.5vmax
-    width: 125vmax
-    height: 125vmax
+    //+scale(1)
+    +transform-props(45vmax, 45vmax, 0, 1)
+    //+transform-props(3vmax, 3vmax, 0, 1)
   0%, 50%
     opacity: 1
   100%
     opacity: 0
 
-//+keyframes(show-popup-from-circle-3)
++keyframes(show-popup-from-circle-3)
   0%
-    width: 40px
-    height: 40px
-    right: 80px
-    bottom: 67px
-  65%, 100%
-    bottom: -50vmax
-    right: -50vmax
-    width: 200vmax
-    height: 200vmax
+    //+scale(0.01)
+    //+transform-props(-80px, -67px, 0, 0.005)
+    //+transform-props(3vmax, 3vmax, 0, 1)
+    +transform-props(180vmax, 180vmax, 0, 1)
+  50%, 100%
+    //+scale(1)
+    //+transform-props(50vmax, 50vmax, 0, 1)
+    //+transform-props(-50vmax, -50vmax, 0, 1)
+    +transform-props(90vmax, 90vmax, 0, 1)
   0%, 50%
     opacity: 1
   100%
@@ -140,6 +138,10 @@ body.has-opened-projects-popup
 
   body.has-opened-projects-popup &
     .circle1
+      bottom: -80vmax
+      right: -80vmax
+      width: 100vmax
+      height: 100vmax
       background: $circle-1-bg
       z-index: 3
       +animation-duration($circle-in-duration)
@@ -148,12 +150,20 @@ body.has-opened-projects-popup
     .circle2
       background: $circle-2-bg
       z-index: 2
+      bottom: 0
+      right: 0
+      width: 125vmax
+      height: 125vmax
       +animation-duration($circle-in-duration)
       +animation-name(show-popup-from-circle-2)
       +animation-timing-function(ease-in)
     .circle3
       background: $circle-3-bg
       z-index: 1
+      bottom: 0
+      right: 0
+      width: 200vmax
+      height: 200vmax
       +animation-duration($circle-in-duration)
       +animation-name(show-popup-from-circle-3)
       +animation-timing-function(ease-in)
