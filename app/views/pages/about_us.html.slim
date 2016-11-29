@@ -146,17 +146,18 @@
           p
             |Logos and branding are so important. In a big part of the world, people cannot read French or English — but are great in remembering signs.
 
-        .columns.horizontal-container
+        - if @clients.try(:any?)
+          .columns.horizontal-container
 
-          - @clients.in_groups_of((@clients.count / 2).ceil, false) do |group|
-            .horizontal-row.clearfix style="width: #{200 * group.count}px"
-              - group.each do |client|
-                - url = client.url.try{|s| s.gsub(/\s/, "")}
-                - if url.present? && url.scan(/([http|https]\:)?\/\//).any?
-                  a.logo href=url rel="nofollow" title=(client.avatar_alt if client.avatar_alt.present?)
-                    = embedded_svg_from_absolute_path client.avatar.path
-                - else
-                  .logo
-                    = embedded_svg_from_absolute_path client.avatar.path
+            - @clients.in_groups_of((@clients.count / 2).ceil, false) do |group|
+              .horizontal-row.clearfix style="width: #{200 * group.count}px"
+                - group.each do |client|
+                  - url = client.url.try{|s| s.gsub(/\s/, "")}
+                  - if url.present? && url.scan(/([http|https]\:)?\/\//).any?
+                    a.logo href=url rel="nofollow" title=(client.avatar_alt if client.avatar_alt.present?)
+                      = embedded_svg_from_absolute_path client.avatar.path
+                  - else
+                    .logo
+                      = embedded_svg_from_absolute_path client.avatar.path
 
 

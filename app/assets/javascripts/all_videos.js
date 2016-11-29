@@ -1,7 +1,8 @@
 function onYouTubeIframeAPIReady(){
+
     //console.log("onYouTubeIframeAPIReady")
     if (!window.YT || !YT.Player){
-        console.log("onYouTubeIframeAPIReady: return")
+        console.log("onYouTubeIframeAPIReady: no YT or YT.Player: return")
         return
     }
     var callback_this = this, callback_args = arguments
@@ -31,6 +32,7 @@ function init_youtube_player(callback_this, callback_args){
     //key = iframe_id.replace("-", "_")
     key = map[iframe_id]
 
+    console.log("api_ready: ", key)
     window[key + "_" + "onYouTubeIframeAPIReady"].apply(callback_this, callback_args)
 }
 

@@ -1,4 +1,5 @@
-var about_player, $about_player, about_player_id = "about-video", $about_player_wrap;
+
+about_player = null, $about_player = null, about_player_id = "about-video", $about_player_wrap = null
 
 function about_onYouTubeIframeAPIReady(){
     console.log("about_onYouTubeIframeAPIReady")
