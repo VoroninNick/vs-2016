@@ -3,8 +3,8 @@ class ArticlesController < ApplicationController
   before_action :initialize_article, only: :show
 
   def index
-    @tags = Cms::Tag.all.joins(:articles).where(articles: { published: "t" })
-    @authors = User.authors
+    @tags = Cms::Tag.all.joins(:articles).where(articles: { published: "t" }).includes(:translations, :taggings, :articles)
+    @authors = User.authors.includes(:translations)
     set_page_metadata("articles")
 
 
@@ -62,7 +62,7 @@ class ArticlesController < ApplicationController
 
   private
   def initialize_articles
-    @articles = Article.published
+    @articles = Article.published.includes(:translations)
     params[:tags]
   end
 

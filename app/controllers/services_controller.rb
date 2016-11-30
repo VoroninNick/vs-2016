@@ -34,7 +34,7 @@ class ServicesController < ApplicationController
 
   private
   def initialize_services
-    @services = Service.published.sort_by_sorting_position
+    @services = Service.published.sort_by_sorting_position.includes(:translations)
   end
 
   def initialize_service

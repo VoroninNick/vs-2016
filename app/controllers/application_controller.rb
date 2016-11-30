@@ -64,6 +64,6 @@ class ApplicationController < ActionController::Base
   end
 
   def set_popup_projects
-    @popup_projects = Project.published
+    @popup_projects = Project.published.includes(translations: [], services: [:translations])
   end
 end

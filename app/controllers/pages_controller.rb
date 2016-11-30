@@ -33,11 +33,11 @@ class PagesController < ApplicationController
         scroll_down_title: "take a look"
     }
 
-    @team_members = Member.all
+    @team_members = Member.all.includes(:translations)
 
     #load_logos_from_assets
 
-    @clients = Client.published
+    @clients = Client.published.includes(:translations)
 
     @slides = AboutSlide.published.sort_by_sorting_position
 
