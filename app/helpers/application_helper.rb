@@ -48,9 +48,9 @@ module ApplicationHelper
 
   def youtube_video_iframe(video_key, iframe_id, options = {}, html_safe = true)
     defaults = {
+        modestbranding: 1,
         controls: 0,
         showinfo: 0,
-        modestbranding: 1,
         wmode: "transparent",
         enablejsapi: 1,
         widgetid: 1,
@@ -58,7 +58,8 @@ module ApplicationHelper
         autohide: 1,
         loop: 1,
         version: 3,
-        playlist: video_key
+        playlist: video_key,
+        rel: 0
     }
     options = defaults.merge(options)
     iframe_url_options = options
