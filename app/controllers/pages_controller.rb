@@ -2,7 +2,7 @@ class PagesController < ApplicationController
   before_action :set_page_instance, except: [:index]
 
   def index
-    @services = Service.published.sort_by_sorting_position
+    @services = Service.published.sort_by_sorting_position.includes(translations: {})
     #@enable_tubular = !File.exists?("/media/data/pasha")
     #@enable_tubular = request.host != "localhost"
     @enable_tubular = false
@@ -102,7 +102,7 @@ class PagesController < ApplicationController
   end
 
   def set_project_banners
-    @projects = [Project.first, Project.second, Project.third]
+    @projects = Project.limit(3).includes(:translations, services: [:translations])
     @project_banners = @projects.map do |p|
       project_translation = p.translations_by_locale[I18n.locale]
       image_url = nil

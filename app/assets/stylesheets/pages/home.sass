@@ -5,7 +5,8 @@ body[controller-action="pages__index"]
 
 
   #tubular-container, #home-youtube-video-bg-wrap
-    +grayscale(90%)
+    iframe
+      +grayscale(90%)
 
   #tubular-container
     opacity: 0
@@ -15,6 +16,7 @@ body[controller-action="pages__index"]
     &:after
       content: ""
       background: rgba(8, 152, 219, 0.05)
+      //background: rgba(8, 152, 219, 0.25)
       display: block
       position: absolute
       top: 0
@@ -62,6 +64,7 @@ body[controller-action="pages__index"]
     position: absolute
     display: block
     content: ""
+
     @media #{$small-only}
       left: 25px
       width: 250px

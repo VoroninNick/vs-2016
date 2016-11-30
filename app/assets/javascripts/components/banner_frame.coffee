@@ -1,15 +1,12 @@
 $document.on "ready page:load", ->  
 
-  $frame = $('.rect')
+  $rect = $('.rect')
 
-  $frame.append('<div class="left-border"></div>')
-  $frame.append('<div class="right-border"></div>')
-  $frame.append('<div class="top-border"></div>')
-  $frame.append('<div class="bottom-border"></div>')
+  #$border = $frame.find('.top-border, .bottom-border, .left-border, .right-border')
 
-  $border = $frame.find('.top-border, .bottom-border, .left-border, .right-border')
+
 
   setTimeout (->
-    if !$border.hasClass("visible")
-      $border.addClass("visible")
+    if !$rect.hasClass("visible")
+      $rect.addClass("visible")
   ), 200
