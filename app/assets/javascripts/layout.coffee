@@ -39,3 +39,10 @@ $document.on "click", ".projects-popup .close-button-and-text, #projects-popup-b
       $projects_popup.removeClass("show hide")
     500
   )
+
+
+
+$document.on "ready page:load", ()->
+  $btn = $("#projects-popup-button")
+  if !$btn.hasClass("visible")
+    $btn.addClass("visible")

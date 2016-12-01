@@ -1,3 +1,10 @@
+#projects-popup-button
+  opacity: 0
+  +transition-duration(0.5s)
+  +transition-property(opacity)
+
+  &.visible
+    opacity: 1
 #projects-popup-button, #projects-popup-button-close
   position: fixed
   z-index: $zindex-projects-popup-button
