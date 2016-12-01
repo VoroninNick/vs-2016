@@ -297,6 +297,17 @@ module RailsAdminDynamicConfig
           field :url
           field :avatar_alt
         end
+
+        config.model LifeEntry do
+          field :published
+          field :image
+          field :translations, :globalize_tabs
+        end
+
+        config.model_translation LifeEntry do
+          field :locale, :hidden
+          field :description
+        end
       end
     end
   end

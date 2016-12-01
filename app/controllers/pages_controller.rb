@@ -93,6 +93,17 @@ class PagesController < ApplicationController
   end
 
   def studio_life
+    @life_entries = LifeEntry.published.includes(:translations)
+    @life_entries_count = LifeEntry.published.count
+
+    @page_banner = {
+        bg_image: 'banners/inner-page-main-banners-v1-expertise.jpg',
+        title: "Life",
+        numbers: [
+            { number: @life_entries_count, number_description: "moments to remember"}
+        ],
+        scroll_down_title: "view all"
+    }
 
   end
 
