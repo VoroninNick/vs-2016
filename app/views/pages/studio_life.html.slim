@@ -1,0 +1,6 @@
+- @life_entries.each do |life_entry|
+  .life-entry
+    .image
+      img src=life_entry.image.url(:image)
+    .description-block
+      = raw life_entry.description
