@@ -298,6 +298,8 @@ module RailsAdminDynamicConfig
           field :avatar_alt
         end
 
+        config.include_models LifeEntry
+
         config.model LifeEntry do
           field :published
           field :image
