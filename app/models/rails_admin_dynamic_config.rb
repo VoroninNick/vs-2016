@@ -303,6 +303,7 @@ module RailsAdminDynamicConfig
         config.model LifeEntry do
           field :published
           field :image
+          field :post_link
           field :translations, :globalize_tabs
         end
 

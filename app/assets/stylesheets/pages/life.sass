@@ -1,0 +1,85 @@
+.life-entries
+  +clearfix
+.life-entry
+  position: relative
+  width: 33.33333%
+  display: inline-block
+  float: left
+
+  @media #{$medium-only}
+    width: 50%
+
+  @media #{$small-only}
+    width: 100%
+
+  .overlay
+    opacity: 0
+    position: absolute
+    top: 10px
+    bottom: 10px
+    left: 10px
+    right: 10px
+    background: rgba($black-color, 0.9)
+    +transition-duration(0.5s)
+    +transition-property(opacity)
+
+  .info-button
+    background: $black-color
+    width: 40px
+    height: 40px
+    border-radius: 50%
+    overflow: hidden
+    position: absolute
+    top: 25px
+    right: 25px
+    text-align: center
+    line-height: 40px
+    color: white
+
+  .info-btn-content
+    position: relative
+    z-index: 1
+
+
+
+
+
+
+    @media #{$medium-up}
+      display: none !important
+
+
+
+
+  .text-block
+    opacity: 0
+    +transition-duration(0.5s)
+    +transition-property(opacity)
+    //bottom: 0
+    bottom: 10px
+    left: 10px
+    right: 10px
+    position: absolute
+    //width: 100%
+    padding: 35px 35px 19px 35px
+    color: white
+    +font-20
+    +bold
+    +header-font-family
+
+    a
+      color: $pink-color
+
+
+  .author-and-date
+    color: $light-gray-text-color
+    +font-16
+    +light
+    +body-font-family
+
+
+  &:hover
+    .overlay
+      opacity: 1
+    .text-block
+      opacity: 1

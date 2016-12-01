@@ -15,194 +15,198 @@ $font-size-23: 23px
 $font-size-21: 21px
 $font-size-20: 20px
 $font-size-18: 18px
+$font-size-16: 16px
 $font-size-14: 14px
 $font-size-12: 12px
 
 // fonts families
 = body-font-family
-	font-family: $body-font-family
+  font-family: $body-font-family
 = header-font-family
-	font-family: $header-font-family
+  font-family: $header-font-family
 
 = fira-sans
-	font-family: $font-family-fira-sans
+  font-family: $font-family-fira-sans
 = lora
-	font-family: $font-family-lora
+  font-family: $font-family-lora
 
 
 // font-weight
 = light
-	font-weight: 300
+  font-weight: 300
 = normal
-	font-weight: 400
+  font-weight: 400
 
 = font-weight-500
-	font-weight: 500
+  font-weight: 500
 
 = semi-bold
-	font-weight: 600
+  font-weight: 600
 = bold
-	font-weight: 700
+  font-weight: 700
 = italic
-	font-style: italic
+  font-style: italic
 = font-style-normal
-	font-style: normal
+  font-style: normal
 
 
 // font-sizes
 = font-90
-	font-size: $font-size-90
+  font-size: $font-size-90
 = font-60
-	font-size: $font-size-60
+  font-size: $font-size-60
 = font-60-500
-	+font-60
-	+font-weight-500
+  +font-60
+  +font-weight-500
 = font-48
-	font-size: $font-size-48
+  font-size: $font-size-48
 = font-48-bold
-	+font-48
-	+bold
+  +font-48
+  +bold
 = font-45
-	font-size: $font-size-45
+  font-size: $font-size-45
 = font-45-bold
-	+font-45
-	+bold
+  +font-45
+  +bold
 = font-36
-	font-size: $font-size-36
+  font-size: $font-size-36
 = font-36-bold
-	+font-36
-	+bold
+  +font-36
+  +bold
 = font-32
-	font-size: $font-size-32
+  font-size: $font-size-32
 = font-32-bold
-	+font-32
-	+bold
+  +font-32
+  +bold
 = font-25
-	font-size: $font-size-25
+  font-size: $font-size-25
 = font-25-bold
-	+font-25
-	+bold
+  +font-25
+  +bold
 = font-23
-	font-size: $font-size-23
+  font-size: $font-size-23
 = font-21
-	font-size: $font-size-21
+  font-size: $font-size-21
 = font-20
-	font-size: $font-size-20
+  font-size: $font-size-20
 = font-20-italic
-	+font-20
-	+italic
+  +font-20
+  +italic
 
 = font-18
-	font-size: $font-size-18
+  font-size: $font-size-18
+
+= font-16
+  font-size: $font-size-16
 
 = font-14
-	font-size: $font-size-14
+  font-size: $font-size-14
 
 = font-12
-	font-size: $font-size-12
+  font-size: $font-size-12
 
 = header
-	+header-font-family
-	text-transform: uppercase
-	color: $pink-color
+  +header-font-family
+  text-transform: uppercase
+  color: $pink-color
 
 
 = large-header
-	+header
-	text-align: center
-	+bold
-	position: relative
-	font-size: 100px
-	top: -90px
-	margin-top: -90px
-	opacity: 0
-	+transition(0.7s)
-	@media #{$small-only}
-		margin-top: 0
-		font-size: 45px
-		top: -25px
-	&.visible
-		opacity: 1
+  +header
+  text-align: center
+  +bold
+  position: relative
+  font-size: 100px
+  top: -90px
+  margin-top: -90px
+  opacity: 0
+  +transition(0.7s)
+  @media #{$small-only}
+    margin-top: 0
+    font-size: 45px
+    top: -25px
+  &.visible
+    opacity: 1
 
 
 
 = h1
-	+header
+  +header
 
 
 = h2
-	+header
-	line-height: 24px
+  +header
+  line-height: 24px
 
 = h3
-	+header
+  +header
 //+font-18
 
 = h4
-	+header
-	+font-18
-	+font-weight-500
+  +header
+  +font-18
+  +font-weight-500
 
 = h5
-	+header
+  +header
 
 = h6
-	+header
+  +header
 
 
 
 = font-classes
-	.header
-		+header
+  .header
+    +header
 
-	.large-header
-		+large-header
+  .large-header
+    +large-header
 
-	h1, .h1
-		+h1
+  h1, .h1
+    +h1
 
-	h2, .h2
-		+h2
+  h2, .h2
+    +h2
 
-	h3, .h3
-		+h3
+  h3, .h3
+    +h3
 
-	h4, .h4
-		+h4
-		font-weight: 500
+  h4, .h4
+    +h4
+    font-weight: 500
 
-	h5, .h5
-		+h5
+  h5, .h5
+    +h5
 
-	h6, .h6
-		+h6
+  h6, .h6
+    +h6
 
-	.font-32-bold
-		+font-32-bold
+  .font-32-bold
+    +font-32-bold
 
-	.font-36-bold
-		+font-36-bold
-		@media #{$small-only}
-			line-height: 36px
+  .font-36-bold
+    +font-36-bold
+    @media #{$small-only}
+      line-height: 36px
 
-	.font-23
-		+font-23
+  .font-23
+    +font-23
 
 
-	// font classes
-	.italic
-		+italic
+  // font classes
+  .italic
+    +italic
 
-	// color classes
-	.dark
-		color: #212121
-		line-height: 1.3125rem
-	.pink
-		color: $pink-color
-	.white
-		color: $dark-white-color
-	.blue
-		color: $blue-color
+  // color classes
+  .dark
+    color: #212121
+    line-height: 1.3125rem
+  .pink
+    color: $pink-color
+  .white
+    color: $dark-white-color
+  .blue
+    color: $blue-color
 
 
 
@@ -210,21 +214,21 @@ $font-size-12: 12px
 // snippet mixins
 
 = xlarge-number
-	position: absolute
-	z-index: 0
-	font-size: 400px
-	bottom: -50px
-	right: -8px
-	line-height: 1
-	color: #D3D3D3
-	opacity: 0.2
+  position: absolute
+  z-index: 0
+  font-size: 400px
+  bottom: -50px
+  right: -8px
+  line-height: 1
+  color: #D3D3D3
+  opacity: 0.2
 
 = large-number($color: $pink-color)
-	font-size: 180px
-	line-height: 1
-	color: $color
-	+italic
+  font-size: 180px
+  line-height: 1
+  color: $color
+  +italic
 
 = link-hover
-	color: $pink-color
+  color: $pink-color
 
