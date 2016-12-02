@@ -44,7 +44,7 @@
 #= require forms
 #= require components/tabs
 #= require components/button
-#= require components/banner_frame
+#= require components/page_banner
 #= require components/blockquote
 
 # require jquery.drawsvg.min.js

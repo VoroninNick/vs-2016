@@ -24,19 +24,12 @@
           = inline_svg("svg/portfolio.svg")
           span.icon-link-label
             |View portfolio
-  / #home-portfolio-section.section.page-section
-  /   /- 3.times do |i|
-  /     .slide.home-portfolio-slide style="background-image: url(#{asset_path("portfolio_home_banners/#{i+1}.jpg")})"
-  /   .home-slider-wrap
-  /     .home-slider
-  /       = render "projects/main_banner", banner: @project_banners.first
-  /       = render "projects/main_banner", banner: @project_banners.second
-  /       = render "projects/main_banner", banner: @project_banners.third
+
+    #welcome-scroll-down.scroll-down
+      = raw @home_scroll_down_text
+
 
   #home-portfolio-section.section.page-section.small-one-screen
-    /= render "projects/main_banner", banner: @project_banners.first
-    /= render "projects/main_banner", banner: @project_banners.second
-    /= render "projects/main_banner", banner: @project_banners.third
     = render "home_projects_slider"
 
   #home-services-section.section.page-section
@@ -47,7 +40,6 @@
         = t("pages.home.services.description")
     - @services.each do |service|
       - service_icon_path = service.icon.path
-      /- service_icon_path = "svg/expertise/logo_and_ci.svg"
 
       - service_bg_image = service.home_bg.url(:xxl) if service.home_bg.exists?(:xxl)
       - service_bg_image = service.list_image.url(:home_xxl) if service_bg_image.blank? && service.list_image.exists?(:home_xxl)

@@ -35,6 +35,9 @@ body[controller-action="pages__index"]
 
 
 
+
+
+
 .full-page-container
   //background: rgba(0, 0, 0, 0.85)
   z-index: $zindex-home-fullpage-container
@@ -48,6 +51,20 @@ body[controller-action="pages__index"]
   @media #{$medium-only}
     //min-height: 75vh
     height: 100vh
+
+#welcome-scroll-down
+  display: block
+
+  .line-through
+    &:after
+      position: absolute
+      left: 0
+      content: ""
+      background: $blue-color
+      height: 1px
+      width: 56px
+      //+transform(rotate(-6deg))
+      +transform-props(-3px, 11px, 0, null, -6deg)
 
 #welcome-block
   width: 850px

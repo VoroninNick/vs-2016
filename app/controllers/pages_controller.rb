@@ -16,6 +16,8 @@ class PagesController < ApplicationController
     set_project_banners
 
     set_page_metadata("home")
+
+    @home_scroll_down_text = "<span class='line-through'>dare to</span> see our projects"
   end
 
   def about_us

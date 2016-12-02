@@ -25,7 +25,7 @@
   background: rgba(0,0,0,$opacity)
 
 
-= transform-props($translateX: null, $translateY: null, $translateZ: null, $scale: null)
+= transform-props($translateX: null, $translateY: null, $translateZ: null, $scale: null, $rotate: null)
   $v: ""
   @if $translateX != null
     $v: #{$v} translateX($translateX)
@@ -35,4 +35,6 @@
     $v: #{$v} translateZ($translateZ)
   @if $scale != null
     $v: #{$v} scale($scale)
+  @if $rotate != null
+    $v: #{$v} rotate($rotate)
   +css3-prefix("transform", $v)

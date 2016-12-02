@@ -196,3 +196,8 @@ $document.on "ready", ()->
 $document.on "click", ".home-slider-navigation .navigation-list-item:not(.active)", ()->
   index = $(this).attr("data-slide-index")
   setSlide(index)
+
+
+$document.on "click", "#welcome-page-section .scroll-down", ()->
+  setSlide()
+  scroll("down")
