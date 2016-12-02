@@ -67,6 +67,7 @@
 #= require pages/project_page
 #= require pages/publications
 #= require pages/contacts
+#= require pages/life
 #= require vendor/richmarker
 #= require maps
 

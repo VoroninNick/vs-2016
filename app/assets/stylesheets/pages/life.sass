@@ -35,12 +35,15 @@
     text-align: center
     line-height: 40px
     color: white
-
-  .info-btn-content
-    position: relative
+    +transition-duration(0.2s)
+    +transition-property("background, color")
     z-index: 1
-
-
+    cursor: pointer
+    +body-font-family
+    //+header-font-family
+    +semi-bold
+    +italic
+    +font-23
 
 
 
@@ -48,8 +51,9 @@
     @media #{$medium-up}
       display: none !important
 
-
-
+  .info-btn-content
+    position: relative
+    z-index: 1
 
   .text-block
     opacity: 0
@@ -67,6 +71,7 @@
     +bold
     +header-font-family
 
+
     a
       color: $pink-color
 
@@ -78,8 +83,12 @@
     +body-font-family
 
 
-  &:hover
+  &:hover, &.opened
     .overlay
       opacity: 1
     .text-block
       opacity: 1
+
+  &.opened .info-button, .info-button:hover
+    background: $dark-white-color
+    color: $black-color
