@@ -16,6 +16,7 @@ $arazzinni-gray-color: #414141
   padding: 30px 0 30px 30px
   position: absolute
   z-index: 3
+  margin-top: -30px
 
   .navigation-list-item
     cursor: pointer
@@ -74,19 +75,25 @@ $arazzinni-gray-color: #414141
     z-index: 1
     position: absolute
     right: 0
-    width: 430px
+    width: 460px
     top: 200px
     opacity: 0
     +translate3d(0)
     .title
       color: white
-      +font-60
+      +font-70
       padding: 24px 10px 10px 0
+      position: relative
+      z-index: 1
       sup
         color: $radok-red-orange-color
+        top: 10px
+        left: 4px
     .description
       color: white
     .service-icons
+      position: relative
+      height: 75px
     .service-icon
       display: inline-block
       margin-right: 20px
@@ -113,7 +120,7 @@ $arazzinni-gray-color: #414141
         +translate3d(-100px)
       @media #{$xxlarge-up}
         //right: 300px
-        +translate3d(-300px)
+        +translate3d(-300px, 70px)
 
   // .hero
   // 	+transition(1s)

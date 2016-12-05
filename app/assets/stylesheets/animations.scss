@@ -8,6 +8,25 @@
   }
 }
 
+@include keyframes(slideUp) {
+  from {
+    @include translate3d(0)
+  }
+
+  to {
+    @include translate3d(0, -100%)
+  }
+}
+
+@include keyframes(slideDown) {
+  from {
+    @include translate3d(0)
+  }
+
+  to {
+    @include translate3d(0, 100%)
+  }
+}
 
 .animated {
   @include animation-duration(1s);

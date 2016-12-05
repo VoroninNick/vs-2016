@@ -27,7 +27,7 @@ $document.on "mousewheel", (e)->
       "page_banner_scroll_down"
       ()->
         console.log "scroll"
-        $("body").animate(scrollTop: page_banner_height)
+        $("body").animate({scrollTop: page_banner_height}, 800)
       1000
       true
       false

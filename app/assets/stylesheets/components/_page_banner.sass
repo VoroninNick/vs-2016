@@ -148,16 +148,61 @@
   +transform(translateX(-50%))
   cursor: pointer
   height: 75px
-
-  &:after
-    content: ""
-    width: 2px
-    height: 50px
-    background: $light-gray-text-color
-    position: absolute
-    left: 50%
-
+  +transition-duration(0.5s)
+  +transition-property(color)
 
 
   @media #{$medium-up}
     display: none
+
+.scroll-down-line
+  overflow: hidden
+  height: 50px
+  position: relative
+  +transition-duration(0.3s)
+  +transition-property(unquote(css3-prefix(transform)))
+  +translate3d(0, 100%)
+
+  &:before, &:after
+    content: ""
+    width: 2px
+    height: 50px
+    position: absolute
+    left: 50%
+
+  &:before
+    background: $light-gray-text-color
+    //+transition-duration(0.01s)
+    //+transition-delay(0.5s)
+
+
+
+  &:after
+    background: $pink-color
+    +transform-props(0, -50px, 0)
+    +transition-duration(0.5s)
+
+
+
+
+.scroll-down:hover
+  color: white
+  .scroll-down-line
+    &:before
+      //+transform-props(0, -50px, 0)
+
+    &:after
+
+      +transform-props(0, 0, 0)
+
+
+.scroll-down
+  &.visible
+    .scroll-down-line
+      +translate3d(0, 100%)
+  &.out
+    .scroll-down-line
+      &:after
+        +animation-name(slideDown)
+        +animation-duration(0.5s)
+

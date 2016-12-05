@@ -100,7 +100,7 @@
       +light
       +italic
       color: white
-      +fira-sans
+
       @media #{$small-only}
         font-size: 16px
 
@@ -111,20 +111,37 @@
       padding: 40px 50px 0 0
       position: relative
       .rect
-        border: 2px solid $violet-color
+        //border: 2px solid $violet-color
         position: absolute
         left: 0
         right: 30px
         height: 50px
+        top: 60px
+        overflow: visible
+
+        .left-border, .right-border
+          width: 3px
+
+        .top-border, .bottom-border
+          height: 3px
+
+        .rect-border-part
+          +transition(none)
 
         &:before
           +font-32-bold
-          +fira-sans
+          font-size: 45px
           content: "&"
           position: relative
           left: 30px
-          top: -15px
+          //top: -15px
+          //top: -19px
+          top: -34px
           color: white
+          +body-font-family
+          +italic
+          z-index: 1
+
           @media #{$small-only}
             font-size: 80px
             font-weight: bold
@@ -134,10 +151,13 @@
         text-align: right
         +font-32
         +semi-bold
+        font-size: 36px
         color: white
         //+fira-sans
         position: relative
         z-index: 1
+        letter-spacing: -1px
+
         @media #{$small-only}
           font-size: 28px
           font-weight: bold

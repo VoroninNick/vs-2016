@@ -43,6 +43,6 @@ $document.on "click", ".projects-popup .close-button-and-text, #projects-popup-b
 
 
 $document.on "ready page:load", ()->
-  $btn = $("#projects-popup-button")
+  $btn = $("#projects-popup-button, ")
   if !$btn.hasClass("visible")
     $btn.addClass("visible")

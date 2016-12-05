@@ -1,7 +1,7 @@
 $document.on "mouseenter mouseout", ".btn *, .icon-btn:not(.allow-propagation) *", (e)->
   e.stopImmediatePropagation()
 
-$document.on "mouseenter", ".btn, .icon-btn", (e)->
+$document.on "mouseenter", ".btn, .icon-btn, #welcome-scroll-down", (e)->
   e.stopPropagation()
   #alert(e.type)
   $button = $(this)
@@ -20,8 +20,7 @@ $document.on "mouseenter", ".btn, .icon-btn", (e)->
 
 
 
-$document.on "mouseleave", ".btn, .icon-btn", (e)->
-  #alert(e.type)
+$document.on "mouseleave", ".btn, .icon-btn, #welcome-scroll-down", (e)->
   e.stopPropagation()
   $button = $(this)
 
@@ -33,16 +32,10 @@ $document.on "mouseleave", ".btn, .icon-btn", (e)->
   if last_time
     time_diff = current_time - last_time
 
-
-    #$button.removeClass('over').addClass('out')
-    console.log "#{e.type}; time_diff", time_diff, "e.target: ", e.target, "; event: ", e
     if time_diff >= 300
       delay("button_mouse"
         ()->
-          #$button.removeClass('over').addClass('out')
-          $button.changeClasses('out', 'over') # removeClass('over').addClass('out')
-
+          $button.changeClasses('out', 'over')
         800
         true
       )
-

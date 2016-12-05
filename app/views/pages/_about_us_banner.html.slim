@@ -25,5 +25,4 @@
           span.icon-link-label
             |Play
 
-    .scroll-down
-      = @page_banner[:scroll_down_title]
+    = render "scroll_down", text: @page_banner[:scroll_down_title]

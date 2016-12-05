@@ -1,3 +1,5 @@
+@function css3-prefix($name)
+  @return "-webkit-#{$name}, -moz-#{$name}, -ms-#{$name}, -o-#{$name}, #{$name}"
 =filter($filter-type,$filter-amount)
   -webkit-filter: $filter-type+unquote('(#{$filter-amount})')
   -moz-filter: $filter-type+unquote('(#{$filter-amount})')

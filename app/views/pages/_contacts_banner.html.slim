@@ -14,6 +14,5 @@
           .rect-border-part.top-border
           .rect-border-part.bottom-border
 
-    .scroll-down
-      = @page_banner[:scroll_down_title]
 
+    = render "scroll_down", text: @page_banner[:scroll_down_title]

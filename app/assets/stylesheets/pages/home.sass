@@ -11,11 +11,9 @@ body[controller-action="pages__index"]
   #tubular-container
     opacity: 0
   #tubular-shield, #home-youtube-video-bg-overlay
-    background: rgba(0, 0, 0, 0.85)
-
-    &:after
+    &:before, &:after
       content: ""
-      background: rgba(8, 152, 219, 0.05)
+
       //background: rgba(8, 152, 219, 0.25)
       display: block
       position: absolute
@@ -23,6 +21,12 @@ body[controller-action="pages__index"]
       left: 0
       right: 0
       bottom: 0
+    &:before
+      background: rgba(0, 0, 0, 0.85)
+
+
+    &:after
+      background: rgba(8, 152, 219, 0.08)
 
   #tubular-shield
     opacity: 0
@@ -56,6 +60,7 @@ body[controller-action="pages__index"]
   display: block
 
   .line-through
+    +italic
     &:after
       position: absolute
       left: 0
@@ -89,7 +94,7 @@ body[controller-action="pages__index"]
 
   .inner
     position: relative
-    padding: 25px
+    padding: 25px 25px 25px 31px
 
   .white-header
     +header-font-family

@@ -25,8 +25,9 @@
           span.icon-link-label
             |View portfolio
 
-    #welcome-scroll-down.scroll-down
-      = raw @home_scroll_down_text
+
+
+    = render "scroll_down", text: raw(@home_scroll_down_text), id: "welcome-scroll-down"
 
 
   #home-portfolio-section.section.page-section.small-one-screen
@@ -34,7 +35,7 @@
 
   #home-services-section.section.page-section
     .services-intro
-      .title
+      a.title href=services_path
         = t("pages.home.services.title")
       p.description
         = t("pages.home.services.description")
