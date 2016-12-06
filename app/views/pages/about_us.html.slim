@@ -43,8 +43,8 @@
           |Logos and branding are so important. In a big part of the world, people cannot read French or English — but are great in remembering signs. Logos and branding are so important. In a big part of the world, people cannot read French or English — but are great in remembering signs.Logos and branding are so important. In a big part of the world, people cannot read French or English — but are great in remembering signs. Logos and branding are so important. In a big part of the world, people cannot read French or English — but are great in remembering signs. Logos and branding are so important. In a big part of the world, people cannot read French or English — but are great in remembering signs
 
 
-.slider
-  ul.bxslider.about-bxslider
+.slider.about-bxslider
+  ul.bxslider.slides
     - @slides.each do |slide|
       .slide style="background-image: url('#{slide.image.url(:slide)}')"
         img src=slide.image.url(:slide)

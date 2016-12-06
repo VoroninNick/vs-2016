@@ -43,7 +43,7 @@ $document.on "ready page:load", ->
       )
 
   $about_bx_slider = $(".about-bxslider")
-  $(".about-bxslider").bxSlider({
+  $about_bx_slider.find(".slides").bxSlider({
     auto: true
     pager: false
     controls: true
@@ -58,6 +58,8 @@ $document.on "ready page:load", ->
       $controls = $(this).closest(".slider").find(".custom-controls")
       $controls.find(".current-number").text(newIndex + 1)
   })
+
+
 
 
   scroll_container = (scroll_direction)->
