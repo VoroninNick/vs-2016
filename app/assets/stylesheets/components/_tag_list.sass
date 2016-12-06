@@ -1,4 +1,12 @@
 .tags
+  .label
+    vertical-align: top
+    margin-top: 8px
+
+  .tags-ul
+    width: calc(100% - 75px)
+    vertical-align: top
+    margin-top: 0
   .arrow-down
     @media #{$medium-up}
       display: none
@@ -16,10 +24,12 @@
       svg
         fill: $light-gray-text-color
   .label
+    +fira-sans
     color: white
     text-transform: uppercase
     font-weight: 600
     display: inline-block
+    +font-18
     @media #{$small-only}
       display: block
       padding: 10px 0
@@ -96,7 +106,8 @@
         height: 1px
         width: 16px
         background: $light-gray-text-color
-        right: 5px
+        //right: 5px
+        right: 7px
         top: 11px
       &:before
         +rotate(45deg)

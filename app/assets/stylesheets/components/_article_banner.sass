@@ -1,14 +1,27 @@
 .article-banner
+  .page-banner-description-block.auto-height
+    width: 1200px
+    .title
+      +font-70
+
   .tags-ul
     padding: 0
   .tags
+    padding-left: 0
     .label
-      color: $dark-text-color
+      margin-top: 2px
+      font-size: 16px
+      color: rgba(#fff, 0.5)
       text-transform: none
       width: 70px
     .tag
       color: $blue-color
-      padding: 10px 8px
+      //padding: 10px 8px
+      padding: 3px
+      a
+        font-size: 16px
 
       &:hover
         +link-hover
+
+

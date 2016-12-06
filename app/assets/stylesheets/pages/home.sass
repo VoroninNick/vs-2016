@@ -1,3 +1,5 @@
+
+//$service-medium: $medium-only
 #home-youtube-video-bg
   +transform(scale(1.15))
 
@@ -239,11 +241,12 @@ body[controller-action="pages__index"]
   .service-name
     +transition-property(unquote(css3-prefix(transform)))
     +transition-duration(0.75s)
+    +translate3d(57px)
   .service-description
     opacity: 0
     color: $light-gray-text-color
     +transition-property(all)
-    +transition-duration(0.75s)
+    +transition-duration(1s)
     +transition-delay(0.25s)
     //+transition-delay(0.5s)
     padding-right: 225px
@@ -251,7 +254,7 @@ body[controller-action="pages__index"]
     //left: 158px
     position: relative
     +translate3d(215px)
-    @media #{$medium-up}
+    @media #{$service-medium-only}
       display: block
       padding-right: 225px
   .service-bg-image
@@ -341,7 +344,7 @@ body[controller-action="pages__index"]
       .service-name
 
 
-  @media #{breakpoint(medium only)}
+  @media #{$service-medium-only}
     .service, .services-intro
       width: 50%
       height: 360px
@@ -366,6 +369,8 @@ body.fp-viewing-2, body.fp-viewing-3
 
 #home-youtube-video-bg-wrap
   opacity: 0
+  +transition-duration(3s)
+  +transition-property(opacity)
 
   &[data-state=playing]
     opacity: 1
