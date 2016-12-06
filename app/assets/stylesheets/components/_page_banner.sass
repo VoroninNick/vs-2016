@@ -196,10 +196,18 @@
       +transform-props(0, 0, 0)
 
 
+.scroll-down-text
+  opacity: 0
+  +transition-duration(0.5s)
+  +transition-delay(0.5s)
+  +transition-property(opacity)
+
 .scroll-down
   &.visible
     .scroll-down-line
-      +translate3d(0, 100%)
+      +translate3d(0, 0)
+    .scroll-down-text
+      opacity: 1
   &.out
     .scroll-down-line
       &:after

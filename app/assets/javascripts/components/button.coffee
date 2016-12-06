@@ -1,4 +1,4 @@
-$document.on "mouseenter mouseout", ".btn *, .icon-btn:not(.allow-propagation) *", (e)->
+$document.on "mouseenter mouseout", ".btn *, .icon-btn:not(.allow-propagation) *, #welcome-scroll-down *", (e)->
   e.stopImmediatePropagation()
 
 $document.on "mouseenter", ".btn, .icon-btn, #welcome-scroll-down", (e)->

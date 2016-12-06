@@ -92,10 +92,25 @@ $document.on "mouseout", "#{header_selector}.scrolled", (e)->
 
 $(window).on "scrolldelta", handle_scroll
 
-handle_scroll(0)
+if $("body").attr("controller-action") == "pages__index"
+  setTimeout(
+    ()->
+      handle_scroll(0)
+    6000
+  )
+else
+  handle_scroll(0)
+
 
 $document.on "page:load", ->
-  handle_scroll(0)
+  if $("body").attr("controller-action") == "pages__index"
+    setTimeout(
+      ()->
+        handle_scroll(0)
+      6000
+    )
+  else
+    handle_scroll(0)
 
 use_custom_scroll_speed = false
 

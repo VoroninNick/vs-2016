@@ -19,11 +19,17 @@ body[controller-action="pages__index"]
 
     &.fp-auto-height
       height: auto
+      +transition-duration(0.75s)
+      +transition-property(unquote(css3-prefix(transform)))
+      width: 100%
+      +translate3d(0, 0)
+      max-height: 100vh
 
       &.active
-        position: fixed
-        bottom: 0
-        width: 100%
+        //position: fixed
+        //bottom: 0
+
+        +translate3d(0, -175px)
 
   @media #{breakpoint(medium down)}
     .page-section
@@ -54,6 +60,7 @@ body[controller-action="pages__index"]
         &.active
           position: relative
           bottom: auto
+
 
 
     #home-services-section

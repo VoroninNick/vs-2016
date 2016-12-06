@@ -196,6 +196,8 @@ body[controller-action="pages__index"]
   .service, .services-intro
     width: percentage(1/3)
     height: percentage(1/3)
+    //height: 0
+    //padding-top: percentage(1/3)
     display: block
     float: left
     text-decoration: none
@@ -234,16 +236,28 @@ body[controller-action="pages__index"]
 
   .service
     position: relative
+  .service-name
+    +transition-property(unquote(css3-prefix(transform)))
+    +transition-duration(0.75s)
   .service-description
     opacity: 0
     color: $light-gray-text-color
     +transition-property(all)
     +transition-duration(0.75s)
-  //+transition-delay(0.5s)
+    +transition-delay(0.25s)
+    //+transition-delay(0.5s)
+    padding-right: 225px
+    display: none
+    //left: 158px
+    position: relative
+    +translate3d(215px)
+    @media #{$large-up}
+      display: block
+      padding-right: 225px
   .service-bg-image
   .service-name-and-description
     position: absolute
-    left: 57px
+    //left: 57px
     top: 57px
     +transition-duration(0.5s)
     +transition-property(all)
@@ -303,17 +317,14 @@ body[controller-action="pages__index"]
       &:after
         +overlay
 
-    .service-description
-      display: none
-      @media #{$large-up}
-        display: block
-        padding-right: 10px
 
     &:hover
       .service-name-and-description
-        left: 215px
+        //left: 215px
         @media #{$small-only}
           opacity: 0
+      .service-name
+        +translate3d(215px)
       .service-description
         opacity: 1
       .service-icon
@@ -330,15 +341,20 @@ body[controller-action="pages__index"]
       .service-name
 
 
+  @media #{breakpoint(small only)}
+    .service, .services-intro
+      width: 50%
+      height: 360px
 
-  @media #{breakpoint(medium down)}
+
+
+  @media #{breakpoint(small only)}
     +clearfix
 
     .service, .services-intro
       width: 100%
-      height: 360px
-      @media #{$small-only}
-        height: 260px
+      height: 260px
+
 
 
 body.fp-viewing-3 .service,  body.fp-viewing-3 .services-intro
