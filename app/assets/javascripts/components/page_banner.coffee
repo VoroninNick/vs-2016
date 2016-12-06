@@ -3,7 +3,7 @@ $document.on "ready page:load", ->
   $rect = $('.rect')
 
   setTimeout (->
-    if !$rect.hasClass("visible")
+    if !$rect.hasClass("visible") && !$rect.hasClass("disable-visible-class")
       $rect.addClass("visible")
   ), 200
 

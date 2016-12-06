@@ -6,11 +6,16 @@
   .columns.xxxlarge-6.xxxlarge-centered.vertical-indent
     blockquote.article-blockquote.color-light
       |Logos and branding are so important. In a big part of the world, people cannot read French or English — but are great in remembering signs
-      .blockquote-border
+      /.blockquote-border
         .top-border
         .bottom-border
         .left-border
         .right-border
+      .blockquote-rect.rect.disable-visible-class
+        .rect-border-part.left-border
+        .rect-border-part.right-border
+        .rect-border-part.top-border
+        .rect-border-part.bottom-border
       cite
         |Nick Voronin
 
@@ -68,11 +73,16 @@
     .columns.right.xxxlarge-6.xxlarge-6.xlarge-9.large-10.xxxlarge-pull-1.blockquote-column
       blockquote.article-blockquote
         |Logos and branding are so important. In a big part of the world, people cannot read French or English — but are great in remembering signs
-        .blockquote-border
+        /.blockquote-border
           .top-border
           .bottom-border
           .left-border
           .right-border
+        .blockquote-rect.rect.disable-visible-class
+          .rect-border-part.left-border
+          .rect-border-part.right-border
+          .rect-border-part.top-border
+          .rect-border-part.bottom-border
 
   .row.principles
     - @principles.each_with_index do |principle, index|

@@ -131,3 +131,11 @@ body.has-opened-menu
   #main-menu-button
     .inner
       background-color: transparent !important
+
+      &:before, &:after
+        background: white !important
+
+    &:hover
+      .inner
+        &:before, &:after
+          background: $pink-color !important

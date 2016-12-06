@@ -14,13 +14,14 @@ $document.on "ready page:load", ->
     $(this).addClass("visible")
 
   $blockquote_container = $('.article-blockquote')
-  $blockquote_container.find('.top-border, .bottom-border, .left-border, .right-border').appear()
+  $blockquote_container.appear()
   $blockquote_container.on "appear", ()->
     $(this).addClass("visible")
-  $blockquote_container.on "appear", ".top-border, .bottom-border", ()->
-    $(this).addClass("visible")
-  $blockquote_container.on "appear", ".left-border, .right-border", ()->
-    $(this).addClass("visible")
+
+#  $blockquote_container.on "appear", ".top-border, .bottom-border", ()->
+#    $(this).addClass("visible")
+#  $blockquote_container.on "appear", ".left-border, .right-border", ()->
+#    $(this).addClass("visible")
 
   $principles = $(".principles")
   $principles.find('.principle').appear()
