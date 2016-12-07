@@ -1,11 +1,15 @@
 $document.on "ready page:load", ->
+  #alert("rect")
+  setTimeout(
+    ->
+      $rects = $('.rect:not(.disable-visible-class)')
+      $rects.each ()->
+        $rect = $(this)
+        if !$rect.hasClass("visible")
+          $rect.addClass("visible")
 
-  $rect = $('.rect')
-
-  setTimeout (->
-    if !$rect.hasClass("visible") && !$rect.hasClass("disable-visible-class")
-      $rect.addClass("visible")
-  ), 200
+    200
+  )
 
 $document.on "click", ".page-banner .scroll-down", ()->
   $page_banner = $(this).closest(".page-banner")

@@ -258,6 +258,12 @@ body[controller-action="pages__index"]
       display: block
       padding-right: 225px
   .service-bg-image
+  .service-bg-image-overlay
+    &:before
+      +overlay(rgba(0, 0, 0, 0.85))
+    &:after
+      +overlay(rgba(8, 152, 219, 0.08))
+
   .service-name-and-description
     position: absolute
     //left: 57px
@@ -317,8 +323,7 @@ body[controller-action="pages__index"]
       +transition-property(all)
       +transition-duration(1s)
 
-      &:after
-        +overlay
+
 
 
     &:hover
