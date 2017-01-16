@@ -63,9 +63,59 @@ class Project < ActiveRecord::Base
     class_variable_get(:@@_sass_options) rescue []
   end
 
-  def sass_options
+
+
+  def sass_options(source = "ruby")
+    #source = "db"
     opt_names = self.class.sass_options.map{|opt| opt[:name] }
-    Hash[opt_names.map {|opt_name| val = self.send(opt_name); [opt_name, val] }.keep_if{|k, v| !v.blank? }]
+    Hash[opt_names.map {|opt_name|
+      puts "opt_name: #{opt_name}"
+      if source == "db"
+        val = self.send(opt_name)
+      else
+        val = specific_project_sass_options
+        val = val[:options][opt_name.to_sym] if val && val[:options]
+      end
+
+      [opt_name, val]
+    }.keep_if{|k, v| !v.blank? }]
+  end
+
+  def specific_project_sass_options
+    if code_name == "arazzinni"
+      colors = {
+          black: "#212121",
+          brown: "#876036",
+          primary: "#876036"
+      }
+
+      options = {
+          primary_color: colors[:brown],
+          secondary_color: colors[:black],
+          body_bg: "white",
+          body_color: colors[:black],
+          top_banner_title_color: colors[:black]
+      }
+
+      {options: options, colors: colors}
+    elsif code_name == "10g-force"
+      options = {
+          :body_bg=>"#212121",
+          :primary_color=>"rgb(89, 200, 230)",
+          :secondary_color=>"rgb(255, 170, 44)",
+          :third_color=>"rgb(239, 80, 35)",
+          :button_lines_color=>"@third_color",
+          :desktop_slider_background_color=>"@third_color",
+          :technology_color=>"@secondary_color",
+          :technology_name_color=>"white",
+          :technology_svg_orbit_color=>"rgba(#fff, 0.2)",
+          :project_bottom_banner_title_color=>"@third_color",
+          :project_bottom_banner_description_color=>"#212121",
+          :project_bottom_banner_buttons_color=>"#212121"
+      }
+
+      {options: options}
+    end
   end
 
   sass_option :body_bg, "#212121"
@@ -76,6 +126,7 @@ class Project < ActiveRecord::Base
   sass_option :link_hover_color, "@primary_color"
   sass_option :text_header_color, "@primary_color"
   sass_option :project_large_section_title_color, "rgba(128, 128, 128, 0.12)"
+  sass_option :section_descriptive_title_color, "@primary_color"
   sass_option :button_lines_color, "@primary_color"
   sass_option :social_link_hover_bg_color, "@primary_color"
 
@@ -131,14 +182,30 @@ class Project < ActiveRecord::Base
     }.join(", ")
   end
 
-  def project_css
-    #indent = "\t"
-    indent = "  "
-    opts = sass_options
+  def project_sass_options_string(source = "ruby")
+    opts = sass_options(source)
     if opts.blank?
       return ""
     end
-    files = ["font_mixins.sass"]
+
+    opts.map{|k, v|
+      if v.start_with?("@")
+        v = opts[v.gsub(/\A\@/, "").to_sym]
+      end
+      "$#{k}: #{v}"
+    }.join(", ")
+  end
+
+  def project_css
+    opts_str = project_sass_options_string
+    if opts_str.blank?
+      return ""
+    end
+
+    indent = "  "
+
+
+    files = ["calc_functions.sass", "detailed_css3_mixins.sass", "mixins.sass", "font_mixins.sass"]
     preloaded_sass = ""
     files.each do |f|
       preloaded_sass += File.read(Rails.root.join("app/assets/stylesheets/#{f}").to_s) + "\n"
@@ -154,19 +221,34 @@ class Project < ActiveRecord::Base
 
     #mixin_src =
 
-    opts_str = opts.map{|k, v|
-      if v.start_with?("@")
-        v = opts[v.gsub(/\A\@/, "").to_sym]
-      end
-      "$#{k}: #{v}"
-    }.join(", ")
-    body_str = "body.theme-#{code_name}\n#{indent}"
-    code = "#{body_str}+theme(#{opts_str})"
+
+    body_str = "body.theme-#{code_name}"
+
+    code = "\n#{body_str}\n#{indent}+theme(#{opts_str})"
+    code += "\n#{indent}#{colors_code}"
+    file_code = File.readlines(Rails.root.join("app/assets/stylesheets/themes/#{code_name}.sass"))
+      .map{|s| indent + s }.join("")
+    code += "\n" + file_code
+
     sass_code = "#{preloaded_sass}\n#{code}"
     puts "SASS code:"
     puts sass_code
 
-    Sass.compile(sass_code, syntax: :sass, load_paths: [Rails.root.join("app/assets/stylesheets")])
+    Sass.compile(sass_code, syntax: :sass, load_paths: [Rails.root.join("app/assets/stylesheets"), Rails.root.join("vendor/assets/bower_components")])
+  end
+
+  def colors_code(syntax = :sass, indent = "  ")
+    colors = specific_project_sass_options
+    colors = colors[:colors] if colors
+
+    return "" if !colors || colors.blank?
+
+    arr = colors.map{|k, v| "$#{k}_color: #{v}" }
+    if syntax == :scss
+      arr.join(";")
+    else
+      arr.join("\n#{indent}")
+    end
   end
 
   def project_style
