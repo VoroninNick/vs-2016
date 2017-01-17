@@ -99,7 +99,7 @@ class PagesController < ApplicationController
     @life_entries_count = LifeEntry.published.count
 
     @page_banner = {
-        bg_image: 'banners/inner-page-main-banners-v1-expertise.jpg',
+        bg_image: 'banners/life-v2.jpg',
         title: "Life",
         numbers: [
             { number: @life_entries_count, number_description: "moments to remember"}
