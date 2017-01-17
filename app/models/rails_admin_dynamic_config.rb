@@ -305,6 +305,8 @@ module RailsAdminDynamicConfig
         config.include_models LifeEntry
 
         config.model LifeEntry do
+          nestable_list({position_field: :sorting_position})
+
           field :published
           field :image
           field :post_link
@@ -312,7 +314,7 @@ module RailsAdminDynamicConfig
         end
 
         config.model_translation LifeEntry do
-          nestable_list({position_field: :sorting_position})
+
           field :locale, :hidden
           field :description
         end
