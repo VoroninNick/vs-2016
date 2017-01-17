@@ -64,6 +64,6 @@ class ApplicationController < ActionController::Base
   end
 
   def set_popup_projects
-    @popup_projects = Project.published.includes(translations: [], services: [:translations])
+    @popup_projects = Project.published.includes(translations: [], services: [:translations]).sort_by_sorting_position
   end
 end
