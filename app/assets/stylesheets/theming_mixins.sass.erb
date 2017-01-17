@@ -1,6 +1,9 @@
 @import "_selectors"
 //= theme($primary-color: red, $secondary-color: blue, $third-color: green, $body-bg: #212121, $body-color: white, $technology-color: $primary-color, $project-bottom-banner-title-color: $primary-color, $button-lines-color: $primary-color, $desktop-slider-background-color: $primary-color)
-= theme(<%= Project.project_css_mixin_options_string %>)
+= theme($theme-name: null, <%= Project.project_css_mixin_options_string %>)
+  //@if &
+    body.theme-#{$theme-name}
+      +theme()
   color: $body_color
   background: $body_bg
 
