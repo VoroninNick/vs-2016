@@ -8,6 +8,24 @@ def host?(*hosts)
   hosts.include? REQUEST_HOST
 end
 
+def sass_options_group
+  group :sass_options do
+    Project.sass_options.each do |option|
+      field option[:name], option[:rails_admin_field_type] do
+        label "@#{name}"
+        html_attributes do
+          {
+              required: required?,
+              maxlength: length,
+              size: input_size,
+              placeholder: Project.sass_options.select{|opt| opt[:name] == name.to_sym }.first[:default]
+          }
+        end
+      end
+    end
+  end
+end
+
 module RailsAdminDynamicConfig
   class << self
     def configure_rails_admin(initial = true)
@@ -235,21 +253,7 @@ module RailsAdminDynamicConfig
             field :rwd_desktop_images
           end
 
-          group :sass_options do
-            Project.sass_options.each do |option|
-              field option[:name], option[:rails_admin_field_type] do
-                label "@#{name}"
-                html_attributes do
-                  {
-                      required: required?,
-                      maxlength: length,
-                      size: input_size,
-                      placeholder: Project.sass_options.select{|opt| opt[:name] == name.to_sym }.first[:default]
-                  }
-                end
-              end
-            end
-          end
+          sass_options_group
         end
 
         config.model_translation Project do

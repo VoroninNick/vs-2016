@@ -6,7 +6,11 @@ body.theme-valko{
   );
 
   color: map_get($colors, primary);
-  //@include theme()
+  @include theme(
+    //$a: 1,
+    //$b: 2,
+    //$c: 3
+  )
 }
 
 

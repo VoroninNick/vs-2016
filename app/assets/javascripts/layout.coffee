@@ -22,7 +22,6 @@ $document.on "click", "#projects-popup-button", ()->
       $projects_popup.addClass("ready")
     popup_in_duration
   )
-  #addClass("opened")
 
 
     
