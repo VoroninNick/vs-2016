@@ -95,7 +95,7 @@ class PagesController < ApplicationController
   end
 
   def studio_life
-    @life_entries = LifeEntry.published.includes(:translations)
+    @life_entries = LifeEntry.published.includes(:translations).order("release_date desc")
     @life_entries_count = LifeEntry.published.count
 
     @page_banner = {
