@@ -64,7 +64,7 @@ module RailsAdminDynamicConfig
             delete
             show_in_app
             nestable do
-              only [AboutSlide, Project, Technology, LifeEntry]
+              only [AboutSlide, Project, Technology]
             end
 
             ## With an audit adapter, you can add:
@@ -305,16 +305,16 @@ module RailsAdminDynamicConfig
         config.include_models LifeEntry
 
         config.model LifeEntry do
-          nestable_list({position_field: :sorting_position})
+          #nestable_list({position_field: :sorting_position})
 
           field :published
           field :image
           field :post_link
+          field :release_date
           field :translations, :globalize_tabs
         end
 
         config.model_translation LifeEntry do
-
           field :locale, :hidden
           field :description
         end
