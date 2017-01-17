@@ -253,7 +253,7 @@ module RailsAdminDynamicConfig
             field :rwd_desktop_images
           end
 
-          sass_options_group
+          #sass_options_group
         end
 
         config.model_translation Project do
