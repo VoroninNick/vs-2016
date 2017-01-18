@@ -1,7 +1,8 @@
 class ArticlesController < ApplicationController
   before_action :initialize_articles
   before_action :initialize_article, only: :show
-  caches_page :index, :index_with_filters, :show
+  caches_page :index, :show
+  #caches_page :index_with_filters
 
   def index
     @tags = Cms::Tag.all.joins(:articles).where(articles: { published: "t" }).includes(:translations, :taggings, :articles)

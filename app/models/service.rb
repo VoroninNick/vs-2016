@@ -11,6 +11,10 @@ class Service < ActiveRecord::Base
 
   has_cache do
     pages :about_us, :articles, :contacts, :home, :projects, :services, :studio_life, Project.published, Article.published, Service.published
+
+    Cms.config.provided_locales.each do |locale|
+      pages "/ajax/#{locale}/projects/*"
+    end
   end
   has_seo_tags
   has_sitemap_record

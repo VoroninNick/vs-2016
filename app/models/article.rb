@@ -15,6 +15,10 @@ class Article < ActiveRecord::Base
   has_sitemap_record
   has_cache do
     pages :articles, Article.published
+
+    Cms.config.provided_locales.each do |locale|
+      pages "/ajax/#{locale}/articles/filters/*"
+    end
   end
 
 
