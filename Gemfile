@@ -102,3 +102,14 @@ gem 'bcrypt-ruby', '3.1.1.rc1', :require => 'bcrypt'
 gem 'yaml_db'
 
 gem 'pg'
+
+
+# gems for production
+
+gem "htmlcompressor"
+gem 'rack-page_caching'
+gem 'paperclip-optimizer'
+gem 'image_optim'
+gem 'image_optim_pack'
+gem 'asset-image-opt'
+gem 'sprockets-image_compressor'
