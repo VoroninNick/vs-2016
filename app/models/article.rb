@@ -1,6 +1,5 @@
 class Article < ActiveRecord::Base
   attr_accessible *attribute_names
-  has_cache
 
   has_and_belongs_to_many :authors, join_table: :author_articles, class_name: User, association_foreign_key: :author_id
   attr_accessible :authors, :author_ids
@@ -14,7 +13,9 @@ class Article < ActiveRecord::Base
   has_tags
   has_seo_tags
   has_sitemap_record
-  #has_cache
+  has_cache do
+    pages :articles, Article.published
+  end
 
 
 

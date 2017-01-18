@@ -7,4 +7,8 @@ class Client < ActiveRecord::Base
       url: "/system/clients/:id/:style/:filename"
 
   boolean_scope :published
+
+  has_cache do
+    pages :about_us
+  end
 end

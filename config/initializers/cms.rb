@@ -1,0 +1,3 @@
+Cms::CompressionConfig.initialize_compression
+
+Cms.config.use_translations true

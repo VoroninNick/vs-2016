@@ -13,7 +13,9 @@ class Project < ActiveRecord::Base
   boolean_scope :published
   scope :sort_by_sorting_position, -> { order("sorting_position asc") }
 
-  has_cache
+  has_cache do
+    pages :about_us, :articles, :contacts, :home, :projects, :services, :studio_life, Project.published, Article.published, Service.published
+  end
   has_seo_tags
   has_sitemap_record
   has_navigation

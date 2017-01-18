@@ -11,5 +11,9 @@ class AboutSlide < ActiveRecord::Base
   scope :published, -> { where(published: 't') }
   scope :sort_by_sorting_position, -> { order("sorting_position asc") }
 
+  has_cache do
+    pages :about
+  end
+
 
 end

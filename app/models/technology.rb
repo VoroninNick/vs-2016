@@ -12,4 +12,8 @@ class Technology < ActiveRecord::Base
     do_not_validate_attachment_file_type attachment_name
   end
 
+  has_cache do
+    pages Project.all
+  end
+
 end

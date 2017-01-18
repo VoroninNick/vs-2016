@@ -4,48 +4,13 @@ class Service < ActiveRecord::Base
   has_and_belongs_to_many :projects
   attr_accessible  :projects, :project_ids
 
-  def self.initialize_globalize
-    translates :name, :descriptive_name, :url_fragment, :description, :long_description, :content, :portfolio_filter_name
-    accepts_nested_attributes_for :translations
-    attr_accessible :translations, :translations_attributes
-    resource_class = self
-    resource_association_name = resource_class.name.split("::").last.underscore.to_sym
-
-    Translation.class_eval do
-      self.table_name = :service_translations
-      attr_accessible *attribute_names
-      belongs_to resource_association_name, class_name: resource_class
-
-      #validates_presence_of :name, if: proc{ self.locale.to_s == 'uk' }
-
-      before_save :initialize_url_fragment
-      def initialize_url_fragment
-        if self.respond_to?(:url_fragment) && self.respond_to?(:url_fragment=)
-
-          if self.name.blank?
-            self.url_fragment = ""
-          elsif self.url_fragment.blank?
-            I18n.with_locale(self.locale) do
-              self.url_fragment = self.name.parameterize
-            end
-          end
-
-        end
-      end
-    end
-  end
-
-  if self.table_exists?
-    self.initialize_globalize
-  end
-
-
+  globalize :name, :descriptive_name, :url_fragment, :description, :long_description, :content, :portfolio_filter_name
 
   scope :published, -> { where(published: 't') }
   scope :sort_by_sorting_position, -> { order("sorting_position asc") }
 
   has_cache do
-    pages :home, :services
+    pages :about_us, :articles, :contacts, :home, :projects, :services, :studio_life, Project.published, Article.published, Service.published
   end
   has_seo_tags
   has_sitemap_record
