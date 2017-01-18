@@ -2,6 +2,7 @@ class ServicesController < ApplicationController
   before_action :initialize_services, only: [:index, :show]
   before_action :initialize_service, only: :show
   before_action :initialize_page_banner
+  caches_page :index, :show
   def index
 
     set_page_metadata("services")

@@ -13,10 +13,6 @@ Rails.application.routes.draw do
   scope ":locale", locale: /#{I18n.available_locales.join("|")}/ do
     post "hire-us-request", to: "forms#hire_us_request", as: :hire_us_request
     post "join-us-request", to: "forms#join_us_request", as: :join_us_request
-    # scope :services, controller: "services" do
-    #   root action: "index", as: :services
-    #   get ":id", action: :show, as: "service"
-    # end
 
     resources :services, only: [:index, :show]
 

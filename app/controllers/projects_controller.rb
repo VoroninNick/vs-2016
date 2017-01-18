@@ -1,6 +1,7 @@
 class ProjectsController < ApplicationController
   before_action
   before_action :set_project, only: [:show]
+  caches_page :index, :show
 
   def index
     set_services
@@ -11,10 +12,6 @@ class ProjectsController < ApplicationController
     if ajax?
       render "_projects.html", layout: false
     end
-
-  end
-
-  def category
 
   end
 
@@ -48,6 +45,12 @@ class ProjectsController < ApplicationController
         render_not_found
       end
     end
+  end
+
+  protected
+
+  def category
+
   end
 
   def set_services
