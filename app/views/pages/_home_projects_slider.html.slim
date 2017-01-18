@@ -18,7 +18,7 @@
         .project-description-block
           .service-icons
             - banner[:service_icons].each do |icon|
-              a.service-icon href=icon[:service_url]
+              a.service-icon href=icon[:service_url] title=icon[:icon_title]
                 = embedded_svg_from_absolute_path(icon[:icon_path])
 
 
