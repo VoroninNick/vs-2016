@@ -21,3 +21,8 @@
 
 en:
   hello: "Hello world"
+
+  title:
+    projects-popup-button: "Explore projects"
+    projects-popup-button-close: "Close"
+    header-logo: "Go home"
