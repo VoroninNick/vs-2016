@@ -67,17 +67,19 @@ Rails.application.routes.draw do
 
   locales = Cms.config.provided_locales
 
-  Cms::Page.all.each do |p|
-    if !p.class.try(:disabled?)
-      controller_name = "pages"
+  if Cms::Page.table_exists?
+    Cms::Page.all.each do |p|
+      if !p.class.try(:disabled?)
+        controller_name = "pages"
 
-      locales.each do |locale|
-        route_name = "#{locale}_#{p.page_key}"
-        url = p.url(locale)
-        #url = p.default_url if url.blank?
-        #url = "/#{url}" if url.start_with?("/")
+        locales.each do |locale|
+          route_name = "#{locale}_#{p.page_key}"
+          url = p.url(locale)
+          #url = p.default_url if url.blank?
+          #url = "/#{url}" if url.start_with?("/")
 
-        get url , controller: controller_name, action: p.page_key, as: route_name, defaults: {locale: locale, page_id: p.id}
+          get url , controller: controller_name, action: p.page_key, as: route_name, defaults: {locale: locale, page_id: p.id}
+        end
       end
     end
   end
