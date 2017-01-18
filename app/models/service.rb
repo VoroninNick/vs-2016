@@ -44,7 +44,9 @@ class Service < ActiveRecord::Base
   scope :published, -> { where(published: 't') }
   scope :sort_by_sorting_position, -> { order("sorting_position asc") }
 
-  has_cache
+  has_cache do
+    pages :home, :services
+  end
   has_seo_tags
   has_sitemap_record
   has_navigation

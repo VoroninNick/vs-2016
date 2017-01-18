@@ -1,6 +1,8 @@
 class PagesController < ApplicationController
   before_action :set_page_instance, except: [:index]
 
+  caches_page :index, :about_us, :contacts, :studio_life
+
   def index
     @services = Service.published.sort_by_sorting_position.includes(translations: {})
     #@enable_tubular = !File.exists?("/media/data/pasha")
