@@ -18,7 +18,7 @@ $document.on "click", ".page-banner .scroll-down", ()->
 $document.on "mousewheel", (e)->
   $page_banner = $(".page-banner")
   page_banner_height = $page_banner.height()
-  scroll_top = $("body").scrollTop() || $("html").scrollTop()
+  scroll_top = $window.scrollTop() || $("body").scrollTop() || $("html").scrollTop()
   window_height = window.innerHeight
   body_height = $("body").height()
   #console.log("#{e.type}: ", arguments)
