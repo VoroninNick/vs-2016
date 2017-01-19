@@ -136,9 +136,21 @@ $arazzinni-gray-color: #414141
       right: auto
       top: auto
       width: 100%
-      margin: 140px 0 0 0
+      //margin: 140px 0 0 0
+      margin: 50px 0 0 0
       text-align: center
       z-index: 2
+
+      .title
+        line-height: 1
+        display: block
+
+      .description
+        display: none !important
+
+    &, &.visible
+      .project-description-block
+        +transform(none)
 
     .hero
       position: absolute
@@ -178,15 +190,22 @@ $arazzinni-gray-color: #414141
         top: 100px
         left: -200px
         +translate3d(0,50%)
+
         @media #{$xlarge-only}
           left: -100px
         @media #{$xxlarge-up}
           left: 100px
+
+
       &.visible
         .hero
           +transition(1s)
           opacity: 1
           +translate3d(0,0)
+
+          +breakpoint(small only)
+            //+translate3d(0, 110px, 0)
+            +transform(scale(0.8))
 
 .slider-container
   .home-portfolio-slide-plit
@@ -222,6 +241,8 @@ $arazzinni-gray-color: #414141
       fill: $plit-green-color
 
 
+
+
   .home-portfolio-slide-arazzinni
     .project-description-block
       .service-icon
@@ -233,6 +254,15 @@ $arazzinni-gray-color: #414141
           color: $arazzinni-brown-color
       .description
         color: $arazzinni-gray-color
+      +breakpoint(small only)
+        .title
+          font-size: 36px
+          sup
+            top: -10px
+            left: 0
+        .description
+          color: #000
+
 
 
     .hero
@@ -253,6 +283,10 @@ $arazzinni-gray-color: #414141
         opacity: 1
         +translate3d(-100px,0)
 
+        +breakpoint(small only)
+          +translate3d(-50px, 80px, 0)
+
+
 
 
   &[active-slide="arazzinni"]
@@ -260,6 +294,7 @@ $arazzinni-gray-color: #414141
       background: white
     .wing
       fill: $arazzinni-brown-color
+
     .navigation-list
       .navigation-list-item
         .title

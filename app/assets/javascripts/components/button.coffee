@@ -8,7 +8,7 @@ $document.on "mouseenter", ".btn, .icon-btn, #welcome-scroll-down", (e)->
   #$button.removeClass('out').addClass('over')
   current_time = Date.now()
   last_time = $button.data("last_mouse_in")
-  console.log "#{e.type}", (if last_time then current_time - last_time else 0), "e.target: ", e.target, "; event: ", e
+  #console.log "#{e.type}", (if last_time then current_time - last_time else 0), "e.target: ", e.target, "; event: ", e
 
   $button.data("last_mouse_in", current_time)
   delay("button_mouse",
