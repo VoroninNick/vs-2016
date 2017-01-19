@@ -66,6 +66,7 @@ $document.on "ready page:load", ->
     $this = $(this)
     current_scroll_left = $this.scrollLeft()
     step = 200
+    step = 50
 
     if scroll_direction == "left"
       new_scroll_left = current_scroll_left - step
@@ -80,7 +81,7 @@ $document.on "ready page:load", ->
 
   $(".horizontal-container").swipe(
     swipeStatus: (event, phase, direction, distance, duration, finger_count, finger_data, current_direction)->
-
+      window.mouse_down = true
 
       if phase != "move"
         return
@@ -96,8 +97,9 @@ $document.on "ready page:load", ->
 
       delay("scroll_container"
         ()->
-          scroll_container.call($container, scroll_direction)
-        150
+          if window.mouse_down != false
+            scroll_container.call($container, scroll_direction)
+        50
         true
         false
       )
@@ -105,3 +107,8 @@ $document.on "ready page:load", ->
 
   )
 
+$.clickOut(
+  ".horizontal-container"
+  ()->
+    window.mouse_down = false
+)
