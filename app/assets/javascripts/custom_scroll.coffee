@@ -85,7 +85,7 @@ $(".page-section").on "move", (e)->
   #console.log "#{e.type}: ", argumentsx
 
 scroll_handler = (e, direction)->
-  console.log "#{e.type}: "
+  #console.log "#{e.type}: "
   $body = $("body")
   scroll_locked = $body.hasClass("has-opened-projects-popup") || $body.hasClass("has-opened-menu")
   if $(".full-page-container").length == 0 || (full_page_breakpoint || window.innerWidth < full_page_breakpoint) || scroll_locked
