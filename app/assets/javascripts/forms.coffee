@@ -1,6 +1,6 @@
+###
 $document.on "focusin focusout", ".input", (e)->
   $input_wrap = $(this)
-  
 
   if e.type == 'focusin'
     $input_wrap.addClass("focus")
@@ -68,7 +68,7 @@ $document.on "keyup", "input[type=number][step]", (e)->
   )
 
 
-
+###
 
 $document.on "ready page:load", ()->
   $("select").each ()->

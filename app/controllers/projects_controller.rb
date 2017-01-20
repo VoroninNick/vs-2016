@@ -54,7 +54,7 @@ class ProjectsController < ApplicationController
   end
 
   def set_services
-    @services = Service.published.sort_by_sorting_position
+    @services = Service.published.sort_by_sorting_position.joins(:projects).where(projects: { published: 't' })
     @service = @services.first
   end
 

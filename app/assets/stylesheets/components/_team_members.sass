@@ -40,16 +40,22 @@
     padding: 0 0 20px 50px
     width: 100%
     +transition(0.5s bottom)
-    @media #{$small-only}
-      padding: 0 0 10px 20px
 
     .title
       +font-32-bold
       text-transform: uppercase
       color: white
       +fira-sans
-      @media #{$small-only}
+
+    @media #{$small-only}
+      padding: 0 0 10px 20px
+      bottom: 20px
+
+      .title
         +font-25-bold
+
+      .btn
+        margin-top: 10px
 
   @media #{breakpoint(small only)}
     width: 100%

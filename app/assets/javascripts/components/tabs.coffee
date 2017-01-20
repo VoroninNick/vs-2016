@@ -1,3 +1,6 @@
+$document.on "click", ".tab-header", (e)->
+  e.preventDefault()
+
 $document.on "click", ".tab-header:not(.active)", ()->
   $tab_header = $(this)
 
@@ -11,3 +14,5 @@ $document.on "click", ".tab-header:not(.active)", ()->
   tab_index = $tab_header.index()
   $tab_content = $tab_contents_container.find(".tab-content").eq(tab_index)
   $tab_content.addClass("active")
+
+

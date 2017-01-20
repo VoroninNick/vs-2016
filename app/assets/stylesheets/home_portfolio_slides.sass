@@ -145,6 +145,9 @@ $arazzinni-gray-color: #414141
         line-height: 1
         display: block
 
+        sup
+          display: none !important
+
       .description
         display: none !important
 
@@ -177,15 +180,15 @@ $arazzinni-gray-color: #414141
 
           &:hover
             #{$svg-part-selector}
-              fill: #59c8e6
+              fill: $blue-color
         .title
           sup
             color: $radok-red-orange-color
           &:hover
             &
-              color: #59c8e6
+              color: $blue-color
             sup
-              color: #ffaa2c
+              color: $blue-color
       .hero
         top: 100px
         left: -200px
@@ -213,10 +216,16 @@ $arazzinni-gray-color: #414141
       .service-icon
         #{$svg-part-selector}
           fill: $plit-green-color
+        &:hover
+          #{$svg-part-selector}
+            fill: $pink-color
       .title
         sup
           color: $plit-green-color
 
+        &:hover
+          &, sup
+            color: $pink-color
     .hero
       bottom: 0
       +translate3d(-100px)
@@ -248,10 +257,18 @@ $arazzinni-gray-color: #414141
       .service-icon
         #{$svg-part-selector}
           fill: $arazzinni-brown-color
+
+        &:hover
+          #{$svg-part-selector}
+            fill: $pink-color
       .title
         color: $arazzinni-black-color
         sup
           color: $arazzinni-brown-color
+
+        &:hover
+          &, sup
+            color: $pink-color
       .description
         color: $arazzinni-gray-color
       +breakpoint(small only)

@@ -102,6 +102,7 @@ body.has-opened-video-popup
       &:not(:first-child)
         // margin-top: 160px
         margin-top: 100px
+        margin-top: 50px
 
 
 
@@ -110,6 +111,8 @@ body.has-opened-video-popup
   text-align: center
   height: 370px
 
+  @media #{$small-only}
+    height: 240px
 
 
 
@@ -128,8 +131,7 @@ body.has-opened-video-popup
     +translate(-25%,0)
     +transition(2s)
     +animation-timing-function(ease-in-out)
-    @media #{$small-only}
-      padding-top: 0
+
     &.visible
       opacity: 1
       +translate(0,0)
@@ -194,7 +196,11 @@ body.has-opened-video-popup
 
 
   @media #{breakpoint(small only)}
+
+
     .principle
+      margin-bottom: 80px
+      padding-top: 0
       .number
         font-size: 60px
         width: 60px
@@ -204,6 +210,14 @@ body.has-opened-video-popup
 
       .description
         padding-left: 90px
+
+      .inner
+        p
+          &:first-child
+            margin-top: 2px
+
+      .footer
+        margin-top: 12px
 
 .team-member-blocks
   margin: 70px 0

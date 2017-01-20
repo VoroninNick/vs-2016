@@ -28,8 +28,19 @@
     text-align: center
 
     .inner
-      height: 360px
+      //height: 360px
+      height: 100vh
+
+      > .row
+        position: absolute
+        +transform(translateY(-50%))
+        top: 44%
     .text
       max-width: none
     .btn
       min-width: 0
+      width: 100%
+      margin-top: 50px
+
+      &:before, &:after
+        width: 15%

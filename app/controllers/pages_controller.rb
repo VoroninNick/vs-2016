@@ -46,8 +46,8 @@ class PagesController < ApplicationController
     @slides = AboutSlide.published.sort_by_sorting_position
 
     @principles = [{name: "Research", description: "<p>Logos and branding are so important.</p>" * 3, icon_path: "svg/vs-about-icon-research.svg"},
-                   {name: "Planning", description: "Logos and branding are so important. In a big part of the world. "*5, icon_path: "svg/vs-about-icon-planning.svg"},
-                   {name: "Execution", description: "Logos and branding are so important. In a big part of the world", icon_path: "svg/vs-about-icon-execution.svg"}]
+                   {name: "Planning", description: "<p>Logos and branding are so important. In a big part of the world. </p>"*5, icon_path: "svg/vs-about-icon-planning.svg"},
+                   {name: "Execution", description: "<p>Logos and branding are so important. In a big part of the world.</p>", icon_path: "svg/vs-about-icon-execution.svg"}]
   end
 
 
@@ -129,10 +129,16 @@ class PagesController < ApplicationController
           title_sup: project_translation.banner_title_sup,
           short_description: project_translation.short_description,
           image_url: image_url,
-          service_icons: p.services.map {|s| {icon_path: s.icon.path, service_url: s.url, icon_title: s.name }  },
+          service_icons: p.services.map {|s|
+            {icon_path: s.icon.path,
+             #service_url: s.url,
+             service_url: project_or_category_path(s.url_fragment),
+             icon_title: s.name }
+          },
           key: p.code_name,
           swing: p.show_swing_on_home_banner,
           project_url: p.url
+
       }
     end
   end

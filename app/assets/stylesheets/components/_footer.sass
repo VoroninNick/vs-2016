@@ -2,6 +2,10 @@
   background: $black-color
   overflow: hidden
 
+  +breakpoint(small only)
+    .social-link
+      margin: 0 8px
+
 
 
 #main-footer-row
@@ -17,12 +21,14 @@
     border-top: 1px solid rgba($light-gray-text-color, 0.3)
 
 
+
   .footer-item
     // +grid-column(3)
     .header
       +h4
     @media #{$small-only}
-      width: 200px
+      //width: 200px
+      width: 250px
       margin: 0 auto
       margin-bottom: 30px
     @media #{$medium-only}

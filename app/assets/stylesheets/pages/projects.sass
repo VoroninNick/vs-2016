@@ -45,6 +45,8 @@
     padding: 10px 20px
     position: relative
 
+    +breakpoint(medium down)
+      width: 100% !important
     @media #{$small-only}
       &:not(:first-child)
         display: none
