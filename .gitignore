@@ -26,4 +26,4 @@
 
 /db/schema.rb
 /Gemfile.lock
-
+/config/application.yml
