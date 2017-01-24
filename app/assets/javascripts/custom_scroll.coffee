@@ -36,6 +36,8 @@ scroll = (direction = "down")->
   if next_section_index == 1 && direction == "up" && window.innerWidth < large_breakpoint
     $window.scrollTop(0)
 
+  console.log "next_section_index: ", next_section_index, "; direction: ", direction
+
   #if $next_section.hasClass("fp-auto-height")
   #  $next_section("")
 
@@ -84,11 +86,18 @@ $document.on "page:load", init
 $(".page-section").on "move", (e)->
   #console.log "#{e.type}: ", argumentsx
 
+window.check_if_default_scroll_swipe = ()->
+  $body = $("body")
+  scroll_locked = $body.hasClass("has-opened-projects-popup") || $body.hasClass("has-opened-menu")
+  $(".full-page-container").length == 0 || (full_page_breakpoint || window.innerWidth < full_page_breakpoint) || scroll_locked
+
+
 scroll_handler = (e, direction)->
   #console.log "#{e.type}: "
   $body = $("body")
-  scroll_locked = $body.hasClass("has-opened-projects-popup") || $body.hasClass("has-opened-menu")
-  if $(".full-page-container").length == 0 || (full_page_breakpoint || window.innerWidth < full_page_breakpoint) || scroll_locked
+
+  if check_if_default_scroll_swipe()
+    console.log "scroll_handler: return true"
     return true
 
   handler_this = this
@@ -101,7 +110,7 @@ scroll_handler = (e, direction)->
   active_section_one_screen = $active_section.hasClass("small-one-screen")
   scroll_top = $window.scrollTop() || $("body").scrollTop() || $("html").scrollTop()
   prevent_default_scroll = window.innerWidth >= large_breakpoint || (down && active_section_one_screen) || (!down && active_section_index > 0 && !(active_section_index == 2 && scroll_top > 0 ))
-  #console.log "prevent_default_scroll: ", prevent_default_scroll
+  console.log "prevent_default_scroll: ", prevent_default_scroll
   if prevent_default_scroll
     e.preventDefault()
     defaultPrevented = true
@@ -114,7 +123,6 @@ scroll_handler = (e, direction)->
 
   delay("scroll",
     ()->
-
       scroll_top = $window.scrollTop()
       #console.log(e.deltaX, e.deltaY, e.deltaFactor);
 
@@ -177,7 +185,7 @@ scroll_handler = (e, direction)->
       console.debug "this: ", handler_this, "; arguments: ", handler_args
       console.debug "active_section_index: ", active_section_index, "; not_last_slide: ", not_last_slide, "; down: ", down, "; scroll_top: ", scroll_top, "; currentIndex: ", currentIndex
       console.debug "defaultPrevented: ", defaultPrevented
-    500
+    10
     true
     false
   )
@@ -186,9 +194,9 @@ $document.on "mousewheel", scroll_handler
 
 
 
-$document.on "ready", ()->
+$document.on "ready page:load", ()->
   $body = $("body")
-  if !$body.hasClass("initialized-swipe")
+  if !$body.hasClass("initialized-swipe") && !check_if_default_scroll_swipe()
     $body.addClass("initialized-swipe")
     $body.swipe(
       swipe: scroll_handler
