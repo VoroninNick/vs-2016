@@ -4,6 +4,9 @@
     border: none
     margin-bottom: 0
     +box-shadow(none)
+
+  .slides
+    width: 100% !important
   .custom-controls
     position: absolute
     bottom: 20px
@@ -13,9 +16,7 @@
     background: none
     text-align: right
     z-index: $zindex-about-slider-controls
-    @media #{$small-only}
-      bottom: -5px
-      right: 10px
+
 
     .numbers
       color: white
@@ -83,13 +84,6 @@
         background-image: asset_url("svg/arrow-right-white.svg")
 
 
-
-
-
-
-
-
-
     .next
       height: inherit
       width: 30px
@@ -100,6 +94,17 @@
         height: 100%
         top: 0
         left: 0
+
+
+    @media #{$small-only}
+      bottom: -5px
+      right: 10px
+
+      .navigation-buttons
+        .icon-btn
+          &:before, &:after
+            display: none
+
 
   .slide
     background-size: cover

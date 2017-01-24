@@ -185,7 +185,7 @@ scroll_handler = (e, direction)->
       console.debug "this: ", handler_this, "; arguments: ", handler_args
       console.debug "active_section_index: ", active_section_index, "; not_last_slide: ", not_last_slide, "; down: ", down, "; scroll_top: ", scroll_top, "; currentIndex: ", currentIndex
       console.debug "defaultPrevented: ", defaultPrevented
-    10
+    500
     true
     false
   )
