@@ -1,5 +1,5 @@
 popup_in_duration = 2000
-popup_in_duration = 800
+popup_in_duration = 500
 
 $document.on "click", "#projects-popup-button", ()->
   $projects_popup = $(".projects-popup")
