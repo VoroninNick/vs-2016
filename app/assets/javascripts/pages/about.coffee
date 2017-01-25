@@ -1,3 +1,18 @@
+scroll_container = (scroll_direction)->
+  $this = $(this)
+  current_scroll_left = $this.scrollLeft()
+  step = 200
+  step = 50
+
+  if scroll_direction == "left"
+    new_scroll_left = current_scroll_left - step
+  else
+    new_scroll_left = current_scroll_left + step
+
+  #console.log "swipe: scroll_direction: ", scroll_direction
+  console.log "new_scroll_left: ", new_scroll_left
+  $this.scrollLeft(new_scroll_left)
+
 $document.on "click", "[controller-action='pages__about_us'] .page-banner", ()->
   $("body").addClass("has-opened-video-popup")
   about_play()
@@ -9,14 +24,15 @@ $document.on "click", "#about-video-popup-close-button", ()->
 $document.on "ready page:load", ->
   
   $image_container = $('.image-container')
-  $image_container.find('.image-svg').appear()
-  $image_container.on "appear", ".image-svg", ()->
-    $(this).addClass("visible")
+  $image_svg = $image_container.find('.image-svg')
+  $image_svg.appear()
+  $image_svg.filter(":appeared").trigger("appear")
+
 
   $blockquote_container = $('.article-blockquote')
   $blockquote_container.appear()
-  $blockquote_container.on "appear", ()->
-    $(this).addClass("visible")
+  $blockquote_container.filter(":appeared").trigger("appear")
+
 
 #  $blockquote_container.on "appear", ".top-border, .bottom-border", ()->
 #    $(this).addClass("visible")
@@ -24,23 +40,16 @@ $document.on "ready page:load", ->
 #    $(this).addClass("visible")
 
   $principles = $(".principles")
-  $principles.find('.principle').appear()
-  $principles.on "appear", ".principle", ()->
-    $(this).addClass("visible")
-    $(this).find('.line').addClass('animate')
+  $principle_items = $principles.find('.principle')
+  $principle_items.appear()
+  $principle_items.filter(":appeared").trigger("appear")
+
 
 
   $team = $(".team-member-blocks")
   $team.appear()
-  $team.on "appear", ()->
-    $team.find(".team-member-block, .join-us-block").each (index)->
-      $project = $(this)
-      
-      setTimeout(
-        ()->
-          $project.addClass("visible")
-        index * 300
-      )
+  $team.filter(":appeared").trigger("appear")
+
 
   $about_bx_slider = $(".about-bxslider")
   $about_bx_slider.find(".slides").bxSlider({
@@ -58,26 +67,6 @@ $document.on "ready page:load", ->
       $controls = $(this).closest(".slider").find(".custom-controls")
       $controls.find(".current-number").text(newIndex + 1)
   })
-
-
-
-
-  scroll_container = (scroll_direction)->
-    $this = $(this)
-    current_scroll_left = $this.scrollLeft()
-    step = 200
-    step = 50
-
-    if scroll_direction == "left"
-      new_scroll_left = current_scroll_left - step
-    else
-      new_scroll_left = current_scroll_left + step
-
-    #console.log "swipe: scroll_direction: ", scroll_direction
-    console.log "new_scroll_left: ", new_scroll_left
-    $this.scrollLeft(new_scroll_left)
-
-
 
   $(".horizontal-container").swipe(
     swipeStatus: (event, phase, direction, distance, duration, finger_count, finger_data, current_direction)->
@@ -112,3 +101,22 @@ $.clickOut(
   ()->
     window.mouse_down = false
 )
+
+
+$document.on "appear", ".team-member-blocks", ()->
+  $team = $(this)
+  $team.find(".team-member-block, .join-us-block").each (index)->
+    $project = $(this)
+
+    setTimeout(
+      ()->
+        $project.addClass("visible")
+      index * 300
+    )
+
+$document.on "appear", ".image-container .image-svg, .article-blockquote", ()->
+  $(this).addClass("visible")
+
+$document.on "appear", ".principles .principle", ()->
+  $(this).addClass("visible")
+  $(this).find('.line').addClass('animate')

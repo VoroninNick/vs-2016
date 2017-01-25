@@ -1,5 +1,5 @@
 function page_navigation(container_selector){
-    $container = $(container_selector)
+    var $container = $(container_selector)
     /**
      * This part does the "fixed navigation after scroll" functionality
      * We use the jQuery function scroll() to recalculate our variables as the
@@ -95,6 +95,8 @@ function page_navigation(container_selector){
             $container.removeClass("dark")
         }
     })
+
+    $window.trigger("scroll")
 }
 
 page_navigation(".project-navigation")

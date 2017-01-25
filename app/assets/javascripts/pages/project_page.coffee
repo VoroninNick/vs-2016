@@ -79,11 +79,11 @@ $document.on "ready page:load", ->
 
   show_headers()
 
+  $desktop_slider = $(".desktop-slider")
+  $desktop_slider.appear()
+  $desktop_slider.filter(":appeared").trigger("appear")
 
-  $(".desktop-slider").appear()
 
-  $(".desktop-slider").on "appear", ()->
-    $(this).addClass("animate-bg")
 
 
   if is_small()
@@ -94,12 +94,18 @@ $document.on "ready page:load", ->
 
   $technology_container = $(".project-technologies")
   $technology_container.appear()
-  $technology_container.on "appear", ()->
-    $technology_container.find(".technology-block").each (index)->
-      $block = $(this)
-      
-      setTimeout(
-        ()->
-          $block.addClass("visible")
-        index * 300
-      )
+  $technology_container.filter(":appeared").trigger("appear")
+
+$document.on "appear", ".desktop-slider", ()->
+  $(this).addClass("animate-bg")
+
+$document.on "appear", ".project-technologies", ()->
+
+  $(this).find(".technology-block").each (index)->
+    $block = $(this)
+
+    setTimeout(
+      ()->
+        $block.addClass("visible")
+      index * 300
+    )

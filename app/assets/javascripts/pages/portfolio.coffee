@@ -13,8 +13,8 @@ $document.on "ready page:load", ->
 
   $portfolio = $(".portfolio-projects")
   $portfolio.appear()
-  $portfolio.on "appear", ()->
-    init_projects($portfolio)
+  $portfolio.filter(":appeared").trigger("appear")
+
 
 $document.on "click", ".project-tags .tag:not(.checked)", (e)->
   e.preventDefault()
@@ -37,3 +37,6 @@ $document.on "click", ".project-tags .tag:not(.checked)", (e)->
         time: 500
       )
   )
+
+$document.on "appear", ".portfolio-projects", ()->
+  init_projects($(this))

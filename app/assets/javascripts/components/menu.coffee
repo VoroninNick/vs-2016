@@ -22,10 +22,13 @@ init_menu_active_links()
 
 
 window.store_scroll_top = ()->
-  $("body").data("last_scroll_top", $("body").scrollTop())
+  scroll_top = $("body").scrollTop() || $window.scrollTop()
+  $("body").data("last_scroll_top", scroll_top)
+
+  scroll_top
 
 window.restore_scroll_top = ()->
-  $("body").scrollTop($("body").data("last_scroll_top"))
+  $("body,html").scrollTop($("body").data("last_scroll_top"))
 
 ###
 window.init_menu_footer = (menu_dropdown_height = undefined )->
@@ -81,9 +84,10 @@ $window.on "resize", ()->
 
 
 window.open_menu = (menu_key = 'menu', abstract_css_class = "")->
-  store_scroll_top()
+  scroll_top = store_scroll_top()
   $("body").addClass("#{abstract_css_class} has-opened-#{menu_key}")
-  $("body").scrollTop(0)
+  $("#page-wrap").scrollTop(scroll_top)
+
   
 
 window.close_menu = (menu_key = 'menu', abstract_css_class = "")->

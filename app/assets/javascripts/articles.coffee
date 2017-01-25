@@ -9,6 +9,9 @@ show_articles = ($container)->
       index * 300
     )
 
+$document.on "appear", ".articles", ()->
+  show_articles($(this))
+
 $document.on "ready page:load", ->
   if is_small()
     $('.tags').on 'click', ()->
@@ -19,8 +22,7 @@ $document.on "ready page:load", ->
 
   $articles = $(".articles")
   $articles.appear()
-  $articles.on "appear", ()->
-    show_articles($articles)
+  $articles.filter(":appeared").trigger("appear")
 
 
 

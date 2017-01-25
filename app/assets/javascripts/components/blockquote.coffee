@@ -1,21 +1,31 @@
-$document.on "ready page:load", ->  
+$("body").on "appear", ".article-content blockquote:not(.visible), .service-content blockquote:not(.visible)", ()->
+  $blockquote = $(this)
+  $blockquote.addClass("visible")
+  $blockquote.filter(":appeared").find(".top-border, .bottom-border, .left-border, .right-border").addClass("visible")
 
-  $blockquote_container = $('.article-content, .service-content')
+$document.on "ready page:load", ->
 
-  $blockquote = $blockquote_container.find('blockquote')
+  $article_content = $('.article-content, .service-content')
+
+  $blockquote = $article_content.find('blockquote')
   $blockquote.append('<div class="blockquote-border"></div>')
 
   $border = $blockquote.find('.blockquote-border')
 
-  $border.append('<div class="left-border"></div>')
-  $border.append('<div class="right-border"></div>')
-  $border.append('<div class="top-border"></div>')
-  $border.append('<div class="bottom-border"></div>')
+  border_str = ''
+  border_str += '<div class="left-border"></div>'
+  border_str += '<div class="right-border"></div>'
+  border_str += '<div class="top-border"></div>'
+  border_str += '<div class="bottom-border"></div>'
+  $border.html(border_str)
 
-  $blockquote_container.find('.top-border, .bottom-border, .left-border, .right-border').appear()
-  $blockquote_container.on "appear", "blockquote", ()->
-    $(this).addClass("visible")
-  $blockquote_container.on "appear", ".top-border, .bottom-border", ()->
-    $(this).addClass("visible")
-  $blockquote_container.on "appear", ".left-border, .right-border", ()->
-    $(this).addClass("visible")
+  $border_lines = $blockquote.find(".top-border, .bottom-border, .left-border, .right-border")
+  $blockquote.appear()
+
+
+
+
+  $border_lines.filter()
+
+  $blockquote.trigger("appear")
+
