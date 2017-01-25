@@ -19,6 +19,8 @@ $document.on "ready page:load", ->
     2000
   )
 
+  $("#home-footer").appear()
+
 
 
 
@@ -31,3 +33,10 @@ $document.on "click", "#welcome-block .play-link", ()->
 $document.on "click", "#home-full-video-popup-close-button", ()->
   $("body").removeClass("has-opened-video-popup")
   home_full_stop()
+
+###
+$document.on "appear", "#home-footer", (e)->
+  if window.innerWidth <= 640
+    console.log "e: ", e
+    $("body, html").animate(scrollTop: 10000)
+###
