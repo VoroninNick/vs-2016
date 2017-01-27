@@ -10,7 +10,7 @@ Rails.application.routes.draw do
 
   root as: "root_without_locale", to: "application#root_without_locale"
 
-  scope ":locale", locale: /#{I18n.available_locales.join("|")}/ do
+  scope ":locale", locale: /#{Cms.config.provided_locales.join("|")}/ do
     post "hire-us-request", to: "forms#hire_us_request", as: :hire_us_request
     post "join-us-request", to: "forms#join_us_request", as: :join_us_request
 
