@@ -1,7 +1,12 @@
 $("body").on "appear", ".article-content blockquote:not(.visible), .service-content blockquote:not(.visible)", ()->
   $blockquote = $(this)
   $blockquote.addClass("visible")
-  $blockquote.filter(":appeared").find(".top-border, .bottom-border, .left-border, .right-border").addClass("visible")
+  setTimeout(
+    ()->
+      $blockquote.find(".top-border, .bottom-border, .left-border, .right-border").addClass("visible")
+    10
+  )
+
 
 $document.on "ready page:load", ->
 

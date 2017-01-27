@@ -37,8 +37,24 @@
             = inline_svg social[:icon]
 
 
-      #main-menu-footer-locales
+      /#main-menu-footer-locales
         a.main-menu-footer-locale.active href="#"
           |eng
         a.main-menu-footer-locale href="#"
           |ukr
+
+      - if Cms.config.provided_locales.count > 1
+        #main-menu-footer-locales
+
+          - Cms.config.provided_locales.each do |locale|
+            - url = @page_instance.try{|p| p.url(locale) } || @page_instance.try{|p| p.respond_to?(:default_url) ? p.default_url(locale) : nil }
+            - translated = !@page_instance || (@page_instance.respond_to?(:url_fragment) ? @page_instance.translations_by_locale[locale].try(:url_fragment).present? : true)
+            - active = locale == I18n.locale
+            - if url
+              - if translated
+                - if active
+                  span.main-menu-footer-locale.locale-link class="active"
+                    = Cms.config.locale_names[locale] || locale
+                - else
+                  a.main-menu-footer-locale.locale-link href=url
+                    = Cms.config.locale_names[locale] || locale

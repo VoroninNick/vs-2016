@@ -5,7 +5,7 @@ $theme-10g-force-blue-color: rgb(44, 171, 225);
 
 body.theme-10g-force{
   @include theme("10g-force",
-    $body_bg: #212121,
+    $body_bg: $black-color,
     $primary_color: rgb(89, 200, 230),
     $secondary_color: rgb(255, 170, 44),
     $third_color: rgb(239, 80, 35),
@@ -15,8 +15,8 @@ body.theme-10g-force{
     $technology_name_color: white,
     $technology_svg_orbit_color: rgba(#fff, 0.2),
     $project_bottom_banner_title_color: rgb(239, 80, 35),
-    $project_bottom_banner_description_color: #212121,
-    $project_bottom_banner_buttons_color: #212121
+    $project_bottom_banner_description_color: $black-color,
+    $project_bottom_banner_buttons_color: $black-color
   )
 }
 
