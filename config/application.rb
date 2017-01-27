@@ -27,5 +27,6 @@ module Dev
 
     Rails.application.config.assets.precompile += %w(ckeditor/filebrowser/images/*)
     Rails.application.config.assets.precompile += %w(mailer.css)
+    Rails.application.config.assets.precompile += %w(file_editor_application.css file_editor_application.js)
   end
 end

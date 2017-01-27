@@ -115,3 +115,5 @@ gem 'asset-image-opt'
 gem 'sprockets-image_compressor'
 
 gem 'figaro'
+
+gem 'ace-rails-ap'
