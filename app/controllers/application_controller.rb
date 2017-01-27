@@ -51,6 +51,10 @@ class ApplicationController < ActionController::Base
   end
 
   def default_url_options
+    if controller_name == "file_editor"
+      return {}
+    end
+
     {locale: I18n.locale}
   end
 

@@ -1,3 +1,10 @@
+= button-text-hover-keyframes($name, $initial_color, $hover_color)
+  +keyframes($name)
+    0%, 65%
+      color: $initial_color
+    90%, 100%
+      color: $hover_color
+
 +keyframes(button-animation-over)
   0%
     width: 25%
@@ -105,6 +112,9 @@
     background: $black-color
     color: $dark-white-color
 
+    //&:hover
+      +animation-duration(0.8s)
+      +animation-name(dark-button-text-hover)
 
   &.white-lines
     +white-lines-button
@@ -118,13 +128,15 @@
       color: white
 
 
+
+
   &.white-lines
     +white-lines-button-hover
   &.out
     +lines-button-out
 
 .icon-btn
-  +button-lines($line-width: 100%, $start-line-height: 0, $button-animation-name: button-animation-vertical-over, $button-animation-duration: 0.8s)
+  +button-lines($line-width: 100%, $start-line-height: 0, $button-animation-name: button-animation-vertical-over)
   //+white-lines-button
   //+white-lines-button-hover
 

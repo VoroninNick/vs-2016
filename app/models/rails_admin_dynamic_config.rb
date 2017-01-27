@@ -73,6 +73,10 @@ module RailsAdminDynamicConfig
           end
         end
 
+        config.navigation_static_links = {
+            locales: "/file_editor#{Rails.root.join("config/locales")}"
+        }
+
         config.include_models Technology
 
         config.include_models HireUsRequest, JoinUsRequest, FormConfigs::HireUsRequest, FormConfigs::JoinUsRequest

@@ -5,7 +5,7 @@
 .row
   .columns.xxxlarge-6.xxxlarge-centered.vertical-indent
     blockquote.article-blockquote.color-light
-      |Logos and branding are so important. In a big part of the world, people cannot read French or English — but are great in remembering signs
+      = raw t("pages.about_us.quote-text")
       /.blockquote-border
         .top-border
         .bottom-border
@@ -17,7 +17,7 @@
         .rect-border-part.top-border
         .rect-border-part.bottom-border
       cite
-        |Nick Voronin
+        = raw t("pages.about_us.quote-author")
 
 
 .row.intro-row
@@ -28,9 +28,9 @@
           .image-svg = inline_svg "svg/vs-about-icon-design.svg"
 
         .header.font-36-bold
-          |Design studio
+          = raw t("pages.about_us.intro-part-1.title")
         p.white
-          |Logos and branding are so important. In a big part of the world, people cannot read French or English — but are great in remembering signs. Logos and branding are so important. In a big part of the world, people cannot read French or English — but are great in remembering signs.Logos and branding are so important. In a big part of the world, people cannot read French or English — but are great in remembering signs. Logos and branding are so important. In a big part of the world, people cannot read French or English — but are great in remembering signs. Logos and branding are so important. In a big part of the world, people cannot read French or English — but are great in remembering signs
+          = raw t("pages.about_us.intro-part-1.text")
 
 
       .columns.xxxlarge-6.intro-column.top-indent.bottom-indent
@@ -38,9 +38,9 @@
           .image-svg = inline_svg "svg/vs-about-icon-goal.svg"
 
         .header.font-36-bold
-          |Design studio
+          = raw t("pages.about_us.intro-part-2.title")
         p.white
-          |Logos and branding are so important. In a big part of the world, people cannot read French or English — but are great in remembering signs. Logos and branding are so important. In a big part of the world, people cannot read French or English — but are great in remembering signs.Logos and branding are so important. In a big part of the world, people cannot read French or English — but are great in remembering signs. Logos and branding are so important. In a big part of the world, people cannot read French or English — but are great in remembering signs. Logos and branding are so important. In a big part of the world, people cannot read French or English — but are great in remembering signs
+          = raw t("pages.about_us.intro-part-2.text")
 
 
 .slider.about-bxslider
@@ -65,14 +65,14 @@
   .row
     .columns.xxxlarge-6.xxxlarge-offset-1
       .header.font-36-bold
-        |Principles of work
+        = raw t("pages.about_us.principles-intro.title")
       p
-        |Logos and branding are so important. In a big part of the world, people cannot read French or English — but are great in remembering signs. Logos and branding are so important. In a big part of the world, people cannot read French or English — but are great in remembering signs.
+        = raw t("pages.about_us.principles-intro.text")
 
 
     .columns.right.xxxlarge-6.xxlarge-6.xlarge-9.large-10.xxxlarge-pull-1.blockquote-column
       blockquote.article-blockquote
-        |Logos and branding are so important. In a big part of the world, people cannot read French or English — but are great in remembering signs
+        = raw t("pages.about_us.principles-intro.quote")
         /.blockquote-border
           .top-border
           .bottom-border
@@ -110,9 +110,9 @@
       .row
         .columns.xxxlarge-6
           .header.font-36-bold
-            |Team
+            = raw t("pages.about_us.team-intro.title")
           p.white
-            |Logos and branding are so important. In a big part of the world, people cannot read French or English — but are great in remembering signs. Logos and branding are so important.
+            = raw t("pages.about_us.team-intro.text")
 
 
 
@@ -143,7 +143,7 @@
                   |join the team
                 a.btn.white-lines href="/#{I18n.locale}/contacts#join-us"
                   span.btn-text
-                    |join us
+                    = t("pages.about_us.team.join-us-button")
 
 
 

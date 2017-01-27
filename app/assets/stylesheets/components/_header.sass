@@ -30,11 +30,21 @@
   +breakpoint(small only)
     height: 76px
 
+
++button-text-hover-keyframes(hire-us-button-text-hover, $black-color, white)
+
 #header-hire-us-button-wrap
   position: absolute
   //top: 53px
   top: 35px
   right: 120px
+  .btn-hire-us
+    width: 150px
+
+    &:hover
+      +animation-name(hire-us-button-text-hover)
+      +animation-duration(0.8s)
+
 
 #header-logo
   position: absolute
