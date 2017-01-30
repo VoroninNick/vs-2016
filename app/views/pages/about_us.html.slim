@@ -153,12 +153,9 @@
       .row
         .columns.xxxlarge-6
           .header.font-36-bold
-            |We are trusted
-          p
-            |Logos and branding are so important. In a big part of the world
+            = raw t("pages.about_us.clients.title")
+          = raw t("pages.about_us.clients.description")
 
-          p
-            |Logos and branding are so important. In a big part of the world, people cannot read French or English — but are great in remembering signs.
 
         - if @clients.try(:any?)
           .columns.horizontal-container

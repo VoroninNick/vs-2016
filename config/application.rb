@@ -28,5 +28,8 @@ module Dev
     Rails.application.config.assets.precompile += %w(ckeditor/filebrowser/images/*)
     Rails.application.config.assets.precompile += %w(mailer.css)
     Rails.application.config.assets.precompile += %w(file_editor_application.css file_editor_application.js)
+
+    #I18n.load_path += Dir.glob( File.dirname(__FILE__) + "config/locales/pages/*.{rb,yml}" )
+    config.i18n.load_path += Dir[Rails.root.join("config/locales/pages/*.yml").to_s]
   end
 end
