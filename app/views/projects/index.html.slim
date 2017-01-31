@@ -11,7 +11,7 @@
         |All
 
     - @services.each do |service|
-      - service_icon_path = service.icon.path
+      - service_icon_path = service.icon_path(:medium)
       a.tag style=tag_style data-turbolinks="false" data-no-turbolink="" href=project_or_category_path(id: service.translations_by_locale[I18n.locale].url_fragment) class=("checked" if @category.try(:id) == service.id)
         .icon
           = embedded_svg_from_absolute_path(service_icon_path)

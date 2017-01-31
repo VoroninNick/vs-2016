@@ -72,4 +72,8 @@ class Service < ActiveRecord::Base
   # def next(relation = nil)
   #   Service.prev
   # end
+
+  def icon_path(style = :small)
+    Rails.root.join("app/assets/images/svg/expertise-2/#{self.code_name}-#{style}.svg").to_s
+  end
 end

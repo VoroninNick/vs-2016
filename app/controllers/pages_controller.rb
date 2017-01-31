@@ -130,7 +130,7 @@ class PagesController < ApplicationController
           short_description: project_translation.short_description,
           image_url: image_url,
           service_icons: p.services.map {|s|
-            {icon_path: s.icon.path,
+            {icon_path: s.icon_path,
              #service_url: s.url,
              service_url: project_or_category_path(s.url_fragment),
              icon_title: s.name }

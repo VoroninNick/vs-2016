@@ -141,7 +141,7 @@ module RailsAdminDynamicConfig
         config.model Service do
           field :published
           field :translations, :globalize_tabs
-          field :icon, :paperclip
+          #field :icon, :paperclip
           field :home_bg
           field :list_image
           field :projects

@@ -1,7 +1,7 @@
 .services
   - @services.each_with_index do |service, index|
     - service_url = service.try(:url)
-    - service_icon_path = service.icon.path
+    - service_icon_path = service.icon_path(:medium)
     - service_number = (index + 1).to_s
     - if service_number.length < 2
       - service_number = "0#{service_number}"

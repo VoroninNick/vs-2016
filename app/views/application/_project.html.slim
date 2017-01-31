@@ -9,7 +9,7 @@ a.block.project href=project.url class=("active" if active)
       - if project.services.any?
         .project-related-services
           - project.services.each do |service|
-            - service_icon_path = service.icon.path
+            - service_icon_path = service.icon_path
             .icon title=service.name
               = embedded_svg_from_absolute_path(service_icon_path)
       .project-number
