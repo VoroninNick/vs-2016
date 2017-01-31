@@ -1,4 +1,4 @@
-###
+
 $document.on "focusin focusout", ".input", (e)->
   $input_wrap = $(this)
 
@@ -6,7 +6,7 @@ $document.on "focusin focusout", ".input", (e)->
     $input_wrap.addClass("focus")
   else if e.type == 'focusout'
     $input_wrap.removeClass('focus')
-
+###
 $document.on "keyup", ".input.string, .input.text, .input.phone", (e)->
 
   $input_wrap = $(this)
@@ -74,3 +74,5 @@ $document.on "ready page:load", ()->
   $("select").each ()->
     #init_selectize.call(this)
     $(this).niceSelect()
+
+

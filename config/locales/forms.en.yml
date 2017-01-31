@@ -3,5 +3,8 @@ en:
     hire_us_request:
       budget_range: "Budget range"
     actions:
+      hire-us: "hire"
+      join-us: "join"
+    tabs:
       hire-us: "hire us"
       join-us: "join us"

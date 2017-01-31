@@ -27,7 +27,8 @@ module FormsHelper
 
     placeholder_str = placeholder(resource, attr)
 
-    input_tag_str = "<input id='#{input_tag__id}' name='#{input_tag_name}' type='#{input_tag_type}' />"
+    autocomplete_str = options[:autocomplete] ? "autocomplete='#{options[:autocomplete]}'" : ""
+    input_tag_str = "<input #{autocomplete_str} id='#{input_tag__id}' name='#{input_tag_name}' type='#{input_tag_type}' />"
 
     if type == 'text'
       input_tag_str = "<textarea id='#{input_tag__id}' name='#{input_tag_name}' ></textarea>"
