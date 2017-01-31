@@ -36,7 +36,21 @@ $document.on "click", ".project-tags .tag:not(.checked)", (e)->
       $projects_count.counterUp(
         time: 500
       )
+      console.log "ajax: success: counter_up"
   )
 
 $document.on "appear", ".portfolio-projects", ()->
-  init_projects($(this))
+  $projects_container = $(".projects")
+
+  if !$projects_container.hasClass("appeared")
+    $projects_container.addClass("appeared")
+
+    $projects_count = $projects_container.find(".project-quantity")
+    $projects_count.addClass("visible")
+    $projects_count.counterUp(
+      time: 500
+    )
+
+    init_projects($(this))
+
+    console.log "appear: counter_up"

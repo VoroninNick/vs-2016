@@ -1,4 +1,4 @@
-Cms::CompressionConfig.initialize_compression
+Cms::CompressionConfig.initialize_compression(enable_compression: false)
 
 Cms.config.use_translations true
 
