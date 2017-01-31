@@ -143,6 +143,13 @@ class FileEditorController < ApplicationController
           file_content = params[:file_content]
           File.write(@normalized_path, file_content)
           I18n.backend.reload!
+
+          # clear cache
+          public_path = Rails.root.join("public/").to_s
+          cache_paths = I18n.available_locales.map{|locale| ["#{public_path}#{locale}", "#{public_path}#{locale}.html", "#{public_path}#{locale}.html.gz"] }.flatten.select{|path| File.exists?(path) }
+          cache_paths.each do |path|
+            FileUtils.rm_rf(path)
+          end
         end
         @file_content = File.read(@normalized_path)
         #render inline: @file_content
