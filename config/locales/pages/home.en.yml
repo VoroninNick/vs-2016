@@ -1,0 +1,13 @@
+en:
+  pages:
+    home:
+      welcome: "Welcome!"
+      welcome_description: "We create logos, corporate identity, websites, apps and packaging"
+      watch-video:
+        text: "Watch video"
+        tooltip: "Watch video about us"
+      view-portfolio:
+        text: "View portfolio"
+        tooltip: "Explore our projects"
+      scroll-down: "<span class='line-through'>dare to</span> see our projects"
+      footer-text: "Looking for something interesting?"

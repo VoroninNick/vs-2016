@@ -1,5 +1,7 @@
 en:
   components:
+    buttons:
+      hire-us: "hire us"
     maps:
       marker:
         info-window:

@@ -12,19 +12,19 @@
       .inner
         .text-wrap
           .blue-header
-            |Welcome!
-          = raw "<div class='white-header'>We create logos, corporate identity, websites, apps and packaging</div>"
+            = raw t("pages.home.welcome")
+          = raw "<div class='white-header'>#{raw t('pages.home.welcome_description')}</div>"
 
 
-        .icon-link.play-link
+        .icon-link.play-link title=t("pages.home.watch-video.tooltip")
           = inline_svg("svg/play.svg")
           /= inline_svg("svg/play2.svg")
           span.icon-link-label
-            |Watch video
-        a.icon-link href=projects_path
+            = raw t("pages.home.watch-video.text")
+        a.icon-link href=projects_path title=t("pages.home.view-portfolio.tooltip")
           = inline_svg("svg/portfolio.svg")
           span.icon-link-label
-            |View portfolio
+            = raw t("pages.home.view-portfolio.text")
 
 
 
@@ -64,8 +64,8 @@
           .row
             .columns.medium-7.large-9
               .text
-                |Looking for something interesting?
+                = raw t("pages.home.footer-text")
             .columns.medium-5.large-3
               a.btn.dark.white-lines href="#"
                 span.btn-text
-                  |hire us
+                  = raw t("components.buttons.hire-us")

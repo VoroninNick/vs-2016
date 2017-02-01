@@ -19,7 +19,7 @@ class PagesController < ApplicationController
 
     set_page_metadata("home")
 
-    @home_scroll_down_text = "<span class='line-through'>dare to</span> see our projects"
+    @home_scroll_down_text = I18n.t("pages.home.scroll-down").html_safe
   end
 
   def about_us

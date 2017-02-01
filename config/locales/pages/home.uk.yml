@@ -1,0 +1,13 @@
+uk:
+  pages:
+    home:
+      welcome: "Ласкаво просимо!"
+      welcome_description: "Ми розробляємо логотипи, фірмові стилі, веб сайти, етикетки та упаковки"
+      watch-video:
+        text: "Переглянути відео"
+        tooltip: "Переглянути відео про нас"
+      view-portfolio:
+        text: "Переглянути портфоліо"
+        tooltip: "Переглянути наші роботи"
+      scroll-down: "<span class='line-through'>скрольте вниз</span> щоб подивитись проекти"
+      footer-text: "Шукаєте щось цікавеньке?"
