@@ -6,7 +6,8 @@
     a.tag style=tag_style class=("checked" if !@category) href=projects_path
       .arrow-down = inline_svg "svg/arrow-down.svg"
       .icon
-        = embedded_svg_from_assets("svg/expertise/all.svg")
+        /= embedded_svg_from_assets("svg/expertise/all.svg")
+        = embedded_svg_from_assets("svg/icon-all-medium.svg")
       .name
         |All
 

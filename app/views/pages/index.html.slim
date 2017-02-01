@@ -18,6 +18,7 @@
 
         .icon-link.play-link
           = inline_svg("svg/play.svg")
+          /= inline_svg("svg/play2.svg")
           span.icon-link-label
             |Watch video
         a.icon-link href=projects_path
@@ -40,7 +41,7 @@
       p.description
         = t("pages.home.services.description")
     - @services.each do |service|
-      - service_icon_path = service.icon_path
+      - service_icon_path = service.icon_path(:medium)
 
       - service_bg_image = service.home_bg.url(:xxl) if service.home_bg.exists?(:xxl)
       - service_bg_image = service.list_image.url(:home_xxl) if service_bg_image.blank? && service.list_image.exists?(:home_xxl)

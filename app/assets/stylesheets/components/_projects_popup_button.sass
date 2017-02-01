@@ -5,6 +5,10 @@
 
   &.visible
     opacity: 1
+
+  svg
+    shape-rendering: crispEdges
+
 #projects-popup-button, #projects-popup-button-close
   position: fixed
   z-index: $zindex-projects-popup-button
@@ -19,6 +23,7 @@
   svg
     width: 40px
     height: 40px
+
 
   path
     +transition-duration(0.2s)

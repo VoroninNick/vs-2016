@@ -33,7 +33,7 @@ module ApplicationHelper
   end
 
   def social_links
-    [{icon: "1-fb"}, {icon: "2-g"}, {icon: "3-insta"}, {icon: '4-linkedin'}, {icon: "6-behance"}, {icon: "7-youtube"}].map{|h| {icon: "svg/social2/#{h[:icon]}.svg", url: "#"} }
+    [:behance, :facebook, :google_plus, :instagram].map{|h| {icon: "svg/social2/#{h}.svg", url: "#"} }
   end
 
   def footer_social_links
