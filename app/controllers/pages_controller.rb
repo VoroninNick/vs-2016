@@ -28,11 +28,11 @@ class PagesController < ApplicationController
     @page_banner_template = "about_us_banner"
     @page_banner = {
         bg_image: 'banners/inner-page-main-banners-v1-about-us.jpg',
-        title: "About",
+        title: t("pages.about_us.banner.title"),
         numbers: [
-            {number: 10, number_description: "years of experience"},
-            {number: 8, number_description: "team members"},
-            {number: 1, number_description: "goal"}
+            {number: 10, number_description: t("pages.about_us.banner.years-of-experience")},
+            {number: 8, number_description: t("pages.about_us.banner.team-members")},
+            {number: 1, number_description: t("pages.about_us.banner.goal")}
         ],
         scroll_down_title: "take a look"
     }
@@ -45,9 +45,9 @@ class PagesController < ApplicationController
 
     @slides = AboutSlide.published.sort_by_sorting_position
 
-    @principles = [{name: "Research", description: "<p>Logos and branding are so important.</p>" * 3, icon_path: "svg/vs-about-icon-research.svg"},
-                   {name: "Planning", description: "<p>Logos and branding are so important. In a big part of the world. </p>"*5, icon_path: "svg/vs-about-icon-planning.svg"},
-                   {name: "Execution", description: "<p>Logos and branding are so important. In a big part of the world.</p>", icon_path: "svg/vs-about-icon-execution.svg"}]
+    @principles = [{name: t("pages.about_us.principles.principle-1.name"), description: t("pages.about_us.principles.principle-1.description"), icon_path: "svg/vs-about-icon-research.svg"},
+                   {name: t("pages.about_us.principles.principle-2.name"), description: t("pages.about_us.principles.principle-2.description"), icon_path: "svg/vs-about-icon-planning.svg"},
+                   {name: t("pages.about_us.principles.principle-3.name"), description: t("pages.about_us.principles.principle-3.description"), icon_path: "svg/vs-about-icon-execution.svg"}]
   end
 
 
@@ -56,7 +56,7 @@ class PagesController < ApplicationController
     @page_banner_template = "contacts_banner"
     @page_banner = {
         bg_image: 'banners/inner-page-main-banners-v1-contacts.jpg',
-        title: "Contacts",
+        title: t("pages.contacts.banner.title"),
         numbers: [
 
         ],
@@ -64,12 +64,12 @@ class PagesController < ApplicationController
     }
 
     @offices = [
-        {country: "Ukraine",
+        {country: t("pages.contacts.ukraine.country"),
          phones: ["+38 (050) 417 07 28", "+38 (032) 240 33 50"],
-         emails: [{email: "nick@voroninstudio.eu", description: "financial and art questions"},
-                  {email: "office@voroninstudio.eu", description: "office"},
-                  {email: "support@voroninstudio.eu", description: "technical support questions"}],
-         address: "Lukianovycha Str. 11, Lviv",
+         emails: [{email: "nick@voroninstudio.eu", description: t("pages.contacts.ukraine.emails-description.nick")},
+                  {email: "office@voroninstudio.eu", description: t("pages.contacts.ukraine.emails-description.office")},
+                  {email: "support@voroninstudio.eu", description: t("pages.contacts.ukraine.emails-description.support")}],
+         address: t("pages.contacts.ukraine.address"),
          map: {
              center: "49.833188, 24.020121",
              location: "49.833188, 24.020121"
@@ -78,12 +78,12 @@ class PagesController < ApplicationController
 
         },
         {
-            country: "USA",
+            country: t("pages.contacts.usa.country"),
             phones: ["+1 (471) 254 1111"],
-            emails: [{email: "tomson@voroninstudio.eu", description: "financial and art questions"},
-                     {email: "office-usa@voroninstudio.eu", description: "office"}
+            emails: [{email: "tomson@voroninstudio.eu", description: t("pages.contacts.usa.email-description.tomson")},
+                     {email: "office-usa@voroninstudio.eu", description: t("pages.contacts.usa.email-description.office")}
             ],
-            address: "350 Fifth Avenue, New York",
+            address: t("pages.contacts.usa.address"),
             map: {
                 center: "40.748571, -73.985645",
                 location: "40.748571, -73.985645"
@@ -102,9 +102,9 @@ class PagesController < ApplicationController
 
     @page_banner = {
         bg_image: 'banners/life-v2.jpg',
-        title: "Life",
+        title: t("pages.life.banner.title"),
         numbers: [
-            { number: @life_entries_count, number_description: "moments to remember"}
+            { number: @life_entries_count, number_description: t("pages.life.banner.moments-to-remember")}
         ],
         scroll_down_title: "view all"
     }

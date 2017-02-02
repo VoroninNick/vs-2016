@@ -1,6 +1,11 @@
 en:
   pages:
     about_us:
+      banner:
+        title: "About"
+        years-of-experience: "years of experience"
+        team-members: "team members"
+        goal: "goal"
       quote-text: "Logos and branding are so important. In a big part of the world, people cannot read French or English — but are great in remembering signs"
       quote-author: "Nick Voronin"
       intro-part-1:
@@ -14,6 +19,18 @@ en:
         title: "Principles of work"
         text: "Logos and branding are so important. In a big part of the world, people cannot read French or English — but are great in remembering signs. Logos and branding are so important. In a big part of the world, people cannot read French or English — but are great in remembering signs."
         quote: "Logos and branding are so important. In a big part of the world, people cannot read French or English — but are great in remembering signs"
+      principles:
+        principle-1:
+          name: "Research"
+          description: "<p>Logos and branding are so important.</p><p>Logos and branding are so important.</p><p>Logos and branding are so important.</p>"
+        principle-2:
+          name: "Planning"
+          description: "<p>Logos and branding are so important. In a big part of the world. </p><p>Logos and branding are so important. In a big part of the world. </p><p>Logos and branding are so important. In a big part of the world. </p><p>Logos and branding are so important. In a big part of the world. </p><p>Logos and branding are so important. In a big part of the world. </p>"
+        principle-3:
+          name: "Execution"
+          description: "<p>Logos and branding are so important. In a big part of the world.</p>"
+
+
       team:
         title: "Team"
         text: "Logos and branding are so important. In a big part of the world, people cannot read French or English — but are great in remembering signs. Logos and branding are so important."

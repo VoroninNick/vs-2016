@@ -8,9 +8,9 @@ class ServicesController < ApplicationController
     set_page_metadata("services")
     @page_banner = {
         bg_image: 'banners/inner-page-main-banners-v1-expertise.jpg',
-        title: "Expertise",
+        title: t("services.banner.title"),
         numbers: [
-          { number: "08", number_description: "fields of expertise"}
+          { number: "08", number_description: t("services.index.banner.fields-of-experise")}
         ],
         scroll_down_title: "view all"
     }
@@ -24,7 +24,7 @@ class ServicesController < ApplicationController
           bg_image: 'banners/inner-page-main-banners-v1-expertise.jpg',
           title: @service.name,
           numbers: [
-              {number: "08", number_description: "cases"}
+              {number: "08", number_description: t("services.show.banner.cases")}
           ],
           scroll_down_title: "read more"
       }

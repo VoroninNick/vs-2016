@@ -1,7 +1,7 @@
 .columns.large-12.small-12.tags tag-group="authors"
   .arrow-down = inline_svg "svg/arrow-down.svg"
   .label
-    |Authors:
+    = t("articles.authors")
   ul.tags-ul
     - authors.each do |author|
       li.tag.tag-li

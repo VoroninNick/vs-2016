@@ -1,23 +1,23 @@
 #project-case.project-section.project-case-section
   .row.project-large-section
     .project-large-section-title
-      |Case
+      = t("projects.show.project-case.large-title")
 
     .columns.xxxlarge-8.xxxlarge-push-2.large-10.large-push-1.left.project-section-content-column.fade-in
       .row
         .columns.large-8
           .h2.with-line
-            |Project case
+            = t("projects.show.project-case.title")
           = raw @project.project_case
         .columns.large-2
           .project-details
             .h2.with-line
-              |Client
+              = t("projects.show.project-case.client")
             p
               = @project.customer_name
 
             .h2.with-line
-              |Deliverables
+              = t("projects.show.project-case.services")
             p
               - @project.services.each do |service|
                 a.project-details-a href=service.url
@@ -25,12 +25,12 @@
                 br
             - if @project.released_on.present?
               .h2.with-line
-                |Year
+                = t("projects.show.project-case.year")
               p
                 = @project.released_on.year
 
             - if @project.awards.present?
               .h2.with-line
-                |Awards
+                = t("projects.show.project-case.awards")
               p
                 = @project.awards

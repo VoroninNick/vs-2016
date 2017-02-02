@@ -13,11 +13,11 @@ class ArticlesController < ApplicationController
 
     @page_banner = {
         bg_image: 'banners/inner-page-main-banners-v1-publications.jpg',
-        title: "Publications",
+        title: t("articles.index.banner.title"),
         numbers: [
-          {number: @articles.count, number_description: "articles"},
-          {number: @tags.count, number_description: "tags"},
-          {number: @authors.count, number_description: "authors"}
+          {number: @articles.count, number_description: t("articles.index.banner.articles")},
+          {number: @tags.count, number_description: t("articles.index.banner.tags")},
+          {number: @authors.count, number_description: t("articles.index.banner.authors")}
         ],
         scroll_down_title: "view all"
     }

@@ -1,13 +1,7 @@
 module ApplicationHelper
   def main_menu_items
-    menu_items = [
-        { title: "who", sub_label: "about the studio", url: Pages.about_us.url },
-        { title: "how", sub_label: "portfolio", url: projects_path },
-        { title: "what", sub_label: "our services", url: Pages.services.url },
-        { title: "when", sub_label: "publications", url: Pages.articles.url },
-        { title: "life", sub_label: "studio life" , url: Pages.studio_life.url},
-        { title: "where", sub_label: "contacts", url: Pages.contacts.url }
-    ]
+    menu_item_keys = %w(about_us projects services articles studio_life contacts)
+    menu_items = menu_item_keys.map{|k| url = Pages.send(k).url; active = false; {title: t("components.menu.title.#{k}"), sub_label: t("components.menu.sub_label.#{k}"), url: url, active: active} }
   end
 
   # def inline_svg(path, transform_params={})

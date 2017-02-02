@@ -4,22 +4,20 @@ footer#footer
       = inline_svg "svg/logo.svg"
     .footer-item
       .header
-        |Address
+        = t("components.footer.address-header")
       p
-        |Lukiyanovycha Str. 11
-        br
-        |Lviv, Ukraine, 79000
+        = raw t("components.footer.address")
 
     .footer-item
       .header
-        |Phone
+        = t("components.footer.phone-header")
       p
         - footer_phones.each do |phone|
           a.main-footer-a href=phone_url(phone)
             = phone
     .footer-item
       .header
-        |Email
+        = t("components.footer.email-header")
       p
         - footer_emails.each do |email|
           a.main-footer-a href=email_url(email)
@@ -30,7 +28,7 @@ footer#footer
         a.social-link.icon-btn href=social[:url]
           = inline_svg social[:icon]
     #sub-footer-copyright
-      |&copy;2006 &mdash; #{Date.today.year} Voronin Design Studio. All rights reserved.
+      = raw t("components.footer.copyright", start_year: 2006, year: Date.today.year)
     / #sub-footer-social
     /   - footer_social_links.each do |social|
     /     a.social-link href=social[:url]

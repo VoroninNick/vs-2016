@@ -27,7 +27,7 @@
 
 //= render "projects_nav"
 - item_index = @category.nil? ? -1 : @category.index_of(@projects)
-- tab_all = { name: "All", icon_path: Rails.root.join("app/assets/images/", "svg/expertise/all.svg") }
+- tab_all = { name: t("projects.index.all-tags"), icon_path: Rails.root.join("app/assets/images/", "svg/expertise/all.svg") }
 - tab_all_url = projects_path
 - prev_item = @category.nil? ? @services.last : @category.first?(@services) ? tab_all : @category.prev(@services)
 - next_item = @category.nil? ? @services.first : @category.last?(@services) ? tab_all : @category.next(@services)

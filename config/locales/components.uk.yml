@@ -1,7 +1,7 @@
-en:
+uk:
   components:
     buttons:
-      hire-us: "hire us"
+      hire-us: "замовити"
     maps:
       marker:
         info-window:
@@ -10,8 +10,8 @@ en:
           work_phones: "Work phones:"
           address: "Address:"
     articles-navigation:
-      prev: "previous"
-      next: "next"
+      prev: "попередня"
+      next: "наступна"
 
     footer:
       address-header: "Address"
@@ -22,17 +22,17 @@ en:
 
     menu:
       title:
-        about_us: "who"
-        projects: "how"
-        services: "what"
-        articles: "when"
-        studio_life: "life"
-        contacts: "where"
+        about_us: "хто"
+        projects: "як"
+        services: "що"
+        articles: "коли"
+        studio_life: "життя"
+        contacts: "де"
 
       sub_label:
-        about_us: "about the studio"
-        projects: "portfolio"
-        services: "our services"
-        articles: "publications"
-        studio_life: "studio life"
-        contacts: "contacts"
+        about_us: "про студію"
+        projects: "портфоліо"
+        services: "наші послуги"
+        articles: "анонси та події"
+        studio_life: "життя студії"
+        contacts: "наші контакти"

@@ -1,7 +1,7 @@
 - project = @project
 
 .project-navigation.navigation-list
-  - project_navigation_sections = {project_case: {title: "Project case", id: "project-case"}, logo_and_ci: {title: "Logo & Ci", id: "project-logo"}, ux_and_strategy: {title: "UX & Strategy", id: "ux-and-strategy"}, responsive_web_design: {title: "Responsive web design", id: "responsive-web-design"}, technical_side_of_project: {title: "Technical side of project", id: "technical-side"}}
+  - project_navigation_sections = {project_case: {id: "project-case"}, logo_and_ci: {id: "project-logo"}, ux_and_strategy: {id: "ux-and-strategy"}, responsive_web_design: {id: "responsive-web-design"}, technical_side_of_project: {id: "technical-side"}}
   - project_navigation_sections = project_navigation_sections.keep_if{|k, v| project.try(k.to_sym).present? }
   .inner
     - project_navigation_sections.each_with_index do |section, index|
@@ -9,4 +9,4 @@
       - section_definition = section[1]
       a.project-navigation-link.navigation-list-item href="##{section_definition[:id]}" class=("active" if index == 0)
         .title
-          = section_definition[:title]
+          = raw t("projects.show.project-navigation.#{section_key}")

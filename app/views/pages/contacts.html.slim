@@ -13,7 +13,7 @@
           .contact-info-container
 
             .small-header.blue
-              |call us
+              = t("pages.contacts.call-us")
             - office[:phones].each do |phone|
               a.phone-number.light-phone-colored href=phone_url(phone)
                 = formatted_phone_number(phone)
@@ -21,7 +21,7 @@
 
 
             .small-header.blue
-              |write us
+              = t("pages.contacts.write-us")
             .emails-with-description
               - office[:emails].each do |email|
                 .email-block
@@ -35,7 +35,7 @@
 
 
             .small-header.blue
-              |meet us
+              = t("pages.contacts.meet-us")
             .address
               = office[:address]
               span.pink
@@ -50,7 +50,7 @@
     .row
       .columns.text-center.contacts-social
         .small-header.blue
-          |follow us
+          = t("pages.contacts.follow-us")
 
         .social-links
           - social_links.each do |social|
@@ -68,7 +68,7 @@
 
 .light-bg.large-inner-bottom-indent
   .large-header.dark-bg
-    |Work with us
+    = t("pages.contacts.work-with-us")
 
   .row
     .columns.xxxlarge-10.xxxlarge-centered

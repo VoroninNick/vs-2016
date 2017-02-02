@@ -1,0 +1,10 @@
+uk:
+  services:
+    index:
+      banner:
+        title: "Expertise"
+        fields-of-experise: "fields of expertise"
+    show:
+      banner:
+        cases: "cases"
+      related-projects: "подібні проекти"

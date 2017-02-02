@@ -8,17 +8,17 @@
         .columns.large-6.go-right
           .project-description-block
             .title
-              |Thanks for watching!
+              = raw t("projects.show.bottom-banner.title")
             .description
-              |We hope you've enjoyed this case. Discover more and share with friends
+              = raw t("projects.show.bottom-banner.description")
 
 
             .actions
               a.btn.dark href=@project.site_url
                 span.btn-text
-                  = "visit website"
+                  = t("projects.show.bottom-banner.visit-website")
               span.or-share
-                |or share
+                = t("projects.show.bottom-banner.or-share")
               - footer_social_links.each do |social|
                 a.social-link.icon-btn.dark href=social[:url]
                   = inline_svg social[:icon]

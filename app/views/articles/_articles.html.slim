@@ -26,7 +26,7 @@
                     - if index < article.tags.count - 1
 
           .authors
-            |by &nbsp;
+            |#{t("articles.article-item.by-author")} &nbsp;
             - article.authors.each_with_index do |author, index|
               - if index > 0
                 span.separator

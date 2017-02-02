@@ -1,0 +1,27 @@
+en:
+  pages:
+    contacts:
+      banner:
+        title: "Contacts"
+      ukraine:
+        country: "Ukraine"
+        emails-description:
+          nick: "financial and art questions"
+          office: "office"
+          support: "technical support questions"
+        address: "Lukianovycha Str. 11, Lviv"
+
+
+      usa:
+        country: "USA"
+        email-description:
+          tomson: "financial and art questions"
+          office: "office"
+        address: "350 Fifth Avenue, New York"
+
+
+      call-us: "call us"
+      write-us: "write us"
+      meet-us: "meet us"
+      follow-us: "follow us"
+      work-with-us: "Work with us"

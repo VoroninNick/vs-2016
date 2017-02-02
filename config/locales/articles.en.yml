@@ -1,0 +1,12 @@
+en:
+  articles:
+    tags: "Tags:"
+    authors: "Authors:"
+    article-item:
+      by-author: "by"
+    index:
+      banner:
+        title: "Publications"
+        articles: "articles"
+        tags: "tags"
+        authors: "authors"

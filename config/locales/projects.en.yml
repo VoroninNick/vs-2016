@@ -1,0 +1,31 @@
+en:
+  projects:
+    index:
+      all-tags: "All"
+    show:
+      project-case:
+        large-title: "Case"
+        title: "Project case"
+        client: "Client"
+        services: "Deliverables"
+        year: "Year"
+        awards: "Awards"
+      ux-and-strategy:
+        large-title: "UX"
+        title: "UX & Strategy"
+      rwd:
+        large-title: "Web"
+        title: "Responsive web design"
+
+      bottom-banner:
+        title: "Thanks for watching!"
+        description: "We hope you've enjoyed this case. Discover more and share with friends"
+        visit-website: "visit website"
+        or-share: "or share"
+
+      project-navigation:
+        project_case: "Project case"
+        logo_and_ci: "Logo & Ci"
+        ux_and_strategy: "ux-and-strategy"
+        responsive_web_design: "Responsive web design"
+        technical_side_of_project: "Technical side of project"
