@@ -2,9 +2,9 @@ uk:
   services:
     index:
       banner:
-        title: "Expertise"
-        fields-of-experise: "fields of expertise"
+        title: "Наші послуги"
+        fields-of-experise: "напрямків діяльності"
     show:
       banner:
-        cases: "cases"
+        cases: "проектів"
       related-projects: "подібні проекти"

@@ -77,6 +77,20 @@ module RailsAdminDynamicConfig
             locales: "/file_editor#{Rails.root.join("config/locales")}"
         }
 
+        config.include_models Cms::MetaTags
+        config.model Cms::MetaTags do
+          visible false
+          field :translations, :globalize_tabs
+        end
+
+        config.model_translation Cms::MetaTags do
+          field :locale, :hidden
+          field :title
+          field :description
+          field :keywords
+        end
+
+
         config.include_models Technology
 
         config.include_models HireUsRequest, JoinUsRequest, FormConfigs::HireUsRequest, FormConfigs::JoinUsRequest
@@ -145,6 +159,7 @@ module RailsAdminDynamicConfig
           field :home_bg
           field :list_image
           field :projects
+          field :seo_tags
         end
 
         config.model_translation Service do
@@ -166,7 +181,7 @@ module RailsAdminDynamicConfig
           field :release_date
           field :tags
           field :authors
-
+          field :seo_tags
         end
 
         config.model_translation Article do
@@ -258,6 +273,10 @@ module RailsAdminDynamicConfig
           end
 
           #sass_options_group
+
+          group :seo do
+            field :seo_tags
+          end
         end
 
         config.model_translation Project do
@@ -321,6 +340,14 @@ module RailsAdminDynamicConfig
         config.model_translation LifeEntry do
           field :locale, :hidden
           field :description
+        end
+
+        page_models = [Pages::AboutUs, Pages::Articles, Pages::Contacts, Pages::Home, Pages::Projects, Pages::Services, Pages::StudioLife]
+        config.include_models *page_models
+        page_models.each do |m|
+          config.model m do
+            field :seo_tags
+          end
         end
       end
     end

@@ -1,3 +1,10 @@
 en:
   services:
-    related-projects: "related projects"
+    index:
+      banner:
+        title: "Expertise"
+        fields-of-experise: "fields of expertise"
+    show:
+      banner:
+        cases: "cases"
+      related-projects: "related projects"

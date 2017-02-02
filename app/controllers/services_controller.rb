@@ -8,7 +8,7 @@ class ServicesController < ApplicationController
     set_page_metadata("services")
     @page_banner = {
         bg_image: 'banners/inner-page-main-banners-v1-expertise.jpg',
-        title: t("services.banner.title"),
+        title: t("services.index.banner.title"),
         numbers: [
           { number: "08", number_description: t("services.index.banner.fields-of-experise")}
         ],
