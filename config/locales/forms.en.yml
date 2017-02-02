@@ -1,7 +1,26 @@
 en:
   forms:
     hire_us_request:
-      budget_range: "Budget range"
+      budget_range:
+        name: "Budget range"
+        options:
+          from_12k: "from 12 000 UAH"
+          from_6k_to_12k: "from 6 000 to 12 000 UAH"
+          from_3k_to_6k: "from 3 000 to 6 000 UAH"
+          up_to_3k: "up to 3 000 UAH"
+    join_us_request:
+      desired_vacancy:
+        name: "Desired vacancy"
+        options:
+          web_designer: "Web designer"
+          graphic_designer: "Graphic designer"
+          ror_developer: "ROR Developer"
+          html_css_developer: "HTML 5, Css 3 developer"
+          copywriter: "Copywriter"
+          sales_manager: "Sales manager"
+          cool_guy: "Cool guy :)"
+
+
     actions:
       hire-us: "hire"
       join-us: "join"

@@ -23,6 +23,8 @@ module FormsHelper
     type = type.to_s
     if type == 'string'
       input_tag_type = "text"
+    elsif type.in?(%w(tel email file))
+      input_tag_type = type
     end
 
     placeholder_str = placeholder(resource, attr)
@@ -45,7 +47,7 @@ module FormsHelper
     input_tag__id = input_tag_id(resource, attr)
     input_tag_name = input_tag_name(resource, attr)
 
-    label_text = I18n.t("forms.#{resource_name}.#{attr}", raise: true) rescue attr.humanize
+    label_text = I18n.t("forms.#{resource_name}.#{attr}.name", raise: true) rescue attr.humanize
 
     "<label class='placeholder' for='#{input_tag__id}'>#{label_text}</label>".html_safe
   end

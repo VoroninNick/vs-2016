@@ -92,6 +92,7 @@ class PagesController < ApplicationController
     ]
 
     @hire_us_form = HireUsRequest.new
+    @join_us_form = JoinUsRequest.new
 
 
   end

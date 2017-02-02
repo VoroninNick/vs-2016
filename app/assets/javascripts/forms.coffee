@@ -76,3 +76,4 @@ $document.on "ready page:load", ()->
     $(this).niceSelect()
 
 
+$document.on "change", "select", ()->

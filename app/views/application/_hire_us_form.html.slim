@@ -19,12 +19,11 @@ form.ajax-submit.hire-us-form action=hire_us_request_path method="post" show-pre
           .input.select
             = placeholder(@hire_us_form, :budget_range)
             select id=input_tag_id(@hire_us_form, :budget_range) name=input_tag_name(@hire_us_form, :budget_range)
-              option value=""
+              /option value=""
                 = t("forms.hire_us_request.budget_range")
-              - @hire_us_form.class.budget_range.values.each do |value|
-                option value=value
-                  = t("enumerize.#{@hire_us_form.class.name.underscore}.budget_range.#{value}", raise: true) rescue value
-          /= input(@hire_us_form, :budget_range, type: :select)
+              - @hire_us_form.class.budget_range.values.each_with_index do |value, i|
+                option value=value selected=("selected" if i == 0)
+                  = t("forms.#{@hire_us_form.class.name.underscore}.budget_range.options.#{value}", raise: true) rescue value
           = input(@hire_us_form, :description, type: :text)
 
 
