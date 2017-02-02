@@ -36,6 +36,7 @@
                   <tr>
                     <td class="icon">
                       <span class="octicon <%= (entry[:is_directory] == true)? 'octicon-file-directory' : 'octicon-file-text' %>"></span>
+                      <span><%= raw (entry[:is_directory] ? "DIR&nbsp;" : "FILE") %>&nbsp;</span>
                     </td>
                     <td class="content">
         <span class="css-truncate css-truncate-target">
