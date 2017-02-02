@@ -55,7 +55,7 @@ class ProjectsController < ApplicationController
 
   def set_services
     @services = Service.published.sort_by_sorting_position.joins(:projects).where(projects: { published: 't' })
-    @service = @services.first
+    #@service = @services.first
   end
 
   def set_projects_banner

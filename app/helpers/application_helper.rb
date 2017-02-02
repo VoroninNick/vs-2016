@@ -1,7 +1,20 @@
 module ApplicationHelper
   def main_menu_items
     menu_item_keys = %w(about_us projects services articles studio_life contacts)
-    menu_items = menu_item_keys.map{|k| url = Pages.send(k).url; active = false; {title: t("components.menu.title.#{k}"), sub_label: t("components.menu.sub_label.#{k}"), url: url, active: active} }
+    menu_items = menu_item_keys.map{|k|
+      url = Pages.send(k).url;
+      request_url = request.path
+      active = url == request_url
+      has_active = false
+      if k == "services" && @service
+        has_active = true
+      elsif k == "projects" && (@project || @category)
+        has_active = true
+      elsif k == "articles" && @article
+        has_active = true
+      end
+      {title: t("components.menu.title.#{k}"), sub_label: t("components.menu.sub_label.#{k}"), url: url, active: active, has_active: has_active}
+    }
   end
 
   # def inline_svg(path, transform_params={})
