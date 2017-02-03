@@ -77,3 +77,17 @@ $document.on "ready page:load", ()->
 
 
 $document.on "change", "select", ()->
+
+
+$document.on "change", "input[type=file]", ()->
+  $input_wrap = $(this).closest(".input")
+  $button = $input_wrap.find("label.btn")
+  $button_text = $button.children()
+  file_name = $(this).val()
+  if file_name && file_name.length
+    $file_name = $input_wrap.find("div.file-name")
+    $button_text.text("File uploaded")
+    $file_name.text(file_name)
+  else
+    $button_text.text("Upload file")
+    $file_name.text("File is not selected")

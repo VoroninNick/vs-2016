@@ -1,4 +1,12 @@
 module AssetPathHelper
+  def self.included(base)
+    methods = self.instance_methods
+    methods.delete(:included)
+    if base.respond_to?(:helper_method)
+      base.helper_method methods
+    end
+  end
+
   def asset_path(rel_path)
     puts "rel_path: #{rel_path}"
     extname = File.extname(rel_path).gsub(/\A\./, "")

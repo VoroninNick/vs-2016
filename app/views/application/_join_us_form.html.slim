@@ -24,7 +24,13 @@ form.ajax-submit.join-us-form action=join_us_request_path method="post" show-pre
           .input-container
             /= input(@join_us_form, :portfolio_attachment, type: :file)
             - portfolio_attachment_input_id = input_tag_id(@join_us_form, :portfolio_attachment)
-            input id=portfolio_attachment_input_id name=input_tag_name(@join_us_form, :portfolio_attachment)
+            .input.input-file
+              label.btn for=portfolio_attachment_input_id
+                span.btn-text
+                  = "Upload file"
+              .file-name
+                |File is not selected
+              input type="file" id=portfolio_attachment_input_id name=input_tag_name(@join_us_form, :portfolio_attachment)
           /= input(@hire_us_form, :budget_range, type: :select)
           .input-container
             = input(@join_us_form, :description, type: :text)
