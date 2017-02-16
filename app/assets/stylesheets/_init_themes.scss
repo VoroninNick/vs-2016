@@ -54,3 +54,7 @@ body.theme-arazzinni {
 body.theme-valko{
   @include theme("valko")
 }
+
+body.theme-shuvar_info{
+  @include theme("shuvar_info")
+}
