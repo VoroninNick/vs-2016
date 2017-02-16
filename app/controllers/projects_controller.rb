@@ -16,7 +16,7 @@ class ProjectsController < ApplicationController
   end
 
   def show
-
+    init_shuvar_info
     if @project
       set_page_metadata(@project)
       @theme = @project.code_name
@@ -96,6 +96,10 @@ class ProjectsController < ApplicationController
     }
 
     @project_banner[:bg_image_url] = @project.item_top_banner_bg_image.url if @project.item_top_banner_bg_image.exists?
+    #if respond_to?("init_#{@project.code_name}")
+    #  send("init_#{@project.code_name}")
+    #end
+
   end
 
   def set_navigation_links(project = @project)
@@ -139,4 +143,8 @@ class ProjectsController < ApplicationController
   end
 
   helper_method :render_partial
+
+  def init_shuvar_info
+    @project_bottom_banner = {bg_image_url: "/assets/projects/shuvar_info/Baner_bottom.jpg"}
+  end
 end
