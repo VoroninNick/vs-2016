@@ -119,5 +119,9 @@ module ApplicationHelper
       str
     end
   end
+
+  def project_asset_path(rel_path)
+    asset_path("projects/#{@project.code_name}/#{rel_path}")
+  end
 end
 

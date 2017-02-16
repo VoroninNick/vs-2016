@@ -1,4 +1,7 @@
-- section_bg = (bg_img = @project.ux_bg_image).exists? ? bg_img.url : nil
+- section_bg = defined?(bg_image) ? bg_image : nil
+- if !defined?(ux_images)
+  - ux_images = @project.ux_images
+- section_bg ||= (bg_img = @project.ux_bg_image).exists? ? bg_img.url : nil
 #ux-and-strategy.project-section.project-ux-and-strategy-section data-navigation-color="dark"
   .project-large-section-title.align-top-minus-half
     = raw t("projects.show.ux-and-strategy.large-title")
@@ -9,4 +12,5 @@
 
       = raw @project.ux_and_strategy
 
-  = render "project_images", images: @project.ux_images
+
+  = render "project_images", images: ux_images
