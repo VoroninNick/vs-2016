@@ -243,34 +243,34 @@ module RailsAdminDynamicConfig
             end
           end
 
-          group :item_top_banner_image do
-            field :item_top_banner_bg_image
-            field :item_top_banner_image
-          end
+          #group :item_top_banner_image do
+          #  field :item_top_banner_bg_image
+          #  field :item_top_banner_image
+          #end
 
-          group :item_bottom_banner_image do
-            field :item_bottom_banner_bg_image
-            field :item_bottom_banner_image
-          end
+          #group :item_bottom_banner_image do
+          #  field :item_bottom_banner_bg_image
+          #  field :item_bottom_banner_image
+          #end
 
-          group :item_home_banner do
-            field :home_banner_image
-            field :show_swing_on_home_banner
-          end
+          #group :item_home_banner do
+          #  field :home_banner_image
+          #  field :show_swing_on_home_banner
+          #end
 
-          group :project_content_images do
-            field :logo_and_ci_bg_image
-            field :logo_and_ci_images
-            field :ux_bg_image
-            field :ux_images
-            field :rwd_bg_image
-            field :rwd_images
-            field :technical_side_of_project_bg_image
-          end
+          #group :project_content_images do
+          #  field :logo_and_ci_bg_image
+          #  field :logo_and_ci_images
+          #  field :ux_bg_image
+          #  field :ux_images
+          #  field :rwd_bg_image
+          #  field :rwd_images
+          #  field :technical_side_of_project_bg_image
+          #end
 
-          group :site_preview_images do
-            field :rwd_desktop_images
-          end
+          #group :site_preview_images do
+          #  field :rwd_desktop_images
+          #end
 
           #sass_options_group
 

@@ -8,7 +8,10 @@ module AssetPathHelper
   end
 
   def asset_path(rel_path)
-    puts "rel_path: #{rel_path}"
+    if params[:controller].to_s.start_with?("rails_admin")
+      return "/assets/#{rel_path}".gsub(".js.js", ".js").gsub(".css.css", ".css")
+    end
+    #puts "rel_path: #{rel_path}"
     extname = File.extname(rel_path).gsub(/\A\./, "")
     rel_path_without_ext = rel_path.gsub(/\.[a-zA-Z0-9]+\Z/, "")
     root_path = Rails.root.join("public/assets")
@@ -22,7 +25,7 @@ module AssetPathHelper
 
     s = Dir[root_path.join(rel_path_without_ext + "-*.#{extname}")].first
     if !s
-      puts "path: #{rel_path_without_ext.inspect}; ext: #{extname.inspect}"
+      #puts "path: #{rel_path_without_ext.inspect}; ext: #{extname.inspect}"
       s = (Dir[Rails.root.join("app/assets/**/#{rel_path_without_ext}.#{extname}")].any? ? "/assets/#{rel_path}" : "/#{rel_path}" )
     end
 

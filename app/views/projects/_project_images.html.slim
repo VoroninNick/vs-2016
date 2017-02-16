@@ -1,12 +1,13 @@
 - if defined?(images) || defined?(image)
   - images = image if !defined?(images)
   - images_count = images.try(:count) || 0
+  - image_urls = images.map{|image| next image if image.is_a?(String); image.url }
   - if images_count > 1
     .full-width-image-slider.bxslider.project-bxslider
-      - slider_images = images
+      - slider_images = image_urls
       ul
-        - slider_images.each do |image|
-          img src=image.url
+        - image_urls.each do |image|
+          img src=image
       .custom-pager
         - slider_images.each_with_index do |image, i|
           a.page data-slide-index=i class=("active" if i == 0)
@@ -14,6 +15,6 @@
         .prev.icon-btn.allow-propagation
         .next.icon-btn.allow-propagation
   - elsif images_count == 1
-    - image = images.try(:first) || images
+    - image = image_urls.try(:first) || image_urls
     .full-width-image
-      img src=image.url
+      img src=image

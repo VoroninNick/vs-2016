@@ -336,4 +336,18 @@ class Project < ActiveRecord::Base
 
     v
   end
+
+  def basic_field(field_name)
+    s = I18n.t("projects.#{code_name}.#{field_name}", raise: true) rescue nil
+    if s.blank?
+      return self.translations_by_locale[I18n.locale].try(field_name)
+    end
+
+    s
+  end
+  [:project_case, :logo_and_ci, :ux_and_strategy, :responsive_web_design, :technical_side_of_project].each do |m|
+    define_method m do
+      basic_field(m)
+    end
+  end
 end

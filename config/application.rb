@@ -31,5 +31,6 @@ module Dev
 
     #I18n.load_path += Dir.glob( File.dirname(__FILE__) + "config/locales/pages/*.{rb,yml}" )
     config.i18n.load_path += Dir[Rails.root.join("config/locales/pages/*.yml").to_s]
+    config.i18n.load_path += Dir[Rails.root.join("config/locales/projects/*.yml").to_s]
   end
 end

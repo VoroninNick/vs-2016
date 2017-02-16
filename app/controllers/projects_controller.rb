@@ -134,7 +134,7 @@ class ProjectsController < ApplicationController
     if template_exists?("projects/#{@theme}/_#{name}")
       options = {partial: "projects/#{@theme}/#{name}"}.merge(options)
     elsif project_field == false || project_field.present?
-      options = {partial: name}.merge(options)
+      options = {partial: "#{name}"}.merge(options)
     else
       return ""
     end
