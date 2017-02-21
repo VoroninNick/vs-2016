@@ -112,9 +112,15 @@ body.theme-shuvar_info
         background-color: #029AE4
   #page-wrap
     .columns.xxxlarge-10.xxxlarge-centered
-      margin-top: -75px
-      +breakpoint(small only)
-        margin-top: 0
+      +breakpoint(xlarge only)
+        margin-top: -75px
+      +breakpoint(xxxlarge only)
+        .image
+          margin-top: -50px
+          left: -10%
+          position: relative
+          img
+            max-width: 125%
     .project-description-block
       sup
         color: white
