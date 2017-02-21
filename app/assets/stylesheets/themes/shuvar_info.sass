@@ -1,1 +1,122 @@
+$grey: #36464E
+$lite-grey: #253137
 body.theme-shuvar_info
+  .section-descriptive-title
+    color: white
+  .img_wrap
+    margin: auto
+    width: 75%
+  .rwd_wraper
+    position: relative
+    overflow: hidden
+    .rwd_wraper_bg
+      position: absolute
+      bottom: 0
+      width: 100%
+    .cellphones_rwd
+      position: relative
+      .img_block
+        position: relative
+        width: 80%
+        margin: auto
+        z-index: 1
+        &.top
+          margin-top: -130px
+        +breakpoint(small only)
+          &.top
+            margin-top: 0
+        .img_cellphones
+        .sub_title
+          position: absolute
+          transform: rotate(-90deg)
+          color: white
+          font-size: 18px
+          left: -45px
+          bottom: 150px
+          span
+            color: $grey
+          &.right
+      .text_align_right
+        +breakpoint(medium up)
+          text-align: right
+      .text_align_left
+        +breakpoint(medium up)
+          text-align: left
+      .text-block
+        margin: auto
+        margin-top: 50%
+        position: relative
+        &.top
+          margin-top: -130px
+        &.left
+          text-align: left
+          margin-left: 50px
+          display: inline-block
+          &:before
+            content: ""
+            height: 1px
+            display: inline-block
+            width: 155px
+            background-color: $lite-grey
+            position: absolute
+            left: -10px
+            top: 30px
+            transform: translate(-100%,0)
+        &.right
+          position: relative
+          margin-right: 50px
+          text-align: right
+          &:after
+            content: ""
+            height: 1px
+            display: inline-block
+            width: 155px
+            background-color: $lite-grey
+            position: absolute
+            right: -335px
+            top: 10px
+            transform: translate(-100%,0)
+        +breakpoint(xlarge up)
+          &.left
+            &:before
+              width: 355px
+        +breakpoint(small only)
+          &.left,&.right
+            text-align: center
+            margin: 30% auto 0
+            display: block
+            width: 100%
+            &:after,&:before
+              display: none
+      .description
+        font-size: 12px
+  .float_right
+    +breakpoint(medium up)
+      float: right !important
+  .float_left
+    +breakpoint(small only)
+      float: left !important
+  #responsive-web-design
+    .section-descriptive-title
+      color: white
+  #ux-and-strategy
+    background-color: white
+    .section-descriptive-title
+      padding-bottom: 130px
+    .with-line
+      color: #029AE4
+      &:before
+        top: 332px
+        width: 1px
+        position: absolute
+        background-color: #029AE4
+  #page-wrap
+    .columns.xxxlarge-10.xxxlarge-centered
+      margin-top: -75px
+      +breakpoint(small only)
+        margin-top: 0
+    .project-description-block
+      sup
+        color: white
+
+  

@@ -8,33 +8,37 @@ en:
         and Pahl and Beitz. At least two views of design activity are consistent with
         the Action-Centric Perspective.</p>
 
-        <p>Meanwhile, diverse kinds of objects may be designed, including clothing, graphical user
-         interfaces, skyscrapers, corporate identities, business processes and even methods of
-          designing. Thus &quot;design&quot; may be a substantive referring to a categorical
-           abstraction of a created thing or things (the design of something), or a verb for the
-            process of creation, as is made clear by grammatical context. In some cases the direct
-             construction of an object is also considered to be design.</p>
-
-        <p>With such a broad denotation, there is no universal language or unifying institution for
-         designers of all disciplines. More formally design has been defined as follows. Design is
-          the creation of a plan or convention for the construction of an object, system or
-           measurable human interaction.</p>
-
       ux_and_strategy: |
-        <p>Meanwhile, diverse kinds of objects may be designed, including clothing,
-        graphical user interfaces, skyscrapers, corporate identities, business processes and
-        even methods of designing. The Rational Model was independently developed by Simon[14]
-        and Pahl and Beitz. At least two views of design activity are consistent with
-        the Action-Centric Perspective.</p>
+        <div class='row'>
+          <div class="h2 with-line third-color">Diverse kinds of objects may be</div>
+          <div class='columns large-6'> 
+            <p>Meanwhile, diverse kinds of objects may be designed, including clothing,
+            graphical user interfaces, skyscrapers, corporate identities, business processes and
+            even methods of designing. The Rational Model was independently developed by Simon[14]
+            and Pahl and Beitz. At least two views of design activity are consistent with
+            the Action-Centric Perspective.</p>
+          </div>
 
-        <p>Meanwhile, diverse kinds of objects may be designed, including clothing, graphical user
-         interfaces, skyscrapers, corporate identities, business processes and even methods of
-          designing. Thus &quot;design&quot; may be a substantive referring to a categorical
-           abstraction of a created thing or things (the design of something), or a verb for the
-            process of creation, as is made clear by grammatical context. In some cases the direct
-             construction of an object is also considered to be design.</p>
+          <div class='columns large-6'>
+            <p>Meanwhile, diverse kinds of objects may be designed, including clothing, graphical user
+             interfaces, skyscrapers, corporate identities, business processes and even methods of
+              designing. Thus &quot;design&quot; may be a substantive referring to a categorical
+              .</p>
+          </div>
+        </div>
+      responsive_web_design: |
+        <div class='row' style="margin-top: 130px">
+          <div class='columns large-6'>
+            <div class="h2 with-line third-color">Responsive web design</div>
+            <p>Meanwhile, diverse kinds of objects may be designed, including clothing,
+            graphical user interfaces, skyscrapers, corporate identities, business processes and
+           .</p>
+          </div>
 
-        <p>With such a broad denotation, there is no universal language or unifying institution for
-         designers of all disciplines. More formally design has been defined as follows. Design is
-          the creation of a plan or convention for the construction of an object, system or
-           measurable human interaction.</p>
+          <div class='columns large-6'>
+            <p style="padding-top: 23px">Meanwhile, diverse kinds of objects may be designed, including clothing, graphical user
+             interfaces, skyscrapers, corporate identities, business processes and even methods of
+              designing. 
+              .</p>
+          </div>
+        </div>

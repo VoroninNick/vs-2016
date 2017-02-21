@@ -56,5 +56,25 @@ body.theme-valko{
 }
 
 body.theme-shuvar_info{
-  @include theme("shuvar_info")
+  @include theme("shuvar_info",
+    $body_bg: #029AE4,
+    $primary_color: #36464E,
+    $secondary_color: #ffffff,
+    $third_color: #36464E,
+    $project_large_section_title_color: rgba(0,0,0,0.1),
+    $top_banner_description_color: white,
+    $desktop_slider_background_color: #36464E,
+    // $technology_color: #01AF40,
+    // $technology_name_color: white,
+    // $technology_svg_orbit_color: rgba(#000000, 0.1),
+    $project_bottom_banner_title_color: #029AE4,
+    $project_bottom_banner_description_color: #36464E,
+    $project_bottom_banner_buttons_color: #029AE4,
+    $ux_text_color: #36464E,
+    $ux_header_color: #029AE4
+    // $seo_text_color: #303E47,
+    // $seo_header_color: #01AF40,
+    // $tech_text_color: #303E47,
+    // $tech_header_color: #01AF40
+    )
 }

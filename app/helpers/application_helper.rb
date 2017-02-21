@@ -123,5 +123,9 @@ module ApplicationHelper
   def project_asset_path(rel_path)
     asset_path("projects/#{@project.code_name}/#{rel_path}")
   end
+
+  def project_asset_paths(*rel_paths)
+    rel_paths.map{|s| project_asset_path(s) }
+  end
 end
 

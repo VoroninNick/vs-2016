@@ -4,12 +4,12 @@
   = render "project_banner", banner: {bg_image_url: project_asset_path("top_banner_bg.jpg"), image_url: project_asset_path("top_banner_image.png")}
 
   = render "project_case"
-  /= render_partial "project_logo", @project.logo_and_ci
+  = render_partial "project_logo", @project.logo_and_ci
 
   = render_partial "project_ux_and_strategy", @project.ux_and_strategy, {locals: {ux_images: [project_asset_path("ux_monitor_wireframe.png")]}}
-  /= render_partial "project_rwd", @project.responsive_web_design
-  /= render_partial "project_technical_side", @project.technical_side_of_project
-  /= render_partial "project_bottom_banner"
+  = render "projects/shuvar_info/project_rwd"
+  = render_partial "project_technical_side", @project.technical_side_of_project
+  = render_partial "project_bottom_banner"
 
 
   = render_partial "bottom_navigation", false, locals: {prev_item: @project.prev(@projects), next_item: @project.next(@projects)}

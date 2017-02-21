@@ -11,7 +11,6 @@
     .slider-outer
       .screen-image
         img src=asset_path("screen.png")
-        /img src=asset_path("projects/lits/rwd_monitor.png")
       .slider-inner
         .slider-images.screen-images-bxslider-wrap
           .screen-images-bxslider
@@ -35,6 +34,5 @@
 
   .sublarge-inner-bottom-indent class=("section-bg-image" if section_bg) style=("background-image: url('#{section_bg}');" if section_bg)
     = raw @project.responsive_web_design
-
 
   = render "project_images", images: @project.rwd_images

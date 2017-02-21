@@ -1,7 +1,8 @@
 - if defined?(images) || defined?(image)
   - images = image if !defined?(images)
   - images_count = images.try(:count) || 0
-  - image_urls = images.map{|image| next image if image.is_a?(String); image.url }
+  - image_urls = images.flatten.map{|image| next image if image.is_a?(String); next nil if !image.data.exists?; image.url }.select(&:present?)
+  - images_count = image_urls.try(:count) || 0
   - if images_count > 1
     .full-width-image-slider.bxslider.project-bxslider
       - slider_images = image_urls

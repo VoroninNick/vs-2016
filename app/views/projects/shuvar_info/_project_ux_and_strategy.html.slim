@@ -8,3 +8,9 @@
         = raw "<div class='section-descriptive-title primary-color'>#{raw t("projects.show.ux-and-strategy.title")}</div>"
 
       = raw @project.ux_and_strategy
+  .img_wrap 
+    img src=project_asset_path("monitor-wireframe.png")
+
+  = render "project_images", images: [project_asset_paths("gallery-top-1a.jpg")]
+  /div class="full-width-image"
+    img src="/system/attachable/assets/data/000/000/011/original/Plit-inspiration-picture.jpg?1474038155"
