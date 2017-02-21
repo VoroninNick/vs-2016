@@ -17,7 +17,7 @@ body.theme-shuvar_info
       position: relative
       .img_block
         position: relative
-        width: 80%
+        width: 70%
         margin: auto
         z-index: 1
         &.top
@@ -76,10 +76,19 @@ body.theme-shuvar_info
             right: -335px
             top: 10px
             transform: translate(-100%,0)
-        +breakpoint(xlarge up)
+        +breakpoint(xxlarge up)
           &.left
             &:before
               width: 355px
+              top: 36px
+          &.right
+            &:after
+              right: -430px
+              width: 200px
+          .title_cellphones
+            font-size: 36px
+          .description
+            font-size: 16px
         +breakpoint(small only)
           &.left,&.right
             text-align: center
@@ -100,7 +109,7 @@ body.theme-shuvar_info
     .section-descriptive-title
       color: white
   #ux-and-strategy
-    background-color: white
+    background-color: #EAEFF2
     .section-descriptive-title
       padding-bottom: 130px
     .with-line
@@ -108,6 +117,7 @@ body.theme-shuvar_info
       &:before
         top: 332px
         width: 1px
+        left: -11px
         position: absolute
         background-color: #029AE4
   #page-wrap
