@@ -231,7 +231,7 @@ module RailsAdminDynamicConfig
           field :code_name
           field :released_on
           field :translations, :globalize_tabs
-          field :project_technologies
+          #field :project_technologies
           field :services
           field :technologies
           group :avatars do
