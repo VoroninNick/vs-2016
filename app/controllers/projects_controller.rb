@@ -145,6 +145,6 @@ class ProjectsController < ApplicationController
   helper_method :render_partial
 
   def init_shuvar_info
-    @project_bottom_banner = {bg_image_url: "/assets/projects/shuvar_info/bottom_banner.jpg"}
+    @project_bottom_banner = {bg_image_url: "projects/shuvar_info/bottom_banner.jpg", asset_path: true}
   end
 end
