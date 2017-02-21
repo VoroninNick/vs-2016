@@ -9,36 +9,27 @@ en:
         the Action-Centric Perspective.</p>
 
       ux_and_strategy: |
-        <div class='row'>
-          <div class="h2 with-line third-color">Diverse kinds of objects may be</div>
-          <div class='columns large-6'> 
-            <p>Meanwhile, diverse kinds of objects may be designed, including clothing,
-            graphical user interfaces, skyscrapers, corporate identities, business processes and
-            even methods of designing. The Rational Model was independently developed by Simon[14]
-            and Pahl and Beitz. At least two views of design activity are consistent with
-            the Action-Centric Perspective.</p>
-          </div>
+        <div class='row'> 
+        <div class="h2 with-line third-color"style="padding-left: calc(5% + 14px);">Diverse kinds of objects may be</div>
 
-          <div class='columns large-6'>
-            <p>Meanwhile, diverse kinds of objects may be designed, including clothing, graphical user
-             interfaces, skyscrapers, corporate identities, business processes and even methods of
-              designing. Thus &quot;design&quot; may be a substantive referring to a categorical
-              .</p>
-          </div>
+        
+        <div class='columns large-12' >
+          <p style='    -webkit-column-count:2; -moz-column-count:2; column-count: 2; column-gap: 40px; -webkit-column-gap: 40px; -moz-column-gap: 40px; padding:0 5%;'>Meanwhile, diverse kinds of objects may be designed, including clothing, graphical user interfaces, skyscrapers, corporate identities, business processes and even methods of designing. The Rational Model was independently developed by Simon[14] and Pahl and Beitz. At least two views of design activity are consistent with the Action-Centric Perspective.
+
+              Meanwhile, diverse kinds of objects may be designed, including clothing, graphical user interfaces, skyscrapers, corporate identities, business processes and even methods of designing. Thus "design" may be a substantive referring to a categorical .
+          </p>
+        </div>
+
         </div>
       responsive_web_design: |
         <div class='row' style="margin-top: 130px">
-          <div class='columns large-6'>
-            <div class="h2 with-line third-color">Responsive web design</div>
-            <p>Meanwhile, diverse kinds of objects may be designed, including clothing,
-            graphical user interfaces, skyscrapers, corporate identities, business processes and
-           .</p>
-          </div>
+            <div class="h2 with-line third-color" style="padding-left: calc(5% + 14px);">Responsive web design</div>
+            
+        <div class='columns large-12' >
+          <p style='    -webkit-column-count:2; -moz-column-count:2; column-count: 2; column-gap: 40px; -webkit-column-gap: 40px; -moz-column-gap: 40px; padding:0 5%;'>Meanwhile, diverse kinds of objects may be designed, including clothing, graphical user interfaces, skyscrapers, corporate identities, business processes and even methods of designing. The Rational Model was independently developed by Simon[14] and Pahl and Beitz. At least two views of design activity are consistent with the Action-Centric Perspective.
 
-          <div class='columns large-6'>
-            <p style="padding-top: 23px">Meanwhile, diverse kinds of objects may be designed, including clothing, graphical user
-             interfaces, skyscrapers, corporate identities, business processes and even methods of
-              designing. 
-              .</p>
-          </div>
+              Meanwhile, diverse kinds of objects may be designed, including clothing, graphical user interfaces, skyscrapers, corporate identities, business processes and even methods of designing. Thus "design" may be a substantive referring to a categorical .
+          </p>
+        </div>
+          
         </div>
