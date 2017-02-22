@@ -59,3 +59,24 @@ Please feel free to use a different markup language if you do not plan to run
 * * rwd_desktop_images
 * seo
 * * seo_tags
+
+2. Customize your html markup
+* app/views/projects/show - default template
+* app/views/projects/templates/{code_name} - your custom template
+* predefined partials in app/views/projects:
+* * project_navigation - left-side navigation across project sections
+* * project_banner - project top banner
+* * project_case - project case section
+* * project_logo - project logo section
+* * project_ux_and_strategy - project ux and strategy section
+* * project_rwd - project rwd(Responsive Web Design) section
+* * project_technical_side - technical side of project section. Uses technical_side_of_project_bg_image, technical_side_of_project, technologies, seo_strategy
+* * project_bottom_banner - project bottom banner. Uses item_bottom_banner_bg_image, item_bottom_banner_image
+* * bottom_navigation - navigation between projects
+* * Your custom partials live in app/views/projects/{code_name}/{partial_name}
+
+3. customize your css:
+* app/assets/stylesheets/theming_mixins.sass.erb - mixin theme - used for styling predefined partials
+* app/assets/stylesheets/_init_themes.scss - place your theme settings here
+* app/assets/stylesheets/themes/{code_name} - place your custom css here.
+* Please keep your css selectors and sass variables inside of body.theme-{code_name}
