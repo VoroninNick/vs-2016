@@ -26,3 +26,15 @@ Things you may want to cover:
 
 Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
+
+== How to create new project
+1. Create project in admin panel
+  go to /admin/project/new
+  code name - code name of project. please write as underscored string, without spaces and uppercase letters. For example, shuvar_info
+  released_on - date project released on. Through site projects are ordered by this field
+  services - services this project related to
+  technologies - technologies this project related to
+  avatars:
+    avatar - used in projects list page and popup
+    thumb - used in prev/next navigation between projects above footer in project page
+
