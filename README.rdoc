@@ -35,6 +35,6 @@ Please feel free to use a different markup language if you do not plan to run
 *  services - services this project related to
 *  technologies - technologies this project related to
 *  avatars:
-    avatar - used in projects list page and popup
-    thumb - used in prev/next navigation between projects above footer in project page
+  * avatar - used in projects list page and popup
+  * thumb - used in prev/next navigation between projects above footer in project page
 
