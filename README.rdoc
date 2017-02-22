@@ -80,3 +80,8 @@ Please feel free to use a different markup language if you do not plan to run
 * app/assets/stylesheets/_init_themes.scss - place your theme settings here
 * app/assets/stylesheets/themes/{code_name} - place your custom css here.
 * Please keep your css selectors and sass variables inside of body.theme-{code_name}
+
+=== 4. move to production
+* git commit & git push
+* create site in admin panel. Probably just copy your localhost strings from admin
+* say to pasha to git pull
