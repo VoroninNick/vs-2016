@@ -31,10 +31,31 @@ Please feel free to use a different markup language if you do not plan to run
 1. Create project in admin panel
 *  go to /admin/project/new
 *  code name - code name of project. please write as underscored string, without spaces and uppercase letters. For example, shuvar_info
+2. Rest fields are optional
 *  released_on - date project released on. Through site projects are ordered by this field
 *  services - services this project related to
 *  technologies - technologies this project related to
 *  avatars:
 * * avatar - used in projects list page and popup
 * * thumb - used in prev/next navigation between projects above footer in project page
-
+* item_top_banner_image:
+* * item_top_banner_bg_image
+* * item_top_banner_image
+* item_bottom_banner_image
+* * item_bottom_banner_bg_image
+* * item_bottom_banner_image
+* item_home_banner
+* * home_banner_image
+* * show_swing_on_home_banner
+* project_content_images
+* * logo_and_ci_bg_image
+* * logo_and_ci_images
+* * ux_bg_image
+* * ux_images
+* * rwd_bg_image
+* * rwd_images
+* * technical_side_of_project_bg_image
+* site_preview_images
+* * rwd_desktop_images
+* seo
+* * seo_tags
