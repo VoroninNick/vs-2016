@@ -28,7 +28,7 @@ Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
 
 == How to create new project
-1. Create project in admin panel
+=== 1. Create project in admin panel
 *  go to /admin/project/new
 *  code name - code name of project. please write as underscored string, without spaces and uppercase letters. For example, shuvar_info
 2. Rest fields are optional
@@ -60,7 +60,7 @@ Please feel free to use a different markup language if you do not plan to run
 * seo
 * * seo_tags
 
-2. Customize your html markup
+=== 2. Customize your html markup
 * app/views/projects/show - default template
 * app/views/projects/templates/{code_name} - your custom template
 * predefined partials in app/views/projects:
@@ -75,7 +75,7 @@ Please feel free to use a different markup language if you do not plan to run
 * * bottom_navigation - navigation between projects
 * * Your custom partials live in app/views/projects/{code_name}/{partial_name}
 
-3. customize your css:
+=== 3. customize your css:
 * app/assets/stylesheets/theming_mixins.sass.erb - mixin theme - used for styling predefined partials
 * app/assets/stylesheets/_init_themes.scss - place your theme settings here
 * app/assets/stylesheets/themes/{code_name} - place your custom css here.
