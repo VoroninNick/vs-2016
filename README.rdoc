@@ -74,6 +74,13 @@ Please feel free to use a different markup language if you do not plan to run
 * * project_bottom_banner - project bottom banner. Uses item_bottom_banner_bg_image, item_bottom_banner_image
 * * bottom_navigation - navigation between projects
 * * Your custom partials live in app/views/projects/{code_name}/{partial_name}
+* also optionally you can customize theme variables in controller: app/controllers/projects_controller.rb
+* define your method named `init_{code_name}`. For example
+```ruby
+def init_shuvar_info
+    @project_bottom_banner = {bg_image_url: "projects/shuvar_info/bottom_banner.jpg", asset_path: true}
+end
+```
 
 === 3. customize your css:
 * app/assets/stylesheets/theming_mixins.sass.erb - mixin theme - used for styling predefined partials
@@ -81,7 +88,10 @@ Please feel free to use a different markup language if you do not plan to run
 * app/assets/stylesheets/themes/{code_name} - place your custom css here.
 * Please keep your css selectors and sass variables inside of body.theme-{code_name}
 
-=== 4. move to production
+=== 4. localization
+Your texts can live in admin panel or in config/locales/projects/{code_name}
+
+=== 5. move to production
 * git commit & git push
 * create site in admin panel. Probably just copy your localhost strings from admin
 * say to pasha to git pull
