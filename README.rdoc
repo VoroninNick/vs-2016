@@ -26,3 +26,72 @@ Things you may want to cover:
 
 Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
+
+== How to create new project
+=== 1. Create project in admin panel
+*  go to /admin/project/new
+*  code name - code name of project. please write as underscored string, without spaces and uppercase letters. For example, shuvar_info
+2. Rest fields are optional
+*  released_on - date project released on. Through site projects are ordered by this field
+*  services - services this project related to
+*  technologies - technologies this project related to
+*  avatars:
+* * avatar - used in projects list page and popup
+* * thumb - used in prev/next navigation between projects above footer in project page
+* item_top_banner_image:
+* * item_top_banner_bg_image
+* * item_top_banner_image
+* item_bottom_banner_image
+* * item_bottom_banner_bg_image
+* * item_bottom_banner_image
+* item_home_banner
+* * home_banner_image
+* * show_swing_on_home_banner
+* project_content_images
+* * logo_and_ci_bg_image
+* * logo_and_ci_images
+* * ux_bg_image
+* * ux_images
+* * rwd_bg_image
+* * rwd_images
+* * technical_side_of_project_bg_image
+* site_preview_images
+* * rwd_desktop_images
+* seo
+* * seo_tags
+
+=== 2. Customize your html markup
+* app/views/projects/show - default template
+* app/views/projects/templates/{code_name} - your custom template
+* predefined partials in app/views/projects:
+* * project_navigation - left-side navigation across project sections
+* * project_banner - project top banner
+* * project_case - project case section
+* * project_logo - project logo section
+* * project_ux_and_strategy - project ux and strategy section
+* * project_rwd - project rwd(Responsive Web Design) section
+* * project_technical_side - technical side of project section. Uses technical_side_of_project_bg_image, technical_side_of_project, technologies, seo_strategy
+* * project_bottom_banner - project bottom banner. Uses item_bottom_banner_bg_image, item_bottom_banner_image
+* * bottom_navigation - navigation between projects
+* * Your custom partials live in app/views/projects/{code_name}/{partial_name}
+* also optionally you can customize theme variables in controller: app/controllers/projects_controller.rb
+* define your method named `init_{code_name}`. For example
+
+def init_shuvar_info
+    @project_bottom_banner = {bg_image_url: "projects/shuvar_info/bottom_banner.jpg", asset_path: true}
+end
+
+
+=== 3. customize your css:
+* app/assets/stylesheets/theming_mixins.sass.erb - mixin theme - used for styling predefined partials
+* app/assets/stylesheets/_init_themes.scss - place your theme settings here
+* app/assets/stylesheets/themes/{code_name} - place your custom css here.
+* Please keep your css selectors and sass variables inside of body.theme-{code_name}
+
+=== 4. localization
+Your texts can live in admin panel or in config/locales/projects/{code_name}
+
+=== 5. move to production
+* git commit & git push
+* create site in admin panel. Probably just copy your localhost strings from admin
+* say to pasha to git pull
