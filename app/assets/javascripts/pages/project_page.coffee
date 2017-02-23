@@ -96,11 +96,31 @@ $document.on "ready page:load", ->
   $technology_container.appear()
   $technology_container.filter(":appeared").trigger("appear")
 
+
+  $('.draw-icons-container').appear()
+
 $document.on "appear", ".desktop-slider", ()->
   $(this).addClass("animate-bg")
 
-$document.on "appear", ".project-technologies", ()->
 
+animate_icon = ()->
+  $(".draw-icons-container").on "appear", ()->
+    
+    $(this).find(".svg_animate:not(.animated)").each (index)->
+      $(this).addClass('animated')
+      $block = $(this)
+      svg = $block.find('svg')
+      setTimeout(
+        ()->
+          svg.drawsvg({duration: 2000})
+          svg.drawsvg('animate')
+        index * 500
+      )
+
+animate_icon()
+
+
+$document.on "appear", ".project-technologies", ()->
   $(this).find(".technology-block").each (index)->
     $block = $(this)
 

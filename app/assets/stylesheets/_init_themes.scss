@@ -78,3 +78,28 @@ body.theme-shuvar_info{
     // $tech_header_color: #01AF40
     )
 }
+body.theme-millwood{
+  @include theme("millwood",
+    $body_bg: white,
+    $body_color: #a98f72,
+    $primary_color: #4c6e32,
+    $secondary_color: #a98f72,
+    $third_color: #a98f72,
+    $project_large_section_title_color: rgba(0,0,0,0.1),
+    $top_banner_description_color:#a98f72 ,
+    $desktop_slider_background_color: #d3b184,
+    $technology_color: #4c6e32,
+    $technology_name_color: #d8ccc2,
+    $technology_svg_orbit_color: white,
+    $project_bottom_banner_title_color: #4c6e32,
+    $project_bottom_banner_description_color: #a98f72,
+    $project_bottom_banner_buttons_color: #4c6e32,
+    // $ux_text_color: #36464E,
+    // $ux_header_color: #029AE4
+    // $seo_text_color: #303E47,
+    // $seo_header_color: #01AF40,
+    $tech_text_color: #a98f72,
+    $button_lines_color: #a98f72,
+    $tech_header_color: #4c6e32
+    )
+}

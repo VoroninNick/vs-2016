@@ -16,8 +16,9 @@ class ProjectsController < ApplicationController
   end
 
   def show
-    init_shuvar_info
     if @project
+      #init_shuvar_info
+      send("init_#{@project.code_name}") rescue nil
       set_page_metadata(@project)
       @theme = @project.code_name
       theme_template_path = "projects/templates/#{@theme}"
@@ -54,7 +55,7 @@ class ProjectsController < ApplicationController
   end
 
   def set_services
-    @services = Service.published.sort_by_sorting_position.joins(:projects).where(projects: { published: 't' })
+    @services = Service.published.sort_by_sorting_position.joins(:projects).where(projects: { published: 't' }).uniq
     #@service = @services.first
   end
 

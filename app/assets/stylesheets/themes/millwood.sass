@@ -1,0 +1,77 @@
+body.theme-millwood
+  #page-wrap
+    .columns.xxxlarge-10.xxxlarge-centered
+      +breakpoint(xlarge only)
+        margin-top: -75px
+      +breakpoint(xxxlarge only)
+        .image
+          margin-top: -50px
+          left: -10%
+          position: relative
+          img
+            max-width: 125%
+    .project-banner        
+      .project-description-block
+        .title
+          +breakpoint(xlarge only)
+            font-size: 90px
+        sup
+          color: #a98f72
+    
+
+
+
+  .project_technical
+    padding-top: 100px
+    .with-line
+      &:before
+        content: ""
+        display: block
+        left: -25px
+        background: #4d6d32
+        height: 30px
+        top: 3px
+        width: 1px
+        position: absolute
+    .icon
+      padding: 50px 0
+      svg
+        width: 50%
+  #project-logo
+    .section-descriptive-title
+      margin-top: -135px
+    .svg_logo
+      width: 100%
+      height: 100%
+      margin: 300px 0 400px
+      text-align: center
+      svg
+        width: 80%
+      +breakpoint(small only)
+        margin: 50px 0 0
+  #responsive-web-design
+    .project-large-section-title.align-top-minus-half.visible
+      margin-top: 45px
+      padding-bottom: 150px
+    .section-descriptive-title.primary-color
+      margin-top: -75px
+      padding-bottom: 150px
+      +breakpoint(small only)
+        margin-top: 0
+        padding-bottom: 0
+    .sublarge-inner-bottom-indent
+      text-align: center
+      padding-top: 200px
+      +breakpoint(small only)
+        padding-top: 0
+  #technical-side
+    padding-bottom: 100px
+    +breakpoint(small only)
+      padding-bottom: 0
+  .project-seo-strategy.large-inner-vertical-indent.fade-in
+    display: none
+  #projects-popup-button
+    //.icon-btn.popup-icon-btn.allow-propagation
+    background-color: #4d6d32 
+    &:before, &:after
+      background-color: #a98f72

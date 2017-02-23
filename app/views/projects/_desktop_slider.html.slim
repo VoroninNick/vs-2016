@@ -1,0 +1,15 @@
+.desktop-slider data-appear-top-offset="100"
+  .slider-outer
+    .screen-image
+      img src=asset_path("screen.png")
+    .slider-inner
+      .slider-images.screen-images-bxslider-wrap
+        .screen-images-bxslider
+          - @project.rwd_desktop_images.each do |image|
+            img src=image.url(:slide)
+  .custom-pager
+    - @project.rwd_desktop_images.each_with_index do |image, i|
+      a.page data-slide-index=i class=("active" if i == 0)
+  .custom-controls
+    .prev.icon-btn.allow-propagation
+    .next.icon-btn.allow-propagation

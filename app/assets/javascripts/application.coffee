@@ -32,6 +32,7 @@
 # require jquery.event.swipe/js/jquery.event.swipe
 #= require jquery-touchswipe/jquery.touchSwipe.min
 #= require custom_scroll
+#= require jquery.drawsvg.min
 
 # require jquery.nicescroll/jquery.nicescroll.min
 # require components/phone_number
@@ -72,7 +73,7 @@
 #= require maps
 
 #= require components/project-navigation
-#= require page_navigation
+# require page_navigation
 #= require home_video
 #= require home_full_video
 #= require about_video_popup
