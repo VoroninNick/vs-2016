@@ -1,26 +1,12 @@
-# ActionMailer::Base.smtp_settings = {
-#     :address              => "smtp.gmail.com",
-#     :port                 => 25, # 587
-#     #:domain               => "voroninstudio.eu",
-#     #:user_name            => "support@voroninstudio.eu",
-#     #:password             => "Studiosupport123",
-#     :user_name            => 'partido12@gmail.com',
-#     :password             => 'pasha#1991',
-#     :authentication       => "plain",
-#     :enable_starttls_auto => true # default: true
-# }
-
-
+ActionMailer::Base.config.default_url_options = {host: (ENV["#{Rails.env}.host_with_port"] || ENV["#{Rails.env}.host"])}
 
 ActionMailer::Base.smtp_settings = {
-    :address              => "smtp.gmail.com",
+    :address              => ENV["smtp_server"] || "smtp.gmail.com",
     :port                 => 25, # 587
-    :domain               => "voroninstudio.eu",
-    :user_name            => "support@voroninstudio.eu",
-    #:password             => "Studiosupport123",
-    #:user_name            => 'support@voroninstudio.eu',
-    #:password             => 'NewPashaPassword12345',
-    :password             => "VS-support#201604",
+    :domain               => ENV["smtp_gmail_domain"] || false,
+    :user_name            => ENV["smtp_gmail_user_name"],
+    :password             => ENV["smtp_gmail_password"],
     :authentication       => "plain",
-    :enable_starttls_auto => true # default: true
+    :enable_starttls_auto => true
 }
+

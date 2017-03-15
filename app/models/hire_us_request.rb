@@ -7,4 +7,7 @@ class HireUsRequest < ActiveRecord::Base
 
   enumerize :budget_range, in: [:from_12k, :from_6k_to_12k, :from_3k_to_6k, :up_to_3k]
 
+  def notify_admin
+    ApplicationMailer.new_call_request(self).deliver
+  end
 end
