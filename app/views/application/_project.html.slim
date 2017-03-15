@@ -13,7 +13,7 @@ a.block.project href=project.url class=("active" if active)
             .icon title=service.name
               = embedded_svg_from_absolute_path(service_icon_path)
       .project-number
-        = project.id
+        = project.formatted_project_number(@ordered_project_ids)
       .name
         = raw project.name
       .separator
