@@ -9,7 +9,7 @@ h4
   - v = @request.send(k)
   - next if v.blank? || (v.is_a?(Paperclip::Attachment) && !v.exists?)
   - label_text = I18n.t("forms.#{@request.class.name.underscore}.#{k}", raise: true) rescue I18n.t("forms.#{k}", raise: true) rescue k.to_s.humanize
-  - label_text = k.to_s.humanize if label_text.blank?
+  - label_text = k.to_s.humanize if label_text.blank? || label_text.is_a?(Hash)
   - label_text = k.to_s if label_text.blank?
   - label_text += ":"
   p
