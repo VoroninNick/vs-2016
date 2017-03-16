@@ -25,7 +25,8 @@ $document.on "ready page:load", ()->
 
 
 
-$document.on "submit", "form.ajax-submit", ()->
+$document.on "submit", "form.ajax-submit", (e)->
+  e.preventDefault()
   $form = $(this)
   $form.ajaxSubmit()
 

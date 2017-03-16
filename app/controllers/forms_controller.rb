@@ -7,7 +7,7 @@ class FormsController < ApplicationController
     req.session_id = session.id
     req.save
 
-    ApplicationMailer.new_hire_us_request(req).deliver_now
+    req.notify_admin
 
     data = {}
     render json: data, status: 201
