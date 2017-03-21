@@ -1,3 +1,4 @@
 require_relative 'require_libs'
 
 RailsAdminDynamicConfig.configure_rails_admin
+
