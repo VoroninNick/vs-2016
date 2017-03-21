@@ -103,3 +103,28 @@ body.theme-millwood{
     $tech_header_color: #4c6e32
     )
 }
+body.theme-yantalia{
+  @include theme("yantalia",
+    $body_bg: #ffe328,
+    $body_color: #a63f22,
+    $primary_color: #f44400,
+    $secondary_color: #a63f22,
+    $third_color: #a98f72,
+    $project_large_section_title_color: rgba(0,0,0,0.1),
+    $top_banner_description_color: #9a281c ,
+    //$desktop_slider_background_color: #d3b184,
+    //$technology_color: #4c6e32,
+    //$technology_name_color: #d8ccc2,
+    //$technology_svg_orbit_color: white,
+    $project_bottom_banner_title_color: #f44500,
+    $project_bottom_banner_description_color: #aa3e1f,
+    $project_bottom_banner_buttons_color: #f44601,
+    // $ux_text_color: #36464E,
+    // $ux_header_color: #029AE4
+    // $seo_text_color: #303E47,
+    // $seo_header_color: #01AF40,
+    $tech_text_color: #fa9d19,
+    $button_lines_color: #ac4a20,
+    $tech_header_color: #f44400
+    )
+}

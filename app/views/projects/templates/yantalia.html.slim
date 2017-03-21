@@ -1,0 +1,13 @@
+
+= render "project_navigation"
+.project-content
+  = render "project_banner"
+
+  = render "project_case" if @project.project_case.present?
+  = render_partial "project_logo", @project.logo_and_ci
+  = render_partial "project_packaging"
+  = render "projects/yantalia/full_screen_photo"
+  = render_partial "project_bottom_banner"
+
+
+  = render_partial "bottom_navigation", false, locals: {prev_item: @project.prev(@projects), next_item: @project.next(@projects)}

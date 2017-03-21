@@ -84,7 +84,7 @@ gem 'devise'
 
 gem 'acts-as-taggable-on'
 
-gem 'inky-rails', github: "pkorenev/inky-rails", branch: "slim-handler"
+#gem 'inky-rails', github: "pkorenev/inky-rails", branch: "slim-handler"
 
 gem 'roadie-rails'
 

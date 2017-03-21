@@ -1,0 +1,24 @@
+- if !defined?(section_bg)
+  - section_bg = nil
+#project-logo.project-section.project-packaging-section.white-bg data-navigation-color="dark" class=("section-bg-image" if section_bg) style=("background-image: url('#{section_bg}');" if section_bg)
+
+  .project-large-section-title.align-top-minus-half.packaging.visible
+    |Label
+  .row.sublarge-inner-top-indent.project-large-section
+    .columns.large-10.large-centered
+      .row
+        .columns.large-12.project-section-content-column.packaging
+          = raw "<div class='section-descriptive-title dark'>Packaging</div>"
+
+  .pacaging_wrap 
+    .pacaging_bgc style="background-image: url(#{asset_path('projects/yantalia/yantaliya_toning.jpg')})"
+    .pacaging_content 
+      .row
+        .columns.large-5.large-push-1
+          .h2.with-line.third-color ADDRESSING THE UNIQUE NEEDS OF A LOYAL COMMUNITY
+          p for information only, and even perform an additional function - they are carriers of the brand. That is a souvenir that emphasizes the business style of the 
+        .columns.large-5
+          .img 
+            img src=asset_path("projects/yantalia/yantaliya.png")
+    .img_fullscreen
+      img src=asset_path("projects/yantalia/Yantaliya-bottles-v1-1.png")
