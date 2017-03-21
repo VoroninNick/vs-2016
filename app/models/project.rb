@@ -350,4 +350,18 @@ class Project < ActiveRecord::Base
       basic_field(m)
     end
   end
+
+  def self.ordered_project_ids
+    Project.published.sort_by_sorting_position.pluck(:id).reverse
+  end
+
+  def project_number(ids = nil)
+    ids = self.class.ordered_project_ids if ids.nil?
+    number = ids.map.with_index{|id, i| next nil if id != self.id; i + 1  }.select(&:present?).first
+  end
+
+  def formatted_project_number(ids = nil)
+    n = project_number(ids)
+    n >= 10 ? n.to_s : "0" + n.to_s
+  end
 end

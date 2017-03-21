@@ -35,3 +35,7 @@ asset "jquery.event.move"
 asset "jquery-mobile"
 
 asset "jquery-touchswipe"
+
+asset "jquery-form"
+
+asset "jquery.maskedinput"

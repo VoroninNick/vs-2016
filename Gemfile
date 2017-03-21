@@ -117,3 +117,5 @@ gem 'sprockets-image_compressor'
 gem 'figaro'
 
 gem 'ace-rails-ap'
+
+gem 'paperclip-tinify'

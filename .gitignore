@@ -27,3 +27,5 @@
 /db/schema.rb
 /Gemfile.lock
 /config/application.yml
+db/data.yml
+.sass-cache

@@ -3,7 +3,9 @@
 
 .input-container
   position: relative
-  .bar
+.input
+  &:before
+    content: ''
     position: absolute
     left: 0
     right: 0
@@ -12,22 +14,26 @@
     display: block
     width: 100%
     background: $input-border-color
-    &:before
-      content: ''
-      height: 1px
-      width: 0
-      bottom: 0
-      position: absolute
-      background: $pink-color
-      transition: all 0.2s ease-in-out
-      left: 0
+  &:after
+    content: ''
+    height: 1px
+    width: 0
+    bottom: 12px
+    position: absolute
+    background: $pink-color
+    transition: all 0.2s ease-in-out
+    left: 0
+
+  &.input-file
+    &:before, &:after
+      display: none
 
 .input
   height: 50px
   margin-bottom: 22px
   position: relative
 
-  input[type=text], input[type=number], input[type=tel], textarea
+  input[type=text], input[type=number], input[type=tel], input[type=email], textarea
     outline: none
     width: 100%
     color: $input-text-color
@@ -40,7 +46,7 @@
 
 
   input
-    &[type=text], &[type=number], &[type=tel]
+    &[type=text], &[type=number], &[type=tel], &[type=email]
       background: none
       border: none
 
@@ -50,6 +56,15 @@
     top: -5px
     +transition-duration(0.2s)
     +transition-property(all)
+
+  &.invalid
+    &:after
+      background: red
+      width: 100%
+      height: 2px
+
+    .placeholder
+      color: red
 
   &.required
     .placeholder
@@ -62,16 +77,21 @@
 
 
   &.focus, &.not-empty, &.select
-    &:not(.text)
+    &:not(.input-text)
       .placeholder
         +font-12
         top: -20px
-    & ~ .bar
-      &:before
-        width: 100%
-        height: 2px
+  &.focus, &.not-empty
+    &:after
+      width: 100%
+      height: 2px
 
-  &.text
+  &.input-text
+    height: auto
+
+    &:before, &:after
+      display: none
+
     .placeholder
       top: -46px
 
@@ -91,7 +111,7 @@
     &:focus
       border-color: $focus-input-border-color
 
-  &.text
+  &.input-text
     .placeholder
       height: 47px
       display: block
@@ -185,7 +205,6 @@
 .success-message
   display: none
 
-
 //.contact-form
   background: white
   +box-shadow-normal
@@ -213,8 +232,8 @@
 
 .input-file
   input
-    //display: none
-    opacity: 0
+    display: none
+    //opacity: 0
 
   .file-name
     width: 200px

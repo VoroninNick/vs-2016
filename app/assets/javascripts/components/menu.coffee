@@ -105,6 +105,11 @@ window.toggle_menu = (menu_key = 'menu', abstract_css_class = "" )->
 
   return opened
 
+window.open_contact_form_success_popup = ()->
+  open_menu('contact-form-success-popup')
+
+window.close_contact_form_success_popup = ()->
+  close_menu('contact-form-success-popup')
 
 $document.on "click", "#main-menu-button", ()->
   opened = toggle_menu()

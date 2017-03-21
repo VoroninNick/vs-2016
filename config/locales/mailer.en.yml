@@ -1,0 +1,7 @@
+en:
+  mailer:
+    hire_us_request:
+      title: "New Hire Us Request"
+    join_us_request:
+      title: "New Join Us Request"
+    link_to_request_in_admin: "View request in admin panel"

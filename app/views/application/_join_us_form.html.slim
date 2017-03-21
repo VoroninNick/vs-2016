@@ -3,15 +3,9 @@ form.ajax-submit.join-us-form action=join_us_request_path method="post" show-pre
     .inputs
       .row
         .columns.large-6
-          .input-container
-            = input(@join_us_form, :name, required: true)
-            span.bar
-          .input-container
-            = input(@join_us_form, :phone, required: true)
-            span.bar
-          .input-container
-            = input(@join_us_form, :email, required: true)
-            span.bar
+          = input(@join_us_form, :name, required: true)
+          = input(@join_us_form, :phone, required: true, type: "phone")
+          = input(@join_us_form, :email, required: true, type: "email")
 
 
           .input.select
@@ -21,20 +15,20 @@ form.ajax-submit.join-us-form action=join_us_request_path method="post" show-pre
                 option value=value selected=("selected" if i == 0)
                   = t("forms.#{@join_us_form.class.name.underscore}.desired_vacancy.options.#{value}", raise: true) rescue value
         .columns.large-6
-          .input-container
-            /= input(@join_us_form, :portfolio_attachment, type: :file)
+
+          /= input(@join_us_form, :portfolio_attachment, type: :file)
+
+          .input.input-file
             - portfolio_attachment_input_id = input_tag_id(@join_us_form, :portfolio_attachment)
-            .input.input-file
-              label.btn for=portfolio_attachment_input_id
-                span.btn-text
-                  = "Upload file"
-              .file-name
-                |File is not selected
-              input type="file" id=portfolio_attachment_input_id name=input_tag_name(@join_us_form, :portfolio_attachment)
+            label.btn for=portfolio_attachment_input_id
+              span.btn-text
+                = "Upload file"
+            .file-name
+              |File is not selected
+            input type="file" id=portfolio_attachment_input_id name=input_tag_name(@join_us_form, :portfolio_attachment)
           /= input(@hire_us_form, :budget_range, type: :select)
-          .input-container
-            = input(@join_us_form, :description, type: :text)
-            span.bar
+
+          = input(@join_us_form, :description, type: :text)
 
 
 
@@ -47,7 +41,7 @@ form.ajax-submit.join-us-form action=join_us_request_path method="post" show-pre
         .columns.large-12
           button.btn type="submit"
             span.btn-text
-              = t("forms.actions.hire-us")
+              = t("forms.actions.join-us")
 
   .success-message
     .title

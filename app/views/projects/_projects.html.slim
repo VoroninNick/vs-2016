@@ -3,4 +3,5 @@
     = @projects.count
   .row.portfolio-projects
     - @projects.each do |project|
+      -
       = render "project", project: project, avatar_style: :projects_list

@@ -2,7 +2,7 @@ class JoinUsRequest < ActiveRecord::Base
   attr_accessible *attribute_names
 
   #has_attached_file :portfolio_attachment
-  image :portfolio_attachment
+  pdf :portfolio_attachment
 
   include Enumerize
   enumerize :desired_vacancy,

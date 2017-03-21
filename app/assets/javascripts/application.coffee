@@ -1,6 +1,10 @@
 #= require console_history
 #= require functions
 #= require coffee_functions
+#= require functions/math
+#= require vendor/js_string
+#= require vendor/js_array
+#= require vendor/js_hash
 #= require jquery/dist/jquery.min.js
 #= require jquery_ujs
 #= require jquery_functions
@@ -33,6 +37,8 @@
 #= require jquery-touchswipe/jquery.touchSwipe.min
 #= require custom_scroll
 #= require jquery.drawsvg.min
+#= require jquery.maskedinput/dist/jquery.maskedinput.min
+#= require jquery-form/dist/jquery.form.min
 
 # require jquery.nicescroll/jquery.nicescroll.min
 # require components/phone_number
@@ -42,6 +48,9 @@
 
 #= require components/header
 #= require components/menu
+
+#= require forms/file_input
+#= require forms/validation
 #= require forms
 #= require components/tabs
 #= require components/button

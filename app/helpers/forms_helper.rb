@@ -23,6 +23,9 @@ module FormsHelper
     type = type.to_s
     if type == 'string'
       input_tag_type = "text"
+    elsif type == "phone" || type == "tel"
+      type = "phone"
+      input_tag_type = "tel"
     elsif type.in?(%w(tel email file))
       input_tag_type = type
     end
@@ -36,8 +39,17 @@ module FormsHelper
       input_tag_str = "<textarea id='#{input_tag__id}' name='#{input_tag_name}' ></textarea>"
     end
 
+    validation_defaults = {
+        required: required,
+        email: type == "email"
+    }
 
-    "<div class='input #{type} #{'required' if required} '>#{placeholder_str}#{input_tag_str} </div>".html_safe
+    validation = validation_defaults.merge(options[:validation] || {})
+    validation_str = "validation='#{validation.to_json}'"
+
+
+
+    "<div #{validation_str} class='input input-#{type} #{'required' if required} '>#{placeholder_str}#{input_tag_str} </div>".html_safe
   end
 
   def placeholder(resource, attr, options = {})
