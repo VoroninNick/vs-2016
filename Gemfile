@@ -76,7 +76,7 @@ gem 'rails_admin_nestable'
 gem 'puma'
 gem 'quiet_assets'
 
-gem 'ckeditor'
+gem 'ckeditor', '4.1.6'
 
 gem 'enumerize'
 
