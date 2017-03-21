@@ -32,6 +32,8 @@ body.theme-yantalia
       .img 
         width: 70%
         position: relative
+        +breakpoint(small only)
+          margin: auto
 
   #project-case
     .h2.with-line
@@ -54,6 +56,8 @@ body.theme-yantalia
     position: relative  
     top: 120px
     z-index: 10 
+    +breakpoint(medium down)
+      top: 200px
   .project-logo-section
     text-align: center
     background-color: white
@@ -69,6 +73,8 @@ body.theme-yantalia
     +breakpoint(xlarge only)
       img
         width: 65%
+    +breakpoint(small only)
+      padding: 70px 0 0
       
   .logo1
     text-align: center
@@ -87,3 +93,7 @@ body.theme-yantalia
     +breakpoint(xlarge only)
       img
         width: 70%  
+    +breakpoint(small only)
+      padding-top: 100px
+      img
+        width: 100%
