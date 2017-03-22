@@ -1,0 +1,72 @@
+- section_bg = (bg_img = @project.logo_and_ci_bg_image).exists? ? bg_img.url : nil
+
+#project-logo.project-section.project-logo-section.white-bg data-navigation-color="dark" class=("section-bg-image" if section_bg) style=("background-image: url('#{section_bg}');" if section_bg)
+  .project-large-section-title.align-top-minus-half
+    |Logo
+  .row.sublarge-inner-top-indent.project-large-section
+    .columns.large-10.large-centered
+      .row
+        .columns.large-12.project-section-content-column
+          = raw "<div class='section-descriptive-title dark'>Logotype & ci</div>"
+  .row
+    .columns.large-10.large-centered
+      .row.logo_text
+        .medium-6.columns
+          .left_part
+            .h2.with-line idea
+            p The most unusual thing aesthetically about the band is that it doesn’t greet you with a bright glowing screen.
+            .img_conteiner
+              img src=project_asset_path("budapest-logo-elements-old-bg-v1-1.jpg")
+        .medium-6.columns
+          .right_part
+            .h2.with-line simbol
+            p The most unusual thing aesthetically about the band is that it doesn’t greet you with a bright glowing screen.
+            .img_conteiner
+              = inline_svg "projects/budapest/budapest-logo-elements-new-bg-v1-1.svg"
+      .row.logo_text
+        .medium-6.columns
+          .left_part
+            .h2.with-line Structure
+            p The most unusual thing aesthetically about the band is that it doesn’t greet you with a bright glowing screen.
+            .img_conteiner
+              img src=project_asset_path("budapect-logo.jpg")
+        .medium-6.columns
+          .right_part
+            .h2.with-line Final logo
+            p The most unusual thing aesthetically about the band is that it doesn’t greet you with a bright glowing screen.
+            .img_conteiner
+              img src=project_asset_path("budapect-logo2.jpg")
+      .row.logo_text
+        .small-12.columns
+          .h2.with-line colors
+          .text The most unusual thing aesthetically about the band is that it doesn’t greet you with a bright glowing screen.
+        .row
+          .medium-6.columns
+            .left_part
+              .img_conteiner
+                = inline_svg "projects/budapest/budapest-logo-elements-color1-bg-v1-1.svg"
+          .medium-6.columns
+            .right_part
+              .img_conteiner
+                = inline_svg "projects/budapest/budapest-logo-elements-color2-bg-v1-1.svg"
+  .typography_box
+    .typography_bg style="background-image: url(#{asset_path('projects/budapest/budapest-toning-bg.jpg')})"
+    .row
+      .columns.large-10.large-centered
+        .row.logo_text
+          .small-12.columns
+            .h2.with-line Typography
+            .text The most unusual thing aesthetically about the band is that it doesn’t greet you with a bright glowing screen.
+          .row
+            .medium-6.columns
+              .left_part
+                .img_box
+                  img src=project_asset_path("budapest-logo-elements-typo1-bg-v1-1.png")
+                .img_box
+                  img src=project_asset_path("budapest-logo-elements-typo2-bg-v1-1.png")
+            .medium-6.columns
+              .right_part
+                .img_box
+                  img src=project_asset_path("budapest-logo-elements-typo3-bg-v1-1.png")
+                .img_box
+                  img src=project_asset_path("budapest-logo-elements-typo4-bg-v1-1.png")
