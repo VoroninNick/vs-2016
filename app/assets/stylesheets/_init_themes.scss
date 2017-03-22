@@ -128,3 +128,28 @@ body.theme-yantalia{
     $tech_header_color: #f44400
     )
 }
+body.theme-budapest{
+  @include theme("budapest",
+    $body_bg: #653a2a,
+    $body_color: #bd955a,
+    $primary_color: #bd955a,
+    $secondary_color: #bd955a,
+    $third_color: #c29c63,
+    $project_large_section_title_color: rgba(0,0,0,0.1),
+    $top_banner_description_color: #bd955a ,
+    $desktop_slider_background_color: #bc9458,
+    $technology_color: #bc9458,
+    $technology_name_color: #bc9458,
+    $technology_svg_orbit_color: #bc9458,
+    $project_bottom_banner_title_color: #65392b,
+    $project_bottom_banner_description_color: #65392b,
+    $project_bottom_banner_buttons_color: #65392b,
+    // $ux_text_color: #36464E,
+    // $ux_header_color: #029AE4
+    // $seo_text_color: #303E47,
+    // $seo_header_color: #01AF40,
+    $tech_text_color: #b18952,
+    $button_lines_color: #b18952,
+    $tech_header_color: #b18952
+    )
+}

@@ -1,0 +1,88 @@
+$brown: #653a2a
+$light-brown: #b28a53
+body.theme-budapest
+  #page-wrap
+    .columns.xxxlarge-10.xxxlarge-centered
+      +breakpoint(xlarge only)
+        margin-top: -75px
+      +breakpoint(xxxlarge only)
+        .image
+          margin-top: -50px
+          left: -10%
+          position: relative
+          img
+            max-width: 125%
+  #project-logo.project-section.project-logo-section
+    .logo_text
+      padding-top: 50px
+      position: relative
+      .h2.with-line
+        color: $brown
+        &:before
+          background-color: $brown
+      .text
+        width: 50%
+        +breakpoint(small only)
+          width: 100%
+      .img_conteiner
+        width: 80%
+        padding-top: 20px
+        +breakpoint(small only)
+          width: 100%
+      .svg_conteiner
+    .typography_box
+      position: relative
+      .typography_bg
+        position: absolute
+        width: 100%
+        height: 100%
+        left: 0
+        bottom: 0
+        background-size: cover
+        background-position: center
+  #project-case
+    .project-large-section
+      padding-bottom: 0
+    .h2.with-line
+      &:before
+        background-color: $light-brown
+  #ux-and-strategy
+    background-image: image_url('projects/budapest/budapest-pattern-v1a.png')
+    .project-large-section-title.align-top-minus-half.visible
+      display: none
+    .bottom-inner-indent
+      display: none
+    .custom-pager
+      a.page
+        &:before
+          background-color: white
+  #project-logo
+    .section-descriptive-title.dark.visible.textillated
+      span
+        color: $brown
+  #responsive-web-design
+    background-image: image_url('projects/budapest/budapest-pattern-v1a.png')
+    .custom-pager
+      a.page
+        &:before
+          background-color: $light-brown
+  #technical-side
+    background-image: image_url('projects/budapest/budapest-pattern-v1a.png')
+    padding-bottom: 100px
+  .project_technical
+    background-image: image_url('projects/budapest/budapest-pattern-v1a.png')
+    padding-top: 100px
+    .h2.with-line 
+      color: $light-brown
+      &:before
+        background-color: $light-brown
+    .draw-img-container
+      text-align: center
+      .img 
+        padding: 50px 0
+        img
+          width: 100%
+  .project-seo-strategy.large-inner-vertical-indent.fade-in.visible
+    display: none
+  
+
