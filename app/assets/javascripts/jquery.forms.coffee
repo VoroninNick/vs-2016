@@ -108,6 +108,7 @@ $("body").on "submit", "form.ajax-submit", (event)->
   options.show_preloader = $form.hasAttribute("show-preloader")
 
   return if !$form.validate()
+  return
 
   if options.show_preloader
     $form_content = $form.find(".content")

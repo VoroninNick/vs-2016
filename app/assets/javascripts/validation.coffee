@@ -156,12 +156,9 @@ window.validate_input = (update_dom = false)->
 
 
 window.validate_inputs = (update_dom = false, handler)->
-
   all_valid = true
   $(this).each(
     ()->
-#console.log "validate"
-#alert("validate_inputs: #{$(this).attr('data-key')}")
       if all_valid != false || update_dom
 
         valid = validate_input.call(this, update_dom, handler)
@@ -171,8 +168,6 @@ window.validate_inputs = (update_dom = false, handler)->
 
       else if valid == "ajax"
         all_valid = "ajax"
-      #else
-      #  return false
 
       true
   )

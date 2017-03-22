@@ -28,7 +28,11 @@ $document.on "ready page:load", ()->
 $document.on "submit", "form.ajax-submit", (e)->
   e.preventDefault()
   $form = $(this)
+  $form_inputs = $form.find(".input")
+  return if !validate_inputs.call($form_inputs, true)
+
   $form.ajaxSubmit()
+
 
 
 $document.on "ready page:load", ()->
@@ -86,7 +90,7 @@ basic_form_submit_handler = (e, options = {})->
   if options.handler
     handler.call(this, e, valid)
 
-$document.on "submit", ".contact-form, .order-popup form", basic_form_submit_handler
+#$document.on "submit", ".contact-form, .order-popup form", basic_form_submit_handler
 ###
 $document.on "submit", ".order-popup form", (e)->
   basic_form_submit_handler(e,
@@ -95,6 +99,8 @@ $document.on "submit", ".order-popup form", (e)->
         $(this).closest(".order-popup").addClass("send")
   )
 ###
+
+
 
 clear_form = ()->
   $form = $(this)
