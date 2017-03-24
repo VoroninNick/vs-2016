@@ -105,6 +105,39 @@ window.toggle_menu = (menu_key = 'menu', abstract_css_class = "" )->
 
   return opened
 
+$document.on "click", ".btn-hire-us", (e)->
+  e.preventDefault()
+  open_menu("hire-us-form-popup")
+
+$document.on "click", ".btn-join-us", (e)->
+  e.preventDefault()
+  open_menu("join-us-form-popup")
+
+$document.on "click", ".form-link", (e)->
+  e.preventDefault()
+
+  scroll_top = store_scroll_top()
+
+  opened_join_us = !$(this).hasClass("join-us-link")
+
+  if opened_join_us
+    open_popup_key = "hire-us-form-popup"
+    close_popup_key = "join-us-form-popup"
+  else
+    open_popup_key = "join-us-form-popup"
+    close_popup_key = "hire-us-form-popup"
+  $("body").changeClasses(["has-opened-#{open_popup_key}"], ["has-opened-#{close_popup_key}"])
+  $("#page-wrap").scrollTop(scroll_top)
+
+
+$document.on "click", "body.has-opened-hire-us-form-popup .forms-popup .btn-close", (e)->
+  e.preventDefault()
+  close_menu("hire-us-form-popup")
+
+$document.on "click", "body.has-opened-join-us-form-popup .forms-popup .btn-close", (e)->
+  e.preventDefault()
+  close_menu("join-us-form-popup")
+
 window.open_contact_form_success_popup = ()->
   open_menu('contact-form-success-popup')
 
@@ -113,10 +146,7 @@ window.close_contact_form_success_popup = ()->
 
 $document.on "click", "#main-menu-button", ()->
   opened = toggle_menu()
-  ###
-  if !opened
-    init_menu_footer()
-  ###
+
 
 
 ###

@@ -31,7 +31,14 @@ $document.on "submit", "form.ajax-submit", (e)->
   $form_inputs = $form.find(".input")
   return if !validate_inputs.call($form_inputs, true)
 
-  $form.ajaxSubmit()
+  $form.changeClasses(["sending"], ["sent-success", "sent-error"])
+
+  $form.ajaxSubmit({
+    success: ()->
+      $form.changeClasses(["sent-success"], ["sending"])
+    error: ()->
+      $form.changeClasses(["sent-error"], ["sending"])
+  })
 
 
 

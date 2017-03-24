@@ -28,6 +28,7 @@ class ApplicationController < ActionController::Base
 
   before_action :set_locale, unless: :admin_panel?
   before_action :set_popup_projects
+  before_action :set_forms_popups
 
   # if Rails.env.development?
   #   before_action :reload_translations
@@ -75,5 +76,10 @@ class ApplicationController < ActionController::Base
   def set_popup_projects
     @popup_projects = Project.published.includes(translations: [], services: [:translations]).sort_by_sorting_position
     @ordered_project_ids = Project.ordered_project_ids
+  end
+
+  def set_forms_popups
+    @hire_us_form = HireUsRequest.new
+    @join_us_form = JoinUsRequest.new
   end
 end

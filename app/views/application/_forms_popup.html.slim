@@ -1,0 +1,20 @@
+.popup.forms-popup.fullscreen-popup
+  .btn-close
+    .btn-close-inner
+      .btn-close-lines
+  .frame
+  .inner
+    .popup-content
+      .form-section
+        .row
+          .columns
+            .hire-us-form
+              .form-intro
+                = raw t("components.popups.hire-us.intro")
+              form.ajax-submit.hire-us-form action=hire_us_request_path method="post" show-preloader=""
+                = render "hire_us_form_content"
+            .join-us-form
+              .form-intro
+                = raw t("components.popups.join-us.intro")
+              form.ajax-submit.join-us-form action=join_us_request_path method="post" show-preloader=""
+                = render "join_us_form_content"

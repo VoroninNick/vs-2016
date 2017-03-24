@@ -1,0 +1,65 @@
+.forms-popup
+  +full-screen-popup($dark-white-color, $zindex-forms-popup)
+
+  .btn-close
+    width: 40px
+    height: 40px
+    padding: 8px
+    position: absolute
+    right: 65px
+    top: 65px
+    cursor: pointer
+    z-index: 2
+
+  .btn-close-inner
+    position: relative
+    top: 4px
+    left: -3px
+  .btn-close-lines
+    +burger($height: 3px, $color: $pink-color)
+    +burger-to-cross()
+
+  .form-link
+    color: $pink-color
+
+  .frame
+    +full-screen-popup-border($blue-color)
+
+  .inner
+    position: relative
+    overflow: hidden
+    min-height: calc(100vh - 32px)
+
+  .popup-content
+    z-index: 1
+    +flex(1)
+    //text-align: center
+    position: relative
+    width: calc(100vw - 33px)
+    min-height: calc(100vh - 32px)
+    left: 0
+    top: 0
+    padding: 160px 0 0 0
+
+  .form-intro
+    .header
+      text-transform: none
+      +font-60
+      margin: 0
+
+    .sub-header
+      color: $blue-color
+      text-transform: none
+      +normal
+      +font-18
+      margin: 0
+
+  .hire-us-form, .join-us-form
+    display: none
+body.has-opened-hire-us-form-popup
+  .forms-popup, .hire-us-form
+    display: block
+body.has-opened-join-us-form-popup
+  .forms-popup, .join-us-form
+    display: block
+

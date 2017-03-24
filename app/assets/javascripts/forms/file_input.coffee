@@ -14,7 +14,7 @@ $document.on "change", "input[type=file]", ()->
     ext = null
 
   valid_format = ext && valid_formats.includes(ext)
-  alert("valid_format: #{valid_format}")
+  console.log("valid_format: #{valid_format}")
 
   if !valid_format
     $input.val("")

@@ -88,7 +88,7 @@ $(".page-section").on "move", (e)->
 
 window.check_if_default_scroll_swipe = ()->
   $body = $("body")
-  scroll_locked = $body.hasClass("has-opened-projects-popup") || $body.hasClass("has-opened-menu")
+  scroll_locked = $body.hasClass("has-opened-projects-popup") || $body.hasClass("has-opened-menu") || $body.hasClass("has-opened-hire-us-form-popup") || $body.hasClass("has-opened-join-us-form-popup")
   $(".full-page-container").length == 0 || (full_page_breakpoint || window.innerWidth < full_page_breakpoint) || scroll_locked
 
 

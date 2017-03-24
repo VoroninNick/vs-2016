@@ -1,0 +1,31 @@
+.content
+  .inputs
+    .row
+      .columns.large-6
+        = input(@hire_us_form, :name, required: true)
+        = input(@hire_us_form, :organization_name)
+        = input(@hire_us_form, :phone, required: true, type: "phone")
+        = input(@hire_us_form, :email, required: true, type: "email")
+
+      .columns.large-6
+        .input.select
+          = placeholder(@hire_us_form, :budget_range)
+          select id=input_tag_id(@hire_us_form, :budget_range) name=input_tag_name(@hire_us_form, :budget_range)
+            - @hire_us_form.class.budget_range.values.each_with_index do |value, i|
+              option value=value selected=("selected" if i == 0)
+                = t("forms.#{@hire_us_form.class.name.underscore}.budget_range.options.#{value}", raise: true) rescue value
+        = input(@hire_us_form, :description, type: :text)
+
+
+
+
+
+  .actions
+    .row
+      .columns.large-6
+        a.form-link.join-us-link href="#"
+          = t("components.popups.hire-us.join-us-link")
+      .columns.large-6.text-right
+        button.btn type="submit"
+          span.btn-text
+            = t("forms.actions.hire-us")

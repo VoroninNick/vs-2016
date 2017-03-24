@@ -3,7 +3,7 @@ h3
   |VoroninStudio team
 h4
   = @email_title
-- keys = [:name, :organization_name, :phone, :email, :budget_range, :description]
+- keys = [:name, :organization_name, :phone, :email, :budget_range, :description, :portfolio_attachment]
 - keys.each do |k|
   - next if !@request.respond_to?(k)
   - v = @request.send(k)

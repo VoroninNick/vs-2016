@@ -7,7 +7,8 @@
 #= require vendor/js_hash
 #= require jquery/dist/jquery.min.js
 #= require jquery_ujs
-#= require jquery_functions
+# require jquery_functions
+#= require vendor/jquery_change_classes
 #= require turbolinks
 #= require global
 #= require images.js.erb

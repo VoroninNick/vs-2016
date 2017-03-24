@@ -1,28 +1,39 @@
 $menu-bg-color: $black-color
-.fullscreen-menu
-  background: $menu-bg-color
+= full-screen-popup($bg: $menu-bg-color, $zindex: $zindex-fullscreen-menu)
+  background: $bg
   min-height: 100vh
   height: auto
   padding: 16px
   display: none
   position: absolute
   width: 100%
-  z-index: $zindex-fullscreen-menu
+  z-index: $zindex
+
+= full-screen-popup-border($color: $violet-color)
+  position: absolute
+  top: 18px
+  left: 18px
+  right: 18px
+  bottom: 18px
+  border: 2px solid $color
+  @media #{$small-only}
+    top: 10px
+    left: 10px
+    right: 10px
+    bottom: 10px
+
+= full-screen-popup-inner
+  position: relative
+  overflow: hidden
+  min-height: calc(100vh - 32px)
+
+.fullscreen-menu
+  +full-screen-popup
 
 
   // all borders
   .frame
-    position: absolute
-    top: 18px
-    left: 18px
-    right: 18px
-    bottom: 18px
-    border: 2px solid $violet-color
-    @media #{$small-only}
-      top: 10px
-      left: 10px
-      right: 10px
-      bottom: 10px
+    +full-screen-popup-border
 
   .top-border, .bottom-border
     background: $menu-bg-color
@@ -60,9 +71,7 @@ $menu-bg-color: $black-color
       bottom: 16px
 
   .inner
-    position: relative
-    overflow: hidden
-    min-height: calc(100vh - 32px)
+    +full-screen-popup-inner
 
 #main-menu-footer
   height: 150px
@@ -117,11 +126,7 @@ $menu-bg-color: $black-color
   left: 0
   top: 0
   @media #{$small-only}
-    display: -webkit-flex
-    display: -moz-flex
-    display: -ms-flex
-    display: -o-flex
-    display: flex
+    +flexbox
     flex-direction: column
     justify-content: center
   .menu-list
@@ -253,7 +258,7 @@ $menu-bg-color: $black-color
 
 
 
-body.has-opened-menu
+body.has-opened-menu, body.has-opened-hire-us-form-popup, body.has-opened-join-us-form-popup
   overflow-y: auto !important
   overflow-x: hidden !important
 

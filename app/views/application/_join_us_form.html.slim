@@ -1,48 +1,5 @@
 form.ajax-submit.join-us-form action=join_us_request_path method="post" show-preloader=""
-  .content
-    .inputs
-      .row
-        .columns.large-6
-          = input(@join_us_form, :name, required: true)
-          = input(@join_us_form, :phone, required: true, type: "phone")
-          = input(@join_us_form, :email, required: true, type: "email")
-
-
-          .input.select
-            = placeholder(@join_us_form, :desired_vacancy)
-            select id=input_tag_id(@join_us_form, :desired_vacancy) name=input_tag_name(@join_us_form, :desired_vacancy)
-              - @join_us_form.class.desired_vacancy.values.each_with_index do |value, i|
-                option value=value selected=("selected" if i == 0)
-                  = t("forms.#{@join_us_form.class.name.underscore}.desired_vacancy.options.#{value}", raise: true) rescue value
-        .columns.large-6
-
-          /= input(@join_us_form, :portfolio_attachment, type: :file)
-
-          .input.input-file
-            - portfolio_attachment_input_id = input_tag_id(@join_us_form, :portfolio_attachment)
-            label.btn for=portfolio_attachment_input_id
-              span.btn-text
-                = "Upload file"
-            .file-name
-              |File is not selected
-            input type="file" id=portfolio_attachment_input_id name=input_tag_name(@join_us_form, :portfolio_attachment)
-          /= input(@hire_us_form, :budget_range, type: :select)
-
-          = input(@join_us_form, :description, type: :text)
-
-
-
-
-
-
-
-    .actions.text-right
-      .row
-        .columns.large-12
-          button.btn type="submit"
-            span.btn-text
-              = t("forms.actions.join-us")
-
+  = render "join_us_form_content"
   .success-message
     .title
       span.with_white_arrows
