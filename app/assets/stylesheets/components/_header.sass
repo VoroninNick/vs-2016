@@ -1,3 +1,8 @@
+.header-section
+  z-index: 100
+  height: 120px
+#header-right-section
+  right: 0
 #header
   position: fixed
   width: 100%
@@ -13,19 +18,22 @@
 
   &.scrolled, &.visible
     //+translate(0,0)
-    top: 0
-    position: fixed
+    &, & ~ .header-section
+      top: 0
+      position: fixed
   &.visible
-    position: absolute
+    &, & ~ .header-section
+      position: absolute
 
   &.scrolled
     &.scroll-larger-than-header-height
       background: $black-color
 
-    .logo-svg
+    & ~ #header-right-section .logo-svg
       width: 130px
   body.has-opened-menu &
     background: none
+    height: 0
 
   +breakpoint(small only)
     height: 76px
@@ -46,11 +54,17 @@
       +animation-duration(0.8s)
 
 
+
+#header-logo-svg-wrap
+  width: 34px
 #header-logo
   position: absolute
   top: 36px
   left: 60px
   width: 140px
+
+  a
+    display: inline-block
 
   svg
     width: 108px

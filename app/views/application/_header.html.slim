@@ -1,9 +1,12 @@
 #header
   /#header-logo-compact
     = inline_svg("svg/logo-compact.svg")
+#header-left-section.header-section
   #header-logo
     a href=root_path(locale: I18n.locale) title=t("title.header-logo")
-      = inline_svg("svg/logo.svg")
+      #header-logo-svg-wrap
+        = inline_svg("svg/logo.svg")
+#header-right-section.header-section
   #header-hire-us-button-wrap
     a.btn.light.btn-hire-us href=""
       span.btn-text
