@@ -27,7 +27,7 @@ class Project < ActiveRecord::Base
 
   has_attached_file :home_banner_image, styles: {thumb: "400x400>"}
 
-  has_attached_file :avatar, styles: { popup: "350x350#", projects_list: "480x480#", thumb: "100x100#" }
+  has_attached_file :avatar, styles: { popup: "350x350#", projects_list: "510x510#", thumb: "100x100#" }
   has_attached_file :thumb, styles: { thumb: "100x100#" }
   has_attached_file :item_top_banner_bg_image, styles: {large: "1920x980", thumb: "400x400>"}
   has_attached_file :item_top_banner_image, styles: {thumb: "400x400>"}

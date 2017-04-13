@@ -63,6 +63,7 @@ body[controller-action="pages__index"]
 
   .line-through
     +italic
+    position: relative
     &:after
       position: absolute
       left: 0
@@ -70,6 +71,8 @@ body[controller-action="pages__index"]
       background: $blue-color
       height: 1px
       width: 56px
+      width: 100%
+      width: 110%
       //+transform(rotate(-6deg))
       +transform-props(-3px, 11px, 0, null, -6deg)
 
