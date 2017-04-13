@@ -9,7 +9,7 @@ html
     
     = csrf_meta_tags
 
-  body data-controller=controller_name data-action=action_name controller-action="#{controller_name}__#{action_name}" class=("theme-#{@theme}" if @theme.present?)
+  body data-controller=controller_name data-action=action_name controller-action="#{controller_name}__#{action_name}" class="#{controller_name}__#{action_name}" class=("theme-#{@theme}" if @theme.present?)
     = render "header"
     = render "menu"
     = render "projects_popup"

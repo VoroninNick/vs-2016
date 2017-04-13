@@ -92,6 +92,15 @@ $document.on "ready page:load", ->
       $(this).toggleClass('opened')
       $('.project-tags .tag').toggleClass('visible')
 
+    $.clickOut(".project-tags", ()->
+      $(".project-tags .opened").removeClass("opened")
+      $(".project-tags .visible").each(
+        (index)->
+          if index > 0
+            $(this).removeClass("visible")
+      )
+    )
+
   $technology_container = $(".project-technologies")
   $technology_container.appear()
   $technology_container.filter(":appeared").trigger("appear")

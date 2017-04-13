@@ -20,10 +20,17 @@ $document.on "click", ".project-tags .tag:not(.checked)", (e)->
   e.preventDefault()
   $tag = $(this)
   $container = $tag.parent()
+  if is_small() #&& $tag.hasClass("checked")
+    $container.children().filter(".visible").each(
+      (index)->
+        if index > 0
+          $(this).removeClass("visible")
+    )
   $container.find(".checked").removeClass("checked")
   $tag.addClass("checked")
   original_url = $(this).attr("href")
   url = "/ajax#{original_url}.html"
+
   $.ajax(
     url: url
     dataType: "html"

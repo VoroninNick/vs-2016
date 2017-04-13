@@ -7,15 +7,6 @@
   .label-and-title
     padding: 20px 0 0 0
 
-  .image
-    @media #{$small-only}
-      display: none
-
-  .article-svg
-    @media #{$small-only}
-      display: none
-
-
   .prev, .next
     width: 50%
     height: 100px
@@ -30,8 +21,6 @@
       +semi-bold
       +header-font-family
       +transition-duration(0.5s)
-      @media #{$small-only}
-        font-size: 18px
     .label
       color: $light-gray-text-color
       +transition-property(color)
@@ -81,32 +70,65 @@
     float: left
     .arrow
       left: 120px
-      @media #{$small-only}
-        left: 5px
     .article-svg
       left: 280px
     .label-and-title
       float: left
       margin-left: 70px
-      @media #{$small-only}
-        margin-left: 40px
     .image
       float: left
   .next
     float: right
     .arrow
       right: 120px
-      @media #{$small-only}
-        right: 5px
     .article-svg
       right: 280px
     .label-and-title
       margin-right: 70px
-      @media #{$small-only}
-        margin-right: 40px
       float: right
     .image
       float: right
 
   .prev
     border-right: 1px solid rgba($light-gray-text-color, 1)
+
+  @media #{$small-only}
+    .image
+      display: none
+
+    .article-svg
+      display: none
+
+    .prev, .next
+      .title
+        font-size: 18px
+
+    .prev
+      .arrow
+        left: 5px
+      .label-and-title
+        margin-left: 40px
+    .next
+      .arrow
+        right: 5px
+
+      .label-and-title
+        margin-right: 40px
+
+
+    body.projects__index &
+      .label-and-title
+        .label
+          display: none
+        .title
+          display: none
+
+      .article-svg
+        display: block
+
+      .prev
+        .article-svg
+          left: 50px
+      .next
+        .article-svg
+          right: 50px
