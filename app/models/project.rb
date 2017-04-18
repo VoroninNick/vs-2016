@@ -13,6 +13,9 @@ class Project < ActiveRecord::Base
   boolean_scope :published
   scope :sort_by_sorting_position, -> { order("sorting_position asc") }
 
+  boolean_scope :featured
+  scope :sort_by_featured_position, -> { order("featured_position asc") }
+
   has_cache do
     pages :about_us, :articles, :contacts, :home, :projects, :services, :studio_life, Project.published, Article.published, Service.published
     Cms.config.provided_locales.each do |locale|
@@ -23,7 +26,7 @@ class Project < ActiveRecord::Base
   has_sitemap_record
   has_navigation
 
-  # attachents
+  # attachments
 
   has_attached_file :home_banner_image, styles: {thumb: "400x400>"}
 

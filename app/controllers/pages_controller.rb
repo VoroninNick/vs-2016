@@ -115,7 +115,7 @@ class PagesController < ApplicationController
   end
 
   def set_project_banners
-    @projects = Project.limit(3).includes(:translations, services: [:translations])
+    @projects = Project.featured.sort_by_featured_position.limit(3).includes(:translations, services: [:translations])
     @project_banners = @projects.map do |p|
       project_translation = p.translations_by_locale[I18n.locale]
       image_url = nil
