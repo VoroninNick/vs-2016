@@ -228,6 +228,8 @@ module RailsAdminDynamicConfig
         config.model Project do
           nestable_list({position_field: :sorting_position})
           field :published
+          field :featured
+          field :featured_position
           field :code_name
           field :released_on
           field :translations, :globalize_tabs
