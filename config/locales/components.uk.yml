@@ -15,7 +15,7 @@ uk:
 
     footer:
       address-header: "Address"
-      address: "Lukiyanovycha Str. 11<br/>Lviv, Ukraine, 79000"
+      address: "вул. Лукіяновича 11<br/>Lviv, Ukraine, 79000"
       phone-header: "Phone"
       email-header: "Email"
       copyright: "&copy;%{start_year} &mdash; %{year} Voronin Design Studio. All rights reserved."
