@@ -8,7 +8,7 @@ class ProjectsController < ApplicationController
     set_projects_banner
     set_page_metadata("projects")
     initialize_projects
-    set_navigation_links(Project.first)
+    #set_navigation_links(Project.first)
     if ajax?
       render "_projects.html", layout: false
     end
