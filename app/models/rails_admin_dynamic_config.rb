@@ -74,7 +74,7 @@ module RailsAdminDynamicConfig
         end
 
         config.navigation_static_links = {
-            locales: "/file_editor#{Rails.root.join("config/locales")}"
+            locales: "/file_editor/locales"
         }
 
         config.navigation_labels do
