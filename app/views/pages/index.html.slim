@@ -34,28 +34,33 @@
   #home-portfolio-section.section.page-section.small-one-screen
     = render "home_projects_slider"
 
+  /#home-services-section.section.page-section.fp-auto-height.fp-min-screen-height
   #home-services-section.section.page-section
-    .services-intro
-      a.title href=services_path
-        = t("pages.home.services.title")
-      p.description
-        = t("pages.home.services.description")
-    - @services.each do |service|
-      - service_icon_path = service.icon_path(:medium)
+    .section-container
+      .section-content
+        .services-intro
+          .service-inner
+            a.title href=services_path
+              = t("pages.home.services.title")
+            p.description
+              = t("pages.home.services.description")
+        - @services.each do |service|
+          - service_icon_path = service.icon_path(:medium)
 
-      - service_bg_image = service.home_bg.url(:xxl) if service.home_bg.exists?(:xxl)
-      - service_bg_image = service.list_image.url(:home_xxl) if service_bg_image.blank? && service.list_image.exists?(:home_xxl)
+          - service_bg_image = service.home_bg.url(:xxl) if service.home_bg.exists?(:xxl)
+          - service_bg_image = service.list_image.url(:home_xxl) if service_bg_image.blank? && service.list_image.exists?(:home_xxl)
 
-      a.service href=service.url
-        .service-bg-image style=("background-image:url(#{service_bg_image})" if service_bg_image.present?)
-        .service-bg-image-overlay
-        .service-name-and-description
-          .service-name
-            |#{service.name}
-          = raw "<div class='service-description'>#{service.description}</div>"
+          a.service href=service.url
+            .service-inner
+              .service-bg-image style=("background-image:url(#{service_bg_image})" if service_bg_image.present?)
+              .service-bg-image-overlay
+              .service-name-and-description
+                .service-name
+                  |#{service.name}
+                = raw "<div class='service-description'>#{service.description}</div>"
 
-        .svg-icon.service-icon
-          = embedded_svg_from_absolute_path(service_icon_path)
+              .svg-icon.service-icon
+                = embedded_svg_from_absolute_path(service_icon_path)
 
   #home-footer.section.page-section.fp-auto-height
     .inner
@@ -66,6 +71,6 @@
               .text
                 = raw t("pages.home.footer-text")
             .columns.medium-5.large-3
-              a.btn.dark.white-lines href="#"
+              a.btn.dark.white-lines.btn-hire-us href="#"
                 span.btn-text
                   = raw t("components.buttons.hire-us")

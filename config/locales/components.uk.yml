@@ -36,3 +36,16 @@ uk:
         articles: "анонси та події"
         studio_life: "життя студії"
         contacts: "наші контакти"
+
+    popups:
+      hire-us:
+        intro: |
+          <h4 class='header'>Співпрацюймо</h4>
+          <h5 class='sub-header'>І зробімо щось надзвичайне</h5>
+        join-us-link: "Я хочу приєднатись до вас"
+
+      join-us:
+        intro: |
+          <h4 class='header'>Join us header</h4>
+          <h5 class='sub-header'>Join us sub-header</h5>
+        hire-us-link: "Я хочу реалізувати проект"

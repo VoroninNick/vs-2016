@@ -1,4 +1,4 @@
-full_page_breakpoint = 1025
+#full_page_breakpoint = 1440
 full_page_breakpoint = 0
 
 large_breakpoint = 1025
@@ -26,7 +26,7 @@ scroll = (direction = "down")->
 
 
   if $next_section.length > 0
-    if !$next_section.hasClass("fp-auto-height")
+    if !$next_section.hasClass("fp-auto-height") || $next_section.hasClass("fp-min-screen-height")
       $active_section.removeClass("active")
     $next_section.addClass("active")
 
@@ -89,27 +89,57 @@ $(".page-section").on "move", (e)->
 window.check_if_default_scroll_swipe = ()->
   $body = $("body")
   scroll_locked = $body.hasClass("has-opened-projects-popup") || $body.hasClass("has-opened-menu") || $body.hasClass("has-opened-hire-us-form-popup") || $body.hasClass("has-opened-join-us-form-popup")
-  $(".full-page-container").length == 0 || (full_page_breakpoint || window.innerWidth < full_page_breakpoint) || scroll_locked
+  scroll_locked || $(".full-page-container").length == 0 || (full_page_breakpoint && window.innerWidth < full_page_breakpoint)
 
 
 scroll_handler = (e, direction)->
-  #console.log "#{e.type}: "
-  $body = $("body")
-
   if check_if_default_scroll_swipe()
     console.log "scroll_handler: return true"
     return true
+
+  $body = $("body")
 
   handler_this = this
   handler_args = arguments
 
 
   down = e.deltaY < 0 || direction == "up"
+  up = !down
   $active_section = $(".page-section.active")
   active_section_index = $active_section.index()
   active_section_one_screen = $active_section.hasClass("small-one-screen")
+  max_scroll_top = null
   scroll_top = $window.scrollTop() || $("body").scrollTop() || $("html").scrollTop()
-  prevent_default_scroll = window.innerWidth >= large_breakpoint || (down && active_section_one_screen) || (!down && active_section_index > 0 && !(active_section_index == 2 && scroll_top > 0 ))
+  $home_footer = $("#home-footer")
+
+  if !scroll_top
+    scroll_top = $active_section.find(".section-container").scrollTop()
+    if scroll_top
+      max_scroll_top = $active_section.find(".section-content").height() - window.innerHeight
+
+  bottom_achieved = max_scroll_top && scroll_top == max_scroll_top
+  footer_was_active = null
+  if up && $home_footer.hasClass("active")
+    footer_was_active = true
+    $home_footer.removeClass("active")
+    e.preventDefault() if e && e.preventDefault
+    return false
+
+  if active_section_index == 2 && !(up && !scroll_top) && !(down && bottom_achieved)
+    container_height = $active_section.find(".section-container").height()
+    content_height = $active_section.find(".section-content").height()
+    if content_height > container_height
+      $("body").swipe('option', 'allowPageScroll', "vertical")
+      return true
+  console.log "bottom_achieved: ", bottom_achieved
+  if active_section_index == 2 && down && bottom_achieved
+    $("#home-footer").addClass("active")
+    e.preventDefault() if e && e.preventDefault
+    return false
+
+
+
+  prevent_default_scroll = window.innerWidth >= large_breakpoint || (down && active_section_one_screen) || (up && active_section_index > 0 && !(active_section_index == 2 && scroll_top > 0 )) && active_section_index
   console.log "prevent_default_scroll: ", prevent_default_scroll
 
   if window.innerWidth <= 640
@@ -132,6 +162,12 @@ scroll_handler = (e, direction)->
 
   delay("scroll",
     ()->
+
+      if up && ($home_footer.hasClass("active") || footer_was_active)
+        $home_footer.removeClass("active")
+        e.preventDefault() if e && e.preventDefault
+        return false
+
       scroll_top = $window.scrollTop()
       #console.log(e.deltaX, e.deltaY, e.deltaFactor);
 
@@ -145,6 +181,15 @@ scroll_handler = (e, direction)->
 
       not_last_slide = currentIndex < slidesQnt - 1
       console.log "hello"
+
+      if active_section_index == 2 && !(up && !scroll_top) && !(down && bottom_achieved)
+        container_height = $active_section.find(".section-container").height()
+        content_height = $active_section.find(".section-content").height()
+
+        if content_height > container_height
+          $("body").swipe('option', 'allowPageScroll', "vertical")
+          return true
+      console.log "MY_TEST"
       if active_section_index == 1 && down
         if not_last_slide
           currentIndex += 1
@@ -159,10 +204,10 @@ scroll_handler = (e, direction)->
           scroll("down")
       else
         current_slide_index = $(".home-portfolio-slide.visible").index()
-        if active_section_index == 1 && current_slide_index > 0 && !down
+        if active_section_index == 1 && current_slide_index > 0 && up
           slide_index = current_slide_index - 1
           setSlide(slide_index)
-        else if active_section_index == 1 && current_slide_index == 0 && !down
+        else if active_section_index == 1 && current_slide_index == 0 && up
           scroll("up")
           if window.innerWidth < large_breakpoint
             defaultPrevented = true
@@ -177,7 +222,7 @@ scroll_handler = (e, direction)->
 
 
 
-      if active_section_index == 2 && !down
+      if active_section_index == 2 && up
         setSlide(2)
 
       if defaultPrevented

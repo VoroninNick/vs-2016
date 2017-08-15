@@ -4,6 +4,13 @@ body[controller-action="pages__index"]
     overflow: hidden
 
 .full-page-container
+  .section-container
+    overflow: auto
+    max-height: 100vh
+    position: relative
+    display: block
+  .section-content
+    +clearfix
   .page-section
     overflow: hidden
     position: relative
@@ -17,6 +24,8 @@ body[controller-action="pages__index"]
     &:not(.active)
       max-height: 0
 
+    &.fp-min-screen-height
+      min-height: 100vh
     &.fp-auto-height
       height: auto
       +transition-duration(0.75s)
@@ -31,7 +40,8 @@ body[controller-action="pages__index"]
 
         +translate3d(0, -175px)
 
-  @media #{breakpoint(medium down)}
+  //@media #{breakpoint(medium down)}
+  @media #{breakpoint(xxlarge down)}
     .page-section
       overflow: visible
       height: auto
@@ -58,8 +68,8 @@ body[controller-action="pages__index"]
 
       &.fp-auto-height
         &.active
-          position: relative
-          bottom: auto
+          //position: relative
+          //bottom: auto
 
 
 

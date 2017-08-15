@@ -1,6 +1,9 @@
 .forms-popup
   +full-screen-popup($dark-white-color, $zindex-forms-popup)
 
+  height: 100vh
+  overflow: hidden
+
   .btn-close
     width: 40px
     height: 40px
@@ -27,8 +30,10 @@
 
   .inner
     position: relative
-    overflow: hidden
-    min-height: calc(100vh - 32px)
+    //overflow: hidden
+    overflow: auto
+    height: calc(100vh - 32px)
+
 
   .popup-content
     z-index: 1
@@ -56,6 +61,16 @@
 
   .hire-us-form, .join-us-form
     display: none
+
+  @media #{breakpoint(small only)}
+    .popup-content
+      padding-top: 0
+    .form-intro
+      .header
+        font-size: 30px
+    .btn-close
+      top: 8px
+      right: 8px
 body.has-opened-hire-us-form-popup
   .forms-popup, .hire-us-form
     display: block
