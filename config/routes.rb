@@ -1,6 +1,12 @@
 Rails.application.routes.draw do
+  get "robots", to: "robots#robots_txt", as: :custom_robots_txt
+  get "sitemap", to: "sitemap#index", as: :sitemap_xml, format: "xml"
+  mount Cms::Engine => '/'
+
   match '/file_editor/(*path)', to: 'file_editor#index', via: [:get, :post], format: false, as: :file_editor
   match '/file_editor(*path)', to: 'file_editor#index', via: [:get, :post], format: false, as: :file
+
+
 
   devise_for :users
   mount Ckeditor::Engine => '/ckeditor'
