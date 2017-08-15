@@ -10,7 +10,7 @@ class InsertBehanceLinksInBehanceProjects < ActiveRecord::Migration
     ]
 
     arr.each do |item|
-      p = BehanceProject.find(item.first)
+      p = BehanceProject.find(item.first) rescue next
       p.behance_url = item.last
       p.save
     end
