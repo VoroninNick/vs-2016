@@ -1,6 +1,7 @@
 Cms::CompressionConfig.initialize_compression(html_compress: false)
-Cms::AssetsPrecompile.initialize_precompile
-
+if !ENV["STD_PRECOMPILE"]
+  Cms::AssetsPrecompile.initialize_precompile
+end
 Cms.config.use_translations true
 
 Cms.config do |config|
