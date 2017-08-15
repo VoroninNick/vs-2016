@@ -12,7 +12,7 @@ class AboutSlide < ActiveRecord::Base
   scope :sort_by_sorting_position, -> { order("sorting_position asc") }
 
   has_cache do
-    pages :about
+    pages :about_us
   end
 
 
