@@ -1,0 +1,17 @@
+
+---
+dictionaries:
+  columns:
+  - id
+  - name
+  - code_name
+  - info_description
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - main menu
+    - main_menu
+    - ''
+    - '2014-09-26 16:54:31.597624'
+    - '2014-09-26 16:54:31.597624'

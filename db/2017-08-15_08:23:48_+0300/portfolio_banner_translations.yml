@@ -1,0 +1,957 @@
+
+---
+portfolio_banner_translations:
+  columns:
+  - id
+  - portfolio_banner_id
+  - locale
+  - created_at
+  - updated_at
+  - title
+  - description
+  - published
+  records: 
+  - - 1
+    - 1
+    - ru
+    - '2014-09-25 13:06:43.770499'
+    - '2014-09-25 13:06:43.770499'
+    - 
+    - "<div id=\"voronin-web-banner\">\r\n\r\n</div>"
+    - false
+  - - 2
+    - 1
+    - en
+    - '2014-09-25 13:06:43.785069'
+    - '2014-09-25 13:06:43.785069'
+    - 
+    - "<div id=\"voronin-web-banner\">\r\n\r\n</div>"
+    - false
+  - - 3
+    - 1
+    - uk
+    - '2014-09-25 13:06:43.796568'
+    - '2014-09-25 13:06:43.796568'
+    - 
+    - "<div id=\"voronin-web-banner\">\r\n\r\n</div>"
+    - false
+  - - 4
+    - 2
+    - ru
+    - '2014-09-25 13:06:43.895006'
+    - '2014-09-25 13:06:43.895006'
+    - "Ресторан шоу-бар «0,5»"
+    - "буфет і 0.5 - це бар і пивний ресторан у серці міста обєднані відрожденою атмосферою
+      Львова 70-70 . У закладах відтворений побут, а в мненю кулінарні та алкогольні
+      суперхіти тих часів. це традиційна культура пиття хмільних напоїв, проста й
+      перевірена часом кухня, стильний інтерєр, комфорт та обслуговування з душею."
+    - false
+  - - 5
+    - 2
+    - en
+    - '2014-09-25 13:06:43.907846'
+    - '2014-09-25 13:06:43.907846'
+    - "Ресторан шоу-бар «0,5»"
+    - "буфет і 0.5 - це бар і пивний ресторан у серці міста обєднані відрожденою атмосферою
+      Львова 70-70 . У закладах відтворений побут, а в мненю кулінарні та алкогольні
+      суперхіти тих часів. це традиційна культура пиття хмільних напоїв, проста й
+      перевірена часом кухня, стильний інтерєр, комфорт та обслуговування з душею."
+    - false
+  - - 6
+    - 2
+    - uk
+    - '2014-09-25 13:06:43.920206'
+    - '2014-09-25 13:06:43.920206'
+    - "Ресторан шоу-бар «0,5»"
+    - "буфет і 0.5 - це бар і пивний ресторан у серці міста обєднані відрожденою атмосферою
+      Львова 70-70 . У закладах відтворений побут, а в мненю кулінарні та алкогольні
+      суперхіти тих часів. це традиційна культура пиття хмільних напоїв, проста й
+      перевірена часом кухня, стильний інтерєр, комфорт та обслуговування з душею."
+    - false
+  - - 7
+    - 3
+    - ru
+    - '2014-09-25 13:06:43.935676'
+    - '2014-09-25 13:06:43.935676'
+    - "Оновлення сайту студії"
+    - "Частица принципиально неизмерима. Силовое поле кумулятивно. Темная материя
+      теоретически возможна. Если предварительно подвергнуть объекты длительному вакуумированию,
+      то расслоение излучает эксимер, как и предсказывает общая теория поля."
+    - false
+  - - 8
+    - 3
+    - en
+    - '2014-09-25 13:06:43.947516'
+    - '2014-09-25 13:06:43.947516'
+    - "Оновлення сайту студії"
+    - "Частица принципиально неизмерима. Силовое поле кумулятивно. Темная материя
+      теоретически возможна. Если предварительно подвергнуть объекты длительному вакуумированию,
+      то расслоение излучает эксимер, как и предсказывает общая теория поля."
+    - false
+  - - 9
+    - 3
+    - uk
+    - '2014-09-25 13:06:43.959325'
+    - '2014-09-25 13:06:43.959325'
+    - "Оновлення сайту студії"
+    - "Частица принципиально неизмерима. Силовое поле кумулятивно. Темная материя
+      теоретически возможна. Если предварительно подвергнуть объекты длительному вакуумированию,
+      то расслоение излучает эксимер, как и предсказывает общая теория поля."
+    - false
+  - - 10
+    - 5
+    - ru
+    - '2014-09-25 13:06:43.974417'
+    - '2014-10-10 15:24:47.634588'
+    - "<h1><span style=\"font-size:48px\"><span style=\"color:#FFFFFF\">MOLOKO - разработка
+      логотипа и фирменного стиля для ночного клуба</span></span></h1>\r\n"
+    - "<p><span style=\"color:#FFFFFF\">&mdash; это демократичное заведение Европейского
+      формата, ориентированный на молодежь. Днем - это ресторан и коктейль клуб, а
+      ночью - это ночной клуб с шоу-программами и приглашенными гостями.</span></p>\r\n"
+    - false
+  - - 11
+    - 5
+    - en
+    - '2014-09-25 13:06:43.986233'
+    - '2014-10-21 10:48:54.640266'
+    - "<h1><span style=\"font-size:48px\"><span style=\"color:#FFFFFF\">MOLOKO - logo
+      and corporate design development</span></span></h1>\r\n"
+    - "<p><span style=\"color:#FFFFFF\">&mdash; a democratic institution of the European,
+      mostly aimed at youth. In the afternoon - a restaurant and cocktail club, and
+      at night - a nightclub with show programs and invited guests.</span></p>\r\n"
+    - false
+  - - 12
+    - 5
+    - uk
+    - '2014-09-25 13:06:43.998058'
+    - '2014-10-08 12:53:52.682880'
+    - "<h1><span style=\"font-size:48px\"><span style=\"color:#FFFFFF\">MOLOKO - розробка
+      логотипу і фірмового стилю для нічного клубу</span></span></h1>\r\n"
+    - "<p><span style=\"color:#FFFFFF\">&mdash; це демократичний заклад Європейського
+      формату, орієнтований на молодь. Вдень - це ресторан та коктейль клуб, а вночі
+      - це нічний клуб з шоу-програмами та запрошеними гістьми.</span></p>\r\n"
+    - false
+  - - 13
+    - 6
+    - ru
+    - '2014-09-25 13:06:44.016133'
+    - '2014-10-10 15:20:32.532366'
+    - "<p><span style=\"color:#cccccc\"><span style=\"font-size:48px\">​</span></span><span
+      style=\"color:#cccccc\"><span style=\"font-size:48px\">&laquo;GREEN TELECOM&raquo;
+      &mdash; разработка логотипа и фирменного стиля</span></span></p>\r\n"
+    - "<p><span style=\"color:#cccccc\">Задачей студию стала разработка экологического
+      логотипа и фирменного стиля для интернет провайдера.</span></p>\r\n"
+    - false
+  - - 14
+    - 6
+    - en
+    - '2014-09-25 13:06:44.030160'
+    - '2014-10-21 10:47:39.100639'
+    - "<p><span style=\"color:#cccccc\"><span style=\"font-size:48px\">​</span></span><span
+      style=\"color:#cccccc\"><span style=\"font-size:48px\">&laquo;GREEN TELECOM&raquo;
+      &mdash; logo and corporate design development</span></span></p>\r\n"
+    - "<p><span style=\"color:#cccccc\">The task was to develop a studio environment
+      logo and corporate identity for the ISP.</span></p>\r\n"
+    - true
+  - - 15
+    - 6
+    - uk
+    - '2014-09-25 13:06:44.042048'
+    - '2014-10-08 12:49:56.946827'
+    - "<p><span style=\"color:#cccccc\"><span style=\"font-size:48px\">​</span></span><span
+      style=\"color:#cccccc\"><span style=\"font-size:48px\">&laquo;GREEN TELECOM&raquo;
+      &mdash; розробка логотипу та фірмового стилю</span></span></p>\r\n"
+    - "<p><span style=\"color:#cccccc\">Задачею студію стала розробка екологічного
+      логотипу та фірмового стилю для інтернет провайдера.</span></p>\r\n"
+    - false
+  - - 16
+    - 7
+    - ru
+    - '2014-09-25 13:06:44.056954'
+    - '2014-10-11 10:27:58.526997'
+    - ''
+    - ''
+    - true
+  - - 17
+    - 7
+    - en
+    - '2014-09-25 13:06:44.068335'
+    - '2014-10-10 12:41:46.945731'
+    - ''
+    - ''
+    - true
+  - - 18
+    - 7
+    - uk
+    - '2014-09-25 13:06:44.079887'
+    - '2014-10-08 13:12:59.498607'
+    - ''
+    - ''
+    - false
+  - - 19
+    - 8
+    - ru
+    - '2014-09-25 13:06:44.094830'
+    - '2016-11-24 15:58:34.001738'
+    - "<h1><span style=\"font-size:48px\"><span style=\"color:#FFFFFF\">&laquo;Investment
+      Intelligence&raquo; - разработка логотипа и фирменного стиля</span></span></h1>\r\n"
+    - "<!--<p><span style=\"color:#FFFFFF\">Looking for new ways to improve investment
+      performance or quickly spot insider trading?</span></p>\r\n\r\n<p><span style=\"color:#FFFFFF\">We
+      can help you by providing innovative analytical software for the financial industry
+      that uses the power of applied behavioural science. Investment Intelligence
+      serves banks, asset management firms, hedge funds and fund-of-funds worldwide.</span></p>\r\n-->\r\n<p><span
+      style=\"color:#FFFFFF\">Задачей было разработать логотип, фирменный стиль и
+      рекламные материалы для компании, которая разрабатывает инновационное аналитическое
+      программное обеспечение в сфере финансовой индустрии.</span></p>\r\n"
+    - true
+  - - 20
+    - 8
+    - en
+    - '2014-09-25 13:06:44.191222'
+    - '2014-10-10 15:12:03.380274'
+    - "<h1><span style=\"font-size:48px\"><span style=\"color:#FFFFFF\">&laquo;Investment
+      Intelligence&raquo; - logo design and corporate identity</span></span></h1>\r\n"
+    - "<!--<p><span style=\"color:#FFFFFF\">Looking for new ways to improve investment
+      performance or quickly spot insider trading?</span></p>\r\n\r\n<p><span style=\"color:#FFFFFF\">We
+      can help you by providing innovative analytical software for the financial industry
+      that uses the power of applied behavioural science. Investment Intelligence
+      serves banks, asset management firms, hedge funds and fund-of-funds worldwide.</span></p>\r\n-->\r\n<p><span
+      style=\"color:#FFFFFF\">Our task was to develop a logo, corporate identity and
+      promotional materials for the company that develops innovative analytical software
+      in the financial industry.</span></p>\r\n"
+    - true
+  - - 21
+    - 8
+    - uk
+    - '2014-09-25 13:06:44.203911'
+    - '2016-11-24 15:58:34.042230'
+    - "<h1><span style=\"font-size:48px\"><span style=\"color:#FFFFFF\">&laquo;Investment
+      Intelligence&raquo; - розробка логотипу та фірмового стилю</span></span></h1>\r\n"
+    - "<!--<p><span style=\"color:#FFFFFF\">Looking for new ways to improve investment
+      performance or quickly spot insider trading?</span></p>\r\n\r\n<p><span style=\"color:#FFFFFF\">Ми
+      можемо допомогти вам, надаючи інноваційне аналітичне програмне забезпечення
+      для фінансової індустрії, яка використовує силу застосовуваних поведінкових
+      наук. Інвестиційний Інтелект служить банкам, фірмам з управління активами, хедж-фондам
+      і фонд-з-фондам у всьому світі.</span></p>\r\n-->\r\n<p><span style=\"color:#FFFFFF\">Завданням
+      було розробити логотип, фірмовий стиль та рекламні матеріали для компанії, яка
+      розробляє інноваційне аналітичне програмне забезпечення у сфері фінансової індустрії.</span></p>\r\n"
+    - true
+  - - 22
+    - 9
+    - ru
+    - '2014-09-25 13:06:44.219833'
+    - '2014-10-10 15:10:03.304032'
+    - "<h1><span style=\"color:#fec52d\"><span style=\"font-size:36px\">&laquo;РУСИН-О&raquo;
+      &mdash; модификация логотипа, разработка фирменного стиля и рекламного каталога</span></span></h1>\r\n"
+    - "<p><span style=\"color:#FFFFFF\">Для студии представилась возможность подправить
+      логотип, разработать профессиональный фирменный стиль, интересный рекламный
+      каталог с полным спектром продукции компании, а также сайт каталог.</span></p>\r\n"
+    - false
+  - - 23
+    - 9
+    - en
+    - '2014-09-25 13:06:44.231825'
+    - '2014-10-21 10:50:08.238637'
+    - "<h1><span style=\"color:#fec52d\"><span style=\"font-size:36px\">&laquo;RUSYN-O&raquo;
+      &mdash; mmodification of the logo, cororate identity and promotional catalog
+      development</span></span></h1>\r\n"
+    - "<p><span style=\"color:#FFFFFF\">Studio had the opportunity to correct the
+      logo, develop a professional corporate identity, advertising interesting catalog
+      with a full range of products and site catalog.</span></p>\r\n"
+    - true
+  - - 24
+    - 9
+    - uk
+    - '2014-09-25 13:06:44.243779'
+    - '2014-10-08 12:34:50.512637'
+    - "<h1><span style=\"color:#fec52d\"><span style=\"font-size:36px\">&laquo;РУСИН-О&raquo;
+      &mdash; модифікація логотипу, розробка фірмового стилю та рекламного каталогу</span></span></h1>\r\n"
+    - "<p><span style=\"color:#FFFFFF\">Для студії випала нагода підправити логотип,
+      розробити професійний фірмовий стиль, цікавий рекламний каталог з повним спектром
+      продукції компанії, а також сайт каталог.</span></p>\r\n"
+    - false
+  - - 25
+    - 10
+    - ru
+    - '2014-09-25 13:06:44.258973'
+    - '2014-10-10 15:07:39.631851'
+    - "<h1><span style=\"color:#FFFFFF\"><span style=\"font-size:36px\">&laquo;Валько&raquo;
+      &mdash; разработка логотипа и фирменного стиля</span></span></h1>\r\n"
+    - "<p><span style=\"color:#FFFFFF\">Нам доверили провести визуальный ребрендинг
+      торговой компании, которая специализируется на продаже металлопластиковых окон,
+      наружных подоконников, жалюзи, аксессуаров и т.п. продукции.</span></p>\r\n"
+    - true
+  - - 26
+    - 10
+    - en
+    - '2014-09-25 13:06:44.270804'
+    - '2014-10-21 10:47:08.134103'
+    - "<h1><span style=\"color:#FFFFFF\"><span style=\"font-size:36px\">&laquo;Valko&raquo;
+      &mdash; logo and corporate design development</span></span></h1>\r\n"
+    - "<p><span style=\"color:#FFFFFF\">We have been entrusted to carry out visual
+      re-branding trading company that specializes in the sale of plastic windows,
+      external window sills, blinds, accessories and other products.</span></p>\r\n"
+    - true
+  - - 27
+    - 10
+    - uk
+    - '2014-09-25 13:06:44.282675'
+    - '2014-10-08 12:26:59.967251'
+    - "<h1><span style=\"color:#FFFFFF\"><span style=\"font-size:36px\">&laquo;Валько&raquo;
+      &mdash; розробка логотипу та фірмового стилю</span></span></h1>\r\n"
+    - "<p><span style=\"color:#FFFFFF\">Нам довірили провести візуальний ребрендинг
+      торгової компанії, яка спеціалізується на продажі металопластикових вікон, зовнішніх
+      підвіконь, жалюзі, аксесуарів і т.п. продукції.</span></p>\r\n"
+    - false
+  - - 28
+    - 11
+    - ru
+    - '2014-09-25 13:06:44.297870'
+    - '2014-10-10 15:04:54.639160'
+    - "<h1><span style=\"color:#f36b22\"><span style=\"font-size:36px\">&laquo;Games3K&raquo;
+      &mdash; разработка логотипа и фирменного стиля!</span></span></h1>\r\n"
+    - "<p><span style=\"color:#FFFFFF\">Нашей задачей стало придумать название, создать
+      логотип и фирменный стиль. А также интернет магазин для реализации товара через
+      интернет.</span></p>\r\n"
+    - false
+  - - 29
+    - 11
+    - en
+    - '2014-09-25 13:06:44.309646'
+    - '2014-10-21 10:46:30.653930'
+    - "<h1><span style=\"color:#f36b22\"><span style=\"font-size:36px\">&laquo;Games3K&raquo;
+      &mdash; logo and corporate design development</span></span></h1>\r\n"
+    - "<p><span style=\"color:#FFFFFF\">Our task was to come up with a name, a logo
+      and corporate identity. Also online store for selling goods over the internet.</span></p>\r\n"
+    - true
+  - - 30
+    - 11
+    - uk
+    - '2014-09-25 13:06:44.321319'
+    - '2014-10-08 12:20:34.549415'
+    - "<h1><span style=\"color:#f36b22\"><span style=\"font-size:36px\">&laquo;Games3K&raquo;
+      &mdash; розробка логотипу та фірмового стилю!</span></span></h1>\r\n"
+    - "<p><span style=\"color:#FFFFFF\">Нашою задачею стало придумати назву, створити
+      логотип та фірмовий стиль. А також інтернет магазин для реалізації товару через
+      інтернет.</span></p>\r\n"
+    - false
+  - - 31
+    - 12
+    - ru
+    - '2014-09-25 13:06:44.336062'
+    - '2014-10-10 15:01:37.254642'
+    - "<h1><span style=\"color:#ee3342\"><span style=\"font-size:36px\">&laquo;ЧЗМК&raquo;
+      &nbsp;&mdash; разработка логотипа, фирменного стиля, печатной продукции</span></span></h1>\r\n"
+    - "<p><span style=\"color:#FFFFFF\">Задачей для нашей студии стала разработка
+      логотипа, фирменного стиля и каталогов продукции для огромного завода по изготовлению
+      металлоконструкций и решетчатого настила.</span></p>\r\n"
+    - false
+  - - 32
+    - 12
+    - en
+    - '2014-09-25 13:06:44.347614'
+    - '2014-10-21 10:45:44.120526'
+    - "<h1><span style=\"color:#ee3342\"><span style=\"font-size:36px\">&laquo;CHZMK&raquo;
+      &nbsp;&mdash; logo, corporate identity and printed products development </span></span></h1>\r\n"
+    - "<p><span style=\"color:#FFFFFF\">The task for our studio was to develop a logo,
+      corporate identity and product catalogs for a large plant for the manufacture
+      of metal structures and lattice flooring.</span></p>\r\n"
+    - true
+  - - 33
+    - 12
+    - uk
+    - '2014-09-25 13:06:44.359163'
+    - '2014-10-08 12:14:34.887595'
+    - "<h1><span style=\"color:#ee3342\"><span style=\"font-size:36px\">&laquo;ЧЗМК&raquo;
+      &nbsp;&mdash; розробка логотипу, фірмового стилю, друкованої продукції</span></span></h1>\r\n"
+    - "<p><span style=\"color:#FFFFFF\">Задачею для нашої студії стала розробка логотипу,
+      фірмового стилю та каталогів продукції для величезного завода по виготовленню
+      металоконструкцій та решітчастого настилу.</span></p>\r\n"
+    - false
+  - - 34
+    - 13
+    - ru
+    - '2014-09-25 13:06:44.373920'
+    - '2014-10-10 14:58:59.148110'
+    - "<h1><span style=\"color:#a7d82f\"><span style=\"font-size:48px\">&laquo;Серце
+      квартир Львова&raquo; &mdash; розробка веб сервісу пошуку квартир</span></span></h1>\r\n"
+    - "<p><span style=\"color:#cccccc\">Мы разработали простой и удобный веб Сервиро
+      кратковременной аренды квартир в г. Львове.&nbsp;</span></p>\r\n"
+    - false
+  - - 35
+    - 13
+    - en
+    - '2014-09-25 13:06:44.385430'
+    - '2014-10-21 10:40:56.877596'
+    - "<h1><span style=\"color:#a7d82f\"><span style=\"font-size:48px\">&laquo;Heart
+      of apartments in Lviv&raquo; &mdash; web search service apartments development</span></span></h1>\r\n"
+    - "<p><span style=\"color:#cccccc\">We have developed a simple and convenient
+      web service short-term rental apartments in Lviv.&nbsp;</span></p>\r\n"
+    - true
+  - - 36
+    - 13
+    - uk
+    - '2014-09-25 13:06:44.481343'
+    - '2014-10-08 12:07:58.338077'
+    - "<h1><span style=\"color:#a7d82f\"><span style=\"font-size:48px\">&laquo;Серце
+      квартир Львова&raquo; &mdash; розробка веб сервісу пошуку квартир</span></span></h1>\r\n"
+    - "<p><span style=\"color:#cccccc\">Ми розробили простий та зручний веб сервір
+      короткотривалої оренди квартир у м. Львові.&nbsp;</span></p>\r\n"
+    - false
+  - - 37
+    - 14
+    - ru
+    - '2014-09-25 13:06:44.497392'
+    - '2014-10-10 14:57:06.447741'
+    - "<h1><span style=\"color:#d00501\"><span style=\"font-size:48px\"><strong>&laquo;BNB
+      Paintball&raquo;&nbsp; &mdash; разработка презентационного веб сайта</strong></span></span></h1>\r\n"
+    - "<p><span style=\"color:#FFFFFF\">Разработав логотип и фирменный стиль мы приступили
+      к разработке презентационного сайта для крупнейшего пейнтольного комплекса в
+      западном регионе.</span></p>\r\n"
+    - true
+  - - 38
+    - 14
+    - en
+    - '2014-09-25 13:06:44.509763'
+    - '2014-10-21 10:39:27.424564'
+    - "<h1><span style=\"color:#d00501\"><span style=\"font-size:48px\"><strong>&laquo;BNB
+      Paintball&raquo;&nbsp; &mdash; Presentation website development</strong></span></span></h1>\r\n"
+    - "<p><span style=\"color:#FFFFFF\">Having developed a logo and corporate identity,
+      we started to develop presentation website for the largest paintball complex
+      in the western region.</span></p>\r\n"
+    - true
+  - - 39
+    - 14
+    - uk
+    - '2014-09-25 13:06:44.521762'
+    - '2014-10-08 11:58:11.532903'
+    - "<h1><span style=\"color:#d00501\"><span style=\"font-size:48px\"><strong>&laquo;BNB
+      Paintball&raquo;&nbsp; &mdash; розробка презентаційного веб сайту</strong></span></span></h1>\r\n"
+    - "<p><span style=\"color:#FFFFFF\">Розробивши логотип та фірмовий стиль ми приступили
+      до розробки презентаційного сайту для найбільшого пейнтольного комплексу у західному
+      регіоні.</span></p>\r\n"
+    - false
+  - - 40
+    - 15
+    - ru
+    - '2014-09-25 13:06:44.537046'
+    - '2014-10-10 14:53:46.204833'
+    - "<h1><strong><span style=\"color:#cc0000\"><span style=\"font-size:36px\">&laquo;BNB
+      Paintball&raquo;&nbsp; &mdash; разработка логотипа и фирменного стиля.</span></span></strong></h1>\r\n"
+    - "<p><span style=\"color:#FFFFFF\"><span style=\"font-size:16px\">Нам поручили
+      разработать логотип и фирменный стиль для крупнейшего пейнтбольного комплекса
+      в Западном регионе.</span></span></p>\r\n"
+    - true
+  - - 41
+    - 15
+    - en
+    - '2014-09-25 13:06:44.549060'
+    - '2014-10-21 10:37:33.720884'
+    - "<h1><strong><span style=\"color:#cc0000\"><span style=\"font-size:36px\">&laquo;BNB
+      Paintball&raquo;&nbsp; &mdash; logo and corporate design development</span></span></strong></h1>\r\n"
+    - "<p><span style=\"color:#FFFFFF\"><span style=\"font-size:16px\">We were tasked
+      to design a logo and corporate identity for the largest painball complex in
+      the western region.</span></span></p>\r\n"
+    - true
+  - - 42
+    - 15
+    - uk
+    - '2014-09-25 13:06:44.560929'
+    - '2014-10-10 14:54:51.112249'
+    - "<h1><strong><span style=\"color:#cc0000\"><span style=\"font-size:36px\">&laquo;BNB
+      Paintball&raquo;&nbsp; &mdash; розробка логотипу та фірмового стилю</span></span></strong></h1>\r\n"
+    - "<p><span style=\"color:#FFFFFF\"><span style=\"font-size:16px\">Нам доручили
+      розробити логотип та фірмовий стиль для найбільшого пейнтбольного комплексу
+      у Західному регіоні.</span></span></p>\r\n"
+    - true
+  - - 43
+    - 16
+    - ru
+    - '2014-09-25 13:06:44.575995'
+    - '2014-10-10 14:49:50.996879'
+    - "<h1><span style=\"color:#e44418\"><span style=\"font-size:36px\">&laquo;ТrickyFox.ru&raquo;&nbsp;&mdash;
+      разработка логотипа, фирменного стиля и рекламной продукции</span></span></h1>\r\n"
+    - "<p><span style=\"color:#fad5b3\"><span style=\"font-size:14px\">Нашей задачей
+      стало разработка логотипа, фирменного стиля, карточек на скидки, подарочных
+      сертификатов и рекламной продукции.</span></span></p>\r\n"
+    - true
+  - - 44
+    - 16
+    - en
+    - '2014-09-25 13:06:44.587744'
+    - '2014-10-21 10:36:20.230896'
+    - "<h1><span style=\"color:#e44418\"><span style=\"font-size:36px\">&laquo;ТrickyFox.ru&raquo;&nbsp;&mdash;
+      logo, corporate identity and promotional products development</span></span></h1>\r\n"
+    - "<p><span style=\"color:#fad5b3\"><span style=\"font-size:14px\">Our task was
+      to develop a logo, corporate identity, cards for discounts, gift certificates
+      and promotional items.</span></span></p>\r\n"
+    - true
+  - - 45
+    - 16
+    - uk
+    - '2014-09-25 13:06:44.599425'
+    - '2014-09-29 14:23:27.371171'
+    - "<h1><span style=\"color:#e44418\"><span style=\"font-size:36px\">&laquo;ТrickyFox.ru&raquo;&nbsp;&mdash;
+      розробка логотипу, фірмового стилю та рекламної продукції</span></span></h1>\r\n"
+    - "<p><span style=\"color:#fad5b3\"><span style=\"font-size:14px\">Нашою задачею
+      стало розробка логотипу, фірмового стилю, карток на знижки, подарункових сертифікатів
+      та рекламної продукції.</span></span></p>\r\n"
+    - false
+  - - 46
+    - 17
+    - ru
+    - '2014-09-25 13:06:44.614343'
+    - '2014-10-10 08:05:09.713929'
+    - "<h1><span style=\"color:#ef2345\"><span style=\"font-size:48px\">&laquo; ЧЗМК
+      &raquo; &mdash; разработка корпоративного веб сайта</span></span></h1>\r\n"
+    - "<p><span style=\"color:#FFFFFF\"><span style=\"font-size:16px\">После успешной
+      разработки логотипа и фирменного стиля для завода металлоконструкций нам поручение
+      разработать корпоративный веб сайт, на котором будут представлены все достижения
+      и преимущества производителя.</span></span></p>\r\n"
+    - false
+  - - 47
+    - 17
+    - en
+    - '2014-09-25 13:06:44.626018'
+    - '2014-10-21 10:33:46.086788'
+    - "<h1><span style=\"color:#ef2345\"><span style=\"font-size:48px\">&laquo;CHZMK&raquo;
+      &mdash; Corporate website development</span></span></h1>\r\n"
+    - "<p><span style=\"color:#FFFFFF\"><span style=\"font-size:16px\">After the successful
+      development of a logo and corporate identity for fabricated metals instructed
+      us to develop a corporate Web site that will feature all the achievements and
+      benefits of products.</span></span></p>\r\n"
+    - true
+  - - 48
+    - 17
+    - uk
+    - '2014-09-25 13:06:44.637587'
+    - '2014-09-30 14:38:20.705019'
+    - "<h1><span style=\"color:#ef2345\"><span style=\"font-size:48px\">&laquo;ЧЗМК&raquo;
+      &mdash; розробка корпоративного веб сайту</span></span></h1>\r\n"
+    - "<p><span style=\"color:#FFFFFF\"><span style=\"font-size:16px\">Після успішної
+      розробки логотипу та фірмового стилю для заводу металоконструкцій нам доручили
+      розробити корпоративний веб сайт, на якому буде представлено усі досягнення
+      та переваги виробника.</span></span></p>\r\n"
+    - false
+  - - 49
+    - 18
+    - ru
+    - '2014-09-25 13:06:44.652367'
+    - '2014-10-10 14:44:01.421063'
+    - "<h1><span style=\"color:#FFA500\"><span style=\"font-size:48px\">&laquo;Гав!&raquo;&nbsp;
+      &mdash; разработка дизайна упаковки и нового логотипа</span></span></h1>\r\n"
+    - "<p><span style=\"color:#FFFFFF\"><span style=\"font-size:18px\">Старая упаковка
+      корма для собак &amp; laquo; Гав! &amp; Raquo; &amp; nbsp; для конкуренции на
+      полках нуждалась редизайна. В студии мы разработали новый логотип для корма
+      ГАВ! и обновили упаковку согласно позиционирования.</span></span></p>\r\n"
+    - true
+  - - 50
+    - 18
+    - en
+    - '2014-09-25 13:06:44.663861'
+    - '2014-10-10 08:05:37.225216'
+    - "<h1><span style=\"color:#FFA500\"><span style=\"font-size:48px\">&laquo;Gav!&raquo;&nbsp;
+      &mdash; packaging design and new logo</span></span></h1>\r\n"
+    - "<p><span style=\"color:#FFFFFF\"><span style=\"font-size:18px\">Old packaging
+      dog food &laquo;Gav!&raquo;&nbsp; needed redesign for сompetition on the shelves.
+      We have developed a new logo for the food Gav! and updated the packaging according
+      to positioning.</span></span></p>\r\n"
+    - true
+  - - 51
+    - 18
+    - uk
+    - '2014-09-25 13:06:44.675449'
+    - '2014-10-10 14:44:55.667991'
+    - "<h1><span style=\"color:#FFA500\"><span style=\"font-size:48px\">&laquo;Гав!&raquo;&nbsp;
+      &mdash; розробка дизайну упаковки та нового логотипу</span></span></h1>\r\n"
+    - "<p><span style=\"color:#FFFFFF\"><span style=\"font-size:18px\">Стара упаковка
+      корму для собак &laquo;Гав!&raquo;&nbsp; для конкуренції на поличках потребувала
+      редизайну. В студії ми розробили новий логотип для корму ГАВ! та оновили упаковку
+      відповідно до позиціонування.</span></span></p>\r\n"
+    - true
+  - - 52
+    - 19
+    - ru
+    - '2014-09-25 13:06:44.775589'
+    - '2016-11-24 15:47:02.014401'
+    - "<h1><span style=\"color:#17a6a0\"><span style=\"font-size:36px\">&laquo;Oleoleo&raquo;
+      &mdash;разработка логотипа и фирменного стиля</span></span></h1>\r\n"
+    - "<p><span style=\"color:#7b7b7b\">В студии мы разработали логотип и дополнили
+      его фирменным стилем для консалтинговой компании в области интернет маркетинга
+      (SEO, продвижение, контент менеджмент и т.д.) и управления веб проектами.</span></p>\r\n"
+    - true
+  - - 53
+    - 19
+    - en
+    - '2014-09-25 13:06:44.788083'
+    - '2014-10-21 10:31:07.327136'
+    - "<h1><span style=\"color:#17a6a0\"><span style=\"font-size:36px\">&laquo;Oleoleo&raquo;
+      &mdash; logo and corporate design development&nbsp;</span></span></h1>\r\n"
+    - "<p>We have developed a logo and complement its corporate identity for a consulting
+      company in the field of internet marketing (SEO, promotion, content management,
+      etc.) and managing web projects.</p>\r\n"
+    - true
+  - - 54
+    - 19
+    - uk
+    - '2014-09-25 13:06:44.800414'
+    - '2016-11-24 15:47:02.043253'
+    - "<h1><span style=\"color:#17a6a0\"><span style=\"font-size:36px\">&laquo;Oleoleo&raquo;
+      &mdash; розробка логотипу та фірмового стилю</span></span></h1>\r\n"
+    - "<p><span style=\"color:#7b7b7b\">В студії ми розробили логотип та доповнили
+      його фірмовим стилем для консалтингової компанії в галузі інтернет маркетингу
+      (SEO, просування, контент менеджмент, тощо) та управління веб проектами.</span></p>\r\n"
+    - true
+  - - 55
+    - 20
+    - ru
+    - '2014-09-25 13:06:44.815825'
+    - '2014-10-10 14:28:42.043958'
+    - "<h1><span style=\"font-size:48px\"><span style=\"color:#763418\">&laquo;Янталия&raquo;
+      &nbsp;&mdash; разработка дизайна этикетки и логотипа</span></span></h1>\r\n"
+    - "<p><span style=\"color:#ef4023\">Перед нами встала задача разработать логотип
+      и яркую этикетку для новой линейки подсолнечного масла.</span></p>\r\n"
+    - true
+  - - 56
+    - 20
+    - en
+    - '2014-09-25 13:06:44.827705'
+    - '2014-10-16 08:02:02.798145'
+    - "<h1><span style=\"font-size:48px\"><span style=\"color:#763418\">&laquo;Yantaliya&raquo;
+      &nbsp;&mdash; bottle label and logo design</span></span></h1>\r\n"
+    - "<p>We faced a challenge to create a logo and label for a great new line of
+      sunflower oil.</p>\r\n"
+    - true
+  - - 57
+    - 20
+    - uk
+    - '2014-09-25 13:06:44.839578'
+    - '2014-10-10 14:30:46.527400'
+    - "<h1><span style=\"font-size:48px\"><span style=\"color:#763418\">&laquo;Янталія&raquo;
+      &nbsp;&mdash; розробка дизайну етикетки та логотипу</span></span></h1>\r\n"
+    - "<p><span style=\"color:#ef4023\">Перед нами постало завдання розробити логотип
+      та яскраву етикетку для нової лінійки соняшникової олії.</span></p>\r\n"
+    - true
+  - - 58
+    - 21
+    - uk
+    - '2014-12-26 16:49:07.629797'
+    - '2016-11-21 12:22:44.232641'
+    - "<h1><span style=\"font-size:36px\"><span style=\"color:#FFFFFF\">&laquo;БудМікс&raquo;
+      &mdash; розробка дизайну упаковки та етикетки</span></span></h1>\r\n"
+    - "<p><span style=\"color:#FFFFFF\">Викликом студії стала розробка нової упаковки
+      та її сегментації для кращого розпізнавання на поличках магазинів.</span></p>\r\n"
+    - true
+  - - 59
+    - 21
+    - en
+    - '2014-12-26 16:49:07.654213'
+    - '2016-11-23 17:42:36.072167'
+    - "<h1><span style=\"font-size:36px\"><span style=\"color:#FFFFFF\">&laquo;BudMix&raquo;
+      &mdash; packaging and labels development</span></span></h1>\r\n"
+    - "<p><span style=\"color:#FFFFFF\">The challenge was to develop a new studio
+      package and its segmentation to better recognize on the shelves of stores.</span></p>\r\n"
+    - true
+  - - 60
+    - 21
+    - ru
+    - '2014-12-26 16:49:07.667294'
+    - '2016-11-23 17:42:36.085619'
+    - "<h1><span style=\"font-size:36px\"><span style=\"color:#FFFFFF\">&laquo;БудМікс&raquo;
+      &mdash; разработка дизайна упаковки и етикеткы</span></span></h1>\r\n"
+    - "<p><span style=\"color:#FFFFFF\">Вызовом студии стала разработка новой упаковки
+      и ее сегментации для лучшего распознавания на полках магазинов.</span></p>\r\n"
+    - true
+  - - 61
+    - 22
+    - uk
+    - '2015-01-24 15:13:28.812125'
+    - '2015-01-24 15:13:28.812125'
+    - "<h1><span style=\"font-size:36px\"><span style=\"color:#FFFFFF\">&laquo;БудМікс&raquo;
+      &mdash; розробка фірмового стилю та рекламної продукції</span></span></h1>\r\n"
+    - "<p><span style=\"color:#FFFFFF\">У відповідності до оновлення упаковки продукції
+      у студії розробили новий фірмовий стиль та рекламну продукцію.</span></p>\r\n"
+    - true
+  - - 62
+    - 22
+    - en
+    - '2015-01-24 15:13:28.819311'
+    - '2016-11-23 17:31:58.191188'
+    - "<h1><span style=\"font-size:36px\"><span style=\"color:#FFFFFF\">&laquo;BudMix&raquo;
+      &mdash; corporate identity and promotional products development</span></span></h1>\r\n"
+    - "<p><span style=\"color:#FFFFFF\">According to the updated product packaging
+      in the studio developed a new corporate identity and promotional products.</span></p>\r\n"
+    - true
+  - - 63
+    - 22
+    - ru
+    - '2015-01-24 15:13:28.822472'
+    - '2016-11-23 17:31:58.204305'
+    - "<h1><span style=\"font-size:36px\"><span style=\"color:#FFFFFF\">&laquo;БудМікс&raquo;
+      &mdash; разработка фирменного стиля и рекламной продукции</span></span></h1>\r\n"
+    - "<p><span style=\"color:#FFFFFF\">В соответствии с обновления упаковки продукции
+      в студии разработали новый фирменный стиль и рекламную продукцию.</span></p>\r\n"
+    - true
+  - - 64
+    - 23
+    - uk
+    - '2015-01-27 12:26:54.289966'
+    - '2015-01-27 15:43:21.419460'
+    - "<h1><span style=\"color:rgb(255, 255, 255)\"><span style=\"font-size:48px\">&laquo;Екотель&raquo;
+      &mdash; розробка веб-сервісу для готелю економ класу</span></span></h1>\r\n"
+    - "<p><span style=\"color:rgb(255, 255, 255)\">Ми розробили простий та зручний
+      веб-сайт готелю у Львові.&nbsp;</span></p>\r\n"
+    - true
+  - - 65
+    - 23
+    - en
+    - '2015-01-27 12:26:54.296925'
+    - '2016-11-24 13:33:10.938383'
+    - "<h1><span style=\"color:rgb(255, 255, 255)\"><span style=\"font-size:48px\">&laquo;Ekotel&raquo;
+      &mdash; web services for economy class hotel development</span></span></h1>\r\n"
+    - "<p><span style=\"color:rgb(255, 255, 255)\">We have developed a simple and
+      easy web site at Lviv.&nbsp;</span></p>\r\n"
+    - true
+  - - 66
+    - 23
+    - ru
+    - '2015-01-27 12:26:54.300091'
+    - '2016-11-24 13:33:10.967403'
+    - "<h1><span style=\"color:rgb(255, 255, 255)\"><span style=\"font-size:48px\">&laquo;Екотель&raquo;
+      &mdash; разработка веб-сервиса для гостиницы эконом класса</span></span></h1>\r\n"
+    - "<p><span style=\"color:rgb(255, 255, 255)\">Мы разработали простой и удобный
+      веб-сайт отеля во Львове.&nbsp;</span></p>\r\n"
+    - true
+  - - 67
+    - 24
+    - uk
+    - '2015-01-28 08:44:15.778042'
+    - '2015-02-16 10:08:02.047833'
+    - "<h1><span style=\"color:#f15522\"><span style=\"font-size:36px\">&laquo;Їжа.ки&raquo;
+      &mdash; розробка логотипу та фірмового стилю</span></span></h1>\r\n"
+    - "<p><span style=\"color:#FFFFFF\">В студії ми придумали назву, розробили логотип
+      та доповнили його фірмовим стилем для служби доставки їжі.</span></p>\r\n"
+    - true
+  - - 68
+    - 24
+    - en
+    - '2015-01-28 08:44:15.785016'
+    - '2016-11-23 16:43:53.763938'
+    - "<h1><span style=\"color:rgb(241, 85, 34)\"><span style=\"font-size:36px\">&laquo;Izhaky&raquo;
+      &mdash; logo and corporate design development</span></span></h1>\r\n"
+    - "<p><span style=\"color:#FFFFFF\">We came up with the name, logo and developed
+      its corporate style complement to food delivery service.</span></p>\r\n"
+    - true
+  - - 69
+    - 24
+    - ru
+    - '2015-01-28 08:44:15.788161'
+    - '2016-11-23 16:43:53.787515'
+    - "<h1><span style=\"color:rgb(241, 85, 34)\"><span style=\"font-size:36px\">&laquo;Їжа.ки&raquo;
+      &mdash; разработка логотипа и фирменного стиля</span></span></h1>\r\n"
+    - "<p><span style=\"color:#FFFFFF\">В студии мы придумали название, разработали
+      логотип и дополнили его фирменным стилем для службы доставки еды.</span></p>\r\n"
+    - true
+  - - 70
+    - 25
+    - uk
+    - '2015-01-28 12:51:16.914426'
+    - '2016-11-23 13:25:40.667494'
+    - "<h1><span style=\"color:rgb(33, 40, 68)\"><span style=\"font-size:48px\">&laquo;Їжа.ки&raquo;
+      &mdash; розробка веб-сервісу доставки їжі</span></span></h1>\r\n"
+    - "<p><span style=\"color:rgb(255, 255, 255)\">Ми розробили простий та зручний
+      веб-сервіс замовлення доставки їжі.&nbsp;</span></p>\r\n"
+    - true
+  - - 71
+    - 25
+    - en
+    - '2015-01-28 12:51:16.923552'
+    - '2016-11-23 13:25:41.201006'
+    - "<h1><span style=\"color:rgb(33, 40, 68)\"><span style=\"font-size:48px\">&laquo;Izhaky&raquo;
+      &mdash; Food delivery website development</span></span></h1>\r\n"
+    - <p><span style="color:rgb(255, 255, 255)">We have developed a simple and useful
+      web service food ordering.&nbsp;</span></p>
+    - true
+  - - 72
+    - 25
+    - ru
+    - '2015-01-28 12:51:16.927767'
+    - '2016-11-23 13:25:41.210132'
+    - "<h1><span style=\"color:rgb(33, 40, 68)\"><span style=\"font-size:48px\">&laquo;Їжа.ки&raquo;
+      &mdash; разработка веб-сервиса доставки еды</span></span></h1>\r\n"
+    - <p><span style="color:rgb(255, 255, 255)">Мы разработали простой и удобный веб-сервис
+      заказа доставки еды.&nbsp;</span></p>
+    - true
+  - - 73
+    - 26
+    - uk
+    - '2015-01-30 11:40:29.994468'
+    - '2015-01-30 11:44:44.445084'
+    - "<h1><span style=\"color:rgb(152, 71, 8)\"><span style=\"font-size:48px\">&laquo;Жирафа&raquo;
+      &mdash; редизайн веб-сайту для студії дитячої йоги</span></span></h1>\r\n"
+    - "<p><span style=\"color:rgb(255, 255, 255)\">Ми провели редизайн веб-сайту згідно
+      сучасних стандартів для студії дитячої йоги у Львові.&nbsp;</span></p>\r\n"
+    - true
+  - - 74
+    - 26
+    - en
+    - '2015-01-30 11:40:30.003439'
+    - '2016-11-24 16:02:58.362747'
+    - "<h1><span style=\"color:rgb(152, 71, 8)\"><span style=\"font-size:48px\">&laquo;Girafa&raquo;
+      &mdash; Website redesign of child yoga studio</span></span></h1>\r\n"
+    - "<p><span style=\"color:rgb(255, 255, 255)\">We had a redesign website according
+      to modern standards for children&#39;s yoga studio in.&nbsp;</span></p>\r\n"
+    - true
+  - - 75
+    - 26
+    - ru
+    - '2015-01-30 11:40:30.006638'
+    - '2016-11-24 16:02:58.385156'
+    - "<h1><span style=\"color:rgb(152, 71, 8)\"><span style=\"font-size:48px\">&laquo;Жирафа&raquo;
+      &mdash; редизайн сайта для студии детской йоги</span></span></h1>\r\n"
+    - "<p><span style=\"color:rgb(255, 255, 255)\">Мы провели редизайн сайта согласно
+      современным стандартам для студии детского йоги во Львове.&nbsp;</span></p>\r\n"
+    - true
+  - - 76
+    - 27
+    - uk
+    - '2015-01-30 14:44:31.560720'
+    - '2015-05-04 14:30:24.321632'
+    - "<h1><span style=\"color:rgb(255, 255, 255)\"><span style=\"font-size:48px\">&laquo;Лайк
+      Тур&raquo; &mdash; розробка веб-сервісу організації екскурсій та турів</span></span></h1>\r\n"
+    - "<p><span style=\"color:rgb(255, 255, 255)\">Ми розробили простий та зручний
+      веб-сервіс для тих хто хоче подорожувати.&nbsp;</span></p>\r\n"
+    - true
+  - - 77
+    - 27
+    - en
+    - '2015-01-30 14:44:31.587793'
+    - '2016-11-23 13:57:51.546382'
+    - <h1><span style="color:rgb(255, 255, 255)"><span style="font-size:48px">&laquo;Like
+      tour&raquo; &mdash; service of excursions and tours development</span></span></h1>
+    - "<p><span style=\"color:rgb(255, 255, 255)\">We have developed a simple and
+      useful web service for those who want to travel.&nbsp;</span></p>\r\n"
+    - true
+  - - 78
+    - 27
+    - ru
+    - '2015-01-30 14:44:31.591174'
+    - '2016-11-23 13:57:51.585598'
+    - <h1><span style="color:rgb(255, 255, 255)"><span style="font-size:48px">&laquo;Лайк
+      Тур&raquo; &mdash; разработка веб-сервиса организации экскурсий и туров</span></span></h1>
+    - "<p><span style=\"color:rgb(255, 255, 255)\">Мы разработали простой и удобный
+      веб-сервис для тех, кто хочет путешествовать.&nbsp;</span></p>\r\n"
+    - true
+  - - 79
+    - 28
+    - uk
+    - '2015-06-29 09:51:03.412922'
+    - '2016-11-23 12:59:28.062855'
+    - "<h1><span style=\"color:rgb(255, 255, 255)\"><span style=\"font-size:48px\">&laquo;Валько&raquo;
+      &mdash; розробка інтернет магазину</span></span></h1>\r\n"
+    - "<p><span style=\"color:rgb(255, 255, 255)\">Ми розробили функціональний та
+      зручний інтернет магазин з адаптивним дизайном у стилі &quot;матеріал дизайн&quot;&nbsp;</span></p>\r\n"
+    - true
+  - - 80
+    - 28
+    - en
+    - '2015-06-29 09:51:03.427887'
+    - '2016-11-23 12:59:28.315802'
+    - "<h1><span style=\"color:rgb(255, 255, 255)\"><span style=\"font-size:48px\">&laquo;Valko&raquo;
+      &mdash; online store development</span></span></h1>\r\n"
+    - "<p><span style=\"color:rgb(255, 255, 255)\">We have to develope a functional
+      and convenient online shop with responsive design in style &quot;material design&quot;&nbsp;</span></p>\r\n"
+    - true
+  - - 81
+    - 28
+    - ru
+    - '2015-06-29 09:51:03.442752'
+    - '2016-11-23 12:59:28.442441'
+    - "<h1><span style=\"color:rgb(255, 255, 255)\"><span style=\"font-size:48px\">&laquo;Валько&raquo;
+      &mdash; разработка интернет магазина</span></span></h1>\r\n"
+    - "<p><span style=\"color:rgb(255, 255, 255)\">Мы разработали функциональный и
+      удобный интернет магазин с адаптивным дизайном в стиле &amp; quot; материал
+      дизайн&quot;&nbsp;</span></p>\r\n"
+    - true
+  - - 82
+    - 29
+    - uk
+    - '2015-06-29 11:48:06.819570'
+    - '2015-06-29 11:48:06.819570'
+    - "<p>dsafds</p>\r\n"
+    - "<p>fdsfdsf</p>\r\n"
+    - false
+  - - 83
+    - 29
+    - en
+    - '2015-06-29 11:48:06.840663'
+    - '2015-06-29 11:48:06.840663'
+    - ''
+    - ''
+    - false
+  - - 84
+    - 29
+    - ru
+    - '2015-06-29 11:48:06.847674'
+    - '2015-06-29 11:48:06.847674'
+    - ''
+    - ''
+    - false
+  - - 85
+    - 30
+    - uk
+    - '2015-09-03 12:08:25.973977'
+    - '2015-09-03 13:41:57.805537'
+    - "<h1><span style=\"color:rgb(255, 255, 255)\"><span style=\"font-size:48px\">&laquo;Radok&raquo;
+      &mdash; розробка інтернет магазину</span></span></h1>\r\n"
+    - "<p><span style=\"color:rgb(255, 255, 255)\">Ми розробили фукціональний та зручний
+      інтернет магазин з адаптивним дизайном у стилі &quot;матеріал дизайн&quot;&nbsp;</span></p>\r\n"
+    - true
+  - - 86
+    - 30
+    - en
+    - '2015-09-03 12:08:26.048422'
+    - '2015-09-03 12:08:26.048422'
+    - ''
+    - ''
+    - false
+  - - 87
+    - 30
+    - ru
+    - '2015-09-03 12:08:26.099643'
+    - '2015-09-03 12:08:26.099643'
+    - ''
+    - ''
+    - false
+  - - 88
+    - 31
+    - uk
+    - '2016-09-21 13:22:38.972529'
+    - '2016-09-21 16:52:40.376543'
+    - "<h1><span style=\"color:#FFFFFF\">&laquo;Яммі...&raquo; &mdash; шаблони адаптивних
+      веб-сайтів для Бургер-кафе та кав&#39;ярні</span></h1>\r\n"
+    - "<p><span style=\"color:#976b05\">Ми раді поділитися з вами прекрасними, легкими
+      до модифікації, адаптивними шаблонами для Бургер кафе та Кав&rsquo;ярні абсолютно
+      БЕЗКОШТОВНО!</span></p>\r\n"
+    - true
+  - - 89
+    - 31
+    - en
+    - '2016-09-21 13:22:38.985713'
+    - '2016-11-21 10:37:23.547646'
+    - "<h1><span style=\"color:#FFFFFF\">Yummy... &mdash; is a responsive landing
+      page template for Burger cafe or Coffeeshop</span></h1>\r\n"
+    - "<p><span style=\"color:#976b05\">We are pleased to share with you our gorgeous,
+      easy to customise responsive template for burger cafe or coffeeshop for FREE!
+      Absolutely free for personal and commercial use.</span></p>\r\n"
+    - true
+  - - 90
+    - 31
+    - ru
+    - '2016-09-21 13:22:38.992724'
+    - '2016-11-23 12:52:25.124536'
+    - "<h1><span style=\"color:#FFFFFF\">&laquo;Яммі...&raquo; &mdash; шаблоны адаптивных
+      веб-сайтов для Бургер-кафе</span></h1>\r\n"
+    - "<p><span style=\"color:#976b05\">Мы рады поделиться с вами прекрасными, легкими
+      модификации, адаптивными шаблонами для Бургер кафе абсолютно БЕСПЛАТНО!</span></p>\r\n"
+    - true

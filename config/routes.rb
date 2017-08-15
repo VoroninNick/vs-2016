@@ -24,6 +24,10 @@ Rails.application.routes.draw do
       get ":id", as: :article, action: :show
     end
 
+    scope "portfolio", controller: :portfolio do
+      get ":id", action: :show, as: :portfolio_project
+    end
+
     scope :projects, controller: "projects" do
       root action: :index, as: :projects
       get ":id", action: "show", as: :project_or_category

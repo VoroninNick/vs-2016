@@ -1,0 +1,496 @@
+
+---
+portfolio_banners:
+  columns:
+  - id
+  - name
+  - description
+  - portfolio_id
+  - created_at
+  - updated_at
+  - title
+  - background_file_name
+  - background_content_type
+  - background_file_size
+  - background_updated_at
+  - background_file_name_fallback
+  - published
+  - background_alt
+  records: 
+  - - 1
+    - "Оновлення сайту студії"
+    - "<div id=\"voronin-web-banner\">\r\n\r\n</div>"
+    - 1
+    - '2013-03-31 20:16:19.597876'
+    - '2014-09-25 13:06:43.886342'
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - false
+    - 
+  - - 2
+    - "Ресторан"
+    - "буфет і 0.5 - це бар і пивний ресторан у серці міста обєднані відрожденою атмосферою
+      Львова 70-70 . У закладах відтворений побут, а в мненю кулінарні та алкогольні
+      суперхіти тих часів. це традиційна культура пиття хмільних напоїв, проста й
+      перевірена часом кухня, стильний інтерєр, комфорт та обслуговування з душею."
+    - 3
+    - '2013-10-11 07:58:52.409562'
+    - '2015-04-14 11:36:20.643868'
+    - "Ресторан шоу-бар «0,5»"
+    - 2-f791e0e38b62448c04662d48128441fb.jpg
+    - image/jpeg
+    - 649979
+    - '2015-04-14 11:36:18.796392'
+    - 2-f791e0e38b62448c04662d48128441fb.jpg
+    - false
+    - 
+  - - 3
+    - "Оновлення сайту студії_new_banner"
+    - "Частица принципиально неизмерима. Силовое поле кумулятивно. Темная материя
+      теоретически возможна. Если предварительно подвергнуть объекты длительному вакуумированию,
+      то расслоение излучает эксимер, как и предсказывает общая теория поля."
+    - 3
+    - '2013-10-26 11:55:17.822822'
+    - '2015-04-14 11:36:22.639423'
+    - "Оновлення сайту студії"
+    - 2.jpg
+    - image/jpeg
+    - 649979
+    - '2015-04-14 11:36:20.814327'
+    - 2.jpg
+    - false
+    - 
+  - - 5
+    - "— це демократичний заклад Європейського формату, орієнтований на молодь. Вдень
+      - це ресторан та коктейль клуб, а вночі - це нічний клуб з шоу-програмами та
+      запрошеними гістьми."
+    - "<p><span style=\"color:#FFFFFF\">&mdash; це демократичний заклад Європейського
+      формату, орієнтований на молодь. Вдень - це ресторан та коктейль клуб, а вночі
+      - це нічний клуб з шоу-програмами та запрошеними гістьми.</span></p>\r\n"
+    - 13
+    - '2014-04-09 10:38:22.653305'
+    - '2015-04-14 11:36:24.239463'
+    - "<h1><span style=\"font-size:48px\"><span style=\"color:#FFFFFF\">MOLOKO - розробка
+      логотипу і фірмового стилю для нічного клубу</span></span></h1>\r\n"
+    - moloko-main-banner-1.jpg
+    - image/jpeg
+    - 227698
+    - '2015-04-14 11:36:22.784883'
+    - moloko-main-banner-1.jpg
+    - false
+    - 
+  - - 6
+    - Green Telecom
+    - "<p><span style=\"color:#cccccc\">Задачею студію стала розробка екологічного
+      логотипу та фірмового стилю для інтернет провайдера.</span></p>\r\n"
+    - 14
+    - '2014-04-10 08:56:48.884518'
+    - '2015-04-14 11:36:25.687807'
+    - "<p><span style=\"color:#cccccc\"><span style=\"font-size:48px\">​</span></span><span
+      style=\"color:#cccccc\"><span style=\"font-size:48px\">&laquo;GREEN TELECOM&raquo;
+      &mdash; розробка логотипу та фірмового стилю</span></span></p>\r\n"
+    - portfolio-banner-1.jpg
+    - image/jpeg
+    - 117534
+    - '2015-04-14 11:36:24.381374'
+    - portfolio-banner-1.jpg
+    - false
+    - 
+  - - 7
+    - "«CARPATHIAN WINDOWS»"
+    - ''
+    - 6
+    - '2014-04-11 16:47:23.337769'
+    - '2015-04-14 11:36:27.378642'
+    - ''
+    - portfolio-banner-2.jpg
+    - image/jpeg
+    - 584885
+    - '2015-04-14 11:36:25.821637'
+    - portfolio-banner-2.jpg
+    - false
+    - 
+  - - 8
+    - 'Investment Intelligence '
+    - "<!--<p><span style=\"color:#FFFFFF\">Looking for new ways to improve investment
+      performance or quickly spot insider trading?</span></p>\r\n\r\n<p><span style=\"color:#FFFFFF\">We
+      can help you by providing innovative analytical software for the financial industry
+      that uses the power of applied behavioural science. Investment Intelligence
+      serves banks, asset management firms, hedge funds and fund-of-funds worldwide.</span></p>\r\n-->\r\n<p><span
+      style=\"color:#FFFFFF\">Завданням було розробити логотип, фірмовий стиль та
+      рекламні матеріали для компанії, яка розробляє інноваційне аналітичне програмне
+      забезпечення у сфері фінансової індустрії.</span></p>\r\n"
+    - 17
+    - '2014-04-12 14:22:04.048121'
+    - '2016-11-24 15:58:34.051261'
+    - "<h1><span style=\"font-size:48px\"><span style=\"color:#FFFFFF\">&laquo;Investment
+      Intelligence&raquo; - розробка логотипу та фірмового стилю</span></span></h1>\r\n"
+    - portfolio-banner-invest-1.jpg
+    - image/jpeg
+    - 103475
+    - '2015-04-14 11:36:27.498685'
+    - portfolio-banner-invest-1.jpg
+    - false
+    - 
+  - - 9
+    - rusyn-o
+    - "<p><span style=\"color:#FFFFFF\">Для студії випала нагода підправити логотип,
+      розробити професійний фірмовий стиль, цікавий рекламний каталог з повним спектром
+      продукції компанії, а також сайт каталог.</span></p>\r\n"
+    - 18
+    - '2014-04-15 12:21:19.273217'
+    - '2015-04-14 11:36:30.305087'
+    - "<h1><span style=\"color:#fec52d\"><span style=\"font-size:36px\">&laquo;РУСИН-О&raquo;
+      &mdash; модифікація логотипу, розробка фірмового стилю та рекламного каталогу</span></span></h1>\r\n"
+    - Rysun-o-banner-3.jpg
+    - image/jpeg
+    - 202764
+    - '2015-04-14 11:36:28.921494'
+    - Rysun-o-banner-3.jpg
+    - false
+    - 
+  - - 10
+    - valko-ua
+    - "<p><span style=\"color:#FFFFFF\">Нам довірили провести візуальний ребрендинг
+      торгової компанії, яка спеціалізується на продажі металопластикових вікон, зовнішніх
+      підвіконь, жалюзі, аксесуарів і т.п. продукції.</span></p>\r\n"
+    - 19
+    - '2014-04-15 15:50:20.878045'
+    - '2015-06-29 15:29:49.338731'
+    - "<h1><span style=\"color:#FFFFFF\"><span style=\"font-size:36px\">&laquo;Валько&raquo;
+      &mdash; розробка логотипу та фірмового стилю</span></span></h1>\r\n"
+    - Valko-banner.jpg
+    - image/jpeg
+    - 289822
+    - '2015-04-14 11:36:30.431477'
+    - Valko-banner.jpg
+    - false
+    - 
+  - - 11
+    - games3k-ban Ігри нового покоління!
+    - "<p><span style=\"color:#FFFFFF\">Нашою задачею стало придумати назву, створити
+      логотип та фірмовий стиль. А також інтернет магазин для реалізації товару через
+      інтернет.</span></p>\r\n"
+    - 20
+    - '2014-04-15 18:07:25.871110'
+    - '2015-04-14 11:36:33.342789'
+    - "<h1><span style=\"color:#f36b22\"><span style=\"font-size:36px\">&laquo;Games3K&raquo;
+      &mdash; розробка логотипу та фірмового стилю!</span></span></h1>\r\n"
+    - G3K-banner-2.jpg
+    - image/jpeg
+    - 95854
+    - '2015-04-14 11:36:32.032614'
+    - G3K-banner-2.jpg
+    - false
+    - 
+  - - 12
+    - czmk
+    - "<p><span style=\"color:#FFFFFF\">Задачею для нашої студії стала розробка логотипу,
+      фірмового стилю та каталогів продукції для величезного завода по виготовленню
+      металоконструкцій та решітчастого настилу.</span></p>\r\n"
+    - 21
+    - '2014-04-17 09:34:07.645619'
+    - '2015-04-14 11:36:35.241222'
+    - "<h1><span style=\"color:#ee3342\"><span style=\"font-size:36px\">&laquo;ЧЗМК&raquo;
+      &nbsp;&mdash; розробка логотипу, фірмового стилю, друкованої продукції</span></span></h1>\r\n"
+    - czmk-portfolio-banner-4.jpg
+    - image/jpeg
+    - 579617
+    - '2015-04-14 11:36:33.483550'
+    - czmk-portfolio-banner-4.jpg
+    - false
+    - 
+  - - 13
+    - Heart-appartments
+    - "<p><span style=\"color:#cccccc\">Ми розробили простий та зручний веб сервір
+      короткотривалої оренди квартир у м. Львові.&nbsp;</span></p>\r\n"
+    - 22
+    - '2014-04-17 13:29:52.192010'
+    - '2016-11-24 15:42:51.830576'
+    - "<h1><span style=\"color:#a7d82f\"><span style=\"font-size:48px\">&laquo;Серце
+      квартир Львова&raquo; &mdash; розробка веб сервісу пошуку квартир</span></span></h1>\r\n"
+    - portfolio-banner-hola-2.jpg
+    - image/jpeg
+    - 125209
+    - '2015-04-14 11:36:35.382803'
+    - portfolio-banner-hola-2.jpg
+    - false
+    - 
+  - - 14
+    - bnb-paintball-web
+    - "<p><span style=\"color:#FFFFFF\">Розробивши логотип та фірмовий стиль ми приступили
+      до розробки презентаційного сайту для найбільшого пейнтольного комплексу у західному
+      регіоні.</span></p>\r\n"
+    - 23
+    - '2014-04-19 16:04:37.343904'
+    - '2015-04-14 11:36:38.281774'
+    - "<h1><span style=\"color:#d00501\"><span style=\"font-size:48px\"><strong>&laquo;BNB
+      Paintball&raquo;&nbsp; &mdash; розробка презентаційного веб сайту</strong></span></span></h1>\r\n"
+    - portfolio-banner-bnbpaintball-2.jpg
+    - image/jpeg
+    - 293125
+    - '2015-04-14 11:36:36.820752'
+    - portfolio-banner-bnbpaintball-2.jpg
+    - false
+    - 
+  - - 15
+    - bnb-paintball-ci
+    - "<p><span style=\"color:#FFFFFF\"><span style=\"font-size:16px\">Нам доручили
+      розробити логотип та фірмовий стиль для найбільшого пейнтбольного комплексу
+      у Західному регіоні.</span></span></p>\r\n"
+    - 24
+    - '2014-04-23 13:04:55.509515'
+    - '2015-04-14 11:36:39.989217'
+    - "<h1><strong><span style=\"color:#cc0000\"><span style=\"font-size:36px\">&laquo;BNB
+      Paintball&raquo;&nbsp; &mdash; розробка логотипу та фірмового стилю</span></span></strong></h1>\r\n"
+    - BnB-portfolio-banner.jpg
+    - image/jpeg
+    - 333019
+    - '2015-04-14 11:36:38.434210'
+    - BnB-portfolio-banner.jpg
+    - false
+    - 
+  - - 16
+    - TrickyFox-ci-banner
+    - "<p><span style=\"color:#fad5b3\"><span style=\"font-size:14px\">Нашою задачею
+      стало розробка логотипу, фірмового стилю, карток на знижки, подарункових сертифікатів
+      та рекламної продукції.</span></span></p>\r\n"
+    - 25
+    - '2014-04-25 14:23:26.946604'
+    - '2015-04-14 11:36:41.598721'
+    - "<h1><span style=\"color:#e44418\"><span style=\"font-size:36px\">&laquo;ТrickyFox.ru&raquo;&nbsp;&mdash;
+      розробка логотипу, фірмового стилю та рекламної продукції</span></span></h1>\r\n"
+    - Fox-portfolio-banner.jpg
+    - image/jpeg
+    - 333272
+    - '2015-04-14 11:36:40.124346'
+    - Fox-portfolio-banner.jpg
+    - false
+    - 
+  - - 17
+    - czmk
+    - "<p><span style=\"color:#FFFFFF\"><span style=\"font-size:16px\">Після успішної
+      розробки логотипу та фірмового стилю для заводу металоконструкцій нам доручили
+      розробити корпоративний веб сайт, на якому буде представлено усі досягнення
+      та переваги виробника.</span></span></p>\r\n"
+    - 26
+    - '2014-05-17 14:32:24.074148'
+    - '2015-04-14 11:36:43.318397'
+    - "<h1><span style=\"color:#ef2345\"><span style=\"font-size:48px\">&laquo;ЧЗМК&raquo;
+      &mdash; розробка корпоративного веб сайту</span></span></h1>\r\n"
+    - Portfolio-banner-czmk-1.jpg
+    - image/jpeg
+    - 199799
+    - '2015-04-14 11:36:41.823363'
+    - Portfolio-banner-czmk-1.jpg
+    - false
+    - 
+  - - 18
+    - gav-food«Гав!»
+    - "<p><span style=\"color:#FFFFFF\"><span style=\"font-size:18px\">Стара упаковка
+      корму для собак &laquo;Гав!&raquo;&nbsp; для конкуренції на поличках потребувала
+      редизайну. В студії ми розробили новий логотип для корму ГАВ! та оновили упаковку
+      відповідно до позиціонування.</span></span></p>\r\n"
+    - 27
+    - '2014-05-20 14:32:41.618675'
+    - '2015-04-14 11:36:44.879464'
+    - "<h1><span style=\"color:#FFA500\"><span style=\"font-size:48px\">&laquo;Гав!&raquo;&nbsp;
+      &mdash; розробка дизайну упаковки та нового логотипу</span></span></h1>\r\n"
+    - Gav-banner-1.jpg
+    - image/jpeg
+    - 260516
+    - '2015-04-14 11:36:43.482345'
+    - Gav-banner-1.jpg
+    - false
+    - 
+  - - 19
+    - Oleoleo
+    - "<p><span style=\"color:#7b7b7b\">В студії ми розробили логотип та доповнили
+      його фірмовим стилем для консалтингової компанії в галузі інтернет маркетингу
+      (SEO, просування, контент менеджмент, тощо) та управління веб проектами.</span></p>\r\n"
+    - 28
+    - '2014-05-24 17:25:10.095430'
+    - '2016-11-24 15:47:02.050182'
+    - "<h1><span style=\"color:#17a6a0\"><span style=\"font-size:36px\">&laquo;Oleoleo&raquo;
+      &mdash; розробка логотипу та фірмового стилю</span></span></h1>\r\n"
+    - oleoleo-banner-2a.jpg
+    - image/jpeg
+    - 129422
+    - '2015-04-14 11:36:45.016617'
+    - oleoleo-banner-2a.jpg
+    - false
+    - 
+  - - 20
+    - "Янталия"
+    - "<p><span style=\"color:#ef4023\">Перед нами постало завдання розробити логотип
+      та яскраву етикетку для нової лінійки соняшникової олії.</span></p>\r\n"
+    - 29
+    - '2014-06-09 11:27:16.599946'
+    - '2015-04-14 11:36:47.898403'
+    - "<h1><span style=\"font-size:48px\"><span style=\"color:#763418\">&laquo;Янталія&raquo;
+      &nbsp;&mdash; розробка дизайну етикетки та логотипу</span></span></h1>\r\n"
+    - portfolio-banner-jantalia-oil-2.jpg
+    - image/jpeg
+    - 214177
+    - '2015-04-14 11:36:46.510253'
+    - portfolio-banner-jantalia-oil-2.jpg
+    - false
+    - 
+  - - 21
+    - bud-mix-pachage
+    - 
+    - 31
+    - '2014-12-26 16:49:07.627261'
+    - '2016-11-23 17:42:36.091695'
+    - 
+    - portfolio-banner-2b.jpg
+    - image/jpeg
+    - 286397
+    - '2015-04-14 11:36:48.065303'
+    - portfolio-banner-2b.jpg
+    - false
+    - 
+  - - 22
+    - bud-mix-ci
+    - 
+    - 32
+    - '2015-01-24 15:13:28.809659'
+    - '2016-11-23 17:31:58.210284'
+    - 
+    - portfolio-banner-2bb.jpg
+    - image/jpeg
+    - 106335
+    - '2015-04-14 11:36:49.727829'
+    - portfolio-banner-2bb.jpg
+    - false
+    - 
+  - - 23
+    - Ekotel
+    - 
+    - 33
+    - '2015-01-27 12:26:54.287953'
+    - '2016-11-24 13:33:10.987945'
+    - 
+    - Ekotel-banner.jpg
+    - image/jpeg
+    - 135178
+    - '2015-04-14 11:36:51.199895'
+    - Ekotel-banner.jpg
+    - false
+    - 
+  - - 24
+    - yizhaku-ci-banner
+    - 
+    - 35
+    - '2015-01-28 08:44:15.776231'
+    - '2016-11-23 16:43:53.793927'
+    - 
+    - portfolio-banner-y-2.jpg
+    - image/jpeg
+    - 168788
+    - '2015-04-14 11:36:52.670962'
+    - portfolio-banner-y-2.jpg
+    - false
+    - 
+  - - 25
+    - Yizhaku
+    - 
+    - 36
+    - '2015-01-28 12:51:16.912257'
+    - '2016-11-23 13:25:41.216917'
+    - 
+    - Yizhaku-web-banner.jpg
+    - image/jpeg
+    - 409858
+    - '2015-04-14 11:36:54.197307'
+    - Yizhaku-web-banner.jpg
+    - false
+    - 
+  - - 26
+    - Girafa
+    - 
+    - 37
+    - '2015-01-30 11:40:29.992264'
+    - '2016-11-24 16:02:58.393472'
+    - 
+    - Girafa-web-banner.jpg
+    - image/jpeg
+    - 287909
+    - '2015-04-14 11:36:55.958771'
+    - Girafa-web-banner.jpg
+    - false
+    - 
+  - - 27
+    - Liketour
+    - 
+    - 38
+    - '2015-01-30 14:44:31.558813'
+    - '2016-11-23 13:57:51.591825'
+    - 
+    - LT-banner.jpg
+    - image/jpeg
+    - 215375
+    - '2015-04-14 11:36:57.654316'
+    - LT-banner.jpg
+    - false
+    - 
+  - - 28
+    - valko-web
+    - 
+    - 39
+    - '2015-06-29 09:51:03.410859'
+    - '2016-11-23 12:59:28.509373'
+    - 
+    - portfolio-banner-valko-ua-1.jpg
+    - image/jpeg
+    - 49230
+    - '2015-06-29 09:52:26.404530'
+    - portfolio-banner-valko-ua-1.jpg
+    - false
+    - 
+  - - 29
+    - ferm-service-web
+    - 
+    - 40
+    - '2015-06-29 11:48:06.817278'
+    - '2015-06-29 11:48:06.853074'
+    - 
+    - portfolio-banner-fermservice-1.jpg
+    - image/jpeg
+    - 276923
+    - '2015-06-29 11:48:06.616198'
+    - portfolio-banner-fermservice-1.jpg
+    - false
+    - 
+  - - 30
+    - radok-web-banner
+    - 
+    - 41
+    - '2015-09-03 12:08:25.971078'
+    - '2015-09-03 13:41:57.833232'
+    - 
+    - portfolio-banner-radok-force-1a.jpg
+    - image/jpeg
+    - 112937
+    - '2015-09-03 12:08:25.702252'
+    - portfolio-banner-radok-force-1a.jpg
+    - false
+    - 
+  - - 31
+    - '"Yummy templates" — responsive landing page template for Burger cafe or Coffeeshop'
+    - 
+    - 42
+    - '2016-09-21 13:22:38.970689'
+    - '2016-11-23 12:52:25.360600'
+    - 
+    - portfolio-banner_yummycafe.jpg
+    - image/jpeg
+    - 84977
+    - '2016-09-21 13:26:45.312378'
+    - portfolio-banner_yummycafe.jpg
+    - true
+    - 

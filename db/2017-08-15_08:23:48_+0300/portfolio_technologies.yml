@@ -1,0 +1,89 @@
+
+---
+portfolio_technologies:
+  columns:
+  - id
+  - name
+  - official_link
+  - avatar_file_name
+  - avatar_content_type
+  - avatar_file_size
+  - avatar_updated_at
+  - created_at
+  - updated_at
+  - portfolio_id
+  - avatar_file_name_fallback
+  - avatar_alt
+  records: 
+  - - 1
+    - rails
+    - http://rubyonrails.org/
+    - Rails.png
+    - image/png
+    - 10906
+    - '2014-04-14 15:21:56.712749'
+    - '2013-10-10 06:22:57.269235'
+    - '2014-09-26 15:07:17.856920'
+    - 
+    - Rails.png
+    - 
+  - - 2
+    - Adobe InDesign
+    - http://adobe.com/indesign
+    - Id.png
+    - image/png
+    - 4824
+    - '2014-04-14 15:21:47.742478'
+    - '2013-10-10 06:47:44.849099'
+    - '2014-09-26 15:07:17.862234'
+    - 
+    - Id.png
+    - 
+  - - 3
+    - Adobe Photoshop
+    - http://adobe.com/photoshop
+    - Ps.png
+    - image/png
+    - 5893
+    - '2014-04-14 15:21:35.122030'
+    - '2013-10-10 06:48:37.893666'
+    - '2015-01-27 12:25:25.190632'
+    - 
+    - Ps.png
+    - 
+  - - 4
+    - Adobe Illustrator
+    - http://adobe.com/illustrator
+    - Ai.png
+    - image/png
+    - 3151
+    - '2014-04-14 14:23:29.780349'
+    - '2013-10-10 06:49:34.556409'
+    - '2015-01-27 12:25:25.180692'
+    - 
+    - Ai.png
+    - 
+  - - 5
+    - HTML 5
+    - http://w3.org/html5
+    - Html5.png
+    - image/png
+    - 7705
+    - '2014-04-14 15:22:20.120483'
+    - '2013-10-10 06:50:15.717713'
+    - '2015-01-27 12:25:25.176801'
+    - 
+    - Html5.png
+    - 
+  - - 6
+    - CSS 3
+    - http://w3.org/css3
+    - Css3.png
+    - image/png
+    - 8175
+    - '2014-04-14 15:22:08.024629'
+    - '2013-10-10 06:51:57.328271'
+    - '2015-05-04 14:19:24.282174'
+    - 38
+    - Css3.png
+    - 

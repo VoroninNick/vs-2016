@@ -1,0 +1,11 @@
+
+---
+pages_articles_list_pages:
+  columns:
+  - id
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - '2014-04-22 01:20:24.260360'
+    - '2014-04-22 01:20:24.260360'

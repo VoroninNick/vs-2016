@@ -1,0 +1,33 @@
+
+---
+page_contact_page_translations:
+  columns:
+  - id
+  - page_contact_page_id
+  - locale
+  - created_at
+  - updated_at
+  - content
+  - published
+  records: 
+  - - 1
+    - 1
+    - ru
+    - '2014-09-29 09:23:41.531544'
+    - '2014-10-13 09:35:00.604197'
+    - ''
+    - false
+  - - 2
+    - 1
+    - en
+    - '2014-09-29 09:23:41.542191'
+    - '2014-10-13 09:35:00.609159'
+    - ''
+    - false
+  - - 3
+    - 1
+    - uk
+    - '2014-09-29 09:23:41.549892'
+    - '2014-10-13 09:35:00.617804'
+    - ''
+    - true

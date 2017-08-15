@@ -1,0 +1,15 @@
+
+---
+pages_portfolio_list_pages:
+  columns:
+  - id
+  - created_at
+  - updated_at
+  - intro_text
+  - published
+  records: 
+  - - 1
+    - '2014-04-22 01:20:24.466214'
+    - '2014-10-09 12:49:52.775845'
+    - 
+    - false

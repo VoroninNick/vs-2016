@@ -1,0 +1,33 @@
+
+---
+page_join_us_page_translations:
+  columns:
+  - id
+  - page_join_us_page_id
+  - locale
+  - created_at
+  - updated_at
+  - content
+  - published
+  records: 
+  - - 1
+    - 1
+    - ru
+    - '2014-09-29 09:23:41.877611'
+    - '2014-09-29 09:23:41.877611'
+    - 
+    - false
+  - - 2
+    - 1
+    - en
+    - '2014-09-29 09:23:41.889267'
+    - '2014-09-29 09:23:41.889267'
+    - 
+    - false
+  - - 3
+    - 1
+    - uk
+    - '2014-09-29 09:23:41.897214'
+    - '2014-09-29 09:23:41.897214'
+    - 
+    - true

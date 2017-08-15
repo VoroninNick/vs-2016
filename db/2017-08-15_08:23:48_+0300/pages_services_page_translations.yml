@@ -1,0 +1,110 @@
+
+---
+pages_services_page_translations:
+  columns:
+  - id
+  - pages_services_page_id
+  - locale
+  - created_at
+  - updated_at
+  - intro_text
+  - footer_text
+  - published
+  records: 
+  - - 1
+    - 1
+    - ru
+    - '2014-09-29 09:23:42.109771'
+    - '2014-10-08 09:33:34.666247'
+    - "<div id=\"intro-wrapper\">\r\n  <section id=\"intro-container\">\r\n        <div
+      id=\"intro-description-wrapper\">\r\n          <h1 class=\"h1-font\">Услуги
+      студии</h1>\r\n          <p>Дизайн Студия Николая Воронина предоставляет полный
+      спектр услуг в сфере графического дизайна, а также занимается дизайном и разработкой
+      презентационных и корпоративных веб сайтов, мобильных приложений любого уровня
+      сложности. </p>\r\n          <p>Кроме дизайна и разработки мы также умеем придумывать
+      классные названия для продуктов общего потребления и торговых марок, анализировать
+      целевую аудиторию и позиционирование, проводить SEO оптимизацию, продвижение
+      в поисковых сетях.</p>\r\n        </div>\r\n        <div class=\"header-quote\">\r\n
+      \         <blockquote>\r\n            <em class=\"left\"><span class=\"quote-sprite
+      qs-left\"></span></em>\r\n            <p class=\"quote-text\">Каждый новый творческий
+      проект уникален и подход к нему должен быть соответственно уникальный, разработанный
+      именно под него.</p>\r\n            <em class=\"right\"><span class=\"quote-sprite
+      qs-right\"></span></em>\r\n          </blockquote>\r\n        </div>\r\n      </section>\r\n
+      \     </div>"
+    - "  <section id=\"sub-footer\">\r\n    <article class=\"container last-service-block
+      f-height push-left\">\r\n      <div class=\"g2\">&nbsp;</div>\r\n      <div
+      class=\"g8\">\r\n        <div class=\"image-container\">\r\n          <img src=\"/assets/service-order-us.png\"
+      />\r\n        </div>\r\n        <div style=\"max-width: 500px; float: left;\"
+      class=\"\">\r\n          <h3>Ищете что то интересное? </h3>\r\n          <p
+      class=\"order-p-descr-service\">Мы всегда готовы взяться за неизвестный и интересный
+      проект, где нужно проявить максимум смекалки и принять ряд креативных и нестандартных
+      решений для решения поставленной задачи! </p>\r\n          <a href=\"/order\"
+      title=\"Закажите нас!\"  class =\"order-us brand-button modal-link fancybox\"
+      id = \"modal-btn\" data-fancybox-type = \"iframe\" >Закажите нас!\r\n</a>\r\n
+      \       </div>\r\n\r\n\r\n      </div>\r\n      <div class=\"g2\">&nbsp;</div>\r\n
+      \   </article>\r\n  </section>"
+    - true
+  - - 2
+    - 1
+    - en
+    - '2014-09-29 09:23:42.136642'
+    - '2014-10-10 14:23:01.907405'
+    - "<div id=\"intro-wrapper\">\r\n  <section id=\"intro-container\">\r\n        <div
+      id=\"intro-description-wrapper\">\r\n          <h1 class=\"h1-font\">Studio
+      services</h1>\r\n          <p>Nick Voronin Design Studio offers a full range
+      of services in graphic design, as well as engaged in design and development
+      of promotional corporate websites, mobile applications of any complexity. </p>\r\n
+      \         <p>In addition to design and development we are able to come up with
+      cool names for general use products and brands, analyze your target audience
+      and positioning conduct SEO optimization promotion search.</p>\r\n        </div>\r\n
+      \       <div class=\"header-quote\">\r\n          <blockquote>\r\n            <em
+      class=\"left\"><span class=\"quote-sprite qs-left\"></span></em>\r\n            <p
+      class=\"quote-text\">Each new creative project is unique and the approach to
+      it shall be in accordance unique designed just for it.</p>\r\n            <em
+      class=\"right\"><span class=\"quote-sprite qs-right\"></span></em>\r\n          </blockquote>\r\n
+      \       </div>\r\n      </section>\r\n      </div>"
+    - "  <section id=\"sub-footer\">\r\n    <article class=\"container last-service-block
+      f-height push-left\">\r\n      <div class=\"g2\">&nbsp;</div>\r\n      <div
+      class=\"g8\">\r\n        <div class=\"image-container\">\r\n          <img src=\"/assets/service-order-us.png\"
+      />\r\n        </div>\r\n        <div style=\"max-width: 500px; float: left;\"
+      class=\"\">\r\n          <h3>Looking for something interesting? </h3>\r\n          <p
+      class=\"order-p-descr-service\">We are always ready to take on the unknown and
+      interesting project where you have to show up and take a number of wit creative
+      and innovative solutions for the taking!</p>\r\n          <a href=\"/order\"
+      title=\"Order us!\"  class =\"order-us brand-button modal-link fancybox\" id
+      = \"modal-btn\" data-fancybox-type = \"iframe\" >Order us!\r\n</a>\r\n        </div>\r\n\r\n\r\n
+      \     </div>\r\n      <div class=\"g2\">&nbsp;</div>\r\n    </article>\r\n  </section>"
+    - true
+  - - 3
+    - 1
+    - uk
+    - '2014-09-29 09:23:42.155124'
+    - '2014-09-29 09:23:42.155124'
+    - "<div id=\"intro-wrapper\">\r\n  <section id=\"intro-container\">\r\n        <div
+      id=\"intro-description-wrapper\">\r\n          <h1 class=\"h1-font\">Послуги
+      студії</h1>\r\n          <p>Дизайн Студія Миколи Вороніна надає повний спектр
+      послуг в сфері графічного дизайну, а також займається дизайном та розробкою
+      презентаційних і корпоративних веб сайтів, мобільних додатків будь якого рівня
+      складності. </p>\r\n          <p>Окрім дизайну та розробки ми також вміємо придумувати
+      класні назви для продуктів загального вжитку та торгових марок, аналізувати
+      цільову аудиторію та позиціонування, проводити SEO оптимізацію, просування в
+      пошукових мережах.</p>\r\n        </div>\r\n        <div class=\"header-quote\">\r\n
+      \         <blockquote>\r\n            <em class=\"left\"><span class=\"quote-sprite
+      qs-left\"></span></em>\r\n            <p class=\"quote-text\">Кожний новий творчий
+      проект є унікальним і підхід до нього повинен бути відповідно унікальний, розроблений
+      саме під нього.</p>\r\n            <em class=\"right\"><span class=\"quote-sprite
+      qs-right\"></span></em>\r\n          </blockquote>\r\n        </div>\r\n      </section>\r\n
+      \     </div>"
+    - "  <section id=\"sub-footer\">\r\n    <article class=\"container last-service-block
+      f-height push-left\">\r\n      <div class=\"g2\">&nbsp;</div>\r\n      <div
+      class=\"g8\">\r\n        <div class=\"image-container\">\r\n          <img src=\"/assets/service-order-us.png\"
+      />\r\n        </div>\r\n        <div style=\"max-width: 500px; float: left;\"
+      class=\"\">\r\n          <h3>Шукаєте щось цікавеньке? </h3>\r\n          <p
+      class=\"order-p-descr-service\">Ми завжди готові взятись за невідомий та цікавий
+      проект, де потрібно проявити максимум смекалки та прийняти ряд креативних і
+      нестандартних рішень для вирішення поставленої задачі! </p>\r\n          <a
+      href=\"/order\" title=\"Замовте нас!\"  class =\"order-us brand-button modal-link
+      fancybox\" id = \"modal-btn\" data-fancybox-type = \"iframe\" >Замовте нас!\r\n</a>\r\n
+      \       </div>\r\n\r\n\r\n      </div>\r\n      <div class=\"g2\">&nbsp;</div>\r\n
+      \   </article>\r\n  </section>"
+    - true

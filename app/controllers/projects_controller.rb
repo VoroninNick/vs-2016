@@ -77,6 +77,7 @@ class ProjectsController < ApplicationController
 
   def initialize_projects
     @projects = @popup_projects
+    @old_projects = Portfolio.published
   end
 
   def set_category

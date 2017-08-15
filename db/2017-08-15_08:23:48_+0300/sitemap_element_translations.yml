@@ -1,0 +1,1941 @@
+
+---
+sitemap_element_translations:
+  columns:
+  - id
+  - sitemap_element_id
+  - locale
+  - created_at
+  - updated_at
+  - path
+  - url
+  - changefreq
+  - priority
+  - lastmod
+  - display_on_sitemap
+  records: 
+  - - 1
+    - 1
+    - ru
+    - '2014-09-25 16:47:54.413323'
+    - '2015-04-03 10:38:35.102720'
+    - "/ru"
+    - http://voroninstudio.eu/ru
+    - always
+    - 1.0
+    - 
+    - true
+  - - 2
+    - 1
+    - en
+    - '2014-09-25 16:47:54.466660'
+    - '2015-04-03 10:38:35.106068'
+    - "/en"
+    - http://voroninstudio.eu/en
+    - always
+    - 1.0
+    - 
+    - true
+  - - 3
+    - 1
+    - uk
+    - '2014-09-25 16:47:54.478809'
+    - '2015-04-03 10:38:35.109244'
+    - "/uk"
+    - http://voroninstudio.eu/uk
+    - always
+    - 1.0
+    - 
+    - true
+  - - 4
+    - 2
+    - ru
+    - '2014-09-25 16:47:54.494199'
+    - '2015-04-03 10:43:35.619579'
+    - "/ru/about-us"
+    - http://voroninstudio.eu/ru/about-us
+    - daily
+    - 0.8
+    - 
+    - true
+  - - 5
+    - 2
+    - en
+    - '2014-09-25 16:47:54.506104'
+    - '2015-04-03 10:43:35.623061'
+    - "/en/about-us"
+    - http://voroninstudio.eu/en/about-us
+    - daily
+    - 0.8
+    - 
+    - true
+  - - 6
+    - 2
+    - uk
+    - '2014-09-25 16:47:54.517982'
+    - '2015-04-03 10:43:35.626595'
+    - "/uk/about"
+    - http://voroninstudio.eu/uk/about
+    - daily
+    - 0.8
+    - 
+    - true
+  - - 7
+    - 3
+    - ru
+    - '2014-09-25 16:47:54.533007'
+    - '2015-04-03 10:55:12.910934'
+    - "/ru/services"
+    - http://voroninstudio.eu/ru/services
+    - weekly
+    - 0.8
+    - 
+    - true
+  - - 8
+    - 3
+    - en
+    - '2014-09-25 16:47:54.544907'
+    - '2015-04-03 10:55:12.917406'
+    - "/en/services"
+    - http://voroninstudio.eu/en/services
+    - weekly
+    - 0.8
+    - 
+    - true
+  - - 9
+    - 3
+    - uk
+    - '2014-09-25 16:47:54.556855'
+    - '2015-04-03 10:55:12.920508'
+    - "/uk/services"
+    - http://voroninstudio.eu/uk/services
+    - weekly
+    - 0.8
+    - 
+    - true
+  - - 10
+    - 4
+    - ru
+    - '2014-09-25 16:47:54.571837'
+    - '2015-04-03 10:59:38.844108'
+    - "/ru/portfolio"
+    - http://voroninstudio.eu/ru/portfolio
+    - weekly
+    - 0.8
+    - 
+    - true
+  - - 11
+    - 4
+    - en
+    - '2014-09-25 16:47:54.583604'
+    - '2015-04-03 10:59:38.847367'
+    - "/en/portfolio"
+    - http://voroninstudio.eu/en/portfolio
+    - weekly
+    - 0.8
+    - 
+    - true
+  - - 12
+    - 4
+    - uk
+    - '2014-09-25 16:47:54.675974'
+    - '2015-04-03 10:59:38.850296'
+    - "/uk/portfolio"
+    - http://voroninstudio.eu/uk/portfolio
+    - weekly
+    - 0.8
+    - 
+    - true
+  - - 13
+    - 5
+    - ru
+    - '2014-09-25 16:47:54.692855'
+    - '2015-04-03 11:03:49.026732'
+    - "/ru/portfolio/dizayn-logotipa-i-firmennogo-stilya"
+    - http://voroninstudio.eu/ru/portfolio/dizayn-logotipa-i-firmennogo-stilya
+    - weekly
+    - 0.8
+    - 
+    - true
+  - - 14
+    - 5
+    - en
+    - '2014-09-25 16:47:54.705487'
+    - '2015-04-03 11:03:49.034738'
+    - "/en/portfolio/logo-design-corporate-identity"
+    - http://voroninstudio.eu/en/portfolio/logo-design-corporate-identity
+    - weekly
+    - 0.8
+    - 
+    - true
+  - - 15
+    - 5
+    - uk
+    - '2014-09-25 16:47:54.717960'
+    - '2015-04-03 11:03:49.039724'
+    - "/uk/portfolio/dyzayn-logotipu-i-firmovogo-stylju"
+    - http://voroninstudio.eu/uk/portfolio/dyzayn-logotipu-i-firmovogo-stylju
+    - weekly
+    - 0.8
+    - 
+    - true
+  - - 16
+    - 6
+    - ru
+    - '2014-09-25 16:47:54.733397'
+    - '2015-04-03 11:07:09.339273'
+    - "/ru/portfolio/dizayn-upakovki-i-etiketki"
+    - http://voroninstudio.eu/ru/portfolio/dizayn-upakovki-i-etiketki
+    - weekly
+    - 0.8
+    - 
+    - true
+  - - 17
+    - 6
+    - en
+    - '2014-09-25 16:47:54.745672'
+    - '2015-04-03 11:07:09.347978'
+    - "/en/portfolio/packaging-design-label"
+    - http://voroninstudio.eu/en/portfolio/packaging-design-label
+    - weekly
+    - 0.8
+    - 
+    - true
+  - - 18
+    - 6
+    - uk
+    - '2014-09-25 16:47:54.757862'
+    - '2015-04-03 11:07:09.352288'
+    - "/uk/portfolio/dyzayn-upakovki-i-etiketki"
+    - http://voroninstudio.eu/uk/portfolio/dyzayn-upakovki-i-etiketki
+    - weekly
+    - 0.8
+    - 
+    - true
+  - - 19
+    - 7
+    - ru
+    - '2014-09-25 16:47:54.773051'
+    - '2015-04-03 11:11:25.495994'
+    - "/ru/portfolio/veb-dizayn"
+    - http://voroninstudio.eu/ru/portfolio/veb-dizayn
+    - weekly
+    - 0.8
+    - 
+    - true
+  - - 20
+    - 7
+    - en
+    - '2014-09-25 16:47:54.784895'
+    - '2015-04-03 11:11:25.502435'
+    - "/en/portfolio/web-design"
+    - http://voroninstudio.eu/en/portfolio/web-design
+    - weekly
+    - 0.8
+    - 
+    - true
+  - - 21
+    - 7
+    - uk
+    - '2014-09-25 16:47:54.796761'
+    - '2015-04-03 11:11:25.505537'
+    - "/uk/portfolio/web"
+    - http://voroninstudio.eu/uk/portfolio/web
+    - weekly
+    - 0.8
+    - 
+    - true
+  - - 22
+    - 8
+    - ru
+    - '2014-09-25 16:47:54.811634'
+    - '2014-09-25 17:13:47.735524'
+    - "/ru/articles"
+    - http://voroninstudio.eu/ru/articles
+    - weekly
+    - 0.7
+    - 
+    - true
+  - - 23
+    - 8
+    - en
+    - '2014-09-25 16:47:54.823491'
+    - '2014-09-25 16:55:22.292326'
+    - "/en/articles"
+    - http://voroninstudio.eu/en/articles
+    - weekly
+    - 0.7
+    - 
+    - true
+  - - 24
+    - 8
+    - uk
+    - '2014-09-25 16:47:54.835316'
+    - '2014-09-25 17:14:17.980269'
+    - "/uk/articles"
+    - http://voroninstudio.eu/uk/articles
+    - weekly
+    - 0.7
+    - 
+    - true
+  - - 25
+    - 9
+    - ru
+    - '2014-09-25 16:47:54.850303'
+    - '2015-04-03 11:18:29.879133'
+    - "/ru/articles/redizayn-novogo-sayta-studii-v-2014"
+    - http://voroninstudio.eu/ru/articles/redizayn-novogo-sayta-studii-v-2014
+    - monthly
+    - 0.7
+    - 
+    - true
+  - - 26
+    - 9
+    - en
+    - '2014-09-25 16:47:54.862357'
+    - '2015-04-03 11:18:29.885721'
+    - "/en/articles/redesign-a-new-website-in-2014"
+    - http://voroninstudio.eu/en/articles/redesign-a-new-website-in-2014
+    - monthly
+    - 0.7
+    - 
+    - true
+  - - 27
+    - 9
+    - uk
+    - '2014-09-25 16:47:54.874479'
+    - '2015-04-03 11:18:29.888858'
+    - "/uk/articles/zapusk-novogo-saytu-studiyi-v-2014"
+    - http://voroninstudio.eu/uk/articles/zapusk-novogo-saytu-studiyi-v-2014
+    - monthly
+    - 0.7
+    - 
+    - true
+  - - 28
+    - 10
+    - ru
+    - '2014-09-25 16:47:54.974243'
+    - '2015-04-03 11:36:15.544902'
+    - "/ru/articles/trofeyi-i-perspektivi-razvitiya-studii-2011-2012"
+    - http://voroninstudio.eu/ru/articles/trofeyi-i-perspektivi-razvitiya-studii-2011-2012
+    - monthly
+    - 0.6
+    - 
+    - true
+  - - 29
+    - 10
+    - en
+    - '2014-09-25 16:47:54.987071'
+    - '2015-04-03 11:36:15.548174'
+    - "/en/articles/trophies-and-prospects-of-development-studio-2011-2012"
+    - http://voroninstudio.eu/en/articles/trophies-and-prospects-of-development-studio-2011-2012
+    - monthly
+    - 0.6
+    - 
+    - true
+  - - 30
+    - 10
+    - uk
+    - '2014-09-25 16:47:54.999768'
+    - '2015-04-03 11:36:15.551081'
+    - "/uk/articles/zdobuti-trofeyi-ta-perspektivi-rozvitku-studiyi-2011-2012"
+    - http://voroninstudio.eu/uk/articles/zdobuti-trofeyi-ta-perspektivi-rozvitku-studiyi-2011-2012
+    - monthly
+    - 0.6
+    - 
+    - true
+  - - 31
+    - 11
+    - ru
+    - '2014-09-25 16:47:55.019138'
+    - '2015-04-03 11:36:00.838320'
+    - "/ru/articles/behance-portfolio-review-lviv-2"
+    - http://voroninstudio.eu/ru/articles/behance-portfolio-review-lviv-2
+    - monthly
+    - 0.6
+    - 
+    - true
+  - - 32
+    - 11
+    - en
+    - '2014-09-25 16:47:55.033355'
+    - '2015-04-03 11:36:00.842914'
+    - "/en/articles/behance-portfolio-review-lviv-2"
+    - http://voroninstudio.eu/en/articles/behance-portfolio-review-lviv-2
+    - monthly
+    - 0.6
+    - 
+    - true
+  - - 33
+    - 11
+    - uk
+    - '2014-09-25 16:47:55.045738'
+    - '2015-04-03 11:36:00.847090'
+    - "/uk/articles/behance-portfolio-review-lviv-2"
+    - http://voroninstudio.eu/uk/articles/behance-portfolio-review-lviv-2
+    - monthly
+    - 0.6
+    - 
+    - true
+  - - 34
+    - 12
+    - ru
+    - '2014-09-25 16:47:55.060967'
+    - '2015-04-03 11:35:26.457908'
+    - "/ru/articles/behance-portfolio-review-lviv"
+    - http://voroninstudio.eu/ru/articles/behance-portfolio-review-lviv
+    - monthly
+    - 0.6
+    - 
+    - true
+  - - 35
+    - 12
+    - en
+    - '2014-09-25 16:47:55.072872'
+    - '2015-04-03 11:35:26.464224'
+    - "/en/articles/behance-portfolio-review-lviv"
+    - http://voroninstudio.eu/en/articles/behance-portfolio-review-lviv
+    - monthly
+    - 0.6
+    - 
+    - true
+  - - 36
+    - 12
+    - uk
+    - '2014-09-25 16:47:55.084764'
+    - '2015-04-03 11:35:26.467183'
+    - "/uk/articles/behance-portfolio-review-lviv"
+    - http://voroninstudio.eu/uk/articles/behance-portfolio-review-lviv
+    - monthly
+    - 0.6
+    - 
+    - true
+  - - 37
+    - 13
+    - ru
+    - '2014-09-25 16:47:55.099762'
+    - '2015-04-03 11:37:55.744960'
+    - "/ru/contact"
+    - http://voroninstudio.eu/ru/contact
+    - weekly
+    - 0.7
+    - 
+    - true
+  - - 38
+    - 13
+    - en
+    - '2014-09-25 16:47:55.111572'
+    - '2015-04-03 11:37:55.751482'
+    - "/en/contact"
+    - http://voroninstudio.eu/en/contact
+    - weekly
+    - 0.7
+    - 
+    - true
+  - - 39
+    - 13
+    - uk
+    - '2014-09-25 16:47:55.123387'
+    - '2015-04-03 11:37:55.754651'
+    - "/uk/contact"
+    - http://voroninstudio.eu/uk/contact
+    - monthly
+    - 0.7
+    - 
+    - true
+  - - 40
+    - 14
+    - ru
+    - '2014-09-25 16:47:55.138481'
+    - '2015-04-03 13:03:25.130041'
+    - "/ru/portfolio/veb-dizayn/bnb-paintball"
+    - http://voroninstudio.eu/ru/portfolio/veb-dizayn/bnb-paintball
+    - monthly
+    - 0.7
+    - 
+    - true
+  - - 41
+    - 14
+    - en
+    - '2014-09-25 16:47:55.150271'
+    - '2015-04-03 13:03:25.136827'
+    - "/en/portfolio/web-design/bnb-paintball"
+    - http://voroninstudio.eu/en/portfolio/web-design/bnb-paintball
+    - monthly
+    - 0.7
+    - 
+    - true
+  - - 42
+    - 14
+    - uk
+    - '2014-09-25 16:47:55.162092'
+    - '2015-04-03 13:03:25.139975'
+    - "/uk/portfolio/web/bnb-paintball"
+    - http://voroninstudio.eu/uk/portfolio/web/bnb-paintball
+    - monthly
+    - 0.7
+    - 
+    - true
+  - - 43
+    - 15
+    - ru
+    - '2014-09-25 16:47:55.177070'
+    - '2015-04-03 13:06:18.724605'
+    - "/ru/portfolio/veb-dizayn/lviv-heart"
+    - http://voroninstudio.eu/ru/portfolio/veb-dizayn/lviv-heart
+    - monthly
+    - 0.7
+    - 
+    - true
+  - - 44
+    - 15
+    - en
+    - '2014-09-25 16:47:55.273037'
+    - '2015-04-03 13:06:18.733656'
+    - "/en/portfolio/web-design/lviv-heart"
+    - http://voroninstudio.eu/en/portfolio/web-design/lviv-heart
+    - monthly
+    - 0.7
+    - 
+    - true
+  - - 45
+    - 15
+    - uk
+    - '2014-09-25 16:47:55.285846'
+    - '2015-04-03 13:06:18.738209'
+    - "/uk/portfolio/web/lviv-heart"
+    - http://voroninstudio.eu/uk/portfolio/web/lviv-heart
+    - monthly
+    - 0.7
+    - 
+    - true
+  - - 46
+    - 16
+    - ru
+    - '2014-09-25 16:47:55.301752'
+    - '2015-04-03 13:10:35.918840'
+    - "/ru/portfolio/veb-dizayn/czmk-web-site"
+    - http://voroninstudio.eu/ru/portfolio/veb-dizayn/czmk-web-site
+    - monthly
+    - 0.7
+    - 
+    - true
+  - - 47
+    - 16
+    - en
+    - '2014-09-25 16:47:55.314052'
+    - '2015-04-03 13:10:35.922320'
+    - "/en/portfolio/web-design/czmk-web-site"
+    - http://voroninstudio.eu/en/portfolio/web-design/czmk-web-site
+    - monthly
+    - 0.7
+    - 
+    - true
+  - - 48
+    - 16
+    - uk
+    - '2014-09-25 16:47:55.326221'
+    - '2015-04-03 13:10:35.925545'
+    - "/uk/portfolio/web/czmk-web-site"
+    - http://voroninstudio.eu/uk/portfolio/web/czmk-web-site
+    - monthly
+    - 0.7
+    - 
+    - true
+  - - 49
+    - 17
+    - ru
+    - '2014-09-25 16:47:55.341632'
+    - '2015-04-03 13:13:07.192955'
+    - "/ru/portfolio/dizayn-logotipa-i-firmennogo-stilya/bnbpaintball"
+    - http://voroninstudio.eu/ru/portfolio/dizayn-logotipa-i-firmennogo-stilya/bnbpaintball
+    - monthly
+    - 0.7
+    - 
+    - true
+  - - 50
+    - 17
+    - en
+    - '2014-09-25 16:47:55.353642'
+    - '2015-04-03 13:13:07.199677'
+    - "/en/portfolio/logo-design-corporate-identity/bnbpaintball"
+    - http://voroninstudio.eu/en/portfolio/logo-design-corporate-identity/bnbpaintball
+    - monthly
+    - 0.7
+    - 
+    - true
+  - - 51
+    - 17
+    - uk
+    - '2014-09-25 16:47:55.365574'
+    - '2015-04-03 13:13:07.202955'
+    - "/uk/portfolio/dyzayn-logotipu-i-firmovogo-stylju/bnbpaintball"
+    - http://voroninstudio.eu/uk/portfolio/dyzayn-logotipu-i-firmovogo-stylju/bnbpaintball
+    - monthly
+    - 0.7
+    - 
+    - true
+  - - 52
+    - 18
+    - ru
+    - '2014-09-25 16:47:55.380584'
+    - '2015-04-03 13:15:47.661635'
+    - "/ru/portfolio/dizayn-logotipa-i-firmennogo-stilya/valko-ua"
+    - http://voroninstudio.eu/ru/portfolio/dizayn-logotipa-i-firmennogo-stilya/valko-ua
+    - monthly
+    - 0.7
+    - 
+    - true
+  - - 53
+    - 18
+    - en
+    - '2014-09-25 16:47:55.392471'
+    - '2015-04-03 13:15:47.665279'
+    - "/en/portfolio/logo-design-corporate-identity/valko-ua"
+    - http://voroninstudio.eu/en/portfolio/logo-design-corporate-identity/valko-ua
+    - monthly
+    - 0.7
+    - 
+    - true
+  - - 54
+    - 18
+    - uk
+    - '2014-09-25 16:47:55.404260'
+    - '2015-04-03 13:15:47.668662'
+    - "/uk/portfolio/dyzayn-logotipu-i-firmovogo-stylju/valko-ua"
+    - http://voroninstudio.eu/uk/portfolio/dyzayn-logotipu-i-firmovogo-stylju/valko-ua
+    - monthly
+    - 0.7
+    - 
+    - true
+  - - 55
+    - 19
+    - ru
+    - '2014-09-25 16:47:55.419164'
+    - '2015-04-03 13:17:58.069046'
+    - "/ru/portfolio/dizayn-logotipa-i-firmennogo-stilya/karpatski-vikna"
+    - http://voroninstudio.eu/ru/portfolio/dizayn-logotipa-i-firmennogo-stilya/karpatski-vikna
+    - monthly
+    - 0.7
+    - 
+    - true
+  - - 56
+    - 19
+    - en
+    - '2014-09-25 16:47:55.430994'
+    - '2015-04-03 13:17:58.072575'
+    - "/en/portfolio/logo-design-corporate-identity/karpatski-vikna"
+    - http://voroninstudio.eu/en/portfolio/logo-design-corporate-identity/karpatski-vikna
+    - monthly
+    - 0.7
+    - 
+    - true
+  - - 57
+    - 19
+    - uk
+    - '2014-09-25 16:47:55.442854'
+    - '2015-04-03 13:17:58.075882'
+    - "/uk/portfolio/dyzayn-logotipu-i-firmovogo-stylju/karpatski-vikna"
+    - http://voroninstudio.eu/uk/portfolio/dyzayn-logotipu-i-firmovogo-stylju/karpatski-vikna
+    - monthly
+    - 0.7
+    - 
+    - true
+  - - 58
+    - 20
+    - ru
+    - '2014-09-25 16:47:55.457825'
+    - '2015-04-03 13:20:47.028521'
+    - "/ru/portfolio/dizayn-logotipa-i-firmennogo-stilya/games3k"
+    - http://voroninstudio.eu/ru/portfolio/dizayn-logotipa-i-firmennogo-stilya/games3k
+    - monthly
+    - 0.7
+    - 
+    - true
+  - - 59
+    - 20
+    - en
+    - '2014-09-25 16:47:55.469642'
+    - '2015-04-03 13:20:47.036711'
+    - "/en/portfolio/logo-design-corporate-identity/games3k"
+    - http://voroninstudio.eu/en/portfolio/logo-design-corporate-identity/games3k
+    - monthly
+    - 0.7
+    - 
+    - true
+  - - 60
+    - 20
+    - uk
+    - '2014-09-25 16:47:55.565548'
+    - '2015-04-03 13:20:47.040918'
+    - "/uk/portfolio/dyzayn-logotipu-i-firmovogo-stylju/games3k"
+    - http://voroninstudio.eu/uk/portfolio/dyzayn-logotipu-i-firmovogo-stylju/games3k
+    - monthly
+    - 0.7
+    - 
+    - true
+  - - 61
+    - 21
+    - ru
+    - '2014-09-25 16:47:55.581731'
+    - '2015-04-03 13:23:15.965622'
+    - "/ru/portfolio/dizayn-logotipa-i-firmennogo-stilya/trickyfox"
+    - http://voroninstudio.eu/ru/portfolio/dizayn-logotipa-i-firmennogo-stilya/trickyfox
+    - monthly
+    - 0.7
+    - 
+    - true
+  - - 62
+    - 21
+    - en
+    - '2014-09-25 16:47:55.594216'
+    - '2015-04-03 13:23:15.969139'
+    - "/en/portfolio/logo-design-corporate-identity/trickyfox"
+    - http://voroninstudio.eu/en/portfolio/logo-design-corporate-identity/trickyfox
+    - monthly
+    - 0.7
+    - 
+    - true
+  - - 63
+    - 21
+    - uk
+    - '2014-09-25 16:47:55.606411'
+    - '2015-04-03 13:23:15.972272'
+    - "/uk/portfolio/dyzayn-logotipu-i-firmovogo-stylju/trickyfox"
+    - http://voroninstudio.eu/uk/portfolio/dyzayn-logotipu-i-firmovogo-stylju/trickyfox
+    - monthly
+    - 0.7
+    - 
+    - true
+  - - 64
+    - 22
+    - ru
+    - '2014-09-25 16:47:55.621863'
+    - '2015-04-03 13:26:55.386083'
+    - "/ru/portfolio/dizayn-logotipa-i-firmennogo-stilya/investment-intelligence"
+    - http://voroninstudio.eu/ru/portfolio/dizayn-logotipa-i-firmennogo-stilya/investment-intelligence
+    - monthly
+    - 0.7
+    - 
+    - true
+  - - 65
+    - 22
+    - en
+    - '2014-09-25 16:47:55.633959'
+    - '2015-04-03 13:26:55.389651'
+    - "/en/portfolio/logo-design-corporate-identity/investment-intelligence"
+    - http://voroninstudio.eu/en/portfolio/logo-design-corporate-identity/investment-intelligence
+    - monthly
+    - 0.7
+    - 
+    - true
+  - - 66
+    - 22
+    - uk
+    - '2014-09-25 16:47:55.646012'
+    - '2015-04-03 13:26:55.392966'
+    - "/uk/portfolio/dyzayn-logotipu-i-firmovogo-stylju/investment-intelligence"
+    - http://voroninstudio.eu/uk/portfolio/dyzayn-logotipu-i-firmovogo-stylju/investment-intelligence
+    - monthly
+    - 0.7
+    - 
+    - true
+  - - 67
+    - 23
+    - ru
+    - '2014-09-25 16:47:55.661228'
+    - '2015-04-03 14:05:52.004621'
+    - "/ru/portfolio/dizayn-logotipa-i-firmennogo-stilya/rusyn-o"
+    - http://voroninstudio.eu/ru/portfolio/dizayn-logotipa-i-firmennogo-stilya/rusyn-o
+    - monthly
+    - 0.7
+    - 
+    - true
+  - - 68
+    - 23
+    - en
+    - '2014-09-25 16:47:55.673038'
+    - '2015-04-03 14:05:52.015135'
+    - "/en/portfolio/logo-design-corporate-identity/rusyn-o"
+    - http://voroninstudio.eu/en/portfolio/logo-design-corporate-identity/rusyn-o
+    - monthly
+    - 0.7
+    - 
+    - true
+  - - 69
+    - 23
+    - uk
+    - '2014-09-25 16:47:55.684874'
+    - '2015-04-03 14:05:52.018929'
+    - "/uk/portfolio/dyzayn-logotipu-i-firmovogo-stylju/rusyn-o"
+    - http://voroninstudio.eu/uk/portfolio/dyzayn-logotipu-i-firmovogo-stylju/rusyn-o
+    - monthly
+    - 0.7
+    - 
+    - true
+  - - 70
+    - 24
+    - ru
+    - '2014-09-25 16:47:55.699852'
+    - '2015-04-03 14:08:45.244316'
+    - "/ru/portfolio/dizayn-logotipa-i-firmennogo-stilya/czmk"
+    - http://voroninstudio.eu/ru/portfolio/dizayn-logotipa-i-firmennogo-stilya/czmk
+    - monthly
+    - 0.7
+    - 
+    - true
+  - - 71
+    - 24
+    - en
+    - '2014-09-25 16:47:55.711602'
+    - '2015-04-03 14:08:45.247824'
+    - "/en/portfolio/logo-design-corporate-identity/chzmk"
+    - http://voroninstudio.eu/en/portfolio/logo-design-corporate-identity/chzmk
+    - monthly
+    - 0.7
+    - 
+    - true
+  - - 72
+    - 24
+    - uk
+    - '2014-09-25 16:47:55.723394'
+    - '2015-04-03 14:08:45.251011'
+    - "/uk/portfolio/dyzayn-logotipu-i-firmovogo-stylju/czmk"
+    - http://voroninstudio.eu/uk/portfolio/dyzayn-logotipu-i-firmovogo-stylju/czmk
+    - monthly
+    - 0.7
+    - 
+    - true
+  - - 73
+    - 25
+    - ru
+    - '2014-09-25 16:47:55.738296'
+    - '2015-04-03 14:11:25.338898'
+    - "/ru/portfolio/dizayn-logotipa-i-firmennogo-stilya/green-telecom-telekomunikatsiyniy-provayder"
+    - http://voroninstudio.eu/ru/portfolio/dizayn-logotipa-i-firmennogo-stilya/green-telecom-telekomunikatsiyniy-provayder
+    - monthly
+    - 0.7
+    - 
+    - true
+  - - 74
+    - 25
+    - en
+    - '2014-09-25 16:47:55.750140'
+    - '2015-04-03 14:11:25.342421'
+    - "/en/portfolio/logo-design-corporate-identity/green-telecom-telekomunikatsiyniy-provayder"
+    - http://voroninstudio.eu/en/portfolio/logo-design-corporate-identity/green-telecom-telekomunikatsiyniy-provayder
+    - monthly
+    - 0.7
+    - 
+    - true
+  - - 75
+    - 25
+    - uk
+    - '2014-09-25 16:47:55.845149'
+    - '2015-04-03 14:11:25.346074'
+    - "/uk/portfolio/dyzayn-logotipu-i-firmovogo-stylju/green-telecom-telekomunikatsiyniy-provayder"
+    - http://voroninstudio.eu/uk/portfolio/dyzayn-logotipu-i-firmovogo-stylju/green-telecom-telekomunikatsiyniy-provayder
+    - monthly
+    - 0.7
+    - 
+    - true
+  - - 76
+    - 28
+    - ru
+    - '2014-09-25 16:47:55.861848'
+    - '2015-04-03 14:14:02.545633'
+    - "/ru/portfolio/dizayn-upakovki-i-etiketki/gav-the-dog-food"
+    - http://voroninstudio.eu/ru/portfolio/dizayn-upakovki-i-etiketki/gav-the-dog-food
+    - monthly
+    - 0.7
+    - 
+    - true
+  - - 77
+    - 28
+    - en
+    - '2014-09-25 16:47:55.874429'
+    - '2015-04-03 14:14:02.549164'
+    - "/en/portfolio/packaging-design-label/gav-the-dog-food"
+    - http://voroninstudio.eu/en/portfolio/packaging-design-label/gav-the-dog-food
+    - monthly
+    - 0.7
+    - 
+    - true
+  - - 78
+    - 28
+    - uk
+    - '2014-09-25 16:47:55.886889'
+    - '2015-04-03 14:14:02.552316'
+    - "/uk/portfolio/dyzayn-upakovki-i-etiketki/gav-the-dog-food"
+    - http://voroninstudio.eu/uk/portfolio/dyzayn-upakovki-i-etiketki/gav-the-dog-food
+    - monthly
+    - 0.7
+    - 
+    - true
+  - - 83
+    - 72
+    - en
+    - '2014-09-29 08:20:55.977146'
+    - '2015-04-03 14:16:33.980117'
+    - "/en/portfolio/logo-design-corporate-identity/oleoleo"
+    - http://voroninstudio.eu/en/portfolio/logo-design-corporate-identity/oleoleo
+    - monthly
+    - 0.8
+    - 
+    - true
+  - - 84
+    - 73
+    - en
+    - '2014-09-29 08:21:20.269904'
+    - '2015-04-03 14:19:18.642520'
+    - "/en/portfolio/packaging-design-label/Yantaliya-oil"
+    - http://voroninstudio.eu/en/portfolio/packaging-design-label/Yantaliya-oil
+    - monthly
+    - 0.7
+    - 
+    - true
+  - - 113
+    - 72
+    - ru
+    - '2014-09-30 09:02:55.465538'
+    - '2015-04-03 14:16:33.983606'
+    - "/ru/portfolio/dizayn-logotipa-i-firmennogo-stilya/oleoleo"
+    - http://voroninstudio.eu/ru/portfolio/dizayn-logotipa-i-firmennogo-stilya/oleoleo
+    - monthly
+    - 0.7
+    - 
+    - true
+  - - 116
+    - 73
+    - ru
+    - '2014-09-30 09:06:47.775815'
+    - '2015-04-03 14:19:18.646115'
+    - "/ru/portfolio/dizayn-upakovki-i-etiketki/jantalia-oil"
+    - http://voroninstudio.eu/ru/portfolio/dizayn-upakovki-i-etiketki/jantalia-oil
+    - monthly
+    - 0.7
+    - 
+    - true
+  - - 120
+    - 72
+    - uk
+    - '2014-09-30 14:44:43.401047'
+    - '2015-04-03 14:16:33.986813'
+    - "/uk/portfolio/dyzayn-logotipu-i-firmovogo-stylju/oleoleo"
+    - http://voroninstudio.eu/uk/portfolio/dyzayn-logotipu-i-firmovogo-stylju/oleoleo
+    - monthly
+    - 0.7
+    - 
+    - true
+  - - 121
+    - 73
+    - uk
+    - '2014-09-30 14:46:22.818471'
+    - '2015-04-03 14:19:18.649417'
+    - "/uk/portfolio/dyzayn-upakovki-i-etiketki/jantalia-oil"
+    - http://voroninstudio.eu/uk/portfolio/dyzayn-upakovki-i-etiketki/jantalia-oil
+    - monthly
+    - 0.7
+    - 
+    - true
+  - - 122
+    - 101
+    - ru
+    - '2014-09-30 14:56:03.792999'
+    - '2015-04-03 11:42:07.463755'
+    - "/ru/service/razrabotka-logotipa-i-firmennogo-stilya"
+    - http://voroninstudio.eu/ru/service/razrabotka-logotipa-i-firmennogo-stilya
+    - weekly
+    - 0.8
+    - 
+    - true
+  - - 123
+    - 101
+    - en
+    - '2014-09-30 14:56:03.797304'
+    - '2015-04-03 11:42:07.470386'
+    - "/en/service/logo-design-corporate-identity"
+    - http://voroninstudio.eu/en/service/logo-design-corporate-identity
+    - weekly
+    - 0.8
+    - 
+    - true
+  - - 124
+    - 101
+    - uk
+    - '2014-09-30 14:56:03.801563'
+    - '2015-04-03 11:42:07.473542'
+    - "/uk/service/rozrobka-logotipu-i-firmovogo-stylju"
+    - http://voroninstudio.eu/uk/service/rozrobka-logotipu-i-firmovogo-stylju
+    - weekly
+    - 0.8
+    - 
+    - true
+  - - 125
+    - 102
+    - ru
+    - '2014-09-30 14:58:46.130975'
+    - '2015-04-03 11:44:56.682155'
+    - "/ru/service/razrabotka-upakovki-i-etiketki"
+    - http://voroninstudio.eu/ru/service/razrabotka-upakovki-i-etiketki
+    - weekly
+    - 0.8
+    - 
+    - true
+  - - 126
+    - 102
+    - en
+    - '2014-09-30 14:58:46.135387'
+    - '2015-04-03 11:44:56.707137'
+    - "/en/service/packaging-design-label"
+    - http://voroninstudio.eu/en/service/packaging-design-label
+    - weekly
+    - 0.8
+    - 
+    - true
+  - - 127
+    - 102
+    - uk
+    - '2014-09-30 14:58:46.139748'
+    - '2015-04-03 11:44:56.712964'
+    - "/uk/service/rozrobka-upakovki-i-etiketki"
+    - http://voroninstudio.eu/uk/service/rozrobka-upakovki-i-etiketki
+    - weekly
+    - 0.8
+    - 
+    - true
+  - - 128
+    - 103
+    - ru
+    - '2014-09-30 15:00:17.997641'
+    - '2015-04-03 12:44:08.752314'
+    - "/ru/service/pachatnaya-reklama-i-pos-materialy"
+    - http://voroninstudio.eu/ru/service/pachatnaya-reklama-i-pos-materialy
+    - weekly
+    - 0.8
+    - 
+    - true
+  - - 129
+    - 103
+    - en
+    - '2014-09-30 15:00:18.006499'
+    - '2015-04-03 12:44:08.761715'
+    - "/en/service/print-advertising-and-pos-materials"
+    - http://voroninstudio.eu/en/service/print-advertising-and-pos-materials
+    - weekly
+    - 0.8
+    - 
+    - true
+  - - 130
+    - 103
+    - uk
+    - '2014-09-30 15:00:18.010896'
+    - '2015-04-03 12:44:08.766554'
+    - "/uk/service/drukovana-reklama-pos-materiali"
+    - http://voroninstudio.eu/uk/service/drukovana-reklama-pos-materiali
+    - weekly
+    - 0.8
+    - 
+    - true
+  - - 131
+    - 104
+    - ru
+    - '2014-09-30 15:00:48.143148'
+    - '2015-04-03 12:46:33.048461'
+    - "/ru/service/dizayn-bukleta-i-kataloga"
+    - http://voroninstudio.eu/ru/service/dizayn-bukleta-i-kataloga
+    - weekly
+    - 0.8
+    - 
+    - true
+  - - 132
+    - 104
+    - en
+    - '2014-09-30 15:00:48.257599'
+    - '2015-04-03 12:46:33.055175'
+    - "/en/service/design-leaflet-and-catalog"
+    - http://voroninstudio.eu/en/service/design-leaflet-and-catalog
+    - weekly
+    - 0.8
+    - 
+    - true
+  - - 133
+    - 104
+    - uk
+    - '2014-09-30 15:00:48.262649'
+    - '2015-04-03 12:46:33.058309'
+    - "/uk/service/dyzayn-bukletu-i-katalogu"
+    - http://voroninstudio.eu/uk/service/dyzayn-bukletu-i-katalogu
+    - weekly
+    - 0.8
+    - 
+    - true
+  - - 134
+    - 105
+    - ru
+    - '2014-09-30 15:01:37.391366'
+    - '2015-04-03 12:50:41.240555'
+    - "/ru/service/dizayn-plakata"
+    - http://voroninstudio.eu/ru/service/dizayn-plakata
+    - weekly
+    - 0.8
+    - 
+    - true
+  - - 135
+    - 105
+    - en
+    - '2014-09-30 15:01:37.395715'
+    - '2015-04-03 12:50:41.247266'
+    - "/en/service/poster-design"
+    - http://voroninstudio.eu/en/service/poster-design
+    - weekly
+    - 0.8
+    - 
+    - true
+  - - 136
+    - 105
+    - uk
+    - '2014-09-30 15:01:37.399911'
+    - '2015-04-03 12:50:41.250418'
+    - "/uk/service/dyzayn-plakatu"
+    - http://voroninstudio.eu/uk/service/dyzayn-plakatu
+    - weekly
+    - 0.8
+    - 
+    - true
+  - - 137
+    - 106
+    - ru
+    - '2014-09-30 15:02:01.033308'
+    - '2015-04-03 11:48:00.147194'
+    - "/ru/service/sozdanie-sayta"
+    - http://voroninstudio.eu/ru/service/sozdanie-sayta
+    - weekly
+    - 0.8
+    - 
+    - true
+  - - 138
+    - 106
+    - en
+    - '2014-09-30 15:02:01.038712'
+    - '2015-04-03 11:48:00.153502'
+    - "/en/service/web-development"
+    - http://voroninstudio.eu/en/service/web-development
+    - weekly
+    - 0.8
+    - 
+    - true
+  - - 139
+    - 106
+    - uk
+    - '2014-09-30 15:02:01.044089'
+    - '2015-04-03 11:48:00.156584'
+    - "/uk/service/stvorennya-saytu"
+    - http://voroninstudio.eu/uk/service/stvorennya-saytu
+    - weekly
+    - 0.8
+    - 
+    - true
+  - - 140
+    - 107
+    - ru
+    - '2014-09-30 15:02:37.604857'
+    - '2015-04-03 12:53:32.630164'
+    - "/ru/service/razrabotka-mobilnih-prilozheniy"
+    - http://voroninstudio.eu/ru/service/razrabotka-mobilnih-prilozheniy
+    - weekly
+    - 0.8
+    - 
+    - true
+  - - 141
+    - 107
+    - en
+    - '2014-09-30 15:02:37.609128'
+    - '2015-04-03 12:53:32.633855'
+    - "/en/service/mobile-application-development"
+    - http://voroninstudio.eu/en/service/mobile-application-development
+    - weekly
+    - 0.8
+    - 
+    - true
+  - - 142
+    - 107
+    - uk
+    - '2014-09-30 15:02:37.613255'
+    - '2015-04-03 12:53:32.637151'
+    - "/uk/service/rozrobka-mobilnih-dodatkiv"
+    - http://voroninstudio.eu/uk/service/rozrobka-mobilnih-dodatkiv
+    - weekly
+    - 0.8
+    - 
+    - true
+  - - 143
+    - 108
+    - ru
+    - '2014-09-30 15:03:18.577396'
+    - '2015-04-03 12:56:14.587035'
+    - "/ru/service/dizayn-kalendarja-novogodnih-otkrytok"
+    - http://voroninstudio.eu/ru/service/dizayn-kalendarja-novogodnih-otkrytok
+    - weekly
+    - 0.8
+    - 
+    - true
+  - - 144
+    - 108
+    - en
+    - '2014-09-30 15:03:18.584143'
+    - '2015-04-03 12:56:14.590425'
+    - "/en/service/design-calendar-christmas-cards"
+    - http://voroninstudio.eu/en/service/design-calendar-christmas-cards
+    - weekly
+    - 0.8
+    - 
+    - true
+  - - 145
+    - 108
+    - uk
+    - '2014-09-30 15:03:18.590595'
+    - '2015-04-03 12:56:14.593658'
+    - "/uk/service/dyzayn-kalendarya-novorichnyh-lystivok"
+    - http://voroninstudio.eu/uk/service/dyzayn-kalendarya-novorichnyh-lystivok
+    - daily
+    - 0.8
+    - 
+    - true
+  - - 633
+    - 360
+    - uk
+    - '2015-04-03 11:33:11.018416'
+    - '2015-04-03 11:33:11.018416'
+    - "/uk/articles/vitaemo-z-novym-rokom-ta-rizdvom-hrustovum"
+    - http://voroninstudio.eu/uk/articles/vitaemo-z-novym-rokom-ta-rizdvom-hrustovum
+    - monthly
+    - 0.6
+    - 
+    - true
+  - - 634
+    - 360
+    - en
+    - '2015-04-03 11:33:11.023202'
+    - '2015-04-03 11:33:11.023202'
+    - "/en/articles/happy-new-near-and-merry-christmas"
+    - http://voroninstudio.eu/en/articles/happy-new-near-and-merry-christmas
+    - monthly
+    - 0.6
+    - 
+    - true
+  - - 635
+    - 360
+    - ru
+    - '2015-04-03 11:33:11.027207'
+    - '2015-04-03 11:33:11.027207'
+    - "/ru/articles/pozdravljaem-s-novim-godom-i-rozhdestvom-hristovim"
+    - http://voroninstudio.eu/ru/articles/pozdravljaem-s-novim-godom-i-rozhdestvom-hristovim
+    - monthly
+    - 0.6
+    - 
+    - true
+  - - 637
+    - 362
+    - uk
+    - '2015-04-03 14:26:58.575169'
+    - '2015-04-03 14:26:58.575169'
+    - "/uk/portfolio/web/yizhaky"
+    - http://voroninstudio.eu/uk/portfolio/web/yizhaky
+    - monthly
+    - 0.7
+    - 
+    - true
+  - - 638
+    - 362
+    - en
+    - '2015-04-03 14:26:58.581631'
+    - '2015-04-03 14:26:58.581631'
+    - "/en/portfolio/web-design/yizhaku"
+    - http://voroninstudio.eu/en/portfolio/web-design/yizhaku
+    - monthly
+    - 0.7
+    - 
+    - true
+  - - 639
+    - 362
+    - ru
+    - '2015-04-03 14:26:58.585167'
+    - '2015-04-03 14:26:58.585167'
+    - "/ru/portfolio/veb-dizayn/yizhaku"
+    - http://voroninstudio.eu/ru/portfolio/veb-dizayn/yizhaku
+    - monthly
+    - 0.7
+    - 
+    - true
+  - - 640
+    - 363
+    - uk
+    - '2015-04-03 14:29:43.939796'
+    - '2015-04-03 14:29:43.939796'
+    - "/uk/portfolio/dyzayn-logotipu-i-firmovogo-stylju/yizhaky"
+    - http://voroninstudio.eu/uk/portfolio/dyzayn-logotipu-i-firmovogo-stylju/yizhaky
+    - monthly
+    - 0.7
+    - 
+    - true
+  - - 641
+    - 363
+    - en
+    - '2015-04-03 14:29:43.943277'
+    - '2015-04-03 14:29:43.943277'
+    - "/en/portfolio/logo-design-corporate-identity/yizhaky"
+    - http://voroninstudio.eu/en/portfolio/logo-design-corporate-identity/yizhaky
+    - monthly
+    - 0.7
+    - 
+    - true
+  - - 642
+    - 363
+    - ru
+    - '2015-04-03 14:29:43.946647'
+    - '2015-04-03 14:29:43.946647'
+    - "/ru/portfolio/dizayn-logotipa-i-firmennogo-stilya/yizhaky"
+    - http://voroninstudio.eu/ru/portfolio/dizayn-logotipa-i-firmennogo-stilya/yizhaky
+    - monthly
+    - 0.7
+    - 
+    - true
+  - - 643
+    - 364
+    - ru
+    - '2015-04-03 14:57:35.286729'
+    - '2015-04-03 15:08:42.732128'
+    - "/ru/portfolio/dizayn-logotipa-i-firmennogo-stilya/bud-mix-ci"
+    - http://voroninstudio.eu/ru/portfolio/dizayn-logotipa-i-firmennogo-stilya/bud-mix-ci
+    - monthly
+    - 0.7
+    - 
+    - true
+  - - 645
+    - 364
+    - uk
+    - '2015-04-03 15:08:42.736864'
+    - '2015-04-03 15:08:42.736864'
+    - "/uk/portfolio/dyzayn-logotipu-i-firmovogo-stylju/bud-mix-ci"
+    - http://voroninstudio.eu/uk/portfolio/dyzayn-logotipu-i-firmovogo-stylju/bud-mix-ci
+    - monthly
+    - 0.7
+    - 
+    - true
+  - - 646
+    - 364
+    - en
+    - '2015-04-03 15:08:42.740819'
+    - '2015-04-03 15:08:42.740819'
+    - "/en/portfolio/logo-design-corporate-identity/bud-mix-ci"
+    - http://voroninstudio.eu/en/portfolio/logo-design-corporate-identity/bud-mix-ci
+    - monthly
+    - 0.7
+    - 
+    - true
+  - - 647
+    - 366
+    - ru
+    - '2015-04-03 15:14:26.241821'
+    - '2015-04-03 15:16:07.433373'
+    - "/ru/portfolio/dizayn-upakovki-i-etiketki/bud-mix"
+    - http://voroninstudio.eu/ru/portfolio/dizayn-upakovki-i-etiketki/bud-mix
+    - monthly
+    - 0.7
+    - 
+    - true
+  - - 648
+    - 366
+    - uk
+    - '2015-04-03 15:16:07.438041'
+    - '2015-04-03 15:16:07.438041'
+    - "/uk/portfolio/dyzayn-upakovki-i-etiketki/bud-mix"
+    - http://voroninstudio.eu/uk/portfolio/dyzayn-upakovki-i-etiketki/bud-mix
+    - monthly
+    - 0.7
+    - 
+    - true
+  - - 649
+    - 366
+    - en
+    - '2015-04-03 15:16:07.442572'
+    - '2015-04-03 15:16:07.442572'
+    - "/en/portfolio/packaging-design-label/bud-mix"
+    - http://voroninstudio.eu/en/portfolio/packaging-design-label/bud-mix
+    - monthly
+    - 0.7
+    - 
+    - true
+  - - 650
+    - 367
+    - ru
+    - '2015-04-03 15:21:02.195396'
+    - '2015-04-03 15:21:45.256718'
+    - "/ru/portfolio/veb-dizayn/Ekotel"
+    - http://voroninstudio.eu/ru/portfolio/veb-dizayn/Ekotel
+    - monthly
+    - 0.7
+    - 
+    - true
+  - - 651
+    - 367
+    - uk
+    - '2015-04-03 15:21:45.263278'
+    - '2015-04-03 15:21:45.263278'
+    - "/uk/portfolio/web/ekotel"
+    - http://voroninstudio.eu/uk/portfolio/web/ekotel
+    - monthly
+    - 0.7
+    - 
+    - true
+  - - 652
+    - 367
+    - en
+    - '2015-04-03 15:21:45.288594'
+    - '2015-04-03 15:21:45.288594'
+    - "/en/portfolio/web-design/Ekotel"
+    - http://voroninstudio.eu/en/portfolio/web-design/Ekotel
+    - monthly
+    - 0.7
+    - 
+    - true
+  - - 653
+    - 368
+    - ru
+    - '2015-04-03 15:25:51.485399'
+    - '2015-04-03 15:26:59.500952'
+    - "/ru/portfolio/veb-dizayn/girafa"
+    - http://voroninstudio.eu/ru/portfolio/veb-dizayn/girafa
+    - monthly
+    - 0.7
+    - 
+    - true
+  - - 654
+    - 368
+    - uk
+    - '2015-04-03 15:26:59.505366'
+    - '2015-04-03 15:26:59.505366'
+    - "/uk/portfolio/web/girafa"
+    - http://voroninstudio.eu/uk/portfolio/web/girafa
+    - monthly
+    - 0.7
+    - 
+    - true
+  - - 655
+    - 368
+    - en
+    - '2015-04-03 15:26:59.508651'
+    - '2015-04-03 15:26:59.508651'
+    - "/en/portfolio/web-design/girafa"
+    - http://voroninstudio.eu/en/portfolio/web-design/girafa
+    - monthly
+    - 0.7
+    - 
+    - true
+  - - 656
+    - 369
+    - ru
+    - '2015-04-03 15:36:34.177010'
+    - '2015-04-03 15:37:36.370809'
+    - "/ru/portfolio/veb-dizayn/liketour"
+    - http://voroninstudio.eu/ru/portfolio/veb-dizayn/liketour
+    - monthly
+    - 0.7
+    - 
+    - true
+  - - 657
+    - 369
+    - uk
+    - '2015-04-03 15:37:36.374179'
+    - '2015-04-03 15:37:36.374179'
+    - "/uk/portfolio/web/liketour"
+    - http://voroninstudio.eu/uk/portfolio/web/liketour
+    - monthly
+    - 0.7
+    - 
+    - true
+  - - 658
+    - 369
+    - en
+    - '2015-04-03 15:37:36.377452'
+    - '2015-04-03 15:37:36.377452'
+    - "/en/portfolio/web-design/liketour"
+    - http://voroninstudio.eu/en/portfolio/web-design/liketour
+    - monthly
+    - 0.7
+    - 
+    - true
+  - - 664
+    - 375
+    - ru
+    - '2015-04-09 17:39:25.231091'
+    - '2015-08-29 13:28:14.904969'
+    - bud-mix-ci
+    - http://voroninstudio.eubud-mix-ci
+    - weekly
+    - 0.8
+    - 
+    - true
+  - - 665
+    - 376
+    - ru
+    - '2015-04-12 05:06:25.735598'
+    - '2015-04-12 05:08:10.082767'
+    - test
+    - http://voroninstudio.eutest
+    - weekly
+    - 0.8
+    - 
+    - true
+  - - 666
+    - 376
+    - uk
+    - '2015-04-12 05:08:10.086113'
+    - '2015-04-12 05:08:10.086113'
+    - test
+    - http://voroninstudio.eutest
+    - ''
+    - 0.8
+    - 
+    - true
+  - - 667
+    - 376
+    - en
+    - '2015-04-12 05:08:10.090008'
+    - '2015-04-12 05:08:10.090008'
+    - test
+    - http://voroninstudio.eutest
+    - ''
+    - 0.8
+    - 
+    - true
+  - - 668
+    - 377
+    - ru
+    - '2015-04-12 05:08:10.096250'
+    - '2015-04-12 05:16:15.283170'
+    - hjhj
+    - http://voroninstudio.euhjhj
+    - weekly
+    - 0.8
+    - 
+    - true
+  - - 669
+    - 377
+    - uk
+    - '2015-04-12 05:16:15.289195'
+    - '2015-04-12 05:16:15.289195'
+    - nn
+    - http://voroninstudio.eunn
+    - ''
+    - 0.8
+    - 
+    - true
+  - - 670
+    - 377
+    - en
+    - '2015-04-12 05:16:15.292897'
+    - '2015-04-12 05:16:15.292897'
+    - hgjh
+    - http://voroninstudio.euhgjh
+    - ''
+    - 0.8
+    - 
+    - true
+  - - 671
+    - 378
+    - ru
+    - '2015-04-12 05:16:15.299656'
+    - '2015-04-12 05:16:15.299656'
+    - 
+    - http://voroninstudio.eu
+    - weekly
+    - 0.8
+    - 
+    - true
+  - - 672
+    - 379
+    - ru
+    - '2015-06-23 12:47:47.019819'
+    - '2015-06-23 13:24:38.203520'
+    - Print-advertising-and-POS-materials
+    - http://voroninstudio.euPrint-advertising-and-POS-materials
+    - weekly
+    - 0.8
+    - 
+    - true
+  - - 673
+    - 379
+    - uk
+    - '2015-06-23 13:24:38.209393'
+    - '2015-06-23 13:24:38.209393'
+    - Print-advertising-and-POS-materials
+    - http://voroninstudio.euPrint-advertising-and-POS-materials
+    - ''
+    - 0.8
+    - 
+    - true
+  - - 674
+    - 379
+    - en
+    - '2015-06-23 13:24:38.212992'
+    - '2015-06-23 13:24:38.212992'
+    - Print-advertising-and-POS-materials
+    - http://voroninstudio.euPrint-advertising-and-POS-materials
+    - ''
+    - 0.8
+    - 
+    - true
+  - - 675
+    - 380
+    - ru
+    - '2015-06-23 14:24:30.617559'
+    - '2015-06-23 14:31:50.668088'
+    - 'Poster-Design '
+    - 'http://voroninstudio.euPoster-Design '
+    - weekly
+    - 0.8
+    - 
+    - true
+  - - 676
+    - 380
+    - uk
+    - '2015-06-23 14:31:50.673991'
+    - '2015-06-23 14:31:50.673991'
+    - 'Poster-Design '
+    - 'http://voroninstudio.euPoster-Design '
+    - ''
+    - 0.8
+    - 
+    - true
+  - - 677
+    - 380
+    - en
+    - '2015-06-23 14:31:50.677579'
+    - '2015-06-23 14:31:50.677579'
+    - 'Poster-Design '
+    - 'http://voroninstudio.euPoster-Design '
+    - ''
+    - 0.8
+    - 
+    - true
+  - - 678
+    - 381
+    - ru
+    - '2015-06-23 14:40:37.653258'
+    - '2015-06-23 14:48:38.515131'
+    - 'Calendar-and-Christmas-cards-Design '
+    - 'http://voroninstudio.euCalendar-and-Christmas-cards-Design '
+    - weekly
+    - 0.8
+    - 
+    - true
+  - - 679
+    - 381
+    - uk
+    - '2015-06-23 14:48:38.522866'
+    - '2015-06-23 14:48:38.522866'
+    - 'Calendar-and-Christmas-cards-Design '
+    - 'http://voroninstudio.euCalendar-and-Christmas-cards-Design '
+    - ''
+    - 0.8
+    - 
+    - true
+  - - 680
+    - 381
+    - en
+    - '2015-06-23 14:48:38.527802'
+    - '2015-06-23 14:48:38.527802'
+    - 'Calendar-and-Christmas-cards-Design '
+    - 'http://voroninstudio.euCalendar-and-Christmas-cards-Design '
+    - ''
+    - 0.8
+    - 
+    - true
+  - - 681
+    - 382
+    - ru
+    - '2015-06-24 11:14:42.764681'
+    - '2015-06-24 12:48:52.164481'
+    - Web-Design-and-Website-Development
+    - http://voroninstudio.euWeb-Design-and-Website-Development
+    - weekly
+    - 0.8
+    - 
+    - true
+  - - 682
+    - 382
+    - uk
+    - '2015-06-24 12:48:52.170620'
+    - '2015-06-24 12:48:52.170620'
+    - Web-Design-and-Website-Development
+    - http://voroninstudio.euWeb-Design-and-Website-Development
+    - ''
+    - 0.8
+    - 
+    - true
+  - - 683
+    - 382
+    - en
+    - '2015-06-24 12:48:52.174383'
+    - '2015-06-24 12:48:52.174383'
+    - Web-Design-and-Website-Development
+    - http://voroninstudio.euWeb-Design-and-Website-Development
+    - ''
+    - 0.8
+    - 
+    - true
+  - - 684
+    - 383
+    - ru
+    - '2015-06-24 13:02:06.958287'
+    - '2015-06-24 13:11:20.858240'
+    - Mobile-Application-Development
+    - http://voroninstudio.euMobile-Application-Development
+    - weekly
+    - 0.8
+    - 
+    - true
+  - - 685
+    - 383
+    - uk
+    - '2015-06-24 13:11:20.864162'
+    - '2015-06-24 13:11:20.864162'
+    - Mobile-Application-Development
+    - http://voroninstudio.euMobile-Application-Development
+    - ''
+    - 0.8
+    - 
+    - true
+  - - 686
+    - 383
+    - en
+    - '2015-06-24 13:11:20.867817'
+    - '2015-06-24 13:11:20.867817'
+    - Mobile-Application-Development
+    - http://voroninstudio.euMobile-Application-Development
+    - ''
+    - 0.8
+    - 
+    - true
+  - - 687
+    - 384
+    - ru
+    - '2015-06-29 14:53:41.399588'
+    - '2015-06-29 15:07:36.270355'
+    - valko-e-commerce
+    - http://voroninstudio.euvalko-e-commerce
+    - weekly
+    - 0.8
+    - 
+    - true
+  - - 688
+    - 384
+    - uk
+    - '2015-06-29 15:07:36.276593'
+    - '2015-06-29 15:07:36.276593'
+    - valko-e-commerce
+    - http://voroninstudio.euvalko-e-commerce
+    - ''
+    - 0.8
+    - 
+    - true
+  - - 689
+    - 384
+    - en
+    - '2015-06-29 15:07:36.280317'
+    - '2015-06-29 15:07:36.280317'
+    - valko-e-commerce
+    - http://voroninstudio.euvalko-e-commerce
+    - ''
+    - 0.8
+    - 
+    - true
+  - - 690
+    - 375
+    - uk
+    - '2015-08-29 13:28:14.911743'
+    - '2015-08-29 13:28:14.911743'
+    - bud-mix-ci
+    - http://voroninstudio.eubud-mix-ci
+    - ''
+    - 0.8
+    - 
+    - true
+  - - 691
+    - 375
+    - en
+    - '2015-08-29 13:28:14.915621'
+    - '2015-08-29 13:28:14.915621'
+    - bud-mix-ci
+    - http://voroninstudio.eubud-mix-ci
+    - ''
+    - 0.8
+    - 
+    - true
+  - - 692
+    - 385
+    - ru
+    - '2016-03-24 17:01:05.298576'
+    - '2016-03-24 17:03:36.322346'
+    - bolshue-peremeny-vperedi
+    - http://voroninstudio.eubolshue-peremeny-vperedi
+    - weekly
+    - 0.8
+    - 
+    - true
+  - - 693
+    - 385
+    - uk
+    - '2016-03-24 17:03:36.330637'
+    - '2016-03-24 17:03:36.330637'
+    - velyki-zminy-nezabarom
+    - http://voroninstudio.euvelyki-zminy-nezabarom
+    - ''
+    - 0.8
+    - 
+    - true
+  - - 694
+    - 385
+    - en
+    - '2016-03-24 17:03:36.335015'
+    - '2016-03-24 17:03:36.335015'
+    - big-changes-are-coming
+    - http://voroninstudio.eubig-changes-are-coming
+    - ''
+    - 0.8
+    - 
+    - true
+  - - 695
+    - 386
+    - ru
+    - '2016-03-24 17:37:32.809801'
+    - '2016-03-24 17:39:41.151816'
+    - novoe-studijnoe-video-yvidelo-svet
+    - http://voroninstudio.eunovoe-studijnoe-video-yvidelo-svet
+    - weekly
+    - 0.8
+    - 
+    - true
+  - - 696
+    - 386
+    - uk
+    - '2016-03-24 17:39:41.157393'
+    - '2016-03-24 17:39:41.157393'
+    - nove-studijne-video-pobachylo-svit
+    - http://voroninstudio.eunove-studijne-video-pobachylo-svit
+    - ''
+    - 0.8
+    - 
+    - true
+  - - 697
+    - 386
+    - en
+    - '2016-03-24 17:39:41.161021'
+    - '2016-03-24 17:39:41.161021'
+    - new-studio-video
+    - http://voroninstudio.eunew-studio-video
+    - ''
+    - 0.8
+    - 
+    - true
+  - - 698
+    - 387
+    - ru
+    - '2016-03-24 17:56:51.152360'
+    - '2016-03-24 17:58:16.660213'
+    - ishchem-novye-talanty-v-komandu-studii
+    - http://voroninstudio.euishchem-novye-talanty-v-komandu-studii
+    - weekly
+    - 0.8
+    - 
+    - true
+  - - 699
+    - 387
+    - uk
+    - '2016-03-24 17:58:16.665299'
+    - '2016-03-24 17:58:16.665299'
+    - shukaemo-novi-talantu-v-komandu-studii
+    - http://voroninstudio.eushukaemo-novi-talantu-v-komandu-studii
+    - ''
+    - 0.8
+    - 
+    - true
+  - - 700
+    - 387
+    - en
+    - '2016-03-24 17:58:16.670801'
+    - '2016-03-24 17:58:16.670801'
+    - new-talants-wanted
+    - http://voroninstudio.eunew-talants-wanted
+    - ''
+    - 0.8
+    - 
+    - true
+  - - 701
+    - 388
+    - ru
+    - '2016-08-08 10:03:05.321809'
+    - '2016-08-08 10:06:45.262127'
+    - shukaemo-graphichnyh-designeriv
+    - http://voroninstudio.eushukaemo-graphichnyh-designeriv
+    - weekly
+    - 0.8
+    - 
+    - true
+  - - 702
+    - 388
+    - uk
+    - '2016-08-08 10:06:45.268513'
+    - '2016-08-08 10:06:45.268513'
+    - shukaemo-graphichnyh-designeriv
+    - http://voroninstudio.eushukaemo-graphichnyh-designeriv
+    - ''
+    - 0.8
+    - 
+    - true
+  - - 703
+    - 388
+    - en
+    - '2016-08-08 10:06:45.273435'
+    - '2016-08-08 10:06:45.273435'
+    - in-search-of-graphic-designers
+    - http://voroninstudio.euin-search-of-graphic-designers
+    - ''
+    - 0.8
+    - 
+    - true
+  - - 704
+    - 389
+    - ru
+    - '2016-09-21 16:49:07.032989'
+    - '2016-09-21 16:52:40.358209'
+    - yammi-shabloni-adaptivnih-veb-saytiv-dlya-burger-kafe-ta-kav-yarni
+    - http://voroninstudio.euyammi-shabloni-adaptivnih-veb-saytiv-dlya-burger-kafe-ta-kav-yarni
+    - weekly
+    - 0.8
+    - 
+    - true
+  - - 705
+    - 389
+    - uk
+    - '2016-09-21 16:52:40.361893'
+    - '2016-09-21 16:52:40.361893'
+    - yammi-shabloni-adaptivnih-veb-saytiv-dlya-burger-kafe-ta-kav-yarni
+    - http://voroninstudio.euyammi-shabloni-adaptivnih-veb-saytiv-dlya-burger-kafe-ta-kav-yarni
+    - ''
+    - 0.8
+    - 
+    - true
+  - - 706
+    - 389
+    - en
+    - '2016-09-21 16:52:40.365624'
+    - '2016-09-21 16:52:40.365624'
+    - yammi-shabloni-adaptivnih-veb-saytiv-dlya-burger-kafe-ta-kav-yarni
+    - http://voroninstudio.euyammi-shabloni-adaptivnih-veb-saytiv-dlya-burger-kafe-ta-kav-yarni
+    - ''
+    - 0.8
+    - 
+    - true

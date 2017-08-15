@@ -1,0 +1,837 @@
+
+---
+taggings:
+  columns:
+  - id
+  - tag_id
+  - taggable_id
+  - taggable_type
+  - tagger_id
+  - tagger_type
+  - context
+  - created_at
+  records: 
+  - - 2
+    - 2
+    - 1
+    - FormConfig
+    - 
+    - 
+    - form_receiver
+    - '2014-04-24 06:34:39.025773'
+  - - 3
+    - 3
+    - 1
+    - FormConfig
+    - 
+    - 
+    - form_receiver
+    - '2014-04-24 06:34:39.093882'
+  - - 4
+    - 4
+    - 1
+    - FormConfig
+    - 
+    - 
+    - form_receiver
+    - '2014-04-24 06:34:39.116773'
+  - - 5
+    - 5
+    - 1
+    - FormConfig
+    - 
+    - 
+    - form_receiver
+    - '2014-04-24 06:34:39.135666'
+  - - 6
+    - 6
+    - 1
+    - FormConfig
+    - 
+    - 
+    - form_receiver
+    - '2014-04-24 06:34:39.158898'
+  - - 7
+    - 2
+    - 2
+    - FormConfig
+    - 
+    - 
+    - form_receiver
+    - '2014-04-24 06:36:30.316164'
+  - - 8
+    - 3
+    - 2
+    - FormConfig
+    - 
+    - 
+    - form_receiver
+    - '2014-04-24 06:36:30.474989'
+  - - 9
+    - 4
+    - 2
+    - FormConfig
+    - 
+    - 
+    - form_receiver
+    - '2014-04-24 06:36:30.499961'
+  - - 10
+    - 5
+    - 2
+    - FormConfig
+    - 
+    - 
+    - form_receiver
+    - '2014-04-24 06:36:30.520419'
+  - - 11
+    - 6
+    - 2
+    - FormConfig
+    - 
+    - 
+    - form_receiver
+    - '2014-04-24 06:36:30.547158'
+  - - 12
+    - 2
+    - 3
+    - FormConfig
+    - 
+    - 
+    - form_receiver
+    - '2014-04-24 06:37:29.702764'
+  - - 13
+    - 3
+    - 3
+    - FormConfig
+    - 
+    - 
+    - form_receiver
+    - '2014-04-24 06:37:29.725885'
+  - - 14
+    - 4
+    - 3
+    - FormConfig
+    - 
+    - 
+    - form_receiver
+    - '2014-04-24 06:37:29.746716'
+  - - 15
+    - 5
+    - 3
+    - FormConfig
+    - 
+    - 
+    - form_receiver
+    - '2014-04-24 06:37:29.882636'
+  - - 16
+    - 6
+    - 3
+    - FormConfig
+    - 
+    - 
+    - form_receiver
+    - '2014-04-24 06:37:29.912194'
+  - - 26
+    - 13
+    - 2
+    - StaticPageData
+    - 
+    - 
+    - meta_keywords
+    - '2014-04-25 10:03:11.617005'
+  - - 27
+    - 14
+    - 2
+    - StaticPageData
+    - 
+    - 
+    - meta_keywords
+    - '2014-04-25 10:03:11.659818'
+  - - 28
+    - 15
+    - 2
+    - StaticPageData
+    - 
+    - 
+    - meta_keywords
+    - '2014-04-25 10:03:11.801735'
+  - - 29
+    - 16
+    - 2
+    - StaticPageData
+    - 
+    - 
+    - meta_keywords
+    - '2014-04-25 10:03:11.836318'
+  - - 30
+    - 17
+    - 2
+    - StaticPageData
+    - 
+    - 
+    - meta_keywords
+    - '2014-04-25 10:03:11.862642'
+  - - 31
+    - 18
+    - 2
+    - StaticPageData
+    - 
+    - 
+    - meta_keywords
+    - '2014-04-25 10:03:11.895721'
+  - - 32
+    - 19
+    - 2
+    - StaticPageData
+    - 
+    - 
+    - meta_keywords
+    - '2014-04-25 10:03:12.061003'
+  - - 33
+    - 20
+    - 2
+    - StaticPageData
+    - 
+    - 
+    - meta_keywords
+    - '2014-04-25 10:03:12.094067'
+  - - 34
+    - 21
+    - 2
+    - StaticPageData
+    - 
+    - 
+    - meta_keywords
+    - '2014-04-25 10:03:12.123920'
+  - - 35
+    - 22
+    - 2
+    - StaticPageData
+    - 
+    - 
+    - meta_keywords
+    - '2014-04-25 10:03:12.272625'
+  - - 36
+    - 23
+    - 2
+    - StaticPageData
+    - 
+    - 
+    - meta_keywords
+    - '2014-04-25 10:03:12.302728'
+  - - 37
+    - 24
+    - 2
+    - StaticPageData
+    - 
+    - 
+    - meta_keywords
+    - '2014-04-25 10:03:12.332399'
+  - - 38
+    - 25
+    - 2
+    - StaticPageData
+    - 
+    - 
+    - meta_keywords
+    - '2014-04-25 10:03:12.364378'
+  - - 39
+    - 26
+    - 2
+    - StaticPageData
+    - 
+    - 
+    - meta_keywords
+    - '2014-04-25 10:03:12.510613'
+  - - 40
+    - 27
+    - 2
+    - StaticPageData
+    - 
+    - 
+    - meta_keywords
+    - '2014-04-25 10:03:12.542575'
+  - - 41
+    - 28
+    - 2
+    - StaticPageData
+    - 
+    - 
+    - meta_keywords
+    - '2014-04-25 10:03:12.569118'
+  - - 42
+    - 29
+    - 2
+    - StaticPageData
+    - 
+    - 
+    - meta_keywords
+    - '2014-04-25 10:03:12.718465'
+  - - 43
+    - 30
+    - 2
+    - StaticPageData
+    - 
+    - 
+    - meta_keywords
+    - '2014-04-25 10:03:12.745102'
+  - - 44
+    - 31
+    - 2
+    - StaticPageData
+    - 
+    - 
+    - meta_keywords
+    - '2014-04-25 10:03:12.784085'
+  - - 45
+    - 32
+    - 2
+    - StaticPageData
+    - 
+    - 
+    - meta_keywords
+    - '2014-04-25 10:03:12.822569'
+  - - 46
+    - 33
+    - 2
+    - StaticPageData
+    - 
+    - 
+    - meta_keywords
+    - '2014-04-25 10:03:12.997493'
+  - - 51
+    - 38
+    - 16
+    - Article
+    - 
+    - 
+    - tags
+    - '2014-05-18 20:33:21.268882'
+  - - 52
+    - 39
+    - 17
+    - Article
+    - 
+    - 
+    - tags
+    - '2014-05-20 13:54:38.978597'
+  - - 53
+    - 40
+    - 17
+    - Article
+    - 
+    - 
+    - tags
+    - '2014-05-20 13:54:39.089903'
+  - - 60
+    - 43
+    - 1
+    - Route
+    - 
+    - 
+    - methods
+    - '2014-09-25 13:19:16.381132'
+  - - 61
+    - 43
+    - 2
+    - Route
+    - 
+    - 
+    - methods
+    - '2014-09-25 13:20:37.575618'
+  - - 62
+    - 43
+    - 3
+    - Route
+    - 
+    - 
+    - methods
+    - '2014-09-25 13:22:20.784877'
+  - - 63
+    - 43
+    - 4
+    - Route
+    - 
+    - 
+    - methods
+    - '2014-09-25 13:23:36.427600'
+  - - 64
+    - 43
+    - 5
+    - Route
+    - 
+    - 
+    - methods
+    - '2014-09-25 13:24:49.597112'
+  - - 65
+    - 43
+    - 6
+    - Route
+    - 
+    - 
+    - methods
+    - '2014-09-25 13:26:25.373828'
+  - - 66
+    - 44
+    - 7
+    - Route
+    - 
+    - 
+    - methods
+    - '2014-09-25 13:27:31.720190'
+  - - 67
+    - 44
+    - 8
+    - Route
+    - 
+    - 
+    - methods
+    - '2014-09-25 13:29:21.189120'
+  - - 68
+    - 43
+    - 9
+    - Route
+    - 
+    - 
+    - methods
+    - '2014-09-25 13:30:18.730545'
+  - - 69
+    - 43
+    - 10
+    - Route
+    - 
+    - 
+    - methods
+    - '2014-09-25 13:31:19.389984'
+  - - 70
+    - 43
+    - 11
+    - Route
+    - 
+    - 
+    - methods
+    - '2014-09-25 13:32:29.176063'
+  - - 71
+    - 43
+    - 12
+    - Route
+    - 
+    - 
+    - methods
+    - '2014-09-25 13:33:19.668125'
+  - - 72
+    - 43
+    - 13
+    - Route
+    - 
+    - 
+    - methods
+    - '2014-09-25 13:34:03.982357'
+  - - 73
+    - 43
+    - 14
+    - Route
+    - 
+    - 
+    - methods
+    - '2014-09-25 13:34:53.940655'
+  - - 74
+    - 45
+    - 1
+    - PortfolioTagScope
+    - 
+    - 
+    - tags
+    - '2014-09-29 13:24:44.651427'
+  - - 75
+    - 46
+    - 1
+    - PortfolioTagScope
+    - 
+    - 
+    - tags
+    - '2014-09-29 13:25:10.072527'
+  - - 76
+    - 19
+    - 1
+    - PortfolioTagScope
+    - 
+    - 
+    - tags
+    - '2014-09-29 13:26:40.001136'
+  - - 77
+    - 45
+    - 2
+    - PortfolioTagScope
+    - 
+    - 
+    - tags
+    - '2014-09-29 13:39:01.763530'
+  - - 78
+    - 19
+    - 2
+    - PortfolioTagScope
+    - 
+    - 
+    - tags
+    - '2014-09-29 13:39:01.781366'
+  - - 79
+    - 47
+    - 3
+    - PortfolioTagScope
+    - 
+    - 
+    - tags
+    - '2014-09-29 14:18:01.839413'
+  - - 80
+    - 15
+    - 4
+    - PortfolioTagScope
+    - 
+    - 
+    - tags
+    - '2014-09-29 14:18:38.097538'
+  - - 81
+    - 48
+    - 5
+    - PortfolioTagScope
+    - 
+    - 
+    - tags
+    - '2014-09-29 14:18:55.975027'
+  - - 82
+    - 15
+    - 6
+    - PortfolioTagScope
+    - 
+    - 
+    - tags
+    - '2014-09-29 14:19:48.259877'
+  - - 83
+    - 49
+    - 6
+    - PortfolioTagScope
+    - 
+    - 
+    - tags
+    - '2014-09-29 14:19:48.265715'
+  - - 84
+    - 50
+    - 6
+    - PortfolioTagScope
+    - 
+    - 
+    - tags
+    - '2014-09-29 14:19:48.271486'
+  - - 85
+    - 15
+    - 7
+    - PortfolioTagScope
+    - 
+    - 
+    - tags
+    - '2014-09-29 14:20:28.844134'
+  - - 86
+    - 15
+    - 8
+    - PortfolioTagScope
+    - 
+    - 
+    - tags
+    - '2014-09-29 14:20:41.588356'
+  - - 87
+    - 19
+    - 9
+    - PortfolioTagScope
+    - 
+    - 
+    - tags
+    - '2014-09-29 14:22:14.995740'
+  - - 88
+    - 45
+    - 9
+    - PortfolioTagScope
+    - 
+    - 
+    - tags
+    - '2014-09-29 14:22:15.001473'
+  - - 89
+    - 19
+    - 10
+    - PortfolioTagScope
+    - 
+    - 
+    - tags
+    - '2014-09-29 14:23:27.430024'
+  - - 90
+    - 45
+    - 10
+    - PortfolioTagScope
+    - 
+    - 
+    - tags
+    - '2014-09-29 14:23:27.435840'
+  - - 91
+    - 15
+    - 10
+    - PortfolioTagScope
+    - 
+    - 
+    - tags
+    - '2014-09-29 14:23:27.441476'
+  - - 92
+    - 51
+    - 10
+    - PortfolioTagScope
+    - 
+    - 
+    - tags
+    - '2014-09-29 14:23:27.447068'
+  - - 93
+    - 51
+    - 4
+    - PortfolioTagScope
+    - 
+    - 
+    - tags
+    - '2014-09-29 14:23:59.765866'
+  - - 94
+    - 19
+    - 11
+    - PortfolioTagScope
+    - 
+    - 
+    - tags
+    - '2014-09-29 14:26:19.779098'
+  - - 95
+    - 45
+    - 11
+    - PortfolioTagScope
+    - 
+    - 
+    - tags
+    - '2014-09-29 14:26:19.784825'
+  - - 96
+    - 19
+    - 12
+    - PortfolioTagScope
+    - 
+    - 
+    - tags
+    - '2014-09-29 14:33:56.759000'
+  - - 97
+    - 45
+    - 12
+    - PortfolioTagScope
+    - 
+    - 
+    - tags
+    - '2014-09-29 14:33:56.778079'
+  - - 98
+    - 19
+    - 13
+    - PortfolioTagScope
+    - 
+    - 
+    - tags
+    - '2014-09-29 14:33:57.094579'
+  - - 99
+    - 45
+    - 13
+    - PortfolioTagScope
+    - 
+    - 
+    - tags
+    - '2014-09-29 14:33:57.110586'
+  - - 100
+    - 19
+    - 14
+    - PortfolioTagScope
+    - 
+    - 
+    - tags
+    - '2014-09-29 14:33:57.281257'
+  - - 101
+    - 45
+    - 14
+    - PortfolioTagScope
+    - 
+    - 
+    - tags
+    - '2014-09-29 14:33:57.296862'
+  - - 102
+    - 19
+    - 15
+    - PortfolioTagScope
+    - 
+    - 
+    - tags
+    - '2014-09-29 14:33:57.583181'
+  - - 103
+    - 45
+    - 15
+    - PortfolioTagScope
+    - 
+    - 
+    - tags
+    - '2014-09-29 14:33:57.598704'
+  - - 104
+    - 19
+    - 16
+    - PortfolioTagScope
+    - 
+    - 
+    - tags
+    - '2014-09-29 14:33:57.779950'
+  - - 105
+    - 45
+    - 16
+    - PortfolioTagScope
+    - 
+    - 
+    - tags
+    - '2014-09-29 14:33:57.890330'
+  - - 106
+    - 19
+    - 17
+    - PortfolioTagScope
+    - 
+    - 
+    - tags
+    - '2014-09-29 14:33:58.052873'
+  - - 107
+    - 45
+    - 17
+    - PortfolioTagScope
+    - 
+    - 
+    - tags
+    - '2014-09-29 14:33:58.068490'
+  - - 108
+    - 19
+    - 18
+    - PortfolioTagScope
+    - 
+    - 
+    - tags
+    - '2014-09-29 14:33:58.336764'
+  - - 109
+    - 45
+    - 18
+    - PortfolioTagScope
+    - 
+    - 
+    - tags
+    - '2014-09-29 14:33:58.352588'
+  - - 110
+    - 19
+    - 19
+    - PortfolioTagScope
+    - 
+    - 
+    - tags
+    - '2014-09-29 14:33:58.565754'
+  - - 111
+    - 45
+    - 19
+    - PortfolioTagScope
+    - 
+    - 
+    - tags
+    - '2014-09-29 14:33:58.581258'
+  - - 114
+    - 42
+    - 3
+    - FormConfig
+    - 
+    - 
+    - form_receivers
+    - '2015-02-04 10:01:39.729154'
+  - - 115
+    - 41
+    - 3
+    - FormConfig
+    - 
+    - 
+    - form_receivers
+    - '2015-02-04 10:01:39.733978'
+  - - 116
+    - 42
+    - 2
+    - FormConfig
+    - 
+    - 
+    - form_receivers
+    - '2015-02-04 10:02:06.990624'
+  - - 117
+    - 41
+    - 2
+    - FormConfig
+    - 
+    - 
+    - form_receivers
+    - '2015-02-04 10:02:06.995070'
+  - - 122
+    - 49
+    - 33
+    - PortfolioTagScope
+    - 
+    - 
+    - tags
+    - '2015-04-23 14:01:46.049975'
+  - - 123
+    - 11
+    - 2
+    - FormConfig
+    - 
+    - 
+    - form_receivers
+    - '2015-05-27 13:16:53.064911'
+  - - 124
+    - 11
+    - 3
+    - FormConfig
+    - 
+    - 
+    - form_receivers
+    - '2015-05-27 13:20:10.726291'
+  - - 125
+    - 53
+    - 41
+    - PortfolioTagScope
+    - 
+    - 
+    - tags
+    - '2015-06-29 14:53:41.453871'
+  - - 126
+    - 45
+    - 44
+    - PortfolioTagScope
+    - 
+    - 
+    - tags
+    - '2016-03-24 17:10:36.601625'
+  - - 127
+    - 19
+    - 44
+    - PortfolioTagScope
+    - 
+    - 
+    - tags
+    - '2016-03-24 17:11:07.152197'
+  - - 128
+    - 15
+    - 44
+    - PortfolioTagScope
+    - 
+    - 
+    - tags
+    - '2016-03-24 17:11:07.157339'
+  - - 129
+    - 53
+    - 44
+    - PortfolioTagScope
+    - 
+    - 
+    - tags
+    - '2016-03-24 17:11:07.161896'

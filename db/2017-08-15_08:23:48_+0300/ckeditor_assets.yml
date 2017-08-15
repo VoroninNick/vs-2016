@@ -1,0 +1,4793 @@
+
+---
+ckeditor_assets:
+  columns:
+  - id
+  - data_file_name
+  - data_content_type
+  - data_file_size
+  - assetable_id
+  - assetable_type
+  - type
+  - width
+  - height
+  - created_at
+  - updated_at
+  - data_file_name_fallback
+  records: 
+  - - 1
+    - vs-next-portfolio-single-item-1144px-2a.jpg
+    - image/jpeg
+    - 80682
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 450
+    - 450
+    - '2013-10-11 07:06:29.547894'
+    - '2015-04-14 12:39:17.362420'
+    - vs-next-portfolio-single-item-1144px-2a.jpg
+  - - 2
+    - vs-next-portfolio-single-item-1144px-2a.jpg
+    - image/jpeg
+    - 80682
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 450
+    - 450
+    - '2013-10-11 07:07:15.022286'
+    - '2015-04-14 12:39:18.272973'
+    - vs-next-portfolio-single-item-1144px-2a.jpg
+  - - 3
+    - vs-next-portfolio-single-item-1144px-2a.jpg
+    - image/jpeg
+    - 80682
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 450
+    - 450
+    - '2013-10-11 07:09:56.918835'
+    - '2015-04-14 12:39:19.121121'
+    - vs-next-portfolio-single-item-1144px-2a.jpg
+  - - 4
+    - vs-next-portfolio-single-item-1144px-2a.jpg
+    - image/jpeg
+    - 80682
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 450
+    - 450
+    - '2013-10-11 07:10:50.225207'
+    - '2015-04-14 12:39:19.972700'
+    - vs-next-portfolio-single-item-1144px-2a.jpg
+  - - 5
+    - vs-next-portfolio-single-item-1144px-2a.jpg
+    - image/jpeg
+    - 80682
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 450
+    - 450
+    - '2013-10-11 07:11:15.806855'
+    - '2015-04-14 12:39:20.746035'
+    - vs-next-portfolio-single-item-1144px-2a.jpg
+  - - 6
+    - vs-next-portfolio-single-item-1144px-2a.jpg
+    - image/jpeg
+    - 80682
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 450
+    - 450
+    - '2013-10-11 07:18:58.480109'
+    - '2015-04-14 12:39:21.562852'
+    - vs-next-portfolio-single-item-1144px-2a.jpg
+  - - 7
+    - large_image.jpg
+    - image/jpeg
+    - 113244
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1349
+    - 305
+    - '2013-10-11 07:23:13.705251'
+    - '2015-04-14 12:39:23.631067'
+    - large_image.jpg
+  - - 8
+    - image05.jpg
+    - image/jpeg
+    - 95264
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 620
+    - 400
+    - '2013-10-11 07:35:22.950730'
+    - '2015-04-14 12:39:24.502869'
+    - image05.jpg
+  - - 9
+    - image05.jpg
+    - image/jpeg
+    - 95264
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 620
+    - 400
+    - '2013-10-11 07:36:10.673780'
+    - '2015-04-14 12:39:25.380182'
+    - image05.jpg
+  - - 10
+    - image05.jpg
+    - image/jpeg
+    - 95264
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 620
+    - 400
+    - '2013-10-11 07:36:33.790432'
+    - '2015-04-14 12:39:26.274005'
+    - image05.jpg
+  - - 11
+    - image05.jpg
+    - image/jpeg
+    - 95264
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 620
+    - 400
+    - '2013-10-11 07:37:06.128507'
+    - '2015-04-14 12:39:27.162626'
+    - image05.jpg
+  - - 12
+    - one-image.jpg
+    - image/jpeg
+    - 399257
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1359
+    - 487
+    - '2013-10-11 07:45:54.648247'
+    - '2015-04-14 12:39:28.906414'
+    - one-image.jpg
+  - - 13
+    - one-image.jpg
+    - image/jpeg
+    - 399257
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1359
+    - 487
+    - '2013-10-11 07:46:51.067303'
+    - '2015-04-14 12:39:30.683115'
+    - one-image.jpg
+  - - 14
+    - one-image.jpg
+    - image/jpeg
+    - 399257
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1359
+    - 487
+    - '2013-10-11 07:47:19.597019'
+    - '2015-04-14 12:39:32.572033'
+    - one-image.jpg
+  - - 15
+    - one-image.jpg
+    - image/jpeg
+    - 399257
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1359
+    - 487
+    - '2013-10-11 07:48:00.777428'
+    - '2015-04-14 12:39:34.355328'
+    - one-image.jpg
+  - - 16
+    - one-image.jpg
+    - image/jpeg
+    - 399257
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1359
+    - 487
+    - '2013-10-11 07:48:19.379247'
+    - '2015-04-14 12:39:36.296349'
+    - one-image.jpg
+  - - 17
+    - one-image.jpg
+    - image/jpeg
+    - 399257
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1359
+    - 487
+    - '2013-10-11 07:48:40.728711'
+    - '2015-04-14 12:39:38.156922'
+    - one-image.jpg
+  - - 18
+    - one-image.jpg
+    - image/jpeg
+    - 399257
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1359
+    - 487
+    - '2013-10-11 07:49:01.058564'
+    - '2015-04-14 12:39:39.940556'
+    - one-image.jpg
+  - - 19
+    - vs-main.jpg
+    - image/jpeg
+    - 314990
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 950
+    - 1559
+    - '2013-10-11 11:27:37.568508'
+    - '2015-04-14 12:39:41.675206'
+    - vs-main.jpg
+  - - 20
+    - vs-about.jpg
+    - image/jpeg
+    - 210849
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 950
+    - 1559
+    - '2013-10-11 11:28:14.310581'
+    - '2015-04-14 12:39:43.257646'
+    - vs-about.jpg
+  - - 21
+    - ea24b5e8504b3e52dd6ff7f17ee7279b.jpg
+    - image/jpeg
+    - 582473
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1240
+    - 992
+    - '2014-04-07 15:52:20.489057'
+    - '2015-04-14 12:39:44.816604'
+    - ea24b5e8504b3e52dd6ff7f17ee7279b.jpg
+  - - 28
+    - moloko-inspiration-2.jpg
+    - image/jpeg
+    - 119204
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 450
+    - 450
+    - '2014-04-09 12:12:09.598267'
+    - '2015-04-14 12:39:45.689651'
+    - moloko-inspiration-2.jpg
+  - - 29
+    - moloko-inspiration-3.jpg
+    - image/jpeg
+    - 170352
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 450
+    - 450
+    - '2014-04-09 12:12:10.224813'
+    - '2015-04-14 12:39:46.607133'
+    - moloko-inspiration-3.jpg
+  - - 30
+    - moloko-inspiration-1.jpg
+    - image/jpeg
+    - 191618
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 450
+    - 450
+    - '2014-04-09 12:12:11.291833'
+    - '2015-04-14 12:39:47.519481'
+    - moloko-inspiration-1.jpg
+  - - 31
+    - moloko-inspiration-4.jpg
+    - image/jpeg
+    - 111909
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 450
+    - 450
+    - '2014-04-09 12:12:11.429739'
+    - '2015-04-14 12:39:48.387455'
+    - moloko-inspiration-4.jpg
+  - - 32
+    - moloko-inspiration-6.jpg
+    - image/jpeg
+    - 82783
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 450
+    - 450
+    - '2014-04-09 12:12:13.321917'
+    - '2015-04-14 12:39:49.199936'
+    - moloko-inspiration-6.jpg
+  - - 34
+    - moloko-inspiration-5.jpg
+    - image/jpeg
+    - 73862
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 450
+    - 450
+    - '2014-04-09 12:48:04.901091'
+    - '2015-04-14 12:39:50.013196'
+    - moloko-inspiration-5.jpg
+  - - 36
+    - moloko-logo-1.jpg
+    - image/jpeg
+    - 30847
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 500
+    - 520
+    - '2014-04-09 13:43:44.440230'
+    - '2015-04-14 12:39:50.820367'
+    - moloko-logo-1.jpg
+  - - 37
+    - moloko-symbol-idea-1.jpg
+    - image/jpeg
+    - 119216
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 900
+    - 280
+    - '2014-04-09 13:55:43.047371'
+    - '2015-04-14 12:39:52.288951'
+    - moloko-symbol-idea-1.jpg
+  - - 38
+    - insp-450x450-1.jpg
+    - image/jpeg
+    - 77983
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 450
+    - 450
+    - '2014-04-10 09:24:32.610874'
+    - '2015-04-14 12:39:53.064297'
+    - insp-450x450-1.jpg
+  - - 39
+    - insp-450x450-2.jpg
+    - image/jpeg
+    - 116690
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 450
+    - 450
+    - '2014-04-10 09:24:33.321860'
+    - '2015-04-14 12:39:53.898557'
+    - insp-450x450-2.jpg
+  - - 40
+    - insp-450x450-3.jpg
+    - image/jpeg
+    - 131762
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 450
+    - 450
+    - '2014-04-10 09:24:34.150396'
+    - '2015-04-14 12:39:54.763771'
+    - insp-450x450-3.jpg
+  - - 41
+    - insp-450x450-4.jpg
+    - image/jpeg
+    - 124667
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 450
+    - 450
+    - '2014-04-10 09:24:35.617240'
+    - '2015-04-14 12:39:55.593910'
+    - insp-450x450-4.jpg
+  - - 42
+    - insp-450x450-6.jpg
+    - image/jpeg
+    - 213806
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 450
+    - 450
+    - '2014-04-10 09:24:38.525649'
+    - '2015-04-14 12:39:56.538804'
+    - insp-450x450-6.jpg
+  - - 43
+    - insp-450x450-5.jpg
+    - image/jpeg
+    - 297345
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 450
+    - 450
+    - '2014-04-10 09:24:39.524081'
+    - '2015-04-14 12:39:57.508890'
+    - insp-450x450-5.jpg
+  - - 46
+    - 8.png
+    - image/png
+    - 227676
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1393
+    - 1528
+    - '2014-04-10 09:28:40.776215'
+    - '2015-04-14 12:39:59.385195'
+    - 8.png
+  - - 53
+    - gt-corporate-8.png
+    - image/png
+    - 227554
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1380
+    - 1511
+    - '2014-04-10 17:48:10.788098'
+    - '2015-04-14 12:40:01.245880'
+    - gt-corporate-8.png
+  - - 54
+    - 6.png
+    - image/png
+    - 159986
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1351
+    - 586
+    - '2014-04-11 07:16:37.117425'
+    - '2015-04-14 12:40:02.387639'
+    - 6.png
+  - - 55
+    - 7.png
+    - image/png
+    - 580748
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1351
+    - 627
+    - '2014-04-11 07:16:40.754922'
+    - '2015-04-14 12:40:04.152973'
+    - 7.png
+  - - 56
+    - 5.png
+    - image/png
+    - 337518
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1351
+    - 614
+    - '2014-04-11 07:16:51.249000'
+    - '2015-04-14 12:40:06.378450'
+    - 5.png
+  - - 57
+    - 9.png
+    - image/png
+    - 1067200
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1351
+    - 1163
+    - '2014-04-11 07:16:53.387396'
+    - '2015-04-14 12:40:09.194846'
+    - 9.png
+  - - 58
+    - 10.png
+    - image/png
+    - 394025
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1350
+    - 551
+    - '2014-04-11 07:16:55.701222'
+    - '2015-04-14 12:40:10.964107'
+    - 10.png
+  - - 59
+    - back_top.png
+    - image/png
+    - 7159
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 60
+    - 63
+    - '2014-04-11 11:43:12.993384'
+    - '2015-04-14 12:40:11.464234'
+    - back_top.png
+  - - 60
+    - logo.png
+    - image/png
+    - 22426
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 220
+    - 75
+    - '2014-04-11 11:47:03.365785'
+    - '2015-04-14 12:40:11.972786'
+    - logo.png
+  - - 61
+    - 3.png
+    - image/png
+    - 186547
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1351
+    - 627
+    - '2014-04-11 13:54:17.251384'
+    - '2015-04-14 12:40:13.211707'
+    - 3.png
+  - - 62
+    - 4.png
+    - image/png
+    - 185646
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 805
+    - 989
+    - '2014-04-11 13:55:08.958429'
+    - '2015-04-14 12:40:14.392469'
+    - 4.png
+  - - 63
+    - 2.png
+    - image/png
+    - 1137709
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 2556
+    - 2000
+    - '2014-04-11 14:00:13.810364'
+    - '2015-04-14 12:40:17.748517'
+    - 2.png
+  - - 64
+    - branded-bt-center.png
+    - image/png
+    - 3235
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 41
+    - 62
+    - '2014-04-11 14:24:34.957403'
+    - '2015-04-14 12:40:18.315002'
+    - branded-bt-center.png
+  - - 65
+    - inspiration-450x450-1.jpg
+    - image/jpeg
+    - 55364
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 450
+    - 450
+    - '2014-04-11 17:04:43.691716'
+    - '2015-04-14 12:40:19.353206'
+    - inspiration-450x450-1.jpg
+  - - 66
+    - inspiration-450x450-3.jpg
+    - image/jpeg
+    - 125782
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 450
+    - 450
+    - '2014-04-11 17:05:21.054306'
+    - '2015-04-14 12:40:21.032530'
+    - inspiration-450x450-3.jpg
+  - - 67
+    - inspiration-450x450-5.jpg
+    - image/jpeg
+    - 117643
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 450
+    - 450
+    - '2014-04-11 17:05:48.118488'
+    - '2015-04-14 12:40:22.292575'
+    - inspiration-450x450-5.jpg
+  - - 68
+    - inspiration-450x450-4.jpg
+    - image/jpeg
+    - 142736
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 450
+    - 450
+    - '2014-04-11 17:06:34.294754'
+    - '2015-04-14 12:40:23.356212'
+    - inspiration-450x450-4.jpg
+  - - 69
+    - frame-7.png
+    - image/png
+    - 162368
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1352
+    - 190
+    - '2014-04-11 17:07:52.675305'
+    - '2015-04-14 12:40:24.466832'
+    - frame-7.png
+  - - 70
+    - frame-8.png
+    - image/png
+    - 32437
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1352
+    - 257
+    - '2014-04-11 17:08:49.646776'
+    - '2015-04-14 12:40:25.281623'
+    - frame-8.png
+  - - 71
+    - frame-9.png
+    - image/png
+    - 15984
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1404
+    - 236
+    - '2014-04-11 17:09:22.049998'
+    - '2015-04-14 12:40:25.990856'
+    - frame-9.png
+  - - 72
+    - frame-10.jpg
+    - image/jpeg
+    - 452209
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1352
+    - 680
+    - '2014-04-11 17:11:43.869765'
+    - '2015-04-14 12:40:27.548909'
+    - frame-10.jpg
+  - - 73
+    - frame-12.jpg
+    - image/jpeg
+    - 651565
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1352
+    - 680
+    - '2014-04-11 17:12:11.863585'
+    - '2015-04-14 12:40:29.097666'
+    - frame-12.jpg
+  - - 74
+    - frame-11.jpg
+    - image/jpeg
+    - 680712
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1352
+    - 680
+    - '2014-04-11 17:12:33.346039'
+    - '2015-04-14 12:40:30.607938'
+    - frame-11.jpg
+  - - 75
+    - frame-13.jpg
+    - image/jpeg
+    - 542995
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1352
+    - 680
+    - '2014-04-11 17:12:57.908383'
+    - '2015-04-14 12:40:32.036451'
+    - frame-13.jpg
+  - - 76
+    - frame-14.jpg
+    - image/jpeg
+    - 568551
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1352
+    - 680
+    - '2014-04-11 17:13:18.580839'
+    - '2015-04-14 12:40:33.472784'
+    - frame-14.jpg
+  - - 77
+    - portfolio-banner-1.jpg
+    - image/jpeg
+    - 605578
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1980
+    - 420
+    - '2014-04-11 17:20:29.390523'
+    - '2015-04-14 12:40:36.562448'
+    - portfolio-banner-1.jpg
+  - - 78
+    - inspiration-450x450-1.jpg
+    - image/jpeg
+    - 55431
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 450
+    - 450
+    - '2014-04-12 14:38:43.025592'
+    - '2015-04-14 12:40:37.312339'
+    - inspiration-450x450-1.jpg
+  - - 79
+    - inspiration-450x450-2.jpg
+    - image/jpeg
+    - 45813
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 450
+    - 450
+    - '2014-04-12 14:39:05.696041'
+    - '2015-04-14 12:40:38.029283'
+    - inspiration-450x450-2.jpg
+  - - 80
+    - inspiration-450x450-3.jpg
+    - image/jpeg
+    - 27278
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 450
+    - 450
+    - '2014-04-12 14:39:30.068016'
+    - '2015-04-14 12:40:38.719512'
+    - inspiration-450x450-3.jpg
+  - - 81
+    - inspiration-450x450-6.jpg
+    - image/jpeg
+    - 102251
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 450
+    - 450
+    - '2014-04-12 14:39:56.804606'
+    - '2015-04-14 12:40:39.454595'
+    - inspiration-450x450-6.jpg
+  - - 82
+    - frame-17.jpg
+    - image/jpeg
+    - 358049
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1352
+    - 680
+    - '2014-04-15 10:42:23.977439'
+    - '2015-04-14 12:40:40.880350'
+    - frame-17.jpg
+  - - 83
+    - karpatski-vikna-logo-prv-2.jpg
+    - image/jpeg
+    - 614530
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1352
+    - 680
+    - '2014-04-15 10:43:13.150724'
+    - '2015-04-14 12:40:42.314548'
+    - karpatski-vikna-logo-prv-2.jpg
+  - - 84
+    - karpatski-vikna-logo-prv-4.jpg
+    - image/jpeg
+    - 548270
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1352
+    - 680
+    - '2014-04-15 10:44:14.347987'
+    - '2015-04-14 12:40:43.808169'
+    - karpatski-vikna-logo-prv-4.jpg
+  - - 85
+    - karpatski-vikna-logo-prv-3.jpg
+    - image/jpeg
+    - 466733
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1352
+    - 680
+    - '2014-04-15 10:44:36.084255'
+    - '2015-04-14 12:40:45.576695'
+    - karpatski-vikna-logo-prv-3.jpg
+  - - 86
+    - rysun-o-nathnennja-1.jpg
+    - image/jpeg
+    - 194786
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 450
+    - 450
+    - '2014-04-15 13:41:25.317061'
+    - '2015-04-14 12:40:47.265580'
+    - rysun-o-nathnennja-1.jpg
+  - - 87
+    - rysun-o-nathnennja-2.jpg
+    - image/jpeg
+    - 169679
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 450
+    - 450
+    - '2014-04-15 13:41:51.588779'
+    - '2015-04-14 12:40:48.933534'
+    - rysun-o-nathnennja-2.jpg
+  - - 88
+    - rysun-o-nathnennja-5.jpg
+    - image/jpeg
+    - 164392
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 450
+    - 450
+    - '2014-04-15 13:42:21.645080'
+    - '2015-04-14 12:40:50.557297'
+    - rysun-o-nathnennja-5.jpg
+  - - 89
+    - rysun-o-nathnennja-7.jpg
+    - image/jpeg
+    - 210341
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 450
+    - 450
+    - '2014-04-15 13:42:42.972626'
+    - '2015-04-14 12:40:51.717155'
+    - rysun-o-nathnennja-7.jpg
+  - - 90
+    - rysun-o-nathnennja-1.jpg
+    - image/jpeg
+    - 194786
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 450
+    - 450
+    - '2014-04-15 13:43:10.114183'
+    - '2015-04-14 12:40:53.134610'
+    - rysun-o-nathnennja-1.jpg
+  - - 92
+    - rysun-o-logotup-kresl.jpg
+    - image/jpeg
+    - 300812
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 679
+    - '2014-04-15 13:44:50.888976'
+    - '2015-04-14 12:40:55.164764'
+    - rysun-o-logotup-kresl.jpg
+  - - 94
+    - rysun-o-bb-2.png
+    - image/png
+    - 445726
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 536
+    - '2014-04-15 13:57:26.418073'
+    - '2015-04-14 12:40:57.055212'
+    - rysun-o-bb-2.png
+  - - 95
+    - rysun-o-bb-4.png
+    - image/png
+    - 122899
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 536
+    - '2014-04-15 13:57:52.122431'
+    - '2015-04-14 12:40:58.225901'
+    - rysun-o-bb-4.png
+  - - 96
+    - rysun-o-bb-5.png
+    - image/png
+    - 262701
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 536
+    - '2014-04-15 13:58:30.437485'
+    - '2015-04-14 12:40:59.489316'
+    - rysun-o-bb-5.png
+  - - 97
+    - rysun-o-logotup.jpg
+    - image/jpeg
+    - 46011
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 679
+    - '2014-04-15 14:00:17.658757'
+    - '2015-04-14 12:41:00.860976'
+    - rysun-o-logotup.jpg
+  - - 98
+    - rysun-o-bylo-stalo.jpg
+    - image/jpeg
+    - 51083
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 679
+    - '2014-04-15 14:01:04.608635'
+    - '2015-04-14 12:41:02.193050'
+    - rysun-o-bylo-stalo.jpg
+  - - 99
+    - rysun-o-bb-7.png
+    - image/png
+    - 250098
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 536
+    - '2014-04-15 14:01:54.101793'
+    - '2015-04-14 12:41:03.479017'
+    - rysun-o-bb-7.png
+  - - 100
+    - rysun-o-ci-prv-2.png
+    - image/png
+    - 349272
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 1435
+    - '2014-04-15 14:02:35.307786'
+    - '2015-04-14 12:41:05.175416'
+    - rysun-o-ci-prv-2.png
+  - - 101
+    - rysun-o-ci-prv.jpg
+    - image/jpeg
+    - 483755
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 875
+    - '2014-04-15 14:05:38.800890'
+    - '2015-04-14 12:41:06.874517'
+    - rysun-o-ci-prv.jpg
+  - - 102
+    - rysun-o-katalog-1.jpg
+    - image/jpeg
+    - 504337
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 875
+    - '2014-04-15 14:08:27.139167'
+    - '2015-04-14 12:41:08.613732'
+    - rysun-o-katalog-1.jpg
+  - - 103
+    - rysun-o-katalog-2.jpg
+    - image/jpeg
+    - 645018
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 875
+    - '2014-04-15 14:10:16.415322'
+    - '2015-04-14 12:41:10.565114'
+    - rysun-o-katalog-2.jpg
+  - - 104
+    - rysun-o-katalog-3.jpg
+    - image/jpeg
+    - 619167
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 875
+    - '2014-04-15 14:10:48.765150'
+    - '2015-04-14 12:41:12.360721'
+    - rysun-o-katalog-3.jpg
+  - - 105
+    - rysun-o-katalog-4.jpg
+    - image/jpeg
+    - 503830
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 875
+    - '2014-04-15 14:11:11.976721'
+    - '2015-04-14 12:41:14.405428'
+    - rysun-o-katalog-4.jpg
+  - - 106
+    - rysun-o-billboard-prv-1.jpg
+    - image/jpeg
+    - 598521
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 875
+    - '2014-04-15 14:12:11.195599'
+    - '2015-04-14 12:41:16.341100'
+    - rysun-o-billboard-prv-1.jpg
+  - - 107
+    - rysun-o-book.png
+    - image/png
+    - 558167
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 875
+    - '2014-04-15 14:41:05.485980'
+    - '2015-04-14 12:41:18.630998'
+    - rysun-o-book.png
+  - - 108
+    - rysun-o-logo-prv.jpg
+    - image/jpeg
+    - 488528
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 875
+    - '2014-04-15 14:41:47.853367'
+    - '2015-04-14 12:41:20.572825'
+    - rysun-o-logo-prv.jpg
+  - - 109
+    - rysun-o-nathnennja-4.jpg
+    - image/jpeg
+    - 251739
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 450
+    - 450
+    - '2014-04-15 14:46:13.395654'
+    - '2015-04-14 12:41:21.562106'
+    - rysun-o-nathnennja-4.jpg
+  - - 110
+    - rysun-o-billboard-proccess-1.jpg
+    - image/jpeg
+    - 632104
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 755
+    - '2014-04-15 14:57:29.013954'
+    - '2015-04-14 12:41:23.640513'
+    - rysun-o-billboard-proccess-1.jpg
+  - - 111
+    - valko-nathnennja-2.jpg
+    - image/jpeg
+    - 110627
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 450
+    - 450
+    - '2014-04-15 16:01:37.577813'
+    - '2015-04-14 12:41:24.489008'
+    - valko-nathnennja-2.jpg
+  - - 112
+    - valko-nathnennja-1.jpg
+    - image/jpeg
+    - 123107
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 450
+    - 450
+    - '2014-04-15 16:02:01.782336'
+    - '2015-04-14 12:41:25.363623'
+    - valko-nathnennja-1.jpg
+  - - 113
+    - valko-nathnennja-5.jpg
+    - image/jpeg
+    - 238574
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 450
+    - 450
+    - '2014-04-15 16:02:38.170110'
+    - '2015-04-14 12:41:26.234596'
+    - valko-nathnennja-5.jpg
+  - - 114
+    - valko-nathnennja-4.jpg
+    - image/jpeg
+    - 105395
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 450
+    - 450
+    - '2014-04-15 16:03:07.952499'
+    - '2015-04-14 12:41:26.999943'
+    - valko-nathnennja-4.jpg
+  - - 115
+    - valko-nathnennja-6.jpg
+    - image/jpeg
+    - 94902
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 450
+    - 450
+    - '2014-04-15 16:03:34.119682'
+    - '2015-04-14 12:41:27.765738'
+    - valko-nathnennja-6.jpg
+  - - 116
+    - valko-ideja-sumvola.png
+    - image/png
+    - 566270
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 1219
+    - '2014-04-15 16:04:42.089595'
+    - '2015-04-14 12:41:30.660662'
+    - valko-ideja-sumvola.png
+  - - 117
+    - valko-logotup.jpg
+    - image/jpeg
+    - 299194
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 679
+    - '2014-04-15 16:07:03.958795'
+    - '2015-04-14 12:41:32.181403'
+    - valko-logotup.jpg
+  - - 118
+    - valko-logotup-kresl.jpg
+    - image/jpeg
+    - 388035
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 679
+    - '2014-04-15 16:07:42.567211'
+    - '2015-04-14 12:41:33.837338'
+    - valko-logotup-kresl.jpg
+  - - 119
+    - bb-valko-prv-2.png
+    - image/png
+    - 465500
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 752
+    - '2014-04-15 16:09:29.595024'
+    - '2015-04-14 12:41:35.414453'
+    - bb-valko-prv-2.png
+  - - 120
+    - bb-valko-prv-3.png
+    - image/png
+    - 708050
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 752
+    - '2014-04-15 16:12:42.426900'
+    - '2015-04-14 12:41:37.421538'
+    - bb-valko-prv-3.png
+  - - 121
+    - bb-valko-prv-5.png
+    - image/png
+    - 195912
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 752
+    - '2014-04-15 16:13:03.793947'
+    - '2015-04-14 12:41:38.659707'
+    - bb-valko-prv-5.png
+  - - 122
+    - bb-valko-prv-6.png
+    - image/png
+    - 93736
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 752
+    - '2014-04-15 16:13:20.347621'
+    - '2015-04-14 12:41:39.859597'
+    - bb-valko-prv-6.png
+  - - 123
+    - bb-valko-prv-8.png
+    - image/png
+    - 405672
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 752
+    - '2014-04-15 16:13:55.722003'
+    - '2015-04-14 12:41:41.626164'
+    - bb-valko-prv-8.png
+  - - 124
+    - bb-valko-prv-9.png
+    - image/png
+    - 360460
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 752
+    - '2014-04-15 16:14:27.626136'
+    - '2015-04-14 12:41:43.245535'
+    - bb-valko-prv-9.png
+  - - 125
+    - ci-valko-prv.png
+    - image/png
+    - 913052
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 1435
+    - '2014-04-15 16:15:00.852520'
+    - '2015-04-14 12:41:45.546772'
+    - ci-valko-prv.png
+  - - 126
+    - valko-v-jutti-2.jpg
+    - image/jpeg
+    - 510187
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 875
+    - '2014-04-15 16:15:29.328161'
+    - '2015-04-14 12:41:47.209637'
+    - valko-v-jutti-2.jpg
+  - - 127
+    - valko-v-jutti-3.jpg
+    - image/jpeg
+    - 530455
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 875
+    - '2014-04-15 16:15:51.133513'
+    - '2015-04-14 12:41:48.890084'
+    - valko-v-jutti-3.jpg
+  - - 129
+    - valko-logotup-horisontal.jpg
+    - image/jpeg
+    - 99301
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 679
+    - '2014-04-15 16:27:06.055823'
+    - '2015-04-14 12:41:50.302938'
+    - valko-logotup-horisontal.jpg
+  - - 130
+    - valko-bylo-stalo.jpg
+    - image/jpeg
+    - 135413
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 679
+    - '2014-04-15 16:35:03.724458'
+    - '2015-04-14 12:41:51.829948'
+    - valko-bylo-stalo.jpg
+  - - 131
+    - valko-logo-prv-22_11_2013.pdf
+    - application/pdf
+    - 2678232
+    - 1
+    - User
+    - Ckeditor::AttachmentFile
+    - 
+    - 
+    - '2014-04-15 16:41:41.639595'
+    - '2014-04-15 16:41:41.639595'
+    - 
+  - - 132
+    - valko-bb-pr.pdf
+    - application/pdf
+    - 5245198
+    - 1
+    - User
+    - Ckeditor::AttachmentFile
+    - 
+    - 
+    - '2014-04-15 16:43:07.890157'
+    - '2014-04-15 16:43:07.890157'
+    - 
+  - - 133
+    - 1397598448_647710-pdf.png
+    - image/png
+    - 2928
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 128
+    - 128
+    - '2014-04-15 16:48:22.455296'
+    - '2015-04-14 12:41:52.287157'
+    - 1397598448_647710-pdf.png
+  - - 134
+    - invest-logo-1.jpg
+    - image/jpeg
+    - 60405
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1394
+    - 679
+    - '2014-04-15 17:23:13.074257'
+    - '2015-04-14 12:41:53.651634'
+    - invest-logo-1.jpg
+  - - 135
+    - frame1.png
+    - image/png
+    - 361046
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1376
+    - 300
+    - '2014-04-15 17:24:03.688811'
+    - '2015-04-14 12:41:55.225365'
+    - frame1.png
+  - - 136
+    - frame3.png
+    - image/png
+    - 63441
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1394
+    - 738
+    - '2014-04-15 17:25:40.776929'
+    - '2015-04-14 12:41:56.323165'
+    - frame3.png
+  - - 137
+    - frame4.png
+    - image/png
+    - 510042
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1395
+    - 1485
+    - '2014-04-15 17:26:08.991205'
+    - '2015-04-14 12:41:58.850437'
+    - frame4.png
+  - - 138
+    - frame-6.jpg
+    - image/jpeg
+    - 392085
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1347
+    - 848
+    - '2014-04-15 17:26:32.242276'
+    - '2015-04-14 12:42:00.494128'
+    - frame-6.jpg
+  - - 139
+    - frame-5.jpg
+    - image/jpeg
+    - 440714
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1347
+    - 848
+    - '2014-04-15 17:26:47.653052'
+    - '2015-04-14 12:42:02.159611'
+    - frame-5.jpg
+  - - 140
+    - frame-7.jpg
+    - image/jpeg
+    - 574731
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1347
+    - 848
+    - '2014-04-15 17:27:20.484460'
+    - '2015-04-14 12:42:03.763013'
+    - frame-7.jpg
+  - - 141
+    - g3k-nathnennja-7.jpg
+    - image/jpeg
+    - 123085
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 450
+    - 450
+    - '2014-04-16 14:35:31.585432'
+    - '2015-04-14 12:42:04.544305'
+    - g3k-nathnennja-7.jpg
+  - - 142
+    - g3k-nathnennja-3.jpg
+    - image/jpeg
+    - 137004
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 450
+    - 450
+    - '2014-04-16 14:35:52.110439'
+    - '2015-04-14 12:42:05.312054'
+    - g3k-nathnennja-3.jpg
+  - - 143
+    - g3k-nathnennja-4.jpg
+    - image/jpeg
+    - 177819
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 450
+    - 450
+    - '2014-04-16 14:36:30.098448'
+    - '2015-04-14 12:42:06.157203'
+    - g3k-nathnennja-4.jpg
+  - - 144
+    - g3k-ideja-sumvola.png
+    - image/png
+    - 24329
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 338
+    - '2014-04-16 14:38:11.753425'
+    - '2015-04-14 12:42:06.875037'
+    - g3k-ideja-sumvola.png
+  - - 145
+    - g3k-logotup.jpg
+    - image/jpeg
+    - 114701
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 679
+    - '2014-04-16 14:39:51.663530'
+    - '2015-04-14 12:42:08.261056'
+    - g3k-logotup.jpg
+  - - 146
+    - g3k-logotup-kresl-1.jpg
+    - image/jpeg
+    - 339286
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 679
+    - '2014-04-16 14:40:12.553326'
+    - '2015-04-14 12:42:09.865924'
+    - g3k-logotup-kresl-1.jpg
+  - - 147
+    - g3k-logotup-kresl-2.jpg
+    - image/jpeg
+    - 289346
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 679
+    - '2014-04-16 14:40:46.447960'
+    - '2015-04-14 12:42:11.457667'
+    - g3k-logotup-kresl-2.jpg
+  - - 148
+    - g3k-logotup-versii.jpg
+    - image/jpeg
+    - 92592
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 679
+    - '2014-04-16 14:41:01.686959'
+    - '2015-04-14 12:42:12.864855'
+    - g3k-logotup-versii.jpg
+  - - 149
+    - bb-10-11.png
+    - image/png
+    - 86735
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 536
+    - '2014-04-16 14:41:28.176579'
+    - '2015-04-14 12:42:13.851748'
+    - bb-10-11.png
+  - - 150
+    - bb-14-15.png
+    - image/png
+    - 143958
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 536
+    - '2014-04-16 14:41:54.277115'
+    - '2015-04-14 12:42:14.922996'
+    - bb-14-15.png
+  - - 151
+    - bb-16-17.png
+    - image/png
+    - 209725
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 536
+    - '2014-04-16 14:42:16.653737'
+    - '2015-04-14 12:42:16.154426'
+    - bb-16-17.png
+  - - 152
+    - bb-18-19.png
+    - image/png
+    - 471721
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 536
+    - '2014-04-16 14:42:44.200197'
+    - '2015-04-14 12:42:17.862215'
+    - bb-18-19.png
+  - - 153
+    - bb-20-21.png
+    - image/png
+    - 255596
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 536
+    - '2014-04-16 14:42:59.777215'
+    - '2015-04-14 12:42:19.015682'
+    - bb-20-21.png
+  - - 154
+    - bb-28-29.png
+    - image/png
+    - 274503
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 536
+    - '2014-04-16 14:43:17.351587'
+    - '2015-04-14 12:42:20.241305'
+    - bb-28-29.png
+  - - 155
+    - bb-30-31.png
+    - image/png
+    - 269786
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 536
+    - '2014-04-16 14:43:29.913130'
+    - '2015-04-14 12:42:21.427956'
+    - bb-30-31.png
+  - - 156
+    - ci-g3k-prv.jpg
+    - image/jpeg
+    - 543988
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 875
+    - '2014-04-16 14:44:02.187819'
+    - '2015-04-14 12:42:23.246835'
+    - ci-g3k-prv.jpg
+  - - 157
+    - g3k-nathnennja-5.jpg
+    - image/jpeg
+    - 112348
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 450
+    - 450
+    - '2014-04-16 14:46:38.944567'
+    - '2015-04-14 12:42:24.016820'
+    - g3k-nathnennja-5.jpg
+  - - 158
+    - g3k-logotup-2.jpg
+    - image/jpeg
+    - 53016
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 679
+    - '2014-04-16 14:53:37.999723'
+    - '2015-04-14 12:42:25.339543'
+    - g3k-logotup-2.jpg
+  - - 159
+    - g3k-book-prv.png
+    - image/png
+    - 643830
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 875
+    - '2014-04-16 15:07:36.468072'
+    - '2015-04-14 12:42:28.667163'
+    - g3k-book-prv.png
+  - - 160
+    - g3k-bb-3_06_2013-prv.pdf
+    - application/pdf
+    - 1648827
+    - 1
+    - User
+    - Ckeditor::AttachmentFile
+    - 
+    - 
+    - '2014-04-16 15:22:09.503333'
+    - '2014-04-16 15:22:09.503333'
+    - 
+  - - 161
+    - nathnennja-1.jpg
+    - image/jpeg
+    - 127833
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 450
+    - 450
+    - '2014-04-17 09:38:14.251486'
+    - '2015-04-14 12:42:29.442959'
+    - nathnennja-1.jpg
+  - - 162
+    - nathnennja-4.jpg
+    - image/jpeg
+    - 92848
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 450
+    - 450
+    - '2014-04-17 09:38:34.004764'
+    - '2015-04-14 12:42:30.177133'
+    - nathnennja-4.jpg
+  - - 163
+    - nathnennja-5.jpg
+    - image/jpeg
+    - 94837
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 450
+    - 450
+    - '2014-04-17 09:38:57.176394'
+    - '2015-04-14 12:42:30.922157'
+    - nathnennja-5.jpg
+  - - 164
+    - nathnennja-6.jpg
+    - image/jpeg
+    - 155596
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 450
+    - 450
+    - '2014-04-17 09:39:23.533764'
+    - '2015-04-14 12:42:31.718147'
+    - nathnennja-6.jpg
+  - - 165
+    - nathnennja-7.jpg
+    - image/jpeg
+    - 132836
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 450
+    - 450
+    - '2014-04-17 09:39:50.084231'
+    - '2015-04-14 12:42:32.586303'
+    - nathnennja-7.jpg
+  - - 166
+    - ideja-sumvola-2.png
+    - image/png
+    - 56388
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 300
+    - '2014-04-17 09:42:16.712008'
+    - '2015-04-14 12:42:33.559002'
+    - ideja-sumvola-2.png
+  - - 167
+    - logotup-czmk-1.png
+    - image/png
+    - 36198
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 413
+    - '2014-04-17 09:44:00.596932'
+    - '2015-04-14 12:42:34.356866'
+    - logotup-czmk-1.png
+  - - 168
+    - logotup-kresl.jpg
+    - image/jpeg
+    - 368083
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 413
+    - '2014-04-17 09:44:25.517910'
+    - '2015-04-14 12:42:35.725073'
+    - logotup-kresl.jpg
+  - - 169
+    - logotup-variantu.jpg
+    - image/jpeg
+    - 62030
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 413
+    - '2014-04-17 09:45:07.404772'
+    - '2015-04-14 12:42:36.907448'
+    - logotup-variantu.jpg
+  - - 170
+    - bb-czmk-prv-1.png
+    - image/png
+    - 614093
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 536
+    - '2014-04-17 09:46:04.280440'
+    - '2015-04-14 12:42:38.361632'
+    - bb-czmk-prv-1.png
+  - - 171
+    - bb-czmk-prv-3.png
+    - image/png
+    - 103655
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 536
+    - '2014-04-17 09:46:21.427859'
+    - '2015-04-14 12:42:39.348944'
+    - bb-czmk-prv-3.png
+  - - 172
+    - bb-czmk-prv-4.png
+    - image/png
+    - 327759
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 536
+    - '2014-04-17 09:46:34.136991'
+    - '2015-04-14 12:42:40.556906'
+    - bb-czmk-prv-4.png
+  - - 173
+    - bb-czmk-prv-7.png
+    - image/png
+    - 336469
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 536
+    - '2014-04-17 09:47:00.729844'
+    - '2015-04-14 12:42:41.772069'
+    - bb-czmk-prv-7.png
+  - - 174
+    - bb-czmk-prv-8.png
+    - image/png
+    - 173155
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 536
+    - '2014-04-17 09:47:15.944831'
+    - '2015-04-14 12:42:42.922429'
+    - bb-czmk-prv-8.png
+  - - 175
+    - bb-czmk-prv-9.png
+    - image/png
+    - 402912
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 536
+    - '2014-04-17 09:47:35.959049'
+    - '2015-04-14 12:42:44.389290'
+    - bb-czmk-prv-9.png
+  - - 176
+    - ci-czmk-prv-3.png
+    - image/png
+    - 1432540
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 1300
+    - '2014-04-17 09:48:15.239875'
+    - '2015-04-14 12:42:47.049432'
+    - ci-czmk-prv-3.png
+  - - 177
+    - ci-czmk-katalog-obk-prv.jpg
+    - image/jpeg
+    - 618327
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 875
+    - '2014-04-17 09:59:47.462894'
+    - '2015-04-14 12:42:48.805314'
+    - ci-czmk-katalog-obk-prv.jpg
+  - - 181
+    - macbookair-prv.jpg
+    - image/jpeg
+    - 1641062
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 2000
+    - 1400
+    - '2014-04-17 10:10:52.976744'
+    - '2015-04-14 12:42:51.311070'
+    - macbookair-prv.jpg
+  - - 182
+    - 14.png
+    - image/png
+    - 234887
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1497
+    - 569
+    - '2014-04-17 10:30:02.500227'
+    - '2015-04-14 12:42:52.787750'
+    - 14.png
+  - - 183
+    - 11.png
+    - image/png
+    - 312481
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1497
+    - 569
+    - '2014-04-17 10:30:35.547940'
+    - '2015-04-14 12:42:54.145482'
+    - 11.png
+  - - 184
+    - 12.png
+    - image/png
+    - 138166
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1497
+    - 568
+    - '2014-04-17 10:31:06.545037'
+    - '2015-04-14 12:42:55.408486'
+    - 12.png
+  - - 185
+    - 13.png
+    - image/png
+    - 149817
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1497
+    - 569
+    - '2014-04-17 10:31:24.160852'
+    - '2015-04-14 12:42:56.489891'
+    - 13.png
+  - - 186
+    - gt-presentation-05.pdf
+    - application/pdf
+    - 8904616
+    - 1
+    - User
+    - Ckeditor::AttachmentFile
+    - 
+    - 
+    - '2014-04-17 10:48:41.123164'
+    - '2014-04-17 10:48:41.123164'
+    - 
+  - - 187
+    - gt-stule-guide-2012.pdf
+    - application/pdf
+    - 1642412
+    - 1
+    - User
+    - Ckeditor::AttachmentFile
+    - 
+    - 
+    - '2014-04-17 10:50:47.048895'
+    - '2014-04-17 10:50:47.048895'
+    - 
+  - - 188
+    - frame-10.jpg
+    - image/jpeg
+    - 209285
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1347
+    - 498
+    - '2014-04-17 11:02:55.366716'
+    - '2015-04-14 12:42:58.115832'
+    - frame-10.jpg
+  - - 189
+    - frame-8.jpg
+    - image/jpeg
+    - 444627
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1347
+    - 848
+    - '2014-04-17 11:03:25.774923'
+    - '2015-04-14 12:43:00.030207'
+    - frame-8.jpg
+  - - 190
+    - frame-9.jpg
+    - image/jpeg
+    - 473390
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1347
+    - 848
+    - '2014-04-17 11:04:07.022716'
+    - '2015-04-14 12:43:01.954707'
+    - frame-9.jpg
+  - - 201
+    - bb-1-39.png
+    - image/png
+    - 126966
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 536
+    - '2014-04-18 08:45:43.170203'
+    - '2015-04-14 12:43:03.050772'
+    - bb-1-39.png
+  - - 210
+    - portfolio-web-banner-hola-3c.png
+    - image/png
+    - 973460
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1335
+    - 1107
+    - '2014-04-18 15:19:23.159142'
+    - '2015-04-14 12:43:07.473469'
+    - portfolio-web-banner-hola-3c.png
+  - - 211
+    - web-hola-main-1.jpg
+    - image/jpeg
+    - 1309457
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1308
+    - 4200
+    - '2014-04-18 15:20:23.839873'
+    - '2015-04-14 12:43:11.542390'
+    - web-hola-main-1.jpg
+  - - 212
+    - web-hola-search-1.jpg
+    - image/jpeg
+    - 837816
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1308
+    - 2544
+    - '2014-04-18 15:21:05.774587'
+    - '2015-04-14 12:43:14.674729'
+    - web-hola-search-1.jpg
+  - - 213
+    - web-hola-one-room-1.jpg
+    - image/jpeg
+    - 1611846
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1308
+    - 5013
+    - '2014-04-18 15:21:45.127993'
+    - '2015-04-14 12:43:19.151313'
+    - web-hola-one-room-1.jpg
+  - - 214
+    - logotup-1.jpg
+    - image/jpeg
+    - 40763
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 413
+    - '2014-04-19 13:13:50.125954'
+    - '2015-04-14 12:43:20.332365'
+    - logotup-1.jpg
+  - - 215
+    - mockup-logo-1.jpg
+    - image/jpeg
+    - 300952
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 875
+    - '2014-04-19 13:14:44.800431'
+    - '2015-04-14 12:43:22.172369'
+    - mockup-logo-1.jpg
+  - - 216
+    - mockup-logo-2.jpg
+    - image/jpeg
+    - 656362
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 875
+    - '2014-04-19 13:15:11.956729'
+    - '2015-04-14 12:43:24.368291'
+    - mockup-logo-2.jpg
+  - - 217
+    - mockup-logo-3.jpg
+    - image/jpeg
+    - 702499
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 875
+    - '2014-04-19 13:15:40.748814'
+    - '2015-04-14 12:43:26.539567'
+    - mockup-logo-3.jpg
+  - - 218
+    - 2.png
+    - image/png
+    - 1200858
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 875
+    - '2014-04-19 13:46:23.770440'
+    - '2015-04-14 12:43:29.211215'
+    - 2.png
+  - - 219
+    - 0.png
+    - image/png
+    - 1169943
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 875
+    - '2014-04-19 13:47:31.385839'
+    - '2015-04-14 12:43:31.585396'
+    - 0.png
+  - - 220
+    - 1.png
+    - image/png
+    - 1250678
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 875
+    - '2014-04-19 13:47:54.860958'
+    - '2015-04-14 12:43:34.176260'
+    - 1.png
+  - - 221
+    - czmk-booklet-1.jpg
+    - image/jpeg
+    - 207639
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1335
+    - 1211
+    - '2014-04-19 13:57:27.921850'
+    - '2015-04-14 12:43:35.688917'
+    - czmk-booklet-1.jpg
+  - - 223
+    - czmk-booklet-2.jpg
+    - image/jpeg
+    - 231202
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1335
+    - 1050
+    - '2014-04-19 14:04:16.515860'
+    - '2015-04-14 12:43:37.089574'
+    - czmk-booklet-2.jpg
+  - - 224
+    - czmk-booklet-3.jpg
+    - image/jpeg
+    - 879862
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 2918
+    - 2200
+    - '2014-04-19 14:17:31.582276'
+    - '2015-04-14 12:43:40.130397'
+    - czmk-booklet-3.jpg
+  - - 225
+    - czmk-booklet-3.jpg
+    - image/jpeg
+    - 221102
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1335
+    - 1007
+    - '2014-04-19 14:18:09.921234'
+    - '2015-04-14 12:43:41.550073'
+    - czmk-booklet-3.jpg
+  - - 226
+    - czmk-booklet-4.jpg
+    - image/jpeg
+    - 187137
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1335
+    - 521
+    - '2014-04-19 14:25:59.311295'
+    - '2015-04-14 12:43:43.152831'
+    - czmk-booklet-4.jpg
+  - - 227
+    - bnb-paintball-responsive-1.png
+    - image/png
+    - 1920893
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1335
+    - 1068
+    - '2014-04-19 15:58:21.138098'
+    - '2015-04-14 12:43:49.234997'
+    - bnb-paintball-responsive-1.png
+  - - 228
+    - bnb-main-studio-web-browser-frame-1.jpg
+    - image/jpeg
+    - 1465856
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 935
+    - 2648
+    - '2014-04-19 15:59:07.207039'
+    - '2015-04-14 12:43:52.737820'
+    - bnb-main-studio-web-browser-frame-1.jpg
+  - - 229
+    - bnb-teritorry-studio-web-browser-frame-1.jpg
+    - image/jpeg
+    - 682270
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 935
+    - 1501
+    - '2014-04-19 15:59:40.494424'
+    - '2015-04-14 12:43:54.932696'
+    - bnb-teritorry-studio-web-browser-frame-1.jpg
+  - - 230
+    - bnb-special-offers-studio-web-browser-frame-1.jpg
+    - image/jpeg
+    - 776824
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 935
+    - 1601
+    - '2014-04-19 16:00:20.650355'
+    - '2015-04-14 12:43:57.381619'
+    - bnb-special-offers-studio-web-browser-frame-1.jpg
+  - - 231
+    - bnb-about-us-studio-web-browser-frame-1.jpg
+    - image/jpeg
+    - 737979
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 935
+    - 1413
+    - '2014-04-19 16:00:48.208773'
+    - '2015-04-14 12:43:59.496865'
+    - bnb-about-us-studio-web-browser-frame-1.jpg
+  - - 232
+    - img_0056f.jpg
+    - image/jpeg
+    - 132935
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1800
+    - 1200
+    - '2014-04-19 16:01:36.260872'
+    - '2015-04-14 12:44:01.234330'
+    - img_0056f.jpg
+  - - 233
+    - coffe-in-lviv.jpg
+    - image/jpeg
+    - 27821
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 600
+    - 450
+    - '2014-04-20 14:12:31.308777'
+    - '2015-04-14 12:44:02.000560'
+    - coffe-in-lviv.jpg
+  - - 234
+    - bnb-nathnennja-1.jpg
+    - image/jpeg
+    - 91854
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 300
+    - 300
+    - '2014-04-24 10:07:02.371705'
+    - '2015-04-14 12:44:02.806271'
+    - bnb-nathnennja-1.jpg
+  - - 235
+    - bnb-nathnennja-3.jpg
+    - image/jpeg
+    - 84644
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 300
+    - 300
+    - '2014-04-24 10:07:25.996758'
+    - '2015-04-14 12:44:03.610923'
+    - bnb-nathnennja-3.jpg
+  - - 236
+    - bnb-nathnennja-4.jpg
+    - image/jpeg
+    - 83867
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 300
+    - 300
+    - '2014-04-24 10:07:45.776005'
+    - '2015-04-14 12:44:04.426819'
+    - bnb-nathnennja-4.jpg
+  - - 237
+    - bnb-nathnennja-5.jpg
+    - image/jpeg
+    - 100016
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 300
+    - 300
+    - '2014-04-24 10:08:10.388660'
+    - '2015-04-14 12:44:05.245200'
+    - bnb-nathnennja-5.jpg
+  - - 238
+    - bnb-logotup.jpg
+    - image/jpeg
+    - 82486
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 873
+    - '2014-04-24 10:09:07.346729'
+    - '2015-04-14 12:44:06.825673'
+    - bnb-logotup.jpg
+  - - 239
+    - bnb-logotup-kresl.jpg
+    - image/jpeg
+    - 468960
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 873
+    - '2014-04-24 10:09:35.916623'
+    - '2015-04-14 12:44:08.848910'
+    - bnb-logotup-kresl.jpg
+  - - 240
+    - bnb-logotup-versii-2.jpg
+    - image/jpeg
+    - 117068
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 582
+    - '2014-04-24 10:09:56.292202'
+    - '2015-04-14 12:44:10.388139'
+    - bnb-logotup-versii-2.jpg
+  - - 241
+    - bnb-mockup-logo-2.jpg
+    - image/jpeg
+    - 526998
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 875
+    - '2014-04-24 10:10:30.145672'
+    - '2015-04-14 12:44:12.421738'
+    - bnb-mockup-logo-2.jpg
+  - - 242
+    - bnb-mockup-logo-1.jpg
+    - image/jpeg
+    - 857326
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 875
+    - '2014-04-24 10:11:02.152833'
+    - '2015-04-14 12:44:14.796551'
+    - bnb-mockup-logo-1.jpg
+  - - 243
+    - bb-bnb-prv-1.png
+    - image/png
+    - 316001
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 536
+    - '2014-04-24 10:15:49.897332'
+    - '2015-04-14 12:44:15.943826'
+    - bb-bnb-prv-1.png
+  - - 244
+    - bb-bnb-prv-2.png
+    - image/png
+    - 57673
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 536
+    - '2014-04-24 10:16:08.932494'
+    - '2015-04-14 12:44:16.868141'
+    - bb-bnb-prv-2.png
+  - - 245
+    - bb-bnb-prv-3.png
+    - image/png
+    - 78782
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 536
+    - '2014-04-24 10:16:23.816337'
+    - '2015-04-14 12:44:17.842705'
+    - bb-bnb-prv-3.png
+  - - 246
+    - bb-bnb-prv-4.png
+    - image/png
+    - 38929
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 536
+    - '2014-04-24 10:16:38.615157'
+    - '2015-04-14 12:44:18.830304'
+    - bb-bnb-prv-4.png
+  - - 247
+    - bb-bnb-prv-5.png
+    - image/png
+    - 83094
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 536
+    - '2014-04-24 10:16:56.730031'
+    - '2015-04-14 12:44:19.800956'
+    - bb-bnb-prv-5.png
+  - - 248
+    - bb-bnb-prv-7.png
+    - image/png
+    - 164222
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 536
+    - '2014-04-24 10:17:27.687942'
+    - '2015-04-14 12:44:20.814141'
+    - bb-bnb-prv-7.png
+  - - 249
+    - bb-bnb-prv-8.png
+    - image/png
+    - 67691
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 536
+    - '2014-04-24 10:17:39.776704'
+    - '2015-04-14 12:44:21.768472'
+    - bb-bnb-prv-8.png
+  - - 252
+    - ci-bnb-prv.png
+    - image/png
+    - 183138
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 1435
+    - '2014-04-24 10:21:08.564117'
+    - '2015-04-14 12:44:23.250285'
+    - ci-bnb-prv.png
+  - - 253
+    - bnb-viz-3.jpg
+    - image/jpeg
+    - 362558
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 875
+    - '2014-04-24 10:26:20.180134'
+    - '2015-04-14 12:44:24.814951'
+    - bnb-viz-3.jpg
+  - - 254
+    - bnb-prv-3.jpg
+    - image/jpeg
+    - 331949
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 875
+    - '2014-04-24 10:36:48.352313'
+    - '2015-04-14 12:44:26.389335'
+    - bnb-prv-3.jpg
+  - - 255
+    - bnb-book.png
+    - image/png
+    - 857734
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 875
+    - '2014-04-24 10:38:03.752429'
+    - '2015-04-14 12:44:30.029066'
+    - bnb-book.png
+  - - 256
+    - fox-nathnennja-1.jpg
+    - image/jpeg
+    - 103921
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 450
+    - 450
+    - '2014-04-26 16:49:36.770089'
+    - '2015-04-14 12:44:30.796128'
+    - fox-nathnennja-1.jpg
+  - - 257
+    - fox-nathnennja-3.jpg
+    - image/jpeg
+    - 78431
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 450
+    - 450
+    - '2014-04-26 16:53:40.319263'
+    - '2015-04-14 12:44:31.522917'
+    - fox-nathnennja-3.jpg
+  - - 258
+    - fox-nathnennja-6.jpg
+    - image/jpeg
+    - 190889
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 450
+    - 450
+    - '2014-04-26 16:53:58.015952'
+    - '2015-04-14 12:44:32.351495'
+    - fox-nathnennja-6.jpg
+  - - 259
+    - fox-nathnennja-5.jpg
+    - image/jpeg
+    - 141185
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 450
+    - 450
+    - '2014-04-26 16:54:22.636373'
+    - '2015-04-14 12:44:33.130148'
+    - fox-nathnennja-5.jpg
+  - - 260
+    - fox-ideja-sumvola.jpg
+    - image/jpeg
+    - 158488
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 300
+    - '2014-04-26 16:57:10.916056'
+    - '2015-04-14 12:44:35.292596'
+    - fox-ideja-sumvola.jpg
+  - - 261
+    - fox-logo-main.jpg
+    - image/jpeg
+    - 127055
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 679
+    - '2014-04-26 17:06:44.576750'
+    - '2015-04-14 12:44:36.654355'
+    - fox-logo-main.jpg
+  - - 262
+    - fox-logo-versii.jpg
+    - image/jpeg
+    - 197362
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 787
+    - '2014-04-26 17:07:32.599352'
+    - '2015-04-14 12:44:38.208281'
+    - fox-logo-versii.jpg
+  - - 263
+    - fox-proces-prv-1.jpg
+    - image/jpeg
+    - 387691
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 787
+    - '2014-04-26 17:08:14.214045'
+    - '2015-04-14 12:44:40.296780'
+    - fox-proces-prv-1.jpg
+  - - 264
+    - fox-logo-prv.jpg
+    - image/jpeg
+    - 412412
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 787
+    - '2014-04-26 17:08:39.917831'
+    - '2015-04-14 12:44:42.258810'
+    - fox-logo-prv.jpg
+  - - 265
+    - fox-logo-prv-3.jpg
+    - image/jpeg
+    - 465692
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 787
+    - '2014-04-26 17:09:29.166465'
+    - '2015-04-14 12:44:44.393427'
+    - fox-logo-prv-3.jpg
+  - - 267
+    - fox-ci-prv-2.png
+    - image/png
+    - 1110270
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 787
+    - '2014-04-26 17:14:57.011862'
+    - '2015-04-14 12:44:48.219030'
+    - fox-ci-prv-2.png
+  - - 268
+    - fox-do-pislja-prv.jpg
+    - image/jpeg
+    - 128218
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 508
+    - '2014-04-26 17:19:58.786328'
+    - '2015-04-14 12:44:49.919992'
+    - fox-do-pislja-prv.jpg
+  - - 269
+    - design-studio-2011-2012.jpg
+    - image/jpeg
+    - 347175
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 960
+    - 640
+    - '2014-05-16 15:18:44.562864'
+    - '2015-04-14 12:44:51.123731'
+    - design-studio-2011-2012.jpg
+  - - 270
+    - behance-a3-revieweek-1.jpg
+    - image/jpeg
+    - 149225
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 842
+    - 1191
+    - '2014-05-18 19:26:27.856558'
+    - '2015-04-14 12:44:52.765248'
+    - behance-a3-revieweek-1.jpg
+  - - 271
+    - shedule-2b.jpg
+    - image/jpeg
+    - 189172
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 842
+    - 1191
+    - '2014-05-18 19:27:55.317798'
+    - '2015-04-14 12:44:54.600652'
+    - shedule-2b.jpg
+  - - 272
+    - behance-fotozvit.jpg
+    - image/jpeg
+    - 61124
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 604
+    - 404
+    - '2014-05-18 19:28:24.522739'
+    - '2015-04-14 12:44:55.594096'
+    - behance-fotozvit.jpg
+  - - 273
+    - behance-portfolio-review-lviv-2.jpg
+    - image/jpeg
+    - 533813
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1200
+    - 800
+    - '2014-05-18 19:58:18.877599'
+    - '2015-04-14 12:44:57.138922'
+    - behance-portfolio-review-lviv-2.jpg
+  - - 274
+    - behance-portfolio-review-lviv-2-1.jpg
+    - image/jpeg
+    - 74062
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 612
+    - 612
+    - '2014-05-18 20:01:16.378190'
+    - '2015-04-14 12:44:57.932985'
+    - behance-portfolio-review-lviv-2-1.jpg
+  - - 275
+    - behance-portfolio-review-lviv-2-2.jpg
+    - image/jpeg
+    - 89519
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 612
+    - 612
+    - '2014-05-18 20:01:41.090741'
+    - '2015-04-14 12:44:58.980469'
+    - behance-portfolio-review-lviv-2-2.jpg
+  - - 276
+    - graphic-design-glab.jpg
+    - image/jpeg
+    - 30554
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 401
+    - 604
+    - '2014-05-18 20:03:23.487921'
+    - '2015-04-14 12:45:00.247613'
+    - graphic-design-glab.jpg
+  - - 277
+    - interior-design-trofymenko.jpg
+    - image/jpeg
+    - 96816
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 960
+    - 720
+    - '2014-05-18 20:05:07.266808'
+    - '2015-04-14 12:45:01.186853'
+    - interior-design-trofymenko.jpg
+  - - 278
+    - web-designer-blazhakivskyj.jpg
+    - image/jpeg
+    - 159081
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 504
+    - 790
+    - '2014-05-18 20:06:25.688459'
+    - '2015-04-14 12:45:02.378503'
+    - web-designer-blazhakivskyj.jpg
+  - - 279
+    - design-laska.jpg
+    - image/jpeg
+    - 76078
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 384
+    - 534
+    - '2014-05-18 20:09:24.381833'
+    - '2015-04-14 12:45:03.244272'
+    - design-laska.jpg
+  - - 280
+    - graphic-design-jarmoljuk.jpg
+    - image/jpeg
+    - 356934
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1280
+    - 960
+    - '2014-05-18 20:10:21.530396'
+    - '2015-04-14 12:45:04.879958'
+    - graphic-design-jarmoljuk.jpg
+  - - 281
+    - graphic-design-shumchak.jpg
+    - image/jpeg
+    - 25535
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 338
+    - 604
+    - '2014-05-18 20:11:17.055166'
+    - '2015-04-14 12:45:05.795129'
+    - graphic-design-shumchak.jpg
+  - - 282
+    - designer-rudyj.jpg
+    - image/jpeg
+    - 38473
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 453
+    - 604
+    - '2014-05-18 20:12:05.059369'
+    - '2015-04-14 12:45:06.695188'
+    - designer-rudyj.jpg
+  - - 283
+    - designer-tatarina.jpg
+    - image/jpeg
+    - 108273
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 460
+    - 856
+    - '2014-05-18 20:13:10.425458'
+    - '2015-04-14 12:45:07.799131'
+    - designer-tatarina.jpg
+  - - 284
+    - designer-kyrylivy.jpg
+    - image/jpeg
+    - 807874
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 2066
+    - 1406
+    - '2014-05-18 20:14:17.127594'
+    - '2015-04-14 12:45:10.067938'
+    - designer-kyrylivy.jpg
+  - - 285
+    - art-director-voronin.jpg
+    - image/jpeg
+    - 18430
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 172
+    - 301
+    - '2014-05-18 20:14:59.576692'
+    - '2015-04-14 12:45:10.697234'
+    - art-director-voronin.jpg
+  - - 286
+    - behance-portfolio-review-lviv-2-3.jpg
+    - image/jpeg
+    - 98941
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 612
+    - 612
+    - '2014-05-18 20:20:13.749576'
+    - '2015-04-14 12:45:11.747618'
+    - behance-portfolio-review-lviv-2-3.jpg
+  - - 287
+    - behance-portfolio-review-lviv-2-4.jpg
+    - image/jpeg
+    - 142438
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 612
+    - 612
+    - '2014-05-18 20:20:42.117263'
+    - '2015-04-14 12:45:12.976814'
+    - behance-portfolio-review-lviv-2-4.jpg
+  - - 288
+    - behance-portfolio-review-lviv-2-5.jpg
+    - image/jpeg
+    - 100486
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 612
+    - 612
+    - '2014-05-18 20:20:58.436613'
+    - '2015-04-14 12:45:14.063887'
+    - behance-portfolio-review-lviv-2-5.jpg
+  - - 289
+    - behance-portfolio-review-lviv-2-6.jpg
+    - image/jpeg
+    - 188320
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 625
+    - 884
+    - '2014-05-18 20:21:15.118519'
+    - '2015-04-14 12:45:15.385077'
+    - behance-portfolio-review-lviv-2-6.jpg
+  - - 290
+    - czmk-main-studio-web-browser-frame-1.png
+    - image/png
+    - 1724466
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1308
+    - 2447
+    - '2014-05-19 16:08:56.513087'
+    - '2015-04-14 12:45:17.899264'
+    - czmk-main-studio-web-browser-frame-1.png
+  - - 291
+    - czmk-metaloconstractions-studio-web-browser-frame-1.png
+    - image/png
+    - 1872444
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1308
+    - 3934
+    - '2014-05-19 16:09:44.431789'
+    - '2015-04-14 12:45:20.413576'
+    - czmk-metaloconstractions-studio-web-browser-frame-1.png
+  - - 292
+    - czmk-stairs-studio-web-browser-frame-1.png
+    - image/png
+    - 1345114
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1308
+    - 4542
+    - '2014-05-19 16:11:59.850396'
+    - '2015-04-14 12:45:22.852021'
+    - czmk-stairs-studio-web-browser-frame-1.png
+  - - 293
+    - czmk-publication-studio-web-browser-frame-1.png
+    - image/png
+    - 1808821
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1308
+    - 2943
+    - '2014-05-19 16:16:38.381993'
+    - '2015-04-14 12:45:25.475728'
+    - czmk-publication-studio-web-browser-frame-1.png
+  - - 294
+    - czmk-404-studio-web-browser-frame-1.png
+    - image/png
+    - 408179
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1308
+    - 784
+    - '2014-05-19 16:18:11.200337'
+    - '2015-04-14 12:45:27.068768'
+    - czmk-404-studio-web-browser-frame-1.png
+  - - 295
+    - czmk-main-responsive-1.jpg
+    - image/jpeg
+    - 431044
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1335
+    - 1068
+    - '2014-05-19 16:21:46.502019'
+    - '2015-04-14 12:45:29.113961'
+    - czmk-main-responsive-1.jpg
+  - - 296
+    - gav-zagal-prv.jpg
+    - image/jpeg
+    - 1026573
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 1300
+    - '2014-05-20 14:38:06.746592'
+    - '2015-04-14 12:45:30.838278'
+    - gav-zagal-prv.jpg
+  - - 297
+    - gav-logotup.jpg
+    - image/jpeg
+    - 139630
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 679
+    - '2014-05-20 14:39:26.532522'
+    - '2015-04-14 12:45:32.231548'
+    - gav-logotup.jpg
+  - - 298
+    - gav-kolor.jpg
+    - image/jpeg
+    - 56271
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 351
+    - '2014-05-20 14:40:02.868422'
+    - '2015-04-14 12:45:34.477998'
+    - gav-kolor.jpg
+  - - 301
+    - oleoleo-nathnennja3.jpg
+    - image/jpeg
+    - 78043
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 450
+    - 450
+    - '2014-05-24 17:30:55.849467'
+    - '2015-04-14 12:45:35.195256'
+    - oleoleo-nathnennja3.jpg
+  - - 302
+    - oleoleo-nathnennja2.jpg
+    - image/jpeg
+    - 124157
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 450
+    - 450
+    - '2014-05-24 17:31:23.305129'
+    - '2015-04-14 12:45:35.996653'
+    - oleoleo-nathnennja2.jpg
+  - - 303
+    - oleoleo-nathnennja1.jpg
+    - image/jpeg
+    - 102212
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 450
+    - 450
+    - '2014-05-24 17:31:41.093099'
+    - '2015-04-14 12:45:36.745775'
+    - oleoleo-nathnennja1.jpg
+  - - 304
+    - oleoleo-nathnennja4.jpg
+    - image/jpeg
+    - 224983
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 450
+    - 450
+    - '2014-05-24 17:31:56.750481'
+    - '2015-04-14 12:45:37.607362'
+    - oleoleo-nathnennja4.jpg
+  - - 305
+    - oleoleo-nathnennja5.jpg
+    - image/jpeg
+    - 64343
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 450
+    - 450
+    - '2014-05-24 17:32:15.113948'
+    - '2015-04-14 12:45:38.352842'
+    - oleoleo-nathnennja5.jpg
+  - - 306
+    - logo3.png
+    - image/png
+    - 53129
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 283
+    - '2014-05-24 17:32:43.572037'
+    - '2015-04-14 12:45:39.047705'
+    - logo3.png
+  - - 307
+    - logo.png
+    - image/png
+    - 34525
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 413
+    - '2014-05-24 17:34:01.865480'
+    - '2015-04-14 12:45:39.864179'
+    - logo.png
+  - - 308
+    - oleoleo-logotup.jpg
+    - image/jpeg
+    - 63467
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 679
+    - '2014-05-24 17:35:24.197634'
+    - '2015-04-14 12:45:41.353973'
+    - oleoleo-logotup.jpg
+  - - 309
+    - oleoleo-logotup3.jpg
+    - image/jpeg
+    - 208306
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 679
+    - '2014-05-24 17:36:06.574979'
+    - '2015-04-14 12:45:42.868121'
+    - oleoleo-logotup3.jpg
+  - - 311
+    - oleol-logo-preview-2.jpg
+    - image/jpeg
+    - 303658
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 846
+    - '2014-05-24 17:38:06.677433'
+    - '2015-04-14 12:45:44.768508'
+    - oleol-logo-preview-2.jpg
+  - - 312
+    - portfolio-logo-oleoleo-3.jpg
+    - image/jpeg
+    - 230324
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 709
+    - '2014-05-24 17:39:41.453384'
+    - '2015-04-14 12:45:46.453716'
+    - portfolio-logo-oleoleo-3.jpg
+  - - 313
+    - oleoleo-brand-book-logo.png
+    - image/png
+    - 121014
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 536
+    - '2014-05-24 17:42:56.312983'
+    - '2015-04-14 12:45:47.653544'
+    - oleoleo-brand-book-logo.png
+  - - 314
+    - oleoleo-brand-book-logo-versions.png
+    - image/png
+    - 119917
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 536
+    - '2014-05-24 17:43:25.092003'
+    - '2015-04-14 12:45:48.794040'
+    - oleoleo-brand-book-logo-versions.png
+  - - 315
+    - oleoleo-brand-book-colors.png
+    - image/png
+    - 182545
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 536
+    - '2014-05-24 17:43:53.448419'
+    - '2015-04-14 12:45:50.070934'
+    - oleoleo-brand-book-colors.png
+  - - 316
+    - oleoleo-brand-book-ci.png
+    - image/png
+    - 205966
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 536
+    - '2014-05-24 17:45:29.966538'
+    - '2015-04-14 12:45:51.290268'
+    - oleoleo-brand-book-ci.png
+  - - 317
+    - oleoleo-corporate-identity-mockup.jpg
+    - image/jpeg
+    - 527730
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1352
+    - 850
+    - '2014-05-24 17:46:47.296452'
+    - '2015-04-14 12:45:52.976558'
+    - oleoleo-corporate-identity-mockup.jpg
+  - - 318
+    - oleo-leo-ci-elements.png
+    - image/png
+    - 296930
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 1435
+    - '2014-05-24 17:47:44.249320'
+    - '2015-04-14 12:45:54.684674'
+    - oleo-leo-ci-elements.png
+  - - 319
+    - oleleo-ci-visitcard.jpg
+    - image/jpeg
+    - 378090
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1352
+    - 850
+    - '2014-05-24 17:48:46.122070'
+    - '2015-04-14 12:45:56.184915'
+    - oleleo-ci-visitcard.jpg
+  - - 320
+    - oleoleo-ci-prv-2.jpg
+    - image/jpeg
+    - 281653
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1352
+    - 850
+    - '2014-05-24 17:49:27.100570'
+    - '2015-04-14 12:45:57.727299'
+    - oleoleo-ci-prv-2.jpg
+  - - 321
+    - logo-prezentation-oleoleo.pdf
+    - application/pdf
+    - 1421932
+    - 1
+    - User
+    - Ckeditor::AttachmentFile
+    - 
+    - 
+    - '2014-05-24 17:53:33.945679'
+    - '2014-05-24 17:53:33.945679'
+    - 
+  - - 322
+    - oleoleo-style-guide-2014.pdf
+    - application/pdf
+    - 1409243
+    - 1
+    - User
+    - Ckeditor::AttachmentFile
+    - 
+    - 
+    - '2014-05-24 17:54:25.194958'
+    - '2014-05-24 17:54:25.194958'
+    - 
+  - - 323
+    - gav-packaging-asorti-500gr.jpg
+    - image/jpeg
+    - 678258
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1181
+    - 1562
+    - '2014-06-02 08:33:12.177682'
+    - '2015-04-14 12:46:00.124406'
+    - gav-packaging-asorti-500gr.jpg
+  - - 324
+    - gav-packaging-asorti-15kg.jpg
+    - image/jpeg
+    - 525236
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 672
+    - '2014-06-02 08:45:10.003833'
+    - '2015-04-14 12:46:01.501734'
+    - gav-packaging-asorti-15kg.jpg
+  - - 325
+    - gav-asorti-il.jpg
+    - image/jpeg
+    - 469693
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 1300
+    - '2014-06-02 08:45:43.354625'
+    - '2015-04-14 12:46:03.045851'
+    - gav-asorti-il.jpg
+  - - 326
+    - jantalia-sunflower.png
+    - image/png
+    - 455457
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 679
+    - '2014-06-09 11:59:00.882574'
+    - '2015-04-14 12:46:05.506502'
+    - jantalia-sunflower.png
+  - - 327
+    - jantalia-logotup.png
+    - image/png
+    - 140818
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 679
+    - '2014-06-09 11:59:49.706157'
+    - '2015-04-14 12:46:06.617909'
+    - jantalia-logotup.png
+  - - 329
+    - jantalia-bottles-assorti.jpg
+    - image/jpeg
+    - 623757
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1352
+    - 850
+    - '2014-06-09 12:04:29.997288'
+    - '2015-04-14 12:46:08.222650'
+    - jantalia-bottles-assorti.jpg
+  - - 330
+    - jantalia-oil-poster-illustration.jpg
+    - image/jpeg
+    - 713787
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1352
+    - 1191
+    - '2014-06-09 12:06:03.606726'
+    - '2015-04-14 12:46:09.826121'
+    - jantalia-oil-poster-illustration.jpg
+  - - 331
+    - jantalia-oil-sprezenter.jpg
+    - image/jpeg
+    - 763385
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1352
+    - 850
+    - '2014-06-09 12:07:37.860239'
+    - '2015-04-14 12:46:11.532277'
+    - jantalia-oil-sprezenter.jpg
+  - - 333
+    - janatalia-bottle-retouch-prv.jpg
+    - image/jpeg
+    - 288189
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 808
+    - 1053
+    - '2014-06-09 12:41:54.421806'
+    - '2015-04-14 12:46:13.139181'
+    - janatalia-bottle-retouch-prv.jpg
+  - - 334
+    - yantalia-bottle.jpg
+    - image/jpeg
+    - 219750
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 679
+    - '2014-06-09 12:46:39.590402'
+    - '2015-04-14 12:46:14.628219'
+    - yantalia-bottle.jpg
+  - - 335
+    - jantali-oil-bottles-design.jpg
+    - image/jpeg
+    - 421946
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 1311
+    - '2014-06-09 12:51:35.475166'
+    - '2015-04-14 12:46:16.617986'
+    - jantali-oil-bottles-design.jpg
+  - - 336
+    - jantalia-oil-a2-poster-2.jpg
+    - image/jpeg
+    - 496783
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1134
+    - 1417
+    - '2014-06-09 12:52:54.878792'
+    - '2015-04-14 12:46:18.321646'
+    - jantalia-oil-a2-poster-2.jpg
+  - - 337
+    - jantalia-sunflower-oil-sticker.jpg
+    - image/jpeg
+    - 489706
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1352
+    - 624
+    - '2014-06-09 12:57:41.514057'
+    - '2015-04-14 12:46:20.179502'
+    - jantalia-sunflower-oil-sticker.jpg
+  - - 338
+    - g3k-main-preview-web.jpg
+    - image/jpeg
+    - 404531
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1335
+    - 1100
+    - '2014-10-19 16:22:09.058287'
+    - '2015-04-14 12:46:21.721832'
+    - g3k-main-preview-web.jpg
+  - - 339
+    - g3k-main.jpg
+    - image/jpeg
+    - 1712465
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1201
+    - 3416
+    - '2014-10-19 16:24:21.448630'
+    - '2015-04-14 12:46:24.957538'
+    - g3k-main.jpg
+  - - 340
+    - czmk-prv-out.pdf
+    - application/pdf
+    - 2163177
+    - 1
+    - User
+    - Ckeditor::AttachmentFile
+    - 
+    - 
+    - '2014-10-23 10:28:43.796620'
+    - '2014-10-23 10:28:43.796620'
+    - 
+  - - 341
+    - bb-czmk.pdf
+    - application/pdf
+    - 12040979
+    - 1
+    - User
+    - Ckeditor::AttachmentFile
+    - 
+    - 
+    - '2014-10-23 10:30:47.266865'
+    - '2014-10-23 10:30:47.266865'
+    - 
+  - - 342
+    - vs-ny-card-9_12_2014.jpg
+    - image/jpeg
+    - 643970
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1680
+    - 1176
+    - '2014-12-31 14:39:05.406259'
+    - '2015-04-14 12:46:28.154995'
+    - vs-ny-card-9_12_2014.jpg
+  - - 344
+    - all-packages.png
+    - image/png
+    - 1386318
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 1098
+    - '2015-01-16 16:18:15.813085'
+    - '2015-04-14 12:46:34.026443'
+    - all-packages.png
+  - - 345
+    - bud-bim-prev-2013.pdf
+    - application/pdf
+    - 1492528
+    - 1
+    - User
+    - Ckeditor::AttachmentFile
+    - 
+    - 
+    - '2015-01-16 16:25:53.496918'
+    - '2015-01-16 16:25:53.496918'
+    - 
+  - - 346
+    - bb-bud-mix8a.pdf
+    - application/pdf
+    - 6919326
+    - 1
+    - User
+    - Ckeditor::AttachmentFile
+    - 
+    - 
+    - '2015-01-16 16:28:43.486338'
+    - '2015-01-16 16:28:43.486338'
+    - 
+  - - 347
+    - prev-new-year-card-01.jpg
+    - image/jpeg
+    - 559669
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1193
+    - 1264
+    - '2015-01-24 11:17:45.304756'
+    - '2015-04-14 12:46:35.925916'
+    - prev-new-year-card-01.jpg
+  - - 349
+    - bud-mix-prev-packages-lineup-web.png
+    - image/png
+    - 959916
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 861
+    - '2015-01-24 12:59:47.031149'
+    - '2015-04-14 12:46:38.648904'
+    - bud-mix-prev-packages-lineup-web.png
+  - - 350
+    - prev-bucket.png
+    - image/png
+    - 419128
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 491
+    - '2015-01-24 13:09:46.031569'
+    - '2015-04-14 12:46:40.686552'
+    - prev-bucket.png
+  - - 352
+    - bm-adv-billboard-banners-web.jpg
+    - image/jpeg
+    - 597783
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 900
+    - '2015-01-24 13:45:41.300657'
+    - '2015-04-14 12:46:42.684607'
+    - bm-adv-billboard-banners-web.jpg
+  - - 353
+    - bb--bm-prv-2.png
+    - image/png
+    - 260954
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 1006
+    - '2015-01-24 15:24:36.623619'
+    - '2015-04-14 12:46:44.218096'
+    - bb--bm-prv-2.png
+  - - 354
+    - bb--bm-prv-3.png
+    - image/png
+    - 572772
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 1006
+    - '2015-01-24 15:24:40.693441'
+    - '2015-04-14 12:46:46.188295'
+    - bb--bm-prv-3.png
+  - - 355
+    - bb--bm-prv-5.png
+    - image/png
+    - 327152
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 1006
+    - '2015-01-24 15:24:47.123633'
+    - '2015-04-14 12:46:48.180083'
+    - bb--bm-prv-5.png
+  - - 356
+    - bb--bm-prv-1.png
+    - image/png
+    - 691521
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 1006
+    - '2015-01-24 15:24:48.123699'
+    - '2015-04-14 12:46:50.140015'
+    - bb--bm-prv-1.png
+  - - 357
+    - bb--bm-prv-4.png
+    - image/png
+    - 231116
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 1006
+    - '2015-01-24 15:24:49.838133'
+    - '2015-04-14 12:46:51.660718'
+    - bb--bm-prv-4.png
+  - - 358
+    - bb--bm-prv-6.png
+    - image/png
+    - 365842
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 1006
+    - '2015-01-24 15:24:58.086111'
+    - '2015-04-14 12:46:53.411556'
+    - bb--bm-prv-6.png
+  - - 359
+    - bb--bm-prv-8.png
+    - image/png
+    - 393669
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 1006
+    - '2015-01-24 15:24:59.998584'
+    - '2015-04-14 12:46:55.435613'
+    - bb--bm-prv-8.png
+  - - 360
+    - bb--bm-prv-9.png
+    - image/png
+    - 309182
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 1006
+    - '2015-01-24 15:25:04.214773'
+    - '2015-04-14 12:46:57.063420'
+    - bb--bm-prv-9.png
+  - - 361
+    - ci-bm-prv.png
+    - image/png
+    - 191173
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 1435
+    - '2015-01-24 15:32:52.557506'
+    - '2015-04-14 12:46:59.240638'
+    - ci-bm-prv.png
+  - - 362
+    - bm-prev-ci-all-web.png
+    - image/png
+    - 352261
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 769
+    - '2015-01-24 15:35:38.789852'
+    - '2015-04-14 12:47:00.854319'
+    - bm-prev-ci-all-web.png
+  - - 363
+    - bm-ci-visitcard.jpg
+    - image/jpeg
+    - 446952
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1352
+    - 850
+    - '2015-01-24 15:37:34.613126'
+    - '2015-04-14 12:47:02.677828'
+    - bm-ci-visitcard.jpg
+  - - 364
+    - prev-car.jpg
+    - image/jpeg
+    - 250704
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 502
+    - '2015-01-24 15:39:11.562997'
+    - '2015-04-14 12:47:04.339464'
+    - prev-car.jpg
+  - - 365
+    - et-contacts-studio-web-browser-frame-1.png
+    - image/png
+    - 872068
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1201
+    - 1223
+    - '2015-01-27 12:20:41.640089'
+    - '2015-04-14 12:47:06.846118'
+    - et-contacts-studio-web-browser-frame-1.png
+  - - 366
+    - cascades-mt-shasta-jan2014-029-custom.jpg
+    - image/jpeg
+    - 777191
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 4218
+    - 2812
+    - '2015-01-27 12:59:08.969764'
+    - '2015-04-14 12:47:10.556385'
+    - cascades-mt-shasta-jan2014-029-custom.jpg
+  - - 367
+    - images-photoshop-image-of-the-horse-053857-.jpg
+    - image/jpeg
+    - 1487458
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 2560
+    - 1600
+    - '2015-01-27 12:59:33.169296'
+    - '2015-04-16 14:29:14.617233'
+    - images-photoshop-image-of-the-horse-053857-.jpg
+  - - 368
+    - 5k_image.jpg
+    - image/jpeg
+    - 6725466
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 5120
+    - 2880
+    - '2015-01-27 13:00:44.028408'
+    - '2015-04-14 12:47:18.490875'
+    - 5k_image.jpg
+  - - 369
+    - et-main-studio-web-template-1.png
+    - image/png
+    - 3537914
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 3017
+    - 2487
+    - '2015-01-27 13:01:55.644615'
+    - '2015-04-14 12:47:26.251067'
+    - et-main-studio-web-template-1.png
+  - - 370
+    - et-main-studio-web-browser-frame-1.png
+    - image/png
+    - 2658066
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1201
+    - 3147
+    - '2015-01-27 13:36:19.288980'
+    - '2015-04-14 12:47:30.709452'
+    - et-main-studio-web-browser-frame-1.png
+  - - 371
+    - et-standart-rooms-studio-web-browser-frame-1.png
+    - image/png
+    - 1620048
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1201
+    - 2222
+    - '2015-01-27 13:39:52.542969'
+    - '2015-04-14 12:47:34.858309'
+    - et-standart-rooms-studio-web-browser-frame-1.png
+  - - 372
+    - et-gallery-pop-up-studio-web-browser-frame-1.png
+    - image/png
+    - 1040230
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1201
+    - 668
+    - '2015-01-27 13:55:57.189819'
+    - '2015-04-14 12:47:40.957607'
+    - et-gallery-pop-up-studio-web-browser-frame-1.png
+  - - 373
+    - travel-bagapc-travel-bag-xochfx3u.jpg
+    - image/jpeg
+    - 172345
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1000
+    - 1000
+    - '2015-01-27 14:09:07.969244'
+    - '2015-04-14 12:47:42.214586'
+    - travel-bagapc-travel-bag-xochfx3u.jpg
+  - - 374
+    - bag.jpg
+    - image/jpeg
+    - 115661
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 600
+    - 600
+    - '2015-01-27 14:09:21.237907'
+    - '2015-04-14 12:47:43.412189'
+    - bag.jpg
+  - - 375
+    - prev-logo-bm-1.jpg
+    - image/jpeg
+    - 100960
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 679
+    - '2015-01-27 17:54:21.311857'
+    - '2015-04-14 12:47:44.821766'
+    - prev-logo-bm-1.jpg
+  - - 376
+    - prev-logo-bm-2.jpg
+    - image/jpeg
+    - 157770
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 679
+    - '2015-01-27 18:01:50.258111'
+    - '2015-04-14 12:47:46.290043'
+    - prev-logo-bm-2.jpg
+  - - 377
+    - prev-package-bm-3a.jpg
+    - image/jpeg
+    - 292728
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 679
+    - '2015-01-27 18:11:45.277501'
+    - '2015-04-14 12:47:47.950230'
+    - prev-package-bm-3a.jpg
+  - - 378
+    - prev-package-bm-1.png
+    - image/png
+    - 558342
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 679
+    - '2015-01-27 18:12:31.593498'
+    - '2015-04-14 12:47:50.164952'
+    - prev-package-bm-1.png
+  - - 379
+    - et-main-studio-web-template-1a.png
+    - image/png
+    - 899288
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 1117
+    - '2015-01-28 09:30:16.183201'
+    - '2015-04-14 12:47:55.259908'
+    - et-main-studio-web-template-1a.png
+  - - 383
+    - ekotel-main.jpg
+    - image/jpeg
+    - 1333378
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1308
+    - 4092
+    - '2015-01-28 10:20:50.533385'
+    - '2015-04-14 12:47:59.377103'
+    - ekotel-main.jpg
+  - - 384
+    - ekotel-room.jpg
+    - image/jpeg
+    - 800659
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1308
+    - 2817
+    - '2015-01-28 10:29:32.889999'
+    - '2015-04-14 12:48:03.403166'
+    - ekotel-room.jpg
+  - - 385
+    - ekotel-photo.jpg
+    - image/jpeg
+    - 370478
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1308
+    - 731
+    - '2015-01-28 10:36:33.254162'
+    - '2015-04-14 12:48:05.278308'
+    - ekotel-photo.jpg
+  - - 386
+    - nathnennja-2.jpg
+    - image/jpeg
+    - 136449
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 450
+    - 450
+    - '2015-01-28 11:45:33.021360'
+    - '2015-04-14 12:48:06.163616'
+    - nathnennja-2.jpg
+  - - 387
+    - nathnennja-4.jpg
+    - image/jpeg
+    - 183582
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 450
+    - 450
+    - '2015-01-28 11:45:34.085633'
+    - '2015-04-14 12:48:07.059651'
+    - nathnennja-4.jpg
+  - - 388
+    - nathnennja-5.jpg
+    - image/jpeg
+    - 157086
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 450
+    - 450
+    - '2015-01-28 11:45:36.079814'
+    - '2015-04-14 12:48:08.041529'
+    - nathnennja-5.jpg
+  - - 389
+    - nathnennja-6.jpg
+    - image/jpeg
+    - 134541
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 450
+    - 450
+    - '2015-01-28 11:45:36.568935'
+    - '2015-04-14 12:48:08.921246'
+    - nathnennja-6.jpg
+  - - 390
+    - nathnennja-1.jpg
+    - image/jpeg
+    - 145301
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 450
+    - 450
+    - '2015-01-28 11:45:36.953570'
+    - '2015-04-14 12:48:09.767839'
+    - nathnennja-1.jpg
+  - - 391
+    - yizhaku-studio-web-template-preview-1.jpg
+    - image/jpeg
+    - 685801
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1335
+    - 1100
+    - '2015-01-28 12:26:11.098620'
+    - '2015-04-14 12:48:11.894600'
+    - yizhaku-studio-web-template-preview-1.jpg
+  - - 392
+    - yizhaku-browser-frame-list.jpg
+    - image/jpeg
+    - 1146078
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 2071
+    - '2015-01-28 13:31:27.243827'
+    - '2015-04-14 12:48:15.026077'
+    - yizhaku-browser-frame-list.jpg
+  - - 393
+    - yizhaku-browser-frame-main.jpg
+    - image/jpeg
+    - 2471854
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 5235
+    - '2015-01-28 13:32:55.693357'
+    - '2015-04-14 12:48:20.205617'
+    - yizhaku-browser-frame-main.jpg
+  - - 394
+    - yizhaku-browser-frame-basket.jpg
+    - image/jpeg
+    - 661189
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 2270
+    - '2015-01-28 13:35:19.739090'
+    - '2015-04-14 12:48:23.169296'
+    - yizhaku-browser-frame-basket.jpg
+  - - 395
+    - yizhaku-logo-5.jpg
+    - image/jpeg
+    - 368819
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 709
+    - '2015-01-28 13:49:50.680347'
+    - '2015-04-14 12:48:25.167192'
+    - yizhaku-logo-5.jpg
+  - - 396
+    - yizhaku-logo-2.jpg
+    - image/jpeg
+    - 165379
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 679
+    - '2015-01-28 13:50:01.396075'
+    - '2015-04-14 12:48:26.805324'
+    - yizhaku-logo-2.jpg
+  - - 398
+    - vs-y-prezentation-v1-3.pdf
+    - application/pdf
+    - 5282824
+    - 1
+    - User
+    - Ckeditor::AttachmentFile
+    - 
+    - 
+    - '2015-01-28 14:04:34.633250'
+    - '2015-01-28 14:04:34.633250'
+    - 
+  - - 399
+    - erico-400x267.jpg
+    - image/jpeg
+    - 49064
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 400
+    - 267
+    - '2015-01-28 14:05:55.398894'
+    - '2015-04-14 12:48:28.180309'
+    - erico-400x267.jpg
+  - - 400
+    - yizhaku-logo-3.jpg
+    - image/jpeg
+    - 274168
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 679
+    - '2015-01-28 14:11:23.819569'
+    - '2015-04-14 12:48:29.948215'
+    - yizhaku-logo-3.jpg
+  - - 401
+    - yizhaku-logo-4.jpg
+    - image/jpeg
+    - 239131
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 679
+    - '2015-01-28 14:11:24.935400'
+    - '2015-04-14 12:48:31.401217'
+    - yizhaku-logo-4.jpg
+  - - 402
+    - yizhaku-logo-6.jpg
+    - image/jpeg
+    - 310717
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 709
+    - '2015-01-28 14:17:21.786085'
+    - '2015-04-14 12:48:33.201705'
+    - yizhaku-logo-6.jpg
+  - - 403
+    - yizhaku-ci-prev-all.jpg
+    - image/jpeg
+    - 456658
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 898
+    - '2015-01-28 14:21:14.236890'
+    - '2015-04-14 12:48:34.812954'
+    - yizhaku-ci-prev-all.jpg
+  - - 404
+    - discount-card.jpg
+    - image/jpeg
+    - 586826
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 1016
+    - '2015-01-28 14:22:45.726029'
+    - '2015-04-14 12:48:37.126686'
+    - discount-card.jpg
+  - - 405
+    - billboard.jpg
+    - image/jpeg
+    - 507092
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 1079
+    - '2015-01-28 14:22:47.245412'
+    - '2015-04-14 12:48:39.528255'
+    - billboard.jpg
+  - - 406
+    - yizhaku-card.jpg
+    - image/jpeg
+    - 378536
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 1016
+    - '2015-01-28 14:22:48.313195'
+    - '2015-04-14 12:48:41.447198'
+    - yizhaku-card.jpg
+  - - 407
+    - y-web-service-development.jpg
+    - image/jpeg
+    - 144245
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 600
+    - 489
+    - '2015-01-28 15:00:21.563875'
+    - '2015-04-14 12:48:42.468316'
+    - y-web-service-development.jpg
+  - - 417
+    - mobile-preview.jpg
+    - image/jpeg
+    - 815732
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 1897
+    - '2015-01-29 12:48:56.873821'
+    - '2015-04-14 12:48:45.513908'
+    - mobile-preview.jpg
+  - - 418
+    - mobile-preview2.jpg
+    - image/jpeg
+    - 685931
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 1717
+    - '2015-01-29 12:53:37.702185'
+    - '2015-04-14 12:48:48.215672'
+    - mobile-preview2.jpg
+  - - 419
+    - yizhaku-avatar-image.jpg
+    - image/jpeg
+    - 260070
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 716
+    - 716
+    - '2015-01-29 12:57:24.984327'
+    - '2015-04-14 12:48:49.395895'
+    - yizhaku-avatar-image.jpg
+  - - 420
+    - erico-900x600.jpg
+    - image/jpeg
+    - 86543
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 900
+    - 600
+    - '2015-01-29 12:58:17.027731'
+    - '2015-04-14 12:48:50.686960'
+    - erico-900x600.jpg
+  - - 421
+    - admin-1.jpg
+    - image/jpeg
+    - 260549
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 825
+    - '2015-01-29 13:09:53.097577'
+    - '2015-04-14 12:48:52.811186'
+    - admin-1.jpg
+  - - 422
+    - girafa-preview.jpg
+    - image/jpeg
+    - 300766
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1335
+    - 1100
+    - '2015-01-30 10:41:32.770083'
+    - '2015-04-14 12:48:54.841328'
+    - girafa-preview.jpg
+  - - 427
+    - girafa-main-template.jpg
+    - image/jpeg
+    - 1206795
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 4605
+    - '2015-01-30 11:17:01.219416'
+    - '2015-04-14 12:48:59.883288'
+    - girafa-main-template.jpg
+  - - 428
+    - girafa-about-template.jpg
+    - image/jpeg
+    - 1037953
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 3979
+    - '2015-01-30 11:23:52.819449'
+    - '2015-04-14 12:49:04.505775'
+    - girafa-about-template.jpg
+  - - 429
+    - girafa-shedule-template.jpg
+    - image/jpeg
+    - 493128
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 2428
+    - '2015-01-30 11:28:12.437141'
+    - '2015-04-14 12:49:07.882680'
+    - girafa-shedule-template.jpg
+  - - 430
+    - girafa-funny-thing.jpg
+    - image/jpeg
+    - 26681
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 400
+    - 267
+    - '2015-01-30 11:32:05.173783'
+    - '2015-04-14 12:49:08.761147'
+    - girafa-funny-thing.jpg
+  - - 431
+    - mobile-preview.jpg
+    - image/jpeg
+    - 686568
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 1898
+    - '2015-01-30 11:42:31.439564'
+    - '2015-04-14 12:49:11.718764'
+    - mobile-preview.jpg
+  - - 433
+    - lt-preview.jpg
+    - image/jpeg
+    - 398427
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 1117
+    - '2015-01-30 14:27:03.305446'
+    - '2015-04-14 12:49:13.850308'
+    - lt-preview.jpg
+  - - 434
+    - lt-main-browser-frame-1.jpg
+    - image/jpeg
+    - 1156320
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 3457
+    - '2015-01-30 14:28:19.211094'
+    - '2015-04-14 12:49:17.965401'
+    - lt-main-browser-frame-1.jpg
+  - - 435
+    - lt-mobile-preview.jpg
+    - image/jpeg
+    - 772226
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 1898
+    - '2015-01-30 14:29:11.309213'
+    - '2015-04-14 12:49:20.973270'
+    - lt-mobile-preview.jpg
+  - - 436
+    - lt-list-browser-frame-1.jpg
+    - image/jpeg
+    - 681144
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 2238
+    - '2015-01-30 14:30:02.947006'
+    - '2015-04-14 12:49:23.840947'
+    - lt-list-browser-frame-1.jpg
+  - - 437
+    - lt-one-browser-frame-1.jpg
+    - image/jpeg
+    - 1159394
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 3807
+    - '2015-01-30 14:30:44.198418'
+    - '2015-04-14 12:49:27.863029'
+    - lt-one-browser-frame-1.jpg
+  - - 438
+    - tl-fishka.jpg
+    - image/jpeg
+    - 41422
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 400
+    - 400
+    - '2015-01-30 14:36:03.108024'
+    - '2015-04-14 12:49:28.600677'
+    - tl-fishka.jpg
+  - - 439
+    - kv-presentation-3.pdf
+    - application/pdf
+    - 17423431
+    - 
+    - 
+    - Ckeditor::AttachmentFile
+    - 3800
+    - 2850
+    - '2015-02-23 09:35:41.560895'
+    - '2015-02-23 09:38:30.047212'
+    - 
+  - - 440
+    - 1.png
+    - image/png
+    - 420693
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 775
+    - 710
+    - '2015-04-12 05:07:01.738280'
+    - '2015-04-14 12:49:29.894401'
+    - 1.png
+  - - 441
+    - content_billboard.jpg
+    - image/jpeg
+    - 534089
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 1079
+    - '2015-04-12 05:07:12.645624'
+    - '2015-04-14 12:49:31.614805'
+    - content_billboard.jpg
+  - - 442
+    - 1.png
+    - image/png
+    - 420693
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 775
+    - 710
+    - '2015-04-12 05:15:25.551553'
+    - '2015-04-14 12:49:32.892161'
+    - 1.png
+  - - 443
+    - content_billboard.jpg
+    - image/jpeg
+    - 534089
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 1079
+    - '2015-04-12 05:15:26.907997'
+    - '2015-04-14 12:49:34.617265'
+    - content_billboard.jpg
+  - - 444
+    - valko-web-responsive-1.png
+    - image/png
+    - 1457133
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1920
+    - 1583
+    - '2015-06-29 09:54:52.913174'
+    - '2015-06-29 09:54:52.913174'
+    - valko-web-responsive-1.png
+  - - 445
+    - valko-main-browser-frame-1.jpg
+    - image/jpeg
+    - 802113
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1201
+    - 2027
+    - '2015-06-29 09:57:55.729747'
+    - '2015-06-29 09:57:55.729747'
+    - Valko-main-browser-frame-1.jpg
+  - - 446
+    - valko-menu-mobile-browser-frame-1.jpg
+    - image/jpeg
+    - 129835
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 644
+    - 1017
+    - '2015-06-29 10:10:40.466687'
+    - '2015-06-29 10:10:40.466687'
+    - Valko-menu-mobile-browser-frame-1.jpg
+  - - 447
+    - valko-basket-browser-frame-1.jpg
+    - image/jpeg
+    - 239628
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1201
+    - 1014
+    - '2015-06-29 10:10:53.218378'
+    - '2015-06-29 10:10:53.218378'
+    - Valko-basket-browser-frame-1.jpg
+  - - 448
+    - valko-list-mobile-browser-frame-1.jpg
+    - image/jpeg
+    - 462968
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 644
+    - 2529
+    - '2015-06-29 10:11:02.126475'
+    - '2015-06-29 10:11:02.126475'
+    - Valko-list-mobile-browser-frame-1.jpg
+  - - 449
+    - valko-list-browser-frame-1.jpg
+    - image/jpeg
+    - 588156
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1201
+    - 1857
+    - '2015-06-29 10:11:05.130103'
+    - '2015-06-29 10:11:05.130103'
+    - Valko-list-browser-frame-1.jpg
+  - - 450
+    - valko-main-mobile-browser-frame-1.jpg
+    - image/jpeg
+    - 972333
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 644
+    - 4044
+    - '2015-06-29 10:11:12.579787'
+    - '2015-06-29 10:11:12.579787'
+    - Valko-main-mobile-browser-frame-1.jpg
+  - - 451
+    - valko-one-browser-frame-1.jpg
+    - image/jpeg
+    - 569820
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1201
+    - 2116
+    - '2015-06-29 10:11:15.843710'
+    - '2015-06-29 10:11:15.843710'
+    - Valko-one-browser-frame-1.jpg
+  - - 452
+    - studio-web-template-fs-1.png
+    - image/png
+    - 713857
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1920
+    - 1583
+    - '2015-06-29 11:56:16.398704'
+    - '2015-06-29 11:56:16.398704'
+    - studio-web-template-FS-1.png
+  - - 453
+    - fs-tech-card2-browser-frame-1.jpg
+    - image/jpeg
+    - 218542
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1201
+    - 799
+    - '2015-06-29 11:56:30.159484'
+    - '2015-06-29 11:56:30.159484'
+    - FS-tech-card2-browser-frame-1.jpg
+  - - 454
+    - fs-main-browser-frame-1.jpg
+    - image/jpeg
+    - 309442
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1201
+    - 1281
+    - '2015-06-29 11:56:32.274060'
+    - '2015-06-29 11:56:32.274060'
+    - FS-main-browser-frame-1.jpg
+  - - 455
+    - fs-tech-card3-browser-frame-1.jpg
+    - image/jpeg
+    - 227056
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1201
+    - 913
+    - '2015-06-29 11:56:38.184013'
+    - '2015-06-29 11:56:38.184013'
+    - FS-tech-card3-browser-frame-1.jpg
+  - - 456
+    - fs-landing-browser-frame-1.jpg
+    - image/jpeg
+    - 1140828
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1201
+    - 3502
+    - '2015-06-29 11:56:42.948761'
+    - '2015-06-29 11:56:42.948761'
+    - FS-landing-browser-frame-1.jpg
+  - - 457
+    - fs-tech-card-browser-frame-1.jpg
+    - image/jpeg
+    - 191889
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1201
+    - 799
+    - '2015-06-29 11:56:44.482643'
+    - '2015-06-29 11:56:44.482643'
+    - FS-tech-card-browser-frame-1.jpg
+  - - 458
+    - valko_ua-structure.jpg
+    - image/jpeg
+    - 249549
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1774
+    - 1341
+    - '2015-06-29 15:02:25.584650'
+    - '2015-06-29 15:02:25.584650'
+    - Valko_ua-structure.jpg
+  - - 459
+    - fs-landing-preview.jpg
+    - image/jpeg
+    - 248579
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 1117
+    - '2015-07-01 11:59:08.057460'
+    - '2015-07-01 11:59:08.057460'
+    - FS-landing-preview.jpg
+  - - 460
+    - fs-landing-preview.jpg
+    - image/jpeg
+    - 248579
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 1117
+    - '2015-07-01 12:00:04.231897'
+    - '2015-07-01 12:00:04.231897'
+    - FS-landing-preview.jpg
+  - - 461
+    - wheat-v1.png
+    - image/png
+    - 187761
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 500
+    - 250
+    - '2015-07-01 12:01:50.482376'
+    - '2015-07-01 12:01:50.482376'
+    - Wheat-v1.png
+  - - 462
+    - valko-mobile-pages-v1.jpg
+    - image/jpeg
+    - 562664
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 2697
+    - '2015-07-01 12:13:23.520804'
+    - '2015-07-01 12:13:23.520804'
+    - Valko-mobile-pages-v1.jpg
+  - - 464
+    - valko-preview-mobile-v4.jpg
+    - image/jpeg
+    - 129007
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 762
+    - '2015-07-01 12:15:50.314067'
+    - '2015-07-01 12:15:50.314067'
+    - Valko-preview-mobile-v4.jpg
+  - - 465
+    - calc_home.png
+    - image/png
+    - 105981
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 438
+    - 326
+    - '2015-07-01 12:18:13.142791'
+    - '2015-07-01 12:18:13.142791'
+    - calc_home.png
+  - - 466
+    - yummycafe_burgers-landing_1400.jpg
+    - image/jpeg
+    - 2373203
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1700
+    - 5765
+    - '2016-09-21 13:42:35.281470'
+    - '2016-09-21 13:42:35.281470'
+    - Yummycafe_Burgers-landing_1400.jpg
+  - - 467
+    - yummycafe_monitors.png
+    - image/png
+    - 305704
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1200
+    - 650
+    - '2016-09-21 14:39:16.456922'
+    - '2016-09-21 14:39:16.456922'
+    - Yummycafe_monitors.png
+  - - 468
+    - yummi_burger_1200.jpg
+    - image/jpeg
+    - 677807
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1200
+    - 4112
+    - '2016-09-21 17:31:48.250563'
+    - '2016-09-21 17:31:48.250563'
+    - Yummi_burger_1200.jpg
+  - - 469
+    - yummi_coffe_1200.jpg
+    - image/jpeg
+    - 736427
+    - 1
+    - User
+    - Ckeditor::Picture
+    - 1355
+    - 4634
+    - '2016-09-21 17:31:54.512875'
+    - '2016-09-21 17:31:54.512875'
+    - Yummi_coffe_1200.jpg

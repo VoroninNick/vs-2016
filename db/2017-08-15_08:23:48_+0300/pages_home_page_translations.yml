@@ -1,0 +1,64 @@
+
+---
+pages_home_page_translations:
+  columns:
+  - id
+  - pages_home_page_id
+  - locale
+  - created_at
+  - updated_at
+  - greetings
+  - published
+  records: 
+  - - 1
+    - 1
+    - ru
+    - '2014-09-29 09:23:41.698260'
+    - '2016-07-05 15:39:31.308016'
+    - "<div id=\"greetings-and-description-container\">\r\n            <p id=\"main-greetings\"><span
+      style=\"\">Приветствуем!</span></p>\r\n            <p id=\"main-description\">Наша
+      студия через исследования, стратегию, дизайн и разработку помогает создавать
+      и развивать качественные и выдающиеся бренды. А каждый новый творческий проект
+      уникален и подход к нему должен быть соответственно уникальный, разработанный
+      именно под него.</p>\r\n            \r\n          </div>\r\n          <h1 id=\"h1-about\"><span
+      style=\"\" >Мы разрабатываем логотипы, фирменные стили, веб сайты, этикетки
+      и упаковки</span></h1>\r\n          <p id=\"main-description-copy\">Наша студия
+      через исследования, стратегию, дизайн и разработку помогает создавать и развивать
+      качественные и выдающиеся бренды. А каждый новый творческий проект уникален
+      и подход к нему должен быть соответственно уникальный, разработанный именно
+      под него.</p>"
+    - true
+  - - 2
+    - 1
+    - en
+    - '2014-09-29 09:23:41.723958'
+    - '2016-07-05 15:39:31.427448'
+    - "<div id=\"greetings-and-description-container\">\r\n            <p id=\"main-greetings\"><span
+      style=\"\">Welcome!</span></p>\r\n            <p id=\"main-description\">Our
+      studio through research, strategy, design and development helps to create and
+      develop high quality and outstanding brands. And each new creative project is
+      unique and the approach to it should be in accordance unique designed just for
+      him.</p>\r\n          \r\n          </div>\r\n          <h1 id=\"h1-about\"><span
+      style=\"\" >We create logos, corporate identity, websites, labels and packaging</span></h1>\r\n
+      \         <p id=\"main-description-copy\">Our studio through research, strategy,
+      design and development helps to create and develop high quality and outstanding
+      brands. And each new creative project is unique and the approach to it should
+      be in accordance unique designed just for him.</p>"
+    - true
+  - - 3
+    - 1
+    - uk
+    - '2014-09-29 09:23:41.741222'
+    - '2016-07-05 14:26:03.193166'
+    - "\r\n<div id=\"greetings-and-description-container\">\r\n            <p id=\"main-greetings\"><span
+      style=\"\">Вітаємо!</span></p>\r\n            <p id=\"main-description\">Наша
+      студія через дослідження, стратегію, дизайн і розробку допомагає створювати
+      та розвивати якісні і видатні бренди. А кожний новий творчий проект є унікальним
+      і підхід до нього повинен бути відповідно унікальний, розроблений саме під нього.</p>\r\n
+      \         \r\n          </div>\r\n          <h1 id=\"h1-about\"><span style=\"\"
+      >Ми розробляємо логотипи, фірмові стилі, веб сайти, етикетки та упаковки</span></h1>\r\n
+      \         <p id=\"main-description-copy\">Наша студія через дослідження, стратегію,
+      дизайн і розробку допомагає створювати та розвивати якісні і видатні бренди.
+      А кожний новий творчий проект є унікальним і підхід до нього повинен бути відповідно
+      унікальний, розроблений саме під нього.</p>"
+    - true

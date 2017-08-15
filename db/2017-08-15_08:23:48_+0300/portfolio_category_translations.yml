@@ -1,0 +1,105 @@
+
+---
+portfolio_category_translations:
+  columns:
+  - id
+  - portfolio_category_id
+  - locale
+  - created_at
+  - updated_at
+  - name
+  - slug
+  - published
+  - full_description
+  - short_description
+  records: 
+  - - 1
+    - 1
+    - ru
+    - '2014-09-25 13:06:43.341951'
+    - '2015-02-11 12:39:56.081466'
+    - "Фирменный стиль"
+    - dizayn-logotipa-i-firmennogo-stilya
+    - true
+    - ''
+    - 
+  - - 2
+    - 1
+    - en
+    - '2014-09-25 13:06:43.359669'
+    - '2014-10-18 17:15:00.838357'
+    - Corporate identity
+    - logo-design-corporate-identity
+    - true
+    - ''
+    - 
+  - - 3
+    - 1
+    - uk
+    - '2014-09-25 13:06:43.374337'
+    - '2015-02-11 12:39:56.104283'
+    - "Фірмовий стиль"
+    - dyzayn-logotipu-i-firmovogo-stylju
+    - true
+    - ''
+    - 
+  - - 4
+    - 2
+    - ru
+    - '2014-09-25 13:06:43.393323'
+    - '2014-10-18 17:30:43.010025'
+    - "Упаковка"
+    - dizayn-upakovki-i-etiketki
+    - false
+    - ''
+    - 
+  - - 5
+    - 2
+    - en
+    - '2014-09-25 13:06:43.407788'
+    - '2014-10-18 17:30:43.035840'
+    - Packaging
+    - packaging-design-label
+    - false
+    - ''
+    - 
+  - - 6
+    - 2
+    - uk
+    - '2014-09-25 13:06:43.520208'
+    - '2014-10-18 17:30:43.044369'
+    - "Упаковка"
+    - dyzayn-upakovki-i-etiketki
+    - false
+    - ''
+    - 
+  - - 7
+    - 3
+    - ru
+    - '2014-09-25 13:06:43.538617'
+    - '2014-10-18 17:42:10.335443'
+    - "Веб-сайты"
+    - veb-dizayn
+    - false
+    - ''
+    - 
+  - - 8
+    - 3
+    - en
+    - '2014-09-25 13:06:43.552227'
+    - '2014-10-18 17:42:10.362842'
+    - Website
+    - web-design
+    - false
+    - ''
+    - 
+  - - 9
+    - 3
+    - uk
+    - '2014-09-25 13:06:43.564736'
+    - '2014-10-08 16:30:57.536752'
+    - "Веб-сайти"
+    - web
+    - false
+    - ''
+    - 

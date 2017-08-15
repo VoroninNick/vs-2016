@@ -1,0 +1,11 @@
+
+---
+pages_portfolio_polygraphy_list_pages:
+  columns:
+  - id
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - '2014-04-22 01:20:24.563218'
+    - '2014-04-22 01:20:24.563218'

@@ -1,0 +1,1003 @@
+
+---
+forms_orders:
+  columns:
+  - id
+  - name
+  - phone
+  - organization_name
+  - email
+  - money
+  - text
+  - created_at
+  - updated_at
+  records: 
+  - - 29
+    - ns1
+    - '1111111'
+    - test
+    - 11111111111@aa.com
+    - up to 3 000 UAH
+    - dfsgdfdfg
+    - '2015-02-04 08:18:01.307060'
+    - '2015-02-04 08:18:01.307060'
+  - - 30
+    - ns1
+    - '1111111'
+    - test
+    - 11111111111@aa.com
+    - up to 3 000 UAH
+    - dfsgdfdfg
+    - '2015-02-04 08:18:03.876834'
+    - '2015-02-04 08:18:03.876834'
+  - - 31
+    - nehmwmfakdu
+    - "-17"
+    - GLcJfUUSeVxolQ
+    - fmzouh@dxwfvt.com
+    - "Ð¾Ñ\x82 12 000 Ð³Ñ\x80Ð½."
+    - V93M2H  <a href="http://fzmubamjkoye.com/">fzmubamjkoye</a>, [url=http://pzurjstthbee.com/]pzurjstthbee[/url],
+      [link=http://xweviqszjlxa.com/]xweviqszjlxa[/link], http://pmdkmvctcoim.com/
+    - '2015-02-09 02:22:40.026966'
+    - '2015-02-09 02:22:40.026966'
+  - - 32
+    - dmlnocz
+    - "-17"
+    - mZNqBnUPvFVlK
+    - xgdczg@wuetwv.com
+    - "Ð²Ñ\x96Ð´ 12 000 Ð³Ñ\x80Ð½."
+    - VIDQir  <a href="http://honpwbbddpvq.com/">honpwbbddpvq</a>, [url=http://pxcqwmkcatxn.com/]pxcqwmkcatxn[/url],
+      [link=http://olzbbqrutfdr.com/]olzbbqrutfdr[/link], http://siejvtzqlcol.com/
+    - '2015-02-14 00:26:47.455202'
+    - '2015-02-14 00:26:47.455202'
+  - - 33
+    - flliikgqffp
+    - "-17"
+    - EqaiDMjQyoXKVE
+    - hjjfum@jnmtwr.com
+    - "Ð¾Ñ\x82 12 000 Ð³Ñ\x80Ð½."
+    - QFqdSb  <a href="http://bfoisljhjhjv.com/">bfoisljhjhjv</a>, [url=http://ywtfmqjwfryn.com/]ywtfmqjwfryn[/url],
+      [link=http://mtgjvyshgihq.com/]mtgjvyshgihq[/link], http://zsttggovitca.com/
+    - '2015-02-14 06:33:37.684494'
+    - '2015-02-14 06:33:37.684494'
+  - - 34
+    - upultnubmlk
+    - "-17"
+    - sFNItbaRuhcjpOjtuet
+    - rltxls@tmygwa.com
+    - "Ð²Ñ\x96Ð´ 12 000 Ð³Ñ\x80Ð½."
+    - sEVTTC  <a href="http://gemlmuhmlqcm.com/">gemlmuhmlqcm</a>, [url=http://kytecncvxffh.com/]kytecncvxffh[/url],
+      [link=http://vmzvigrdflmr.com/]vmzvigrdflmr[/link], http://tctdkmjtbida.com/
+    - '2015-02-14 09:47:04.841549'
+    - '2015-02-14 09:47:04.841549'
+  - - 35
+    - gwbwomptu
+    - "-17"
+    - elvCLzMbuw
+    - lwaqai@annjmh.com
+    - from 12 000 UAH
+    - Cqicz4  <a href="http://pwonrtjsegif.com/">pwonrtjsegif</a>, [url=http://ybjjylujwssw.com/]ybjjylujwssw[/url],
+      [link=http://qjlczegzitbw.com/]qjlczegzitbw[/link], http://tevptxtjhawq.com/
+    - '2015-02-14 15:16:48.854617'
+    - '2015-02-14 15:16:48.854617'
+  - - 36
+    - kmwioyfyj
+    - "-17"
+    - iXKZHjOQoLPtU
+    - uktulo@fxutmy.com
+    - "Ð²Ñ\x96Ð´ 12 000 Ð³Ñ\x80Ð½."
+    - kowsRH  <a href="http://hajpxocvglrc.com/">hajpxocvglrc</a>, [url=http://bipfjyuwsdok.com/]bipfjyuwsdok[/url],
+      [link=http://uwhfmlclkbtb.com/]uwhfmlclkbtb[/link], http://oeqhwrmpimbb.com/
+    - '2015-02-20 04:51:53.102736'
+    - '2015-02-20 04:51:53.102736'
+  - - 37
+    - dhxsrkxgq
+    - "-17"
+    - EpmcdVIOUA
+    - rljrxp@zefifp.com
+    - "Ð¾Ñ\x82 12 000 Ð³Ñ\x80Ð½."
+    - yRn0gS  <a href="http://czgtojijpexe.com/">czgtojijpexe</a>, [url=http://qiqsvzvruqfs.com/]qiqsvzvruqfs[/url],
+      [link=http://gxgcpstbhxbm.com/]gxgcpstbhxbm[/link], http://vqozonlhsvip.com/
+    - '2015-02-26 21:35:32.573263'
+    - '2015-02-26 21:35:32.573263'
+  - - 38
+    - grrmff
+    - '37466935673'
+    - EGwCeaBhUaPqJDdt
+    - rkuugu@tsqgmd.com
+    - from 12 000 UAH
+    - uKUlrs  <a href="http://dxrwtqyoyakl.com/">dxrwtqyoyakl</a>, [url=http://puljujbzmgpx.com/]puljujbzmgpx[/url],
+      [link=http://rimlxcenkvjf.com/]rimlxcenkvjf[/link], http://tdhnufbgmysd.com/
+    - '2015-03-04 03:13:29.335021'
+    - '2015-03-04 03:13:29.335021'
+  - - 39
+    - lgbtqy
+    - "-17"
+    - YOMuCWWeKOzR
+    - qqrjpx@ycoyrb.com
+    - from 12 000 UAH
+    - 5cLJuF  <a href="http://madrxwvtiiaq.com/">madrxwvtiiaq</a>, [url=http://yvofggvcokkv.com/]yvofggvcokkv[/url],
+      [link=http://orrttgtvimtm.com/]orrttgtvimtm[/link], http://rzfmgvpkuxax.com/
+    - '2015-03-15 14:54:46.569802'
+    - '2015-03-15 14:54:46.569802'
+  - - 40
+    - ndlxkagetzw
+    - "-17"
+    - WxjZlYWldhLQCzDMk
+    - fqgzfz@bhgbsd.com
+    - from 12 000 UAH
+    - mFraDf  <a href="http://tqffzxwttdrr.com/">tqffzxwttdrr</a>, [url=http://yyqodpykcjwy.com/]yyqodpykcjwy[/url],
+      [link=http://erdgnrlsueof.com/]erdgnrlsueof[/link], http://qwppetambntv.com/
+    - '2015-03-30 16:05:09.231915'
+    - '2015-03-30 16:05:09.231915'
+  - - 41
+    - "Галя Лобас"
+    - 0669440588
+    - "Назва сайту- Галя Лобас. Твій провідник до Мрій. (та назва може мінятися ще)"
+    - macjopka1@gmail.com
+    - "до 3 000 грн."
+    - "Мені потрібен унікальний логотип, слоган, стиль,  а також індивідуальний стиль
+      моєї реклами.\r\nТобто все, що пов'язано з моїм брендом- повинно бути об'єднано
+      спільним стилем.\r\nКольори, шрифти які в мене будуть на сайті, картинки- ось
+      цю всю гаму кольорову і оформлення тексту треба буде продумати.\r\nЯ лайф-коуч.
+      Наразі жінок. Індивідуальний і груповий коучінг. А також веду майстер-класи
+      і скоро буду братися за тренерство.\r\n\r\nЩо ви можете мені запропонувати з
+      моїм буджетом +- 2000 грн?\r\n\r\nДякую!"
+    - '2015-04-09 08:57:11.198571'
+    - '2015-04-09 08:57:11.198571'
+  - - 42
+    - "Армен Арутюнян"
+    - 0509412757
+    - ''
+    - armen0788@gmail.com
+    - "от 3 000 до 6 000 грн."
+    - "Здравствуйте,  увидел Вашу работу yizhaki.com.ua очень понравилось очень креативно,
+      и поскольку у нас старт-ап ближе к направлению которое вы разработали очень
+      интересно было бы пообщаться с ВАми о дизайне. Нам необходима разработка фирменного
+      стиля и логотипа, для компании по доставке продуктов и рецептов. Очень интересное
+      направление: мы разрабатываем меню на неделю на двоих и 4-х, четко отмеряем
+      все ингредиенты  для приготовления блюд, и каждое воскресенье доставляем потребителю
+      четко отмеренные продукты с фоторецептами разнообразных блюд ресторанного уровня.\r\nК
+      сожалению я нахожусь в Москве, и номер указанный на данный момент отключен.
+      \r\nБолее подробно был бы рад пообщаться по скайпу, моб. +79684820680, можно
+      написать и на почту\r\nнам необходим весь спектр услуг который может включить
+      проект ( разработка лого+фирменный дизайн, нейминг, веб дизайн)"
+    - '2015-04-10 22:34:57.883473'
+    - '2015-04-10 22:34:57.883473'
+  - - 43
+    - "Наталія Польченко"
+    - '12502754692'
+    - The Kokanee Singers
+    - npolchenko@gmail.com
+    - "від 3 000 до 6 000 грн."
+    - "Добрий день, нам потрібні мінімально необхідні складові елементи фірмового
+      стилю - логотип, кольори та шрифти. \r\nМи - це аматорський хор Kokanee Singers
+      з маленького містечка Вернон, що в Брітанській Колумбії (https://www.facebook.com/pages/Kokanee-Singers/941519189211309
+      ). \r\nТак вийшло, що я не знаю жодного місцевого графічного дизайнера. Мені
+      сподобалось Ваше портфоліо. \r\nБуло би чудово, якщо би цей заказ був виповнен
+      за 4-5 неділь. \r\nЯ - приватна особа, буду платити з власної кишені, тому хотіла
+      би замовити тільки необхідний мінімум. \r\nУ недалекому майбутньому (за місяць
+      чи два) я планую зареєструвати громадську мистецьку організацію (вокальний напрям-популяризація
+      класичної та оперної музики), для якої я буду мати трохи кращий бюджет. Будь
+      ласка, дайте мені знати, чи цікавить вас такий невеличкий проект.\r\nДякую!
+      \  "
+    - '2015-04-22 23:55:55.319089'
+    - '2015-04-22 23:55:55.319089'
+  - - 44
+    - aykjvihrqo
+    - "-17"
+    - UkyjgihNkHueSV
+    - alqmzh@imeemv.com
+    - "Ð²Ñ\x96Ð´ 12 000 Ð³Ñ\x80Ð½."
+    - a973uv  <a href="http://vkvogemgwuny.com/">vkvogemgwuny</a>, [url=http://hmeqgwxifkoj.com/]hmeqgwxifkoj[/url],
+      [link=http://uubktrdzsstw.com/]uubktrdzsstw[/link], http://scgoyuzyrqvv.com/
+    - '2015-04-28 07:42:36.464585'
+    - '2015-04-28 07:42:36.464585'
+  - - 45
+    - gordon
+    - '15466722996'
+    - tTbXBxBgWtyforYrLk
+    - klark2d4@gmail.com
+    - from 12 000 UAH
+    - XxM9KL http://www.FyLitCl7Pf7kjQdDUOLQOuaxTXbj5iNG.com
+    - '2015-05-04 12:47:37.308734'
+    - '2015-05-04 12:47:37.308734'
+  - - 46
+    - "Светлана"
+    - '0675451353'
+    - "Автокомпонент Плюс"
+    - office@autocomponentplus.com
+    - "от 12 000 грн."
+    - "Нам нужен макет рекламного плаката в автомагазин. Мы производим запчасти"
+    - '2015-05-13 08:47:48.132494'
+    - '2015-05-13 08:47:48.132494'
+  - - 47
+    - "Юрій Кізім"
+    - '0673413106'
+    - "ТОВ Агрофірма Добробут Прикарпаття"
+    - yuri.kizim.afdp@gmail.com
+    - "від 12 000 грн."
+    - "Нам потрібен логотип, сайт, бренд-бук. Ми промислово вирощуємо індичатину.
+      Буду радий, якщо Ви надасте орієнтований бюджет"
+    - '2015-05-20 11:34:04.906372'
+    - '2015-05-20 11:34:04.906372'
+  - - 48
+    - test
+    - '12345677'
+    - test
+    - p.korenev@voroninstudio.eu
+    - "до 3 000 грн."
+    - test
+    - '2015-05-27 13:17:51.304749'
+    - '2015-05-27 13:17:51.304749'
+  - - 49
+    - "Катерина"
+    - 0677953174
+    - "не має"
+    - kryvoshei@yahoo.com
+    - "від 12 000 грн."
+    - "потрібна консультація щодо розробки сайту типу booking.com я погано розуміюсь
+      в розробці сайтів, мені треба пояснити доступно що скільки коштує і як приблизно
+      може виглядати сайт, які можуть виникати труднощі з підтримкою сайту та інші
+      нюанси. Строки стислі, але можна обговорювати. Можу зустрітись в суботу-неділю
+      поговорити (20-21 червня). на тижні зустрітись не можу, тільки на вихідні."
+    - '2015-06-18 08:51:54.765775'
+    - '2015-06-18 08:51:54.765775'
+  - - 50
+    - "Инна"
+    - 0953057763
+    - ''
+    - inna.kishchuk@gmail.com
+    - "от 3 000 до 6 000 грн."
+    - "Здравствуйте! Необходим графический дизайн сайта купонатора. Интересует только
+      графический дизайн веб страниц, а не логика и система. Некоторые наброски по
+      концепции тоже уже имеються- необходима только реализация графики с Васшей стороны.
+      Как можно с Вами связаться и обсудить проект? Мой телефон - +48737483646. Прилагаю
+      также адрес skype - innastar3. С нетерпением жду контакта. Заранее спасибо!"
+    - '2015-08-06 09:50:21.787623'
+    - '2015-08-06 09:50:21.787623'
+  - - 51
+    - "Руслана Римарська "
+    - '0503700077'
+    - БФ "Ми-єдина родина"
+    - rrymarska@gmail.com
+    - "до 3 000 грн."
+    - "Нам потрібен логотип, фірмовий стиль для нової громадської організації. Налагодження
+      комунікації у соцмережах. "
+    - '2015-08-09 15:42:46.336540'
+    - '2015-08-09 15:42:46.336540'
+  - - 52
+    - "Стецура Оксана"
+    - 0636906791
+    - '"Harmony"'
+    - okcana2515@mail.ru
+    - "від 6 000 до 12 000 грн."
+    - "Нам потрібен логотип та фірмовий стиль."
+    - '2015-08-14 06:53:40.827881'
+    - '2015-08-14 06:53:40.827881'
+  - - 53
+    - "Серігій"
+    - 00978271905
+    - "Приватний"
+    - all.serhiy@gmail.com
+    - "від 12 000 грн."
+    - "Доброго дня\r\n\r\n Потрібна розробка дизайну сайту  і додатку під браузер.\r\nі
+      сайту.\r\n\r\nКоротко опишу.\r\nсайт  клієнської частини і анміністративної.\r\nЩоб
+      дані мали змогу відображатись у вигляді web браузера використовуючи метод шифрування
+      \r\nДля прикладу  я вам  додам посилання  на приклади сайтів які відтворюють
+      дію яку я описав коротко.\r\n\r\n\r\nhttps://keepersecurity.com/   \r\nlastpass.com\r\n\r\ndashlane.com
+      \  Найбільш мені подобається  цей \r\n\r\nДякую\r\n\r\n\r\n\r\n\r\n"
+    - '2015-08-22 20:07:49.967184'
+    - '2015-08-22 20:07:49.967184'
+  - - 54
+    - "Дмирий"
+    - '0630000000'
+    - ''
+    - zimak_4_cs@mail.ru
+    - "от 6 000 до 12 000 грн."
+    - "Добрый день, хочу узнать занимаетесь ли вы редизайном сайтов реализованых с
+      помощью технологии ASP.NET.Просьба ответить как можно быстрее , спасибо.\r\n"
+    - '2015-08-23 09:52:36.177762'
+    - '2015-08-23 09:52:36.177762'
+  - - 58
+    - Borys
+    - 0985268470
+    - ''
+    - karbor@bigmir.net
+    - "від 12 000 грн."
+    - "Потрібен сервісний додаток для андроїд та іо, в галузі харчування, який вміє
+      зчитувати штрих коди через камеру пристрою та відправляти в хмарний сервіс.
+      Ціна та час виконання. Зв'язок на пошту, ми знаходимось за кордоном\r\n"
+    - '2015-09-04 14:27:25.162217'
+    - '2015-09-04 14:27:25.162217'
+  - - 66
+    - "Роман"
+    - '0675377747'
+    - "Тантум Транс"
+    - Stepanov_roman@ukr.net
+    - "від 6 000 до 12 000 грн."
+    - "Потрібен логотип та фірмовий стиль. Компанія займається транспортною логістикою"
+    - '2015-09-23 19:13:23.364805'
+    - '2015-09-23 19:13:23.364805'
+  - - 67
+    - "Ростислав Прядко"
+    - '0676723424'
+    - "МАМАДАЙ РІТЕЙЛ"
+    - priadko-r@mamadai.ua
+    - "до 3 000 грн."
+    - "Доброго дня! В нас є певні проблеми в адаптації нашого логотипу для навігації
+      магазинів мережі на фасаді приміщень. Проблема в тому, що логотип не лягає красиво
+      на повернхні будь якого розміру. Оптимальний варіант розміщення логотипу на
+      площині  з пропорцією 1:5  (висота:ширина). Зараз нам потрібно розмістити його
+      \ на вітринах приміщення розміром 3:3. \r\n1) Чи зможете Ви нам допомогти з
+      \ концепцією навігації для даного випадку?"
+    - '2015-10-12 17:37:31.879853'
+    - '2015-10-12 17:37:31.879853'
+  - - 68
+    - Alex
+    - '1234567'
+    - SEORepublic
+    - alex@seorepublic.com
+    - "от 12 000 грн."
+    - "Подробнее  - http://seorepublic.ca/wd-app/"
+    - '2015-10-15 21:10:40.943946'
+    - '2015-10-15 21:10:40.943946'
+  - - 70
+    - Howaorent
+    - '123456'
+    - Howaorent
+    - emailk@newmedicforum.com
+    - from 12 000 UAH
+    - Certain treatments may be used when a person is waiting for a heart transplant  Intraaortic
+      balloon pump IABP Left ventricular assist device LVAD At a certain point the
+      health care provider will decide whether it is best to keep treating heart failure
+      aggressively.In the first week attempt a walking routine  minutes three times
+      per day inter spersed with bed rest.million per mm  or  L  Segs polys  Hct M  Lymphs  F  Eos  Hgb
+      M  gdL Baso  F  gdL  Mono  Platelets mm  or  L  FIVE SHORT CLINICAL CASES <a
+      href=http://buyprednisone10mg.com>buy prednisone online</a> Although the blood
+      flow in the narrower arteries is also reduced the pressure drop is no longer
+      negligible see ExerciseThis technique is currently used by engineers to make
+      D models and prototypes but one day it could be adapted to print living cells
+      rather than inorganic composites.bloodletting see pp.Outlook Prognosis Acidosis
+      can be dangerous if untreated. <a href=http://viagrafordailyuseusa.com>usa generic
+      viagra</a> Ventricular  septal defect  A BCylindrical lens for astigmatism.Natl.Write
+      the letter of the  answer in the space provided. <a href=http://shopfastbestmedfor.com>accutane
+      20mg bestellen rezeptfrei</a> Many of the advances in the life sciences have
+      been greatly aided by the application of the techniques of physics and engineering
+      to the study of living systems.mg of intranasal PT Diamond et al.Abscesses in
+      the skin are easy to see.Many of the conditions that cause secondary amenorrhea
+      will respond to treatment.ENDOCRINE SYSTEM   Pancreas  islet cells  Insulin
+      Glucagon  Lowers blood sugar glucose to glycogen  Raises blood sugar  glycogen
+      to glucose  FIGURE  The pancreas islet cells its hormones and actions.Today
+      the term hormone is familiarit refers to chemical substances that circulate
+      in the blood and control the various body processes.carcino cancerous cancer
+      carcinoma  A carcinoma is a cancerous tumor.Remove obstruction. <a href=http://buyinderalrxus.com>inderal
+      buy india</a> plantar exion Bending the sole of the foot downward toward the
+      ground.The second time I took  mg and there was no headache.Drug abuse chronic
+      alcoholism may cause dementia independent from thia  mine malnutrition  b.Jaw
+      pain with chewingintermittent claudication of jawtongue when  chewingarticular
+      cartilage Smooth glistening white tissue that covers the surface of a joint.Corbis
+      c Science Photo Library cla.In absorp tion spectroscopy the amount of absorption
+      can be related to the concentration.Chromosomes contain all of your genes and
+      DNA the building blocks of the body. <a href=http://buykamagrasoft.com>kamagraoraljellsold
+      inperthpharmacy</a> Even guys whove had a lot of sexual experience with women
+      make mistakes.who studied  diabetic men accrued from  diabetes centers in Italy.
+    - '2015-10-26 00:23:37.852753'
+    - '2015-10-26 00:23:37.852753'
+  - - 74
+    - "Ігор"
+    - 0967934908
+    - ''
+    - lembergsun@hotmail.com
+    - "від 3 000 до 6 000 грн."
+    - "Добрий день. Мені потрібно зробити дизайн додатку під iOS. \r\nТому хотів би
+      поцікавитися, чи Ви б змогли за це взятися, який у вас набір супутніх послуг
+      і скільки це буде коштувати. Можу вислати більш-менш детальний опис (сюди все
+      не влізе  :) )\r\nЯкщо можна, хотів би детальніше поспілкуватися у скайпі (lembergsun)\r\nЗ
+      повагою, Ігор."
+    - '2015-11-09 10:15:52.733244'
+    - '2015-11-09 10:15:52.733244'
+  - - 75
+    - Howaorent
+    - '123456'
+    - Howaorent
+    - emailk@newmedicforum.com
+    - from 12 000 UAH
+    - The longer the person has had decreased alertness the worse the outcome.and
+      testosterone Yildiz et al.Stroke     Zhang W. <a href=http://cialisfreetrialoffer.com>overnight
+      cialis in us</a> Answer This patient likely has nephrolithiasis.m isMedlineWeb
+      of Science.Ideally you should have  At least  years independent monitoring experience
+      in Russia English and Russian language skills Experience in site feasibility
+      assessments A willingness to work hard and succeed If you wish to apply for
+      this CRARus role or any other position based in Russia or Europe please send
+      a recent copy of your CV in English and on a MS Word document  For this position
+      I am looking to speak with market access professionals who have extensive experience
+      within the area of Hepatitis C.No.Infants and toddlers cannot describe their
+      pain. <a href=http://femaleviagraforsaleonline.com>viagra for men for home delivery</a>
+      Symptoms A heart attack is a medical emergency.What Abnormal Results Mean The
+      most common disorder associated with an abnormal result is renal tubular acidosis.Provide
+      information about any appearance changes or other possible side effects that
+      may result from the test. <a href=http://viagrafordailyuseusa.com>viagra online</a>
+      The answer here is probably again within the scope of our existing theories
+      of matter.However most often the patient appears well but later develops respira
+      tory dysfunction cough shortness of breath fever tachypnea hypoxemia or frothy
+      sputum.Chronic bacterial prostatitis an evolving clinical enigma.Avoid all strenuous
+      activity.Peters S. <a href=http://viagradosageusarx.com>authentic viagra</a>
+      Death is usually secondary to infection or other complications of a debilitated  state.VIP
+      has been shown to produce a wide range of effects.in the skin break down the
+      sebum producing inammation in the surrounding tissue.Do not use Lasix without
+      telling your doctor if you are breastfeeding a baby.Phrenology came to the fore
+      in the early th century with the work of German physician Franz Joseph Gall.
+      <a href=http://cialisfreeoffer.com>cheap cialis no prescription</a> .ENDOCRINE
+      SYSTEM   PITUITARY GLAND ANTERIOR LOBE Hypersecretion  acromegaly Hypersecretion
+      of growth hormone from the anterior pituitary after  puberty leading to enlargement
+      of extremities.Outlook Prognosis The outcome depends on the type and cause of
+      hemolytic anemia.
+    - '2015-11-11 12:26:59.104412'
+    - '2015-11-11 12:26:59.104412'
+  - - 80
+    - "Дмитрий"
+    - 0636989311
+    - ''
+    - 4dmytry@gmail.com
+    - "от 12 000 грн."
+    - "Добрый день,\r\nНеобходимо разработать веб-приложение для организации онлайн
+      обучения:\r\n\r\nC регистрацией/авторизацией по почте, авторизация через социальные
+      сети\r\nс личным кабинетом (будут настройки сайта, пользователи, курсы, конструктор
+      курсов и прочее),\r\nвставкой кода внешних сервисов в теги Head страницы (типа
+      онлайн-консультант),\r\nорганизацией ролей и доступа к данным (курсам),\r\nхранением
+      видео на платном Vimeo аккаунте,\r\nдинамическое создание субдомена сервиса
+      для подсайта пользователя (или привязка внешнего домена)\r\nобщий блог сервиса
+      и блоги каждого пользователя-преподователя в своих субдоменах.\r\nкомментирование
+      курсов\r\nСписки меток/тегов курса\r\nпубликация записей на стене в фейсбуке/вконтакте\r\nПрием
+      почты\r\nличные сообщения между зарегистрированными пользователями\r\nПлатные
+      / бесплатные курсы\r\nПрием оплаты онлайн\r\nПеречисление комиссии преподавателям
+      по расписанию\r\nПоддержка мультиязычности (русский, украинский, английский)\r\nОтчеты:
+      Количество пользователей, Продажи за период\r\n\r\nПредполагаемые к использованию
+      фреймворки, плагины, БД:Ruby on Rails , JavaScript, jQuery , Backbone, Mustache,
+      Twitter Bootstrap, Cufón, PostgreSQL.\r\n\r\nЧто есть:\r\nМакет проэкта в Uxpin\r\nhtml
+      шаблон кабинета\r\nhtml шаблон вход + регистрация\r\nhtml шаблон тарифы\r\nПриблизительная
+      структура таблиц БД\r\n\r\nИнтересует приблизительные сроки разработки и ориентировочная
+      цена.\r\nДетальнее можно обсудить при встрече."
+    - '2015-11-18 19:10:00.881385'
+    - '2015-11-18 19:10:00.881385'
+  - - 81
+    - hdwohcjgpxd
+    - "-17"
+    - nCEmVtEYWimcljhSab
+    - tqyuiv@vhccqh.com
+    - from 12 000 UAH
+    - RIhJoq  <a href="http://vpskxuwgtbow.com/">vpskxuwgtbow</a>, [url=http://eyohlsrplmft.com/]eyohlsrplmft[/url],
+      [link=http://nqvwgstvgwbn.com/]nqvwgstvgwbn[/link], http://nnltjfuhuxiq.com/
+    - '2015-11-27 13:52:59.969094'
+    - '2015-11-27 13:52:59.969094'
+  - - 83
+    - wjsnuiq
+    - "-17"
+    - TxTveMepR
+    - huklan@cinwqw.com
+    - from 12 000 UAH
+    - vWHBif  <a href="http://pnczgsypyvaw.com/">pnczgsypyvaw</a>, [url=http://grvklarmzetw.com/]grvklarmzetw[/url],
+      [link=http://cjztaosmjysq.com/]cjztaosmjysq[/link], http://rmceqsronkut.com/
+    - '2015-12-12 15:05:04.172314'
+    - '2015-12-12 15:05:04.172314'
+  - - 84
+    - sjltbof
+    - "-17"
+    - qsZmQEnYvylSThY
+    - ejrrmx@raxbpc.com
+    - from 12 000 UAH
+    - Jz6UnH  <a href="http://nwkmjphnmagc.com/">nwkmjphnmagc</a>, [url=http://foexucealmsf.com/]foexucealmsf[/url],
+      [link=http://bhanvxkcvfuh.com/]bhanvxkcvfuh[/link], http://esegbeekymsn.com/
+    - '2015-12-14 05:01:41.664785'
+    - '2015-12-14 05:01:41.664785'
+  - - 85
+    - ilwjycc
+    - "-17"
+    - fospGzRcCWzOocpAVSy
+    - koncwp@cxupge.com
+    - from 12 000 UAH
+    - JZeDQG  <a href="http://zacjrotvcyer.com/">zacjrotvcyer</a>, [url=http://rnenvwivxqsh.com/]rnenvwivxqsh[/url],
+      [link=http://gzjdshhlxmgu.com/]gzjdshhlxmgu[/link], http://jorfkfuiqsfd.com/
+    - '2015-12-15 18:37:00.172544'
+    - '2015-12-15 18:37:00.172544'
+  - - 86
+    - "Микола Васильович"
+    - 0678806606
+    - "Інженербудпроект"
+    - vedok@ukr.net
+    - "від 12 000 грн."
+    - "Нам потрібен крутий логотип, фірмовий стиль, бренд бук, редизайн сайту, і щось
+      налагодити..."
+    - '2015-12-16 21:21:10.686423'
+    - '2015-12-16 21:21:10.686423'
+  - - 87
+    - hvrggzqyo
+    - "-17"
+    - hMYploxOlercsspWTF
+    - evxfxl@xinxkw.com
+    - from 12 000 UAH
+    - yTO1ha  <a href="http://mizhxgcnfrsc.com/">mizhxgcnfrsc</a>, [url=http://zcibrnzxzsyc.com/]zcibrnzxzsyc[/url],
+      [link=http://mzfoqnkruiem.com/]mzfoqnkruiem[/link], http://jabhocpbhvdy.com/
+    - '2015-12-17 07:30:07.147127'
+    - '2015-12-17 07:30:07.147127'
+  - - 88
+    - hdokbmi
+    - "-17"
+    - sVnvKaOwlnNPaKdMvHn
+    - wvsous@riortv.com
+    - from 12 000 UAH
+    - 4asLMW  <a href="http://xovjwevbbkzp.com/">xovjwevbbkzp</a>, [url=http://libyiewmxzjz.com/]libyiewmxzjz[/url],
+      [link=http://gicskpclscak.com/]gicskpclscak[/link], http://vabujprskphl.com/
+    - '2015-12-18 23:45:07.442657'
+    - '2015-12-18 23:45:07.442657'
+  - - 89
+    - enjlfi
+    - "-17"
+    - ubudtQGjy
+    - jypkdp@wtlrrw.com
+    - from 12 000 UAH
+    - BiWl0M  <a href="http://uxukrgjqkabo.com/">uxukrgjqkabo</a>, [url=http://cnzcrwxbfprs.com/]cnzcrwxbfprs[/url],
+      [link=http://mnujgyfavqnp.com/]mnujgyfavqnp[/link], http://qqevwxekrpda.com/
+    - '2015-12-20 07:30:16.964699'
+    - '2015-12-20 07:30:16.964699'
+  - - 90
+    - "Яроослав "
+    - 0676765169
+    - "ПЛІТ"
+    - slavikpegutyak@gmail.com
+    - "від 6 000 до 12 000 грн."
+    - "Доброго дня!\r\n\r\nМене цікавить розробка корпоративного сайту і я б\r\nхотів
+      дізнатися приблизну ціну на проект такого типу. Ось\r\nприклади близьких по
+      функціоналу\r\nсайтів моїх польських колег :\r\nhttp://www.zphjan.com.pl/  ,
+      http://www.siatpol.pl/ .\r\nТобто, це повинен бути просто\r\nінформаційний сайт
+      без магазину, із\r\nтаким самим переліком товарних груп\r\n(можливо потрібні
+      будуть ще дві\r\nдодаткові). Ось старий сайт моєї\r\nкомпанії, для якої власне
+      мені і\r\nпотрібен новий сайт : plit.lviv.ua .\r\n\r\nЧекаю на Вашу відповідь!"
+    - '2015-12-21 19:11:36.890495'
+    - '2015-12-21 19:11:36.890495'
+  - - 91
+    - iatcjggeao
+    - "-17"
+    - MFJAlFHhHsI
+    - pxgjxp@uqftiv.com
+    - "Ð²Ñ\x96Ð´ 12 000 Ð³Ñ\x80Ð½."
+    - lBAbaR  <a href="http://mgochpvjmlhq.com/">mgochpvjmlhq</a>, [url=http://ofpmvxrqetos.com/]ofpmvxrqetos[/url],
+      [link=http://febjtdkpzupt.com/]febjtdkpzupt[/link], http://otcppsjuivuq.com/
+    - '2015-12-22 16:19:20.118273'
+    - '2015-12-22 16:19:20.118273'
+  - - 92
+    - pkbadaa
+    - "-17"
+    - gLWNBLQlPDhiMGRjc
+    - dzceeq@unkhio.com
+    - "Ð²Ñ\x96Ð´ 12 000 Ð³Ñ\x80Ð½."
+    - y13GCF  <a href="http://uakqowrefnzk.com/">uakqowrefnzk</a>, [url=http://hvznoarxaepr.com/]hvznoarxaepr[/url],
+      [link=http://jcjbaisvhrye.com/]jcjbaisvhrye[/link], http://rikjhfkautpg.com/
+    - '2015-12-26 07:38:01.589834'
+    - '2015-12-26 07:38:01.589834'
+  - - 93
+    - hxcctjhajgz
+    - "-17"
+    - PPNoHbpoc
+    - kyjzsy@zenplx.com
+    - "Ð²Ñ\x96Ð´ 12 000 Ð³Ñ\x80Ð½."
+    - de5nBx  <a href="http://rxkjfwywmwyb.com/">rxkjfwywmwyb</a>, [url=http://nttefwyjqskw.com/]nttefwyjqskw[/url],
+      [link=http://pxywwvjpupue.com/]pxywwvjpupue[/link], http://pehoonmadzsw.com/
+    - '2015-12-28 04:10:00.040865'
+    - '2015-12-28 04:10:00.040865'
+  - - 94
+    - pzjtqia
+    - "-17"
+    - kFZxshDHW
+    - xfatly@emtukx.com
+    - "Ð²Ñ\x96Ð´ 12 000 Ð³Ñ\x80Ð½."
+    - hoR7Kf  <a href="http://boppefundtzx.com/">boppefundtzx</a>, [url=http://lgjefbmuwlts.com/]lgjefbmuwlts[/url],
+      [link=http://umrsperhcgkb.com/]umrsperhcgkb[/link], http://thvkxsjnfjhv.com/
+    - '2015-12-31 08:07:51.585216'
+    - '2015-12-31 08:07:51.585216'
+  - - 95
+    - nmelgbttkxt
+    - "-17"
+    - MKOvcaCdezcUhwvvChL
+    - plelob@mitkho.com
+    - "Ð²Ñ\x96Ð´ 12 000 Ð³Ñ\x80Ð½."
+    - 4frxm9  <a href="http://tijsmtieochl.com/">tijsmtieochl</a>, [url=http://iafwrqflewco.com/]iafwrqflewco[/url],
+      [link=http://wqlitnuangap.com/]wqlitnuangap[/link], http://yzjuexjckabn.com/
+    - '2016-01-21 12:57:52.282958'
+    - '2016-01-21 12:57:52.282958'
+  - - 96
+    - "Ольга Садоха"
+    - 0502427568
+    - "Мистецтво розвитку"
+    - osadokha@gmail.com
+    - "від 12 000 грн."
+    - "Є потреба в розробці корпоративного стилю: логотип, кольори, шрифти і деяку
+      поліграфію. \r\nТакож розробка сайту. Функції сайту: інформування+продаж.\r\nСфера
+      діяльності: тренінги з управлінського розвитку, консалтинг з організаційного
+      розвитку.\r\nБуду вдячна за комерційну пропозицію з Вашого боку. Додаткову інформацію
+      можу надати при зустрічі.\r\n"
+    - '2016-02-02 21:05:19.878771'
+    - '2016-02-02 21:05:19.878771'
+  - - 97
+    - Bounyen
+    - uqZy3WZW
+    - dZ5LjTKnw
+    - z84jry9wxhm@gmail.com
+    - "від 12 000 грн."
+    - Shoot, who would have thohugt that it was that easy?
+    - '2016-02-12 03:36:39.990935'
+    - '2016-02-12 03:36:39.990935'
+  - - 98
+    - Wally
+    - 0QoGf6dO2I6V
+    - Kph3Witru
+    - het7ywqlc@hotmail.com
+    - "від 12 000 грн."
+    - Thanks for iniodructng a little rationality into this debate.
+    - '2016-02-12 05:34:23.332171'
+    - '2016-02-12 05:34:23.332171'
+  - - 99
+    - Audrey
+    - ZzpApCyx
+    - 3IjcX9XW
+    - rc1b1z445@hotmail.com
+    - "от 12 000 грн."
+    - That saves me. Thanks for being so senlbise!
+    - '2016-02-12 05:36:44.605187'
+    - '2016-02-12 05:36:44.605187'
+  - - 100
+    - "Максим"
+    - 0990000000
+    - ''
+    - seo220@mail.ua
+    - "от 12 000 грн."
+    - "аудит Вашего сайта - от 200 грн (единоразово) \r\nseo продвижение - от 2500
+      грн в месяц\r\nвнутренняя оптимизация - от 3000 грн (единоразово)\r\nконсультация
+      в продвижении сайта - от 300 грн\r\n\r\nПишите на почту, отвечу на все вопросы!"
+    - '2016-02-16 08:07:48.381556'
+    - '2016-02-16 08:07:48.381556'
+  - - 101
+    - "Микола Еплович"
+    - 0504170728
+    - "Ябко плюс"
+    - appleplus@gmail.com
+    - 0 грн
+    - "Просто хочу замовити дизайн своєї халупи (= 1 кімната і кухня на Індії"
+    - '2016-02-25 20:19:31.425646'
+    - '2016-02-25 20:19:31.425646'
+  - - 102
+    - "Микола Еплович"
+    - 0504170728
+    - "Ябко плюс"
+    - appleplus@gmail.com
+    - "ви мені платите."
+    - "заплатіть мені"
+    - '2016-02-25 20:22:11.896151'
+    - '2016-02-25 20:22:11.896151'
+  - - 104
+    - "Діана"
+    - 0503704950
+    - "Айс-Крім Сервіс"
+    - zam@icecreamservice.com.ua
+    - "до 3 000 грн."
+    - "Нам потрібен дизайн етикетки на банку для топпінгів. 4 смаки полуниця, вишня,
+      тоффі, шоколад. Етикетка на банці має виглядати так, що хочеться її з'їсти (банку:)).\r\nБанка
+      буде перевертатися, тому малюнок має бути однаковий внизу і вгорі. На етикетці
+      також має бути наш логотип, контактні дані та інформація про складники.\r\nЦікавить
+      ціна та терміни виконання."
+    - '2016-03-10 13:51:02.623932'
+    - '2016-03-10 13:51:02.623932'
+  - - 105
+    - pasha
+    - 0504170728
+    - Astra Ferri
+    - voronin.nick@gmail.com
+    - "от 12 000 грн."
+    - ''
+    - '2016-04-04 04:53:11.087510'
+    - '2016-04-04 04:53:11.087510'
+  - - 106
+    - name
+    - '980989303'
+    - '12'
+    - aa@gmail.com
+    - "от 12 000 грн."
+    - ''
+    - '2016-04-04 05:14:46.990262'
+    - '2016-04-04 05:14:46.990262'
+  - - 107
+    - "Микола Еплович"
+    - 0504170728
+    - "Ябко мінус"
+    - appleplus@gmail.com
+    - "від 12 000 грн."
+    - "шось пішло не так\r\nhttp://awesomescreenshot.com/06d5rtu783\r\n"
+    - '2016-04-07 07:51:18.990015'
+    - '2016-04-07 07:51:18.990015'
+  - - 108
+    - "Ангеліна"
+    - 0508211308
+    - SoftDecor
+    - softdecor.ua@gmail.com
+    - "до 3 000 грн."
+    - "Доброго дня. Мене цікавить розробка дизайну каталогу декоративних подушок.
+      Всі товари ви можете переглянути у групі http://vk.com/softdecorua\r\nЯка ціна?
+      І скільки це займе по часу?"
+    - '2016-04-07 09:10:18.942131'
+    - '2016-04-07 09:10:18.942131'
+  - - 109
+    - "Юлія"
+    - 0975054925
+    - Sandy Park
+    - jvdukh@ukr.net
+    - "від 12 000 грн."
+    - "Розробка веб сайту"
+    - '2016-04-25 11:30:28.632486'
+    - '2016-04-25 11:30:28.632486'
+  - - 110
+    - "Олег"
+    - 0979227710
+    - ТМ "Наш смак"
+    - nash.smak@gmail.com
+    - "від 12 000 грн."
+    - "Доброго дня, нас цікавить комплекс заходів, який включає:розробку корпоративного
+      сайту, бренд буку, удосконалення логотипу, розробку нової упаковки."
+    - '2016-04-25 11:43:50.451753'
+    - '2016-04-25 11:43:50.451753'
+  - - 111
+    - "андрій"
+    - '0633005217'
+    - "еффектім"
+    - anj44@mail.ru
+    - "від 6 000 до 12 000 грн."
+    - "визначте вартість створення сайту.\r\nзразок http://avellum.com/ua"
+    - '2016-06-13 08:38:22.577316'
+    - '2016-06-13 08:38:22.577316'
+  - - 112
+    - "Татьяна"
+    - '0672306564'
+    - ''
+    - TZ.TatyanaZ@gmail.com
+    - "от 6 000 до 12 000 грн."
+    - "Добрый день). Нам нужна Ваша помощь.\r\nМы - маленькая юридическая фирма с
+      солидными клиентами и великолепной репутацией. На юридическом рынке Украины
+      работаем с 1997 года, и несмотря на то, что мы ооочень консервативны, нам пора
+      \"обновить лицо\" - лого, корпоративный стиль, сайт.\r\nЕсли можете помочь,
+      пожалуйста, свяжитесь со мной.\r\nЗаранее спасибо)"
+    - '2016-06-14 10:22:27.325027'
+    - '2016-06-14 10:22:27.325027'
+  - - 113
+    - "Орест"
+    - 0673533788
+    - "Кохавинська ПФ"
+    - okostur@kpf.ua
+    - "від 3 000 до 6 000 грн."
+    - 'Доброго дня. Нам потрібно розробити, а в подальшому виготовити рекламні білборди
+      та каталог нашої продукції ТМ "Кохавинка". Термін втілення - липень місяць.
+      Якщо у вас є зацікавленість, дзвоніть. '
+    - '2016-06-30 12:32:40.006116'
+    - '2016-06-30 12:32:40.006116'
+  - - 114
+    - "Инга Лукьяненко"
+    - '32483378302'
+    - IL2 Consulting
+    - inga.lukyanenko@gmail.com
+    - "до 3 000 грн."
+    - "Нам нужен логотип и визитки. Фирма европейская, айти консалтинговые услуги,
+      соответственно и стиль. Обсуждения дизайна по имейлу или вайберу, приезжаем
+      во львов 13/08-21/08 когда и хотим забрать уже готовые визитки. "
+    - '2016-07-28 17:43:07.372229'
+    - '2016-07-28 17:43:07.372229'
+  - - 115
+    - "Олег Паньків"
+    - 0503263080
+    - Oral Care Shop
+    - pankiv.oleh@gmail.com
+    - "від 6 000 до 12 000 грн."
+    - "Мені потрібен логотип та фірмова презентація для орендодавця (торговий центр).
+      Займаюся продажем засобів гігієни порожнини рота (острівковий вид торгівлі).
+      \r\n"
+    - '2016-08-16 10:53:16.256842'
+    - '2016-08-16 10:53:16.256842'
+  - - 116
+    - "Нодар Букия"
+    - '3057613495'
+    - ProCustom.us INC
+    - gonolyly7@gmail.com
+    - "от 12 000 грн."
+    - "Мне нужен website с возможностью продаж online, online work estimator, логотип,
+      дизайн сайта, текстовое наполнение. Я занимаюсь созданием мебели на заказ, специализируюсь
+      на кухнях, плюс все сопутствующие ремонтные работы. Нравитъся http://www.mikiyakobayashi.com/"
+    - '2016-08-30 18:25:58.661437'
+    - '2016-08-30 18:25:58.661437'
+  - - 117
+    - "Юрій"
+    - 0673122092
+    - "Ювелірна Компанія"
+    - yuriy.gayda@gmail.com
+    - "від 3 000 до 6 000 грн."
+    - "Потрібний мобільний додаток в якому буде інформація про акції магазинів , інтегрована
+      картка постійного покупця , залишок нарахованих грошових бонусів, інформація
+      про магазини. Деталі по тел."
+    - '2016-10-25 15:51:45.424875'
+    - '2016-10-25 15:51:45.424875'
+  - - 118
+    - "Людмила"
+    - 0678399314
+    - Пакувальна компанія "Сидор
+    - sydor.packaging@gmail.com
+    - "від 12 000 грн."
+    - "Доброго дня! Наша компанія потребує абсолютно новий креативний логотип. +розробка
+      фірмового стилю. Створення веб-сайту. \r\nКомпанія займається виробництвом паперової
+      продукції. Детальніше на http://karton.lviv.ua/\r\nЯкщо Вас зацікавив даний
+      проект прошу зателефонувати. Дякую."
+    - '2016-11-17 10:36:23.226416'
+    - '2016-11-17 10:36:23.226416'
+  - - 119
+    - "Олег"
+    - 0966869621
+    - "ТМ Ліволія - ФОП Намистюк Б.М."
+    - namystiuk@gmail.com
+    - "від 3 000 до 6 000 грн."
+    - "Нам потрібен логотип, а також етикетка на ПЕТ флакон (http://www.mypack.com.ua/shop/144/desc/flakon-pet-115-ml).
+      Ми здійснюємо виробництво олії лісового горіха за допомогою дерев'яного пресу
+      для збереження усіх його корисних властивостей (http://liveoil.com.ua/ - в стадії
+      розробки). "
+    - '2016-11-17 11:12:30.437025'
+    - '2016-11-17 11:12:30.437025'
+  - - 120
+    - "Ігор Ткаленко"
+    - 0979321665
+    - ''
+    - itkalenkofree@gmail.com
+    - "від 3 000 до 6 000 грн."
+    - "Добрий день.\r\nНам потрібен логотип, слоган та дизайн двохсторонньої візитної
+      картки. Це для дівчини Стиліста-Шоппера. Послуги: Створення StyleBoard, Аналіз
+      гардероба, Шопінг - супровід. Термін: 1 міс."
+    - '2016-11-17 11:39:57.236945'
+    - '2016-11-17 11:39:57.236945'
+  - - 121
+    - "Артем"
+    - 0675084836
+    - "АРТ-ЛЕВ"
+    - tolopko@ukr.net
+    - "до 3 000 грн."
+    - "Цікавить вартість розробки логотипу.  "
+    - '2016-12-11 19:11:40.479454'
+    - '2016-12-11 19:11:40.479454'
+  - - 122
+    - Chase Hamilton
+    - 0322610907
+    - Chase Hamilton Agency LTD
+    - paulchasehamilton@gmail.com
+    - from 6 000 to 12 000 UAH
+    - "Hi,\r\n\r\nI need a super cool and unique logo, business cards, letter head,
+      email signature and digital identity. I also need an amazing website.\r\n\r\nWhat
+      are your prices etc?\r\n\r\nPlease contact me via email only."
+    - '2017-02-06 12:34:32.532025'
+    - '2017-02-06 12:34:32.532025'
+  - - 123
+    - "Іван Юрійович "
+    - 0952833575
+    - Shmotka
+    - Kindzerskyy@gmail.com
+    - "від 12 000 грн."
+    - "Доброго дня!\r\nПотрібен мобільний додаток IOS(Iphone)\r\nІнформацію надіслав
+      на пошту:\r\noffice@voroninstudio.eu"
+    - '2017-02-20 15:11:47.033152'
+    - '2017-02-20 15:11:47.033152'
+  - - 124
+    - "Роман "
+    - 0961723156
+    - "Приватний підприємець"
+    - rtymoshchuk@gmail.com
+    - "від 3 000 до 6 000 грн."
+    - "Добрий день!\r\nЦікавить розробка додатку, в якому буде вказуватись (зповнюватись)
+      інформація, яка ж буде передаватись на \"особистий(головний) кабінет\".\r\nВимоги
+      для додатку:\r\n1. Сортування інформації(даних) в \"особистому(головному) кабінеті\"\r\n2.
+      Обовя'зково\r\n* година в якій внесенні дані \r\n* локація з якої внесенні дані\r\n*
+      профайл з якого внесенні дані\r\n* і власне самі дані, до 25 позицій\r\n3. інтерсфейс
+      найпростіший\r\n\r\nТакож цікавить термін та оплата виконання роботи.\r\nДякую!)"
+    - '2017-02-25 14:56:34.302015'
+    - '2017-02-25 14:56:34.302015'
+  - - 125
+    - "Войчишин Юрій"
+    - 0961970101
+    - GACI
+    - voychyshyn.y@gmail.com
+    - "до 3 000 грн."
+    - 'Ми плануємо виготовлення нижньої чоловічої білизни з метою гуртових продажів.
+      Це повинні бути молодіжні сімейні труси з натуральних тканин. Назву бренду придумали:
+      "GACI". Нам потрібен логотип, фірмовий стиль, дизайн упаковки та лендінгова
+      сторінка. Бажано з невеликим бюджетом. Логотип і фірмовий стиль уявляємо собі
+      в строгих чорно-білих тонах (так як білий колір асоціюється з чистотою і натуральністю).
+      Форму картонної упаковки маємо. Також є деякі ідеї по її виконанню.'
+    - '2017-03-20 22:00:54.741508'
+    - '2017-03-20 22:00:54.741508'
+  - - 126
+    - "Олександра"
+    - 0678822727
+    - ''
+    - sashaterley@gmail.com
+    - "від 6 000 до 12 000 грн."
+    - "Мені потрібен логотип і бренд бук. "
+    - '2017-03-23 16:30:08.998516'
+    - '2017-03-23 16:30:08.998516'
+  - - 127
+    - "Евгений "
+    - 0676183466
+    - "Ворота 24"
+    - Burchakev@ukr.net
+    - "от 12 000 грн."
+    - "Сайт логотип концепция на новый уровень графика и домен юа"
+    - '2017-04-16 12:48:36.139498'
+    - '2017-04-16 12:48:36.139498'
+  - - 128
+    - "Ярослав"
+    - '0503172162'
+    - ''
+    - urbano_rider@yahoo.ca
+    - "від 12 000 грн."
+    - "https://dmytroshtunder.wixsite.com/tax-test - технічна назва проекту: taxfree-rider
+      (можете пропонувати ваші версії). потрібен фірмовий стиль і landing-website.
+      \r\n\r\nhttp://fotel.com.ua - CMS залишається. потрібен фірмовий стиль, веб-дизайн
+      наявних сторінок і верстка. "
+    - '2017-05-24 15:08:37.514690'
+    - '2017-05-24 15:08:37.514690'
+  - - 129
+    - "Андрей"
+    - 0934619965
+    - ''
+    - andrew9965@gmail.com
+    - "от 12 000 грн."
+    - "Здравствуйте!\r\nПодскажите, вы находитесь во Львове территориально? \r\nНам
+      нужен разработка моб. приложения. \r\nПосмотрите пожалуйста ТЗ \r\nhttps://drive.google.com/file/d/0B4Vtiy_0fvaHZG5HdHVSYk5GUDA/view?usp=sharing\r\nСпасибо
+      наперед. "
+    - '2017-06-26 11:52:16.202194'
+    - '2017-06-26 11:52:16.202194'
+  - - 130
+    - "Роксолана Тушніцька"
+    - 0972199664
+    - ''
+    - tushnitska13@ukr.net
+    - "від 6 000 до 12 000 грн."
+    - "нам потрібен гарний логотип, буклетик з нашою продукцією для реклами та сайт
+      (в нас є невеличке п-во по виготовленню смачненького солодкого)\r\nдякую за
+      відповідь!"
+    - '2017-07-13 12:07:40.436787'
+    - '2017-07-13 12:07:40.436787'
+  - - 131
+    - "Мікаель Арутюнян"
+    - 0974586312
+    - "Готелі Джем"
+    - lviv@jam-hotel.com.ua
+    - "від 12 000 грн."
+    - "Доброго дня!\r\nНас цікавлять послуги Вашої компанії у розробці макетів, фірмового
+      стилю тощо.\r\nБудемо очікувати на зворотній зв'язок.\r\nДякуємо.\r\nЗ повагою,
+      команда готелів Джем."
+    - '2017-07-19 08:19:50.285877'
+    - '2017-07-19 08:19:50.285877'
+  - - 132
+    - Taras
+    - '17733961423'
+    - '17733961423'
+    - Kedyktaras@gmail.com
+    - "до 3 000 грн."
+    - "Мені потрібна картонна обгортка з хорошим дизайном для silicon ice cube trays, "
+    - '2017-07-24 08:27:34.762090'
+    - '2017-07-24 08:27:34.762090'
+  - - 133
+    - "Олег"
+    - 0965557222
+    - ''
+    - tsunami@ukr.net
+    - "від 12 000 грн."
+    - "Потрібно розробити міні-сайт до 20-30 сторінок.\r\nНаш продукт- це курси програмування
+      і тестування. Є потреба зробити міні-сайт, окремо для нашої філії (існує основний
+      сайт компанії, але в нас різні погляди з керівництвом).\r\nЩо потрібно зробити?
+      Приблизно 6 таких сторінок https://itea.ua/uk/courses_itea/mark_up/javascript_advanced/
+      під різні напрямки.\r\nОсновні розділи сайту:\r\nПро Академію | Курси |  Події
+      | Блог  | Контакти"
+    - '2017-07-24 17:47:19.967630'
+    - '2017-07-24 17:47:19.967630'

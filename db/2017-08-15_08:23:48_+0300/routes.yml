@@ -1,0 +1,140 @@
+
+---
+routes:
+  columns:
+  - id
+  - name
+  - route_string
+  - route_name
+  - controller_action
+  - redirect_to_url
+  - position
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - portfolio list
+    - 
+    - portfolio
+    - portfolio#index
+    - 
+    - 1
+    - '2014-09-25 13:19:16.076903'
+    - '2014-09-25 18:05:55.726405'
+  - - 2
+    - portfolio category
+    - 
+    - portfolio_category
+    - portfolio#category
+    - 
+    - 
+    - '2014-09-25 13:20:37.501978'
+    - '2014-09-25 13:20:37.550245'
+  - - 3
+    - portfolio item
+    - 
+    - portfolio_item
+    - portfolio#item
+    - 
+    - 
+    - '2014-09-25 13:22:20.621719'
+    - '2014-09-25 13:22:20.668605'
+  - - 4
+    - contact
+    - 
+    - contact
+    - contact#contact_show
+    - 
+    - 
+    - '2014-09-25 13:23:36.343226'
+    - '2014-09-25 13:23:36.396618'
+  - - 5
+    - order
+    - 
+    - order
+    - contact#order_show
+    - 
+    - 
+    - '2014-09-25 13:24:49.524698'
+    - '2014-09-25 13:24:49.571311'
+  - - 6
+    - join us
+    - 
+    - join_us
+    - contact#join_us_show
+    - 
+    - 
+    - '2014-09-25 13:26:25.300022'
+    - '2014-09-25 13:26:25.348523'
+  - - 7
+    - send order form
+    - 
+    - post_order
+    - contact#order_create
+    - 
+    - 7
+    - '2014-09-25 13:27:31.498430'
+    - '2014-09-25 13:28:20.046357'
+  - - 8
+    - send join us form
+    - 
+    - post_join_us
+    - contact#join_us_create
+    - 
+    - 
+    - '2014-09-25 13:29:21.029061'
+    - '2014-09-25 13:29:21.163628'
+  - - 9
+    - about
+    - 
+    - about
+    - page#about
+    - 
+    - 9
+    - '2014-09-25 13:30:18.657331'
+    - '2014-09-25 13:30:26.896190'
+  - - 10
+    - services list
+    - 
+    - service_list
+    - page#service
+    - 
+    - 
+    - '2014-09-25 13:31:19.318042'
+    - '2014-09-25 13:31:19.364754'
+  - - 11
+    - service item
+    - 
+    - service_item
+    - page#service_item
+    - 
+    - 11
+    - '2014-09-25 13:32:29.014736'
+    - '2014-09-27 11:16:11.562120'
+  - - 12
+    - article list
+    - 
+    - article_list
+    - page#article
+    - 
+    - 
+    - '2014-09-25 13:33:19.507947'
+    - '2014-09-25 13:33:19.642703'
+  - - 13
+    - article_item
+    - 
+    - article_item
+    - page#article_item
+    - 
+    - 
+    - '2014-09-25 13:34:03.823059'
+    - '2014-09-25 13:34:03.869387'
+  - - 14
+    - article tag
+    - 
+    - article_tag
+    - page#articles_by_tags
+    - 
+    - 
+    - '2014-09-25 13:34:53.781022'
+    - '2014-09-25 13:34:53.915176'

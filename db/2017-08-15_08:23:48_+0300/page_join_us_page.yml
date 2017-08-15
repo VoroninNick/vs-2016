@@ -1,0 +1,11 @@
+
+---
+page_join_us_page:
+  columns:
+  - id
+  - content
+  - published
+  records: 
+  - - 1
+    - 
+    - false

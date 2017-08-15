@@ -1,0 +1,1546 @@
+
+---
+portfolios:
+  columns:
+  - id
+  - name
+  - created_at
+  - updated_at
+  - portfolio_category_id
+  - slug
+  - portfolio_banner_id
+  - portfolio_technology_id
+  - developer_id
+  - avatar_file_name
+  - avatar_content_type
+  - avatar_file_size
+  - avatar_updated_at
+  - result
+  - result_eng
+  - process
+  - process_eng
+  - live
+  - live_eng
+  - release
+  - published
+  - description
+  - thanks_to
+  - task
+  - thanks_image_file_name
+  - thanks_image_content_type
+  - thanks_image_file_size
+  - thanks_image_updated_at
+  - title
+  - avatar_file_name_fallback
+  - avatar_alt
+  - thanks_image_alt
+  - thanks_image_file_name_fallback
+  records: 
+  - - 6
+    - " «КАРПАТСЬКІ ВІКНА» – еталон краси, якості та відмінного смаку"
+    - '2013-10-25 08:44:07.986847'
+    - '2015-04-14 11:30:09.429686'
+    - 1
+    - karpatski-vikna
+    - 7
+    - 
+    - 
+    - portfolio-logo-karpatski-vikna-1.jpg
+    - image/jpeg
+    - 116340
+    - '2015-04-14 11:30:08.806743'
+    - "<h2>Натхнення</h2>\r\n\r\n<p>Історія використання дерева людиною така ж древня,
+      як історія самого людства. У прадавні часи дерево захищало, зігрівало, давало
+      притулок, допомагало полювати, будувати, плавати.</p>\r\n\r\n<p>Десятки тисяч
+      років поспіль людство тримає в руках дерево, виготовляючи з нього найрізноманітніші
+      предмети: від простої ложки до складного вітрильника. Напевно тому кожна людина
+      дуже виразно і глибоко відчуває свій зв&#39;язок з деревом чи виробами з дерева.</p>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/65/content_inspiration-450x450-1.jpg\"
+      style=\"height:175px; width:175px\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/66/content_inspiration-450x450-3.jpg\"
+      style=\"height:175px; width:175px\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/67/content_inspiration-450x450-5.jpg\"
+      style=\"height:175px; width:175px\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/68/content_inspiration-450x450-4.jpg\"
+      style=\"height:175px; width:175px\" /></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h2>Ідея
+      символу</h2>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/69/content_frame-7.png\"
+      /></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h2>Логотип</h2>\r\n\r\n<p><img alt=\"\"
+      src=\"/ckeditor_assets/pictures/70/content_frame-8.png\" /></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/82/content_frame-17.jpg\" /></p>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/83/content_karpatski-vikna-logo-prv-2.jpg\"
+      /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/84/content_karpatski-vikna-logo-prv-4.jpg\"
+      /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/85/content_karpatski-vikna-logo-prv-3.jpg\"
+      /></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h2>Фірмовий паттерн</h2>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/71/content_frame-9.png\" /></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h2>Рекламний
+      буклет</h2>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/72/content_frame-10.jpg\"
+      /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/73/content_frame-12.jpg\"
+      /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/74/content_frame-11.jpg\"
+      /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/75/content_frame-13.jpg\"
+      /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/76/content_frame-14.jpg\"
+      /></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n"
+    - 
+    - ''
+    - 
+    - ''
+    - 
+    - '2013-11-05'
+    - true
+    - "<p>2013.01.18</p>\r\n\r\n<p><strong><a href=\"http://ekranvk.com.ua/special/virobi-z-dereva-karpatski-vikna-tm\"
+      rel=\"nofollow\">www.ekranvk.com.ua</a></strong></p>\r\n\r\n<p>В 2012 році компанія
+      &laquo;Екран-Вікносвіт&raquo; представила нову торгову марку &laquo;КАРПАТСЬКІ
+      ВІКНА&raquo; &ndash; еталон краси, якості та відмінного смаку. Створюючи які,
+      ми навчилися робити найголовніше: бачити в деревині унікальні вироби саме для
+      Вашого помешкання, дому, особняку.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>Завантажити:</p>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/133/content_1397598448_647710-pdf.png\"
+      style=\"height:16px; width:16px\" />&nbsp;&nbsp;<a href=\"/ckeditor_assets/attachments/131/valko-logo-prv-22_11_2013.pdf\"><span
+      style=\"color:#0a9adb\">Презентація для замовника</span></a></p>\r\n"
+    - ''
+    - "Відобразити натуральність, екологічність та вишуканість вікон у  фірмовому
+      стилі та рекламній продукції."
+    - 
+    - 
+    - 
+    - 
+    - " «КАРПАТСЬКІ ВІКНА» – эталон красоты, качества и отличного вкуса"
+    - portfolio-logo-karpatski-vikna-1.jpg
+    - 
+    - 
+    - ''
+  - - 13
+    - "«MOLOKO» — розробка логотипу, фірмового стилю"
+    - '2014-04-07 15:41:27.624523'
+    - '2015-04-14 11:30:10.267777'
+    - 1
+    - moloko-nichniy-klub-u-lvovi
+    - 5
+    - 
+    - 
+    - moloko-avatar-1.jpg
+    - image/jpeg
+    - 154213
+    - '2015-04-14 11:30:09.627966'
+    - "<h2>Натхнення</h2>\r\n\r\n<p>Натхненням стали збірні образи кращих європейських
+      клубів, кубічність в формі та цікавий і не стандартний погляд на корівок та
+      молоко.</p>\r\n\r\n<p><img alt=\"Inspiration 1\" src=\"/ckeditor_assets/pictures/32/content_moloko-inspiration-6.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/31/content_moloko-inspiration-4.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/34/content_moloko-inspiration-5.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/30/content_moloko-inspiration-1.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/29/content_moloko-inspiration-3.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/28/content_moloko-inspiration-2.jpg\"
+      /></p>\r\n\r\n<h2>Ідея символу</h2>\r\n\r\n<p><img alt=\"Кубічна ячейка денсполу
+      + стиль 8біт графіки + драм машина\" src=\"/ckeditor_assets/pictures/37/content_moloko-symbol-idea-1.jpg\"
+      style=\"height:249px; width:800px\" /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/36/content_moloko-logo-1.jpg\"
+      style=\"height:520px; width:500px\" /></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n"
+    - 
+    - ''
+    - 
+    - ''
+    - 
+    - '2012-10-03'
+    - false
+    - "<p>2012.02.14</p>\r\n\r\n<p><strong><a href=\"http://molokoclub.info/\" rel=\"nofollow\"><span
+      style=\"color:#1aa29c\">molokoclub.info</span></a></strong></p>\r\n"
+    - ''
+    - "Розробити логотип та стилістику для нічного клубу у Львові."
+    - 
+    - 
+    - 
+    - 
+    - "«MOLOKO» — разработка логотипа, фирменного стиля"
+    - moloko-avatar-1.jpg
+    - 
+    - 
+    - ''
+  - - 14
+    - 'GREEN TELECOM: Телекомунікаційний провайдер'
+    - '2014-04-10 09:05:20.306381'
+    - '2015-04-14 11:30:11.012390'
+    - 1
+    - green-telecom-telekomunikatsiyniy-provayder
+    - 6
+    - 
+    - 
+    - portfolio-logo-green-telecom-1.jpg
+    - image/jpeg
+    - 53022
+    - '2015-04-14 11:30:10.419805'
+    - "<h2><span style=\"color:#93d62f\">Натхнення</span></h2>\r\n\r\n<div class=\"three-per-row\">\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/42/content_insp-450x450-6.jpg\" style=\"height:175px;
+      width:175px\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/43/content_insp-450x450-5.jpg\"
+      style=\"height:175px; width:175px\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/40/content_insp-450x450-3.jpg\"
+      style=\"height:175px; width:175px\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/39/content_insp-450x450-2.jpg\"
+      style=\"height:175px; width:175px\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/38/content_insp-450x450-1.jpg\"
+      style=\"height:175px; width:175px\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/41/content_insp-450x450-4.jpg\"
+      style=\"height:175px; width:175px\" />​</p>\r\n</div>\r\n\r\n<h2><span style=\"color:#93d62f\">Ідея
+      символу</span></h2>\r\n\r\n<p><span style=\"color:#D3D3D3\">В основу символу
+      інтернет провайдера лягла ідея поєднання екологічних кольорів з технологічними
+      образами.</span></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/56/content_5.png\"
+      /></p>\r\n\r\n<h2><span style=\"color:rgb(147, 214, 47)\">Логотип</span></h2>\r\n\r\n<p><span
+      style=\"color:rgb(147, 214, 47)\"><img alt=\"Грін Телеком\" src=\"/ckeditor_assets/pictures/61/content_3.png\"
+      /></span></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/54/content_6.png\" /></p>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/55/content_7.png\" /></p>\r\n\r\n<h3><span
+      style=\"color:rgb(147, 214, 47)\">Фірмовий стиль</span></h3>\r\n\r\n<p><span
+      style=\"color:#D3D3D3\">Варіанти логотипу, фірмові кольори, шрифти підібрані
+      та описані в короткому посібнику по фірмовому стилю. Також в посібник увійшла
+      вся акцидентна продукція, яка теж розроблена в студії.</span></p>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/182/content_14.png\" /></p>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/183/content_11.png\" /></p>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/184/content_12.png\" /></p>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/185/content_13.png\" /></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/53/content_gt-corporate-8.png\" /></p>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/57/content_9.png\" /></p>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/58/content_10.png\" />​</p>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/63/content_2.png\" style=\"height:626px;
+      width:800px\" /></p>\r\n\r\n<p>&nbsp;</p>\r\n"
+    - 
+    - ''
+    - 
+    - ''
+    - 
+    - '2012-09-06'
+    - true
+    - "<p><span style=\"color:#D3D3D3\">2012.09.06</span></p>\r\n\r\n<p><strong><a
+      href=\"http://greentele.com.ru/\" rel=\"nofollow\" style=\"color:rgb(147, 214,
+      47)\">www.greentele.com.ru</a></strong></p>\r\n\r\n<p><span style=\"color:#D3D3D3\">Компанія
+      &laquo;Грін Телеком&raquo; пропонує комплексні телекомунікаційні рішення для
+      різних об&#39;єктів комерційної нерухомості: ділових центрів, торгових центрів,
+      готелів та інших підприємств малого, середнього та великого бізнесу. Наші спеціалісти
+      забезпечують повний набір найсучасніших послуг зв&#39;язку, індивідуальний підхід
+      до кожного клієнта та технічну підтримку.</span></p>\r\n\r\n<p><span style=\"color:#D3D3D3\">Завантажити:</span></p>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/133/content_1397598448_647710-pdf.png\"
+      style=\"height:16px; width:16px\" />&nbsp;&nbsp;<a href=\"/ckeditor_assets/attachments/186/gt-presentation-05.pdf\"><span
+      style=\"color:rgb(147, 214, 47)\">Презентація для замовника</span></a></p>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/133/content_1397598448_647710-pdf.png\"
+      style=\"color:rgb(10, 154, 219); height:16px; width:16px\" />&nbsp;&nbsp;<a
+      href=\"/ckeditor_assets/attachments/187/gt-stule-guide-2012.pdf\"><span style=\"color:rgb(147,
+      214, 47)\">Посібник по використанню фірмового стилю</span></a></p>\r\n"
+    - ''
+    - "Створити яскравий та екологічний бренд для телекомунікаційного провайдера."
+    - 
+    - 
+    - 
+    - 
+    - 'GREEN TELECOM: телекоммуникационный провайдер'
+    - portfolio-logo-green-telecom-1.jpg
+    - 
+    - 
+    - ''
+  - - 17
+    - Investment Intelligence
+    - '2014-04-12 14:16:29.726020'
+    - '2015-04-14 11:30:11.747176'
+    - 1
+    - investment-intelligence
+    - 8
+    - 
+    - 
+    - portfolio-logo-investment-intellegence-3.jpg
+    - image/jpeg
+    - 38708
+    - '2015-04-14 11:30:11.180788'
+    - "<h2><span style=\"color:#2771b7\">Натхнення</span></h2>\r\n\r\n<p><img alt=\"\"
+      src=\"/ckeditor_assets/pictures/78/content_inspiration-450x450-1.jpg\" style=\"height:175px;
+      width:175px\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/79/content_inspiration-450x450-2.jpg\"
+      style=\"height:175px; width:175px\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/80/content_inspiration-450x450-3.jpg\"
+      style=\"height:175px; width:175px\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/81/content_inspiration-450x450-6.jpg\"
+      style=\"height:175px; width:175px\" /></p>\r\n\r\n<h2><span style=\"color:rgb(39,
+      113, 183)\">Ідея символу</span></h2>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/135/content_frame1.png\"
+      /></p>\r\n\r\n<h2><span style=\"color:rgb(39, 113, 183)\">Логотип</span></h2>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/134/content_invest-logo-1.jpg\" /></p>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/136/content_frame3.png\" /></p>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/188/content_frame-10.jpg\" /></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h2><span
+      style=\"color:rgb(39, 113, 183)\">Фірмовий стиль</span></h2>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/137/content_frame4.png\" /></p>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/138/content_frame-6.jpg\" /></p>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/139/content_frame-5.jpg\" /></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h2><span
+      style=\"color:rgb(39, 113, 183)\">Рекламна продукція</span></h2>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/140/content_frame-7.jpg\" style=\"line-height:1.6\"
+      /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/189/content_frame-8.jpg\"
+      /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/190/content_frame-9.jpg\"
+      /></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n"
+    - 
+    - ''
+    - 
+    - ''
+    - 
+    - '2013-03-05'
+    - true
+    - "<p>05.04.2013</p>\r\n\r\n<p><strong><a href=\"http://invest-intelligence.com/\"
+      rel=\"nofollow\">www.invest-intelligence.com</a></strong></p>\r\n\r\n<p>We can
+      help you by providing innovative analytical software for the financial industry
+      that uses the power of applied behavioural science. Investment Intelligence
+      serves banks, asset management firms, hedge funds and fund-of-funds worldwide.</p>\r\n"
+    - ''
+    - "Розробити серйозний логотип та рекламні матеріали."
+    - 
+    - 
+    - 
+    - 
+    - Investment Intelligence
+    - portfolio-logo-investment-intellegence-3.jpg
+    - 
+    - 
+    - ''
+  - - 18
+    - "«РУСИН-О»"
+    - '2014-04-15 11:52:33.971680'
+    - '2015-04-14 11:30:12.472585'
+    - 1
+    - rusyn-o
+    - 9
+    - 
+    - 
+    - Rysun-o-portfolio-icon.jpg
+    - image/jpeg
+    - 74124
+    - '2015-04-14 11:30:11.889522'
+    - "<h2><span style=\"color:#a01925\">Натхнення</span></h2>\r\n\r\n<p>Тротуарна
+      плитка (Бруківка), містить в собі красоту і геометрію ліній.</p>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/86/content_rysun-o-nathnennja-1.jpg\"
+      style=\"height:175px; width:175px\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/87/content_rysun-o-nathnennja-2.jpg\"
+      style=\"height:175px; width:175px\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/88/content_rysun-o-nathnennja-5.jpg\"
+      style=\"height:175px; width:175px\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/89/content_rysun-o-nathnennja-7.jpg\"
+      style=\"height:175px; width:175px\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/109/content_rysun-o-nathnennja-4.jpg\"
+      style=\"height:175px; width:175px\" /></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h2><span
+      style=\"color:#a01925\">Логотип</span></h2>\r\n\r\n<p>Модифікація логотипу включала
+      в себе допрацювання букв в написі, наведення балансу між буквами та символом
+      і легку зміну кольору.</p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/97/content_rysun-o-logotup.jpg\"
+      /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/92/content_rysun-o-logotup-kresl.jpg\"
+      /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/98/content_rysun-o-bylo-stalo.jpg\"
+      /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/108/content_rysun-o-logo-prv.jpg\"
+      /></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h2><span style=\"color:#a01925\">Фірмовий
+      стиль</span></h2>\r\n\r\n<p>Всі елементи фірмового стилю &mdash; логотип та
+      його версії, кольори, шрифти і ділова документація &mdash; описані в короткому
+      посібнику по використанню фірмового стилю.</p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/94/content_rysun-o-bb-2.png\"
+      /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/95/content_rysun-o-bb-4.png\"
+      /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/96/content_rysun-o-bb-5.png\"
+      /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/99/content_rysun-o-bb-7.png\"
+      /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/100/content_rysun-o-ci-prv-2.png\"
+      /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/101/content_rysun-o-ci-prv.jpg\"
+      /></p>\r\n\r\n<h3><span style=\"color:#a01925\">Рекламний буклет</span></h3>\r\n\r\n<p>Ознайомитись
+      з історією компанії, послугами які вона надає, а саме головне &mdash; з повним
+      асортиментом продукції та її технічними характеристиками можна в рекламному
+      буклеті.</p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/102/content_rysun-o-katalog-1.jpg\"
+      /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/103/content_rysun-o-katalog-2.jpg\"
+      /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/104/content_rysun-o-katalog-3.jpg\"
+      /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/105/content_rysun-o-katalog-4.jpg\"
+      /></p>\r\n\r\n<h2><span style=\"color:#a01925\">Рекламний білборд 3х6м</span></h2>\r\n\r\n<p>Іміджевий
+      білборд, в основу якого лягла ідея: діти, як символ майбутнього, легко біжать
+      по життєвій дорозі вкладеній надійною плиткою Русин-О.</p>\r\n\r\n<p><img alt=\"\"
+      src=\"/ckeditor_assets/pictures/106/content_rysun-o-billboard-prv-1.jpg\" /></p>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/110/content_rysun-o-billboard-proccess-1.jpg\"
+      /></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h2><span style=\"color:#a01925\">Веб сайт</span></h2>\r\n\r\n<p>У
+      студії також був розроблений <a href=\"http://rusyn-o.lviv.ua/\"><span style=\"color:#a01925\">веб-сайт
+      для компанії &laquo;Русин-О&raquo;</span></a>.</p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/107/content_rysun-o-book.png\"
+      /></p>\r\n\r\n<p>&nbsp;</p>\r\n"
+    - 
+    - ''
+    - 
+    - ''
+    - 
+    - '2013-02-06'
+    - true
+    - "<p>06.02.2013</p>\r\n\r\n<p><strong><a href=\"http://rusyn-o.lviv.ua/\" rel=\"nofollow\">www.rusyn-o.lviv.ua</a></strong></p>\r\n\r\n<p>ОСНОВНИМ
+      НАПРЯМКОМ ДІЯЛЬНОСТІ Є ВИГОТОВЛЕННЯ ТА РЕАЛІЗАЦІЯ ВІБРОПРЕСОВАНИХ БЕТОННИХ ВИРОБІВ,
+      НАДАННЯ ПОСЛУГ З БЛАГОУСТРОЮ.</p>\r\n\r\n<p>У своїй роботі ми застосовуємо сучасне
+      обладнання та високоякісні матеріали. Прогресивні методи виробництва та висока
+      кваліфікація наших працівників дозволяють добиватися найвищих експлуатаційних
+      характеристик всіх видів продукції підприємства. Відповідність нашої продукції
+      високим стандартам надійності, зносостійкості, довговічності та естетичності
+      підтверджені дійсним сертифікатом відповідності.</p>\r\n"
+    - ''
+    - "Модифікувати логотип, розробити відповідний фірмовий стиль та рекламну продукцію."
+    - 
+    - 
+    - 
+    - 
+    - "«РУСИН-О»"
+    - Rysun-o-portfolio-icon.jpg
+    - 
+    - 
+    - ''
+  - - 19
+    - "«Валько»"
+    - '2014-04-15 15:50:20.873952'
+    - '2015-06-29 15:29:49.331355'
+    - 1
+    - valko-ua
+    - 
+    - 
+    - 
+    - Valko-portfolio-icon-1.jpg
+    - image/jpeg
+    - 54140
+    - '2015-04-14 11:30:12.640609'
+    - "<h2><span style=\"color:#0a9adb\">Натхнення</span></h2>\r\n\r\n<p>Бажаючи зробити
+      свою оселю комфортною, надійною та безпечною, кожен господар обирає якісний
+      товар для ремонту свого помешкання. Такий підхід найрозумніший і цілком виправдовує
+      очікування. Адже якість &ndash; це перш за все, довготривале користування.</p>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/111/content_valko-nathnennja-2.jpg\"
+      style=\"height:175px; width:175px\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/112/content_valko-nathnennja-1.jpg\"
+      style=\"height:175px; width:175px\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/113/content_valko-nathnennja-5.jpg\"
+      style=\"height:175px; width:175px\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/114/content_valko-nathnennja-4.jpg\"
+      style=\"height:175px; width:175px\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/115/content_valko-nathnennja-6.jpg\"
+      style=\"height:175px; width:175px\" /></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h2><span
+      style=\"color:#0a9adb\">Ідея символу</span></h2>\r\n\r\n<p>Символ у формі бджолиної
+      соти символізує структуру, будівництво. В середині розміщено стилізоване зображення
+      букви &laquo;В&raquo; &mdash; це перша буква в назві компанії.</p>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/116/content_valko-ideja-sumvola.png\"
+      /></p>\r\n\r\n<h2><span style=\"color:#0a9adb\">Логотип</span></h2>\r\n\r\n<p>Логотип
+      складається з символа та стилізованої шрифтової композиції (назва компанії).
+      При побудові логотипу для компанії &laquo;ВАЛЬКО&raquo; використовувалися математичні
+      розрахунки і композиційна сітка.&nbsp;</p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/129/content_valko-logotup-horisontal.jpg\"
+      /></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/117/content_valko-logotup.jpg\"
+      /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/118/content_valko-logotup-kresl.jpg\"
+      /></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h2><span style=\"color:#0a9adb\">Фірмовий
+      стиль</span></h2>\r\n\r\n<p>Всі елементи фірмового стилю &mdash; логотип та
+      його версії, кольори, шрифти і ділова документація &mdash; описані в короткому
+      посібнику по використанню фірмового стилю.</p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/119/content_bb-valko-prv-2.png\"
+      /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/120/content_bb-valko-prv-3.png\"
+      /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/121/content_bb-valko-prv-5.png\"
+      /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/122/content_bb-valko-prv-6.png\"
+      /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/123/content_bb-valko-prv-8.png\"
+      /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/124/content_bb-valko-prv-9.png\"
+      /></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/125/content_ci-valko-prv.png\"
+      /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/126/content_valko-v-jutti-2.jpg\"
+      /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/127/content_valko-v-jutti-3.jpg\"
+      /></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h2><span style=\"color:#0a9adb\">Що було
+      до нас?</span></h2>\r\n\r\n<p>Попередній логотип компанії &laquo;Валько&raquo;
+      був не тільки морально застарілим з точки зору графічного дизайну, а ще й не
+      передавав основні цінності компанії: якість, надійність, довговічність.</p>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/130/content_valko-bylo-stalo.jpg\"
+      /></p>\r\n\r\n<p>&nbsp;</p>\r\n"
+    - 
+    - ''
+    - 
+    - ''
+    - 
+    - '2013-11-28'
+    - true
+    - "<p>2013.11.28</p>\r\n\r\n<p><strong><a href=\"http://valko.ua/\" rel=\"nofollow\"><span
+      style=\"color:#0a9adb\">www.valko.ua</span></a></strong></p>\r\n\r\n<p>&laquo;Валько&raquo;
+      займається продажем металопластикових вікон фірми Deceuninck/Inoutic, внутрішнього
+      підвіконня торгових марок: Werzalit, Crystalit, Holzdorf, OpenTeck та зовнішнього
+      підвіконня (алюмінієвого, сталевого &ndash; різних кольорів у тому ж числі &laquo;золотий
+      дуб&raquo;, а також пластикового), вхідних броньованих дверей, профнастилу та
+      москітних сіток.</p>\r\n\r\n<p>Завантажити:</p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/133/content_1397598448_647710-pdf.png\"
+      style=\"height:16px; width:16px\" />&nbsp;&nbsp;<a href=\"/ckeditor_assets/attachments/131/valko-logo-prv-22_11_2013.pdf\"><span
+      style=\"color:#0a9adb\">Презентація для замовника</span></a></p>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/133/content_1397598448_647710-pdf.png\"
+      style=\"color:rgb(10, 154, 219); height:16px; width:16px\" />&nbsp;&nbsp;<a
+      href=\"/ckeditor_assets/attachments/132/valko-bb-pr.pdf\"><span style=\"color:#0a9adb\">Посібник
+      по використанню фірмового стилю</span></a></p>\r\n"
+    - ''
+    - "Розробити логотип та фірмовий стиль відповідний до масштабу компанії та якості
+      їх продукції і послуг."
+    - 
+    - 
+    - 
+    - 
+    - "«Валько»"
+    - Valko-portfolio-icon-1.jpg
+    - 
+    - 
+    - ''
+  - - 20
+    - "«G3K» — Ігри нового покоління!"
+    - '2014-04-15 17:45:10.207525'
+    - '2015-04-14 11:30:14.057342'
+    - 1
+    - games3k
+    - 
+    - 
+    - 
+    - G3K-portfolio-con.jpg
+    - image/jpeg
+    - 32174
+    - '2015-04-14 11:30:13.428979'
+    - "<h2><span style=\"color:#f36b22\">Натхнення</span></h2>\r\n\r\n<p>На збірний
+      образ для логотипу по-впливали яскраві образи сучасних іграшок, ідея геометричної
+      пластики трансформерів, а також квадратних граней кубика Рубіка.</p>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/141/content_g3k-nathnennja-7.jpg\"
+      style=\"height:200px; width:200px\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/142/content_g3k-nathnennja-3.jpg\"
+      style=\"height:200px; width:200px\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/143/content_g3k-nathnennja-4.jpg\"
+      style=\"height:200px; width:200px\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/157/content_g3k-nathnennja-5.jpg\"
+      style=\"height:200px; width:200px\" /></p>\r\n\r\n<h2><span style=\"color:rgb(243,
+      107, 34)\">Ідея логотипу</span></h2>\r\n\r\n<p>Скорочена назва компанії (абревіатура)
+      побудована з геометричних примітивів та доповнена деталями таким чином, щоб
+      сформувати стрілку на контр-просторі, яка символізує рух вперед. Адже діти та
+      підлітки, вчаться і розвиваються граючись!</p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/144/content_g3k-ideja-sumvola.png\"
+      /></p>\r\n\r\n<h2><span style=\"color:rgb(243, 107, 34)\">Логотип</span></h2>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/158/content_g3k-logotup-2.jpg\" /></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/145/content_g3k-logotup.jpg\" /></p>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/146/content_g3k-logotup-kresl-1.jpg\"
+      /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/147/content_g3k-logotup-kresl-2.jpg\"
+      /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/148/content_g3k-logotup-versii.jpg\"
+      /></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h2><span style=\"color:rgb(243, 107, 34)\">Фірмовий
+      стиль</span></h2>\r\n\r\n<p>Різноманітні версії логотипу, фірмові кольори, паттерни
+      та уся акцидентна продукція детально описана у посібнику (бренд-буці) по фірмовому
+      стилю.</p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/149/content_bb-10-11.png\"
+      /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/150/content_bb-14-15.png\"
+      /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/151/content_bb-16-17.png\"
+      /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/152/content_bb-18-19.png\"
+      /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/153/content_bb-20-21.png\"
+      /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/154/content_bb-28-29.png\"
+      /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/155/content_bb-30-31.png\"
+      /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/156/content_ci-g3k-prv.jpg\"
+      /></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h2><span style=\"color:rgb(243, 107, 34)\">Інтернет
+      магазин компанії</span></h2>\r\n\r\n<p>Для хорошого товару потрібний хороший
+      інтернет магазин. У студії було розроблено інтернет магазин з лаконічним інтерфейсом
+      і зручною корзиною для замовлення та доставки товару. А сам сайт має адаптивний
+      дизайн та верстку(Responsive Design), що дозволяє зручно користуватись ним з
+      мобільних та планшетів.</p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/159/content_g3k-book-prv.png\"
+      /></p>\r\n"
+    - 
+    - ''
+    - 
+    - ''
+    - 
+    - '2013-09-04'
+    - true
+    - "<p>2013.09.04</p>\r\n\r\n<p><strong><a href=\"http://games3k.com.ua/\" rel=\"nofollow\"><span
+      style=\"color:#ff6600\">www.games3k.com.ua</span></a></strong></p>\r\n\r\n<p>G3K
+      &mdash; це молода та цілеспрямована команда, яка прагне, щоб українські діти
+      розвивалися духовно та інтелектуально. Саме тому вони перші в Україні уклали
+      ексклюзивний контракт на ввезення та продаж всесвітньо відомої іграшки Кубик
+      Рубіка. Винайдена в 1974 році угорським інженером ця головоломка і досі залишається
+      лідером продажів у світі.</p>\r\n\r\n<p>Завантажити:</p>\r\n\r\n<p><img alt=\"\"
+      src=\"/ckeditor_assets/pictures/133/content_1397598448_647710-pdf.png\" style=\"color:rgb(10,
+      154, 219); height:16px; width:16px\" />&nbsp;&nbsp;<a href=\"/ckeditor_assets/attachments/160/g3k-bb-3_06_2013-prv.pdf\"><span
+      style=\"color:#ff9900\">Посібник по використанню фірмового стилю</span></a></p>\r\n"
+    - ''
+    - "Придумати назву, створити логотип, фірмовий стиль та інтернет магазин. "
+    - 
+    - 
+    - 
+    - 
+    - "«G3K» - Игры нового поколения!"
+    - G3K-portfolio-con.jpg
+    - 
+    - 
+    - ''
+  - - 21
+    - "Червоноградський завод металоконструкцій"
+    - '2014-04-17 09:31:15.307536'
+    - '2015-04-14 11:30:14.852357'
+    - 1
+    - czmk
+    - 
+    - 
+    - 
+    - portfolio-logo-czmk-1.jpg
+    - image/jpeg
+    - 95814
+    - '2015-04-14 11:30:14.225921'
+    - "<h2><span style=\"color:#cc0000\">Натхнення</span></h2>\r\n\r\n<p><img alt=\"\"
+      src=\"/ckeditor_assets/pictures/161/content_nathnennja-1.jpg\" style=\"height:175px;
+      width:175px\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/162/content_nathnennja-4.jpg\"
+      style=\"height:175px; width:175px\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/163/content_nathnennja-5.jpg\"
+      style=\"height:175px; width:175px\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/164/content_nathnennja-6.jpg\"
+      style=\"height:175px; width:175px\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/165/content_nathnennja-7.jpg\"
+      style=\"height:175px; width:175px\" /></p>\r\n\r\n<h2><span style=\"color:rgb(204,
+      0, 0)\">Ідея символу</span></h2>\r\n\r\n<p>В основу символу лягла типова форма
+      металоконструкції, яка символізує міцність, надійність та довговічність.</p>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/166/content_ideja-sumvola-2.png\" /></p>\r\n\r\n<h2><span
+      style=\"color:#cc0000\">Логотип</span></h2>\r\n\r\n<p>Логотип Червоноградського
+      Заводу Металоконструкцій складається з символу та шрифтової компоненти. Букви
+      в шрифтовому написі намальовані вручну з урахуванням пластики ліній символу.
+      А сам символ накреслений по математичним пропорціям.</p>\r\n\r\n<p><img alt=\"\"
+      src=\"/ckeditor_assets/pictures/214/content_logotup-1.jpg\" /></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/168/content_logotup-kresl.jpg\" /></p>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/169/content_logotup-variantu.jpg\"
+      /></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/215/content_mockup-logo-1.jpg\"
+      /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/216/content_mockup-logo-2.jpg\"
+      /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/217/content_mockup-logo-3.jpg\"
+      /></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h2><span style=\"color:#cc0000\">Фірмовий
+      стиль</span></h2>\r\n\r\n<p>В студії розробили відповідний до логотипу фірмовий
+      стиль ЧЗМК. Усі елементи якого &mdash; логотип, фірмові кольори, паттерни та
+      акцидентна продукція &mdash; описані в короткому посібнику по використанню фірмового
+      стилю.</p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/170/content_bb-czmk-prv-1.png\"
+      /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/171/content_bb-czmk-prv-3.png\"
+      /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/172/content_bb-czmk-prv-4.png\"
+      /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/173/content_bb-czmk-prv-7.png\"
+      /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/174/content_bb-czmk-prv-8.png\"
+      /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/175/content_bb-czmk-prv-9.png\"
+      /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/176/content_ci-czmk-prv-3.png\"
+      /></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h2><span style=\"color:#cc0000\">Презентаційний
+      каталог</span></h2>\r\n\r\n<p>Основна задача презентаційного каталогу привернути
+      до себе увагу та зацікавити потенційного клієнта на виставках та презентаціях.
+      Для цього обкладинку каталогу було надруковано з використанням матової ламінації,
+      вибіркового лакування та висічки. Для підкреслення масштабності металоконструкцій
+      в каталозі розміщено багато розворотних фотографій. А тонування фотографій у
+      &laquo;теплий чб&raquo; стало фірмовою фішкою корпоративного стилю ЧЗМК.</p>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/221/content_czmk-booklet-1.jpg\" /></p>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/223/content_czmk-booklet-2.jpg\" /></p>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/225/content_czmk-booklet-3.jpg\" /></p>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/226/content_czmk-booklet-4.jpg\" /></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h2><span
+      style=\"color:#cc0000\">Технічний каталог</span></h2>\r\n\r\n<p>Технічний каталог
+      призначений для спеціалістів. В ньому розміщена технічна інформація про металоконструкції
+      та решітоковий настіл, а також усі необхідні креслення. Креслення відмальовані
+      в студії з врахуванням креслярських вимог та стилізовані під фірмовий стиль
+      ЧЗМК.</p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/177/content_ci-czmk-katalog-obk-prv.jpg\"
+      /></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/218/content_2.png\"
+      /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/219/content_0.png\"
+      /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/220/content_1.png\"
+      /></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h2><span style=\"color:#cc0000\">Веб сайт
+      ЧЗМК</span></h2>\r\n\r\n<p>В студії також розроблений корпоративний веб сайт
+      для заводу</p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/181/content_macbookair-prv.jpg\"
+      /></p>\r\n\r\n<p>&nbsp;</p>\r\n"
+    - 
+    - ''
+    - 
+    - ''
+    - 
+    - '2013-01-24'
+    - true
+    - "<p>2013.01.24</p>\r\n\r\n<p><strong><a href=\"http://cgzmk.com.ua/\" rel=\"nofollow\"><span
+      style=\"color:#cc0000\">www.cgzmk.com.ua</span></a></strong></p>\r\n\r\n<p>ВАТ
+      &laquo;Червоноградський завод металоконструкцій&raquo; спеціалізується не тільки
+      на виготовленні, але й на професійному та швидкому монтажу металевих конструкцій
+      різного призначення. Частиною команди нашого підприємства є бригада професійних
+      монтажників, які мають великий досвід роботи, а тому за короткий термін можуть
+      здійснити монтаж металевих конструкцій будь-якої складності.</p>\r\n"
+    - ''
+    - "Розробити логотип, фірмовий стиль і рекламну продукцію для заводу металоконструкцій"
+    - 
+    - 
+    - 
+    - 
+    - Chervonogradsky fabricated metals
+    - portfolio-logo-czmk-1.jpg
+    - 
+    - 
+    - ''
+  - - 22
+    - "Серце Львівських Квартир"
+    - '2014-04-17 11:57:03.681644'
+    - '2016-11-24 15:42:51.822788'
+    - 3
+    - lviv-heart
+    - 
+    - 
+    - 
+    - portfolio-logo-hola-1.png
+    - image/png
+    - 40081
+    - '2015-04-14 11:30:15.032850'
+    - "<h2>Веб сайт</h2>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/210/content_portfolio-web-banner-hola-3c.png\"
+      style=\"font-size:13px; line-height:1.6\" /></p>\r\n\r\n<p>Сайт &laquo;Серце
+      квартир Львова&raquo; орієнтований на туристів та гостей міста. Основна його
+      задача допомогти в швидкому пошуку вільних квартир для подобової або короткотривалої
+      оренди.</p>\r\n\r\n<p>Дизайн та верстка сайту розроблені по технології адаптивного
+      дизайну (responsive design) і працюють максимально зручно як на десктопах, так
+      і на планшетах та мобільних пристроях.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>Головна
+      сторінка сайту зустрічає її відвідувачів великим рекламним банером з топовими
+      квартирами, формою швидкого підбору необхідної квартири та рекомендаціями від
+      адміністрації з вільних зараз квартир. В нижній частині головної сторінки є
+      декілька статей та відео з корисними порадами для подорожувальників.</p>\r\n\r\n<p><img
+      alt=\"Головна сторінка сайту з технологією адаптивного дизайну\" src=\"/ckeditor_assets/pictures/211/content_web-hola-main-1.jpg\"
+      /></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>Сторінка пошуку дозволяє обрати необхідний
+      район, кількість кімнат та ціновий діапазон помешкання. Результати пошуку одразу
+      видимі на мапі Гугл.</p>\r\n\r\n<p><img alt=\"Сторінка зручного пошуку квартир
+      у м.Львові для оренди\" src=\"/ckeditor_assets/pictures/212/content_web-hola-search-1.jpg\"
+      /></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>Сторінка одного помешкання дозволяє ознайомитись
+      з переліком опцій та обладнання даного помешкання. Можна переглянути фотографії
+      квартири, а також почитати відгуки людей, які вже користувались даним помешканням.</p>\r\n\r\n<p><img
+      alt=\"Сторінка з інформацією про орендовану квартиру у м. Львові\" src=\"/ckeditor_assets/pictures/213/content_web-hola-one-room-1.jpg\"
+      /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/233/content_coffe-in-lviv.jpg\"
+      /></p>\r\n\r\n<p><span style=\"color:#8B4513\"><span style=\"font-size:20px\">Будучи
+      у Львові обов&#39;язково скоштуйте найсмачнішої кави в Україні. ;)</span></span></p>\r\n\r\n<p>&nbsp;</p>\r\n"
+    - 
+    - ''
+    - 
+    - ''
+    - 
+    - '2014-03-06'
+    - true
+    - "<p>2014.04.06</p>\r\n\r\n<p><strong><a href=\"http://lviv-apartments.net\"
+      rel=\"nofollow\">www.lviv-apartments.net</a></strong></p>\r\n\r\n<p>&laquo;The
+      Heart of Lviv Apartments &mdash; це мережа, що об&rsquo;єднує апартаменти і
+      квартири у найкращих локаціях Львова за відмінною ціною. Більшість наших квартир
+      зосереджена у самісінькому серці Львова &mdash; безпосередньо або неподалік
+      від центральної площі - площі Ринок. Втім, пропозиції знайдуться і для тих,
+      хто шукає недорогий нічліг неподалік залізничного вокзалу.</p>\r\n"
+    - ''
+    - "Розробити зручний веб сайт для туристів, які бажають орендувати квартиру на
+      короткий час."
+    - 
+    - 
+    - 
+    - 
+    - Heart of Lviv apartments
+    - portfolio-logo-hola-1.png
+    - 
+    - 
+    - ''
+  - - 23
+    - BNB Paintball
+    - '2014-04-19 15:48:00.254061'
+    - '2015-04-14 11:30:16.066474'
+    - 3
+    - bnb-paintball
+    - 
+    - 
+    - 
+    - portfolio-logo-bnb-paintball-1.jpg
+    - image/jpeg
+    - 68106
+    - '2015-04-14 11:30:15.489411'
+    - "<h2>Веб сайт</h2>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/227/content_bnb-paintball-responsive-1.png\"
+      style=\"line-height:1.6\" /></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>Спортивно-відпочинковий
+      комплекс &ldquo;BNB&rdquo; &ndash; пропонує найкращі площадки для гри у пейнтбол
+      розраховані не лише на дорослих, але і на дітей віком від 6 років, а також у
+      нас широкий асортимент обладнання для прокату: маркери, маски, камуфляжні костюми,
+      стволи, харнеси, туби. Площадки оснащені палатками, де Ви можете комфортно підготуватися
+      до гри. Ми також надаємо в оренду мангал, для незабутнього відпочинку Вашої
+      компанії.</p>\r\n\r\n<p>Головна сторінка допомагає ознайомити відвідувача з
+      можливостями та послугами комплексу, а також дає можливість швидкого замовлення
+      гри.</p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/228/content_bnb-main-studio-web-browser-frame-1.jpg\"
+      /></p>\r\n\r\n<p>Сторінка з Площадками досить детально описує які є площадки
+      в комплексі, їх розміри, ТТХ та можливості гри на них.&nbsp;</p>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/229/content_bnb-teritorry-studio-web-browser-frame-1.jpg\"
+      /></p>\r\n\r\n<p>На сторінці з Акціями завжди можна знайти цікаві пропозиції
+      та акційні знижки чи заходи.&nbsp;</p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/230/content_bnb-special-offers-studio-web-browser-frame-1.jpg\"
+      /></p>\r\n\r\n<p>Сторінка Про нас &nbsp;детально ознайомить відвідувача з самим
+      комплексом та з пейнтболом, як грою та видом активного відпочинку.&nbsp;</p>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/231/content_bnb-about-us-studio-web-browser-frame-1.jpg\"
+      /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/232/content_img_0056f.jpg\"
+      /></p>\r\n\r\n<p><span style=\"color:#d00501\"><span style=\"font-size:24px\">Не
+      забудьте одягти маску перед грою! ;)</span></span></p>\r\n"
+    - 
+    - ''
+    - 
+    - ''
+    - 
+    - '2014-04-01'
+    - true
+    - "<p>2014.04.01</p>\r\n\r\n<p><a href=\"http://bnbpaintball.com\" rel=\"nofollow\"><span
+      style=\"color:#d00501\"><strong>www.bnbpaintball.com</strong></span></a></p>\r\n\r\n<p>Спортивно-відпочинковий
+      комплекс &ldquo;BNB&rdquo; організовує та проводить пейнтбольні ігри, спортивні
+      та тактичні турніри, корпоративи, дні народження як на власних площадках так
+      і на локаціях замовника.</p>\r\n"
+    - ''
+    - "Розробити презентаційний веб-сайт для найбільшого пейнтбольного комплексу в
+      західній Україні."
+    - 
+    - 
+    - 
+    - 
+    - BNB Paintball
+    - portfolio-logo-bnb-paintball-1.jpg
+    - 
+    - 
+    - ''
+  - - 24
+    - BNB Paintball CI
+    - '2014-04-23 13:01:33.022982'
+    - '2015-04-14 11:30:16.819261'
+    - 1
+    - bnbpaintball
+    - 
+    - 
+    - 
+    - portfolio-logo-bnbci-1.jpg
+    - image/jpeg
+    - 58717
+    - '2015-04-14 11:30:16.222037'
+    - "<h2><span style=\"color:#cc0000\">Натхнення</span></h2>\r\n\r\n<p>Натхненням
+      для розробки логотипу стали яскраві образи гравців у пейнтбол, а також логотипи
+      виробників пейнтбольного обладнання світового рівня.</p>\r\n\r\n<p><img alt=\"\"
+      src=\"/ckeditor_assets/pictures/234/content_bnb-nathnennja-1.jpg\" style=\"height:175px;
+      width:175px\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/235/content_bnb-nathnennja-3.jpg\"
+      style=\"height:175px; width:175px\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/236/content_bnb-nathnennja-4.jpg\"
+      style=\"height:175px; width:175px\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/237/content_bnb-nathnennja-5.jpg\"
+      style=\"height:175px; width:175px\" /></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h2><span
+      style=\"color:rgb(204, 0, 0)\">Логотип</span></h2>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/238/content_bnb-logotup.jpg\"
+      /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/239/content_bnb-logotup-kresl.jpg\"
+      /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/240/content_bnb-logotup-versii-2.jpg\"
+      /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/241/content_bnb-mockup-logo-2.jpg\"
+      /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/242/content_bnb-mockup-logo-1.jpg\"
+      /></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h1><span style=\"color:rgb(204, 0, 0)\">Фірмовий
+      стиль</span></h1>\r\n\r\n<p>Всі елементи фірмового стилю &mdash; логотип та
+      його версії, кольори, шрифти і ділова документація &mdash; описані в короткому
+      посібнику по використанню фірмового стилю.</p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/243/content_bb-bnb-prv-1.png\"
+      /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/244/content_bb-bnb-prv-2.png\"
+      /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/245/content_bb-bnb-prv-3.png\"
+      /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/246/content_bb-bnb-prv-4.png\"
+      /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/247/content_bb-bnb-prv-5.png\"
+      /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/248/content_bb-bnb-prv-7.png\"
+      /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/249/content_bb-bnb-prv-8.png\"
+      /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/254/content_bnb-prv-3.jpg\"
+      /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/253/content_bnb-viz-3.jpg\"
+      /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/252/content_ci-bnb-prv.png\"
+      /></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h2><span style=\"color:rgb(204, 0, 0)\">Веб-сайт
+      комплексу</span></h2>\r\n\r\n<p>Для BNB у студії був розроблений презентаційний
+      веб-сайт з адаптивним дизайном та версткою.</p>\r\n\r\n<p><a href=\"http://new.voroninstudio.eu/portfolio/web/bnb-paintball\"><span
+      style=\"color:rgb(204, 0, 0)\">Переглянути.</span></a></p>\r\n\r\n<p><img alt=\"\"
+      src=\"/ckeditor_assets/pictures/255/content_bnb-book.png\" /></p>\r\n"
+    - 
+    - ''
+    - 
+    - ''
+    - 
+    - '2014-01-08'
+    - true
+    - "<p>2014.04.01</p>\r\n\r\n<p><a href=\"http://bnbpaintball.com\" rel=\"nofollow\"><span
+      style=\"color:#d00501\"><strong>www.bnbpaintball.com</strong></span></a></p>\r\n\r\n<p>Спортивно-відпочинковий
+      комплекс &ldquo;BNB paintball&rdquo; організовує та проводить пейнтбольні ігри,
+      спортивні та тактичні турніри, корпоративи, дні народження як на власних площадках
+      так і на локаціях замовника.</p>\r\n"
+    - ''
+    - "Розробити логотип та фірмовий стиль для найбільшого пейнтбольного комплексу
+      у Західному регіоні."
+    - 
+    - 
+    - 
+    - 
+    - BNB Paintball CI
+    - portfolio-logo-bnbci-1.jpg
+    - 
+    - 
+    - ''
+  - - 25
+    - 'Tricky FOX '
+    - '2014-04-25 14:12:08.883058'
+    - '2015-04-14 11:30:17.598203'
+    - 1
+    - trickyfox
+    - 
+    - 
+    - 
+    - Fox-portfolio-icon.jpg
+    - image/jpeg
+    - 90850
+    - '2015-04-14 11:30:16.997137'
+    - "<h2><span style=\"color:#ca3b27\">Натхнення</span></h2>\r\n\r\n<p>Мордочка
+      хитрої лисиці, гральні кості та образи настільних ігор вселили величезний запал
+      енергії в майбутній образ.</p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/256/content_fox-nathnennja-1.jpg\"
+      style=\"height:175px; width:175px\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/257/content_fox-nathnennja-3.jpg\"
+      style=\"height:175px; width:175px\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/258/content_fox-nathnennja-6.jpg\"
+      style=\"height:175px; width:175px\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/259/content_fox-nathnennja-5.jpg\"
+      style=\"height:175px; line-height:1.6; width:175px\" /></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h2><span
+      style=\"color:#ca3b27\">Ідея символу</span></h2>\r\n\r\n<p>Назва компанії влучно
+      підкреслювалась образом хитрої (Tricky) лисиці (Fox), а її мультяшні прообрази
+      надихнули нас на створення мультяшної мордочки лисиці та намальованого вручну
+      шрифтового напису у відповідній стилістиці.</p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/260/content_fox-ideja-sumvola.jpg\"
+      /></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h2><span style=\"color:#ca3b27\">Логотип</span></h2>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/261/content_fox-logo-main.jpg\" /></p>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/262/content_fox-logo-versii.jpg\" /></p>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/263/content_fox-proces-prv-1.jpg\"
+      /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/264/content_fox-logo-prv.jpg\"
+      /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/265/content_fox-logo-prv-3.jpg\"
+      /></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h2><span style=\"color:#ca3b27\">Фірмовий
+      стиль</span></h2>\r\n\r\n<p>Візитки, карти постійного клієнта зі знижками та
+      подарункові сертифікати &mdash; всі необхідні елементи для успішного магазину
+      були розроблені у студії з використанням яскравих фірмових кольорів та мордочки
+      хитрої лисички для максимальної впізнаванності та виділення серед конкурентів.</p>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/267/content_fox-ci-prv-2.png\" /></p>\r\n\r\n<h2><span
+      style=\"color:#ca3b27\">Було до нас</span></h2>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/268/content_fox-do-pislja-prv.jpg\"
+      /></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n"
+    - 
+    - ''
+    - 
+    - ''
+    - 
+    - '2013-06-05'
+    - true
+    - "<p>2012</p>\r\n\r\n<p><strong><a href=\"http://trickyfox.ru/\" rel=\"nofollow\"><span
+      style=\"color:#ff6600\">www.trickyfox.ru</span></a></strong></p>\r\n\r\n<p>TrickyFox.ru
+      &mdash; це домашній інтернет магазин настільних ігор для всієї родини з індивідуальним
+      підходом до кожного. Їх стихія &mdash; це кращі настільні ігри з усього світу
+      для дорослих і дітей.</p>\r\n"
+    - ''
+    - "Розробити логотип, фірмовий стиль та рекламну продукцію."
+    - 
+    - 
+    - 
+    - 
+    - 'Tricky FOX '
+    - Fox-portfolio-icon.jpg
+    - 
+    - 
+    - ''
+  - - 26
+    - "Червоноградський завод металоконструкцій"
+    - '2014-05-17 11:41:59.433982'
+    - '2015-04-14 11:30:18.334171'
+    - 3
+    - czmk-web-site
+    - 
+    - 
+    - 
+    - portfolio-logo-czmk-1.jpg
+    - image/jpeg
+    - 58248
+    - '2015-04-14 11:30:17.756287'
+    - "<h2>Веб сайт</h2>\r\n\r\n<p><img alt=\"Адаптивний дизайн (Responsive design)
+      сайту ЧЗМК\" src=\"/ckeditor_assets/pictures/295/content_czmk-main-responsive-1.jpg\"
+      /></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>Головна сторінка сайту демонструє масштаб
+      об&#39;єктів за допомогою банерів на усю ширину екрану. Три основні напрямки
+      роботи заводу акуратно подані в блоках з добре видимими заголовками та спеціально
+      розробленими в студії іконками.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><img alt=\"\"
+      src=\"/ckeditor_assets/pictures/290/content_czmk-main-studio-web-browser-frame-1.png\"
+      /></p>\r\n\r\n<p>Основним видам робіт заводу присвячені відповідні розділи,
+      де тексти та ілюстрації ви-верстані у журнальному стилі для легшого сприйняття
+      та кращої розстановки акцентів.</p>\r\n\r\n<p><img alt=\"Дизайн сторінки веб
+      сайту про монтаж металоконструкцій\" src=\"/ckeditor_assets/pictures/291/content_czmk-metaloconstractions-studio-web-browser-frame-1.png\"
+      /></p>\r\n\r\n<p>Спеціально для сайту у студії були намальовані креслення виробів
+      ЧЗМК, які гармонійно вписались в загальний дизайн та журнальну верстку.</p>\r\n\r\n<p><img
+      alt=\"Дизайн сторінки веб сайту Решітчатий настил.\" src=\"/ckeditor_assets/pictures/292/content_czmk-stairs-studio-web-browser-frame-1.png\"
+      /></p>\r\n\r\n<p>Цікавим тематичним публікаціям про металоконструкції та решітковий
+      настіл присвячений окремий розділ. А самі видатні розміщені в блоці &quot;найкращих
+      статей&quot;.</p>\r\n\r\n<p><img alt=\"Дизайн сторінки публікацій (статей) для
+      сайту ЧЗМК.\" src=\"/ckeditor_assets/pictures/293/content_czmk-publication-studio-web-browser-frame-1.png\"
+      /></p>\r\n\r\n<p>При розробці сайту не були забуті і системні сторінки, на кшталт
+      404, карти сайту та правил користування сайтом.</p>\r\n\r\n<p><img alt=\"Дизайн
+      сторінки 404 - сторінку не знайдено (Error page 404). \" src=\"/ckeditor_assets/pictures/294/content_czmk-404-studio-web-browser-frame-1.png\"
+      /></p>\r\n\r\n<p>&nbsp;</p>\r\n"
+    - 
+    - ''
+    - 
+    - ''
+    - 
+    - '2014-03-06'
+    - true
+    - "<p>2014.03.06</p>\r\n\r\n<p><strong><a href=\"http://www.cgzmk.com.ua/\" rel=\"nofollow\"><span
+      style=\"color:#ee2347\">www.cgzmk.com.ua</span></a></strong></p>\r\n\r\n<p>ВАТ
+      &laquo;Червоноградський завод металоконструкцій&raquo; спеціалізується не тільки
+      на виготовленні будматеріалів, але й на професійному та швидкому монтажу металевих
+      конструкцій різного призначення. Частиною команди нашого підприємства є бригада
+      професійних монтажників, які мають великий досвід роботи, а тому за короткий
+      термін можуть здійснити монтаж металевих конструкцій будь-якої складності.</p>\r\n"
+    - ''
+    - "За допомогою веб сайту ознайомити потенційних замовників з можливостями та
+      масштабом робіт заводу."
+    - 
+    - 
+    - 
+    - 
+    - Chervonogradsky fabricated metals
+    - portfolio-logo-czmk-1.jpg
+    - 
+    - 
+    - ''
+  - - 27
+    - Gav
+    - '2014-05-20 14:32:41.594128'
+    - '2015-04-14 11:30:19.108987'
+    - 2
+    - gav-the-dog-food
+    - 
+    - 
+    - 
+    - portfolio-package-gav-1.jpg
+    - image/jpeg
+    - 112264
+    - '2015-04-14 11:30:18.505913'
+    - "<h2>Упаковка</h2>\r\n\r\n<p><img alt=\"Лінійка упаковок собачого корму для
+      ТМ ГАВ!\" src=\"/ckeditor_assets/pictures/296/content_gav-zagal-prv.jpg\" /></p>\r\n\r\n<p><img
+      alt=\"Редизайн логотипу ТМ ГАВ!\" src=\"/ckeditor_assets/pictures/297/content_gav-logotup.jpg\"
+      /></p>\r\n\r\n<p><img alt=\"Розробка кольорової сегментації продукції ТМ ГАВ!\"
+      src=\"/ckeditor_assets/pictures/298/content_gav-kolor.jpg\" /></p>\r\n\r\n<p><img
+      alt=\"Розробка упаковки собачого корму для ТМ ГАВ!\" src=\"/ckeditor_assets/pictures/323/content_gav-packaging-asorti-500gr.jpg\"
+      /></p>\r\n\r\n<p><img alt=\"15-ти кілограмові мішки з кормом для собак ГАВ!\"
+      src=\"/ckeditor_assets/pictures/324/content_gav-packaging-asorti-15kg.jpg\"
+      /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/325/content_gav-asorti-il.jpg\"
+      /></p>\r\n\r\n<p>&nbsp;</p>\r\n"
+    - 
+    - ''
+    - 
+    - ''
+    - 
+    - '2012-08-08'
+    - true
+    - "<p>2012</p>\r\n\r\n<p><strong><a href=\"http://kormotech.com/\" rel=\"nofollow\">www.kormotech.com</a></strong></p>\r\n\r\n<p>ТМ
+      &laquo;Гав!&raquo; входить в трійку лідерів українського ринку стандарт. ТМ
+      заснована в 2004 році. &laquo;Гав!&raquo; &ndash; оптимальний набір білків,
+      жирів та вуглеводів у поєднанні з необхідними вітамінами та мінералами.</p>\r\n"
+    - ''
+    - "Вдосконалити упаковку для собачого корму ГАВ!"
+    - 
+    - 
+    - 
+    - 
+    - Gav
+    - portfolio-package-gav-1.jpg
+    - 
+    - 
+    - ''
+  - - 28
+    - Oleoleo
+    - '2014-05-24 17:16:49.555822'
+    - '2016-11-24 15:45:51.130765'
+    - 1
+    - oleoleo
+    - 
+    - 
+    - 
+    - portfolio-logo-oleoleo-2.jpg
+    - image/jpeg
+    - 55063
+    - '2015-04-14 11:30:19.251654'
+    - "<h2><span style=\"color:#0b958f\">Натхнення</span></h2>\r\n\r\n<p>Натхненням
+      для символу стали образи візуалізації цифрових технологій в поєднанні з виглядом
+      сучасного крутого робочого місця та містикою SEO маніпуляцій.</p>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/301/content_oleoleo-nathnennja3.jpg\"
+      style=\"height:175px; width:175px\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/302/content_oleoleo-nathnennja2.jpg\"
+      style=\"height:175px; width:175px\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/303/content_oleoleo-nathnennja1.jpg\"
+      style=\"height:175px; width:175px\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/304/content_oleoleo-nathnennja4.jpg\"
+      style=\"height:175px; width:175px\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/305/content_oleoleo-nathnennja5.jpg\"
+      style=\"height:175px; width:175px\" /></p>\r\n\r\n<h2><span style=\"color:#0b958f\">Ідея
+      симоволу</span></h2>\r\n\r\n<p>В результаті ретельного відбору зупинились на
+      самих основних речах: Лупа &mdash; як символ пошуку та букви &quot;О&quot; з
+      назви компанії з вторинним сенсом &laquo;коло пошуку&raquo;, а їх скорочення
+      показує нам процес оптимізації пошуку.</p>\r\n\r\n<p><img alt=\"Ідея для логотипу
+      Олеолео\" src=\"/ckeditor_assets/pictures/306/content_logo3.png\" /></p>\r\n\r\n<h2><span
+      style=\"color:#0b958f\">Логотип</span></h2>\r\n\r\n<p>Логотип компанії складається
+      з символу, побудованого по математичним пропорціям та шрифтового надпису, в
+      якому кожна буква написана вручну дизайнером студії.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/307/content_logo.png\" /></p>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/308/content_oleoleo-logotup.jpg\" /></p>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/309/content_oleoleo-logotup3.jpg\"
+      /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/311/content_oleol-logo-preview-2.jpg\"
+      /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/312/content_portfolio-logo-oleoleo-3.jpg\"
+      /></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h2><span style=\"color:#0b958f\">Фірмовий
+      стиль</span></h2>\r\n\r\n<p>Всі елементи фірмового стилю &mdash; логотип та
+      його версії, кольори, шрифти і ділова документація &mdash; описані в короткому
+      посібнику по використанню фірмового стилю.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/313/content_oleoleo-brand-book-logo.png\"
+      /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/314/content_oleoleo-brand-book-logo-versions.png\"
+      /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/315/content_oleoleo-brand-book-colors.png\"
+      /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/316/content_oleoleo-brand-book-ci.png\"
+      /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/318/content_oleo-leo-ci-elements.png\"
+      /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/317/content_oleoleo-corporate-identity-mockup.jpg\"
+      /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/319/content_oleleo-ci-visitcard.jpg\"
+      /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/320/content_oleoleo-ci-prv-2.jpg\"
+      /></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h2>&nbsp;</h2>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n"
+    - 
+    - ''
+    - 
+    - ''
+    - 
+    - '2014-02-14'
+    - true
+    - "<p>2014.02.14</p>\r\n\r\n<p><strong><a href=\"http://oleoleo.ru/\" rel=\"nofollow\"><span
+      style=\"color:#1aa29c\">www.oleoleo.ru</span></a></strong></p>\r\n\r\n<p>На
+      ринку інтернет-агентств з&#39;явилися нові менеджери &mdash; це не менеджери
+      з продажу або менеджери з ведення проектів або контент менеджери, кожен з яких
+      працює в своїй ніші. Це реально керуючий проекту по збільшенню продажів клієнта.
+      Такий менеджер дійсно розбирається і в СЕО і в юзабіліті, трохи в програмуванні,
+      багато в контекстній рекламі, ще трохи в SMM, в управлінні репутацією в інтернет
+      і ще де в чому.</p>\r\n\r\n<p>Завантажити:</p>\r\n\r\n<p><img alt=\"У презентації
+      Ви зможете побачити концепти, які студія презентувала замовнику.\" src=\"/ckeditor_assets/pictures/133/content_1397598448_647710-pdf.png\"
+      style=\"height:16px; width:16px\" />&nbsp;&nbsp;<a href=\"/ckeditor_assets/attachments/321/logo-prezentation-oleoleo.pdf\"><span
+      style=\"color:#1aa29c\">Презентація для замовника</span></a></p>\r\n\r\n<p><img
+      alt=\"Переглянути посібник по використанню фірмового стилю (бренд бук) для Олеолео\"
+      src=\"/ckeditor_assets/pictures/133/content_1397598448_647710-pdf.png\" style=\"color:rgb(10,
+      154, 219); height:16px; width:16px\" />&nbsp;&nbsp;<a href=\"/ckeditor_assets/attachments/322/oleoleo-style-guide-2014.pdf\"><span
+      style=\"color:#1aa29c\">Посібник по використанню фірмового стилю</span></a></p>\r\n"
+    - ''
+    - "Розробити логотип та фірмовий стиль для консалтингової інтернет компанії. "
+    - 
+    - 
+    - 
+    - 
+    - Oleoleo
+    - portfolio-logo-oleoleo-2.jpg
+    - 
+    - 
+    - ''
+  - - 29
+    - Jantalia
+    - '2014-06-09 11:25:28.942206'
+    - '2015-04-14 11:30:20.634324'
+    - 2
+    - jantalia-oil
+    - 
+    - 
+    - 
+    - portfolio-packaging-jantalia-oil-1.jpg
+    - image/jpeg
+    - 95252
+    - '2015-04-14 11:30:20.008652'
+    - "<h2><img alt=\"Лінійка соняшникової олії Янталія в усій красі\" src=\"/ckeditor_assets/pictures/335/content_jantali-oil-bottles-design.jpg\"
+      /></h2>\r\n\r\n<h2><span style=\"color:#763418\">Логотип та символ</span></h2>\r\n\r\n<p>Соняшникова
+      олія Янталія бере свою легенду в камені Янтарі. Янтар &mdash; це природна органічна
+      сполука, щільна, скам&#39;яніла викопна смола хвойних дерев. Тьмяні, прозорі
+      й напівпрозорі камінці. Янтар здавна називали &laquo;сльози сонця&raquo; або
+      &laquo;дар сонця&raquo;.</p>\r\n\r\n<p><img alt=\"Квітка соняха, намальована
+      в студії спеціально для Янталії соняшникової олії.\" src=\"/ckeditor_assets/pictures/326/content_jantalia-sunflower.png\"
+      /></p>\r\n\r\n<p><img alt=\"Логотип для соняшникової олії Янталія розроблений
+      у студії\" src=\"/ckeditor_assets/pictures/327/content_jantalia-logotup.png\"
+      /></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h2><span style=\"color:#763418\">Етикетка</span></h2>\r\n\r\n<p>Основними
+      елементами етикетка стали сонях, листочки якого стилізовані під каплі сонця,
+      шрифтовий надпис назви олії та підкладка у вигляді ледь замітної фактури каменю
+      янтарю. Таке яскраве поєднання елементів в жовтому спектрі кольору дали можливість
+      олії виділитись серед конкурентів на поличці та привернути до себе увагу покупця.</p>\r\n\r\n<p><img
+      alt=\"Етикетка сонячної олії Янталія розроблена в студії\" src=\"/ckeditor_assets/pictures/337/content_jantalia-sunflower-oil-sticker.jpg\"
+      /></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><img alt=\"Лінійка олії Янталія включає
+      в себе 1-ну, 2-о та 5-ти літрові пляшки олії.\" src=\"/ckeditor_assets/pictures/334/content_yantalia-bottle.jpg\"
+      /></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/329/content_jantalia-bottles-assorti.jpg\"
+      /></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h2><span style=\"color:#763418\">Фото та
+      ретуш пляшки олії</span></h2>\r\n\r\n<p>Усі пляшки соняшникової олії Янталія
+      були сфотографовані з використанням професійного студійного обладнання, що дало
+      нам правильні бліки та відсутність артефактів на пляшці. А також пройшли спеціальну
+      багато-слойну пост оброку.</p>\r\n\r\n<p><img alt=\"Правильне фотографування
+      та ретушування пляшки для рекламних матеріалів\" src=\"/ckeditor_assets/pictures/333/content_janatalia-bottle-retouch-prv.jpg\"
+      style=\"height:1053px; width:808px\" /></p>\r\n\r\n<h2><span style=\"color:#763418\">Друкована
+      продукція</span></h2>\r\n\r\n<p>Для кращого забезпечення продажів олії у студії
+      було розроблено декілька макетів POS матеріалів, в тому числі, плакат А2, презентер
+      та цінники.</p>\r\n\r\n<p><img alt=\"Для усіх подальших ПОС матеріалів у нашій
+      дизайн студії було розроблено спеціальну іллюстрацію\" src=\"/ckeditor_assets/pictures/330/content_jantalia-oil-poster-illustration.jpg\"
+      /></p>\r\n\r\n<p><img alt=\"Для роботи торгових агентів ми розробили презентер.\"
+      src=\"/ckeditor_assets/pictures/331/content_jantalia-oil-sprezenter.jpg\" /></p>\r\n\r\n<p><img
+      alt=\"Рекламний плакат А2 для Янтарної олії\" src=\"/ckeditor_assets/pictures/336/content_jantalia-oil-a2-poster-2.jpg\"
+      /></p>\r\n\r\n<p><span style=\"color:#f26a22\"><span style=\"font-size:20px\">Смачного
+      ;)</span></span></p>"
+    - 
+    - ''
+    - 
+    - ''
+    - 
+    - '2013-07-11'
+    - true
+    - "<p>2013.06.18</p>\r\n\r\n<p>Соняшникова олія &laquo;Янталія&raquo; виробляється
+      в м. Херсон за новітніми технологіями. Кулінарні властивості олії задовольнять
+      як господиню, так і досвідченого шеф кухаря, а цінова політика приємно здивує
+      покупців.</p>\r\n"
+    - ''
+    - "Розробити логотип та сонячну етикетку для янтарної соняшникової олії."
+    - 
+    - 
+    - 
+    - 
+    - Yantaliya
+    - portfolio-packaging-jantalia-oil-1.jpg
+    - 
+    - 
+    - ''
+  - - 30
+    - "«G3K» — розробка інтернет магазину"
+    - '2014-09-19 15:42:05.449859'
+    - '2015-04-14 11:30:21.364993'
+    - 3
+    - g3k
+    - 
+    - 
+    - 
+    - portfolio-logo-g3k-1b.jpg
+    - image/jpeg
+    - 42350
+    - '2015-04-14 11:30:20.789585'
+    - "<h2>Веб сайт</h2>\r\n\r\n<p>&nbsp;</p>\r\n"
+    - 
+    - ''
+    - 
+    - ''
+    - 
+    - '2014-04-11'
+    - false
+    - ''
+    - ''
+    - "Розробити інтернет магазин (каталог) продукції для реалізації її через інтернет. "
+    - 
+    - 
+    - 
+    - 
+    - "«G3K» — Internet shop"
+    - portfolio-logo-g3k-1b.jpg
+    - 
+    - 
+    - ''
+  - - 31
+    - 
+    - '2014-12-26 16:49:07.606785'
+    - '2016-11-23 17:42:36.065702'
+    - 2
+    - 
+    - 
+    - 
+    - 
+    - portfolio-avatar-1-3.jpg
+    - image/jpeg
+    - 35561
+    - '2015-04-14 11:30:21.517671'
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - '2014-12-25'
+    - true
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - "«БудМікс» — Сухі будівельні суміші від виробника"
+    - portfolio-avatar-1-3.jpg
+    - 
+    - 
+    - ''
+  - - 32
+    - 
+    - '2015-01-24 15:06:50.499621'
+    - '2016-11-23 17:31:58.185176'
+    - 1
+    - 
+    - 
+    - 
+    - 
+    - portfolio-avatar-1-3.jpg
+    - image/jpeg
+    - 35911
+    - '2015-04-14 11:30:22.248945'
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - '2015-01-05'
+    - true
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - "«БудМікс» — розробка фірмового стилю та рекламної продукції"
+    - portfolio-avatar-1-3.jpg
+    - 
+    - 
+    - ''
+  - - 33
+    - 
+    - '2015-01-27 12:25:25.151556'
+    - '2016-11-24 13:33:10.837834'
+    - 3
+    - 
+    - 
+    - 
+    - 
+    - Yizhaky-L-mobile-banner-272x176.jpg
+    - image/jpeg
+    - 76095
+    - '2015-04-14 11:30:23.010870'
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - '2014-04-09'
+    - true
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - Ekotel
+    - Yizhaky-L-mobile-banner-272x176.jpg
+    - 
+    - 
+    - ''
+  - - 34
+    - 
+    - '2015-01-27 12:58:37.231401'
+    - '2015-02-26 20:05:19.659583'
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - false
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - test
+    - ''
+    - 
+    - 
+    - ''
+  - - 35
+    - 
+    - '2015-01-28 08:43:37.969371'
+    - '2016-11-23 16:43:53.731823'
+    - 1
+    - 
+    - 
+    - 
+    - 
+    - portfolio-logo-y-avatar-2.jpg
+    - image/jpeg
+    - 41051
+    - '2015-04-14 11:30:23.862961'
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - '2015-04-16'
+    - true
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - "«Їжа.ки» — розробка логотипу та фірмового стилю"
+    - portfolio-logo-y-avatar-2.jpg
+    - 
+    - 
+    - ''
+  - - 36
+    - 
+    - '2015-01-28 12:51:16.907757'
+    - '2015-02-26 20:05:20.420309'
+    - 3
+    - 
+    - 
+    - 
+    - 
+    - Yizhaku-avatar-image.jpg
+    - image/jpeg
+    - 235442
+    - '2015-01-29 14:33:38.165340'
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - '2015-01-13'
+    - true
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - "«Їжаки» — розробка веб-сайту доставки їжі"
+    - Yizhaku-avatar-image.jpg
+    - 
+    - 
+    - ''
+  - - 37
+    - 
+    - '2015-01-30 11:40:29.988087'
+    - '2015-04-14 11:30:26.395393'
+    - 3
+    - 
+    - 
+    - 
+    - 
+    - Girafa-avatar.jpg
+    - image/jpeg
+    - 100584
+    - '2015-04-14 11:30:25.699424'
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - true
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - "«Жирафа» — редизайн веб-сайту студії дитячої йоги"
+    - Girafa-avatar.jpg
+    - 
+    - 
+    - ''
+  - - 38
+    - 
+    - '2015-01-30 14:44:31.555054'
+    - '2015-04-14 11:30:27.249232'
+    - 3
+    - 
+    - 
+    - 
+    - 
+    - LT-avatar.jpg
+    - image/jpeg
+    - 116754
+    - '2015-04-14 11:30:26.570880'
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - true
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - "«ЛайкТур» — розробка веб-сервісу організазації екскурсій та турів"
+    - LT-avatar.jpg
+    - 
+    - 
+    - ''
+  - - 39
+    - 
+    - '2015-06-29 09:51:03.341631'
+    - '2016-11-23 15:54:01.079434'
+    - 3
+    - 
+    - 
+    - 
+    - 
+    - portfolio-web-valko-ua-avatar-1.jpg
+    - image/jpeg
+    - 18708
+    - '2015-06-29 09:52:26.198751'
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - '2015-04-23'
+    - true
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - "«Валько» — розробка інтернет магазину нового покоління"
+    - portfolio-web-valko-ua-avatar-1.jpg
+    - 
+    - 
+    - ''
+  - - 40
+    - 
+    - '2015-06-29 11:34:56.810180'
+    - '2016-11-23 18:27:58.150917'
+    - 3
+    - 
+    - 
+    - 
+    - 
+    - portfolio-web-fermservice-avatar-1.jpg
+    - image/jpeg
+    - 22704
+    - '2015-06-29 11:48:06.419783'
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - '2014-12-10'
+    - true
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - "«Ферм-сервіс» — розробка веб-сервісу управління фермерським господарством"
+    - portfolio-web-fermservice-avatar-1.jpg
+    - 
+    - 
+    - ''
+  - - 41
+    - 
+    - '2015-09-03 11:58:24.430586'
+    - '2015-09-03 13:41:57.796043'
+    - 3
+    - 
+    - 
+    - 
+    - 
+    - portfolio-web-radok-force-avatar-2.jpg
+    - image/jpeg
+    - 44866
+    - '2015-09-03 11:58:24.116611'
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - '2015-04-02'
+    - false
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - "«Radok Force» — розробка інтернет сервісу замовлення тестування"
+    - portfolio-web-radok-force-avatar-2.jpg
+    - 
+    - 
+    - ''
+  - - 42
+    - 
+    - '2016-09-21 13:22:38.880054'
+    - '2016-11-21 10:40:49.847299'
+    - 3
+    - yummy-templates-is-a-series-of-responsive-landing-page-template-for-burger-cafe-or-coffeeshop-with-responsive-design-and-easy-to-customise-source-files
+    - 
+    - 
+    - 
+    - portfolio-web_avatar_yummycafe.jpg
+    - image/jpeg
+    - 23937
+    - '2016-09-21 13:24:11.102449'
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - '2016-09-21'
+    - true
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - Yummy templates - is a series of responsive landing page template for Burger
+      cafe or Coffeeshop with responsive design and easy to customise source files.
+    - portfolio-web_avatar_yummycafe.jpg
+    - 
+    - 
+    - ''

@@ -1,0 +1,725 @@
+
+---
+sitemap_elements:
+  columns:
+  - id
+  - path
+  - url
+  - changefreq
+  - priority
+  - lastmod
+  - sitemappable_id
+  - sitemappable_type
+  - created_at
+  - updated_at
+  - display_on_sitemap
+  - static_page_data_id
+  records: 
+  - - 1
+    - "/"
+    - http://voroninstudio.eu/
+    - weekly
+    - 1.0
+    - 
+    - 
+    - 
+    - '2014-05-21 13:53:46.177925'
+    - '2015-04-03 10:38:35.111105'
+    - false
+    - 
+  - - 2
+    - "/about"
+    - http://voroninstudio.eu/about
+    - weekly
+    - 0.8
+    - 
+    - 
+    - 
+    - '2014-05-21 14:01:50.527765'
+    - '2015-04-03 10:43:35.628493'
+    - false
+    - 
+  - - 3
+    - "/services"
+    - http://voroninstudio.eu/services
+    - weekly
+    - 0.8
+    - 
+    - 
+    - 
+    - '2014-05-21 14:01:50.596473'
+    - '2015-04-03 10:55:12.922322'
+    - false
+    - 
+  - - 4
+    - "/portfolio"
+    - http://voroninstudio.eu/portfolio
+    - weekly
+    - 0.8
+    - 
+    - 
+    - 
+    - '2014-05-21 14:01:50.663179'
+    - '2015-04-03 10:59:38.852109'
+    - false
+    - 
+  - - 5
+    - "/portfolio/corporate-identity"
+    - http://voroninstudio.eu/portfolio/corporate-identity
+    - weekly
+    - 0.8
+    - 
+    - 
+    - 
+    - '2014-05-21 14:01:50.735743'
+    - '2015-04-03 11:03:49.042329'
+    - false
+    - 
+  - - 6
+    - "/portfolio/packaging"
+    - http://voroninstudio.eu/portfolio/packaging
+    - weekly
+    - 0.8
+    - 
+    - 
+    - 
+    - '2014-05-21 14:01:50.822159'
+    - '2015-04-03 11:07:09.354787'
+    - false
+    - 
+  - - 7
+    - "/portfolio/web"
+    - http://voroninstudio.eu/portfolio/web
+    - weekly
+    - 0.8
+    - 
+    - 
+    - 
+    - '2014-05-21 14:01:50.937344'
+    - '2015-04-03 11:11:25.507296'
+    - false
+    - 
+  - - 8
+    - "/articles"
+    - http://voroninstudio.eu/en/articles
+    - weekly
+    - 0.7
+    - 
+    - 
+    - 
+    - '2014-05-21 14:01:51.056888'
+    - '2014-09-30 14:13:41.644305'
+    - true
+    - 
+  - - 9
+    - "/articles/zapusk-novogo-saytu-studiyi-v-2014"
+    - http://voroninstudio.eu/articles/zapusk-novogo-saytu-studiyi-v-2014
+    - weekly
+    - 0.7
+    - 
+    - 
+    - 
+    - '2014-05-21 14:01:51.201185'
+    - '2015-04-03 11:18:29.890800'
+    - false
+    - 
+  - - 10
+    - "/articles/zdobuti-trofeyi-ta-perspektivi-rozvitku-studiyi-2011-2012"
+    - http://voroninstudio.eu/articles/zdobuti-trofeyi-ta-perspektivi-rozvitku-studiyi-2011-2012
+    - weekly
+    - 0.7
+    - 
+    - 
+    - 
+    - '2014-05-21 14:01:51.321467'
+    - '2015-04-03 11:36:15.552841'
+    - false
+    - 
+  - - 11
+    - "/articles/behance-portfolio-review-lviv-2"
+    - http://voroninstudio.eu/articles/behance-portfolio-review-lviv-2
+    - weekly
+    - 0.7
+    - 
+    - 
+    - 
+    - '2014-05-21 14:01:51.451118'
+    - '2015-04-03 11:36:00.849623'
+    - false
+    - 
+  - - 12
+    - "/articles/behance-portfolio-review-lviv"
+    - http://voroninstudio.eu/articles/behance-portfolio-review-lviv
+    - weekly
+    - 0.7
+    - 
+    - 
+    - 
+    - '2014-05-21 14:01:51.534699'
+    - '2015-04-03 11:35:26.468860'
+    - false
+    - 
+  - - 13
+    - "/contact"
+    - http://voroninstudio.eu/contact
+    - weekly
+    - 0.6
+    - 
+    - 
+    - 
+    - '2014-05-21 14:01:51.601610'
+    - '2015-04-03 11:37:55.756536'
+    - false
+    - 
+  - - 14
+    - "/portfolio/web/bnb-paintball"
+    - http://voroninstudio.eu/portfolio/web/bnb-paintball
+    - weekly
+    - 0.7
+    - 
+    - 
+    - 
+    - '2014-05-21 14:01:51.669231'
+    - '2015-04-03 13:03:25.141851'
+    - false
+    - 
+  - - 15
+    - "/portfolio/web/lviv-heart"
+    - http://voroninstudio.eu/portfolio/web/lviv-heart
+    - weekly
+    - 0.7
+    - 
+    - 
+    - 
+    - '2014-05-21 14:01:51.736372'
+    - '2015-04-03 13:06:18.740721'
+    - false
+    - 
+  - - 16
+    - "/portfolio/web/czmk-web-site"
+    - http://voroninstudio.eu/portfolio/web/czmk-web-site
+    - weekly
+    - 0.7
+    - 
+    - 
+    - 
+    - '2014-05-21 14:01:51.804405'
+    - '2015-04-03 13:10:35.927452'
+    - false
+    - 
+  - - 17
+    - "/portfolio/corporate-identity/bnbpaintball"
+    - http://voroninstudio.eu/portfolio/corporate-identity/bnbpaintball
+    - weekly
+    - 0.7
+    - 
+    - 
+    - 
+    - '2014-05-21 14:01:51.937428'
+    - '2015-04-03 13:13:07.204847'
+    - false
+    - 
+  - - 18
+    - "/portfolio/corporate-identity/valko-ua"
+    - http://voroninstudio.eu/portfolio/corporate-identity/valko-ua
+    - weekly
+    - 0.7
+    - 
+    - 
+    - 
+    - '2014-05-21 14:01:52.004771'
+    - '2015-04-03 13:15:47.670777'
+    - false
+    - 
+  - - 19
+    - "/portfolio/corporate-identity/karpatski-vikna"
+    - http://voroninstudio.eu/portfolio/corporate-identity/karpatski-vikna
+    - weekly
+    - 0.7
+    - 
+    - 
+    - 
+    - '2014-05-21 14:01:52.127098'
+    - '2015-04-03 13:17:58.077790'
+    - false
+    - 
+  - - 20
+    - "/portfolio/corporate-identity/games3k"
+    - http://voroninstudio.eu/portfolio/corporate-identity/games3k
+    - weekly
+    - 0.7
+    - 
+    - 
+    - 
+    - '2014-05-21 14:01:52.244099'
+    - '2015-04-03 13:20:47.043442'
+    - false
+    - 
+  - - 21
+    - "/portfolio/corporate-identity/trickyfox"
+    - http://voroninstudio.eu/portfolio/corporate-identity/trickyfox
+    - weekly
+    - 0.7
+    - 
+    - 
+    - 
+    - '2014-05-21 14:01:52.366675'
+    - '2015-04-03 13:23:15.974251'
+    - false
+    - 
+  - - 22
+    - "/portfolio/corporate-identity/investment-intelligence"
+    - http://voroninstudio.eu/portfolio/corporate-identity/investment-intelligence
+    - weekly
+    - 0.7
+    - 
+    - 
+    - 
+    - '2014-05-21 14:01:52.483761'
+    - '2015-04-03 13:26:55.394896'
+    - false
+    - 
+  - - 23
+    - "/portfolio/corporate-identity/rusyn-o"
+    - http://voroninstudio.eu/portfolio/corporate-identity/rusyn-o
+    - weekly
+    - 0.7
+    - 
+    - 
+    - 
+    - '2014-05-21 15:22:03.836474'
+    - '2015-04-03 14:05:52.021662'
+    - false
+    - 
+  - - 24
+    - "/portfolio/corporate-identity/czmk"
+    - http://voroninstudio.eu/portfolio/corporate-identity/czmk
+    - weekly
+    - 0.7
+    - 
+    - 
+    - 
+    - '2014-05-21 15:22:59.245143'
+    - '2015-04-03 14:08:45.252887'
+    - false
+    - 
+  - - 25
+    - "/portfolio/corporate-identity/green-telecom-telekomunikatsiyniy-provayder"
+    - http://voroninstudio.eu/portfolio/corporate-identity/green-telecom-telekomunikatsiyniy-provayder
+    - weekly
+    - 0.7
+    - 
+    - 
+    - 
+    - '2014-05-21 15:23:26.015138'
+    - '2015-04-03 14:11:25.348076'
+    - false
+    - 
+  - - 28
+    - "/portfolio/packaging/gav-the-dog-food"
+    - http://voroninstudio.eu/portfolio/packaging/gav-the-dog-food
+    - weekly
+    - 0.7
+    - 
+    - 
+    - 
+    - '2014-05-22 17:40:58.036962'
+    - '2015-04-03 14:14:02.554196'
+    - false
+    - 
+  - - 72
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - '2014-09-29 08:20:55.974790'
+    - '2015-04-03 14:16:33.988659'
+    - false
+    - 
+  - - 73
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - '2014-09-29 08:21:20.268063'
+    - '2015-04-03 14:19:18.651381'
+    - false
+    - 
+  - - 101
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - '2014-09-30 14:56:03.791029'
+    - '2015-04-03 11:42:07.475420'
+    - false
+    - 
+  - - 102
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - '2014-09-30 14:58:46.129037'
+    - '2015-04-03 11:44:56.715263'
+    - false
+    - 
+  - - 103
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - '2014-09-30 15:00:17.995713'
+    - '2015-04-03 12:44:08.769438'
+    - false
+    - 
+  - - 104
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - '2014-09-30 15:00:48.141147'
+    - '2015-04-03 12:46:33.060201'
+    - false
+    - 
+  - - 105
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - '2014-09-30 15:01:37.389393'
+    - '2015-04-03 12:50:41.252307'
+    - false
+    - 
+  - - 106
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - '2014-09-30 15:02:01.030767'
+    - '2015-04-03 11:48:00.158304'
+    - false
+    - 
+  - - 107
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - '2014-09-30 15:02:37.602945'
+    - '2015-04-03 12:53:32.639070'
+    - false
+    - 
+  - - 108
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - '2014-09-30 15:03:18.574250'
+    - '2015-04-03 12:56:14.595530'
+    - false
+    - 
+  - - 360
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - '2015-04-03 11:33:11.016125'
+    - '2015-04-03 11:33:11.029672'
+    - false
+    - 
+  - - 362
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - '2015-04-03 14:26:58.572898'
+    - '2015-04-03 14:26:58.587210'
+    - false
+    - 
+  - - 363
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - '2015-04-03 14:29:43.938164'
+    - '2015-04-03 14:29:43.948516'
+    - false
+    - 
+  - - 364
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - '2015-04-03 14:57:35.284893'
+    - '2015-04-03 15:44:33.420525'
+    - false
+    - 
+  - - 366
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - '2015-04-03 15:14:26.239111'
+    - '2015-04-03 15:47:23.295063'
+    - false
+    - 
+  - - 367
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - '2015-04-03 15:21:02.192477'
+    - '2015-04-03 15:21:45.291078'
+    - false
+    - 52
+  - - 368
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - '2015-04-03 15:25:51.483659'
+    - '2015-04-03 15:26:59.510470'
+    - false
+    - 53
+  - - 369
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - '2015-04-03 15:36:34.175305'
+    - '2015-04-03 15:37:36.379240'
+    - false
+    - 54
+  - - 375
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - '2015-04-09 17:39:25.184131'
+    - '2015-08-29 13:28:14.917666'
+    - false
+    - 51
+  - - 376
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - '2015-04-12 05:06:25.733545'
+    - '2015-04-12 05:08:10.091954'
+    - false
+    - 
+  - - 377
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - '2015-04-12 05:08:10.094869'
+    - '2015-04-12 05:16:15.294912'
+    - false
+    - 
+  - - 378
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - '2015-04-12 05:16:15.297992'
+    - '2015-04-12 05:16:15.301773'
+    - false
+    - 56
+  - - 379
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - '2015-06-23 12:47:47.017920'
+    - '2015-06-23 13:24:38.214871'
+    - false
+    - 42
+  - - 380
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - '2015-06-23 14:24:30.615778'
+    - '2015-06-23 14:31:50.679438'
+    - false
+    - 43
+  - - 381
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - '2015-06-23 14:40:37.651547'
+    - '2015-06-23 14:48:38.530350'
+    - false
+    - 40
+  - - 382
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - '2015-06-24 11:14:42.762898'
+    - '2015-06-24 12:48:52.176487'
+    - false
+    - 44
+  - - 383
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - '2015-06-24 13:02:06.956470'
+    - '2015-06-24 13:11:20.869657'
+    - false
+    - 38
+  - - 384
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - '2015-06-29 14:53:41.397718'
+    - '2015-06-29 15:07:36.282236'
+    - false
+    - 57
+  - - 385
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - '2016-03-24 17:01:05.296815'
+    - '2016-03-24 17:03:36.337365'
+    - false
+    - 58
+  - - 386
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - '2016-03-24 17:37:32.807952'
+    - '2016-03-24 17:39:41.162909'
+    - false
+    - 59
+  - - 387
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - '2016-03-24 17:56:51.150092'
+    - '2016-03-24 17:58:16.673500'
+    - false
+    - 60
+  - - 388
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - '2016-08-08 10:03:05.301315'
+    - '2016-08-08 10:06:45.275904'
+    - false
+    - 61
+  - - 389
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - '2016-09-21 16:49:07.021934'
+    - '2016-09-21 16:52:40.367548'
+    - false
+    - 62

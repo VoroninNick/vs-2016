@@ -1,0 +1,33 @@
+
+---
+pages_portfolio_list_page_translations:
+  columns:
+  - id
+  - pages_portfolio_list_page_id
+  - locale
+  - created_at
+  - updated_at
+  - intro_text
+  - published
+  records: 
+  - - 1
+    - 1
+    - ru
+    - '2014-09-29 09:23:41.058513'
+    - '2014-10-08 09:38:54.302567'
+    - ''
+    - false
+  - - 2
+    - 1
+    - en
+    - '2014-09-29 09:23:41.149127'
+    - '2014-10-09 12:49:52.764111'
+    - ''
+    - true
+  - - 3
+    - 1
+    - uk
+    - '2014-09-29 09:23:41.249554'
+    - '2014-10-08 09:38:54.335052'
+    - ''
+    - true

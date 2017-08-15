@@ -77,6 +77,26 @@ module RailsAdminDynamicConfig
             locales: "/file_editor#{Rails.root.join("config/locales")}"
         }
 
+        config.navigation_labels do
+          {
+              feedbacks: 100,
+              home: 200,
+              about_us: 300,
+              projects: 400,
+              portfolio: 420,
+              remote_projects: 440,
+              services: 500,
+              articles: 600,
+              life: 700,
+              contacts: 800,
+              tags: 1000,
+              users: 1100,
+              settings: 1200,
+              pages: 1300,
+              assets: 1400
+          }
+        end
+
         config.include_models Cms::MetaTags
         config.model Cms::MetaTags do
           visible false
@@ -96,6 +116,8 @@ module RailsAdminDynamicConfig
         config.include_models HireUsRequest, JoinUsRequest, FormConfigs::HireUsRequest, FormConfigs::JoinUsRequest
 
         config.model HireUsRequest do
+          navigation_label_key(:feedbacks, 1)
+
           field :name
           field :organization_name
           field :phone
@@ -108,6 +130,8 @@ module RailsAdminDynamicConfig
         end
 
         config.model JoinUsRequest do
+          navigation_label_key(:feedbacks, 1)
+
           field :name
           field :organization_name
           field :phone
@@ -121,13 +145,15 @@ module RailsAdminDynamicConfig
 
         [FormConfigs::HireUsRequest, FormConfigs::JoinUsRequest].each do |m|
           config.model m do
+            navigation_label_key(:settings)
             field :email_receivers, :text
           end
         end
 
-        config.include_models Service, Article, Cms::Tag, Attachable::Asset, User, AboutSlide, Member, Project
+        config.include_models Service, Article, Cms::Tag, Attachable::Asset, User, AboutSlide, Member, Project, BehanceProject
 
         config.model Attachable::Asset do
+          navigation_label_key(:assets, 1)
           edit do
             field :data
             field :translations, :globalize_tabs
@@ -140,6 +166,7 @@ module RailsAdminDynamicConfig
         end
 
         config.model User do
+          navigation_label_key(:users, 1)
           field :email
           field :password
           field :password_confirmation
@@ -153,6 +180,8 @@ module RailsAdminDynamicConfig
         end
 
         config.model Service do
+          navigation_label_key(:services, 1)
+
           field :published
           field :translations, :globalize_tabs
           #field :icon, :paperclip
@@ -175,6 +204,7 @@ module RailsAdminDynamicConfig
         end
 
         config.model Article do
+          navigation_label_key(:articles, 1)
           field :published
           field :translations, :globalize_tabs
           field :avatar
@@ -192,6 +222,8 @@ module RailsAdminDynamicConfig
         end
 
         config.model Cms::Tag do
+          navigation_label_key(:tags)
+
           field :translations, :globalize_tabs
         end
 
@@ -202,6 +234,7 @@ module RailsAdminDynamicConfig
         end
 
         config.model AboutSlide do
+          navigation_label_key(:about_us, 1)
           nestable_list({position_field: :sorting_position})
           edit do
             field :published
@@ -210,6 +243,7 @@ module RailsAdminDynamicConfig
         end
 
         config.model Member do
+          navigation_label_key(:about_us, 1)
           field :published
           field :image
           field :translations, :globalize_tabs
@@ -226,8 +260,10 @@ module RailsAdminDynamicConfig
         end
 
         config.model Project do
+          navigation_label_key(:projects, 1)
           nestable_list({position_field: :sorting_position})
           field :published
+          field :behance_url
           field :featured
           field :featured_position
           field :code_name
@@ -301,7 +337,32 @@ module RailsAdminDynamicConfig
 
         end
 
+        config.model BehanceProject do
+          navigation_label_key(:projects, 1)
+          nestable_list({position_field: :sorting_position})
+          field :published
+          field :behance_url
+          field :released_on
+          field :translations, :globalize_tabs
+          field :services
+          field :technologies
+          group :avatars do
+            field :avatar do
+              help "used in projects list page and popup"
+            end
+            field :thumb do
+              help "used in prev/next navigation between projects above footer in project page"
+            end
+          end
+
+
+          #sass_options_group
+
+
+        end
+
         config.model Technology do
+          navigation_label_key(:projects, 2)
           nestable_list({position_field: :sorting_position})
 
           field :name
@@ -312,6 +373,8 @@ module RailsAdminDynamicConfig
 
         config.include_models Client
         config.model Client do
+          navigation_label_key(:about_us, 1)
+
           field :published
           field :name
           #field :short_description
@@ -330,6 +393,7 @@ module RailsAdminDynamicConfig
         config.include_models LifeEntry
 
         config.model LifeEntry do
+          navigation_label_key(:life, 1)
           #nestable_list({position_field: :sorting_position})
 
           field :published
@@ -348,9 +412,86 @@ module RailsAdminDynamicConfig
         config.include_models *page_models
         page_models.each do |m|
           config.model m do
+            navigation_label_key(:pages)
             field :seo_tags
           end
         end
+
+        config.include_models Portfolio, PortfolioBanner
+        config.model Portfolio do
+          navigation_label_key(:portfolio, 1)
+
+          field :published
+          field :translations, :globalize_tabs
+
+          group :avatar_image_data do
+            field :avatar do
+              #label 'Изображение'
+              #help 'Минимальное расширение изображения должно быть 716х716! Изображение должно быть цветным!'
+            end
+
+            field :avatar_file_name_fallback
+          end
+
+          field :portfolio_banner
+
+          group :thanks_image_data do
+            field :thanks_image
+            field :thanks_image_file_name_fallback
+          end
+
+          field :release
+          field :seo_tags
+        end
+
+        config.model_translation Portfolio do
+          field :locale
+          field :published
+          field :name
+          field :url_fragment
+          field :task
+          field :result, :ck_editor
+          #field :process, :ck_editor
+          #field :live, :ck_editor
+          field :description, :ck_editor
+          field :thanks_to
+          field :avatar_alt
+        end
+
+        config.model PortfolioBanner do
+          navigation_label_key(:portfolio, 2)
+
+          field :published
+
+          field :name do
+            help 'внутреннее имя'
+          end
+
+          field :translations, :globalize_tabs
+
+
+          group :image_data do
+            field :background do
+              label 'фоновая картинка'
+              help 'на всю ширину екрана'
+            end
+            field :background_file_name_fallback
+          end
+
+
+          field :portfolio do
+            help 'использовать баннер для указанного проекта'
+          end
+        end
+
+        config.model_translation PortfolioBanner do
+          field :locale
+          field :published
+          field :title, :ck_editor
+          field :description, :ck_editor
+        end
+
+
       end
     end
   end

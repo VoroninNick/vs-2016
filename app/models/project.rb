@@ -269,6 +269,9 @@ class Project < ActiveRecord::Base
   end
 
   def url(locale = I18n.locale)
+    if self.behance_url.present?
+      return self.behance_url
+    end
     v = self.translations_by_locale[locale].url_fragment
     if !v.start_with?("/")
       v = "/#{v}"

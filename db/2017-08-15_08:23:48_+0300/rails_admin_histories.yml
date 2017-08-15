@@ -1,0 +1,2604 @@
+
+---
+rails_admin_histories:
+  columns:
+  - id
+  - message
+  - username
+  - item
+  - table
+  - month
+  - year
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - new
+    - support@voroninstudio.eu
+    - 1
+    - TrustCompany
+    - 
+    - 
+    - '2013-05-11 08:24:42.321359'
+    - '2013-05-11 08:24:42.321359'
+  - - 2
+    - 'url: "" -> "#"'
+    - support@voroninstudio.eu
+    - 1
+    - TrustCompany
+    - 
+    - 
+    - '2013-05-11 08:27:05.338538'
+    - '2013-05-11 08:27:05.338538'
+  - - 3
+    - new
+    - support@voroninstudio.eu
+    - 2
+    - TrustCompany
+    - 
+    - 
+    - '2013-05-11 08:28:49.853888'
+    - '2013-05-11 08:28:49.853888'
+  - - 4
+    - new
+    - support@voroninstudio.eu
+    - 3
+    - TrustCompany
+    - 
+    - 
+    - '2013-05-11 08:30:38.580226'
+    - '2013-05-11 08:30:38.580226'
+  - - 5
+    - new
+    - support@voroninstudio.eu
+    - 4
+    - TrustCompany
+    - 
+    - 
+    - '2013-05-11 08:39:27.550998'
+    - '2013-05-11 08:39:27.550998'
+  - - 6
+    - new
+    - support@voroninstudio.eu
+    - 5
+    - TrustCompany
+    - 
+    - 
+    - '2013-05-11 08:39:46.342431'
+    - '2013-05-11 08:39:46.342431'
+  - - 7
+    - new
+    - support@voroninstudio.eu
+    - 6
+    - TrustCompany
+    - 
+    - 
+    - '2013-05-11 08:40:02.872893'
+    - '2013-05-11 08:40:02.872893'
+  - - 8
+    - new
+    - support@voroninstudio.eu
+    - 7
+    - TrustCompany
+    - 
+    - 
+    - '2013-05-11 08:40:17.042242'
+    - '2013-05-11 08:40:17.042242'
+  - - 9
+    - new
+    - support@voroninstudio.eu
+    - 8
+    - TrustCompany
+    - 
+    - 
+    - '2013-05-11 08:40:32.535018'
+    - '2013-05-11 08:40:32.535018'
+  - - 10
+    - new
+    - support@voroninstudio.eu
+    - 9
+    - TrustCompany
+    - 
+    - 
+    - '2013-05-11 08:40:48.570495'
+    - '2013-05-11 08:40:48.570495'
+  - - 11
+    - new
+    - support@voroninstudio.eu
+    - 10
+    - TrustCompany
+    - 
+    - 
+    - '2013-05-11 08:41:01.611925'
+    - '2013-05-11 08:41:01.611925'
+  - - 12
+    - new
+    - support@voroninstudio.eu
+    - 11
+    - TrustCompany
+    - 
+    - 
+    - '2013-05-11 08:41:18.144070'
+    - '2013-05-11 08:41:18.144070'
+  - - 13
+    - new
+    - support@voroninstudio.eu
+    - 12
+    - TrustCompany
+    - 
+    - 
+    - '2013-05-11 08:41:35.943731'
+    - '2013-05-11 08:41:35.943731'
+  - - 14
+    - new
+    - support@voroninstudio.eu
+    - 13
+    - TrustCompany
+    - 
+    - 
+    - '2013-05-11 08:41:55.061803'
+    - '2013-05-11 08:41:55.061803'
+  - - 15
+    - new
+    - support@voroninstudio.eu
+    - 14
+    - TrustCompany
+    - 
+    - 
+    - '2013-05-11 08:42:08.472192'
+    - '2013-05-11 08:42:08.472192'
+  - - 16
+    - 'published: nil -> true, result: nil -> "<p><strong><span style=\"font-size:36px;\">РЕЗУЛЬТАТ</span></strong></p>\r\n",
+      process: nil -> "<p><strong><span style=\"font-size:36px;\">ПРОЦЕС</span></strong></p>\r\n",
+      live: nil -> "<p><strong><span style=\"font-size:36px;\">ДІЙСНІСТЬ</span></strong></p>\r\n",
+      avatar_file_name: nil -> "p1-c.jpg", avatar_content_type: nil -> "image/jpeg",
+      avatar_file_size: nil -> 100204, avatar_updated_at: nil -> Tue, 08 Oct 2013
+      14:11:57 UTC +00:00'
+    - support@voroninstudio.eu
+    - 1
+    - Portfolio::Portfolio
+    - 
+    - 
+    - '2013-10-08 14:12:00.257157'
+    - '2013-10-08 14:12:00.257157'
+  - - 17
+    - 'published: nil -> true, result: nil -> "<p><strong><span style=\"font-size:36px;\"><span
+      style=\"background-color:#00FF00;\">РЕЗУЛЬТАТ</span></span></strong></p>\r\n",
+      process: nil -> "<p><strong><span style=\"font-size:36px;\"><span style=\"background-color:#00FF00;\">ПРОЦЕС</span></span></strong></p>\r\n",
+      live: nil -> "<p><strong><span style=\"font-size:36px;\"><span style=\"background-color:#00FF00;\">ДІЙСНІСТЬ</span></span></strong></p>\r\n",
+      avatar_file_name: nil -> "p2-c.jpg", avatar_content_type: nil -> "image/jpeg",
+      avatar_file_size: nil -> 148269, avatar_updated_at: nil -> Tue, 08 Oct 2013
+      14:33:30 UTC +00:00, slug: nil -> "test-2"'
+    - support@voroninstudio.eu
+    - 2
+    - Portfolio::Portfolio
+    - 
+    - 
+    - '2013-10-08 14:33:32.947438'
+    - '2013-10-08 14:33:32.947438'
+  - - 18
+    - new
+    - support@voroninstudio.eu
+    - 1
+    - Portfolio::PortfolioTechnology
+    - 
+    - 
+    - '2013-10-10 06:22:57.759193'
+    - '2013-10-10 06:22:57.759193'
+  - - 19
+    - 'avatar_updated_at: Thu, 10 Oct 2013 06:22:55 UTC +00:00 -> Thu, 10 Oct 2013
+      06:24:46 UTC +00:00, avatar_file_name: "rails.png" -> "rails.png"'
+    - support@voroninstudio.eu
+    - 1
+    - Portfolio::PortfolioTechnology
+    - 
+    - 
+    - '2013-10-10 06:24:47.649806'
+    - '2013-10-10 06:24:47.649806'
+  - - 20
+    - new
+    - support@voroninstudio.eu
+    - 2
+    - Portfolio::PortfolioTechnology
+    - 
+    - 
+    - '2013-10-10 06:47:44.996977'
+    - '2013-10-10 06:47:44.996977'
+  - - 21
+    - new
+    - support@voroninstudio.eu
+    - 3
+    - Portfolio::PortfolioTechnology
+    - 
+    - 
+    - '2013-10-10 06:48:38.034958'
+    - '2013-10-10 06:48:38.034958'
+  - - 22
+    - new
+    - support@voroninstudio.eu
+    - 4
+    - Portfolio::PortfolioTechnology
+    - 
+    - 
+    - '2013-10-10 06:49:34.712050'
+    - '2013-10-10 06:49:34.712050'
+  - - 23
+    - new
+    - support@voroninstudio.eu
+    - 5
+    - Portfolio::PortfolioTechnology
+    - 
+    - 
+    - '2013-10-10 06:50:15.863473'
+    - '2013-10-10 06:50:15.863473'
+  - - 24
+    - new
+    - support@voroninstudio.eu
+    - 6
+    - Portfolio::PortfolioTechnology
+    - 
+    - 
+    - '2013-10-10 06:51:57.470306'
+    - '2013-10-10 06:51:57.470306'
+  - - 25
+    - new
+    - support@voroninstudio.eu
+    - 1
+    - Developer
+    - 
+    - 
+    - '2013-10-11 06:50:02.359072'
+    - '2013-10-11 06:50:02.359072'
+  - - 26
+    - new
+    - support@voroninstudio.eu
+    - 2
+    - Developer
+    - 
+    - 
+    - '2013-10-11 06:51:36.721725'
+    - '2013-10-11 06:51:36.721725'
+  - - 27
+    - new
+    - support@voroninstudio.eu
+    - 3
+    - Developer
+    - 
+    - 
+    - '2013-10-11 06:52:17.083547'
+    - '2013-10-11 06:52:17.083547'
+  - - 28
+    - new
+    - support@voroninstudio.eu
+    - 4
+    - Developer
+    - 
+    - 
+    - '2013-10-11 06:57:21.087351'
+    - '2013-10-11 06:57:21.087351'
+  - - 29
+    - new
+    - support@voroninstudio.eu
+    - 5
+    - Developer
+    - 
+    - 
+    - '2013-10-11 06:57:57.721083'
+    - '2013-10-11 06:57:57.721083'
+  - - 30
+    - new
+    - support@voroninstudio.eu
+    - 2
+    - Portfolio::PortfolioBanner
+    - 
+    - 
+    - '2013-10-11 07:58:52.544478'
+    - '2013-10-11 07:58:52.544478'
+  - - 31
+    - new
+    - support@voroninstudio.eu
+    - 3
+    - Portfolio::Portfolio
+    - 
+    - 
+    - '2013-10-11 08:02:29.330959'
+    - '2013-10-11 08:02:29.330959'
+  - - 32
+    - ''
+    - support@voroninstudio.eu
+    - 3
+    - Portfolio::Portfolio
+    - 
+    - 
+    - '2013-10-11 08:13:49.068644'
+    - '2013-10-11 08:13:49.068644'
+  - - 33
+    - 'thanks_image_updated_at: "2013-10-11 08:02:28.459662" -> 2013-10-11 11:20:24
+      +0300, thanks_image_file_name: "iso9002.jpg" -> "iso9002.jpg"'
+    - support@voroninstudio.eu
+    - 3
+    - Portfolio::Portfolio
+    - 
+    - 
+    - '2013-10-11 08:20:25.270135'
+    - '2013-10-11 08:20:25.270135'
+  - - 34
+    - 'portfolio_banner_id: 2 -> nil, thanks_image_updated_at: "2013-10-11 08:20:24.297214"
+      -> 2013-10-11 11:24:25 +0300, thanks_image_file_name: "iso9002.jpg" -> "iso9002.jpg"'
+    - support@voroninstudio.eu
+    - 3
+    - Portfolio::Portfolio
+    - 
+    - 
+    - '2013-10-11 08:24:26.098509'
+    - '2013-10-11 08:24:26.098509'
+  - - 35
+    - 'thanks_image_updated_at: "2013-10-11 08:24:25.435047" -> 2013-10-11 11:28:42
+      +0300, thanks_image_file_name: "iso9002.jpg" -> "iso9002.jpg"'
+    - support@voroninstudio.eu
+    - 3
+    - Portfolio::Portfolio
+    - 
+    - 
+    - '2013-10-11 08:28:43.685242'
+    - '2013-10-11 08:28:43.685242'
+  - - 36
+    - 'thanks_image_updated_at: "2013-10-11 08:28:42.816348" -> 2013-10-11 11:32:48
+      +0300, thanks_image_file_name: "iso9002.jpg" -> "iso9002.jpg"'
+    - support@voroninstudio.eu
+    - 3
+    - Portfolio::Portfolio
+    - 
+    - 
+    - '2013-10-11 08:32:49.071462'
+    - '2013-10-11 08:32:49.071462'
+  - - 37
+    - 'thanks_image_updated_at: "2013-10-11 08:32:48.295297" -> 2013-10-11 11:33:58
+      +0300, thanks_image_file_name: "iso9002.jpg" -> "iso9002.jpg"'
+    - support@voroninstudio.eu
+    - 3
+    - Portfolio::Portfolio
+    - 
+    - 
+    - '2013-10-11 08:33:59.248817'
+    - '2013-10-11 08:33:59.248817'
+  - - 38
+    - 'thanks_image_updated_at: "2013-10-11 08:33:58.562321" -> 2013-10-11 11:35:27
+      +0300, thanks_image_file_name: "iso9002.jpg" -> "iso9002.jpg"'
+    - support@voroninstudio.eu
+    - 3
+    - Portfolio::Portfolio
+    - 
+    - 
+    - '2013-10-11 08:35:27.948479'
+    - '2013-10-11 08:35:27.948479'
+  - - 39
+    - 'portfolio_banner_id: nil -> 2'
+    - support@voroninstudio.eu
+    - 3
+    - Portfolio::Portfolio
+    - 
+    - 
+    - '2013-10-11 08:36:27.133185'
+    - '2013-10-11 08:36:27.133185'
+  - - 40
+    - 'portfolio_id: nil -> 3'
+    - support@voroninstudio.eu
+    - 2
+    - Portfolio::PortfolioBanner
+    - 
+    - 
+    - '2013-10-11 08:38:58.556796'
+    - '2013-10-11 08:38:58.556796'
+  - - 41
+    - new
+    - support@voroninstudio.eu
+    - 1
+    - DeveloperRole
+    - 
+    - 
+    - '2013-10-11 09:11:13.070939'
+    - '2013-10-11 09:11:13.070939'
+  - - 42
+    - new
+    - support@voroninstudio.eu
+    - 2
+    - DeveloperRole
+    - 
+    - 
+    - '2013-10-11 09:11:34.398613'
+    - '2013-10-11 09:11:34.398613'
+  - - 43
+    - new
+    - support@voroninstudio.eu
+    - 3
+    - DeveloperRole
+    - 
+    - 
+    - '2013-10-11 09:11:50.548783'
+    - '2013-10-11 09:11:50.548783'
+  - - 44
+    - 'name: "Технічний дизайнер" -> "Дизайнер"'
+    - support@voroninstudio.eu
+    - 3
+    - DeveloperRole
+    - 
+    - 
+    - '2013-10-11 09:13:37.228826'
+    - '2013-10-11 09:13:37.228826'
+  - - 45
+    - delete
+    - support@voroninstudio.eu
+    - 3
+    - DeveloperRole
+    - 
+    - 
+    - '2013-10-11 09:14:24.539142'
+    - '2013-10-11 09:14:24.539142'
+  - - 46
+    - new
+    - support@voroninstudio.eu
+    - 4
+    - DeveloperRole
+    - 
+    - 
+    - '2013-10-11 09:15:09.474958'
+    - '2013-10-11 09:15:09.474958'
+  - - 47
+    - new
+    - support@voroninstudio.eu
+    - 5
+    - DeveloperRole
+    - 
+    - 
+    - '2013-10-11 09:15:37.043231'
+    - '2013-10-11 09:15:37.043231'
+  - - 48
+    - 'developer_role_id: 0 -> 1'
+    - support@voroninstudio.eu
+    - 1
+    - Developer
+    - 
+    - 
+    - '2013-10-11 09:17:01.843870'
+    - '2013-10-11 09:17:01.843870'
+  - - 49
+    - 'developer_role_id: 0 -> 4'
+    - support@voroninstudio.eu
+    - 4
+    - Developer
+    - 
+    - 
+    - '2013-10-11 09:17:34.021674'
+    - '2013-10-11 09:17:34.021674'
+  - - 50
+    - 'developer_role_id: nil -> 2'
+    - support@voroninstudio.eu
+    - 3
+    - Developer
+    - 
+    - 
+    - '2013-10-11 09:17:52.595681'
+    - '2013-10-11 09:17:52.595681'
+  - - 51
+    - 'developer_role_id: 0 -> 2'
+    - support@voroninstudio.eu
+    - 2
+    - Developer
+    - 
+    - 
+    - '2013-10-11 09:18:13.643404'
+    - '2013-10-11 09:18:13.643404'
+  - - 52
+    - 'developer_role_id: 0 -> 5'
+    - support@voroninstudio.eu
+    - 5
+    - Developer
+    - 
+    - 
+    - '2013-10-11 09:18:29.388798'
+    - '2013-10-11 09:18:29.388798'
+  - - 53
+    - ''
+    - support@voroninstudio.eu
+    - 4
+    - Developer
+    - 
+    - 
+    - '2013-10-11 09:32:21.025698'
+    - '2013-10-11 09:32:21.025698'
+  - - 54
+    - 'developer_role_id: 4 -> 1'
+    - support@voroninstudio.eu
+    - 4
+    - Developer
+    - 
+    - 
+    - '2013-10-11 09:33:11.350107'
+    - '2013-10-11 09:33:11.350107'
+  - - 55
+    - 'developer_role_id: 1 -> 4'
+    - support@voroninstudio.eu
+    - 4
+    - Developer
+    - 
+    - 
+    - '2013-10-11 10:30:48.311107'
+    - '2013-10-11 10:30:48.311107'
+  - - 56
+    - 'developer_role_id: 4 -> 5'
+    - support@voroninstudio.eu
+    - 4
+    - Developer
+    - 
+    - 
+    - '2013-10-11 10:33:05.902721'
+    - '2013-10-11 10:33:05.902721'
+  - - 57
+    - 'developer_role_id: 5 -> nil'
+    - support@voroninstudio.eu
+    - 4
+    - Developer
+    - 
+    - 
+    - '2013-10-11 10:33:14.713466'
+    - '2013-10-11 10:33:14.713466'
+  - - 58
+    - 'developer_role_id: nil -> 5'
+    - support@voroninstudio.eu
+    - 4
+    - Developer
+    - 
+    - 
+    - '2013-10-11 10:33:22.341266'
+    - '2013-10-11 10:33:22.341266'
+  - - 59
+    - ''
+    - support@voroninstudio.eu
+    - 4
+    - Developer
+    - 
+    - 
+    - '2013-10-11 10:36:08.530051'
+    - '2013-10-11 10:36:08.530051'
+  - - 60
+    - ''
+    - support@voroninstudio.eu
+    - 5
+    - Developer
+    - 
+    - 
+    - '2013-10-11 11:04:36.299306'
+    - '2013-10-11 11:04:36.299306'
+  - - 61
+    - 'developer_role_id: 5 -> 4'
+    - support@voroninstudio.eu
+    - 4
+    - Developer
+    - 
+    - 
+    - '2013-10-11 11:04:59.448813'
+    - '2013-10-11 11:04:59.448813'
+  - - 62
+    - 'task: nil -> "", result: "<p><strong><span style=\"font-size:36px;\">РЕЗУЛЬТАТ</span></strong></p>\r\n"
+      -> "<section style=\"float:right;\" class=\"g9\">\r\n    <section class=\"f-height\">\r\n      <figure
+      class=\"span12 notebook-figure\">\r\n        <script type=\"text/javascript\">\r\n          (function
+      fn() {\r\n            fn.now = +new Date;\r\n            $(window).load(function()
+      {\r\n              if (+new Date - fn.now < 500) setTimeout(fn, 500);\r\n              $(''.voronin-studio-banners'').cycle();\r\n            });\r\n          })();\r\n        </script>\r\n        <div
+      class=\"web-slider-wrapper\">\r\n          <div class=\"voronin-studio-banners\">\r\n            <div
+      class=\"scroller\">\r\n              <%= image_tag(''portfolio/web/voronin-studio/vs-main.jpg'')
+      %>\r\n              <%= image_tag(''portfolio/web/voronin-studio/vs-about.jpg'')
+      %>\r\n            </div>\r\n          </div>\r\n        </div>\r\n      </figure>\r\n    </section>\r\n  </section>",
+      description: nil -> "", thanks_to: nil -> ""'
+    - support@voroninstudio.eu
+    - 1
+    - Portfolio::Portfolio
+    - 
+    - 
+    - '2013-10-11 11:21:32.470848'
+    - '2013-10-11 11:21:32.470848'
+  - - 63
+    - 'result: "<section style=\"float:right;\" class=\"g9\">\r\n    <section class=\"f-height\">\r\n      <figure
+      class=\"span12 notebook-figure\">\r\n        <script type=\"text/javascript\">\r\n          (function
+      fn() {\r\n            fn.now = +new Date;\r\n            $(window).load(function()
+      {\r\n              if (+new Date - fn.now < 500) setTimeout(fn, 500);\r\n              $(''.voronin-studio-banners'').cycle();\r\n            });\r\n          })();\r\n        </script>\r\n        <div
+      class=\"web-slider-wrapper\">\r\n          <div class=\"voronin-studio-banners\">\r\n            <div
+      class=\"scroller\">\r\n              <%= image_tag(''portfolio/web/voronin-studio/vs-main.jpg'')
+      %>\r\n              <%= image_tag(''portfolio/web/voronin-studio/vs-about.jpg'')
+      %>\r\n            </div>\r\n          </div>\r\n        </div>\r\n      </figure>\r\n    </section>\r\n  </section>"
+      -> "<figure class=\"span12 notebook-figure\"><script type=\"text/javascript\">\r\n          (function
+      fn() {\r\n            fn.now = +new Date;\r\n            $(window).load(function()
+      {\r\n              if (+new Date - fn.now < 500) setTimeout(fn, 500);\r\n              $(''.voronin-studio-banners'').cycle();\r\n            });\r\n          })();\r\n        </script>\r\n<div
+      class=\"web-slider-wrapper\">\r\n<div class=\"voronin-studio-banners\">\r\n<div
+      class=\"scroller\"><img alt=\"\" src=\"/ckeditor_assets/pictures/19/content_vs-main.jpg\"
+      /> <img alt=\"\" div=\"\" src=\"/ckeditor_assets/pictures/20/content_vs-about.jpg\"
+      /></div>\r\n</div>\r\n</div>\r\n</figure>\r\n"'
+    - support@voroninstudio.eu
+    - 1
+    - Portfolio::Portfolio
+    - 
+    - 
+    - '2013-10-11 11:30:49.747960'
+    - '2013-10-11 11:30:49.747960'
+  - - 64
+    - 'result: "<figure class=\"span12 notebook-figure\"><script type=\"text/javascript\">\r\n          (function
+      fn() {\r\n            fn.now = +new Date;\r\n            $(window).load(function()
+      {\r\n              if (+new Date - fn.now < 500) setTimeout(fn, 500);\r\n              $(''.voronin-studio-banners'').cycle();\r\n            });\r\n          })();\r\n        </script>\r\n<div
+      class=\"web-slider-wrapper\">\r\n<div class=\"voronin-studio-banners\">\r\n<div
+      class=\"scroller\"><img alt=\"\" src=\"/ckeditor_assets/pictures/19/content_vs-main.jpg\"
+      /> <img alt=\"\" div=\"\" src=\"/ckeditor_assets/pictures/20/content_vs-about.jpg\"
+      /></div>\r\n</div>\r\n</div>\r\n</figure>\r\n" -> "<figure class=\"span12 notebook-figure\"><script
+      type=\"text/javascript\">\r\n          (function fn() {\r\n            fn.now
+      = +new Date;\r\n            $(window).load(function() {\r\n              if
+      (+new Date - fn.now < 500) setTimeout(fn, 500);\r\n              $(''.voronin-studio-banners'').cycle();\r\n            });\r\n          })();\r\n        </script>\r\n<div
+      class=\"web-slider-wrapper\">\r\n<div class=\"voronin-studio-banners\">\r\n<div
+      class=\"scroller\"><img alt=\"\" src=\"/ckeditor_assets/pictures/19/content_vs-main.jpg\"
+      /> <img alt=\"\" src=\"/ckeditor_assets/pictures/20/content_vs-about.jpg\" /></div>\r\n</div>\r\n</div>\r\n</figure>\r\n"'
+    - support@voroninstudio.eu
+    - 1
+    - Portfolio::Portfolio
+    - 
+    - 
+    - '2013-10-11 11:44:24.964902'
+    - '2013-10-11 11:44:24.964902'
+  - - 65
+    - 'result: "<figure class=\"span12 notebook-figure\"><script type=\"text/javascript\">\r\n          (function
+      fn() {\r\n            fn.now = +new Date;\r\n            $(window).load(function()
+      {\r\n              if (+new Date - fn.now < 500) setTimeout(fn, 500);\r\n              $(''.voronin-studio-banners'').cycle();\r\n            });\r\n          })();\r\n        </script>\r\n<div
+      class=\"web-slider-wrapper\">\r\n<div class=\"voronin-studio-banners\">\r\n<div
+      class=\"scroller\"><img alt=\"\" src=\"/ckeditor_assets/pictures/19/content_vs-main.jpg\"
+      /> <img alt=\"\" src=\"/ckeditor_assets/pictures/20/content_vs-about.jpg\" /></div>\r\n</div>\r\n</div>\r\n</figure>\r\n"
+      -> "<figure class=\"span12 notebook-figure\"><script type=\"text/javascript\">\r\n          (function
+      fn() {\r\n            fn.now = +new Date;\r\n            $(window).load(function()
+      {\r\n              if (+new Date - fn.now < 500) setTimeout(fn, 500);\r\n              $(''.voronin-studio-banners
+      .scroller'').cycle();\r\n            });\r\n          })();\r\n        </script>\r\n<div
+      class=\"web-slider-wrapper\">\r\n<div class=\"voronin-studio-banners\">\r\n<div
+      class=\"scroller\"><img alt=\"\" src=\"/ckeditor_assets/pictures/19/content_vs-main.jpg\"
+      /> <img alt=\"\" src=\"/ckeditor_assets/pictures/20/content_vs-about.jpg\" /></div>\r\n</div>\r\n</div>\r\n</figure>\r\n"'
+    - support@voroninstudio.eu
+    - 1
+    - Portfolio::Portfolio
+    - 
+    - 
+    - '2013-10-11 11:48:00.093995'
+    - '2013-10-11 11:48:00.093995'
+  - - 66
+    - 'result: "<figure class=\"span12 notebook-figure\"><script type=\"text/javascript\">\r\n          (function
+      fn() {\r\n            fn.now = +new Date;\r\n            $(window).load(function()
+      {\r\n              if (+new Date - fn.now < 500) setTimeout(fn, 500);\r\n              $(''.voronin-studio-banners
+      .scroller'').cycle();\r\n            });\r\n          })();\r\n        </script>\r\n<div
+      class=\"web-slider-wrapper\">\r\n<div class=\"voronin-studio-banners\">\r\n<div
+      class=\"scroller\"><img alt=\"\" src=\"/ckeditor_assets/pictures/19/content_vs-main.jpg\"
+      /> <img alt=\"\" src=\"/ckeditor_assets/pictures/20/content_vs-about.jpg\" /></div>\r\n</div>\r\n</div>\r\n</figure>\r\n"
+      -> "<figure class=\"span12 notebook-figure\">\r\n<div class=\"web-slider-wrapper\">\r\n<div
+      class=\"voronin-studio-banners\">\r\n<div class=\"scroller\"><img alt=\"\" src=\"/ckeditor_assets/pictures/19/content_vs-main.jpg\"
+      /> <img alt=\"\" src=\"/ckeditor_assets/pictures/20/content_vs-about.jpg\" /></div>\r\n</div>\r\n</div>\r\n</figure>\r\n"'
+    - support@voroninstudio.eu
+    - 1
+    - Portfolio::Portfolio
+    - 
+    - 
+    - '2013-10-11 12:20:25.718110'
+    - '2013-10-11 12:20:25.718110'
+  - - 67
+    - 'published: nil -> false, result: "<h2>Натхнення</h2>\r\n\r\n<p><img alt=\"\"
+      src=\"/ckeditor_assets/pictures/3/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"image4\" src=\"/ckeditor_assets/pictures/4/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"image6\" src=\"/ckeditor_assets/pictures/5/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"img1\" src=\"/ckeditor_assets/pictures/2/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"image2\" src=\"/ckeditor_assets/pictures/1/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"image6\" src=\"/ckeditor_assets/pictures/6/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /></p>\r\n\r\n<h2>Ідея символу</h2>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/7/content_large_image.jpg\"
+      /></p>\r\n\r\n<p>В основу знаку кафе бару лягло символічне число 0.5. Дане число
+      чітко асоціюється&nbsp; з міцними напоямита ресторанною галуззю. Накатимо по
+      нуль пять, мені 0.5. будь ласка це вислови які вже стали народними і сприймаються
+      людьми на підсвідомому рівні.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h2>Логотип</h2>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/8/content_image05.jpg\" /><img alt=\"\"
+      src=\"/ckeditor_assets/pictures/9/content_image05.jpg\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/10/content_image05.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/11/content_image05.jpg\" /></p>\r\n\r\n<p>Логотип
+      має вертикальну та горизонтальну версії і побудований по математичним пропорціям
+      з врахуванням розміщеня на роздрукованому матералі.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h2>Корпоративні
+      скерування(Бренд бук)</h2>\r\n\r\n<p>Правила використання логотипа, кольорів,
+      фірмових градієнтів та акцидентної продукції зібрані і ретельно описані в короткому
+      посібнику по використанню фірмового стилю.</p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/12/content_one-image.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/13/content_one-image.jpg\" /><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/14/content_one-image.jpg\" /><img alt=\"\"
+      src=\"/ckeditor_assets/pictures/15/content_one-image.jpg\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/16/content_one-image.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/17/content_one-image.jpg\" /><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/18/content_one-image.jpg\" /></p>\r\n"
+      -> "<h2>Натхнення</h2>\r\n\r\n<p class=\"three-per-row\"><img alt=\"\" src=\"/ckeditor_assets/pictures/3/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"image4\" src=\"/ckeditor_assets/pictures/4/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"image6\" src=\"/ckeditor_assets/pictures/5/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"img1\" src=\"/ckeditor_assets/pictures/2/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"image2\" src=\"/ckeditor_assets/pictures/1/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"image6\" src=\"/ckeditor_assets/pictures/6/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /></p>\r\n\r\n<h2>Ідея символу</h2>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/7/content_large_image.jpg\"
+      /></p>\r\n\r\n<p>В основу знаку кафе бару лягло символічне число 0.5. Дане число
+      чітко асоціюється&nbsp; з міцними напоямита ресторанною галуззю. Накатимо по
+      нуль пять, мені 0.5. будь ласка це вислови які вже стали народними і сприймаються
+      людьми на підсвідомому рівні.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h2>Логотип</h2>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/8/content_image05.jpg\" /><img alt=\"\"
+      src=\"/ckeditor_assets/pictures/9/content_image05.jpg\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/10/content_image05.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/11/content_image05.jpg\" /></p>\r\n\r\n<p>Логотип
+      має вертикальну та горизонтальну версії і побудований по математичним пропорціям
+      з врахуванням розміщеня на роздрукованому матералі.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h2>Корпоративні
+      скерування(Бренд бук)</h2>\r\n\r\n<p>Правила використання логотипа, кольорів,
+      фірмових градієнтів та акцидентної продукції зібрані і ретельно описані в короткому
+      посібнику по використанню фірмового стилю.</p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/12/content_one-image.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/13/content_one-image.jpg\" /><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/14/content_one-image.jpg\" /><img alt=\"\"
+      src=\"/ckeditor_assets/pictures/15/content_one-image.jpg\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/16/content_one-image.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/17/content_one-image.jpg\" /><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/18/content_one-image.jpg\" /></p>\r\n"'
+    - support@voroninstudio.eu
+    - 3
+    - Portfolio::Portfolio
+    - 
+    - 
+    - '2013-10-11 12:31:07.974746'
+    - '2013-10-11 12:31:07.974746'
+  - - 68
+    - 'result: "<h2>Натхнення</h2>\r\n\r\n<p class=\"three-per-row\"><img alt=\"\"
+      src=\"/ckeditor_assets/pictures/3/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"image4\" src=\"/ckeditor_assets/pictures/4/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"image6\" src=\"/ckeditor_assets/pictures/5/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"img1\" src=\"/ckeditor_assets/pictures/2/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"image2\" src=\"/ckeditor_assets/pictures/1/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"image6\" src=\"/ckeditor_assets/pictures/6/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /></p>\r\n\r\n<h2>Ідея символу</h2>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/7/content_large_image.jpg\"
+      /></p>\r\n\r\n<p>В основу знаку кафе бару лягло символічне число 0.5. Дане число
+      чітко асоціюється&nbsp; з міцними напоямита ресторанною галуззю. Накатимо по
+      нуль пять, мені 0.5. будь ласка це вислови які вже стали народними і сприймаються
+      людьми на підсвідомому рівні.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h2>Логотип</h2>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/8/content_image05.jpg\" /><img alt=\"\"
+      src=\"/ckeditor_assets/pictures/9/content_image05.jpg\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/10/content_image05.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/11/content_image05.jpg\" /></p>\r\n\r\n<p>Логотип
+      має вертикальну та горизонтальну версії і побудований по математичним пропорціям
+      з врахуванням розміщеня на роздрукованому матералі.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h2>Корпоративні
+      скерування(Бренд бук)</h2>\r\n\r\n<p>Правила використання логотипа, кольорів,
+      фірмових градієнтів та акцидентної продукції зібрані і ретельно описані в короткому
+      посібнику по використанню фірмового стилю.</p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/12/content_one-image.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/13/content_one-image.jpg\" /><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/14/content_one-image.jpg\" /><img alt=\"\"
+      src=\"/ckeditor_assets/pictures/15/content_one-image.jpg\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/16/content_one-image.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/17/content_one-image.jpg\" /><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/18/content_one-image.jpg\" /></p>\r\n"
+      -> "<h2>Натхнення</h2>\r\n\r\n<p class=\"three-per-row\"><img alt=\"\" src=\"/ckeditor_assets/pictures/3/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"image4\" src=\"/ckeditor_assets/pictures/4/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"image6\" src=\"/ckeditor_assets/pictures/5/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"img1\" src=\"/ckeditor_assets/pictures/2/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"image2\" src=\"/ckeditor_assets/pictures/1/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"image6\" src=\"/ckeditor_assets/pictures/6/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /></p>\r\n\r\n<h2>Ідея символу</h2>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/7/content_large_image.jpg\"
+      /></p>\r\n\r\n<p>В основу знаку кафе бару лягло символічне число 0.5. Дане число
+      чітко асоціюється&nbsp; з міцними напоямита ресторанною галуззю. Накатимо по
+      нуль пять, мені 0.5. будь ласка це вислови які вже стали народними і сприймаються
+      людьми на підсвідомому рівні.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h2>Логотип</h2>\r\n\r\n<p
+      class=\"two-per-row\"><img alt=\"\" src=\"/ckeditor_assets/pictures/8/content_image05.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/9/content_image05.jpg\" /><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/10/content_image05.jpg\" /><img alt=\"\"
+      src=\"/ckeditor_assets/pictures/11/content_image05.jpg\" /></p>\r\n\r\n<p>Логотип
+      має вертикальну та горизонтальну версії і побудований по математичним пропорціям
+      з врахуванням розміщеня на роздрукованому матералі.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h2>Корпоративні
+      скерування(Бренд бук)</h2>\r\n\r\n<p>Правила використання логотипа, кольорів,
+      фірмових градієнтів та акцидентної продукції зібрані і ретельно описані в короткому
+      посібнику по використанню фірмового стилю.</p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/12/content_one-image.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/13/content_one-image.jpg\" /><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/14/content_one-image.jpg\" /><img alt=\"\"
+      src=\"/ckeditor_assets/pictures/15/content_one-image.jpg\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/16/content_one-image.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/17/content_one-image.jpg\" /><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/18/content_one-image.jpg\" /></p>\r\n"'
+    - support@voroninstudio.eu
+    - 3
+    - Portfolio::Portfolio
+    - 
+    - 
+    - '2013-10-11 12:44:08.518014'
+    - '2013-10-11 12:44:08.518014'
+  - - 69
+    - 'result: "<h2>Натхнення</h2>\r\n\r\n<p class=\"three-per-row\"><img alt=\"\"
+      src=\"/ckeditor_assets/pictures/3/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"image4\" src=\"/ckeditor_assets/pictures/4/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"image6\" src=\"/ckeditor_assets/pictures/5/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"img1\" src=\"/ckeditor_assets/pictures/2/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"image2\" src=\"/ckeditor_assets/pictures/1/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"image6\" src=\"/ckeditor_assets/pictures/6/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /></p>\r\n\r\n<h2>Ідея символу</h2>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/7/content_large_image.jpg\"
+      /></p>\r\n\r\n<p>В основу знаку кафе бару лягло символічне число 0.5. Дане число
+      чітко асоціюється&nbsp; з міцними напоямита ресторанною галуззю. Накатимо по
+      нуль пять, мені 0.5. будь ласка це вислови які вже стали народними і сприймаються
+      людьми на підсвідомому рівні.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h2>Логотип</h2>\r\n\r\n<p
+      class=\"two-per-row\"><img alt=\"\" src=\"/ckeditor_assets/pictures/8/content_image05.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/9/content_image05.jpg\" /><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/10/content_image05.jpg\" /><img alt=\"\"
+      src=\"/ckeditor_assets/pictures/11/content_image05.jpg\" /></p>\r\n\r\n<p>Логотип
+      має вертикальну та горизонтальну версії і побудований по математичним пропорціям
+      з врахуванням розміщеня на роздрукованому матералі.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h2>Корпоративні
+      скерування(Бренд бук)</h2>\r\n\r\n<p>Правила використання логотипа, кольорів,
+      фірмових градієнтів та акцидентної продукції зібрані і ретельно описані в короткому
+      посібнику по використанню фірмового стилю.</p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/12/content_one-image.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/13/content_one-image.jpg\" /><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/14/content_one-image.jpg\" /><img alt=\"\"
+      src=\"/ckeditor_assets/pictures/15/content_one-image.jpg\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/16/content_one-image.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/17/content_one-image.jpg\" /><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/18/content_one-image.jpg\" /></p>\r\n"
+      -> "<h3>Натхнення</h3>\r\n\r\n<p class=\"three-per-row\"><img alt=\"\" src=\"/ckeditor_assets/pictures/3/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"image4\" src=\"/ckeditor_assets/pictures/4/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"image6\" src=\"/ckeditor_assets/pictures/5/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"img1\" src=\"/ckeditor_assets/pictures/2/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"image2\" src=\"/ckeditor_assets/pictures/1/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"image6\" src=\"/ckeditor_assets/pictures/6/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /></p>\r\n\r\n<h3>Ідея символу</h3>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/7/content_large_image.jpg\"
+      /></p>\r\n\r\n<p>В основу знаку кафе бару лягло символічне число 0.5. Дане число
+      чітко асоціюється&nbsp; з міцними напоямита ресторанною галуззю. Накатимо по
+      нуль пять, мені 0.5. будь ласка це вислови які вже стали народними і сприймаються
+      людьми на підсвідомому рівні.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h2>Логотип</h2>\r\n\r\n<p
+      class=\"two-per-row\"><img alt=\"\" src=\"/ckeditor_assets/pictures/8/content_image05.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/9/content_image05.jpg\" /><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/10/content_image05.jpg\" /><img alt=\"\"
+      src=\"/ckeditor_assets/pictures/11/content_image05.jpg\" /></p>\r\n\r\n<p>Логотип
+      має вертикальну та горизонтальну версії і побудований по математичним пропорціям
+      з врахуванням розміщеня на роздрукованому матералі.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h3>Корпоративні
+      скерування(Бренд бук)</h3>\r\n\r\n<p>Правила використання логотипа, кольорів,
+      фірмових градієнтів та акцидентної продукції зібрані і ретельно описані в короткому
+      посібнику по використанню фірмового стилю.</p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/12/content_one-image.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/13/content_one-image.jpg\" /><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/14/content_one-image.jpg\" /><img alt=\"\"
+      src=\"/ckeditor_assets/pictures/15/content_one-image.jpg\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/16/content_one-image.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/17/content_one-image.jpg\" /><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/18/content_one-image.jpg\" /></p>\r\n"'
+    - support@voroninstudio.eu
+    - 3
+    - Portfolio::Portfolio
+    - 
+    - 
+    - '2013-10-11 12:48:39.912144'
+    - '2013-10-11 12:48:39.912144'
+  - - 70
+    - 'result: "<h3>Натхнення</h3>\r\n\r\n<p class=\"three-per-row\"><img alt=\"\"
+      src=\"/ckeditor_assets/pictures/3/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"image4\" src=\"/ckeditor_assets/pictures/4/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"image6\" src=\"/ckeditor_assets/pictures/5/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"img1\" src=\"/ckeditor_assets/pictures/2/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"image2\" src=\"/ckeditor_assets/pictures/1/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"image6\" src=\"/ckeditor_assets/pictures/6/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /></p>\r\n\r\n<h3>Ідея символу</h3>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/7/content_large_image.jpg\"
+      /></p>\r\n\r\n<p>В основу знаку кафе бару лягло символічне число 0.5. Дане число
+      чітко асоціюється&nbsp; з міцними напоямита ресторанною галуззю. Накатимо по
+      нуль пять, мені 0.5. будь ласка це вислови які вже стали народними і сприймаються
+      людьми на підсвідомому рівні.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h2>Логотип</h2>\r\n\r\n<p
+      class=\"two-per-row\"><img alt=\"\" src=\"/ckeditor_assets/pictures/8/content_image05.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/9/content_image05.jpg\" /><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/10/content_image05.jpg\" /><img alt=\"\"
+      src=\"/ckeditor_assets/pictures/11/content_image05.jpg\" /></p>\r\n\r\n<p>Логотип
+      має вертикальну та горизонтальну версії і побудований по математичним пропорціям
+      з врахуванням розміщеня на роздрукованому матералі.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h3>Корпоративні
+      скерування(Бренд бук)</h3>\r\n\r\n<p>Правила використання логотипа, кольорів,
+      фірмових градієнтів та акцидентної продукції зібрані і ретельно описані в короткому
+      посібнику по використанню фірмового стилю.</p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/12/content_one-image.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/13/content_one-image.jpg\" /><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/14/content_one-image.jpg\" /><img alt=\"\"
+      src=\"/ckeditor_assets/pictures/15/content_one-image.jpg\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/16/content_one-image.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/17/content_one-image.jpg\" /><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/18/content_one-image.jpg\" /></p>\r\n"
+      -> "<h3>Натхнення</h3>\r\n\r\n<p class=\"three-per-row\"><img alt=\"\" src=\"/ckeditor_assets/pictures/3/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"image4\" src=\"/ckeditor_assets/pictures/4/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"image6\" src=\"/ckeditor_assets/pictures/5/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"img1\" src=\"/ckeditor_assets/pictures/2/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"image2\" src=\"/ckeditor_assets/pictures/1/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"image6\" src=\"/ckeditor_assets/pictures/6/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /></p>\r\n\r\n<h3>Ідея символу</h3>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/7/content_large_image.jpg\"
+      /></p>\r\n\r\n<p>В основу знаку кафе бару лягло символічне число 0.5. Дане число
+      чітко асоціюється&nbsp; з міцними напоямита ресторанною галуззю. Накатимо по
+      нуль пять, мені 0.5. будь ласка це вислови які вже стали народними і сприймаються
+      людьми на підсвідомому рівні.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h2>Логотип</h2>\r\n\r\n<p
+      class=\"two-per-row\"><img alt=\"\" src=\"/ckeditor_assets/pictures/8/content_image05.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/9/content_image05.jpg\" /><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/10/content_image05.jpg\" /><img alt=\"\"
+      src=\"/ckeditor_assets/pictures/11/content_image05.jpg\" /></p>\r\n\r\n<p>Логотип
+      має вертикальну та горизонтальну версії і побудований по математичним пропорціям
+      з врахуванням розміщеня на роздрукованому матералі.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h3>Корпоративні
+      скерування(Бренд бук)</h3>\r\n\r\n<p>Правила використання логотипа, кольорів,
+      фірмових градієнтів та акцидентної продукції зібрані і ретельно описані в короткому
+      посібнику по використанню фірмового стилю.</p>\r\n\r\n<p class=\"one-per-row\"><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/12/content_one-image.jpg\" /><img alt=\"\"
+      src=\"/ckeditor_assets/pictures/13/content_one-image.jpg\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/14/content_one-image.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/15/content_one-image.jpg\" /><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/16/content_one-image.jpg\" /><img alt=\"\"
+      src=\"/ckeditor_assets/pictures/17/content_one-image.jpg\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/18/content_one-image.jpg\"
+      /></p>\r\n"'
+    - support@voroninstudio.eu
+    - 3
+    - Portfolio::Portfolio
+    - 
+    - 
+    - '2013-10-11 13:00:05.427814'
+    - '2013-10-11 13:00:05.427814'
+  - - 71
+    - 'result: "<h3>Натхнення</h3>\r\n\r\n<p class=\"three-per-row\"><img alt=\"\"
+      src=\"/ckeditor_assets/pictures/3/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"image4\" src=\"/ckeditor_assets/pictures/4/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"image6\" src=\"/ckeditor_assets/pictures/5/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"img1\" src=\"/ckeditor_assets/pictures/2/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"image2\" src=\"/ckeditor_assets/pictures/1/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"image6\" src=\"/ckeditor_assets/pictures/6/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /></p>\r\n\r\n<h3>Ідея символу</h3>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/7/content_large_image.jpg\"
+      /></p>\r\n\r\n<p>В основу знаку кафе бару лягло символічне число 0.5. Дане число
+      чітко асоціюється&nbsp; з міцними напоямита ресторанною галуззю. Накатимо по
+      нуль пять, мені 0.5. будь ласка це вислови які вже стали народними і сприймаються
+      людьми на підсвідомому рівні.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h2>Логотип</h2>\r\n\r\n<p
+      class=\"two-per-row\"><img alt=\"\" src=\"/ckeditor_assets/pictures/8/content_image05.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/9/content_image05.jpg\" /><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/10/content_image05.jpg\" /><img alt=\"\"
+      src=\"/ckeditor_assets/pictures/11/content_image05.jpg\" /></p>\r\n\r\n<p>Логотип
+      має вертикальну та горизонтальну версії і побудований по математичним пропорціям
+      з врахуванням розміщеня на роздрукованому матералі.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h3>Корпоративні
+      скерування(Бренд бук)</h3>\r\n\r\n<p>Правила використання логотипа, кольорів,
+      фірмових градієнтів та акцидентної продукції зібрані і ретельно описані в короткому
+      посібнику по використанню фірмового стилю.</p>\r\n\r\n<p class=\"one-per-row\"><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/12/content_one-image.jpg\" /><img alt=\"\"
+      src=\"/ckeditor_assets/pictures/13/content_one-image.jpg\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/14/content_one-image.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/15/content_one-image.jpg\" /><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/16/content_one-image.jpg\" /><img alt=\"\"
+      src=\"/ckeditor_assets/pictures/17/content_one-image.jpg\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/18/content_one-image.jpg\"
+      /></p>\r\n" -> "<h3>Натхнення</h3>\r\n\r\n<p class=\"three-per-row\"><img alt=\"\"
+      src=\"/ckeditor_assets/pictures/3/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"image4\" src=\"/ckeditor_assets/pictures/4/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"image6\" src=\"/ckeditor_assets/pictures/5/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"img1\" src=\"/ckeditor_assets/pictures/2/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"image2\" src=\"/ckeditor_assets/pictures/1/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"image6\" src=\"/ckeditor_assets/pictures/6/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /></p>\r\n\r\n<h3>Ідея символу</h3>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/7/content_large_image.jpg\"
+      /></p>\r\n\r\n<p>В основу знаку кафе бару лягло символічне число 0.5. Дане число
+      чітко асоціюється&nbsp; з міцними напоямита ресторанною галуззю. Накатимо по
+      нуль пять, мені 0.5. будь ласка це вислови які вже стали народними і сприймаються
+      людьми на підсвідомому рівні.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h3>Логотип</h3>\r\n\r\n<p
+      class=\"two-per-row\"><img alt=\"\" src=\"/ckeditor_assets/pictures/8/content_image05.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/9/content_image05.jpg\" /><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/10/content_image05.jpg\" /><img alt=\"\"
+      src=\"/ckeditor_assets/pictures/11/content_image05.jpg\" /></p>\r\n\r\n<p>Логотип
+      має вертикальну та горизонтальну версії і побудований по математичним пропорціям
+      з врахуванням розміщеня на роздрукованому матералі.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h3>Корпоративні
+      скерування(Бренд бук)</h3>\r\n\r\n<p>Правила використання логотипа, кольорів,
+      фірмових градієнтів та акцидентної продукції зібрані і ретельно описані в короткому
+      посібнику по використанню фірмового стилю.</p>\r\n\r\n<p class=\"one-per-row\"><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/12/content_one-image.jpg\" /><img alt=\"\"
+      src=\"/ckeditor_assets/pictures/13/content_one-image.jpg\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/14/content_one-image.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/15/content_one-image.jpg\" /><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/16/content_one-image.jpg\" /><img alt=\"\"
+      src=\"/ckeditor_assets/pictures/17/content_one-image.jpg\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/18/content_one-image.jpg\"
+      /></p>\r\n"'
+    - support@voroninstudio.eu
+    - 3
+    - Portfolio::Portfolio
+    - 
+    - 
+    - '2013-10-11 16:26:59.307961'
+    - '2013-10-11 16:26:59.307961'
+  - - 72
+    - 'task: "Задача:    Розробити логотип та стилістику для буфету та ресторану"
+      -> "Розробити логотип та стилістику для буфету та ресторану"'
+    - support@voroninstudio.eu
+    - 3
+    - Portfolio::Portfolio
+    - 
+    - 
+    - '2013-10-14 06:59:10.184042'
+    - '2013-10-14 06:59:10.184042'
+  - - 73
+    - 'avatar_updated_at: Tue, 08 Oct 2013 14:11:57 UTC +00:00 -> Mon, 14 Oct 2013
+      10:20:55 UTC +00:00, avatar_file_name: "p1-c.jpg" -> "p1-c.jpg"'
+    - support@voroninstudio.eu
+    - 1
+    - Portfolio::Portfolio
+    - 
+    - 
+    - '2013-10-14 10:20:59.042857'
+    - '2013-10-14 10:20:59.042857'
+  - - 74
+    - 'task: nil -> "", avatar_updated_at: Tue, 08 Oct 2013 14:33:30 UTC +00:00 ->
+      Mon, 14 Oct 2013 10:21:59 UTC +00:00, avatar_file_name: "p2-c.jpg" -> "p2-c.jpg",
+      description: nil -> "", thanks_to: nil -> ""'
+    - support@voroninstudio.eu
+    - 2
+    - Portfolio::Portfolio
+    - 
+    - 
+    - '2013-10-14 10:22:02.139760'
+    - '2013-10-14 10:22:02.139760'
+  - - 75
+    - 'avatar_file_name: "image05.jpg" -> "p1-c.jpg", avatar_file_size: 95264 -> 100204,
+      avatar_updated_at: Fri, 11 Oct 2013 08:02:26 UTC +00:00 -> Mon, 14 Oct 2013
+      10:24:12 UTC +00:00'
+    - support@voroninstudio.eu
+    - 3
+    - Portfolio::Portfolio
+    - 
+    - 
+    - '2013-10-14 10:24:15.009911'
+    - '2013-10-14 10:24:15.009911'
+  - - 76
+    - 'published: false -> true, avatar_updated_at: Mon, 14 Oct 2013 10:24:12 UTC
+      +00:00 -> Wed, 16 Oct 2013 13:42:29 UTC +00:00, avatar_file_name: "p1-c.jpg"
+      -> "p1-c.jpg"'
+    - support@voroninstudio.eu
+    - 3
+    - Portfolio::Portfolio
+    - 
+    - 
+    - '2013-10-16 13:42:33.078097'
+    - '2013-10-16 13:42:33.078097'
+  - - 77
+    - 'avatar_updated_at: Mon, 14 Oct 2013 10:21:59 UTC +00:00 -> Wed, 16 Oct 2013
+      14:17:17 UTC +00:00, avatar_file_name: "p2-c.jpg" -> "p2-c.jpg"'
+    - support@voroninstudio.eu
+    - 2
+    - Portfolio::Portfolio
+    - 
+    - 
+    - '2013-10-16 14:17:20.229395'
+    - '2013-10-16 14:17:20.229395'
+  - - 78
+    - 'avatar_file_name: "p1-c.jpg" -> "vs-main.jpg", avatar_file_size: 100204 ->
+      314990, avatar_updated_at: Mon, 14 Oct 2013 10:20:55 UTC +00:00 -> Wed, 16 Oct
+      2013 14:19:00 UTC +00:00'
+    - support@voroninstudio.eu
+    - 1
+    - Portfolio::Portfolio
+    - 
+    - 
+    - '2013-10-16 14:19:05.563860'
+    - '2013-10-16 14:19:05.563860'
+  - - 79
+    - 'avatar_updated_at: Wed, 16 Oct 2013 14:17:17 UTC +00:00 -> Wed, 16 Oct 2013
+      14:24:56 UTC +00:00, avatar_file_name: "p2-c.jpg" -> "p2-c.jpg"'
+    - support@voroninstudio.eu
+    - 2
+    - Portfolio::Portfolio
+    - 
+    - 
+    - '2013-10-16 14:24:59.178633'
+    - '2013-10-16 14:24:59.178633'
+  - - 80
+    - 'avatar_updated_at: Wed, 16 Oct 2013 14:24:56 UTC +00:00 -> Wed, 16 Oct 2013
+      14:28:27 UTC +00:00, avatar_file_name: "p2-c.jpg" -> "p2-c.jpg"'
+    - support@voroninstudio.eu
+    - 2
+    - Portfolio::Portfolio
+    - 
+    - 
+    - '2013-10-16 14:28:29.343749'
+    - '2013-10-16 14:28:29.343749'
+  - - 81
+    - 'avatar_updated_at: Wed, 16 Oct 2013 14:19:00 UTC +00:00 -> Wed, 16 Oct 2013
+      14:30:12 UTC +00:00, avatar_file_name: "vs-main.jpg" -> "vs-main.jpg"'
+    - support@voroninstudio.eu
+    - 1
+    - Portfolio::Portfolio
+    - 
+    - 
+    - '2013-10-16 14:30:17.303880'
+    - '2013-10-16 14:30:17.303880'
+  - - 82
+    - 'avatar_updated_at: Wed, 16 Oct 2013 13:42:29 UTC +00:00 -> Wed, 16 Oct 2013
+      14:32:51 UTC +00:00, avatar_file_name: "p1-c.jpg" -> "p1-c.jpg", thanks_image_updated_at:
+      "2013-10-11 08:35:27.262041" -> 2013-10-16 17:32:53 +0300, thanks_image_file_name:
+      "iso9002.jpg" -> "iso9002.jpg"'
+    - support@voroninstudio.eu
+    - 3
+    - Portfolio::Portfolio
+    - 
+    - 
+    - '2013-10-16 14:32:54.974736'
+    - '2013-10-16 14:32:54.974736'
+  - - 83
+    - 'process: "<h2>Натхнення *********** Процес **************</h2>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/3/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"image4\" src=\"/ckeditor_assets/pictures/4/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"image6\" src=\"/ckeditor_assets/pictures/5/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"img1\" src=\"/ckeditor_assets/pictures/2/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"image2\" src=\"/ckeditor_assets/pictures/1/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"image6\" src=\"/ckeditor_assets/pictures/6/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /></p>\r\n\r\n<h2>Ідея символу</h2>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/7/content_large_image.jpg\"
+      /></p>\r\n\r\n<p>В основу знаку кафе бару лягло символічне число 0.5. Дане число
+      чітко асоціюється&nbsp; з міцними напоямита ресторанною галуззю. Накатимо по
+      нуль пять, мені 0.5. будь ласка це вислови які вже стали народними і сприймаються
+      людьми на підсвідомому рівні.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h2>Логотип</h2>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/8/content_image05.jpg\" /><img alt=\"\"
+      src=\"/ckeditor_assets/pictures/9/content_image05.jpg\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/10/content_image05.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/11/content_image05.jpg\" /></p>\r\n\r\n<p>Логотип
+      має вертикальну та горизонтальну версії і побудований по математичним пропорціям
+      з врахуванням розміщеня на роздрукованому матералі.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h2>Корпоративні
+      скерування(Бренд бук)</h2>\r\n\r\n<p>Правила використання логотипа, кольорів,
+      фірмових градієнтів та акцидентної продукції зібрані і ретельно описані в короткому
+      посібнику по використанню фірмового стилю.</p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/12/content_one-image.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/13/content_one-image.jpg\" /><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/14/content_one-image.jpg\" /><img alt=\"\"
+      src=\"/ckeditor_assets/pictures/15/content_one-image.jpg\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/16/content_one-image.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/17/content_one-image.jpg\" /><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/18/content_one-image.jpg\" /></p>\r\n"
+      -> "<h3>Натхнення</h3>\r\n\r\n<p class=\"three-per-row\"><img alt=\"\" src=\"/ckeditor_assets/pictures/3/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"image4\" src=\"/ckeditor_assets/pictures/4/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"image6\" src=\"/ckeditor_assets/pictures/5/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"img1\" src=\"/ckeditor_assets/pictures/2/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"image2\" src=\"/ckeditor_assets/pictures/1/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"image6\" src=\"/ckeditor_assets/pictures/6/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /></p>\r\n\r\n<h3>Ідея символу</h3>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/7/content_large_image.jpg\"
+      /></p>\r\n\r\n<p>В основу знаку кафе бару лягло символічне число 0.5. Дане число
+      чітко асоціюється&nbsp; з міцними напоямита ресторанною галуззю. Накатимо по
+      нуль пять, мені 0.5. будь ласка це вислови які вже стали народними і сприймаються
+      людьми на підсвідомому рівні.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h3>Логотип</h3>\r\n\r\n<p
+      class=\"two-per-row\"><img alt=\"\" src=\"/ckeditor_assets/pictures/8/content_image05.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/9/content_image05.jpg\" /><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/10/content_image05.jpg\" /><img alt=\"\"
+      src=\"/ckeditor_assets/pictures/11/content_image05.jpg\" /></p>\r\n\r\n<p>Логотип
+      має вертикальну та горизонтальну версії і побудований по математичним пропорціям
+      з врахуванням розміщеня на роздрукованому матералі.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h3>Корпоративні
+      скерування(Бренд бук)</h3>\r\n\r\n<p>Правила використання логотипа, кольорів,
+      фірмових градієнтів та акцидентної продукції зібрані і ретельно описані в короткому
+      посібнику по використанню фірмового стилю.</p>\r\n\r\n<p class=\"one-per-row\"><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/12/content_one-image.jpg\" /><img alt=\"\"
+      src=\"/ckeditor_assets/pictures/13/content_one-image.jpg\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/14/content_one-image.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/15/content_one-image.jpg\" /><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/16/content_one-image.jpg\" /><img alt=\"\"
+      src=\"/ckeditor_assets/pictures/17/content_one-image.jpg\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/18/content_one-image.jpg\"
+      /></p>\r\n", live: "<h2>Натхнення *********** В житті **************</h2>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/3/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"image4\" src=\"/ckeditor_assets/pictures/4/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"image6\" src=\"/ckeditor_assets/pictures/5/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"img1\" src=\"/ckeditor_assets/pictures/2/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"image2\" src=\"/ckeditor_assets/pictures/1/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"image6\" src=\"/ckeditor_assets/pictures/6/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /></p>\r\n\r\n<h2>Ідея символу</h2>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/7/content_large_image.jpg\"
+      /></p>\r\n\r\n<p>В основу знаку кафе бару лягло символічне число 0.5. Дане число
+      чітко асоціюється&nbsp; з міцними напоямита ресторанною галуззю. Накатимо по
+      нуль пять, мені 0.5. будь ласка це вислови які вже стали народними і сприймаються
+      людьми на підсвідомому рівні.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h2>Логотип</h2>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/8/content_image05.jpg\" /><img alt=\"\"
+      src=\"/ckeditor_assets/pictures/9/content_image05.jpg\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/10/content_image05.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/11/content_image05.jpg\" /></p>\r\n\r\n<p>Логотип
+      має вертикальну та горизонтальну версії і побудований по математичним пропорціям
+      з врахуванням розміщеня на роздрукованому матералі.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h2>Корпоративні
+      скерування(Бренд бук)</h2>\r\n\r\n<p>Правила використання логотипа, кольорів,
+      фірмових градієнтів та акцидентної продукції зібрані і ретельно описані в короткому
+      посібнику по використанню фірмового стилю.</p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/12/content_one-image.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/13/content_one-image.jpg\" /><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/14/content_one-image.jpg\" /><img alt=\"\"
+      src=\"/ckeditor_assets/pictures/15/content_one-image.jpg\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/16/content_one-image.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/17/content_one-image.jpg\" /><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/18/content_one-image.jpg\" /></p>\r\n"
+      -> "<h3>Натхнення</h3>\r\n\r\n<p class=\"three-per-row\"><img alt=\"\" src=\"/ckeditor_assets/pictures/3/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"image4\" src=\"/ckeditor_assets/pictures/4/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"image6\" src=\"/ckeditor_assets/pictures/5/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"img1\" src=\"/ckeditor_assets/pictures/2/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"image2\" src=\"/ckeditor_assets/pictures/1/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"image6\" src=\"/ckeditor_assets/pictures/6/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /></p>\r\n\r\n<h3>Ідея символу</h3>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/7/content_large_image.jpg\"
+      /></p>\r\n\r\n<p>В основу знаку кафе бару лягло символічне число 0.5. Дане число
+      чітко асоціюється&nbsp; з міцними напоямита ресторанною галуззю. Накатимо по
+      нуль пять, мені 0.5. будь ласка це вислови які вже стали народними і сприймаються
+      людьми на підсвідомому рівні.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h3>Логотип</h3>\r\n\r\n<p
+      class=\"two-per-row\"><img alt=\"\" src=\"/ckeditor_assets/pictures/8/content_image05.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/9/content_image05.jpg\" /><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/10/content_image05.jpg\" /><img alt=\"\"
+      src=\"/ckeditor_assets/pictures/11/content_image05.jpg\" /></p>\r\n\r\n<p>Логотип
+      має вертикальну та горизонтальну версії і побудований по математичним пропорціям
+      з врахуванням розміщеня на роздрукованому матералі.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h3>Корпоративні
+      скерування(Бренд бук)</h3>\r\n\r\n<p>Правила використання логотипа, кольорів,
+      фірмових градієнтів та акцидентної продукції зібрані і ретельно описані в короткому
+      посібнику по використанню фірмового стилю.</p>\r\n\r\n<p class=\"one-per-row\"><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/12/content_one-image.jpg\" /><img alt=\"\"
+      src=\"/ckeditor_assets/pictures/13/content_one-image.jpg\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/14/content_one-image.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/15/content_one-image.jpg\" /><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/16/content_one-image.jpg\" /><img alt=\"\"
+      src=\"/ckeditor_assets/pictures/17/content_one-image.jpg\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/18/content_one-image.jpg\"
+      /></p>\r\n"'
+    - support@voroninstudio.eu
+    - 3
+    - Portfolio::Portfolio
+    - 
+    - 
+    - '2013-10-21 14:17:18.464184'
+    - '2013-10-21 14:17:18.464184'
+  - - 84
+    - 'process: "<h3>Натхнення</h3>\r\n\r\n<p class=\"three-per-row\"><img alt=\"\"
+      src=\"/ckeditor_assets/pictures/3/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"image4\" src=\"/ckeditor_assets/pictures/4/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"image6\" src=\"/ckeditor_assets/pictures/5/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"img1\" src=\"/ckeditor_assets/pictures/2/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"image2\" src=\"/ckeditor_assets/pictures/1/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"image6\" src=\"/ckeditor_assets/pictures/6/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /></p>\r\n\r\n<h3>Ідея символу</h3>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/7/content_large_image.jpg\"
+      /></p>\r\n\r\n<p>В основу знаку кафе бару лягло символічне число 0.5. Дане число
+      чітко асоціюється&nbsp; з міцними напоямита ресторанною галуззю. Накатимо по
+      нуль пять, мені 0.5. будь ласка це вислови які вже стали народними і сприймаються
+      людьми на підсвідомому рівні.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h3>Логотип</h3>\r\n\r\n<p
+      class=\"two-per-row\"><img alt=\"\" src=\"/ckeditor_assets/pictures/8/content_image05.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/9/content_image05.jpg\" /><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/10/content_image05.jpg\" /><img alt=\"\"
+      src=\"/ckeditor_assets/pictures/11/content_image05.jpg\" /></p>\r\n\r\n<p>Логотип
+      має вертикальну та горизонтальну версії і побудований по математичним пропорціям
+      з врахуванням розміщеня на роздрукованому матералі.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h3>Корпоративні
+      скерування(Бренд бук)</h3>\r\n\r\n<p>Правила використання логотипа, кольорів,
+      фірмових градієнтів та акцидентної продукції зібрані і ретельно описані в короткому
+      посібнику по використанню фірмового стилю.</p>\r\n\r\n<p class=\"one-per-row\"><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/12/content_one-image.jpg\" /><img alt=\"\"
+      src=\"/ckeditor_assets/pictures/13/content_one-image.jpg\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/14/content_one-image.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/15/content_one-image.jpg\" /><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/16/content_one-image.jpg\" /><img alt=\"\"
+      src=\"/ckeditor_assets/pictures/17/content_one-image.jpg\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/18/content_one-image.jpg\"
+      /></p>\r\n" -> "<h3>Натхнення*****ПРОЦЕС*******</h3>\r\n\r\n<p class=\"three-per-row\"><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/3/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"image4\" src=\"/ckeditor_assets/pictures/4/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"image6\" src=\"/ckeditor_assets/pictures/5/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"img1\" src=\"/ckeditor_assets/pictures/2/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"image2\" src=\"/ckeditor_assets/pictures/1/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"image6\" src=\"/ckeditor_assets/pictures/6/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /></p>\r\n\r\n<h3>Ідея символу</h3>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/7/content_large_image.jpg\"
+      /></p>\r\n\r\n<p>В основу знаку кафе бару лягло символічне число 0.5. Дане число
+      чітко асоціюється&nbsp; з міцними напоямита ресторанною галуззю. Накатимо по
+      нуль пять, мені 0.5. будь ласка це вислови які вже стали народними і сприймаються
+      людьми на підсвідомому рівні.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h3>Логотип</h3>\r\n\r\n<p
+      class=\"two-per-row\"><img alt=\"\" src=\"/ckeditor_assets/pictures/8/content_image05.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/9/content_image05.jpg\" /><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/10/content_image05.jpg\" /><img alt=\"\"
+      src=\"/ckeditor_assets/pictures/11/content_image05.jpg\" /></p>\r\n\r\n<p>Логотип
+      має вертикальну та горизонтальну версії і побудований по математичним пропорціям
+      з врахуванням розміщеня на роздрукованому матералі.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h3>Корпоративні
+      скерування(Бренд бук)</h3>\r\n\r\n<p>Правила використання логотипа, кольорів,
+      фірмових градієнтів та акцидентної продукції зібрані і ретельно описані в короткому
+      посібнику по використанню фірмового стилю.</p>\r\n\r\n<p class=\"one-per-row\"><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/12/content_one-image.jpg\" /><img alt=\"\"
+      src=\"/ckeditor_assets/pictures/13/content_one-image.jpg\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/14/content_one-image.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/15/content_one-image.jpg\" /><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/16/content_one-image.jpg\" /><img alt=\"\"
+      src=\"/ckeditor_assets/pictures/17/content_one-image.jpg\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/18/content_one-image.jpg\"
+      /></p>\r\n", live: "<h3>Натхнення</h3>\r\n\r\n<p class=\"three-per-row\"><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/3/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"image4\" src=\"/ckeditor_assets/pictures/4/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"image6\" src=\"/ckeditor_assets/pictures/5/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"img1\" src=\"/ckeditor_assets/pictures/2/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"image2\" src=\"/ckeditor_assets/pictures/1/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"image6\" src=\"/ckeditor_assets/pictures/6/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /></p>\r\n\r\n<h3>Ідея символу</h3>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/7/content_large_image.jpg\"
+      /></p>\r\n\r\n<p>В основу знаку кафе бару лягло символічне число 0.5. Дане число
+      чітко асоціюється&nbsp; з міцними напоямита ресторанною галуззю. Накатимо по
+      нуль пять, мені 0.5. будь ласка це вислови які вже стали народними і сприймаються
+      людьми на підсвідомому рівні.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h3>Логотип</h3>\r\n\r\n<p
+      class=\"two-per-row\"><img alt=\"\" src=\"/ckeditor_assets/pictures/8/content_image05.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/9/content_image05.jpg\" /><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/10/content_image05.jpg\" /><img alt=\"\"
+      src=\"/ckeditor_assets/pictures/11/content_image05.jpg\" /></p>\r\n\r\n<p>Логотип
+      має вертикальну та горизонтальну версії і побудований по математичним пропорціям
+      з врахуванням розміщеня на роздрукованому матералі.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h3>Корпоративні
+      скерування(Бренд бук)</h3>\r\n\r\n<p>Правила використання логотипа, кольорів,
+      фірмових градієнтів та акцидентної продукції зібрані і ретельно описані в короткому
+      посібнику по використанню фірмового стилю.</p>\r\n\r\n<p class=\"one-per-row\"><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/12/content_one-image.jpg\" /><img alt=\"\"
+      src=\"/ckeditor_assets/pictures/13/content_one-image.jpg\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/14/content_one-image.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/15/content_one-image.jpg\" /><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/16/content_one-image.jpg\" /><img alt=\"\"
+      src=\"/ckeditor_assets/pictures/17/content_one-image.jpg\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/18/content_one-image.jpg\"
+      /></p>\r\n" -> "<h3>Натхнення********В_ЖИТТІ*********</h3>\r\n\r\n<p class=\"three-per-row\"><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/3/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"image4\" src=\"/ckeditor_assets/pictures/4/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"image6\" src=\"/ckeditor_assets/pictures/5/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"img1\" src=\"/ckeditor_assets/pictures/2/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"image2\" src=\"/ckeditor_assets/pictures/1/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /><img alt=\"image6\" src=\"/ckeditor_assets/pictures/6/content_vs-next-portfolio-single-item-1144px-2a.jpg\"
+      /></p>\r\n\r\n<h3>Ідея символу</h3>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/7/content_large_image.jpg\"
+      /></p>\r\n\r\n<p>В основу знаку кафе бару лягло символічне число 0.5. Дане число
+      чітко асоціюється&nbsp; з міцними напоямита ресторанною галуззю. Накатимо по
+      нуль пять, мені 0.5. будь ласка це вислови які вже стали народними і сприймаються
+      людьми на підсвідомому рівні.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h3>Логотип</h3>\r\n\r\n<p
+      class=\"two-per-row\"><img alt=\"\" src=\"/ckeditor_assets/pictures/8/content_image05.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/9/content_image05.jpg\" /><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/10/content_image05.jpg\" /><img alt=\"\"
+      src=\"/ckeditor_assets/pictures/11/content_image05.jpg\" /></p>\r\n\r\n<p>Логотип
+      має вертикальну та горизонтальну версії і побудований по математичним пропорціям
+      з врахуванням розміщеня на роздрукованому матералі.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<h3>Корпоративні
+      скерування(Бренд бук)</h3>\r\n\r\n<p>Правила використання логотипа, кольорів,
+      фірмових градієнтів та акцидентної продукції зібрані і ретельно описані в короткому
+      посібнику по використанню фірмового стилю.</p>\r\n\r\n<p class=\"one-per-row\"><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/12/content_one-image.jpg\" /><img alt=\"\"
+      src=\"/ckeditor_assets/pictures/13/content_one-image.jpg\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/14/content_one-image.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/15/content_one-image.jpg\" /><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/16/content_one-image.jpg\" /><img alt=\"\"
+      src=\"/ckeditor_assets/pictures/17/content_one-image.jpg\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/18/content_one-image.jpg\"
+      /></p>\r\n"'
+    - support@voroninstudio.eu
+    - 3
+    - Portfolio::Portfolio
+    - 
+    - 
+    - '2013-10-23 16:00:21.506376'
+    - '2013-10-23 16:00:21.506376'
+  - - 85
+    - new
+    - support@voroninstudio.eu
+    - 4
+    - Portfolio::Portfolio
+    - 
+    - 
+    - '2013-10-25 08:43:00.519955'
+    - '2013-10-25 08:43:00.519955'
+  - - 86
+    - new
+    - support@voroninstudio.eu
+    - 5
+    - Portfolio::Portfolio
+    - 
+    - 
+    - '2013-10-25 08:43:26.243481'
+    - '2013-10-25 08:43:26.243481'
+  - - 87
+    - new
+    - support@voroninstudio.eu
+    - 6
+    - Portfolio::Portfolio
+    - 
+    - 
+    - '2013-10-25 08:44:08.152650'
+    - '2013-10-25 08:44:08.152650'
+  - - 88
+    - new
+    - support@voroninstudio.eu
+    - 7
+    - Portfolio::Portfolio
+    - 
+    - 
+    - '2013-10-25 08:45:43.058652'
+    - '2013-10-25 08:45:43.058652'
+  - - 89
+    - new
+    - support@voroninstudio.eu
+    - 8
+    - Portfolio::Portfolio
+    - 
+    - 
+    - '2013-10-25 08:46:21.334776'
+    - '2013-10-25 08:46:21.334776'
+  - - 90
+    - new
+    - support@voroninstudio.eu
+    - 9
+    - Portfolio::Portfolio
+    - 
+    - 
+    - '2013-10-25 08:47:46.167701'
+    - '2013-10-25 08:47:46.167701'
+  - - 91
+    - new
+    - support@voroninstudio.eu
+    - 10
+    - Portfolio::Portfolio
+    - 
+    - 
+    - '2013-10-25 08:48:22.768794'
+    - '2013-10-25 08:48:22.768794'
+  - - 92
+    - 'avatar_file_name: nil -> "p2-c.jpg", avatar_content_type: nil -> "image/jpeg",
+      avatar_file_size: nil -> 148269, avatar_updated_at: nil -> Fri, 25 Oct 2013
+      08:49:31 UTC +00:00'
+    - support@voroninstudio.eu
+    - 5
+    - Portfolio::Portfolio
+    - 
+    - 
+    - '2013-10-25 08:49:34.107000'
+    - '2013-10-25 08:49:34.107000'
+  - - 93
+    - new
+    - support@voroninstudio.eu
+    - 11
+    - Portfolio::Portfolio
+    - 
+    - 
+    - '2013-10-25 09:36:14.587288'
+    - '2013-10-25 09:36:14.587288'
+  - - 94
+    - new
+    - support@voroninstudio.eu
+    - 12
+    - Portfolio::Portfolio
+    - 
+    - 
+    - '2013-10-25 09:37:01.695340'
+    - '2013-10-25 09:37:01.695340'
+  - - 95
+    - new
+    - support@voroninstudio.eu
+    - 3
+    - Portfolio::PortfolioBanner
+    - 
+    - 
+    - '2013-10-26 11:55:17.983550'
+    - '2013-10-26 11:55:17.983550'
+  - - 96
+    - 'title: nil -> "", portfolio_id: 3 -> 1'
+    - support@voroninstudio.eu
+    - 2
+    - Portfolio::PortfolioBanner
+    - 
+    - 
+    - '2013-10-26 12:11:51.254324'
+    - '2013-10-26 12:11:51.254324'
+  - - 97
+    - 'name: "Оновлення сайту студії" -> "Оновлення сайту студії_new_banner"'
+    - support@voroninstudio.eu
+    - 3
+    - Portfolio::PortfolioBanner
+    - 
+    - 
+    - '2013-10-26 12:12:57.221436'
+    - '2013-10-26 12:12:57.221436'
+  - - 98
+    - 'portfolio_banner_id: 2 -> 3'
+    - support@voroninstudio.eu
+    - 3
+    - Portfolio::Portfolio
+    - 
+    - 
+    - '2013-10-26 12:13:31.317393'
+    - '2013-10-26 12:13:31.317393'
+  - - 99
+    - 'title: "" -> "Ресторан шоу-бар «0,5»", background_file_name: nil -> "2-f791e0e38b62448c04662d48128441fb.jpg",
+      background_content_type: nil -> "image/jpeg", background_file_size: nil -> 649979,
+      background_updated_at: nil -> Sat, 26 Oct 2013 12:30:45 UTC +00:00, portfolio_id:
+      1 -> 3'
+    - support@voroninstudio.eu
+    - 2
+    - Portfolio::PortfolioBanner
+    - 
+    - 
+    - '2013-10-26 12:30:45.875919'
+    - '2013-10-26 12:30:45.875919'
+  - - 100
+    - 'full_description: "" -> "<h2><span class=\"mw-headline\" id=\".D0.9F.D1.80.D0.BE.D0.B8.D1.81.D1.85.D0.BE.D0.B6.D0.B4.D0.B5.D0.BD.D0.B8.D0.B5_.D0.B8_.D0.B8.D1.81.D1.82.D0.BE.D1.80.D0.B8.D1.8F_.D0.BE.D0.B4.D0.BE.D0.BC.D0.B0.D1.88.D0.BD.D0.B8.D0.B2.D0.B0.D0.BD.D0.B8.D1.8F\">Происхождение
+      и история одомашнивания</span></h2>\r\n\r\n<p>О происхождении собаки выдвигается
+      масса различных гипотез, наиболее вероятным предком современной собаки считаются
+      <a href=\"http://ru.wikipedia.org/wiki/%D0%92%D0%BE%D0%BB%D0%BA\" title=\"Волк\">волк</a>
+      и некоторые виды <a href=\"http://ru.wikipedia.org/wiki/%D0%9E%D0%B1%D1%8B%D0%BA%D0%BD%D0%BE%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D1%88%D0%B0%D0%BA%D0%B0%D0%BB\"
+      title=\"Обыкновенный шакал\">шакалов</a>.</p>\r\n\r\n<p>В суждениях учёных о
+      предках домашней собаки присутствуют две точки зрения. Одни считают, что собаки&nbsp;&mdash;
+      <a href=\"http://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D0%BB%D0%B8%D1%84%D0%B8%D0%BB%D0%B8%D1%8F\"
+      title=\"Полифилия\">полифилетическая</a> группа (происходящая от нескольких
+      предков), другие придерживаются мнения, что все собаки произошли от одного предка
+      (<a href=\"http://ru.wikipedia.org/wiki/%D0%9C%D0%BE%D0%BD%D0%BE%D1%84%D0%B8%D0%BB%D0%B8%D1%8F\"
+      title=\"Монофилия\">монофилетическая</a> теория)<sup class=\"reference\" id=\"cite_ref-3\"><a
+      href=\"http://ru.wikipedia.org/wiki/%D0%A1%D0%BE%D0%B1%D0%B0%D0%BA%D0%B0#cite_note-3\">[3]</a></sup><sup><a
+      href=\"http://ru.wikipedia.org/wiki/%D0%92%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%8F:%D0%90%D0%B2%D1%82%D0%BE%D1%80%D0%B8%D1%82%D0%B5%D1%82%D0%BD%D1%8B%D0%B5_%D0%B8%D1%81%D1%82%D0%BE%D1%87%D0%BD%D0%B8%D0%BA%D0%B8\"
+      title=\"Википедия:Авторитетные источники\">[<i>неавторитетный&nbsp;источник?&nbsp;160&nbsp;дней</i>]</a></sup>.</p>\r\n\r\n<p><a
+      href=\"http://ru.wikipedia.org/wiki/%D0%AD%D1%82%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F\"
+      title=\"Этология\">Этолог</a>, лауреат <a href=\"http://ru.wikipedia.org/wiki/%D0%9D%D0%BE%D0%B1%D0%B5%D0%BB%D0%B5%D0%B2%D1%81%D0%BA%D0%B0%D1%8F_%D0%BF%D1%80%D0%B5%D0%BC%D0%B8%D1%8F\"
+      title=\"Нобелевская премия\">Нобелевской премии</a> <a href=\"http://ru.wikipedia.org/wiki/%D0%9B%D0%BE%D1%80%D0%B5%D0%BD%D1%86,_%D0%9A%D0%BE%D0%BD%D1%80%D0%B0%D0%B4\"
+      title=\"Лоренц, Конрад\">Конрад Лоренц</a> выдвинул теорию о происхождении собак
+      от <a href=\"http://ru.wikipedia.org/wiki/%D0%92%D0%BE%D0%BB%D0%BA%D0%B8\" title=\"Волки\">волков</a>
+      и от <a class=\"mw-redirect\" href=\"http://ru.wikipedia.org/wiki/%D0%A8%D0%B0%D0%BA%D0%B0%D0%BB\"
+      title=\"Шакал\">шакалов</a><sup class=\"reference\" id=\"cite_ref-Man_meets_dog_4-0\"><a
+      href=\"http://ru.wikipedia.org/wiki/%D0%A1%D0%BE%D0%B1%D0%B0%D0%BA%D0%B0#cite_note-Man_meets_dog-4\">[4]</a></sup>,
+      подчёркивая диаметральные различия между их характерами и повадками.</p>\r\n\r\n<p>На
+      происхождение собаки от <a href=\"http://ru.wikipedia.org/wiki/%D0%92%D0%BE%D0%BB%D0%BA\"
+      title=\"Волк\">волка</a> указывают комплексные результаты сравнительного анализа
+      <a class=\"mw-redirect\" href=\"http://ru.wikipedia.org/wiki/%D0%A5%D1%80%D0%BE%D0%BC%D0%BE%D1%81%D0%BE%D0%BC%D1%8B\"
+      title=\"Хромосомы\">хромосом</a>, <a href=\"http://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5\"
+      title=\"Поведение\">поведения</a>, <a href=\"http://ru.wikipedia.org/wiki/%D0%9C%D0%BE%D1%80%D1%84%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F_%28%D0%B1%D0%B8%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%29\"
+      title=\"Морфология (биология)\">морфологии</a>, <a class=\"new\" href=\"http://ru.wikipedia.org/w/index.php?title=%D0%92%D0%BE%D0%BA%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F&amp;action=edit&amp;redlink=1\"
+      title=\"Вокализация (страница отсутствует)\">вокализации</a> и результаты молекулярно-генетического
+      анализа<sup class=\"reference\" id=\"cite_ref-BioEssays_5-0\"><a href=\"http://ru.wikipedia.org/wiki/%D0%A1%D0%BE%D0%B1%D0%B0%D0%BA%D0%B0#cite_note-BioEssays-5\">[5]</a></sup>.</p>\r\n\r\n<p>Существуют
+      разные сценарии начала <a href=\"http://ru.wikipedia.org/wiki/%D0%9E%D0%B4%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5\"
+      title=\"Одомашнивание\">одомашнивания</a> волка. В одном из них инициатива одомашнивания
+      волка принадлежала человеку, в другом&nbsp;&mdash; волк сам начал осваивать
+      новую <a href=\"http://ru.wikipedia.org/wiki/%D0%AD%D0%BA%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F_%D0%BD%D0%B8%D1%88%D0%B0\"
+      title=\"Экологическая ниша\">экологическую нишу</a> вблизи стоянок первобытного
+      человека, то есть происходила его &laquo;самоодомашнивание&raquo;. Вероятно,
+      её пионерами могли быть очень редкие, уникальные по поведению, особи, наиболее
+      <a class=\"mw-redirect\" href=\"http://ru.wikipedia.org/wiki/%D0%A2%D0%BE%D0%BB%D0%B5%D1%80%D0%B0%D0%BD%D1%82%D0%BD%D0%BE%D1%81%D1%82%D1%8C_%28%D1%81%D0%BE%D1%86%D0%B8%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%29\"
+      title=\"Толерантность (социология)\">толерантные</a> к человеку. Первая группа
+      таких животных могла быть сильно <a href=\"http://ru.wikipedia.org/wiki/%D0%98%D0%BD%D0%B1%D1%80%D0%B8%D0%B4%D0%B8%D0%BD%D0%B3\"
+      title=\"Инбридинг\">инбридирована</a> и подвержена процессам <a href=\"http://ru.wikipedia.org/wiki/%D0%94%D1%80%D0%B5%D0%B9%D1%84_%D0%B3%D0%B5%D0%BD%D0%BE%D0%B2\"
+      title=\"Дрейф генов\">генетического дрейфа</a>. Размноженная в числе эта начальная
+      популяция и могла, как предполагают некоторые учёные<sup class=\"reference\"
+      id=\"cite_ref-BioEssays_5-1\"><a href=\"http://ru.wikipedia.org/wiki/%D0%A1%D0%BE%D0%B1%D0%B0%D0%BA%D0%B0#cite_note-BioEssays-5\">[5]</a></sup><sup
+      class=\"reference\" id=\"cite_ref-Clutton-Brock_6-0\"><a href=\"http://ru.wikipedia.org/wiki/%D0%A1%D0%BE%D0%B1%D0%B0%D0%BA%D0%B0#cite_note-Clutton-Brock-6\">[6]</a></sup>,
+      дать миру всё разнообразие собак. Это предположение было выдвинуто на основании
+      исследований мтДНК, которые выявили небольшое число митохондриальных родословных,
+      что могло указывать на ограниченное число основателей одомашнивающих событий.</p>\r\n\r\n<p>Но
+      в то же время не было найдено корреляции между мт-гаплотипами и принадлежностью
+      собак к породе<sup class=\"reference\" id=\"cite_ref-Vila_7-0\"><a href=\"http://ru.wikipedia.org/wiki/%D0%A1%D0%BE%D0%B1%D0%B0%D0%BA%D0%B0#cite_note-Vila-7\">[7]</a></sup>.
+      Это может служить свидетельством того, что породная дифференциация начиналась
+      и происходила в генетически разнообразных популяциях примитивных пород, которые
+      были широко распространены по всему миру. Исследования на уровне ядерной <a
+      class=\"mw-redirect\" href=\"http://ru.wikipedia.org/wiki/%D0%94%D0%9D%D0%9A\"
+      title=\"ДНК\">ДНК</a> выявили большое генетическое разнообразие собак. Эти данные
+      также предполагают, что генетический пул современных собак произошёл от разнообразного
+      генного пула<sup class=\"reference\" id=\"cite_ref-Vila_7-1\"><a href=\"http://ru.wikipedia.org/wiki/%D0%A1%D0%BE%D0%B1%D0%B0%D0%BA%D0%B0#cite_note-Vila-7\">[7]</a></sup><sup
+      class=\"reference\" id=\"cite_ref-8\"><a href=\"http://ru.wikipedia.org/wiki/%D0%A1%D0%BE%D0%B1%D0%B0%D0%BA%D0%B0#cite_note-8\">[8]</a></sup>,
+      что, в свою очередь, может указывать на многократные независимые события одомашнивания
+      волка в разных местах и в разное время. Несмотря на то, что современные данные
+      предполагают возникновение собак в <a href=\"http://ru.wikipedia.org/wiki/%D0%AE%D0%B3%D0%BE-%D0%92%D0%BE%D1%81%D1%82%D0%BE%D1%87%D0%BD%D0%B0%D1%8F_%D0%90%D0%B7%D0%B8%D1%8F\"
+      title=\"Юго-Восточная Азия\">Юго-Восточной Азии</a> около 12&mdash;15 тыс. лет
+      назад<sup class=\"reference\" id=\"cite_ref-Clutton-Brock_6-1\"><a href=\"http://ru.wikipedia.org/wiki/%D0%A1%D0%BE%D0%B1%D0%B0%D0%BA%D0%B0#cite_note-Clutton-Brock-6\">[6]</a></sup><sup
+      class=\"reference\" id=\"cite_ref-9\"><a href=\"http://ru.wikipedia.org/wiki/%D0%A1%D0%BE%D0%B1%D0%B0%D0%BA%D0%B0#cite_note-9\">[9]</a></sup>,
+      в Западной России в это же время уже были <a href=\"http://ru.wikipedia.org/wiki/%D0%94%D0%B8%D0%B2%D0%B5%D1%80%D0%B3%D0%B5%D0%BD%D1%86%D0%B8%D1%8F_%28%D0%B1%D0%B8%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F%29\"
+      title=\"Дивергенция (биология)\">дивергировавшие</a> от волка собаки<sup class=\"reference\"
+      id=\"cite_ref-Sablin2002_10-0\"><a href=\"http://ru.wikipedia.org/wiki/%D0%A1%D0%BE%D0%B1%D0%B0%D0%BA%D0%B0#cite_note-Sablin2002-10\">[10]</a></sup>.</p>\r\n\r\n<h3><span
+      class=\"mw-headline\" id=\".D0.A0.D0.B0.D0.BD.D0.BD.D0.B8.D0.B9_.D0.BF.D0.B5.D1.80.D0.B8.D0.BE.D0.B4_.D0.BE.D0.B4.D0.BE.D0.BC.D0.B0.D1.88.D0.BD.D0.B8.D0.B2.D0.B0.D0.BD.D0.B8.D1.8F\">Ранний
+      период одомашнивания</span></h3>\r\n\r\n<p>Собака принадлежит к древнейшим из
+      всех домашних животных. До сих пор в научной среде ведутся поиски временно́го
+      отрезка <a href=\"http://ru.wikipedia.org/wiki/%D0%9E%D0%B4%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5\"
+      title=\"Одомашнивание\">одомашнивания</a> собаки и причины. Наскальные изображения,
+      рисунки и находки археологов позволяют учёным делать некоторые выводы и предположения.</p>\r\n\r\n<p>Ископаемые
+      останки доисторических <i>canidae</i> найдены в человеческих пещерах по всему
+      миру.</p>\r\n\r\n<p>На основании археологических находок чаще всего учёными
+      назывались даты одомашнивания собак 13&mdash;15 тыс. лет до&nbsp;н.&nbsp;э.<sup
+      class=\"reference\" id=\"cite_ref-11\"><a href=\"http://ru.wikipedia.org/wiki/%D0%A1%D0%BE%D0%B1%D0%B0%D0%BA%D0%B0#cite_note-11\">[11]</a></sup></p>\r\n\r\n<p><a
+      href=\"http://ru.wikipedia.org/wiki/%D0%9F%D0%B0%D0%BB%D0%B5%D0%BE%D0%BD%D1%82%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F\"
+      title=\"Палеонтология\">Палеонтологи</a> <a class=\"extiw\" href=\"http://fr.wikipedia.org/wiki/Mus%C3%A9um_des_sciences_naturelles_de_Belgique\"
+      title=\"fr:Muséum des sciences naturelles de Belgique\">Королевского музея естествознания</a><span
+      style=\"font-size:95%; position: relative; top: .4em\">&nbsp;<span class=\"ref-info\"
+      style=\"font-size:85%; cursor:help; color:#888;\" title=\"на французском языке\">(фр.)</span></span><span
+      class=\"link-ru\" style=\"font-size:80%; margin-left:-1.7em; position: relative;
+      top: -.4em;\"><a class=\"new\" href=\"http://ru.wikipedia.org/w/index.php?title=%D0%9A%D0%BE%D1%80%D0%BE%D0%BB%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9_%D0%BC%D1%83%D0%B7%D0%B5%D0%B9_%D0%B5%D1%81%D1%82%D0%B5%D1%81%D1%82%D0%B2%D0%BE%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D1%8F&amp;action=edit&amp;redlink=1\"
+      title=\"Королевский музей естествознания (страница отсутствует)\">русск.</a></span>
+      <a href=\"http://ru.wikipedia.org/wiki/%D0%91%D0%B5%D0%BB%D1%8C%D0%B3%D0%B8%D1%8F\"
+      title=\"Бельгия\">Бельгии</a> во главе с Митье Жермонпре (<i>Mietje Germonpr&eacute;</i>)
+      указывают дату 31,7&mdash;36,5 тыс. лет до&nbsp;н.&nbsp;э. Эти выводы сделаны
+      на основании последних находок, останков доисторической собаки в пещере Гойе
+      (<i>Goyet</i>). Примечательно, строение черепа доисторических собак значительно
+      отличаются от доисторических волков.</p>\r\n\r\n<p>Исследователи считают, что
+      собаку приручили в эпоху позднего <a href=\"http://ru.wikipedia.org/wiki/%D0%9F%D0%B0%D0%BB%D0%B5%D0%BE%D0%BB%D0%B8%D1%82\"
+      title=\"Палеолит\">палеолита</a> представители <a href=\"http://ru.wikipedia.org/wiki/%D0%9E%D1%80%D0%B8%D0%BD%D1%8C%D1%8F%D0%BA%D1%81%D0%BA%D0%B0%D1%8F_%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D1%83%D1%80%D0%B0\"
+      title=\"Ориньякская культура\">ориньякской культуры</a> для охоты.<br />\r\nМитье
+      Жермонпре предполагает, что наши предки-охотники могли приручить щенков убитой
+      волчицы. Канадский биолог Сьюзан Крокфорд (<a href=\"http://ru.wikipedia.org/wiki/%D0%90%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA\"
+      title=\"Английский язык\">англ.</a>&nbsp;<i><span lang=\"en\" style=\"font-family:
+      sans-serif;\">Susan Crockford)</span></i>) из <a href=\"http://ru.wikipedia.org/wiki/%D0%92%D0%B8%D0%BA%D1%82%D0%BE%D1%80%D0%B8%D0%B0%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D1%83%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82\"
+      title=\"Викторианский университет\">университета Виктории</a> полагает, что
+      одомашнивание произошло самостоятельно<sup class=\"reference\" id=\"cite_ref-12\"><a
+      href=\"http://ru.wikipedia.org/wiki/%D0%A1%D0%BE%D0%B1%D0%B0%D0%BA%D0%B0#cite_note-12\">[12]</a></sup>.</p>\r\n",
+      avatar_file_name: nil -> "rn-main-products-2.png", avatar_content_type: nil
+      -> "image/png", avatar_file_size: nil -> 114476, avatar_updated_at: nil -> Thu,
+      31 Oct 2013 17:22:09 UTC +00:00, slug: nil -> "testing-record"'
+    - support@voroninstudio.eu
+    - 1
+    - Article
+    - 
+    - 
+    - '2013-10-31 17:22:10.639002'
+    - '2013-10-31 17:22:10.639002'
+  - - 101
+    - 'short_description: "Testing records for this article is really easy" -> "Но
+      в то же время не было найдено корреляции между мт-гаплотипами и принадлежностью
+      собак к породе[7]. Это может служить свидетельством того, что породная дифференциация
+      начиналась и происходила в генетически разнообразных популяциях примитивных
+      пород, кот"'
+    - support@voroninstudio.eu
+    - 1
+    - Article
+    - 
+    - 
+    - '2013-10-31 17:22:45.503086'
+    - '2013-10-31 17:22:45.503086'
+  - - 102
+    - 'avatar_updated_at: Thu, 31 Oct 2013 17:22:09 UTC +00:00 -> Mon, 04 Nov 2013
+      10:34:39 UTC +00:00, avatar_file_name: "rn-main-products-2.png" -> "rn-main-products-2.png"'
+    - support@voroninstudio.eu
+    - 1
+    - Article
+    - 
+    - 
+    - '2013-11-04 10:34:40.205553'
+    - '2013-11-04 10:34:40.205553'
+  - - 103
+    - new
+    - support@voroninstudio.eu
+    - 2
+    - Article
+    - 
+    - 
+    - '2013-11-04 10:42:58.910748'
+    - '2013-11-04 10:42:58.910748'
+  - - 104
+    - 'title: nil -> "", avatar_file_name: "800px-Labrador_Retriever_Chocolate_Brown_Portrait_-_Sam.jpg"
+      -> "dog1.jpeg", avatar_file_size: 73866 -> 6246, avatar_updated_at: Mon, 04
+      Nov 2013 10:42:58 UTC +00:00 -> Tue, 12 Nov 2013 15:28:04 UTC +00:00, author:
+      nil -> ""'
+    - support@voroninstudio.eu
+    - 2
+    - Article
+    - 
+    - 
+    - '2013-11-12 15:28:05.385064'
+    - '2013-11-12 15:28:05.385064'
+  - - 105
+    - 'title: nil -> "", avatar_file_name: "rn-main-products-2.png" -> "dog2.jpg",
+      avatar_content_type: "image/png" -> "image/jpeg", avatar_file_size: 114476 ->
+      75902, avatar_updated_at: Mon, 04 Nov 2013 10:34:39 UTC +00:00 -> Tue, 12 Nov
+      2013 15:28:28 UTC +00:00, author: nil -> ""'
+    - support@voroninstudio.eu
+    - 1
+    - Article
+    - 
+    - 
+    - '2013-11-12 15:28:29.403417'
+    - '2013-11-12 15:28:29.403417'
+  - - 106
+    - 'tag_list: "" -> ["ruby on rails", "html5", "css3"]'
+    - support@voroninstudio.eu
+    - 2
+    - Article
+    - 
+    - 
+    - '2013-11-13 18:12:27.999973'
+    - '2013-11-13 18:12:27.999973'
+  - - 107
+    - 'tag_list: "" -> ["ruby on rails", "backbone.js"]'
+    - support@voroninstudio.eu
+    - 1
+    - Article
+    - 
+    - 
+    - '2013-11-13 18:13:34.911357'
+    - '2013-11-13 18:13:34.911357'
+  - - 108
+    - 'avatar_file_name: "dog1.jpeg" -> "dog1.jpg", avatar_file_size: 6246 -> 34245,
+      avatar_updated_at: Tue, 12 Nov 2013 15:28:04 UTC +00:00 -> Thu, 14 Nov 2013
+      09:07:17 UTC +00:00'
+    - support@voroninstudio.eu
+    - 2
+    - Article
+    - 
+    - 
+    - '2013-11-14 09:07:19.885020'
+    - '2013-11-14 09:07:19.885020'
+  - - 109
+    - 'avatar_updated_at: Tue, 12 Nov 2013 15:28:28 UTC +00:00 -> Thu, 14 Nov 2013
+      09:07:43 UTC +00:00, avatar_file_name: "dog2.jpg" -> "dog2.jpg"'
+    - support@voroninstudio.eu
+    - 1
+    - Article
+    - 
+    - 
+    - '2013-11-14 09:07:44.170244'
+    - '2013-11-14 09:07:44.170244'
+  - - 110
+    - 'avatar_updated_at: Thu, 14 Nov 2013 09:07:17 UTC +00:00 -> Thu, 14 Nov 2013
+      09:08:07 UTC +00:00, avatar_file_name: "dog1.jpg" -> "dog1.jpg"'
+    - support@voroninstudio.eu
+    - 2
+    - Article
+    - 
+    - 
+    - '2013-11-14 09:08:08.107065'
+    - '2013-11-14 09:08:08.107065'
+  - - 111
+    - 'avatar_updated_at: Thu, 14 Nov 2013 09:08:07 UTC +00:00 -> Fri, 15 Nov 2013
+      10:54:39 UTC +00:00, avatar_file_name: "dog1.jpg" -> "dog1.jpg"'
+    - support@voroninstudio.eu
+    - 2
+    - Article
+    - 
+    - 
+    - '2013-11-15 10:54:43.288752'
+    - '2013-11-15 10:54:43.288752'
+  - - 112
+    - 'avatar_updated_at: Thu, 14 Nov 2013 09:07:43 UTC +00:00 -> Fri, 15 Nov 2013
+      10:55:15 UTC +00:00, avatar_file_name: "dog2.jpg" -> "dog2.jpg"'
+    - support@voroninstudio.eu
+    - 1
+    - Article
+    - 
+    - 
+    - '2013-11-15 10:55:16.579900'
+    - '2013-11-15 10:55:16.579900'
+  - - 113
+    - new
+    - support@voroninstudio.eu
+    - 3
+    - Article
+    - 
+    - 
+    - '2013-11-15 11:03:28.891582'
+    - '2013-11-15 11:03:28.891582'
+  - - 114
+    - 'avatar_file_name: nil -> "dog2.jpg", avatar_content_type: nil -> "image/jpeg",
+      avatar_file_size: nil -> 75902, avatar_updated_at: nil -> Fri, 15 Nov 2013 11:04:40
+      UTC +00:00'
+    - support@voroninstudio.eu
+    - 3
+    - Article
+    - 
+    - 
+    - '2013-11-15 11:04:41.872333'
+    - '2013-11-15 11:04:41.872333'
+  - - 115
+    - 'title: "" -> "Лабрадор-ретривер является одной из самых популярных пород собак"'
+    - support@voroninstudio.eu
+    - 2
+    - Article
+    - 
+    - 
+    - '2013-11-15 11:05:49.257609'
+    - '2013-11-15 11:05:49.257609'
+  - - 116
+    - ''
+    - support@voroninstudio.eu
+    - 3
+    - Article
+    - 
+    - 
+    - '2013-11-15 11:23:45.304668'
+    - '2013-11-15 11:23:45.304668'
+  - - 117
+    - ''
+    - support@voroninstudio.eu
+    - 3
+    - Article
+    - 
+    - 
+    - '2013-11-15 11:28:22.179554'
+    - '2013-11-15 11:28:22.179554'
+  - - 118
+    - 'short_description: "Лабрадор-ретривер является одной из самых популярных пород
+      собак. Первоначально эта порода была выведена в качестве рабочей собаки, поэтому
+      многие лабрадоры всё ещё используются в качестве подружейных собак, собак-поводырей,
+      собак-спасателей. Порода берёт" -> "Лабрадор-ретривер является одной из самых
+      популярных пород собак. Первоначально эта порода была выведена в качестве рабочей
+      собаки, поэтому многие лабрадоры всё ещё используются в качестве подружейных
+      собак, собак-поводырей, собак-спасателей. Порода "'
+    - support@voroninstudio.eu
+    - 2
+    - Article
+    - 
+    - 
+    - '2013-11-15 11:30:25.883933'
+    - '2013-11-15 11:30:25.883933'
+  - - 119
+    - 'title: "" -> "Testing record", short_description: "Но в то же время не было
+      найдено корреляции между мт-гаплотипами и принадлежностью собак к породе[7].
+      Это может служить свидетельством того, что породная дифференциация начиналась
+      и происходила в генетически разнообразных популяциях примитивных пород, кот"
+      -> "Но в то же время не было найдено корреляции между мт-гаплотипами и принадлежностью
+      собак к породе[7]. Это может служить свидетельством того, что породная дифференциация
+      начиналась и происходила в генетически разнообразных популяциях примитивных
+      пород"'
+    - support@voroninstudio.eu
+    - 1
+    - Article
+    - 
+    - 
+    - '2013-11-15 11:34:38.605369'
+    - '2013-11-15 11:34:38.605369'
+  - - 120
+    - new
+    - support@voroninstudio.eu
+    - 4
+    - Article
+    - 
+    - 
+    - '2013-11-16 13:16:33.565075'
+    - '2013-11-16 13:16:33.565075'
+  - - 121
+    - 'avatar_updated_at: Sat, 16 Nov 2013 13:16:31 UTC +00:00 -> Tue, 19 Nov 2013
+      15:10:41 UTC +00:00, avatar_file_name: "dog1.jpg" -> "dog1.jpg"'
+    - support@voroninstudio.eu
+    - 4
+    - Article
+    - 
+    - 
+    - '2013-11-19 15:10:42.494798'
+    - '2013-11-19 15:10:42.494798'
+  - - 122
+    - 'avatar_updated_at: Fri, 15 Nov 2013 11:04:40 UTC +00:00 -> Tue, 19 Nov 2013
+      15:11:08 UTC +00:00, avatar_file_name: "dog2.jpg" -> "dog2.jpg"'
+    - support@voroninstudio.eu
+    - 3
+    - Article
+    - 
+    - 
+    - '2013-11-19 15:11:09.603384'
+    - '2013-11-19 15:11:09.603384'
+  - - 123
+    - 'avatar_updated_at: Fri, 15 Nov 2013 10:54:39 UTC +00:00 -> Tue, 19 Nov 2013
+      15:11:53 UTC +00:00, avatar_file_name: "dog1.jpg" -> "dog1.jpg"'
+    - support@voroninstudio.eu
+    - 2
+    - Article
+    - 
+    - 
+    - '2013-11-19 15:11:54.312772'
+    - '2013-11-19 15:11:54.312772'
+  - - 124
+    - 'avatar_updated_at: Fri, 15 Nov 2013 10:55:15 UTC +00:00 -> Tue, 19 Nov 2013
+      15:12:24 UTC +00:00, avatar_file_name: "dog2.jpg" -> "dog2.jpg"'
+    - support@voroninstudio.eu
+    - 1
+    - Article
+    - 
+    - 
+    - '2013-11-19 15:12:24.876802'
+    - '2013-11-19 15:12:24.876802'
+  - - 125
+    - ''
+    - support@voroninstudio.eu
+    - 12
+    - Portfolio::Portfolio
+    - 
+    - 
+    - '2014-04-05 16:35:09.801188'
+    - '2014-04-05 16:35:09.801188'
+  - - 126
+    - new
+    - support@voroninstudio.eu
+    - 13
+    - Portfolio::Portfolio
+    - 
+    - 
+    - '2014-04-07 15:41:27.807015'
+    - '2014-04-07 15:41:27.807015'
+  - - 127
+    - new
+    - support@voroninstudio.eu
+    - 6
+    - Developer
+    - 
+    - 
+    - '2014-04-07 16:03:55.703906'
+    - '2014-04-07 16:03:55.703906'
+  - - 128
+    - ''
+    - support@voroninstudio.eu
+    - 6
+    - Developer
+    - 
+    - 
+    - '2014-04-07 16:04:14.403167'
+    - '2014-04-07 16:04:14.403167'
+  - - 129
+    - 'result: "" -> "<h3>Натхнення</h3>\r\n\r\n<p><img alt=\"Приклад натхнення\"
+      src=\"/ckeditor_assets/pictures/21/content_ea24b5e8504b3e52dd6ff7f17ee7279b.jpg\"
+      style=\"width: 800px; height: 640px;\" /></p>\r\n\r\n<p>аіваів</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n",
+      release: nil -> Wed, 03 Oct 2012'
+    - support@voroninstudio.eu
+    - 13
+    - Portfolio::Portfolio
+    - 
+    - 
+    - '2014-04-07 16:04:59.748150'
+    - '2014-04-07 16:04:59.748150'
+  - - 130
+    - 'avatar_file_name: nil -> "moloko-avatar-1.jpg", avatar_content_type: nil ->
+      "image/jpeg", avatar_file_size: nil -> 154213, avatar_updated_at: nil -> Mon,
+      07 Apr 2014 16:11:30 UTC +00:00'
+    - support@voroninstudio.eu
+    - 13
+    - Portfolio::Portfolio
+    - 
+    - 
+    - '2014-04-07 16:11:33.261031'
+    - '2014-04-07 16:11:33.261031'
+  - - 131
+    - 'published: false -> true'
+    - support@voroninstudio.eu
+    - 13
+    - Portfolio::Portfolio
+    - 
+    - 
+    - '2014-04-07 16:13:53.624303'
+    - '2014-04-07 16:13:53.624303'
+  - - 132
+    - 'portfolio_banner_id: nil -> 3'
+    - support@voroninstudio.eu
+    - 13
+    - Portfolio::Portfolio
+    - 
+    - 
+    - '2014-04-08 09:17:27.858655'
+    - '2014-04-08 09:17:27.858655'
+  - - 133
+    - new
+    - support@voroninstudio.eu
+    - 4
+    - Portfolio::PortfolioBanner
+    - 
+    - 
+    - '2014-04-08 09:19:49.538621'
+    - '2014-04-08 09:19:49.538621'
+  - - 134
+    - delete
+    - support@voroninstudio.eu
+    - 4
+    - Portfolio::PortfolioBanner
+    - 
+    - 
+    - '2014-04-08 09:29:35.191221'
+    - '2014-04-08 09:29:35.191221'
+  - - 135
+    - new
+    - support@voroninstudio.eu
+    - 5
+    - Portfolio::PortfolioBanner
+    - 
+    - 
+    - '2014-04-09 10:38:22.867840'
+    - '2014-04-09 10:38:22.867840'
+  - - 136
+    - 'background_file_size: 222018 -> 227698, background_updated_at: Wed, 09 Apr
+      2014 10:38:22 UTC +00:00 -> Wed, 09 Apr 2014 10:47:09 UTC +00:00, background_file_name:
+      "moloko-main-banner-1.jpg" -> "moloko-main-banner-1.jpg"'
+    - support@voroninstudio.eu
+    - 5
+    - Portfolio::PortfolioBanner
+    - 
+    - 
+    - '2014-04-09 10:47:09.238477'
+    - '2014-04-09 10:47:09.238477'
+  - - 137
+    - 'title: "<p>MOLOKO: нічний клуб у Львові</p>\r\n" -> "<h1><span style=\"color:#FFFFFF;\">MOLOKO:
+      нічний клуб у Львові</span></h1>\r\n"'
+    - support@voroninstudio.eu
+    - 5
+    - Portfolio::PortfolioBanner
+    - 
+    - 
+    - '2014-04-09 10:48:15.716999'
+    - '2014-04-09 10:48:15.716999'
+  - - 138
+    - 'title: "<h1><span style=\"color:#FFFFFF;\">MOLOKO: нічний клуб у Львові</span></h1>\r\n"
+      -> "<h1><span style=\"font-size:48px;\"><span style=\"color:#FFFFFF;\">MOLOKO:
+      нічний клуб у Львові</span></span></h1>\r\n", description: "<p>&mdash; це демократичний
+      заклад Європейського формату, орієнтований на молодь. Вдень - це ресторан та
+      коктейль клуб, а вночі - це нічний клуб з шоу-програмами та запрошеними гістьми.</p>\r\n"
+      -> "<p><span style=\"color:#FFFFFF;\">&mdash; це демократичний заклад Європейського
+      формату, орієнтований на молодь. Вдень - це ресторан та коктейль клуб, а вночі
+      - це нічний клуб з шоу-програмами та запрошеними гістьми.</span></p>\r\n"'
+    - support@voroninstudio.eu
+    - 5
+    - Portfolio::PortfolioBanner
+    - 
+    - 
+    - '2014-04-09 10:49:08.724283'
+    - '2014-04-09 10:49:08.724283'
+  - - 139
+    - 'result: "<h3>Натхнення</h3>\r\n\r\n<p><img alt=\"Приклад натхнення\" src=\"/ckeditor_assets/pictures/21/content_ea24b5e8504b3e52dd6ff7f17ee7279b.jpg\"
+      style=\"width: 800px; height: 640px;\" /></p>\r\n\r\n<p>аіваів</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n"
+      -> "<h3>Натхнення</h3>\r\n\r\n<p><img alt=\"Inspiration 1\" src=\"/ckeditor_assets/pictures/32/content_moloko-inspiration-6.jpg\"
+      style=\"width: 450px; height: 450px;\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/31/content_moloko-inspiration-4.jpg\"
+      style=\"width: 450px; height: 450px;\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/33/content_moloko-inspiration-5.jpg\"
+      style=\"width: 450px; height: 450px;\" /></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>аіваів</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n",
+      portfolio_banner_id: 3 -> 5'
+    - support@voroninstudio.eu
+    - 13
+    - Portfolio::Portfolio
+    - 
+    - 
+    - '2014-04-09 12:13:27.049151'
+    - '2014-04-09 12:13:27.049151'
+  - - 140
+    - 'result: "<h3>Натхнення</h3>\r\n\r\n<p><img alt=\"Inspiration 1\" src=\"/ckeditor_assets/pictures/32/content_moloko-inspiration-6.jpg\"
+      style=\"width: 450px; height: 450px;\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/31/content_moloko-inspiration-4.jpg\"
+      style=\"width: 450px; height: 450px;\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/33/content_moloko-inspiration-5.jpg\"
+      style=\"width: 450px; height: 450px;\" /></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>аіваів</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n"
+      -> "<h3>Натхнення</h3>\r\n\r\n<p class=\"three-per-row\"><img alt=\"Inspiration
+      1\" src=\"/ckeditor_assets/pictures/32/content_moloko-inspiration-6.jpg\" style=\"width:
+      450px; height: 450px;\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/31/content_moloko-inspiration-4.jpg\"
+      style=\"width: 450px; height: 450px;\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/33/content_moloko-inspiration-5.jpg\"
+      style=\"width: 450px; height: 450px;\" /></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>аіваів</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>"'
+    - support@voroninstudio.eu
+    - 13
+    - Portfolio::Portfolio
+    - 
+    - 
+    - '2014-04-09 12:15:05.066136'
+    - '2014-04-09 12:15:05.066136'
+  - - 141
+    - 'result: "<h3>Натхнення</h3>\r\n\r\n<p class=\"three-per-row\"><img alt=\"Inspiration
+      1\" src=\"/ckeditor_assets/pictures/32/content_moloko-inspiration-6.jpg\" style=\"width:
+      450px; height: 450px;\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/31/content_moloko-inspiration-4.jpg\"
+      style=\"width: 450px; height: 450px;\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/33/content_moloko-inspiration-5.jpg\"
+      style=\"width: 450px; height: 450px;\" /></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>аіваів</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>"
+      -> "<h3>Натхнення</h3>\r\n\r\n<p class=\"three-per-row\"><img alt=\"Inspiration
+      1\" src=\"/ckeditor_assets/pictures/32/content_moloko-inspiration-6.jpg\" style=\"width:
+      450px; height: 450px;\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/31/content_moloko-inspiration-4.jpg\"
+      style=\"width: 450px; height: 450px;\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/33/content_moloko-inspiration-5.jpg\"
+      style=\"width: 450px; height: 450px;\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/30/content_moloko-inspiration-1.jpg\"
+      style=\"width: 450px; height: 450px;\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/29/content_moloko-inspiration-3.jpg\"
+      style=\"width: 450px; height: 450px;\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/28/content_moloko-inspiration-2.jpg\"
+      style=\"width: 450px; height: 450px;\" /></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>аіваів</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n"'
+    - support@voroninstudio.eu
+    - 13
+    - Portfolio::Portfolio
+    - 
+    - 
+    - '2014-04-09 12:16:42.375924'
+    - '2014-04-09 12:16:42.375924'
+  - - 142
+    - 'result: "<h3>Натхнення</h3>\r\n\r\n<p class=\"three-per-row\"><img alt=\"Inspiration
+      1\" src=\"/ckeditor_assets/pictures/32/content_moloko-inspiration-6.jpg\" style=\"width:
+      450px; height: 450px;\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/31/content_moloko-inspiration-4.jpg\"
+      style=\"width: 450px; height: 450px;\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/33/content_moloko-inspiration-5.jpg\"
+      style=\"width: 450px; height: 450px;\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/30/content_moloko-inspiration-1.jpg\"
+      style=\"width: 450px; height: 450px;\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/29/content_moloko-inspiration-3.jpg\"
+      style=\"width: 450px; height: 450px;\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/28/content_moloko-inspiration-2.jpg\"
+      style=\"width: 450px; height: 450px;\" /></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>аіваів</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n"
+      -> "<h3>Натхнення</h3>\r\n\r\n<p class=\"three-per-row\"><img alt=\"Inspiration
+      1\" src=\"/ckeditor_assets/pictures/32/content_moloko-inspiration-6.jpg\" style=\"width:
+      300px; height: 300px;\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/31/content_moloko-inspiration-4.jpg\"
+      style=\"width: 300px; height: 300px;\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/33/content_moloko-inspiration-5.jpg\"
+      style=\"width: 300px; height: 300px;\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/30/content_moloko-inspiration-1.jpg\"
+      style=\"width: 300px; height: 300px;\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/29/content_moloko-inspiration-3.jpg\"
+      style=\"width: 300px; height: 300px;\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/28/content_moloko-inspiration-2.jpg\"
+      style=\"width: 300px; height: 300px;\" /></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>аіваів</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n"'
+    - support@voroninstudio.eu
+    - 13
+    - Portfolio::Portfolio
+    - 
+    - 
+    - '2014-04-09 12:18:41.992639'
+    - '2014-04-09 12:18:41.992639'
+  - - 143
+    - 'result: "<h3>Натхнення</h3>\r\n\r\n<p class=\"three-per-row\"><img alt=\"Inspiration
+      1\" src=\"/ckeditor_assets/pictures/32/content_moloko-inspiration-6.jpg\" style=\"width:
+      300px; height: 300px;\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/31/content_moloko-inspiration-4.jpg\"
+      style=\"width: 300px; height: 300px;\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/33/content_moloko-inspiration-5.jpg\"
+      style=\"width: 300px; height: 300px;\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/30/content_moloko-inspiration-1.jpg\"
+      style=\"width: 300px; height: 300px;\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/29/content_moloko-inspiration-3.jpg\"
+      style=\"width: 300px; height: 300px;\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/28/content_moloko-inspiration-2.jpg\"
+      style=\"width: 300px; height: 300px;\" /></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>аіваів</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n"
+      -> "<h3>Натхнення</h3>\r\n\r\n<p class=\"three-per-row\"><img alt=\"Inspiration
+      1\" src=\"/ckeditor_assets/pictures/32/content_moloko-inspiration-6.jpg\" /><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/31/content_moloko-inspiration-4.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/33/content_moloko-inspiration-5.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/30/content_moloko-inspiration-1.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/29/content_moloko-inspiration-3.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/28/content_moloko-inspiration-2.jpg\"
+      /></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>аіваів</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n"'
+    - support@voroninstudio.eu
+    - 13
+    - Portfolio::Portfolio
+    - 
+    - 
+    - '2014-04-09 12:20:48.697589'
+    - '2014-04-09 12:20:48.697589'
+  - - 144
+    - 'result: "<h3>Натхнення</h3>\r\n\r\n<p class=\"three-per-row\"><img alt=\"Inspiration
+      1\" src=\"/ckeditor_assets/pictures/32/content_moloko-inspiration-6.jpg\" /><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/31/content_moloko-inspiration-4.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/33/content_moloko-inspiration-5.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/30/content_moloko-inspiration-1.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/29/content_moloko-inspiration-3.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/28/content_moloko-inspiration-2.jpg\"
+      /></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>аіваів</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n"
+      -> "<h3>Натхнення</h3>\r\n\r\n<p>Натхненням стали збірні образи кращих європейських
+      клубів, кубічність в формі та цікавий і не стандартний погляд на корівок та
+      молоко.</p>\r\n\r\n<p class=\"three-per-row\"><img alt=\"Inspiration 1\" src=\"/ckeditor_assets/pictures/32/content_moloko-inspiration-6.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/31/content_moloko-inspiration-4.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/34/content_moloko-inspiration-5.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/30/content_moloko-inspiration-1.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/29/content_moloko-inspiration-3.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/28/content_moloko-inspiration-2.jpg\"
+      /></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>аіваів</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n"'
+    - support@voroninstudio.eu
+    - 13
+    - Portfolio::Portfolio
+    - 
+    - 
+    - '2014-04-09 12:48:25.728265'
+    - '2014-04-09 12:48:25.728265'
+  - - 145
+    - 'result: "<h3>Натхнення</h3>\r\n\r\n<p>Натхненням стали збірні образи кращих
+      європейських клубів, кубічність в формі та цікавий і не стандартний погляд на
+      корівок та молоко.</p>\r\n\r\n<p class=\"three-per-row\"><img alt=\"Inspiration
+      1\" src=\"/ckeditor_assets/pictures/32/content_moloko-inspiration-6.jpg\" /><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/31/content_moloko-inspiration-4.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/34/content_moloko-inspiration-5.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/30/content_moloko-inspiration-1.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/29/content_moloko-inspiration-3.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/28/content_moloko-inspiration-2.jpg\"
+      /></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>аіваів</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n"
+      -> "<h3>Натхнення</h3>\r\n\r\n<p>Натхненням стали збірні образи кращих європейських
+      клубів, кубічність в формі та цікавий і не стандартний погляд на корівок та
+      молоко.</p>\r\n\r\n<p class=\"three-per-row\"><img alt=\"Inspiration 1\" src=\"/ckeditor_assets/pictures/32/content_moloko-inspiration-6.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/31/content_moloko-inspiration-4.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/34/content_moloko-inspiration-5.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/30/content_moloko-inspiration-1.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/29/content_moloko-inspiration-3.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/28/content_moloko-inspiration-2.jpg\"
+      /></p>\r\n\r\n<h3 class=\"three-per-row\">Ідея символу</h3>\r\n\r\n<p><img alt=\"Кубічна
+      ячейка денсполу + стиль 8біт графіки + драм машина\" src=\"/ckeditor_assets/pictures/35/content_moloko-symbol-idea-1.jpg\"
+      /></p>\r\n\r\n<p>аіваів</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n"'
+    - support@voroninstudio.eu
+    - 13
+    - Portfolio::Portfolio
+    - 
+    - 
+    - '2014-04-09 13:38:38.543057'
+    - '2014-04-09 13:38:38.543057'
+  - - 146
+    - 'result: "<h3>Натхнення</h3>\r\n\r\n<p>Натхненням стали збірні образи кращих
+      європейських клубів, кубічність в формі та цікавий і не стандартний погляд на
+      корівок та молоко.</p>\r\n\r\n<p class=\"three-per-row\"><img alt=\"Inspiration
+      1\" src=\"/ckeditor_assets/pictures/32/content_moloko-inspiration-6.jpg\" /><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/31/content_moloko-inspiration-4.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/34/content_moloko-inspiration-5.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/30/content_moloko-inspiration-1.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/29/content_moloko-inspiration-3.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/28/content_moloko-inspiration-2.jpg\"
+      /></p>\r\n\r\n<h3 class=\"three-per-row\">Ідея символу</h3>\r\n\r\n<p><img alt=\"Кубічна
+      ячейка денсполу + стиль 8біт графіки + драм машина\" src=\"/ckeditor_assets/pictures/35/content_moloko-symbol-idea-1.jpg\"
+      /></p>\r\n\r\n<p>аіваів</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n" ->
+      "<h3>Натхнення</h3>\r\n\r\n<p>Натхненням стали збірні образи кращих європейських
+      клубів, кубічність в формі та цікавий і не стандартний погляд на корівок та
+      молоко.</p>\r\n\r\n<p class=\"three-per-row\"><img alt=\"Inspiration 1\" src=\"/ckeditor_assets/pictures/32/content_moloko-inspiration-6.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/31/content_moloko-inspiration-4.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/34/content_moloko-inspiration-5.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/30/content_moloko-inspiration-1.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/29/content_moloko-inspiration-3.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/28/content_moloko-inspiration-2.jpg\"
+      /></p>\r\n\r\n<h3 class=\"three-per-row\">Ідея символу</h3>\r\n\r\n<p><img alt=\"Кубічна
+      ячейка денсполу + стиль 8біт графіки + драм машина\" src=\"/ckeditor_assets/pictures/35/content_moloko-symbol-idea-1.jpg\"
+      /></p>\r\n\r\n<p align=\"center\"><img alt=\"\" src=\"/ckeditor_assets/pictures/36/content_moloko-logo-1.jpg\"
+      /></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n"'
+    - support@voroninstudio.eu
+    - 13
+    - Portfolio::Portfolio
+    - 
+    - 
+    - '2014-04-09 13:44:26.194979'
+    - '2014-04-09 13:44:26.194979'
+  - - 147
+    - 'result: "<h3>Натхнення</h3>\r\n\r\n<p>Натхненням стали збірні образи кращих
+      європейських клубів, кубічність в формі та цікавий і не стандартний погляд на
+      корівок та молоко.</p>\r\n\r\n<p class=\"three-per-row\"><img alt=\"Inspiration
+      1\" src=\"/ckeditor_assets/pictures/32/content_moloko-inspiration-6.jpg\" /><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/31/content_moloko-inspiration-4.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/34/content_moloko-inspiration-5.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/30/content_moloko-inspiration-1.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/29/content_moloko-inspiration-3.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/28/content_moloko-inspiration-2.jpg\"
+      /></p>\r\n\r\n<h3 class=\"three-per-row\">Ідея символу</h3>\r\n\r\n<p><img alt=\"Кубічна
+      ячейка денсполу + стиль 8біт графіки + драм машина\" src=\"/ckeditor_assets/pictures/35/content_moloko-symbol-idea-1.jpg\"
+      /></p>\r\n\r\n<p align=\"center\"><img alt=\"\" src=\"/ckeditor_assets/pictures/36/content_moloko-logo-1.jpg\"
+      /></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n" -> "<h3>Натхнення</h3>\r\n\r\n<p>Натхненням
+      стали збірні образи кращих європейських клубів, кубічність в формі та цікавий
+      і не стандартний погляд на корівок та молоко.</p>\r\n\r\n<p class=\"three-per-row\"><img
+      alt=\"Inspiration 1\" src=\"/ckeditor_assets/pictures/32/content_moloko-inspiration-6.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/31/content_moloko-inspiration-4.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/34/content_moloko-inspiration-5.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/30/content_moloko-inspiration-1.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/29/content_moloko-inspiration-3.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/28/content_moloko-inspiration-2.jpg\"
+      /></p>\r\n\r\n<h3 class=\"three-per-row\">Ідея символу</h3>\r\n\r\n<p><img alt=\"Кубічна
+      ячейка денсполу + стиль 8біт графіки + драм машина\" src=\"/ckeditor_assets/pictures/35/content_moloko-symbol-idea-1.jpg\"
+      /></p>\r\n\r\n<p align=\"center\"><img alt=\"\" src=\"/ckeditor_assets/pictures/36/content_moloko-logo-1.jpg\"
+      style=\"width: 500px; height: 520px;\" /></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n"'
+    - support@voroninstudio.eu
+    - 13
+    - Portfolio::Portfolio
+    - 
+    - 
+    - '2014-04-09 13:45:18.657396'
+    - '2014-04-09 13:45:18.657396'
+  - - 148
+    - 'result: "<h3>Натхнення</h3>\r\n\r\n<p>Натхненням стали збірні образи кращих
+      європейських клубів, кубічність в формі та цікавий і не стандартний погляд на
+      корівок та молоко.</p>\r\n\r\n<p class=\"three-per-row\"><img alt=\"Inspiration
+      1\" src=\"/ckeditor_assets/pictures/32/content_moloko-inspiration-6.jpg\" /><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/31/content_moloko-inspiration-4.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/34/content_moloko-inspiration-5.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/30/content_moloko-inspiration-1.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/29/content_moloko-inspiration-3.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/28/content_moloko-inspiration-2.jpg\"
+      /></p>\r\n\r\n<h3 class=\"three-per-row\">Ідея символу</h3>\r\n\r\n<p><img alt=\"Кубічна
+      ячейка денсполу + стиль 8біт графіки + драм машина\" src=\"/ckeditor_assets/pictures/35/content_moloko-symbol-idea-1.jpg\"
+      /></p>\r\n\r\n<p align=\"center\"><img alt=\"\" src=\"/ckeditor_assets/pictures/36/content_moloko-logo-1.jpg\"
+      style=\"width: 500px; height: 520px;\" /></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n"
+      -> "<h3>Натхнення</h3>\r\n\r\n<p>Натхненням стали збірні образи кращих європейських
+      клубів, кубічність в формі та цікавий і не стандартний погляд на корівок та
+      молоко.</p>\r\n\r\n<p class=\"three-per-row\"><img alt=\"Inspiration 1\" src=\"/ckeditor_assets/pictures/32/content_moloko-inspiration-6.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/31/content_moloko-inspiration-4.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/34/content_moloko-inspiration-5.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/30/content_moloko-inspiration-1.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/29/content_moloko-inspiration-3.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/28/content_moloko-inspiration-2.jpg\"
+      /></p>\r\n\r\n<h3 class=\"three-per-row\">Ідея символу</h3>\r\n\r\n<p><img align=\"center\"
+      alt=\"Кубічна ячейка денсполу + стиль 8біт графіки + драм машина\" src=\"/ckeditor_assets/pictures/37/content_moloko-symbol-idea-1.jpg\"
+      style=\"width: 800px; height: 249px;\" /></p>\r\n\r\n<p align=\"center\" alt=\"Логотип
+      нічного клубу МОЛОКО, м. Львів\"><img alt=\"\" src=\"/ckeditor_assets/pictures/36/content_moloko-logo-1.jpg\"
+      style=\"width: 500px; height: 520px;\" /></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n"'
+    - support@voroninstudio.eu
+    - 13
+    - Portfolio::Portfolio
+    - 
+    - 
+    - '2014-04-09 13:56:44.829921'
+    - '2014-04-09 13:56:44.829921'
+  - - 149
+    - 'result: "<h3>Натхнення</h3>\r\n\r\n<p>Натхненням стали збірні образи кращих
+      європейських клубів, кубічність в формі та цікавий і не стандартний погляд на
+      корівок та молоко.</p>\r\n\r\n<p class=\"three-per-row\"><img alt=\"Inspiration
+      1\" src=\"/ckeditor_assets/pictures/32/content_moloko-inspiration-6.jpg\" /><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/31/content_moloko-inspiration-4.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/34/content_moloko-inspiration-5.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/30/content_moloko-inspiration-1.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/29/content_moloko-inspiration-3.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/28/content_moloko-inspiration-2.jpg\"
+      /></p>\r\n\r\n<h3 class=\"three-per-row\">Ідея символу</h3>\r\n\r\n<p><img align=\"center\"
+      alt=\"Кубічна ячейка денсполу + стиль 8біт графіки + драм машина\" src=\"/ckeditor_assets/pictures/37/content_moloko-symbol-idea-1.jpg\"
+      style=\"width: 800px; height: 249px;\" /></p>\r\n\r\n<p align=\"center\" alt=\"Логотип
+      нічного клубу МОЛОКО, м. Львів\"><img alt=\"\" src=\"/ckeditor_assets/pictures/36/content_moloko-logo-1.jpg\"
+      style=\"width: 500px; height: 520px;\" /></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n"
+      -> "<h3>Натхнення</h3>\r\n\r\n<p>Натхненням стали збірні образи кращих європейських
+      клубів, кубічність в формі та цікавий і не стандартний погляд на корівок та
+      молоко.</p>\r\n\r\n<p class=\"three-per-row\"><img alt=\"Inspiration 1\" src=\"/ckeditor_assets/pictures/32/content_moloko-inspiration-6.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/31/content_moloko-inspiration-4.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/34/content_moloko-inspiration-5.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/30/content_moloko-inspiration-1.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/29/content_moloko-inspiration-3.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/28/content_moloko-inspiration-2.jpg\"
+      /></p>\r\n\r\n<h3 class=\"three-per-row\">Ідея символу</h3>\r\n\r\n<p align=\"center\"><img
+      alt=\"Кубічна ячейка денсполу + стиль 8біт графіки + драм машина\" src=\"/ckeditor_assets/pictures/37/content_moloko-symbol-idea-1.jpg\"
+      style=\"width: 800px; height: 249px;\" /></p>\r\n\r\n<p align=\"center\" alt=\"Логотип
+      нічного клубу МОЛОКО, м. Львів\"><img alt=\"\" src=\"/ckeditor_assets/pictures/36/content_moloko-logo-1.jpg\"
+      style=\"width: 500px; height: 520px;\" /></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>"'
+    - support@voroninstudio.eu
+    - 13
+    - Portfolio::Portfolio
+    - 
+    - 
+    - '2014-04-09 13:59:13.212440'
+    - '2014-04-09 13:59:13.212440'
+  - - 150
+    - new
+    - support@voroninstudio.eu
+    - 6
+    - Portfolio::PortfolioBanner
+    - 
+    - 
+    - '2014-04-10 08:56:49.072022'
+    - '2014-04-10 08:56:49.072022'
+  - - 151
+    - new
+    - support@voroninstudio.eu
+    - 14
+    - Portfolio::Portfolio
+    - 
+    - 
+    - '2014-04-10 09:05:20.559921'
+    - '2014-04-10 09:05:20.559921'
+  - - 152
+    - 'published: false -> true, portfolio_banner_id: 6 -> nil'
+    - support@voroninstudio.eu
+    - 14
+    - Portfolio::Portfolio
+    - 
+    - 
+    - '2014-04-10 09:05:44.743907'
+    - '2014-04-10 09:05:44.743907'
+  - - 153
+    - 'description: "<p>Компания &laquo;Грин Телеком&raquo; предлагает комплексные
+      телекоммуникационные решения для различных объектов коммерческой недвижимости:
+      деловых центров, торговых центров, гостиниц и других предприятий малого, среднего
+      и крупного бизнеса. Наши специалисты обеспечивают полный набор самых современных
+      услуг связи, индивидуальный подход к каждому клиенту и техническую поддержку.</p>\r\n"
+      -> "<p>Компанія &laquo;Грін Телеком&raquo; пропонує комплексні телекомунікаційні
+      рішення для різних об&#39;єктів комерційної нерухомості: ділових центрів, торгових
+      центрів, готелів та інших підприємств малого, середнього та великого бізнесу.
+      Наші спеціалісти забезпечують повний набір найсучасніших послуг зв&#39;язку,
+      індивідуальний підхід до кожного клієнта та технічну підтримку.</p>\r\n"'
+    - support@voroninstudio.eu
+    - 14
+    - Portfolio::Portfolio
+    - 
+    - 
+    - '2014-04-10 09:11:47.227399'
+    - '2014-04-10 09:11:47.227399'
+  - - 154
+    - 'result: "" -> "<h3><span style=\"color:#93d62f;\">Натхнення</span></h3>\r\n\r\n<p>fdsfsd</p>\r\n\r\n<p>fdsfsd</p>\r\n\r\n<p>fdsfsd</p>\r\n\r\n<p>fdsfsd</p>\r\n\r\n<p>fdsfsd</p>\r\n\r\n<p>fdsfsd</p>\r\n\r\n<h3><span
+      style=\"color:#93d62f;\">Логотип</span></h3>\r\n"'
+    - support@voroninstudio.eu
+    - 14
+    - Portfolio::Portfolio
+    - 
+    - 
+    - '2014-04-10 09:14:08.168307'
+    - '2014-04-10 09:14:08.168307'
+  - - 155
+    - 'portfolio_id: nil -> 14'
+    - support@voroninstudio.eu
+    - 6
+    - Portfolio::PortfolioBanner
+    - 
+    - 
+    - '2014-04-10 09:17:51.539738'
+    - '2014-04-10 09:17:51.539738'
+  - - 156
+    - 'title: "<p><span style=\"color:#cccccc;\"><span style=\"font-size:48px;\">​GREEN
+      TELECOM: Телекомуникационный провайдер</span></span></p>\r\n" -> "<p><span style=\"color:#cccccc;\"><span
+      style=\"font-size:48px;\">​GREEN TELECOM — комплексні телекомунікаційні рішення.</span></span></p>",
+      description: "<p><span style=\"color:#cccccc;\">Компания &laquo;Грин Телеком&raquo;
+      предлагает комплексные телекоммуникационные решения для различных объектов коммерческой
+      недвижимости: деловых центров, торговых центров, гостиниц и других предприятий
+      малого, средне</span><span style=\"color:#FFFFFF;\">го и крупного бизнеса.</span></p>\r\n"
+      -> "<p><span style=\"color:#cccccc;\">Компанія &laquo;Грін Телеком&raquo; пропонує
+      комплексні телекомунікаційні рішення для різних об&#39;єктів комерційної нерухомості:
+      ділових центрів, торгових центрів, готелів та інших підприємств малого, середнього
+      та великого бізнесу.</span></p>\r\n"'
+    - support@voroninstudio.eu
+    - 6
+    - Portfolio::PortfolioBanner
+    - 
+    - 
+    - '2014-04-10 09:21:18.847065'
+    - '2014-04-10 09:21:18.847065'
+  - - 157
+    - 'result: "<h3><span style=\"color:#93d62f;\">Натхнення</span></h3>\r\n\r\n<p>fdsfsd</p>\r\n\r\n<p>fdsfsd</p>\r\n\r\n<p>fdsfsd</p>\r\n\r\n<p>fdsfsd</p>\r\n\r\n<p>fdsfsd</p>\r\n\r\n<p>fdsfsd</p>\r\n\r\n<h3><span
+      style=\"color:#93d62f;\">Логотип</span></h3>\r\n" -> "<h3><span style=\"color:#93d62f;\">Натхнення</span></h3>\r\n\r\n<p
+      class=\"three-per-row\"><img alt=\"\" src=\"/ckeditor_assets/pictures/42/content_insp-450x450-6.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/43/content_insp-450x450-5.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/40/content_insp-450x450-3.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/39/content_insp-450x450-2.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/38/content_insp-450x450-1.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/41/content_insp-450x450-4.jpg\"
+      />​</p>\r\n\r\n<p>fdsfsd</p>\r\n\r\n<p>fdsfsd</p>\r\n\r\n<p>fdsfsd</p>\r\n\r\n<p>fdsfsd</p>\r\n\r\n<p>fdsfsd</p>\r\n\r\n<h3><span
+      style=\"color:#93d62f;\">Логотип</span></h3>\r\n", portfolio_banner_id: nil
+      -> 6'
+    - support@voroninstudio.eu
+    - 14
+    - Portfolio::Portfolio
+    - 
+    - 
+    - '2014-04-10 09:26:03.229009'
+    - '2014-04-10 09:26:03.229009'
+  - - 158
+    - 'result: "<h3><span style=\"color:#93d62f;\">Натхнення</span></h3>\r\n\r\n<p
+      class=\"three-per-row\"><img alt=\"\" src=\"/ckeditor_assets/pictures/42/content_insp-450x450-6.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/43/content_insp-450x450-5.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/40/content_insp-450x450-3.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/39/content_insp-450x450-2.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/38/content_insp-450x450-1.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/41/content_insp-450x450-4.jpg\"
+      />​</p>\r\n\r\n<p>fdsfsd</p>\r\n\r\n<p>fdsfsd</p>\r\n\r\n<p>fdsfsd</p>\r\n\r\n<p>fdsfsd</p>\r\n\r\n<p>fdsfsd</p>\r\n\r\n<h3><span
+      style=\"color:#93d62f;\">Логотип</span></h3>\r\n" -> "<h3><span style=\"color:#93d62f;\">Натхнення</span></h3>\r\n\r\n<p
+      class=\"three-per-row\"><img alt=\"\" src=\"/ckeditor_assets/pictures/42/content_insp-450x450-6.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/43/content_insp-450x450-5.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/40/content_insp-450x450-3.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/39/content_insp-450x450-2.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/38/content_insp-450x450-1.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/41/content_insp-450x450-4.jpg\"
+      />​</p>\r\n\r\n<h3><font color=\"#93d62f\">Ідея символу</font></h3>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/44/content_5.png\" style=\"width: 800px;
+      height: 364px;\" /></p>\r\n\r\n<h3><span style=\"color: rgb(147, 214, 47);\">Логотип</span></h3>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/45/content_6.png\" style=\"width: 800px;
+      height: 347px;\" /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/48/content_7.png\"
+      style=\"width: 800px; height: 371px;\" /></p>\r\n\r\n<h3><span style=\"color:
+      rgb(147, 214, 47);\">Фірмовий стиль</span></h3>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/46/content_8.png\" style=\"width: 800px;
+      height: 878px;\" /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/47/content_9.png\"
+      style=\"width: 800px; height: 689px;\" /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/49/content_10.png\"
+      style=\"width: 800px; height: 327px;\" />​</p>\r\n\r\n<p>fdsfsd</p>\r\n\r\n<p>fdsfsd</p>\r\n\r\n<p>fdsfsd</p>\r\n"'
+    - support@voroninstudio.eu
+    - 14
+    - Portfolio::Portfolio
+    - 
+    - 
+    - '2014-04-10 09:32:59.524354'
+    - '2014-04-10 09:32:59.524354'
+  - - 159
+    - 'result: "<h3><span style=\"color:#93d62f;\">Натхнення</span></h3>\r\n\r\n<p
+      class=\"three-per-row\"><img alt=\"\" src=\"/ckeditor_assets/pictures/42/content_insp-450x450-6.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/43/content_insp-450x450-5.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/40/content_insp-450x450-3.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/39/content_insp-450x450-2.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/38/content_insp-450x450-1.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/41/content_insp-450x450-4.jpg\"
+      />​</p>\r\n\r\n<h3><font color=\"#93d62f\">Ідея символу</font></h3>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/44/content_5.png\" style=\"width: 800px;
+      height: 364px;\" /></p>\r\n\r\n<h3><span style=\"color: rgb(147, 214, 47);\">Логотип</span></h3>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/45/content_6.png\" style=\"width: 800px;
+      height: 347px;\" /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/48/content_7.png\"
+      style=\"width: 800px; height: 371px;\" /></p>\r\n\r\n<h3><span style=\"color:
+      rgb(147, 214, 47);\">Фірмовий стиль</span></h3>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/46/content_8.png\" style=\"width: 800px;
+      height: 878px;\" /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/47/content_9.png\"
+      style=\"width: 800px; height: 689px;\" /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/49/content_10.png\"
+      style=\"width: 800px; height: 327px;\" />​</p>\r\n\r\n<p>fdsfsd</p>\r\n\r\n<p>fdsfsd</p>\r\n\r\n<p>fdsfsd</p>\r\n"
+      -> "<h3><span style=\"color:#93d62f;\">Натхнення</span></h3>\r\n\r\n<p class=\"three-per-row\"><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/42/content_insp-450x450-6.jpg\" /><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/43/content_insp-450x450-5.jpg\" /><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/40/content_insp-450x450-3.jpg\" /><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/39/content_insp-450x450-2.jpg\" /><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/38/content_insp-450x450-1.jpg\" /><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/41/content_insp-450x450-4.jpg\" />​</p>\r\n\r\n<h3><font
+      color=\"#93d62f\">Ідея символу</font></h3>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/44/content_5.png\"
+      style=\"width: 800px; height: 364px;\" /></p>\r\n\r\n<h3><span style=\"color:
+      rgb(147, 214, 47);\">Логотип</span></h3>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/45/content_6.png\"
+      style=\"width: 800px; height: 347px;\" /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/48/content_7.png\"
+      style=\"width: 800px; height: 371px;\" /></p>\r\n\r\n<h3><span style=\"color:
+      rgb(147, 214, 47);\">Фірмовий стиль</span></h3>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/46/content_8.png\" /></p>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/47/content_9.png\" style=\"width: 800px;
+      height: 689px;\" /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/49/content_10.png\"
+      style=\"width: 800px; height: 327px;\" />​</p>\r\n\r\n<p>fdsfsd</p>\r\n\r\n<p>fdsfsd</p>\r\n\r\n<p>fdsfsd</p>\r\n"'
+    - support@voroninstudio.eu
+    - 14
+    - Portfolio::Portfolio
+    - 
+    - 
+    - '2014-04-10 09:35:50.930324'
+    - '2014-04-10 09:35:50.930324'
+  - - 160
+    - 'result: "<h3><span style=\"color:#93d62f;\">Натхнення</span></h3>\r\n\r\n<p
+      class=\"three-per-row\"><img alt=\"\" src=\"/ckeditor_assets/pictures/42/content_insp-450x450-6.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/43/content_insp-450x450-5.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/40/content_insp-450x450-3.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/39/content_insp-450x450-2.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/38/content_insp-450x450-1.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/41/content_insp-450x450-4.jpg\"
+      />​</p>\r\n\r\n<h3><font color=\"#93d62f\">Ідея символу</font></h3>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/44/content_5.png\" style=\"width: 800px;
+      height: 364px;\" /></p>\r\n\r\n<h3><span style=\"color: rgb(147, 214, 47);\">Логотип</span></h3>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/45/content_6.png\" style=\"width: 800px;
+      height: 347px;\" /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/48/content_7.png\"
+      style=\"width: 800px; height: 371px;\" /></p>\r\n\r\n<h3><span style=\"color:
+      rgb(147, 214, 47);\">Фірмовий стиль</span></h3>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/46/content_8.png\" /></p>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/47/content_9.png\" style=\"width: 800px;
+      height: 689px;\" /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/49/content_10.png\"
+      style=\"width: 800px; height: 327px;\" />​</p>\r\n\r\n<p>fdsfsd</p>\r\n\r\n<p>fdsfsd</p>\r\n\r\n<p>fdsfsd</p>\r\n"
+      -> "<h3><span style=\"color:#93d62f;\">Натхнення</span></h3>\r\n\r\n<p class=\"three-per-row\"><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/42/content_insp-450x450-6.jpg\" /><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/43/content_insp-450x450-5.jpg\" /><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/40/content_insp-450x450-3.jpg\" /><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/39/content_insp-450x450-2.jpg\" /><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/38/content_insp-450x450-1.jpg\" /><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/41/content_insp-450x450-4.jpg\" />​</p>\r\n\r\n<h3><font
+      color=\"#93d62f\">Ідея символу</font></h3>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/44/content_5.png\"
+      style=\"width: 800px; height: 364px;\" /></p>\r\n\r\n<h3><span style=\"color:
+      rgb(147, 214, 47);\">Логотип</span></h3>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/45/content_6.png\"
+      style=\"width: 800px; height: 347px;\" /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/48/content_7.png\"
+      style=\"width: 800px; height: 371px;\" /></p>\r\n\r\n<h3><span style=\"color:
+      rgb(147, 214, 47);\">Фірмовий стиль</span></h3>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/51/content_gt-corporate-p1-8.png\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/50/content_gt-corporate-8.png\"
+      /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/47/content_9.png\"
+      style=\"width: 800px; height: 689px;\" /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/49/content_10.png\"
+      style=\"width: 800px; height: 327px;\" />​</p>\r\n\r\n<p>fdsfsd</p>\r\n\r\n<p>fdsfsd</p>\r\n\r\n<p>fdsfsd</p>\r\n"'
+    - support@voroninstudio.eu
+    - 14
+    - Portfolio::Portfolio
+    - 
+    - 
+    - '2014-04-10 15:01:49.427779'
+    - '2014-04-10 15:01:49.427779'
+  - - 161
+    - 'result: "<h3><span style=\"color:#93d62f;\">Натхнення</span></h3>\r\n\r\n<p
+      class=\"three-per-row\"><img alt=\"\" src=\"/ckeditor_assets/pictures/42/content_insp-450x450-6.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/43/content_insp-450x450-5.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/40/content_insp-450x450-3.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/39/content_insp-450x450-2.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/38/content_insp-450x450-1.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/41/content_insp-450x450-4.jpg\"
+      />​</p>\r\n\r\n<h3><font color=\"#93d62f\">Ідея символу</font></h3>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/44/content_5.png\" style=\"width: 800px;
+      height: 364px;\" /></p>\r\n\r\n<h3><span style=\"color: rgb(147, 214, 47);\">Логотип</span></h3>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/45/content_6.png\" style=\"width: 800px;
+      height: 347px;\" /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/48/content_7.png\"
+      style=\"width: 800px; height: 371px;\" /></p>\r\n\r\n<h3><span style=\"color:
+      rgb(147, 214, 47);\">Фірмовий стиль</span></h3>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/51/content_gt-corporate-p1-8.png\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/50/content_gt-corporate-8.png\"
+      /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/47/content_9.png\"
+      style=\"width: 800px; height: 689px;\" /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/49/content_10.png\"
+      style=\"width: 800px; height: 327px;\" />​</p>\r\n\r\n<p>fdsfsd</p>\r\n\r\n<p>fdsfsd</p>\r\n\r\n<p>fdsfsd</p>\r\n"
+      -> "<h3><span style=\"color:#93d62f;\">Натхнення</span></h3>\r\n\r\n<p class=\"three-per-row\"><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/42/content_insp-450x450-6.jpg\" /><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/43/content_insp-450x450-5.jpg\" /><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/40/content_insp-450x450-3.jpg\" /><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/39/content_insp-450x450-2.jpg\" /><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/38/content_insp-450x450-1.jpg\" /><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/41/content_insp-450x450-4.jpg\" />​</p>\r\n\r\n<h3><font
+      color=\"#93d62f\">Ідея символу</font></h3>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/44/content_5.png\"
+      style=\"width: 800px; height: 364px;\" /></p>\r\n\r\n<h3><span style=\"color:
+      rgb(147, 214, 47);\">Логотип</span></h3>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/45/content_6.png\"
+      style=\"width: 800px; height: 347px;\" /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/48/content_7.png\"
+      style=\"width: 800px; height: 371px;\" /></p>\r\n\r\n<h3><span style=\"color:
+      rgb(147, 214, 47);\">Фірмовий стиль</span></h3>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/51/content_gt-corporate-p1-8.png\"
+      style=\"width: 616px; height: 1433px;\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/50/content_gt-corporate-8.png\"
+      style=\"width: 800px; height: 876px;\" /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/47/content_9.png\"
+      style=\"width: 800px; height: 689px;\" /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/49/content_10.png\"
+      style=\"width: 800px; height: 327px;\" />​</p>\r\n\r\n<p>fdsfsd</p>\r\n\r\n<p>fdsfsd</p>\r\n\r\n<p>fdsfsd</p>\r\n"'
+    - support@voroninstudio.eu
+    - 14
+    - Portfolio::Portfolio
+    - 
+    - 
+    - '2014-04-10 15:02:29.112113'
+    - '2014-04-10 15:02:29.112113'
+  - - 162
+    - 'result: "<h3><span style=\"color:#93d62f;\">Натхнення</span></h3>\r\n\r\n<p
+      class=\"three-per-row\"><img alt=\"\" src=\"/ckeditor_assets/pictures/42/content_insp-450x450-6.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/43/content_insp-450x450-5.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/40/content_insp-450x450-3.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/39/content_insp-450x450-2.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/38/content_insp-450x450-1.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/41/content_insp-450x450-4.jpg\"
+      />​</p>\r\n\r\n<h3><font color=\"#93d62f\">Ідея символу</font></h3>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/44/content_5.png\" style=\"width: 800px;
+      height: 364px;\" /></p>\r\n\r\n<h3><span style=\"color: rgb(147, 214, 47);\">Логотип</span></h3>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/45/content_6.png\" style=\"width: 800px;
+      height: 347px;\" /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/48/content_7.png\"
+      style=\"width: 800px; height: 371px;\" /></p>\r\n\r\n<h3><span style=\"color:
+      rgb(147, 214, 47);\">Фірмовий стиль</span></h3>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/51/content_gt-corporate-p1-8.png\"
+      style=\"width: 616px; height: 1433px;\" /><img alt=\"\" src=\"/ckeditor_assets/pictures/50/content_gt-corporate-8.png\"
+      style=\"width: 800px; height: 876px;\" /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/47/content_9.png\"
+      style=\"width: 800px; height: 689px;\" /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/49/content_10.png\"
+      style=\"width: 800px; height: 327px;\" />​</p>\r\n\r\n<p>fdsfsd</p>\r\n\r\n<p>fdsfsd</p>\r\n\r\n<p>fdsfsd</p>\r\n"
+      -> "<h3><span style=\"color:#93d62f;\">Натхнення</span></h3>\r\n\r\n<p class=\"three-per-row\"><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/42/content_insp-450x450-6.jpg\" /><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/43/content_insp-450x450-5.jpg\" /><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/40/content_insp-450x450-3.jpg\" /><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/39/content_insp-450x450-2.jpg\" /><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/38/content_insp-450x450-1.jpg\" /><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/41/content_insp-450x450-4.jpg\" />​</p>\r\n\r\n<h3><font
+      color=\"#93d62f\">Ідея символу</font></h3>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/44/content_5.png\"
+      style=\"width: 800px; height: 364px;\" /></p>\r\n\r\n<h3><span style=\"color:
+      rgb(147, 214, 47);\">Логотип</span></h3>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/45/content_6.png\"
+      style=\"width: 800px; height: 347px;\" /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/48/content_7.png\"
+      style=\"width: 800px; height: 371px;\" /></p>\r\n\r\n<h3><span style=\"color:
+      rgb(147, 214, 47);\">Фірмовий стиль</span></h3>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/53/content_gt-corporate-8.png\" /></p>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/47/content_9.png\" style=\"width: 800px;
+      height: 689px;\" /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/49/content_10.png\"
+      style=\"width: 800px; height: 327px;\" />​</p>\r\n\r\n<p>fdsfsd</p>\r\n\r\n<p>fdsfsd</p>\r\n\r\n<p>fdsfsd</p>\r\n"'
+    - support@voroninstudio.eu
+    - 14
+    - Portfolio::Portfolio
+    - 
+    - 
+    - '2014-04-10 17:48:39.651566'
+    - '2014-04-10 17:48:39.651566'
+  - - 163
+    - 'result: "<h3><span style=\"color:#93d62f;\">Натхнення</span></h3>\r\n\r\n<p
+      class=\"three-per-row\"><img alt=\"\" src=\"/ckeditor_assets/pictures/42/content_insp-450x450-6.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/43/content_insp-450x450-5.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/40/content_insp-450x450-3.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/39/content_insp-450x450-2.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/38/content_insp-450x450-1.jpg\"
+      /><img alt=\"\" src=\"/ckeditor_assets/pictures/41/content_insp-450x450-4.jpg\"
+      />​</p>\r\n\r\n<h3><font color=\"#93d62f\">Ідея символу</font></h3>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/44/content_5.png\" style=\"width: 800px;
+      height: 364px;\" /></p>\r\n\r\n<h3><span style=\"color: rgb(147, 214, 47);\">Логотип</span></h3>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/45/content_6.png\" style=\"width: 800px;
+      height: 347px;\" /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/48/content_7.png\"
+      style=\"width: 800px; height: 371px;\" /></p>\r\n\r\n<h3><span style=\"color:
+      rgb(147, 214, 47);\">Фірмовий стиль</span></h3>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/53/content_gt-corporate-8.png\" /></p>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/47/content_9.png\" style=\"width: 800px;
+      height: 689px;\" /></p>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/49/content_10.png\"
+      style=\"width: 800px; height: 327px;\" />​</p>\r\n\r\n<p>fdsfsd</p>\r\n\r\n<p>fdsfsd</p>\r\n\r\n<p>fdsfsd</p>\r\n"
+      -> "<h3><span style=\"color:#93d62f;\">Натхнення</span></h3>\r\n\r\n<p class=\"three-per-row\"><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/42/content_insp-450x450-6.jpg\" /><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/43/content_insp-450x450-5.jpg\" /><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/40/content_insp-450x450-3.jpg\" /><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/39/content_insp-450x450-2.jpg\" /><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/38/content_insp-450x450-1.jpg\" /><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/41/content_insp-450x450-4.jpg\" />​</p>\r\n\r\n<h3><font
+      color=\"#93d62f\">Ідея символу</font></h3>\r\n\r\n<p><img alt=\"\" src=\"/ckeditor_assets/pictures/56/content_5.png\"
+      /></p>\r\n\r\n<h3><span style=\"color: rgb(147, 214, 47);\">Логотип</span></h3>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/54/content_6.png\" /></p>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/55/content_7.png\" /></p>\r\n\r\n<h3><span
+      style=\"color: rgb(147, 214, 47);\">Фірмовий стиль</span></h3>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/53/content_gt-corporate-8.png\" /></p>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/57/content_9.png\" /></p>\r\n\r\n<p><img
+      alt=\"\" src=\"/ckeditor_assets/pictures/58/content_10.png\" />​</p>\r\n\r\n<p>fdsfsd</p>\r\n\r\n<p>fdsfsd</p>\r\n\r\n<p>fdsfsd</p>\r\n"'
+    - support@voroninstudio.eu
+    - 14
+    - Portfolio::Portfolio
+    - 
+    - 
+    - '2014-04-11 07:18:41.891991'
+    - '2014-04-11 07:18:41.891991'

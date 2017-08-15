@@ -1,0 +1,228 @@
+
+---
+pages_about_page_translations:
+  columns:
+  - id
+  - pages_about_page_id
+  - locale
+  - created_at
+  - updated_at
+  - content
+  - clients_intro
+  - team_text
+  - published
+  records: 
+  - - 1
+    - 1
+    - ru
+    - '2014-09-29 09:23:41.344659'
+    - '2014-10-09 15:40:25.515599'
+    - "<div id=\"our-goal-section\">\r\n  <section id=\"our-goal-container\">\r\n
+      \       <div id=\"our-goal-description\">\r\n <h1 class=\"h1-font\">Дизайн студия</h1>\r\n<p>Дизайн
+      студия Николая Воронина берет начало в 2006 году, когда основатель студии Николай
+      Воронин после многолетнего опыта работы в зарубежных компаниях, начал профессиональную
+      фриланс деятельность в области графического дизайна. В течение трех лет Николай
+      реализовал ряд успешных проектов, которые способствовали значительному развитию
+      предприятий Львовщины, для которых были выполнены услуги графического дизайна.
+      В 2009 году студия с «фриланс» переродилась в полноценную организацию, к коллективу
+      которой присоединились талантливые дизайнеры и программисты.<br>\r\n</p>\r\n
+      \         <h2 class=\"h1-font\">Наша цель</h2>\r\n          <p>Со дня основания
+      мы ставили своей целью выполнять свою работу качественно и профессионально.
+      Сегодня мы стремимся выполнять задачи настолько эффективно, чтобы наш продукт
+      (логотип, этикетка, сайт или буклет-открытка) способствовал коммерческому успеху
+      товара или услуги. Именно это является одним из важнейших критериев оценки качества
+      дизайна. </p>\r\n        </div>\r\n        <div class=\"header-quote\">\r\n
+      \         <blockquote>\r\n            <em class=\"left\"><span class=\"quote-sprite
+      qs-left\"></span></em>\r\n            <p class=\"quote-text\">Создание полноценного
+      качественного дизайнерского продукта, который будет способствовать получению
+      прибыли и процветанию компании заказчика.</p>\r\n            <em class=\"right\"><span
+      class=\"quote-sprite qs-right\"></span></em>\r\n          </blockquote>\r\n
+      \       </div>\r\n  </section>\r\n</div>\r\n\r\n\r\n\r\n<div id=\"principes-section\">\r\n
+      \ <div id=\"principes-container\">\r\n    <div id=\"header\">\r\n        <h2
+      class=\"h1-font\">Принципы работы</h2>\r\n      </div>\r\n    <div id=\"italic-text\"
+      class=\"italic-quote\">\r\n      <p>Через исследование, стратегию, дизайн и
+      разработку мы помогаем создавать и развивать качественные и выдающиеся бренды.</p>\r\n
+      \   </div>\r\n    <div id=\"main-text\">\r\n      <div id=\"description\">\r\n
+      \       <p>Каждый новый творческий проект уникален и подход к нему должен быть
+      соответственно уникальный, разработанный именно под него. Процесс выполнения
+      в нашей студии адаптирован таким образом, чтобы обеспечить эффективное использование
+      бюджета для достижения максимального визуального эффекта. Наш подход основывается
+      на анализе, исследованиях и принятии аргументированных решений для максимально
+      эффективного выполнения.</p>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</div>\r\n\r\n\r\n\r\n\r\n<div
+      id=\"steps-section\">\r\n  <section id=\"steps-container\">\r\n      <div class=\"step\">\r\n
+      \       <h2 class=\"h1-font\"><span class=\"about-page-ic-wrapper\"><span class=\"about-page-ic
+      anal-ic\"></span></span>Анализ</h2>\r\n        <p>Перед началом работы над проектом
+      мы проводим максимально глубокий анализ того направления, которому будем работать,
+      изучаем историю предприятия, целевую аудиторию, нюансы и аспекты работы, а также
+      этапы изготовления, географию продаж и рекламы самого продукта.</p>\r\n      </div>\r\n
+      \     <div class=\"step\">\r\n        <h2 class=\"h1-font\"><span class=\"about-page-ic-wrapper\"><span
+      class=\"about-page-ic search-ic\"></span></span>Поиск решения</h2>\r\n        <p>После
+      проведения анализа, получив достаточное количество данных для принятия оптимального
+      решения мы оцениваем общие затраты на дизайн, разработку или изготовление, в
+      соответствии с чем определяем ликвидность того или иного метода и планируем
+      этапы воплощения в жизнь.</p>\r\n      </div>\r\n      <div class=\"step\">\r\n
+      \       <h2 class=\"h1-font\"><span class=\"about-page-ic-wrapper\"><span class=\"about-page-ic
+      met-ic\"></span></span>Исполнение</h2>\r\n        <p>Разработка дизайнов, программирование,
+      печати или изготовления продукта - это финальная и одна из самых интересных
+      стадий работы. Мы воплощаем в жизнь все те идеи, концепции и наработки, которые
+      были сделаны во время предыдущих этапов. В результате чего мы получаем полноценный
+      продукт, который способствует увеличению доходов бренда и улучшает его имидж.</p>\r\n
+      \     </div>\r\n  </section>\r\n</div>"
+    - "\r\n    <h3 class=\"h1-font\">Нам доверяют</h3>\r\n    <p>Со дня основания
+      мы ставили своей целью выполнять свою работу качественно и профессионально.
+      Сегодня мы стремимся выполнять задачи настолько эффективно, чтобы наш продукт
+      (логотип, этикетка, сайт или буклет-открытка) способствовал коммерческому успеху
+      товара или услуги. Именно это является одним из важнейших критериев оценки качества
+      дизайна.</p>\r\n"
+    - "\r\n    <h3 class=\"h1-font section-title\">Команда</h3>\r\n      <div id=\"italic-t-wrapper\">\r\n
+      \       <p class=\"italic-t\">Мы предоставляем возможности и пространство для
+      самореализации и совершенствования всех участников команды студии, как начинающих
+      так и профессионалов.</p>\r\n      </div>\r\n      <div class=\"part2\">\r\n
+      \       \r\n        <p class=\"padding-t\">Дизайн студия Н. Воронина - это дружный
+      коллектив профессионалов своего дела. Каждый из нас является специалистом своего
+      направления и получает огромное удовольствие от выполняемой работы. А вместе
+      мы покорим вершины, которые недоступны в одиночку. Присоединяйся к команде!</p>\r\n
+      \       <a class=\"order-us brand-button modal-link fancybox\" data-fancybox-type=\"iframe\"
+      href=\"/join-us\" id=\"modal-btn\">ПРИСОЕДИНЯЙСЯ!</a>\r\n      </div>"
+    - false
+  - - 2
+    - 1
+    - en
+    - '2014-09-29 09:23:41.456755'
+    - '2014-10-10 07:15:06.826157'
+    - "<div id=\"our-goal-section\">\r\n  <section id=\"our-goal-container\">\r\n
+      \       <div id=\"our-goal-description\">\r\n <h1 class=\"h1-font\">Design Studio</h1>\r\n<p>Voronin
+      Design Studio originated in 2006 when founder of the studio Nick Voronin after
+      years of experience in foreign companies began freelance professional activity
+      in the field of graphic design. Within three years Nick has implemented a number
+      of successful projects that have contributed to a significant development of
+      enterprises of Lviv, which were made ​​graphic design services. In 2009, the
+      studio with \"freelance\" has degenerated into a full-fledged organization,
+      staff joined by talented designers and programmers.<br>\r\n</p>\r\n          <h2
+      class=\"h1-font\">Our goal</h2>\r\n          <p>Since the establishment, we
+      have set out to do their job efficiently and professionally. Today we want to
+      perform the task so effectively that our product (logo, label, website or brochure,
+      flyer) contributed to the commercial success of a product or service. This is
+      one of the most important criteria for evaluating the quality of performance
+      design. </p>\r\n        </div>\r\n        <div class=\"header-quote\">\r\n          <blockquote>\r\n
+      \           <em class=\"left\"><span class=\"quote-sprite qs-left\"></span></em>\r\n
+      \           <p class=\"quote-text\">Create full quality designer products that
+      will help profit and prosperity of the customer.</p>\r\n            <em class=\"right\"><span
+      class=\"quote-sprite qs-right\"></span></em>\r\n          </blockquote>\r\n
+      \       </div>\r\n  </section>\r\n</div>\r\n\r\n\r\n\r\n<div id=\"principes-section\">\r\n
+      \ <div id=\"principes-container\">\r\n    <div id=\"header\">\r\n        <h2
+      class=\"h1-font\">Principles of work</h2>\r\n      </div>\r\n    <div id=\"italic-text\"
+      class=\"italic-quote\">\r\n      <p>Through research, strategy, design and development
+      we are helping to create and develop high quality and outstanding brands.</p>\r\n
+      \   </div>\r\n    <div id=\"main-text\">\r\n      <div id=\"description\">\r\n
+      \       <p>Each new creative project is unique and the approach to it should
+      be in accordance unique designed just for him. The process of implementation
+      in our studio adapted so as to ensure effective use of the budget for maximum
+      visual effect. Our approach is based on analysis, research and making reasoned
+      decisions to maximize performance.</p>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</div>\r\n\r\n\r\n\r\n\r\n<div
+      id=\"steps-section\">\r\n  <section id=\"steps-container\">\r\n      <div class=\"step\">\r\n
+      \       <h2 class=\"h1-font\"><span class=\"about-page-ic-wrapper\"><span class=\"about-page-ic
+      anal-ic\"></span></span>Research</h2>\r\n        <p>Before beginning work on
+      the project we are most profound research of the direction with which we work,
+      learn the history of the company, target audience, nuances and aspects of the
+      work, and the stages of production, the geography of sales and advertising of
+      the product.</p>\r\n      </div>\r\n      <div class=\"step\">\r\n        <h2
+      class=\"h1-font\"><span class=\"about-page-ic-wrapper\"><span class=\"about-page-ic
+      search-ic\"></span></span>Planing</h2>\r\n        <p>After the research, having
+      enough data to make optimal decisions, we estimate the total cost of design,
+      development or production, in accordance with what we determine the liquidity
+      of a method and planning stages of the implementation of the.</p>\r\n      </div>\r\n
+      \     <div class=\"step\">\r\n        <h2 class=\"h1-font\"><span class=\"about-page-ic-wrapper\"><span
+      class=\"about-page-ic met-ic\"></span></span>Execution</h2>\r\n        <p>Design,
+      programming, printing or manufacture of the product - a final and one of the
+      most interesting phases of work. We will putting into practice all the ideas,
+      concepts and developments that have been made during the previous stages. As
+      a result, we get a complete product that increases revenue and improves its
+      brand image.</p>\r\n      </div>\r\n  </section>\r\n</div>"
+    - "\r\n    <h3 class=\"h1-font\">We are trusted</h3>\r\n    <p>Since the establishment,
+      we have set out to do their job efficiently and professionally. Today we want
+      to perform the task so effectively that our product (logo, label, website or
+      brochure, flyer) contributed to the commercial success of a product or service.
+      This is one of the most important criteria for evaluating the quality of performance
+      design.</p>\r\n"
+    - "\r\n    <h3 class=\"h1-font section-title\">Team</h3>\r\n      <div id=\"italic-t-wrapper\">\r\n
+      \       <p class=\"italic-t\">We provide opportunities and space for self-improvement
+      of all team members, both beginners and professionals.</p>\r\n      </div>\r\n
+      \     <div class=\"part2\">\r\n        \r\n        <p class=\"padding-t\">Voronin
+      Design Studio - a friendly team of professionals in their field. Each of us
+      is a specialist in his area and gets great satisfaction from work performed.
+      And together we will conquer peaks, which are not alone. Join the team!</p>\r\n
+      \       <a class=\"order-us brand-button modal-link fancybox\" data-fancybox-type=\"iframe\"
+      href=\"/join-us\" id=\"modal-btn\">JOIN US!</a>\r\n      </div>"
+    - false
+  - - 3
+    - 1
+    - uk
+    - '2014-09-29 09:23:41.478290'
+    - '2014-09-29 09:23:41.478290'
+    - "<div id=\"our-goal-section\">\r\n  <section id=\"our-goal-container\">\r\n
+      \       <div id=\"our-goal-description\">\r\n <h1 class=\"h1-font\">Дизайн студія</h1>\r\n<p>Дизайн
+      студія Миколи Вороніна бере початок у 2006 році, коли засновник студії Микола
+      Воронін після багаторічного досвіду роботи в зарубіжних компаніях, розпочав
+      професійну фріланс діяльність в області графічного дизайну. Протягом трьох років
+      Микола реалізував низку успішних проектів, що сприяли значному розвитку підприємств
+      Львівщини, для яких були виконані послуги графічного дизайну. У 2009 році студія
+      з «фріланс» переродилася в повноцінну організацію, до колективу якої приєднались
+      талановиті дизайнери та програмісти.<br>\r\n</p>\r\n          <h2 class=\"h1-font\">Наша
+      ціль</h2>\r\n          <p>З дня заснування ми ставили собі за мету виконувати
+      свою роботу якісно та професійно. Сьогодні ми прагнемо виконувати завдання настільки
+      ефективно, щоб наш продукт (логотип, етикетка, веб-сайт чи буклет-листівка)
+      сприяв комерційному успіху товару чи послуги. Саме це є одним з найважливіших
+      критеріїв оцінки якості виконання дизайну. </p>\r\n        </div>\r\n        <div
+      class=\"header-quote\">\r\n          <blockquote>\r\n            <em class=\"left\"><span
+      class=\"quote-sprite qs-left\"></span></em>\r\n            <p class=\"quote-text\">Створення
+      повноцінного якісного дизайнерського продукту, який сприятиме отриманню прибутків
+      та процвітанню компанії замовника.</p>\r\n            <em class=\"right\"><span
+      class=\"quote-sprite qs-right\"></span></em>\r\n          </blockquote>\r\n
+      \       </div>\r\n  </section>\r\n</div>\r\n\r\n\r\n\r\n<div id=\"principes-section\">\r\n
+      \ <div id=\"principes-container\">\r\n    <div id=\"header\">\r\n        <h2
+      class=\"h1-font\">Принципи роботи</h2>\r\n      </div>\r\n    <div id=\"italic-text\"
+      class=\"italic-quote\">\r\n      <p>Через дослідження, стратегію, дизайн та
+      розробку ми допомагаємо створювати та розвивати якісні і видатні бренди.</p>\r\n
+      \   </div>\r\n    <div id=\"main-text\">\r\n      <div id=\"description\">\r\n
+      \       <p>Кожний новий творчий проект є унікальним і підхід до нього повинен
+      бути відповідно унікальний, розроблений саме під нього. А процес виконання в
+      нашій студії адаптований таким чином, щоб забезпечити ефективне використання
+      бюджету для досягнення максимального візуального ефекту. Наш підхід ґрунтується
+      на аналізі, дослідженнях та прийнятті аргументованих рішень для максимально
+      ефективного виконання.</p>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</div>\r\n\r\n\r\n\r\n\r\n<div
+      id=\"steps-section\">\r\n  <section id=\"steps-container\">\r\n      <div class=\"step\">\r\n
+      \       <h2 class=\"h1-font\"><span class=\"about-page-ic-wrapper\"><span class=\"about-page-ic
+      anal-ic\"></span></span>Аналіз</h2>\r\n        <p>Перед початком роботи над
+      проектом ми проводимо максимально глибокий аналіз того напрямку, з яким будемо
+      працювати, вивчаємо історію підприємства, цільову аудиторію, нюанси та аспекти
+      роботи, а також етапи виготовлення, географію продажу та реклами самого продукту.</p>\r\n
+      \     </div>\r\n      <div class=\"step\">\r\n        <h2 class=\"h1-font\"><span
+      class=\"about-page-ic-wrapper\"><span class=\"about-page-ic search-ic\"></span></span>Пошук
+      рішення</h2>\r\n        <p>Після проведення аналізу, отримавши достатню кількість
+      даних для прийняття оптимального рішення ми оцінюємо загальні затрати на дизайн,
+      розробку чи виготовлення, відповідно до чого визначаємо ліквідність того чи
+      іншого методу та плануємо етапи втілення у життя.</p>\r\n      </div>\r\n      <div
+      class=\"step\">\r\n        <h2 class=\"h1-font\"><span class=\"about-page-ic-wrapper\"><span
+      class=\"about-page-ic met-ic\"></span></span>Виконання</h2>\r\n        <p>Розробка
+      дизайнів, програмування, друку чи виготовлення продукту – це фінальна і одна
+      з найцікавіших стадій роботи. Ми втілюємо у життя всі ті ідеї, концепції та
+      напрацювання, які були зроблені під час попередніх етапів. У результаті чого
+      ми отримуємо повноцінний продукт, який сприяє збільшенню доходів бренду та покращує
+      його імідж.</p>\r\n      </div>\r\n  </section>\r\n</div>"
+    - "\r\n    <h3 class=\"h1-font\">Нам довіряють</h3>\r\n    <p>З дня заснування
+      ми ставили собі за мету виконувати свою роботу якісно та професійно. Сьогодні
+      ми прагнемо виконувати завдання настільки ефективно, щоб наш продукт (логотип,
+      етикетка, веб-сайт чи буклет-листівка) сприяв комерційному успіху товару чи
+      послуги. Саме це є одним з найважливіших критеріїв оцінки якості виконання дизайну.</p>\r\n"
+    - "\r\n    <h3 class=\"h1-font section-title\">Команда</h3>\r\n      <div id=\"italic-t-wrapper\">\r\n
+      \       <p class=\"italic-t\">Ми надаємо можливості та простір для самореалізації
+      і вдосконалення усіх учасників команди студії, як початківців так і професіоналів.</p>\r\n
+      \     </div>\r\n      <div class=\"part2\">\r\n        \r\n        <p class=\"padding-t\">Студія
+      дизайну М. Вороніна — це дружній колектив професіоналів своєї справи. Кожен
+      з нас є спеціалістом свого напрямку і отримує величезне задоволення від роботи,
+      яку виконує. А разом ми підкоримо вершини, які недоступні в одиночку.  Приєднуйся
+      до команди!</p>\r\n        <a class=\"order-us brand-button modal-link fancybox\"
+      data-fancybox-type=\"iframe\" href=\"/join-us\" id=\"modal-btn\">ПРИЄДНУЙСЯ!</a>\r\n
+      \     </div>"
+    - true

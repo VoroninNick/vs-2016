@@ -1,0 +1,49 @@
+
+---
+portfolio_categories:
+  columns:
+  - id
+  - name
+  - created_at
+  - updated_at
+  - slug
+  - portfolio_id
+  - name_eng
+  - title
+  - published
+  - full_description
+  - short_description
+  records: 
+  - - 1
+    - Corporate identity
+    - '2013-03-31 00:46:53.140795'
+    - '2015-02-11 12:39:56.119784'
+    - corporate-identity
+    - 
+    - 
+    - "Фірмовий стиль"
+    - false
+    - 
+    - 
+  - - 2
+    - Packaging
+    - '2013-03-31 00:47:20.389160'
+    - '2014-10-18 17:30:43.051376'
+    - packaging
+    - 
+    - 
+    - "Упаковка"
+    - false
+    - 
+    - 
+  - - 3
+    - Web
+    - '2013-03-31 00:47:30.880383'
+    - '2014-10-18 17:42:10.370283'
+    - web
+    - 
+    - 
+    - "Веб-сайти"
+    - false
+    - 
+    - 
