@@ -9,7 +9,7 @@
   svg
     shape-rendering: crispEdges
 
-#projects-popup-button, #projects-popup-button-close
+#projects-popup-button, #projects-popup-button-close, #hire-us-fixed-icon
   position: fixed
   z-index: $zindex-projects-popup-button
   right: 60px
@@ -28,8 +28,13 @@
   path
     +transition-duration(0.2s)
     +transition-property(fill)
+#projects-popup-button, #projects-popup-button-close
   circle
     fill: none
+
+#hire-us-fixed-icon
+  circle
+    fill: $pink-color
 
 //#projects-popup-button
   &:hover
@@ -52,7 +57,7 @@
 #projects-popup-button
   background: $black-color
 
-#projects-popup-button, #projects-popup-button-close
+#projects-popup-button, #projects-popup-button-close, #hire-us-fixed-icon
   height: 40px
   width: 40px
   border-radius: 50%

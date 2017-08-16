@@ -12,9 +12,9 @@
               .form-intro
                 = raw t("components.popups.hire-us.intro")
               form.ajax-submit.hire-us-form action=hire_us_request_path method="post" show-preloader=""
-                = render "hire_us_form_content"
+                = render "hire_us_form_content", show_link: true
             .join-us-form
               .form-intro
                 = raw t("components.popups.join-us.intro")
               form.ajax-submit.join-us-form action=join_us_request_path method="post" show-preloader=""
-                = render "join_us_form_content"
+                = render "join_us_form_content", show_link: true

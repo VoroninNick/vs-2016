@@ -1,3 +1,5 @@
+- if !defined?(show_link)
+  - show_link = false
 .content
   .inputs
     .row
@@ -22,10 +24,11 @@
 
   .actions
     .row
-      .columns.large-6
-        a.form-link.join-us-link href="#"
-          = t("components.popups.hire-us.join-us-link")
-      .columns.large-6.text-right
+      - if show_link
+        .columns.medium-6
+          a.form-link.join-us-link href="#"
+            = t("components.popups.hire-us.join-us-link")
+      .columns.medium-6.text-right.button-column
         button.btn type="submit"
           span.btn-text
             = t("forms.actions.hire-us")

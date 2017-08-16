@@ -33,18 +33,24 @@
     //overflow: hidden
     overflow: auto
     height: calc(100vh - 32px)
+    //width: calc(100vw - 32px)
 
 
   .popup-content
     z-index: 1
-    +flex(1)
+    +flexbox
+    //+flex(1)
     //text-align: center
     position: relative
     width: calc(100vw - 33px)
     min-height: calc(100vh - 32px)
     left: 0
     top: 0
-    padding: 160px 0 0 0
+    //padding: 160px 0 0 0
+
+    .form-section
+      width: 100%
+      margin: auto
 
   .form-intro
     .header
