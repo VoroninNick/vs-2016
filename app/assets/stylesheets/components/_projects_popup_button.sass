@@ -62,3 +62,46 @@
   width: 40px
   border-radius: 50%
   overflow: hidden
+
+
++keyframes(pulse-circle)
+  0%, 20%, 50%, 80%, 100%
+    +transform(scale(1))
+  40%
+    +transform(scale(2.5))
+  60%
+    +transform(scale(2.25))
+
++keyframes(pulse-icon)
+  0%, 20%, 50%, 80%, 100%
+    +transform(scale(1))
+  40%
+    +transform(scale(1.5))
+  60%
+    +transform(scale(1.35))
+
+
+#hire-us-fixed-icon
+  overflow: visible
+
+  &:before, &:after
+    display: none
+
+  .hover-circle
+    position: absolute
+    width: 40px
+    height: 40px
+    border-radius: 50%
+    background: $pink-color
+    display: block
+
+
+  &:hover
+    .hover-circle
+      +animation-name(pulse-circle)
+      +animation-iteration-count(infinite)
+      +animation-duration(2s)
+    svg
+      +animation-name(pulse-icon)
+      +animation-iteration-count(infinite)
+      +animation-duration(2s)
