@@ -21,7 +21,7 @@
                   = t("projects.show.bottom-banner.visit-website")
               span.or-share
                 = t("projects.show.bottom-banner.or-share")
-              - footer_social_links.each do |social|
+              - footer_social_links.each do |social_key, social|
                 a.social-link.icon-btn.dark href=social[:url]
                   = inline_svg social[:icon]
 

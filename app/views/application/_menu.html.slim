@@ -32,7 +32,7 @@
         a.phone href="tel:+380322403350"
           |+38 (032) 240 33 50
       #main-menu-footer-icons.social-links
-        - social_links.each do |social|
+        - social_links.each do |social_key, social|
           a.social-link.transparent href=social[:url]
             = inline_svg social[:icon]
 

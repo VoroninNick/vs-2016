@@ -12,8 +12,12 @@ class Member < ActiveRecord::Base
     do_not_validate_attachment_file_type attachment_name
   end
 
-  scope :published, -> { where(published: 't') }
+  boolean_scope :published
   scope :sort_by_sorting_position, -> { order("sorting_position asc") }
+
+  default_scope do
+    sort_by_sorting_position
+  end
 
   has_cache do
     pages :about_us

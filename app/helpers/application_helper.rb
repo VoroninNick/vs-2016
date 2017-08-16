@@ -40,11 +40,13 @@ module ApplicationHelper
   end
 
   def social_links
-    [:behance, :facebook, :google_plus, :instagram].map{|h| {icon: "svg/social2/#{h}.svg", url: "#"} }
+    Hash[[:behance, :facebook, :youtube, :google_plus, :instagram].map{|k| url = I18n.t("social_links.#{k}", raise: true) rescue nil; next nil if url.blank?;  [k, {icon: "svg/social2/#{k}.svg", url: url}] }.select{|s| !s.nil? }]
   end
 
   def footer_social_links
-    social_links[0..1]
+    count = 3
+    i = 0
+    social_links.keep_if{|s| next false if i >= count; i += 1; next true }
   end
 
   def formatted_phone_number(phone)

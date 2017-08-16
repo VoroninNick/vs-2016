@@ -199,6 +199,19 @@ body[controller-action="pages__index"]
 
 #home-services-section
 
+  .service-read-more
+    position: absolute
+    z-index: 1
+    color: white
+    bottom: 7px
+    font-size: 14px
+    font-style: italic
+    text-align: center
+    width: 100%
+    opacity: 0
+    +transition-duration(0.5s)
+    +transition-property(all)
+    +transition-timing-function(ease-in-out)
   .service, .services-intro
     width: percentage(1/3)
     height: 33.33333vh
@@ -348,6 +361,8 @@ body[controller-action="pages__index"]
       .service-name
         +translate3d(215px)
       .service-description
+        opacity: 1
+      .service-read-more
         opacity: 1
       .service-icon
         background: $pink-color

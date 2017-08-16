@@ -64,7 +64,7 @@ module RailsAdminDynamicConfig
             delete
             show_in_app
             nestable do
-              only [AboutSlide, Project, Technology]
+              only [AboutSlide, Project, Technology, Member]
             end
 
             ## With an audit adapter, you can add:
@@ -244,19 +244,18 @@ module RailsAdminDynamicConfig
 
         config.model Member do
           navigation_label_key(:about_us, 1)
+          nestable_list({position_field: :sorting_position})
+
           field :published
           field :image
           field :translations, :globalize_tabs
         end
 
         config.model_translation Member do
-          nestable_list({position_field: :sorting_position})
-          edit do
-            field :locale, :hidden
-            field :name
-            field :role
-            field :few_words_about
-          end
+          field :locale, :hidden
+          field :name
+          field :role
+          field :few_words_about
         end
 
         config.model Project do

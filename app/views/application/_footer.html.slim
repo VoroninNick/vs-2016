@@ -24,7 +24,7 @@ footer#footer
             = email
   #sub-footer-row.row
     #sub-footer-social
-      - footer_social_links.each do |social|
+      - footer_social_links.each do |social_key, social|
         a.social-link.icon-btn href=social[:url]
           = inline_svg social[:icon]
     #sub-footer-copyright

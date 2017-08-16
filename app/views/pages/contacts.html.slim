@@ -53,7 +53,7 @@
           = t("pages.contacts.follow-us")
 
         .social-links
-          - social_links.each do |social|
+          - social_links.each do |social_key, social|
             a.social-link.icon-btn href=social[:url]
               = inline_svg social[:icon]
 

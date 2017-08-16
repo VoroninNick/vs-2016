@@ -37,7 +37,7 @@ class PagesController < ApplicationController
         scroll_down_title: "take a look"
     }
 
-    @team_members = Member.all.includes(:translations)
+    @team_members = Member.published.includes(:translations)
 
     #load_logos_from_assets
 

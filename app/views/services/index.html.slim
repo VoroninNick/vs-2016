@@ -22,11 +22,11 @@
                 = inline_svg("svg/play.svg")
                 /= inline_svg("svg/play2.svg")
                 span.icon-link-label
-                  |read more
+                  = t("read-more")
               a.icon-link.play-link href=project_or_category_path(id: service.translations_by_locale[I18n.locale].url_fragment)
                 = inline_svg("svg/portfolio.svg")
                 span.icon-link-label
-                  |view cases
+                  = t("view-cases")
           .number
             = service_number
         a.service-image.go-right href=service_url
@@ -46,11 +46,11 @@
                 = inline_svg("svg/play.svg")
                 /= inline_svg("svg/play2.svg")
                 span.icon-link-label
-                  |read more
+                  = t("read-more")
               a.icon-link.play-link href=project_or_category_path(id: service.translations_by_locale[I18n.locale].url_fragment)
                 = inline_svg("svg/portfolio.svg")
                 span.icon-link-label
-                  |view cases
+                  = t("view-cases")
           .number
             = service_number
         a.service-image href=service_url
