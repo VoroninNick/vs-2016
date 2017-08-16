@@ -1,0 +1,15 @@
+div id="portfolio-toolbar" class="f-height"
+  - if @prev
+    a href=@prev.url class="pt-left"
+  - if @next
+    a href=@next.url class="pt-right"
+
+  - if @portfolio_item.result.present? || @portfolio_item.process.present? || @portfolio_item.live.present?
+    .container
+      .tabs-wrapper
+        section id="tabs-container" class="f-height"
+          - if @portfolio_item.result.present?
+            div class="portfolio-tab bottom-arrow" id="result"
+              p
+                = t("pages.portfolio-item.result")
+          - if

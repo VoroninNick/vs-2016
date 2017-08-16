@@ -1,0 +1,213 @@
+<% if @item %>
+    <style>
+      .BWfade{
+        width:100%;
+        height: 100%;
+      }
+
+      <% if @item.respond_to?(:id) && @item.id == 6 %>
+      #portfoio-banner-holder .slide-description{
+        display: none;
+      }
+      <% end %>
+
+      <% if @item.respond_to?(:id) && @item.id == 14 %>
+      #portfolio-body, .page-content, .wb{
+        background-color: #3f3d3f !important;
+      }
+      <% end %>
+      /* temporary fixes */
+
+      .slide{
+        background-position-x: 50% !important;
+      }
+
+      .slide-description{
+        max-width: 700px !important ;
+      }
+
+      #portfolio-toolbar{
+        display: none;
+      }
+
+
+    </style>
+
+    <%
+      _result = @item.result
+
+      I18n.available_locales.each do |locale|
+        locale = locale.to_sym
+    %>  <%
+
+  if _result.blank? #&& @item.translations_by_locale.keys.map(&:to_sym).include?(locale.to_sym)
+    t = @item.translations_by_locale[locale.to_sym]
+    _result = t['result'] if t && t['result'] && t["result"].length > 0 #if !t.result.blank?
+    #_result = "#{t.inspect}" #["result".to_sym]
+%> <div class="test1" style="display: none;"><%= "#{locale}: was_blank: #{ (_result.blank? && @item.translations_by_locale.keys.include?(locale.to_s) ).inspect }. result: #{t['result'].inspect}. simple_test: #{@item.translations_by_locale[:uk].result.blank?.inspect }" %></div> <%
+  end
+  end
+
+  if _result
+    #_result = false
+    #_result = @item.result
+  end
+
+
+%>
+
+<%# @result = (!@item.result.blank?) ? @item.result : ( (!(@item.translations_by_locale[:ru].result.blank?)) ? @item.translations_by_locale[:ru].result  : (!(@item.translations_by_locale[:uk].result.blank?)) ?  @item.translations_by_locale[:uk].result : false ) %>
+
+    <!-- Render portfolio toolbar -->
+    <div id="portfolio-toolbar" class="f-height">
+      <% if @prev %>
+        <a href="<%= @prev.url %>" class="pt-left"></a>
+      <% end %>
+      <% if @next %>
+        <a href="<%= @next.url %>" class="pt-right"></a>
+      <% end %>
+      <% if (_result && _result.length > 0) || (@item.process && @item.process.length > 0) || (@item.live && @item.live.length > 0) %>
+          <div class="container">
+            <div class="tabs-wrapper">
+
+
+              <section id="tabs-container" class="f-height">
+                <% if _result   %>
+                    <div class="portfolio-tab bottom-arrow" id="result" >
+                      <p><%= t("pages.portfolio-item.result") %></p>
+                    </div>
+                <% end %>
+
+                <% if @item.process && @item.process.length > 0  %>
+                    <div class="portfolio-tab bottom-arrow inactive-portfolio-tab" id="process" >
+                      <p><%= t("pages.portfolio-item.process") %></p>
+                    </div>
+                <% end %>
+
+                <% if @item.live && @item.live.length > 0  %>
+                    <div class="portfolio-tab bottom-arrow inactive-portfolio-tab" id="live">
+                      <p><%= t('pages.portfolio-item.live') %></p>
+                    </div>
+                <% end %>
+              </section>
+            </div>
+          </div>
+      <% end %>
+    </div>
+    <div class="wb">&nbsp;</div>
+    <div class="page-content white-background portfolio-item-content">
+      <%# render partial: 'portfolio/portfolio_breadcrumbs' %>
+      <div class="container portfolio-container">
+        <!-- Render Portfolio body -->
+        <div style="width:auto;" id="portfolio-body" class="f-height">
+
+          <div class="test" style="display: none;" ><%= raw _result.inspect %></div>
+
+          <section class="portfolio-content">
+            <section class="f-height">
+
+              <script type="text/javascript">
+
+              </script>
+
+              <%  _task = @item.task; I18n.available_locales.each {|locale|  break if _task.present?; _task = @item.translations_by_locale[locale].task  }  %>
+              <% if _task.present? %>
+                  <div class="pt-headers"><p><i><%= t("pages.portfolio-item.task") %></i>&nbsp;<%= _task %></p></div>
+              <% end %>
+              <!-- Here will be content -->
+
+              <% if _result || (@item.process && @item.process.length > 0) || (@item.live && @item.live.length > 0) %>
+                  <div class="tabpages portfolio-tabpages">
+                    <% if _result %>
+                        <div class="tabpage active" id="result">
+
+
+                          <!-- result content -->
+
+                          <!-- <figure class="span12 notebook-figure">
+                <div class="web-slider-wrapper">
+
+                  <div class="voronin-studio-banners">
+                    <div class="scroller">
+                      <%= image_tag('portfolio/web/voronin-studio/vs-main.jpg') %>
+                      <%= image_tag('portfolio/web/voronin-studio/vs-about.jpg') %>
+                    </div>
+                  </div>
+                </div>
+              </figure> -->
+
+                          <%=  raw _result  %>
+
+
+                          <!-- /result content -->
+
+                        </div>
+                    <% end %>
+                    <% if @item.process && @item.process.length > 0 %>
+                        <div class="tabpage" id="process">
+
+                          <%= raw @item.process %>
+
+                        </div>
+                    <% end %>
+
+                    <% if @item.live && @item.live.length > 0 %>
+                        <div class="tabpage" id="live">
+                          <%= raw @item.live %>
+                        </div>
+                    <% end %>
+
+                  </div>
+              <% end %>
+
+              <script type="text/javascript">
+
+              </script>
+
+            </section>
+          </section>
+
+          <div class="developers-panel-wrapper">
+            <!-- Rendering developer panel partial -->
+            <%# render :partial => 'projects/old_portfolio/developer_panel', :locals => { :project => @item } %>
+            <!-- /Rendering developer panel partial -->
+          </div>
+
+
+
+
+
+        </div>
+
+
+      </div>
+    </div>
+
+    <%# render partial: 'partials/item_like_bar' %>
+    <% if @other_projects.try(:any?) %>
+      <div id="other-projects">
+        <div class="carousel-wrapper">
+          <ul class="carousel">
+            <% for i in 1..1 %>
+                <% @other_projects.each do |project| %>
+                    <li class="carousel-item">
+                      <figure>
+                        <a class="image-link" href="<%= portfolio_item_path(category: project.portfolio_category.slug, item: project.slug, locale: I18n.locale) %>" data-no-turbolink="" >
+                          <img title="<%= project.name %>" alt="<%= project.name %>" class="grayscale" src="<%= project.avatar.url(:thumb) %>" />
+                        </a>
+                      </figure>
+                    </li>
+                <% end %>
+            <% end %>
+          </ul>
+        </div>
+        <script type="text/javascript">
+
+        </script>
+      </div>
+    <% end %>
+
+
+    <%# render :partial => 'partials/portfolio_invitation' %>
+
+<% end %>

@@ -22,9 +22,15 @@ class ProjectsController < ApplicationController
       set_page_metadata(@project)
       @theme = @project.code_name
       theme_template_path = "projects/templates/#{@theme}"
-      set_navigation_links(@project)
+      #set_navigation_links(@project)
       initialize_projects
-      if template_exists?(theme_template_path)
+
+      if @project.is_a?(OldProject)
+        @portfolio_item = @project.portfolio
+        #render "old_project"
+        @item = @project.portfolio
+        render "old_item"
+      elsif template_exists?(theme_template_path)
         render theme_template_path
       else
         render "show"

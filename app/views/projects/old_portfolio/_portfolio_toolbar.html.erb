@@ -1,0 +1,33 @@
+
+<div id="portfolio-toolbar" class="f-height">
+
+  <a href="<%= @prev.url.present? %>" class="pt-left"></a>
+  <a href="<%= portfolio_item_path(category: @next_portfolio.portfolio_category.slug, item: @next_portfolio.slug) %>" class="pt-right"></a>
+  <% if @portfolio_item.result.present? || @portfolio_item.process.present? || @portfolio_item.live.present? %>
+      <div class="container">
+        <div class="tabs-wrapper">
+
+
+          <section id="tabs-container" class="f-height">
+            <% if _result   %>
+                <div class="portfolio-tab bottom-arrow" id="result" >
+                  <p><%= t("pages.portfolio-item.result") %></p>
+                </div>
+            <% end %>
+
+            <% if @item.process && @item.process.length > 0  %>
+                <div class="portfolio-tab bottom-arrow inactive-portfolio-tab" id="process" >
+                  <p><%= t("pages.portfolio-item.process") %></p>
+                </div>
+            <% end %>
+
+            <% if @item.live && @item.live.length > 0  %>
+                <div class="portfolio-tab bottom-arrow inactive-portfolio-tab" id="live">
+                  <p><%= t('pages.portfolio-item.live') %></p>
+                </div>
+            <% end %>
+          </section>
+        </div>
+      </div>
+  <% end %>
+</div>
