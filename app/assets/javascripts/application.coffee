@@ -91,3 +91,4 @@
 # require raf_test
 # require jankmeter
 #= require about
+#= require fixed_page_banner
