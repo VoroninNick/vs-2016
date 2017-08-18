@@ -15,6 +15,7 @@ class ApplicationController < ActionController::Base
   extend Cms::Helpers::PagesHelper::ClassMethods
   include Cms::Helpers::MetaDataHelper
   include Cms::Helpers::NavigationHelper
+  include ActionControllerExtensions::InstanceMethods
   include FormsHelper
   include ApplicationHelper
 
